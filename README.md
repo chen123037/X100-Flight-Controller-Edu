@@ -59,7 +59,7 @@ X100 面向第一次参与飞控硬件设计的本科生、研究生及课程接
 | 打开KiCad | [工程目录](hardware/X100_V1/) · [正式工程文件](hardware/X100_V1/X100_CleanSheet.kicad_pro) |
 | 在另一台电脑打开工程 | [可移植性](docs/PORTABILITY.md) |
 | 查公开交接检查 | [仓库交接审计](docs/PUBLIC_REPO_AUDIT.md) |
-| 了解许可边界 | [许可证待决事项](LICENSE_DECISION.md) · [第三方说明](docs/THIRD_PARTY_NOTICES.md) |
+| 了解许可边界 | [开放许可决定](LICENSE_DECISION.md) · [第三方说明](docs/THIRD_PARTY_NOTICES.md) |
 
 使用KiCad 10.0.6或兼容的KiCad 10，并安装官方符号、封装与3D库。项目自定义库随仓库提供，路径保留ASCII英文，模块中文名称见总体硬件架构。
 
@@ -67,4 +67,12 @@ X100 面向第一次参与飞控硬件设计的本科生、研究生及课程接
 
 ![PCB底面布局](images/pcb_bottom.png)
 
-图中是布线前封装位置，不能作为生产文件。自有硬件最终许可证待人工选择，第三方库保留原许可。公开仓库地址：[X100-Flight-Controller-Edu](https://github.com/chen123037/X100-Flight-Controller-Edu)。
+图中是布线前封装位置，不能作为已验收生产文件。公开仓库地址：[X100-Flight-Controller-Edu](https://github.com/chen123037/X100-Flight-Controller-Edu)。学生接手前请读[协作指南](docs/CONTRIBUTING.md)。
+
+## 开放许可
+
+- **Hardware license: CERN-OHL-P-2.0**：X100原创硬件设计源，完整官方文本见[LICENSE](LICENSE)。
+- **Documentation license: CC BY 4.0**：项目原创教学文档，见[文档许可](docs/LICENSE_DOCUMENTATION.md)。
+- **第三方库和资料**：遵循各自原许可证，详见[THIRD_PARTY_NOTICES](docs/THIRD_PARTY_NOTICES.md)；根LICENSE不覆盖受其它许可保护的第三方内容。
+
+本仓库用于开放教学，允许在对应许可证条件下学习、下载、修改、制作和再分发衍生设计。许可适用范围见[开放许可决定](LICENSE_DECISION.md)。当前PRE-ROUTING、NOT FABRICATION READY、NOT FLIGHT VALIDATED状态继续保持；USB_ONLY_CORE_POWER_ECO、J601和J401关闭并经人工review后，才可申请PCB03授权。

@@ -1,12 +1,20 @@
-# 最终硬件许可证待人工选择
+# 开放许可决定与适用范围（License Decision）
 
-尚未选择自有X100硬件的最终license，因此本仓库没有根目录正式LICENSE。以下只作分享政策说明。
+2026-10-13人工最终裁决：`PUBLIC_REPOSITORY_STAGE=ACCEPTED`。自有内容的许可已选择，不再处于待决状态。本文件说明适用范围，不改写任何许可证正文。
 
-| 候选 | 适合的目标 | 主要区别 |
+| 内容 | 许可 | 范围 |
 | --- | --- | --- |
-| CERN-OHL-P-2.0 | 希望学生自由复用，允许更宽松的后续使用 | Permissive；保留适用通知等条款，对修改后源的开放要求较宽松 |
-| CERN-OHL-S-2.0 | 希望分发的硬件修改继续开放 | Strongly reciprocal；按具体分发情形提供相应源资料并维持开放条款 |
+| X100原创硬件设计源文件 | CERN-OHL-P-2.0 | 原创KiCad schematic/PCB、项目原创symbol/footprint部分、硬件架构相关源设计；不覆盖第三方受其它许可保护的内容 |
+| 项目原创教学文档 | CC BY 4.0 / CC-BY-4.0 | README、STATUS、HANDOFF及docs/原创教学说明；见文档许可声明 |
+| KiCad-derived库/官方库派生内容 | CC BY-SA 4.0及KiCad设计使用例外 | 保留KiCad community归属、原许可与通知；作为库集合分发的派生内容按原许可处理 |
+| 厂商资料与第三方内容 | 各自原有权利/许可 | 官方链接仅作参考，不重新声明为项目原创版权，不纳入CC BY 4.0 |
 
-依据：[CERN官方说明](https://cern-ohl.web.cern.ch/)。最终义务以对应正式文本为准；等待人工明确选择后再加入正式LICENSE，不自动替用户选择。
+X100原创设计版权归项目贡献者（© project contributors）。根目录[LICENSE](LICENSE)是CERN官方完整 **CERN Open Hardware Licence Version 2 - Permissive** 原文，逐字节保留，未增删或自行缩写。
 
-KiCad衍生symbol/footprint库已有第三方许可，见`licenses/KICAD_LIBRARIES_LICENSE.md`和`docs/THIRD_PARTY_NOTICES.md`；这些既有条款不等于已为自有X100设计选择CERN-OHL。ArduPilot为软件目标，仓库没有复制其源码或第三方PDF。
+## 官方正文来源
+
+由[CERN官方入口](https://cern-ohl.web.cern.ch/)的Permissive文本链接进入[官方OHL文本入口](https://ohwr.org/cern_ohl_p_v2.txt)，该入口指向[官方仓库完整文本](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/3eff4154d05e7a0459f3ddbf0674cae4/cern_ohl_p_v2.txt)。取得日期：2026-10-13；LICENSE为8,852 bytes，SHA256：`6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded`。
+
+项目原创内容按对应许可允许使用、学习、下载、修改、制作与再分发；具体条件以原许可为准。没有附加教学用途、非商业或禁止制作等额外许可限制。当前未通过制造/飞行的状态是工程事实，不是修改开放许可权利的条款。
+
+教学文档范围见[LICENSE_DOCUMENTATION](docs/LICENSE_DOCUMENTATION.md)，第三方内容见[THIRD_PARTY_NOTICES](docs/THIRD_PARTY_NOTICES.md)。当前未发布软件/firmware源码，未加入无意义的软件LICENSE，ArduPilot保留为外部目标。

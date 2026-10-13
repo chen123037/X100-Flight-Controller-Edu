@@ -1,6 +1,6 @@
 # 公开仓库交接与文档审计（Public Handoff Audit）
 
-日期：2026-10-13。基线为`X100_V1_PRE_ROUTING_TEACHING_BASELINE`，来源为`PCB02C2_BLOCKER_CHECKPOINT`。本轮完成中文交接文档和派生采购表，不修改硬件、不恢复PCB设计。
+日期：2026-10-13。**以下为文档交接提交前的历史staging审计快照。** 基线为`X100_V1_PRE_ROUTING_TEACHING_BASELINE`，来源为`PCB02C2_BLOCKER_CHECKPOINT`。本轮完成中文交接文档和派生采购表，不修改硬件、不恢复PCB设计。
 
 | 项目 | 结论 |
 | --- | --- |
@@ -136,3 +136,9 @@ licenses/KICAD_LIBRARIES_LICENSE.md
 ## 不包含的材料
 
 历史候选/TEST_ONLY铜板、原厂PDF/目录/图纸、原始运行日志/audit dump、本机manifest、缓存/autosave、临时Python/Node builder、checkpoint ZIP、unused库、参考工程原件和ArduPilot第三方源码。文档完成后STOP，不启动PCB03，不替用户选择许可证，不在review前push。
+
+## 首次公开发布许可通知
+
+2026-10-13人工已接受该文档基线，并授权首次公开push。原创硬件许可正式确定为CERN-OHL-P-2.0，原创教学文档为CC BY 4.0，见[当前许可决定](../LICENSE_DECISION.md)与[文档许可](LICENSE_DOCUMENTATION.md)。上文“许可证待选择”“review前不push”等描述记录的是此前staging节点，不是新许可/发布裁决；实际发布版本和push状态以Git提交及远程main为准。
+
+许可与公开发布不改变工程门槛：三个布线前工作仍未完成，没有制造/飞行放行。本次不恢复任何PCB设计。
