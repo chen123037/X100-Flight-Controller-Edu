@@ -1,37 +1,51 @@
-# Public repository sanitization and handoff audit
+# 公开仓库交接与文档审计（Public Handoff Audit）
 
-日期：2026-10-13。当前成果是`X100_V1_PRE_ROUTING_TEACHING_BASELINE`的精选教学staging，供人工review；不是制造放行。
+日期：2026-10-13。基线为`X100_V1_PRE_ROUTING_TEACHING_BASELINE`，来源为`PCB02C2_BLOCKER_CHECKPOINT`。本轮完成中文交接文档和派生采购表，不修改硬件、不恢复PCB设计。
 
-| 输出 | 当前结论 |
+| 项目 | 结论 |
 | --- | --- |
-| PUBLIC_REPO_STAGE_READY | YES，供人工review |
-| PUBLIC_REPO_SECRET_SCAN | PASS |
-| PUBLIC_REPO_PERSONAL_INFO_SCAN | PASS |
-| ABSOLUTE_LOCAL_PATH_COUNT | 0 |
-| KICAD_PROJECT_PORTABILITY_CHECK | PASS |
-| BOM_GENERATED | YES：200条源BOM / 203条元件状态 |
-| README_READY / HANDOFF_READY | YES / YES |
-| LICENSE_DECISION_READY | YES，最终自有硬件license待人工选择 |
-| LOCAL_GIT_INITIALIZED | YES，main |
-| Initial commit message | Initial public teaching baseline: X100 V1 pre-routing |
-| REMOTE_GITHUB_CREATED / PUSH_EXECUTED | NO / NO |
-| MANUFACTURING_RELEASE / FABRICATION_READY | NO / NO |
+| DOCUMENTATION_COVERAGE_AUDIT | COMPLETE：实际阅读12类内容，补足功能/接口/采购/术语/路线图 |
+| CHINESE_PRIMARY_DOCUMENTATION | YES：中文主体，英文技术标识保留 |
+| FEATURE_LIST_READY | YES：14类功能＋成熟度矩阵＋65个TP索引 |
+| INTERFACE_PINOUT_READY | YES：16个J接口、79个逻辑pin；NC/电源/地/信号明确 |
+| PROCUREMENT_LIST_READY | YES：178个派生归组/状态行；每板134个独立采购零件实例 |
+| CHINESE_DEVICE_NAMES_READY / CHINESE_MODULE_NAMES_READY | YES / YES |
+| GLOSSARY_READY / ROADMAP_READY | YES / YES：41词条；Stage0–11＋STAGE USB-PWR |
+| README_NAVIGATION_READY / DOCUMENT_CROSSCHECK_PASS | YES / YES |
+| HARDWARE_FILES_CHANGED | 0：全部53个公开硬件文件不变 |
+| 工程BOM / 元件状态 | 200 / 203条，两个源CSV均未改动 |
+| Fresh ERC / DRC | 0错误/0警告；644违规＋405未连接；真实J6013/J4014未隐藏；另有USB-only功能阻塞 |
+| PCB | 201个电气封装＋4孔；45×45mm；30.5×30.5mm孔距，Ø4 NPTH |
+| Routing / Tracks / Vias / Zones | NOT STARTED / 0 / 0 / 0 |
+| 制造放行 / 飞行验证 | NO / NOT STARTED |
+| 公开目录secret / personal-info /本机绝对路径扫描 | PASS / PASS / 0 |
+| 硬件可移植性 | 已有基线PASS；本轮硬件hash保持，隔离副本fresh导出/检查成功 |
+| GitHub目标 | chen123037/X100-Flight-Controller-Edu，人工已建立的公开仓库 |
+| 首次push | 本轮未执行，文档人工review后再决定上传 |
+| USB_ONLY_CORE_POWER_REQUIREMENT_DOCUMENTED | YES |
+| USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION | NOT_IMPLEMENTED |
+| USB_ONLY_CORE_POWER_V1_REQUIREMENT | REQUIRED |
+| USB_POWER_ECO_REQUIRED_BEFORE_PCB03 | YES |
+| 最终自有硬件许可证 | 待人工选择；LICENSE_DECISION与第三方原许可保持 |
 
-本记录在首个commit前生成；提交是否完成与hash以`git log -1`为准，工作区以`git status`为准。提交使用通用维护者标识，不继承私人账户信息。
+本记录随文档提交，具体commit hash以`git log -1`为准，提交说明为`Complete Chinese public handoff documentation`。提交前/后已核对文件允许清单与源hash；自动检查原始结果保留在公开目录外，不复制私人执行历史。
 
-## 验证
+## 核验范围
 
-- 正式57个源文件和原checkpoint证据保持hash不变；未对原PCB/SCH/库/规则或既有tmp/audit/checkpoint写入。
-- 复制工程在独立staging解析：root＋8子页、项目symbol、38种实际footprints、两个项目footprint library均能定位；没有本机盘符或账户路径。
-- staging ERC0/0；DRC保持644 violations +405 unconnected、真实J6013/J4014未隐藏，library mismatch0。pad/net/UUID/pose与几何同基线，PRO/rules保持。
-- 仅staging中3文件4处SPL06 Datasheet资料链接改为仓库内SOURCES；不分发原厂PDF。两种PCB hash和公开相对路径checksum见PORTABILITY与BASELINE_HASHES。
-- BOM的Reference/Quantity/Value/MPN/Manufacturer/Footprint/Package逐项与正式网表核对，JP601原BOM排除保持。65个测试feature与135个装配component明确区分，未重做选型。
-- 全目录扫描覆盖文本、PNG实际文本/EXIF元数据以及Git配置/日志和解压对象；随机压缩像素/对象ID不作为文本路径。扫描结果为0个已识别secret/personal-info/本机绝对路径。
-- 未携带厂商PDF、TEST_ONLY铜板、候选搜索、原始audit JSON/CSV、执行日志、checkpoint ZIP、autosave/缓存或临时builder。KiCad衍生库原许可说明单独保留，没有选择根目录最终LICENSE。
+- 正式57个源文件与既有67个checkpoint证据保持原hash。公开硬件53文件、原始BOM两个CSV和未授权路径保持字节不变。
+- 隔离副本重新导出fresh netlist并执行ERC/DRC；201个component、逐pin连接与原冻结网表一致，PCB保持205个封装对象、四层且走线/过孔/铺铜为0。
+- 接口表覆盖全部外部J连接器；每个Net/Pin原样保留，MP无Net、SH重复物理焊盘与明确NC分别解释。JP601终端默认OPEN/NO PASTE，无独立采购件，R602未推断为DNP。
+- 派生采购表按源Value、MPN、厂家、封装、Footprint、规格/公差/介质/额定值和状态归组，Reference覆盖原200条＋JP601，另记录4孔与2个未采用候选；数量与源逐项核对。Workbook值及CSV回读一致，前导零不丢失。
+- 文档交叉核对尺寸/孔距、三颗核心器件、USB/microSD/CAN exact MPN、201封装、routing状态、两类阻塞、终端机制与链接。中文仅解释，不翻译机器标识或重命名子页。
+- 扫描文本、PNG真实文本/EXIF元数据、Git配置/日志与解压对象；不把压缩像素或二进制对象ID当文本。没有携带厂商PDF、临时脚本、checkpoint ZIP或本机日志。
 
-## Included files
+## 仍缺的信息与门槛
 
-共77个精选文件。生成本记录前内容大小3,268,147 bytes（不含Git目录和本记录自身）；最终仓库大小由交付时重新统计。
+USB-only核心供电架构/电流预算/反灌与双源审查、最小ECO和相关实板状态矩阵验收；J601局部器件位置释放的人工裁决；JLCPCB对USB4105-GF-A官方land的明确制造接受；microSD官方land/样品与装机访问证据；SPL06-001资料可追溯性；底面净空、热插拔/TVS/启动/反灌/热态实测；板级固件/台架/飞行验证；正式线束、外设、机械附件及最终硬件许可证。没有用文档完成替代上述验证。
+
+## 当前精选文件清单
+
+共83个内容文件。硬件及图片来自首次公开基线；本轮仅提交允许的Markdown与派生采购CSV。`BASELINE_HASHES.sha256`保留为初始基线校验快照，更新文档以Git版本为准。
 
 ```text
 .gitattributes
@@ -41,16 +55,22 @@ LICENSE_DECISION.md
 README.md
 STATUS.md
 bom/X100_V1_BOM.csv
+bom/X100_V1_PROCUREMENT_LIST.csv
 bom/component_status.csv
 docs/ARCHITECTURE.md
 docs/BASELINE_HASHES.sha256
 docs/BRINGUP_PLAN.md
 docs/COMPONENT_SELECTION.md
+docs/FEATURES.md
+docs/GLOSSARY.md
+docs/INTERFACES.md
 docs/KNOWN_ISSUES.md
 docs/PCB_RULES.md
 docs/PORTABILITY.md
 docs/POWER_ARCHITECTURE.md
+docs/PROCUREMENT_GUIDE.md
 docs/PUBLIC_REPO_AUDIT.md
+docs/ROADMAP.md
 docs/SOURCES.md
 docs/THIRD_PARTY_NOTICES.md
 hardware/X100_V1/01_POWER.kicad_sch
@@ -113,8 +133,6 @@ images/power_architecture.png
 licenses/KICAD_LIBRARIES_LICENSE.md
 ```
 
-## Excluded
+## 不包含的材料
 
-`tmp/`、历史candidate/TEST_ONLY PCB、checkpoint ZIP集合、原始运行日志/audit dump、本机manifest、缓存、autosave、backup、临时Python/Node builder、unused framework库、厂商datasheet/catalog/drawing PDF、参考工程原件、ArduPilot第三方源码。所有可用信息以教学文档归纳，未mirror整个工作目录。
-
-当前只剩人工review、最终license选择和两个制造blocker的后续技术裁决。此节点结束后STOP，不恢复PCB设计、不创建remote、不push。
+历史候选/TEST_ONLY铜板、原厂PDF/目录/图纸、原始运行日志/audit dump、本机manifest、缓存/autosave、临时Python/Node builder、checkpoint ZIP、unused库、参考工程原件和ArduPilot第三方源码。文档完成后STOP，不启动PCB03，不替用户选择许可证，不在review前push。

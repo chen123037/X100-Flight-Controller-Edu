@@ -1,19 +1,40 @@
-# 当前未解决问题
+# 当前已知问题（Known Issues）
 
-## 1. J601 connector manufacturability
+当前不可制造、不可试飞。两类真实制造阻塞共7条，另有USB-only核心供电功能/电源架构阻塞，不能靠扩大板框或全局放宽规则获得DRC PASS。
 
-两只JST GH MP pad铜到板边为 **0.000 mm**；EXT_5V pin1到H1 NPTH为 **0.075 mm**，共3条真实DRC。
+## 新增V1要求：USB独立核心供电（USB-only Core Power）
 
-建议的最小下一步是取得 **R204、J801、J802局部pose** 解冻，再人工重排J601/J701接口带。现有范围内的联合候选没有可靠方案；不认为45×45整体架构已经失败。不要移动H1、增加板尺寸、修剪JST官方land或全局放宽clearance。
+**当前公开baseline中，USB-only尚不能启动飞控核心。这是KNOWN DESIGN LIMITATION，不是最终X100 V1预期行为。** 当前USB-C为self-powered/data-only，USB_VBUS_RAW没有向5V_MAIN、3V3_MCU或3V3_SENSOR提供预定运行电源；没有VBAT/J808独立供电时，STM32H743不能按设计正常启动。不得把当前baseline直接当作最终USB供电方案。
 
-## 2. J401 USB4105-GF-A internal hole clearance
+人工新裁决：`USB_ONLY_CORE_POWER_SUPPORT=REQUIRED_FOR_V1`。未来必须仅插电脑USB、无VBAT即可完成MCU启动、USB设备枚举、DFU/bootloader/firmware flashing、ArduPilot刷写、地面站连接与参数配置、基础桌面调试及SWD/USB必要核心逻辑运行。**这些是需求，不是当前能力或已测试结果。**
 
-4条逻辑DRC对应2处内部官方land几何，约 **0.1944 mm**：A1/B12与左侧定位NPTH、A12/B1与右侧定位NPTH。当前global hole rule为0.25 mm；没有特定结构的板厂接受证据。
+推荐支持BMI088/SPL06-001核心传感器，但3V3_SENSOR完整域、microSD/3V3_SD是否一起供电必须由后续ECO的电流预算和供电架构裁决，本轮不假定。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
 
-优先取得JLCPCB对exact GCT官方land的明确CAM/fabrication接受。接受后仅作严格局部规则；拒绝后评估官方替代land或提出connector ECO。不要exclude整个J401，不全局降低孔距。
+`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J601/J401共7条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[HANDOFF](../HANDOFF.md)，详细边界见[电源架构](POWER_ARCHITECTURE.md)。
 
-## 后续验证项
+## 1. J601接口制造空间问题（Connector Clearance）
 
-- J501：microSD edge10条已关闭，仍待物理样品、官方drawing/land证据重新实证与装机访问核对。
-- 底部器件/机架净空、热插拔/TVS、startup overshoot、温升、USB backfeed测量及整板台架/首电尚未验收。
-- 丝印/文字和courtyard metadata需在后续阶段分类收尾。当前无实体body冲突，但没有全板manufacturing DRC PASS。
+J601两只JST GH机械固定焊盘（MP pad）的铜到板边均为 **0.000 mm**，未满足0.50 mm全局铜边距。`EXT_5V` pin1到H1非金属化安装孔（NPTH）为 **0.075 mm**，未满足当前0.25 mm孔铜距。合计3条真实DRC。
+
+下一步建议仅局部释放 **R204、J801、J802的位置**，重新工程摆放J601/J701接口带；这是待人工批准的最小架构调整建议。既有范围内候选没有可靠方案，不能由此认定45×45 mm整体架构失败。
+
+禁止移动H1、扩大板框、削减JST官方land或全局放宽clearance。局部调整仍需检查线束插拔、JP601可焊/可吸锡空间和相邻接口，不继续高成本穷举。
+
+## 2. J401 USB-C内部孔铜间距（Internal Hole-to-Copper Clearance）
+
+正式型号为 **USB4105-GF-A**。4条逻辑DRC对应2个物理位置：左侧A1/B12共用接地land对定位NPTH，右侧A12/B1共用接地land对定位NPTH。最小间距约 **0.1944 mm**，当前全局孔铜距为0.25 mm。
+
+已核对GCT官方land；仍缺JLCPCB对该exact几何的明确CAM/制造接受结论。公开制造能力表的一般值不等于对这两处结构的批准。
+
+优先取得板厂明确结论。若接受，只审查限定到具体pad/hole pair的局部规则；若拒绝，提交官方替代land或connector ECO人工裁决。禁止排除整个J401、修小官方接地land或全局降低孔铜距。
+
+## 其它待验证或收尾事项
+
+- **J501：** microSD的10条edge问题已关闭；Molex 1040310811的样品、官方drawing/land重新实证和装机插卡访问仍`PENDING_SAMPLE_VERIFICATION`。
+- **机械：** 底部高件、机架净空、线束和插拔方向待实物确认；当前Fab/pad/孔核查的实体冲突0不等于三维装机验收。
+- **电源与USB：** 已知反灌前向拓扑路径由硬件ECO关闭；leakage、hotplug、TVS、overshoot、温升和台架测试未通过。
+- **气压计资料：** SPL06-001已选型；既有V7.0文件的原厂可追溯性限制尚未解除，公开可核实的完整PDF入口仍缺失。
+- **DRC收尾：** 丝印/文字与courtyard元数据需后续分类处理，尚无整板制造DRC PASS。
+- **软件与飞行：** 本板ArduPilot hwdef、实板外设、安装方向、台架和飞行验证均未完成。
+
+下一步按[接手指南](../HANDOFF.md)处理，不自动进入PCB03。

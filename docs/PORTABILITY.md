@@ -1,4 +1,4 @@
-# 可移植性与基线边界
+# 可移植性与基线边界（Portability）
 
 在另一台计算机安装KiCad 10及标准库后，打开`hardware/X100_V1/X100_CleanSheet.kicad_pro`。项目symbol table使用`${KIPRJMOD}/X100_Physical.kicad_sym`；两个footprint library使用同目录`.pretty`。root和8个子页都随仓库提供。
 
@@ -9,3 +9,5 @@
 原正式PCB SHA256：`8040b6f955cfccfc8e2c8457916d6c75c48ca312b05f0d58f6214acf4d31fc35`。公开副本PCB SHA256：`24917ca5ed05131809634058098a457317bc46a0df5ab6cb74715cd5504e3e37`；差异仅上述资料字段。完整public相对路径checksums在BASELINE_HASHES.sha256。可移植性验证摘要在PUBLIC_REPO_AUDIT.md。
 
 CSV采用UTF-8。使用Excel导入时，把MPN、Reference和Package列设为文本，避免自动把`0603`等封装代码显示为`603`；原CSV保留源值，Quantity为数值。
+
+本轮中文文档/派生采购CSV不改变既有硬件资料字段。`BASELINE_HASHES.sha256`是初次公开基线文件的校验快照；硬件校验仍有效，后来更新的Markdown/新增CSV以Git提交版本为准，不能要求文档改动仍匹配旧checksum。
