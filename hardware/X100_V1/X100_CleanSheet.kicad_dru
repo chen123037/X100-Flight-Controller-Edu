@@ -1,0 +1,36 @@
+(version 1)
+# PCB02C: no global electrical/hole/edge reduction and no blanket exclusions.
+(rule "USB_FS_OFFICIAL_JLC3313_GEOMETRY"
+ (condition "A.NetClass == 'USB_FS'")
+ (constraint track_width (min 0.1537mm) (opt 0.1537mm) (max 0.1537mm))
+ (constraint diff_pair_gap (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
+(rule "NO_VIA_IN_PAD_ALL_NETS"
+ (condition "(A.Type == 'Via' && B.Type == 'Pad') || (B.Type == 'Via' && A.Type == 'Pad')")
+ (constraint physical_clearance (min 0.02mm)))
+# Bare probe lands only: intentional full-supported 1.5mm surface testpads near left edge.
+# JLCPCB published routed-edge copper minimum .20mm; local .25mm includes .05mm design margin.
+# No bearing connector/PTH/trace/zone rule affected. Engineering spec uses precision routed outline.
+(rule "TP601_TP803_PROBE_LAND_EDGE_CASE"
+ (condition "A.Type == 'Pad' && (A.Reference == 'TP601' || A.Reference == 'TP803')")
+ (constraint edge_clearance (min 0.25mm)))
+
+(rule "PTH_FOREIGN_COPPER_FACTORY_MARGIN"
+ (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') || (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+ (constraint hole_clearance (min 0.35mm)))
+(rule "STANDARD_THROUGH_ONLY_NO_HDI"
+ (constraint disallow micro_via blind_via buried_via))
+(rule "USB_MODEL_F_CU_ONLY"
+ (condition "A.NetClass == 'USB_FS' && A.Layer != 'F.Cu'")
+ (constraint disallow track))
+(rule "IN1_CONTINUOUS_GND_NO_SIGNAL_TRACKS"
+ (condition "A.Layer == 'In1.Cu' && A.NetName != 'GND'")
+ (constraint disallow track))
+(rule "MAIN_POWER_HIGH_CURRENT_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == 'MAIN_POWER_HIGH_CURRENT' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 8.3mm) (opt 8.3mm)))
+(rule "5V_POWER_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == '5V_POWER' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 8.3mm) (opt 8.3mm)))
+(rule "3V3_POWER_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == '3V3_POWER' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 6.75mm) (opt 6.75mm)))

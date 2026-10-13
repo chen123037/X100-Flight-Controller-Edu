@@ -1,0 +1,55 @@
+(footprint "Taitien_XJ_2Pad_5p5x2p0_P9p0"
+	(version 20241229)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(descr "TAITIEN AT-0020_XJ Rev11 09/2025 recommended land")
+	(attr smd)
+	(property "Reference" "REF**"
+		(layer "F.SilkS")
+		(at 0 -4.25)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(property "Value" "XJHCELNANF-8M"
+		(layer "F.Fab")
+		(at 0 4.25)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(fp_rect
+		(start -6.25 -2.25)
+		(end 6.25 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(pad "1" smd rect
+		(at -4.5 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 4.5 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(fp_rect
+		(start -7.75 -2.75)
+		(end 7.75 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+)

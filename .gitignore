@@ -1,0 +1,27 @@
+# Local execution / caches
+tmp/
+.codex/
+__pycache__/
+*.pyc
+*.log
+logs/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# KiCad per-user, autosave and backups
+*.kicad_prl
+*.bak
+*.lck
+*-backups/
+_autosave-*
+~*.kicad_sch
+~*.kicad_pcb
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Local evidence / temporary outputs (not hardware source)
+*.zip
+checkpoints/
+local-audit/
+temporary-review/
