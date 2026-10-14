@@ -2205,18 +2205,19 @@
 		)
 	)
 	(text "PWM signal+GND only. Custom SWD5pin. Pack current NEVER passes through board."
-		(at 205 13.97 0)
+		(at 20 27 0)
 		(effects
 			(font
-				(size 1.4 1.4)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 127d7876-a57e-49ea-b328-de5bbd90a14e)
 	)
 	(wire
 		(pts
-			(xy 121.91999999999999 53.339999999999996)
-			(xy 115.57 53.339999999999996)
+			(xy 45.72 71.12)
+			(xy 39.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2227,7 @@
 	)
 	(global_label "OUT1"
 		(shape bidirectional)
-		(at 115.57 53.339999999999996 180)
+		(at 39.37 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2234,7 +2235,7 @@
 		)
 		(uuid b40f4851-be5d-4673-b2d7-9ee9c30588ac)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 53.339999999999996 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2245,8 +2246,8 @@
 	)
 	(wire
 		(pts
-			(xy 121.91999999999999 55.88)
-			(xy 115.57 55.88)
+			(xy 45.72 73.66)
+			(xy 39.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2257,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 115.57 55.88 180)
+		(at 39.37 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2264,7 +2265,7 @@
 		)
 		(uuid de9ca6ff-350f-4f38-8b8a-df089e4c0419)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 55.88 0)
+			(at 39.37 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2275,7 +2276,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 129.54 54.61 0)
+		(at 53.34 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2283,23 +2284,23 @@
 		(dnp no)
 		(uuid 52eee9dd-88f2-422d-aa25-04035a72990b)
 		(property "Reference" "J801"
-			(at 129.54 38.1 0)
+			(at 53.34 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT1 /GND"
-			(at 129.54 40.64 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2308,7 +2309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2317,7 +2318,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2326,7 +2327,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2335,7 +2336,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2344,7 +2345,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 129.54 54.61 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2369,8 +2370,8 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 53.339999999999996)
-			(xy 163.83 53.339999999999996)
+			(xy 132.08 71.12)
+			(xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2381,7 @@
 	)
 	(global_label "OUT2"
 		(shape bidirectional)
-		(at 163.83 53.339999999999996 180)
+		(at 125.73 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2388,7 +2389,7 @@
 		)
 		(uuid 2dbb23cd-30ef-42ca-a2b0-9c3feee448e5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 53.339999999999996 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2399,8 +2400,8 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88)
-			(xy 163.83 55.88)
+			(xy 132.08 73.66)
+			(xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +2411,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 163.83 55.88 180)
+		(at 125.73 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2418,7 +2419,7 @@
 		)
 		(uuid d697f1fe-1dcd-46fb-a256-12ab5fbc8ba2)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 55.88 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2429,7 +2430,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 177.8 54.61 0)
+		(at 139.7 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2437,23 +2438,23 @@
 		(dnp no)
 		(uuid 8717f0fe-c97a-4ea8-bfb9-14e8844fb49f)
 		(property "Reference" "J802"
-			(at 177.8 38.1 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT2 /GND"
-			(at 177.8 40.64 0)
+			(at 139.7 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2462,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2471,7 +2472,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2480,7 +2481,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2489,7 +2490,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2498,7 +2499,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 177.8 54.61 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2523,8 +2524,8 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 53.339999999999996)
-			(xy 212.09 53.339999999999996)
+			(xy 218.44 71.12)
+			(xy 212.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2535,7 @@
 	)
 	(global_label "OUT3"
 		(shape bidirectional)
-		(at 212.09 53.339999999999996 180)
+		(at 212.09 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2542,7 +2543,7 @@
 		)
 		(uuid 543661cc-6119-42d5-84dd-41ccbd5be99d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.09 53.339999999999996 0)
+			(at 212.09 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2553,8 +2554,8 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 55.88)
-			(xy 212.09 55.88)
+			(xy 218.44 73.66)
+			(xy 212.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2565,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 212.09 55.88 180)
+		(at 212.09 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2572,7 +2573,7 @@
 		)
 		(uuid fdbdd632-d5ae-41d0-8f0c-9cc81513e0fb)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.09 55.88 0)
+			(at 212.09 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2583,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 226.06 54.61 0)
+		(at 226.06 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2591,23 +2592,23 @@
 		(dnp no)
 		(uuid e1d4a75f-9309-4fc0-b7be-0dc28e5270f5)
 		(property "Reference" "J803"
-			(at 226.06 38.1 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT3 /GND"
-			(at 226.06 40.64 0)
+			(at 226.06 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2616,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2625,7 +2626,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2634,7 +2635,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2643,7 +2644,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2652,7 +2653,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 226.06 54.61 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2677,8 +2678,8 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 53.339999999999996)
-			(xy 260.34999999999997 53.339999999999996)
+			(xy 304.8 71.12)
+			(xy 298.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2689,7 @@
 	)
 	(global_label "OUT4"
 		(shape bidirectional)
-		(at 260.34999999999997 53.339999999999996 180)
+		(at 298.45 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2696,7 +2697,7 @@
 		)
 		(uuid 7bed55e8-d7a0-405a-bbac-d529ab654065)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.34999999999997 53.339999999999996 0)
+			(at 298.45 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2707,8 +2708,8 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 55.88)
-			(xy 260.34999999999997 55.88)
+			(xy 304.8 73.66)
+			(xy 298.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2719,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 260.34999999999997 55.88 180)
+		(at 298.45 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2726,7 +2727,7 @@
 		)
 		(uuid 33eaa3c5-4136-46d7-8ca3-b1c863c32123)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.34999999999997 55.88 0)
+			(at 298.45 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2737,7 +2738,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 274.32 54.61 0)
+		(at 312.42 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2745,23 +2746,23 @@
 		(dnp no)
 		(uuid c898648c-f641-49b7-9725-ca3f116ea7d0)
 		(property "Reference" "J804"
-			(at 274.32 38.1 0)
+			(at 312.42 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT4 /GND"
-			(at 274.32 40.64 0)
+			(at 312.42 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2770,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2779,7 +2780,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2788,7 +2789,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2797,7 +2798,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2806,7 +2807,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 274.32 54.61 0)
+			(at 312.42 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2831,8 +2832,8 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 53.339999999999996)
-			(xy 308.60999999999996 53.339999999999996)
+			(xy 391.16 71.12)
+			(xy 384.81 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2843,7 @@
 	)
 	(global_label "OUT5"
 		(shape bidirectional)
-		(at 308.60999999999996 53.339999999999996 180)
+		(at 384.81 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2850,7 +2851,7 @@
 		)
 		(uuid 879ca40c-d77e-48f9-9f47-c881063d87b1)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.60999999999996 53.339999999999996 0)
+			(at 384.81 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2861,8 +2862,8 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 55.88)
-			(xy 308.60999999999996 55.88)
+			(xy 391.16 73.66)
+			(xy 384.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2873,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 308.60999999999996 55.88 180)
+		(at 384.81 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2880,7 +2881,7 @@
 		)
 		(uuid d62b58d3-2d02-433d-a507-0040691c6d5c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.60999999999996 55.88 0)
+			(at 384.81 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2891,7 +2892,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 322.58 54.61 0)
+		(at 398.78 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2899,23 +2900,23 @@
 		(dnp no)
 		(uuid 2a5cd2ec-f845-4ac3-b21f-b7902191c1be)
 		(property "Reference" "J805"
-			(at 322.58 38.1 0)
+			(at 398.78 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT5 /GND"
-			(at 322.58 40.64 0)
+			(at 398.78 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2924,7 +2925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2933,7 +2934,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2942,7 +2943,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2951,7 +2952,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2960,7 +2961,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 322.58 54.61 0)
+			(at 398.78 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2985,8 +2986,8 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 53.339999999999996)
-			(xy 355.59999999999997 53.339999999999996)
+			(xy 477.52 71.12)
+			(xy 471.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +2997,7 @@
 	)
 	(global_label "OUT6"
 		(shape bidirectional)
-		(at 355.59999999999997 53.339999999999996 180)
+		(at 471.17 71.12 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3004,7 +3005,7 @@
 		)
 		(uuid d8cfe74f-5f25-4ccd-b1b6-481efaf0f5b5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.59999999999997 53.339999999999996 0)
+			(at 471.17 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3015,8 +3016,8 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 55.88)
-			(xy 355.59999999999997 55.88)
+			(xy 477.52 73.66)
+			(xy 471.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3027,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 355.59999999999997 55.88 180)
+		(at 471.17 73.66 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3034,7 +3035,7 @@
 		)
 		(uuid 63035c5a-ff1f-4c61-aea3-f79e467a443d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.59999999999997 55.88 0)
+			(at 471.17 73.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3045,7 +3046,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10207GS")
-		(at 369.57 54.61 0)
+		(at 485.14 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3053,23 +3054,23 @@
 		(dnp no)
 		(uuid 7366d9e8-0e88-4105-8c13-250fee86c5eb)
 		(property "Reference" "J806"
-			(at 369.57 38.1 0)
+			(at 485.14 55.88 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "OUT6 /GND"
-			(at 369.57 40.64 0)
+			(at 485.14 58.42 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3078,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3087,7 +3088,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3096,7 +3097,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3105,7 +3106,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3114,7 +3115,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 369.57 54.61 0)
+			(at 485.14 72.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3139,8 +3140,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54)
-			(xy 135.89000000000001 129.54)
+			(xy 66.04 137.16)
+			(xy 59.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3151,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 135.89000000000001 129.54 180)
+		(at 59.69 137.16 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3158,7 +3159,7 @@
 		)
 		(uuid 0b11ebd9-6e44-4a87-9223-7ba8cb6b17be)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 129.54 0)
+			(at 59.69 137.16 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3169,8 +3170,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 132.08)
-			(xy 135.89000000000001 132.08)
+			(xy 66.04 139.7)
+			(xy 59.69 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3181,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 135.89000000000001 132.08 180)
+		(at 59.69 139.7 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3188,7 +3189,7 @@
 		)
 		(uuid 06df1c7b-faf5-4e93-8dab-bd3e4a64c302)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 132.08 0)
+			(at 59.69 139.7 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3199,8 +3200,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 134.62)
-			(xy 135.89000000000001 134.62)
+			(xy 66.04 142.24)
+			(xy 59.69 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3211,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 135.89000000000001 134.62 180)
+		(at 59.69 142.24 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3218,7 +3219,7 @@
 		)
 		(uuid 2c3ba158-8d28-414c-bf3a-686fd0046ca6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 134.62 0)
+			(at 59.69 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3229,8 +3230,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 137.16)
-			(xy 135.89000000000001 137.16)
+			(xy 66.04 144.78)
+			(xy 59.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3241,7 @@
 	)
 	(global_label "SWCLK"
 		(shape bidirectional)
-		(at 135.89000000000001 137.16 180)
+		(at 59.69 144.78 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3248,7 +3249,7 @@
 		)
 		(uuid 03e2c253-f858-4780-b21f-0a521ad78dca)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 137.16 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3259,8 +3260,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 139.70000000000002)
-			(xy 135.89000000000001 139.70000000000002)
+			(xy 66.04 147.32)
+			(xy 59.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3271,7 @@
 	)
 	(global_label "NRST"
 		(shape bidirectional)
-		(at 135.89000000000001 139.70000000000002 180)
+		(at 59.69 147.32 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3278,7 +3279,7 @@
 		)
 		(uuid 2b189d97-988f-4206-9f23-6280f697328d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 139.70000000000002 0)
+			(at 59.69 147.32 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3289,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:Samtec_TSW10507GS")
-		(at 149.86 134.62 0)
+		(at 73.66 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3297,23 +3298,23 @@
 		(dnp no)
 		(uuid 9fbdbfa4-7774-4fb9-bc74-f00519e48a98)
 		(property "Reference" "J807"
-			(at 149.86 114.3 0)
+			(at 73.66 121.92 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SWD:1REF2GND3IO4CLK5NRST"
-			(at 149.86 116.84 0)
+			(at 73.66 124.46 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Samtec_TSW10507GS_1x5_P2p54"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3322,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-105-07-g-s"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3331,7 +3332,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3340,7 +3341,7 @@
 			)
 		)
 		(property "MPN" "TSW-105-07-G-S"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3349,7 +3350,7 @@
 			)
 		)
 		(property "Package" "1x5 2.54 THT top insertion"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3358,7 +3359,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 149.86 134.62 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3392,8 +3393,8 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 124.46000000000001)
-			(xy 306.07 124.46000000000001)
+			(xy 167.64 140.97)
+			(xy 161.29 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3403,7 +3404,7 @@
 	)
 	(global_label "VBAT_RAW"
 		(shape bidirectional)
-		(at 306.07 124.46000000000001 180)
+		(at 161.29 140.97 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3411,7 +3412,7 @@
 		)
 		(uuid a14c9a39-5cb8-491b-b5d3-78cd5c167f3e)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.07 124.46000000000001 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3422,8 +3423,8 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 124.46000000000001)
-			(xy 334.01000000000005 124.46000000000001)
+			(xy 182.88 140.97)
+			(xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3433,7 +3434,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 334.01000000000005 124.46000000000001 0)
+		(at 189.23 140.97 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3441,7 +3442,7 @@
 		)
 		(uuid 53d5f733-a14f-4626-acec-c43e083cb317)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.01000000000005 124.46000000000001 0)
+			(at 189.23 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3452,7 +3453,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:VBAT_PAD_PAIR_V1")
-		(at 320.04 124.46000000000001 0)
+		(at 175.26 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3460,23 +3461,23 @@
 		(dnp no)
 		(uuid d1e29302-4138-40db-babc-a6288991d1cd)
 		(property "Reference" "J808"
-			(at 320.04 109.22 0)
+			(at 175.26 125.73 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "BATTERY/bench3S-6S ONLY"
-			(at 320.04 111.76 0)
+			(at 175.26 128.27 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:VBAT_PAD_PAIR_V1"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3485,7 +3486,7 @@
 			)
 		)
 		(property "Datasheet" "X100_CleanSheet_Core_Component_Design_Input.md section10"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3494,7 +3495,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 custom interface"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3503,7 +3504,7 @@
 			)
 		)
 		(property "MPN" "VBAT_PAD_PAIR_V1"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3512,7 +3513,7 @@
 			)
 		)
 		(property "Package" "top solder pads"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3521,7 +3522,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 320.04 124.46000000000001 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3546,8 +3547,8 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 171.45)
-			(xy 229.87 165.1)
+			(xy 275.59 134.62)
+			(xy 269.24 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3558,7 @@
 	)
 	(global_label "VBAT_PROTECTED"
 		(shape bidirectional)
-		(at 229.87 165.1 0)
+		(at 269.24 134.62 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3565,7 +3566,7 @@
 		)
 		(uuid 2d9260d8-9f4a-48a4-ae4c-4495dd03958c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 165.1 0)
+			(at 269.24 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3576,8 +3577,8 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 179.07)
-			(xy 229.87 185.42)
+			(xy 283.21 134.62)
+			(xy 289.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3588,7 @@
 	)
 	(global_label "VBAT_DIV"
 		(shape bidirectional)
-		(at 229.87 185.42 0)
+		(at 289.56 134.62 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3595,7 +3596,7 @@
 		)
 		(uuid 306398df-bdac-4e23-a513-9f987545161c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 185.42 0)
+			(at 289.56 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3606,7 +3607,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_150k_0p1")
-		(at 229.87 175.26 0)
+		(at 279.4 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3614,25 +3615,25 @@
 		(dnp no)
 		(uuid cd011924-804a-4650-b189-4964b1983a66)
 		(property "Reference" "R801"
-			(at 237.49 173.98999999999998 0)
+			(at 285.75 127 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "150k 0.1%"
-			(at 237.49 176.53 0)
+			(at 285.75 130.81 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3641,7 +3642,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD07150KL"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3650,7 +3651,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3659,7 +3660,7 @@
 			)
 		)
 		(property "MPN" "RT0805BRD07150KL"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3668,7 +3669,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3677,7 +3678,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3686,7 +3687,7 @@
 			)
 		)
 		(property "Specification Value" "150k ohm"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3695,7 +3696,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%; TCR<=25ppm/C"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3704,7 +3705,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3713,7 +3714,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3722,7 +3723,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 229.87 175.26 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3747,8 +3748,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 171.45)
-			(xy 284.48 165.1)
+			(xy 345.44 152.4)
+			(xy 345.44 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +3759,7 @@
 	)
 	(global_label "VBAT_DIV"
 		(shape bidirectional)
-		(at 284.48 165.1 0)
+		(at 345.44 146.05 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3766,7 +3767,7 @@
 		)
 		(uuid 78213bcc-f0fb-4c6e-bd59-96de378a0d7a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 165.1 0)
+			(at 345.44 146.05 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3777,8 +3778,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 179.07)
-			(xy 284.48 185.42)
+			(xy 345.44 160.02)
+			(xy 345.44 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3789,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 284.48 185.42 0)
+		(at 345.44 166.37 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3796,7 +3797,7 @@
 		)
 		(uuid ec0a182f-e6c7-4348-9b91-454e5b44f98a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 185.42 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3807,7 +3808,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_10k_0p1")
-		(at 284.48 175.26 0)
+		(at 345.44 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,25 +3816,25 @@
 		(dnp no)
 		(uuid cbdeeb47-e20c-40c0-b4b9-0aed63a68fae)
 		(property "Reference" "R802"
-			(at 292.1 173.98999999999998 0)
+			(at 353.06 154.94 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10k 0.1% scale16"
-			(at 292.1 176.53 0)
+			(at 353.06 157.48 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3842,7 +3843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD0710KL"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3851,7 +3852,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3860,7 +3861,7 @@
 			)
 		)
 		(property "MPN" "RT0805BRD0710KL"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3869,7 +3870,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3878,7 +3879,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3887,7 +3888,7 @@
 			)
 		)
 		(property "Specification Value" "10k ohm"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3896,7 +3897,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%; TCR<=25ppm/C"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3905,7 +3906,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3914,7 +3915,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3923,7 +3924,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 284.48 175.26 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3948,8 +3949,8 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 171.45)
-			(xy 340.36 165.1)
+			(xy 414.02 134.62)
+			(xy 407.67 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3959,7 +3960,7 @@
 	)
 	(global_label "VBAT_DIV"
 		(shape bidirectional)
-		(at 340.36 165.1 0)
+		(at 407.67 134.62 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3967,7 +3968,7 @@
 		)
 		(uuid 16e725ef-932e-4f1d-baf8-0d77568c47ff)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.36 165.1 0)
+			(at 407.67 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3978,8 +3979,8 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 179.07)
-			(xy 340.36 185.42)
+			(xy 421.64 134.62)
+			(xy 427.99 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3990,7 @@
 	)
 	(global_label "VBAT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 340.36 185.42 0)
+		(at 427.99 134.62 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3997,7 +3998,7 @@
 		)
 		(uuid 5c1c8565-74ed-49ca-8476-01e54ff36ee5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.36 185.42 0)
+			(at 427.99 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4008,7 +4009,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1k")
-		(at 340.36 175.26 0)
+		(at 417.83 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4016,25 +4017,25 @@
 		(dnp no)
 		(uuid 8f03d3ea-04b6-4774-8792-a4c643d87319)
 		(property "Reference" "R803"
-			(at 347.98 173.98999999999998 0)
+			(at 424.18 127 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1k ADC series"
-			(at 347.98 176.53 0)
+			(at 424.18 130.81 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4043,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4052,7 +4053,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4061,7 +4062,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4070,7 +4071,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4079,7 +4080,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4088,7 +4089,7 @@
 			)
 		)
 		(property "Specification Value" "1k ohm"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4097,7 +4098,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4106,7 +4107,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4115,7 +4116,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4124,7 +4125,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 340.36 175.26 0)
+			(at 417.83 134.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4149,8 +4150,8 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 201.93)
-			(xy 364.49 195.58)
+			(xy 515.62 152.4)
+			(xy 515.62 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4160,7 +4161,7 @@
 	)
 	(global_label "VBAT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 364.49 195.58 0)
+		(at 515.62 146.05 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4168,7 +4169,7 @@
 		)
 		(uuid 03efb73d-3136-40c8-90cc-aa659dc0cb9b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.49 195.58 0)
+			(at 515.62 146.05 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4179,8 +4180,8 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 209.55)
-			(xy 364.49 215.9)
+			(xy 515.62 160.02)
+			(xy 515.62 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4190,7 +4191,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 364.49 215.9 0)
+		(at 515.62 166.37 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4198,7 +4199,7 @@
 		)
 		(uuid 8b0ea881-96d4-44af-b589-2bce3e537cd0)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.49 215.9 0)
+			(at 515.62 166.37 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4209,7 +4210,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_100n")
-		(at 364.49 205.74 0)
+		(at 515.62 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,25 +4218,25 @@
 		(dnp no)
 		(uuid 58ee8f55-e85f-4562-9e92-84ae4a02804c)
 		(property "Reference" "C801"
-			(at 372.11 204.47 0)
+			(at 523.24 154.94 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n ADC LPF"
-			(at 372.11 207.01000000000002 0)
+			(at 523.24 157.48 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4244,7 +4245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4253,7 +4254,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4262,7 +4263,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4271,7 +4272,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4280,7 +4281,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4289,7 +4290,7 @@
 			)
 		)
 		(property "Specification Value" "100nF"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4298,7 +4299,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4307,7 +4308,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4316,7 +4317,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4325,7 +4326,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 364.49 205.74 0)
+			(at 515.62 156.21 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4349,17 +4350,17 @@
 		)
 	)
 	(no_connect
-		(at 132.07999999999998 201.93)
+		(at 43.18 219.71)
 		(uuid 7123e2b1-b51c-4c28-af0a-30c06d729346)
 	)
 	(no_connect
-		(at 132.07999999999998 204.47)
+		(at 43.18 222.25)
 		(uuid 237b0e94-ca3e-4b29-9eff-0d8cfe03f710)
 	)
 	(wire
 		(pts
-			(xy 132.07999999999998 207.01)
-			(xy 125.72999999999999 207.01)
+			(xy 43.18 224.79)
+			(xy 36.83 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +4370,7 @@
 	)
 	(global_label "CURRENT_IN_RAW"
 		(shape bidirectional)
-		(at 125.72999999999999 207.01 180)
+		(at 36.83 224.79 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4377,7 +4378,7 @@
 		)
 		(uuid 840dab05-cd46-466e-9f6e-7b1470f7dc72)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.72999999999999 207.01 0)
+			(at 36.83 224.79 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4387,13 +4388,13 @@
 		)
 	)
 	(no_connect
-		(at 132.07999999999998 209.55)
+		(at 43.18 227.33)
 		(uuid 494b65d4-94d1-4643-b3fa-bb9cad2305ed)
 	)
 	(wire
 		(pts
-			(xy 132.07999999999998 212.09)
-			(xy 125.72999999999999 212.09)
+			(xy 43.18 229.87)
+			(xy 36.83 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4403,7 +4404,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 125.72999999999999 212.09 180)
+		(at 36.83 229.87 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4411,7 +4412,7 @@
 		)
 		(uuid 85829dc9-cd16-420d-bb11-10f77b42aa65)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.72999999999999 212.09 0)
+			(at 36.83 229.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4422,8 +4423,8 @@
 	)
 	(wire
 		(pts
-			(xy 132.07999999999998 214.63)
-			(xy 125.72999999999999 214.63)
+			(xy 43.18 232.41)
+			(xy 36.83 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4433,7 +4434,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 125.72999999999999 214.63 180)
+		(at 36.83 232.41 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4441,7 +4442,7 @@
 		)
 		(uuid e3e4cc74-defe-4725-acec-141f778f5f5d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.72999999999999 214.63 0)
+			(at 36.83 232.41 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4452,7 +4453,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:JST_GH6")
-		(at 139.7 208.28 0)
+		(at 50.8 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4460,23 +4461,23 @@
 		(dnp no)
 		(uuid a1977ffa-b737-4339-a262-82e4c353aa33)
 		(property "Reference" "J809"
-			(at 139.7 186.69000000000003 0)
+			(at 50.8 204.47 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "CURRENT monitor only"
-			(at 139.7 189.23000000000002 0)
+			(at 50.8 207.01 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4485,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4494,7 +4495,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4503,7 +4504,7 @@
 			)
 		)
 		(property "MPN" "SM06B-GHS-TB(LF)(SN)"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4512,7 +4513,7 @@
 			)
 		)
 		(property "Package" "GH1.25 6P side-entry SMT"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4521,7 +4522,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 139.7 208.28 0)
+			(at 50.8 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4558,8 +4559,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 273.05)
-			(xy 383.53999999999996 273.05)
+			(xy 434.34 229.87)
+			(xy 427.99 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4569,7 +4570,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 383.53999999999996 273.05 180)
+		(at 427.99 229.87 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4577,7 +4578,7 @@
 		)
 		(uuid 0da8cd84-5458-4019-addc-22ef4aed3d73)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 273.05 0)
+			(at 427.99 229.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4588,8 +4589,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 275.59000000000003)
-			(xy 383.53999999999996 275.59000000000003)
+			(xy 434.34 232.41)
+			(xy 427.99 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4599,7 +4600,7 @@
 	)
 	(global_label "VBAT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 383.53999999999996 275.59000000000003 180)
+		(at 427.99 232.41 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4607,7 +4608,7 @@
 		)
 		(uuid 965e91f2-e677-477b-8901-5bbe8a026955)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 275.59000000000003 0)
+			(at 427.99 232.41 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4618,8 +4619,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 278.13)
-			(xy 383.53999999999996 278.13)
+			(xy 434.34 234.95)
+			(xy 427.99 234.95)
 		)
 		(stroke
 			(width 0)
@@ -4629,7 +4630,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 383.53999999999996 278.13 180)
+		(at 427.99 234.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4637,7 +4638,7 @@
 		)
 		(uuid b9eeee20-101d-4f01-a9a4-861f23ac8ae6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 278.13 0)
+			(at 427.99 234.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4648,8 +4649,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 280.67)
-			(xy 383.53999999999996 280.67)
+			(xy 434.34 237.49)
+			(xy 427.99 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4659,7 +4660,7 @@
 	)
 	(global_label "CURRENT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 383.53999999999996 280.67 180)
+		(at 427.99 237.49 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4667,7 +4668,7 @@
 		)
 		(uuid 06f49d96-4908-43b6-8d85-586a6bf1f9a9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 280.67 0)
+			(at 427.99 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4678,8 +4679,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 283.21000000000004)
-			(xy 383.53999999999996 283.21000000000004)
+			(xy 434.34 240.03)
+			(xy 427.99 240.03)
 		)
 		(stroke
 			(width 0)
@@ -4689,7 +4690,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 383.53999999999996 283.21000000000004 180)
+		(at 427.99 240.03 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4697,7 +4698,7 @@
 		)
 		(uuid 768e8acf-c75d-4435-8636-b245001ae750)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 283.21000000000004 0)
+			(at 427.99 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4708,8 +4709,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 285.75)
-			(xy 383.53999999999996 285.75)
+			(xy 434.34 242.57)
+			(xy 427.99 242.57)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4720,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 383.53999999999996 285.75 180)
+		(at 427.99 242.57 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4727,7 +4728,7 @@
 		)
 		(uuid e4f78515-ba4c-4345-9674-8e336c9d9317)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 285.75 0)
+			(at 427.99 242.57 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4738,8 +4739,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 288.29)
-			(xy 383.53999999999996 288.29)
+			(xy 434.34 245.11)
+			(xy 427.99 245.11)
 		)
 		(stroke
 			(width 0)
@@ -4749,7 +4750,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 383.53999999999996 288.29 180)
+		(at 427.99 245.11 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4757,7 +4758,7 @@
 		)
 		(uuid f293ad55-8c12-4bbd-b171-ede31e863bc9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 288.29 0)
+			(at 427.99 245.11 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4768,8 +4769,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 290.83000000000004)
-			(xy 383.53999999999996 290.83000000000004)
+			(xy 434.34 247.65)
+			(xy 427.99 247.65)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4780,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 383.53999999999996 290.83000000000004 180)
+		(at 427.99 247.65 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4787,7 +4788,7 @@
 		)
 		(uuid fbbf0c75-e49c-4bb3-8399-33896a391c13)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 290.83000000000004 0)
+			(at 427.99 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4798,8 +4799,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 293.37)
-			(xy 383.53999999999996 293.37)
+			(xy 434.34 250.19)
+			(xy 427.99 250.19)
 		)
 		(stroke
 			(width 0)
@@ -4809,7 +4810,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 383.53999999999996 293.37 180)
+		(at 427.99 250.19 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4817,7 +4818,7 @@
 		)
 		(uuid 3dfafab4-ff90-4121-a79b-5e5f50c16d1d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 293.37 0)
+			(at 427.99 250.19 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4828,8 +4829,8 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 295.91)
-			(xy 383.53999999999996 295.91)
+			(xy 434.34 252.73)
+			(xy 427.99 252.73)
 		)
 		(stroke
 			(width 0)
@@ -4839,7 +4840,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 383.53999999999996 295.91 180)
+		(at 427.99 252.73 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4847,7 +4848,7 @@
 		)
 		(uuid a6616e19-05a0-4df6-90ee-78270b6e6320)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.53999999999996 295.91 0)
+			(at 427.99 252.73 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4858,8 +4859,8 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 273.05)
-			(xy 426.72 273.05)
+			(xy 464.82 229.87)
+			(xy 471.17 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4869,7 +4870,7 @@
 	)
 	(global_label "VBAT_ADC_ISOLATED"
 		(shape bidirectional)
-		(at 426.72 273.05 0)
+		(at 471.17 229.87 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4877,7 +4878,7 @@
 		)
 		(uuid 77b3238c-384a-4e58-9e9f-8f44d933e3cb)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.72 273.05 0)
+			(at 471.17 229.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4888,8 +4889,8 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 275.59000000000003)
-			(xy 426.72 275.59000000000003)
+			(xy 464.82 232.41)
+			(xy 471.17 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4899,7 +4900,7 @@
 	)
 	(global_label "CURRENT_ADC_ISOLATED"
 		(shape bidirectional)
-		(at 426.72 275.59000000000003 0)
+		(at 471.17 232.41 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4907,7 +4908,7 @@
 		)
 		(uuid d565bdb2-17fc-4c4a-ace4-68158a2ee091)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.72 275.59000000000003 0)
+			(at 471.17 232.41 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4918,8 +4919,8 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 278.13)
-			(xy 426.72 278.13)
+			(xy 464.82 234.95)
+			(xy 471.17 234.95)
 		)
 		(stroke
 			(width 0)
@@ -4929,7 +4930,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 426.72 278.13 0)
+		(at 471.17 234.95 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4937,7 +4938,7 @@
 		)
 		(uuid 9edc957a-ff26-41a6-b357-6f45d8a5da5a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.72 278.13 0)
+			(at 471.17 234.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4948,8 +4949,8 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 280.67)
-			(xy 426.72 280.67)
+			(xy 464.82 237.49)
+			(xy 471.17 237.49)
 		)
 		(stroke
 			(width 0)
@@ -4959,7 +4960,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 426.72 280.67 0)
+		(at 471.17 237.49 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4967,7 +4968,7 @@
 		)
 		(uuid 62308861-432f-45b8-a701-bf5552461fac)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.72 280.67 0)
+			(at 471.17 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4978,7 +4979,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TMUX1511PWR")
-		(at 405.13 284.48 0)
+		(at 449.58 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4986,23 +4987,23 @@
 		(dnp no)
 		(uuid 1938d8c5-67a5-4ee4-97b3-30089afb32b4)
 		(property "Reference" "U801"
-			(at 405.13 257.81 0)
+			(at 449.58 214.63 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "TMUX1511PWR"
-			(at 405.13 260.35 0)
+			(at 449.58 217.17 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5011,7 +5012,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5020,7 +5021,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5029,7 +5030,7 @@
 			)
 		)
 		(property "MPN" "TMUX1511PWR"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5038,7 +5039,7 @@
 			)
 		)
 		(property "Package" "PW14 TSSOP14 0.65mm visible leads"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5047,7 +5048,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 405.13 284.48 0)
+			(at 449.58 241.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5108,8 +5109,8 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 236.22)
-			(xy 464.82 229.87)
+			(xy 388.62 307.34)
+			(xy 388.62 300.99)
 		)
 		(stroke
 			(width 0)
@@ -5119,7 +5120,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 464.82 229.87 0)
+		(at 388.62 300.99 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5127,7 +5128,7 @@
 		)
 		(uuid d3943780-d0b9-4529-8ab2-a943f2dd651c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 464.82 229.87 0)
+			(at 388.62 300.99 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5138,8 +5139,8 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 243.84)
-			(xy 464.82 250.19)
+			(xy 388.62 314.96)
+			(xy 388.62 321.31)
 		)
 		(stroke
 			(width 0)
@@ -5149,7 +5150,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 464.82 250.19 0)
+		(at 388.62 321.31 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5157,7 +5158,7 @@
 		)
 		(uuid 9c0a138d-771a-46e2-85ac-12b2e580df96)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 464.82 250.19 0)
+			(at 388.62 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5168,7 +5169,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_100n6")
-		(at 464.82 240.03 0)
+		(at 388.62 311.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5176,25 +5177,25 @@
 		(dnp no)
 		(uuid 88381b10-c24e-4300-82e1-94b211e959f5)
 		(property "Reference" "C805"
-			(at 472.44 238.76 0)
+			(at 396.24 309.88 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n U801 VDD14"
-			(at 472.44 241.3 0)
+			(at 396.24 312.42 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5203,7 +5204,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5212,7 +5213,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5221,7 +5222,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5230,7 +5231,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5239,7 +5240,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5248,7 +5249,7 @@
 			)
 		)
 		(property "Specification Value" "100nF"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5257,7 +5258,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5266,7 +5267,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5275,7 +5276,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5284,7 +5285,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 464.82 240.03 0)
+			(at 388.62 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5309,8 +5310,8 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 256.54)
-			(xy 139.7 250.19000000000003)
+			(xy 127 220.98)
+			(xy 120.65 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5321,7 @@
 	)
 	(global_label "CURRENT_IN_RAW"
 		(shape bidirectional)
-		(at 139.7 250.19000000000003 0)
+		(at 120.65 220.98 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5328,7 +5329,7 @@
 		)
 		(uuid 756c7ef2-204f-480a-a016-5c58730c9e3d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 250.19000000000003 0)
+			(at 120.65 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5339,8 +5340,8 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 264.16)
-			(xy 139.7 270.51000000000005)
+			(xy 134.62 220.98)
+			(xy 140.97 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +5351,7 @@
 	)
 	(global_label "CURRENT_DIV"
 		(shape bidirectional)
-		(at 139.7 270.51000000000005 0)
+		(at 140.97 220.98 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5358,7 +5359,7 @@
 		)
 		(uuid 57ef57ec-4a40-4b7b-a000-0927bec06516)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 270.51000000000005 0)
+			(at 140.97 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5369,7 +5370,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_22k1")
-		(at 139.7 260.35 0)
+		(at 130.81 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5377,25 +5378,25 @@
 		(dnp no)
 		(uuid 75e588a4-27dc-42f3-addd-48b84716e1d4)
 		(property "Reference" "R805"
-			(at 147.32 259.08000000000004 0)
+			(at 137.16 213.36 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "22.1k 1% >=100V"
-			(at 147.32 261.62 0)
+			(at 137.16 217.17 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5404,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722K1L"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5413,7 +5414,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5422,7 +5423,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0722K1L"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5431,7 +5432,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5440,7 +5441,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5449,7 +5450,7 @@
 			)
 		)
 		(property "Specification Value" "22k1 ohm"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5458,7 +5459,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5467,7 +5468,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5476,7 +5477,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5485,7 +5486,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 139.7 260.35 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5510,8 +5511,8 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 256.54)
-			(xy 219.71 250.19000000000003)
+			(xy 203.2 240.03)
+			(xy 203.2 233.68)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5522,7 @@
 	)
 	(global_label "CURRENT_DIV"
 		(shape bidirectional)
-		(at 219.71 250.19000000000003 0)
+		(at 203.2 233.68 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5529,7 +5530,7 @@
 		)
 		(uuid 7520d39f-8509-44ea-b96a-a0d75d0551ed)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 250.19000000000003 0)
+			(at 203.2 233.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5540,8 +5541,8 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 264.16)
-			(xy 219.71 270.51000000000005)
+			(xy 203.2 247.65)
+			(xy 203.2 254)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5552,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 219.71 270.51000000000005 0)
+		(at 203.2 254 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5559,7 +5560,7 @@
 		)
 		(uuid e55b7e1e-d1bf-4678-8481-9ee624b9b7f4)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 270.51000000000005 0)
+			(at 203.2 254 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5570,7 +5571,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_20k")
-		(at 219.71 260.35 0)
+		(at 203.2 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5578,25 +5579,25 @@
 		(dnp no)
 		(uuid 2a940650-8b3d-428b-bfb9-030cb7063515)
 		(property "Reference" "R806"
-			(at 227.33 259.08000000000004 0)
+			(at 210.82 242.57 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "20k 1% scale20/42.1"
-			(at 227.33 261.62 0)
+			(at 210.82 245.11 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5605,7 +5606,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0720KL"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5614,7 +5615,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5623,7 +5624,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0720KL"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5632,7 +5633,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5641,7 +5642,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5650,7 +5651,7 @@
 			)
 		)
 		(property "Specification Value" "20k ohm"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5659,7 +5660,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5668,7 +5669,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5677,7 +5678,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5686,7 +5687,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 219.71 260.35 0)
+			(at 203.2 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5711,8 +5712,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 256.54)
-			(xy 284.48 250.19000000000003)
+			(xy 271.78 220.98)
+			(xy 265.43 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5722,7 +5723,7 @@
 	)
 	(global_label "CURRENT_DIV"
 		(shape bidirectional)
-		(at 284.48 250.19000000000003 0)
+		(at 265.43 220.98 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5730,7 +5731,7 @@
 		)
 		(uuid 299e8287-e898-4c2f-9274-631492708a27)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 250.19000000000003 0)
+			(at 265.43 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5741,8 +5742,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 264.16)
-			(xy 284.48 270.51000000000005)
+			(xy 279.4 220.98)
+			(xy 285.75 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5752,7 +5753,7 @@
 	)
 	(global_label "CURRENT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 284.48 270.51000000000005 0)
+		(at 285.75 220.98 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5760,7 +5761,7 @@
 		)
 		(uuid 962594c1-5a1f-48bd-8b3f-6a57d26b6b88)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 270.51000000000005 0)
+			(at 285.75 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5771,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1k")
-		(at 284.48 260.35 0)
+		(at 275.59 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5779,25 +5780,25 @@
 		(dnp no)
 		(uuid 043b5a0f-c19a-4c24-8fda-2624d314f9f1)
 		(property "Reference" "R807"
-			(at 292.1 259.08000000000004 0)
+			(at 281.94 213.36 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1k current limit"
-			(at 292.1 261.62 0)
+			(at 281.94 217.17 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5806,7 +5807,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5815,7 +5816,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5824,7 +5825,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5833,7 +5834,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5842,7 +5843,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5851,7 +5852,7 @@
 			)
 		)
 		(property "Specification Value" "1k ohm"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5860,7 +5861,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5869,7 +5870,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5878,7 +5879,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5887,7 +5888,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 284.48 260.35 0)
+			(at 275.59 220.98 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5912,8 +5913,8 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 300.99)
-			(xy 289.56 294.64)
+			(xy 287.02 251.46)
+			(xy 287.02 245.11)
 		)
 		(stroke
 			(width 0)
@@ -5923,7 +5924,7 @@
 	)
 	(global_label "CURRENT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 289.56 294.64 0)
+		(at 287.02 245.11 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5931,7 +5932,7 @@
 		)
 		(uuid 6bfe79dc-d69b-4649-9f11-d9400ba927e2)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 294.64 0)
+			(at 287.02 245.11 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5942,8 +5943,8 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 308.61)
-			(xy 289.56 314.96000000000004)
+			(xy 287.02 259.08)
+			(xy 287.02 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5953,7 +5954,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 289.56 314.96000000000004 0)
+		(at 287.02 265.43 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5961,7 +5962,7 @@
 		)
 		(uuid 08f4a420-1f7a-417a-bbad-22c2a3f14568)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 314.96000000000004 0)
+			(at 287.02 265.43 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5972,7 +5973,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_100n")
-		(at 289.56 304.8 0)
+		(at 287.02 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,25 +5981,25 @@
 		(dnp no)
 		(uuid ff33b30d-a4f4-4658-9580-0773ee2278da)
 		(property "Reference" "C802"
-			(at 297.18 303.53000000000003 0)
+			(at 294.64 254 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n X7R 50V"
-			(at 297.18 306.07 0)
+			(at 294.64 256.54 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6007,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6016,7 +6017,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6025,7 +6026,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6034,7 +6035,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6043,7 +6044,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6052,7 +6053,7 @@
 			)
 		)
 		(property "Specification Value" "100nF"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6061,7 +6062,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6070,7 +6071,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6079,7 +6080,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6088,7 +6089,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 289.56 304.8 0)
+			(at 287.02 255.27 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6113,8 +6114,8 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 331.47)
-			(xy 134.62 325.12)
+			(xy 46.99 306.07)
+			(xy 40.64 306.07)
 		)
 		(stroke
 			(width 0)
@@ -6124,7 +6125,7 @@
 	)
 	(global_label "VBAT_ADC_ISOLATED"
 		(shape bidirectional)
-		(at 134.62 325.12 0)
+		(at 40.64 306.07 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6132,7 +6133,7 @@
 		)
 		(uuid 68b2984c-2c59-41f5-9a5c-1718e6e7063f)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 325.12 0)
+			(at 40.64 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6143,8 +6144,8 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 339.09000000000003)
-			(xy 134.62 345.44000000000005)
+			(xy 54.61 306.07)
+			(xy 60.96 306.07)
 		)
 		(stroke
 			(width 0)
@@ -6154,7 +6155,7 @@
 	)
 	(global_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 134.62 345.44000000000005 0)
+		(at 60.96 306.07 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6162,7 +6163,7 @@
 		)
 		(uuid e3c7d34f-285d-4d92-9643-e2f54109d387)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 345.44000000000005 0)
+			(at 60.96 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6173,7 +6174,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1k")
-		(at 134.62 335.28000000000003 0)
+		(at 50.8 306.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6181,25 +6182,25 @@
 		(dnp no)
 		(uuid 891cf0e9-3b27-4a71-9152-8dc948c64aa1)
 		(property "Reference" "R804"
-			(at 142.24 334.01000000000005 0)
+			(at 57.15 298.45 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1k isolate ADC reservoir"
-			(at 142.24 336.55 0)
+			(at 57.15 302.26 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6208,7 +6209,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6217,7 +6218,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6226,7 +6227,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6235,7 +6236,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6244,7 +6245,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6253,7 +6254,7 @@
 			)
 		)
 		(property "Specification Value" "1k ohm"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6262,7 +6263,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6271,7 +6272,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6280,7 +6281,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6289,7 +6290,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 134.62 335.28000000000003 0)
+			(at 50.8 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6314,8 +6315,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 331.47)
-			(xy 284.48 325.12)
+			(xy 198.12 306.07)
+			(xy 191.77 306.07)
 		)
 		(stroke
 			(width 0)
@@ -6325,7 +6326,7 @@
 	)
 	(global_label "CURRENT_ADC_ISOLATED"
 		(shape bidirectional)
-		(at 284.48 325.12 0)
+		(at 191.77 306.07 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6333,7 +6334,7 @@
 		)
 		(uuid 1401b9cb-b43d-435e-b781-d1c7ea8f3689)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 325.12 0)
+			(at 191.77 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6344,8 +6345,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 339.09000000000003)
-			(xy 284.48 345.44000000000005)
+			(xy 205.74 306.07)
+			(xy 212.09 306.07)
 		)
 		(stroke
 			(width 0)
@@ -6355,7 +6356,7 @@
 	)
 	(global_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 284.48 345.44000000000005 0)
+		(at 212.09 306.07 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6363,7 +6364,7 @@
 		)
 		(uuid fcac2760-5035-4faa-860a-c02b972be52a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 345.44000000000005 0)
+			(at 212.09 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6374,7 +6375,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1k")
-		(at 284.48 335.28000000000003 0)
+		(at 201.93 306.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6382,25 +6383,25 @@
 		(dnp no)
 		(uuid 6e1f232f-32ab-4a51-a2e8-a0ef467da532)
 		(property "Reference" "R808"
-			(at 292.1 334.01000000000005 0)
+			(at 208.28 298.45 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1k isolate ADC reservoir"
-			(at 292.1 336.55 0)
+			(at 208.28 302.26 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6409,7 +6410,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6418,7 +6419,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6427,7 +6428,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6436,7 +6437,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6445,7 +6446,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6454,7 +6455,7 @@
 			)
 		)
 		(property "Specification Value" "1k ohm"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6463,7 +6464,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6472,7 +6473,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6481,7 +6482,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6490,7 +6491,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 284.48 335.28000000000003 0)
+			(at 201.93 306.07 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6515,8 +6516,8 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 360.68)
-			(xy 204.47 354.33)
+			(xy 139.7 322.58)
+			(xy 139.7 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6526,7 +6527,7 @@
 	)
 	(global_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 204.47 354.33 0)
+		(at 139.7 316.23 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6534,7 +6535,7 @@
 		)
 		(uuid 01340fdb-f3a2-4624-bff7-1b111e084f87)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 354.33 0)
+			(at 139.7 316.23 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6545,8 +6546,8 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 368.3)
-			(xy 204.47 374.65000000000003)
+			(xy 139.7 330.2)
+			(xy 139.7 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6556,7 +6557,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 204.47 374.65000000000003 0)
+		(at 139.7 336.55 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6564,7 +6565,7 @@
 		)
 		(uuid 0d1bf3b8-74df-455b-aca0-08646f846de6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 374.65000000000003 0)
+			(at 139.7 336.55 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6575,7 +6576,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1M3")
-		(at 204.47 364.49 0)
+		(at 139.7 326.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6583,25 +6584,25 @@
 		(dnp no)
 		(uuid 70b81493-3218-4f29-9483-9ddf2d8656d0)
 		(property "Reference" "R809"
-			(at 212.09 363.22 0)
+			(at 147.32 325.12 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1.3M 1% discharge/IOFF bound"
-			(at 212.09 365.76 0)
+			(at 147.32 327.66 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6610,7 +6611,7 @@
 			)
 		)
 		(property "Datasheet" "preferred BOM only; specification controls"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6619,7 +6620,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6628,7 +6629,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071M3L"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6637,7 +6638,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6646,7 +6647,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6655,7 +6656,7 @@
 			)
 		)
 		(property "Specification Value" "1M3 ohm"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6664,7 +6665,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6673,7 +6674,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6682,7 +6683,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6691,7 +6692,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 204.47 364.49 0)
+			(at 139.7 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6716,8 +6717,8 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 360.68)
-			(xy 355.6 354.33)
+			(xy 293.37 322.58)
+			(xy 293.37 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6727,7 +6728,7 @@
 	)
 	(global_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 355.6 354.33 0)
+		(at 293.37 316.23 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6735,7 +6736,7 @@
 		)
 		(uuid b4e245c9-bba1-446a-9a21-51324ad79a9b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.6 354.33 0)
+			(at 293.37 316.23 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6746,8 +6747,8 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 368.3)
-			(xy 355.6 374.65000000000003)
+			(xy 293.37 330.2)
+			(xy 293.37 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6757,7 +6758,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 355.6 374.65000000000003 0)
+		(at 293.37 336.55 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6765,7 +6766,7 @@
 		)
 		(uuid 065bf8a4-d392-40c8-afb2-fa9f3f15f98a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.6 374.65000000000003 0)
+			(at 293.37 336.55 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6776,7 +6777,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1M3")
-		(at 355.6 364.49 0)
+		(at 293.37 326.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6784,25 +6785,25 @@
 		(dnp no)
 		(uuid d9b46fe2-8dd0-4451-9528-961c377af530)
 		(property "Reference" "R810"
-			(at 363.22 363.22 0)
+			(at 300.99 325.12 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1.3M 1% discharge/IOFF bound"
-			(at 363.22 365.76 0)
+			(at 275.59 299.72 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6811,7 +6812,7 @@
 			)
 		)
 		(property "Datasheet" "preferred BOM only; specification controls"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6820,7 +6821,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6829,7 +6830,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071M3L"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6838,7 +6839,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6847,7 +6848,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6856,7 +6857,7 @@
 			)
 		)
 		(property "Specification Value" "1M3 ohm"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6865,7 +6866,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6874,7 +6875,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6883,7 +6884,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6892,7 +6893,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 355.6 364.49 0)
+			(at 293.37 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6917,8 +6918,8 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 360.68)
-			(xy 134.62 354.33)
+			(xy 99.06 322.58)
+			(xy 99.06 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6928,7 +6929,7 @@
 	)
 	(global_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 134.62 354.33 0)
+		(at 99.06 316.23 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6936,7 +6937,7 @@
 		)
 		(uuid 83168f86-1138-4cb8-9767-5d7eaa4127fb)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 354.33 0)
+			(at 99.06 316.23 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6947,8 +6948,8 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 368.3)
-			(xy 134.62 374.65000000000003)
+			(xy 99.06 330.2)
+			(xy 99.06 336.55)
 		)
 		(stroke
 			(width 0)
@@ -6958,7 +6959,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 134.62 374.65000000000003 0)
+		(at 99.06 336.55 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -6966,7 +6967,7 @@
 		)
 		(uuid 96e25508-1699-4091-8ff2-afa9e2b616ac)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 374.65000000000003 0)
+			(at 99.06 336.55 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -6977,7 +6978,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_22n")
-		(at 134.62 364.49 0)
+		(at 99.06 326.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6985,25 +6986,25 @@
 		(dnp no)
 		(uuid 08ee2699-30a9-413c-b732-1908e3f85e23)
 		(property "Reference" "C803"
-			(at 142.24 363.22 0)
+			(at 106.68 325.12 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "22n X7R 50V ADC reservoir"
-			(at 142.24 365.76 0)
+			(at 106.68 327.66 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7012,7 +7013,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C223K5RACTU"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7021,7 +7022,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7030,7 +7031,7 @@
 			)
 		)
 		(property "MPN" "C0805C223K5RACTU"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7039,7 +7040,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7048,7 +7049,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7057,7 +7058,7 @@
 			)
 		)
 		(property "Specification Value" "22nF"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7066,7 +7067,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7075,7 +7076,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7084,7 +7085,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7093,7 +7094,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 134.62 364.49 0)
+			(at 99.06 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7118,8 +7119,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 360.68)
-			(xy 284.48 354.33)
+			(xy 250.19 322.58)
+			(xy 250.19 316.23)
 		)
 		(stroke
 			(width 0)
@@ -7129,7 +7130,7 @@
 	)
 	(global_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 284.48 354.33 0)
+		(at 250.19 316.23 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7137,7 +7138,7 @@
 		)
 		(uuid 6c8863b1-f8a0-4d70-a78f-874ced7234f4)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 354.33 0)
+			(at 250.19 316.23 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7148,8 +7149,8 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 368.3)
-			(xy 284.48 374.65000000000003)
+			(xy 250.19 330.2)
+			(xy 250.19 336.55)
 		)
 		(stroke
 			(width 0)
@@ -7159,7 +7160,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 284.48 374.65000000000003 0)
+		(at 250.19 336.55 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7167,7 +7168,7 @@
 		)
 		(uuid e0b2b727-09e5-4474-b1dc-47737214d62c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 374.65000000000003 0)
+			(at 250.19 336.55 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7178,7 +7179,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_22n")
-		(at 284.48 364.49 0)
+		(at 250.19 326.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7186,25 +7187,25 @@
 		(dnp no)
 		(uuid 9ab9a180-4bb9-4fed-b422-027a43047382)
 		(property "Reference" "C804"
-			(at 292.1 363.22 0)
+			(at 257.81 325.12 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "22n X7R 50V ADC reservoir"
-			(at 292.1 365.76 0)
+			(at 257.81 327.66 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7213,7 +7214,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C223K5RACTU"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7222,7 +7223,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7231,7 +7232,7 @@
 			)
 		)
 		(property "MPN" "C0805C223K5RACTU"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7240,7 +7241,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7249,7 +7250,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7258,7 +7259,7 @@
 			)
 		)
 		(property "Specification Value" "22nF"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7267,7 +7268,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7276,7 +7277,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7285,7 +7286,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7294,7 +7295,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 284.48 364.49 0)
+			(at 250.19 326.39 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7319,8 +7320,8 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 360.68)
-			(xy 454.66 354.33)
+			(xy 499.11 307.34)
+			(xy 499.11 300.99)
 		)
 		(stroke
 			(width 0)
@@ -7330,7 +7331,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 454.66 354.33 0)
+		(at 499.11 300.99 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7338,7 +7339,7 @@
 		)
 		(uuid 470839ef-4ff3-4e36-b08a-c78f74617a40)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 454.66 354.33 0)
+			(at 499.11 300.99 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7349,8 +7350,8 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 368.3)
-			(xy 454.66 374.65000000000003)
+			(xy 499.11 314.96)
+			(xy 499.11 321.31)
 		)
 		(stroke
 			(width 0)
@@ -7360,7 +7361,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 454.66 374.65000000000003 0)
+		(at 499.11 321.31 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7368,7 +7369,7 @@
 		)
 		(uuid a2f7ea8a-bfb4-4e52-8cf0-558d03aabd49)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 454.66 374.65000000000003 0)
+			(at 499.11 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7379,7 +7380,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_1k")
-		(at 454.66 364.49 0)
+		(at 499.11 311.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7387,25 +7388,25 @@
 		(dnp no)
 		(uuid 7321ac25-58e2-4f3f-89cf-98a85fd21dfe)
 		(property "Reference" "R811"
-			(at 462.28000000000003 363.22 0)
+			(at 506.73 309.88 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "1k rail discharge 3.3mA"
-			(at 462.28000000000003 365.76 0)
+			(at 506.73 312.42 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7414,7 +7415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7423,7 +7424,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7432,7 +7433,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7441,7 +7442,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7450,7 +7451,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7459,7 +7460,7 @@
 			)
 		)
 		(property "Specification Value" "1k ohm"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7468,7 +7469,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7477,7 +7478,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7486,7 +7487,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7495,7 +7496,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 454.66 364.49 0)
+			(at 499.11 311.15 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7519,36 +7520,39 @@
 		)
 	)
 	(text "CURRENT:0..5V normal,0..6V bounded DC fault, shared GND; no VBAT/negative-fault rating."
-		(at 260 225 0)
+		(at 20 390 0)
 		(effects
 			(font
-				(size 0.95 0.95)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 669b7a9c-d858-4a65-a990-15f02b60ffc4)
 	)
 	(text "PC0/PC1 are FT_a. No rail-clamp diode added: external U801 powered-off isolation + bleed."
-		(at 285 392 0)
+		(at 20 397 0)
 		(effects
 			(font
-				(size 0.95 0.95)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 236c5d3c-d855-44d1-864b-3abe62cf8717)
 	)
 	(text "150k/10k remains nominal1/16; finite1.3M loading gives actual scale16.1401. Calibrate."
-		(at 285 399 0)
+		(at 20 404 0)
 		(effects
 			(font
-				(size 0.95 0.95)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid e878d47b-446d-4cf0-a39b-3e31da2591ab)
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 35.56)
-			(xy 509.2700000000001 35.56)
+			(xy 306.07 349.25)
+			(xy 299.72 349.25)
 		)
 		(stroke
 			(width 0)
@@ -7558,7 +7562,7 @@
 	)
 	(global_label "VBAT_DIV"
 		(shape bidirectional)
-		(at 509.2700000000001 35.56 180)
+		(at 299.72 349.25 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7566,7 +7570,7 @@
 		)
 		(uuid baf79e95-0a2a-4415-9394-360438e015be)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 35.56 0)
+			(at 299.72 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7577,7 +7581,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 35.56 0)
+		(at 309.88 349.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7585,25 +7589,25 @@
 		(dnp no)
 		(uuid cd21f686-a68c-4464-9262-8eb668a5c258)
 		(property "Reference" "TP801"
-			(at 527.0500000000001 34.29 0)
+			(at 317.5 347.98 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "VBAT_DIV"
-			(at 527.0500000000001 36.830000000000005 0)
+			(at 317.5 350.52 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7612,7 +7616,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7621,7 +7625,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7630,7 +7634,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7639,7 +7643,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7648,7 +7652,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7670,8 +7674,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 43.18)
-			(xy 509.2700000000001 43.18)
+			(xy 391.16 349.25)
+			(xy 384.81 349.25)
 		)
 		(stroke
 			(width 0)
@@ -7681,7 +7685,7 @@
 	)
 	(global_label "VBAT_ADC_PRE_PROTECTION"
 		(shape bidirectional)
-		(at 509.2700000000001 43.18 180)
+		(at 384.81 349.25 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7689,7 +7693,7 @@
 		)
 		(uuid 18ac6153-4f38-4250-9d47-fc318826faea)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 43.18 0)
+			(at 384.81 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7700,7 +7704,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 43.18 0)
+		(at 394.97 349.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7708,25 +7712,25 @@
 		(dnp no)
 		(uuid 1a67053c-51ea-4b34-aae0-f98e193e26d8)
 		(property "Reference" "TP802"
-			(at 527.0500000000001 41.91 0)
+			(at 402.59 347.98 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "VBAT_ADC_PRE_PROTECTION"
-			(at 527.0500000000001 44.45 0)
+			(at 402.59 350.52 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7735,7 +7739,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7744,7 +7748,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7753,7 +7757,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7762,7 +7766,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7771,7 +7775,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 43.18 0)
+			(at 394.97 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7793,8 +7797,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 50.8)
-			(xy 509.2700000000001 50.8)
+			(xy 476.25 349.25)
+			(xy 469.9 349.25)
 		)
 		(stroke
 			(width 0)
@@ -7804,7 +7808,7 @@
 	)
 	(global_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 509.2700000000001 50.8 180)
+		(at 469.9 349.25 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7812,7 +7816,7 @@
 		)
 		(uuid edb7fea4-7891-4f7f-96cf-27202caafb46)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 50.8 0)
+			(at 469.9 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7823,7 +7827,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 50.8 0)
+		(at 480.06 349.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7831,25 +7835,25 @@
 		(dnp no)
 		(uuid 780e45e2-9f2d-4235-909c-f62f01b40f32)
 		(property "Reference" "TP803"
-			(at 527.0500000000001 49.529999999999994 0)
+			(at 487.68 347.98 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "VBAT_ADC"
-			(at 527.0500000000001 52.07 0)
+			(at 487.68 350.52 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7858,7 +7862,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7867,7 +7871,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7876,7 +7880,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7885,7 +7889,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7894,7 +7898,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 50.8 0)
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7916,8 +7920,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 58.42)
-			(xy 509.2700000000001 58.42)
+			(xy 306.07 361.95)
+			(xy 299.72 361.95)
 		)
 		(stroke
 			(width 0)
@@ -7927,7 +7931,7 @@
 	)
 	(global_label "CURRENT_IN_RAW"
 		(shape bidirectional)
-		(at 509.2700000000001 58.42 180)
+		(at 299.72 361.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -7935,7 +7939,7 @@
 		)
 		(uuid 908f65ed-f2a8-47c6-8628-5ec485ccbcc5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 58.42 0)
+			(at 299.72 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7946,7 +7950,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 58.42 0)
+		(at 309.88 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7954,25 +7958,25 @@
 		(dnp no)
 		(uuid 57cd9ae9-5fee-4eac-9d99-8080d41871b8)
 		(property "Reference" "TP804"
-			(at 527.0500000000001 57.15 0)
+			(at 317.5 360.68 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "CURRENT_IN_RAW"
-			(at 527.0500000000001 59.690000000000005 0)
+			(at 317.5 363.22 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7981,7 +7985,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7990,7 +7994,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -7999,7 +8003,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8008,7 +8012,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8017,7 +8021,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 58.42 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8039,8 +8043,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 67.31)
-			(xy 509.2700000000001 67.31)
+			(xy 391.16 361.95)
+			(xy 384.81 361.95)
 		)
 		(stroke
 			(width 0)
@@ -8050,7 +8054,7 @@
 	)
 	(global_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 509.2700000000001 67.31 180)
+		(at 384.81 361.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8058,7 +8062,7 @@
 		)
 		(uuid 222b2f7a-da6a-42f2-a08e-3e4fe20677fd)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 67.31 0)
+			(at 384.81 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8069,7 +8073,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 67.31 0)
+		(at 394.97 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8077,25 +8081,25 @@
 		(dnp no)
 		(uuid 8ea3e4c6-c337-491a-9513-6957343ef570)
 		(property "Reference" "TP805"
-			(at 527.0500000000001 66.04 0)
+			(at 402.59 360.68 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "CURRENT_ADC"
-			(at 527.0500000000001 68.58 0)
+			(at 402.59 363.22 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8104,7 +8108,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8113,7 +8117,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8122,7 +8126,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8131,7 +8135,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8140,7 +8144,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 67.31 0)
+			(at 394.97 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8162,8 +8166,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 74.93)
-			(xy 509.2700000000001 74.93)
+			(xy 476.25 361.95)
+			(xy 469.9 361.95)
 		)
 		(stroke
 			(width 0)
@@ -8173,7 +8177,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 509.2700000000001 74.93 180)
+		(at 469.9 361.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8181,7 +8185,7 @@
 		)
 		(uuid 3aa075f0-afd3-4298-9981-18944fd77b8b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 74.93 0)
+			(at 469.9 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8192,7 +8196,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 74.93 0)
+		(at 480.06 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8200,25 +8204,25 @@
 		(dnp no)
 		(uuid c707b5e2-42e7-478f-95cd-451543091d9c)
 		(property "Reference" "TP806"
-			(at 527.0500000000001 73.66000000000001 0)
+			(at 487.68 360.68 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SWDIO"
-			(at 527.0500000000001 76.2 0)
+			(at 487.68 363.22 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8227,7 +8231,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8236,7 +8240,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8245,7 +8249,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8254,7 +8258,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8263,7 +8267,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 74.93 0)
+			(at 480.06 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8285,8 +8289,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 82.55)
-			(xy 509.2700000000001 82.55)
+			(xy 306.07 374.65)
+			(xy 299.72 374.65)
 		)
 		(stroke
 			(width 0)
@@ -8296,7 +8300,7 @@
 	)
 	(global_label "SWCLK"
 		(shape bidirectional)
-		(at 509.2700000000001 82.55 180)
+		(at 299.72 374.65 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8304,7 +8308,7 @@
 		)
 		(uuid 670d4d61-54dc-4ed1-88a6-b246c203b684)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 82.55 0)
+			(at 299.72 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8315,7 +8319,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 82.55 0)
+		(at 309.88 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8323,25 +8327,25 @@
 		(dnp no)
 		(uuid b38be76a-42a2-4781-bb3e-71d1fc4c7ad0)
 		(property "Reference" "TP807"
-			(at 527.0500000000001 81.28 0)
+			(at 317.5 373.38 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SWCLK"
-			(at 527.0500000000001 83.82 0)
+			(at 317.5 375.92 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8350,7 +8354,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8359,7 +8363,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8368,7 +8372,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8377,7 +8381,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8386,7 +8390,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 82.55 0)
+			(at 309.88 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8408,8 +8412,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 91.44)
-			(xy 509.2700000000001 91.44)
+			(xy 391.16 374.65)
+			(xy 384.81 374.65)
 		)
 		(stroke
 			(width 0)
@@ -8419,7 +8423,7 @@
 	)
 	(global_label "NRST"
 		(shape bidirectional)
-		(at 509.2700000000001 91.44 180)
+		(at 384.81 374.65 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8427,7 +8431,7 @@
 		)
 		(uuid fd62aceb-2ce6-432f-8c51-191e3c5f0b5f)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 91.44 0)
+			(at 384.81 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8438,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 91.44 0)
+		(at 394.97 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8446,25 +8450,25 @@
 		(dnp no)
 		(uuid f0d42ec3-afcb-4a7d-ab39-a70edf48195f)
 		(property "Reference" "TP808"
-			(at 527.0500000000001 90.17 0)
+			(at 402.59 373.38 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "NRST"
-			(at 527.0500000000001 92.71 0)
+			(at 402.59 375.92 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8473,7 +8477,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8482,7 +8486,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8491,7 +8495,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8500,7 +8504,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8509,7 +8513,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 91.44 0)
+			(at 394.97 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8531,8 +8535,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 99.06)
-			(xy 509.2700000000001 99.06)
+			(xy 476.25 374.65)
+			(xy 469.9 374.65)
 		)
 		(stroke
 			(width 0)
@@ -8542,7 +8546,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 509.2700000000001 99.06 180)
+		(at 469.9 374.65 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8550,7 +8554,7 @@
 		)
 		(uuid 2fe267ca-4f17-4d82-9f09-eb78543e94d8)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 99.06 0)
+			(at 469.9 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8561,7 +8565,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 99.06 0)
+		(at 480.06 374.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8569,25 +8573,25 @@
 		(dnp no)
 		(uuid d8654715-1a57-477b-afa0-5bdf4a89df45)
 		(property "Reference" "TP809"
-			(at 527.0500000000001 97.79 0)
+			(at 487.68 373.38 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GND"
-			(at 527.0500000000001 100.33 0)
+			(at 487.68 375.92 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8596,7 +8600,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8605,7 +8609,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8614,7 +8618,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8623,7 +8627,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8632,7 +8636,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 99.06 0)
+			(at 480.06 374.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8654,7 +8658,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 30.48 17.78 0)
+		(at 115.57 360.68 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8664,8 +8668,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 17.78)
-			(xy 55.879999999999995 17.78)
+			(xy 115.57 360.68)
+			(xy 140.97 360.68)
 		)
 		(stroke
 			(width 0)
@@ -8675,7 +8679,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 55.879999999999995 17.78 0)
+		(at 140.97 360.68 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8683,7 +8687,7 @@
 		)
 		(uuid 5f25809a-ff61-47d4-b042-c5a984f2d80a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 17.78 0)
+			(at 140.97 360.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8694,7 +8698,7 @@
 	)
 	(hierarchical_label "OUT1"
 		(shape bidirectional)
-		(at 30.48 21.59 0)
+		(at 27.94 360.68 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8704,8 +8708,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 21.59)
-			(xy 55.879999999999995 21.59)
+			(xy 27.94 360.68)
+			(xy 53.34 360.68)
 		)
 		(stroke
 			(width 0)
@@ -8715,7 +8719,7 @@
 	)
 	(global_label "OUT1"
 		(shape bidirectional)
-		(at 55.879999999999995 21.59 0)
+		(at 53.34 360.68 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8723,7 +8727,7 @@
 		)
 		(uuid 139b40fb-fdc3-4d0b-831d-a7149aa094d9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 21.59 0)
+			(at 53.34 360.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8734,7 +8738,7 @@
 	)
 	(hierarchical_label "OUT2"
 		(shape bidirectional)
-		(at 30.48 25.400000000000002 0)
+		(at 27.94 364.49 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8744,8 +8748,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.400000000000002)
-			(xy 55.879999999999995 25.400000000000002)
+			(xy 27.94 364.49)
+			(xy 53.34 364.49)
 		)
 		(stroke
 			(width 0)
@@ -8755,7 +8759,7 @@
 	)
 	(global_label "OUT2"
 		(shape bidirectional)
-		(at 55.879999999999995 25.400000000000002 0)
+		(at 53.34 364.49 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8763,7 +8767,7 @@
 		)
 		(uuid 1b3ab371-d1c7-4e6a-afdc-7a7937c0b107)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 25.400000000000002 0)
+			(at 53.34 364.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8774,7 +8778,7 @@
 	)
 	(hierarchical_label "OUT3"
 		(shape bidirectional)
-		(at 30.48 29.21 0)
+		(at 27.94 368.3 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8784,8 +8788,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 29.21)
-			(xy 55.879999999999995 29.21)
+			(xy 27.94 368.3)
+			(xy 53.34 368.3)
 		)
 		(stroke
 			(width 0)
@@ -8795,7 +8799,7 @@
 	)
 	(global_label "OUT3"
 		(shape bidirectional)
-		(at 55.879999999999995 29.21 0)
+		(at 53.34 368.3 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8803,7 +8807,7 @@
 		)
 		(uuid 9ece25b0-190c-456c-944e-97ab065753f2)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 29.21 0)
+			(at 53.34 368.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8814,7 +8818,7 @@
 	)
 	(hierarchical_label "OUT4"
 		(shape bidirectional)
-		(at 30.48 33.02 0)
+		(at 27.94 372.11 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8824,8 +8828,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 33.02)
-			(xy 55.879999999999995 33.02)
+			(xy 27.94 372.11)
+			(xy 53.34 372.11)
 		)
 		(stroke
 			(width 0)
@@ -8835,7 +8839,7 @@
 	)
 	(global_label "OUT4"
 		(shape bidirectional)
-		(at 55.879999999999995 33.02 0)
+		(at 53.34 372.11 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8843,7 +8847,7 @@
 		)
 		(uuid 2db51242-8e18-43c0-98e3-bf53feba6197)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 33.02 0)
+			(at 53.34 372.11 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8854,7 +8858,7 @@
 	)
 	(hierarchical_label "OUT5"
 		(shape bidirectional)
-		(at 30.48 36.83 0)
+		(at 27.94 375.92 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8864,8 +8868,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83)
-			(xy 55.879999999999995 36.83)
+			(xy 27.94 375.92)
+			(xy 53.34 375.92)
 		)
 		(stroke
 			(width 0)
@@ -8875,7 +8879,7 @@
 	)
 	(global_label "OUT5"
 		(shape bidirectional)
-		(at 55.879999999999995 36.83 0)
+		(at 53.34 375.92 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8883,7 +8887,7 @@
 		)
 		(uuid 20f2f027-87db-499c-bd38-a53aa5126324)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 36.83 0)
+			(at 53.34 375.92 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8894,7 +8898,7 @@
 	)
 	(hierarchical_label "OUT6"
 		(shape bidirectional)
-		(at 30.48 40.64 0)
+		(at 27.94 379.73 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8904,8 +8908,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64)
-			(xy 55.879999999999995 40.64)
+			(xy 27.94 379.73)
+			(xy 53.34 379.73)
 		)
 		(stroke
 			(width 0)
@@ -8915,7 +8919,7 @@
 	)
 	(global_label "OUT6"
 		(shape bidirectional)
-		(at 55.879999999999995 40.64 0)
+		(at 53.34 379.73 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8923,7 +8927,7 @@
 		)
 		(uuid d69e29f7-f992-45cc-a975-1bd0f1323ec6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 40.64 0)
+			(at 53.34 379.73 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8934,7 +8938,7 @@
 	)
 	(hierarchical_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 30.48 44.45 0)
+		(at 27.94 383.54 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8944,8 +8948,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45)
-			(xy 55.879999999999995 44.45)
+			(xy 27.94 383.54)
+			(xy 53.34 383.54)
 		)
 		(stroke
 			(width 0)
@@ -8955,7 +8959,7 @@
 	)
 	(global_label "VBAT_ADC"
 		(shape bidirectional)
-		(at 55.879999999999995 44.45 0)
+		(at 53.34 383.54 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -8963,7 +8967,7 @@
 		)
 		(uuid 2ca8b659-75db-42fd-bd7c-1707e92530b9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 44.45 0)
+			(at 53.34 383.54 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -8974,7 +8978,7 @@
 	)
 	(hierarchical_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 30.48 48.260000000000005 0)
+		(at 27.94 387.35 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -8984,8 +8988,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 48.260000000000005)
-			(xy 55.879999999999995 48.260000000000005)
+			(xy 27.94 387.35)
+			(xy 53.34 387.35)
 		)
 		(stroke
 			(width 0)
@@ -8995,7 +8999,7 @@
 	)
 	(global_label "CURRENT_ADC"
 		(shape bidirectional)
-		(at 55.879999999999995 48.260000000000005 0)
+		(at 53.34 387.35 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -9003,7 +9007,7 @@
 		)
 		(uuid 8d13f10d-6c1b-45fa-a52e-cd3e814839fa)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 48.260000000000005 0)
+			(at 53.34 387.35 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -9014,7 +9018,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape bidirectional)
-		(at 30.48 52.07 0)
+		(at 115.57 364.49 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -9024,8 +9028,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 52.07)
-			(xy 55.879999999999995 52.07)
+			(xy 115.57 364.49)
+			(xy 140.97 364.49)
 		)
 		(stroke
 			(width 0)
@@ -9035,7 +9039,7 @@
 	)
 	(global_label "SWCLK"
 		(shape bidirectional)
-		(at 55.879999999999995 52.07 0)
+		(at 140.97 364.49 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -9043,7 +9047,7 @@
 		)
 		(uuid b32c841e-00f7-4f07-a0f1-6f103841571c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 52.07 0)
+			(at 140.97 364.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -9054,7 +9058,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
-		(at 30.48 55.88 0)
+		(at 115.57 368.3 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -9064,8 +9068,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 55.88)
-			(xy 55.879999999999995 55.88)
+			(xy 115.57 368.3)
+			(xy 140.97 368.3)
 		)
 		(stroke
 			(width 0)
@@ -9075,7 +9079,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 55.879999999999995 55.88 0)
+		(at 140.97 368.3 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -9083,7 +9087,7 @@
 		)
 		(uuid 4e83bd90-78bb-48fc-ab1c-8ca32e5dd543)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 55.88 0)
+			(at 140.97 368.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -9094,7 +9098,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape bidirectional)
-		(at 30.48 59.690000000000005 0)
+		(at 115.57 372.11 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -9104,8 +9108,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.690000000000005)
-			(xy 55.879999999999995 59.690000000000005)
+			(xy 115.57 372.11)
+			(xy 140.97 372.11)
 		)
 		(stroke
 			(width 0)
@@ -9115,7 +9119,7 @@
 	)
 	(global_label "NRST"
 		(shape bidirectional)
-		(at 55.879999999999995 59.690000000000005 0)
+		(at 140.97 372.11 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -9123,7 +9127,7 @@
 		)
 		(uuid 853c5790-d0ee-4010-8753-c5cd311b7672)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 59.690000000000005 0)
+			(at 140.97 372.11 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -9133,4 +9137,865 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(text "08 PWM / ADC / 调试 · PWM / ADC / DEBUG"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2380d634-8c51-45df-968c-e22caaab208d")
+	)
+	(rectangle
+		(start 18 36)
+		(end 572 91)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "516a16f2-b264-4535-8dcb-2ee161e5fc30")
+	)
+	(text "六路 PWM 输出 / SIX PWM OUTPUTS"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dc61f416-3d9a-4f08-9c2d-183cb7b44430")
+	)
+	(rectangle
+		(start 18 101)
+		(end 233 178)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e970d793-c55a-48d3-9596-90ec4c9a5057")
+	)
+	(text "SWD 调试与电池输入 / SWD AND BATTERY INPUT"
+		(at 23 107 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0f049c94-05e3-4191-9a0f-d9d795a16524")
+	)
+	(rectangle
+		(start 243 101)
+		(end 572 178)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "785948e9-9d2e-4581-8d53-95b8dc20dc6f")
+	)
+	(text "电压采样 / VOLTAGE SENSE · ADC PC0"
+		(at 248 107 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c05127ef-c87f-472c-a615-08dd32db1470")
+	)
+	(rectangle
+		(start 18 188)
+		(end 329 271)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d3223dcb-eee6-401f-892d-4777be2facc5")
+	)
+	(text "电流输入采样 / CURRENT INPUT · ADC PC1"
+		(at 23 194 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1120be55-0b28-4edd-82ec-0d5821ca3588")
+	)
+	(rectangle
+		(start 339 188)
+		(end 572 340)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2f79eeb3-3d90-4042-b937-9d1a402e42d0")
+	)
+	(text "掉电隔离与保持 / POWERED-OFF ISOLATION"
+		(at 344 194 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c768cf1a-213d-45f8-9c53-ce86cc705097")
+	)
+	(rectangle
+		(start 18 281)
+		(end 329 340)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "07b18ebe-55da-418a-9a76-149403a888e9")
+	)
+	(text "ADC 输出滤波 / ADC OUTPUT FILTERS"
+		(at 23 287 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "196208bf-93d1-4529-b297-08b646f691ef")
+	)
+	(text "PWM / ADC"
+		(at 27.94 353.06 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "49c707d5-aab1-40ee-a97a-773937d03425")
+	)
+	(text "DEBUG / POWER"
+		(at 115.57 353.06 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "193d8547-0985-438f-b944-d2c902000879")
+	)
+	(junction
+		(at 203.2 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3878f22e-ad59-4db4-bcaf-66ddc52a157d")
+	)
+	(junction
+		(at 139.7 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a913bed0-c78a-4b06-9e31-78dd09ee1b92")
+	)
+	(junction
+		(at 38.1 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3abc7d57-0404-4dad-800c-6b27bae0c564")
+	)
+	(junction
+		(at 288.29 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8883264a-1c70-481a-8477-eb427e03c0fe")
+	)
+	(junction
+		(at 388.62 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0025e49d-0cb2-4f13-b5c1-5c67c742c525")
+	)
+	(junction
+		(at 59.69 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac33d62e-b4b2-4a9a-9d68-895c5dfdb410")
+	)
+	(junction
+		(at 426.72 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c7fabc-cef5-4286-8047-146ad4afa2ac")
+	)
+	(junction
+		(at 499.11 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244be336-f744-4d67-a8dc-14096816b670")
+	)
+	(junction
+		(at 388.62 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a0aa19e-9d4c-4b19-8019-3a64bc1b9451")
+	)
+	(junction
+		(at 266.7 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "785fa8a9-6773-43a3-84ed-bbf3d603d3ed")
+	)
+	(junction
+		(at 499.11 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddefdea7-3aad-4516-b71c-50d30dc83692")
+	)
+	(junction
+		(at 99.06 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d06d96-ae54-42ad-ba2a-1f326f3048a9")
+	)
+	(junction
+		(at 515.62 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87370bfb-8758-4fec-93b3-9bb8aa315c05")
+	)
+	(junction
+		(at 210.82 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2badf4c4-ad99-49a4-9b4f-108ff68d31eb")
+	)
+	(junction
+		(at 201.93 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e764280-f33f-4b1b-880f-44b21172587b")
+	)
+	(junction
+		(at 203.2 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d589cd9d-8920-4c90-877c-77cee7ad8945")
+	)
+	(junction
+		(at 345.44 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc4d8589-79fc-4cd3-a1a0-94d775bfb895")
+	)
+	(junction
+		(at 121.92 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abaf8363-70d0-4f4d-8599-a9fd9b201a54")
+	)
+	(junction
+		(at 515.62 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa134554-1f7a-4303-a9fb-e24a69e008bd")
+	)
+	(junction
+		(at 408.94 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c01831f-5913-4f21-9afb-87c1a465a2b7")
+	)
+	(junction
+		(at 287.02 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d924806-6c30-4faa-86ab-e5f6e681821b")
+	)
+	(junction
+		(at 38.1 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ede409fa-a33a-4457-abd2-6ad5944dd6f7")
+	)
+	(junction
+		(at 139.7 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ece5ded-3ab3-4837-9a86-84ddb4a0a61c")
+	)
+	(junction
+		(at 293.37 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69fc0c43-057d-4a0d-bc47-673820beefa5")
+	)
+	(junction
+		(at 287.02 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89dbcb2a-04d2-4ca2-b207-274c7f2a4eb6")
+	)
+	(junction
+		(at 429.26 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5c41d0-f2a6-4060-83a5-8b2930032af9")
+	)
+	(junction
+		(at 250.19 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4327b22-7c8f-4e73-a5c5-58dbf0672a5c")
+	)
+	(junction
+		(at 250.19 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e1f294-c0b7-4aca-9fa1-5769dd4cf32a")
+	)
+	(junction
+		(at 139.7 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6798862-fd44-4871-bdd2-368df6871a0f")
+	)
+	(junction
+		(at 426.72 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1987c6c6-9166-45db-bcda-d25438561609")
+	)
+	(junction
+		(at 99.06 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58a67a46-32a3-442f-bef0-5f0100eb33b4")
+	)
+	(junction
+		(at 293.37 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605666ca-d220-4dbd-9ba8-f092b69b9525")
+	)
+	(junction
+		(at 284.48 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a6c58e-e0aa-4441-a963-a1aea2d3b52a")
+	)
+	(junction
+		(at 345.44 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4083af96-2b33-48e3-8a0c-8f5a1c9784ab")
+	)
+	(junction
+		(at 429.26 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1938d2b-daf5-4456-8292-23d3f45d42be")
+	)
+	(wire
+		(pts
+			(xy 203.2 234.95)
+			(xy 266.7 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e56265-0e84-4006-a9f7-59d4fd9c142a")
+	)
+	(wire
+		(pts
+			(xy 435.61 299.72)
+			(xy 501.65 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5aab37-27d3-47e5-b557-ceaa512b3811")
+	)
+	(wire
+		(pts
+			(xy 426.72 147.32)
+			(xy 515.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c0fc20-4c5d-4608-b407-e0f86289514d")
+	)
+	(wire
+		(pts
+			(xy 44.45 252.73)
+			(xy 201.93 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53bb353-6f55-4f40-9c82-d9457424c178")
+	)
+	(wire
+		(pts
+			(xy 139.7 220.98)
+			(xy 139.7 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304f8412-5cb8-4e06-8825-358fd7bac2aa")
+	)
+	(wire
+		(pts
+			(xy 426.72 302.26)
+			(xy 499.11 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ee50fa-7286-44e6-b598-fafce7062623")
+	)
+	(wire
+		(pts
+			(xy 250.19 317.5)
+			(xy 293.37 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9bacb6-a5c5-47e3-8b92-f0569f6d64cb")
+	)
+	(wire
+		(pts
+			(xy 388.62 320.04)
+			(xy 499.11 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7acc049f-89df-43dd-a8e8-8a99e76ab7a2")
+	)
+	(wire
+		(pts
+			(xy 210.82 306.07)
+			(xy 210.82 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4a6e6f-b902-4a09-84a3-ab9d616f3c5e")
+	)
+	(wire
+		(pts
+			(xy 288.29 134.62)
+			(xy 288.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b7e7ab-335f-4a3b-9706-cf57437d1831")
+	)
+	(wire
+		(pts
+			(xy 201.93 264.16)
+			(xy 287.02 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df159ceb-83a0-43f8-90b8-1089e868a267")
+	)
+	(wire
+		(pts
+			(xy 426.72 231.14)
+			(xy 426.72 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb66668-cc29-4c20-939e-06754a6ede6a")
+	)
+	(wire
+		(pts
+			(xy 345.44 165.1)
+			(xy 515.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8b38d0-a2f7-442b-9df0-0159e6d6ca05")
+	)
+	(wire
+		(pts
+			(xy 345.44 147.32)
+			(xy 408.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c259343e-dfc3-4961-9433-2b15c09381a9")
+	)
+	(wire
+		(pts
+			(xy 139.7 234.95)
+			(xy 203.2 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1970a50-45c7-4a10-947d-704c83f0261c")
+	)
+	(wire
+		(pts
+			(xy 250.19 335.28)
+			(xy 293.37 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e6c67b-7af4-464c-8bf1-9a2a4e66ebb5")
+	)
+	(wire
+		(pts
+			(xy 121.92 215.9)
+			(xy 121.92 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52a6f4a-d2ad-448d-b75e-69c14d775bc0")
+	)
+	(wire
+		(pts
+			(xy 38.1 215.9)
+			(xy 121.92 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b874ad-e1c0-45c4-a64e-0b6b75e79aa2")
+	)
+	(wire
+		(pts
+			(xy 288.29 147.32)
+			(xy 345.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461aed75-6203-4f33-abc1-9c3f5350110d")
+	)
+	(wire
+		(pts
+			(xy 210.82 317.5)
+			(xy 250.19 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4197ac-af5f-40cc-ae6b-712df50472e1")
+	)
+	(wire
+		(pts
+			(xy 59.69 317.5)
+			(xy 99.06 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2b82bf-8ca6-4bfa-897b-0e7c331b9ff1")
+	)
+	(wire
+		(pts
+			(xy 284.48 220.98)
+			(xy 284.48 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0dd3a5-7c2d-4cfd-ab76-ae61c1c0bb1c")
+	)
+	(wire
+		(pts
+			(xy 426.72 134.62)
+			(xy 426.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9cb686-bf55-4c6f-87f0-ae5138b543e7")
+	)
+	(wire
+		(pts
+			(xy 501.65 299.72)
+			(xy 501.65 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853f967d-f14b-4a85-8fd3-fcb52b0afbc4")
+	)
+	(wire
+		(pts
+			(xy 266.7 220.98)
+			(xy 266.7 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e914e3-774e-42ca-b040-9757025f3105")
+	)
+	(wire
+		(pts
+			(xy 408.94 134.62)
+			(xy 408.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47541be6-19bf-45e4-95fe-d61641d85338")
+	)
+	(wire
+		(pts
+			(xy 38.1 215.9)
+			(xy 38.1 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1052a17a-7bbb-4046-b85f-e489564f2881")
+	)
+	(wire
+		(pts
+			(xy 38.1 231.14)
+			(xy 44.45 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9621710f-e61c-40e2-93db-f8ac41ea7bb7")
+	)
+	(wire
+		(pts
+			(xy 429.26 241.3)
+			(xy 435.61 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619c219d-ac30-43a3-82c2-58c519807cc4")
+	)
+	(wire
+		(pts
+			(xy 44.45 231.14)
+			(xy 44.45 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d3b96e-c0fc-46df-90f3-6972ffdeba4a")
+	)
+	(wire
+		(pts
+			(xy 201.93 252.73)
+			(xy 201.93 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd5953c-4598-4f7d-a1c5-7ce3d3a58943")
+	)
+	(wire
+		(pts
+			(xy 59.69 306.07)
+			(xy 59.69 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a40f36-f23b-411e-9ea9-f5274d49ce6e")
+	)
+	(wire
+		(pts
+			(xy 201.93 252.73)
+			(xy 203.2 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9ef343-f161-4861-8133-f23de1eed8b4")
+	)
+	(wire
+		(pts
+			(xy 388.62 302.26)
+			(xy 426.72 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82afda26-7346-4a1a-a250-b31f08c626a5")
+	)
+	(wire
+		(pts
+			(xy 435.61 241.3)
+			(xy 435.61 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fe0204-d679-4347-8e22-2b11d4817927")
+	)
+	(wire
+		(pts
+			(xy 99.06 335.28)
+			(xy 139.7 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfdb0ce-0657-4691-8a93-739e5d68edf0")
+	)
+	(wire
+		(pts
+			(xy 99.06 317.5)
+			(xy 139.7 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3080150-7cee-4169-a314-3cb38d918327")
+	)
+	(wire
+		(pts
+			(xy 429.26 240.03)
+			(xy 429.26 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6a755e-3152-4ceb-8b61-34970417a8a1")
+	)
+	(wire
+		(pts
+			(xy 429.26 229.87)
+			(xy 429.26 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed298b16-afab-4af5-a333-1d7bd9feddfb")
+	)
+	(wire
+		(pts
+			(xy 284.48 246.38)
+			(xy 287.02 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d01bf05-04c5-4549-a7cc-6e3a977aa1b6")
+	)
+	(wire
+		(pts
+			(xy 499.11 320.04)
+			(xy 501.65 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cc69c6-3fd7-4862-806d-cadce1be8a89")
+	)
+	(wire
+		(pts
+			(xy 38.1 229.87)
+			(xy 38.1 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f616e9ad-9f5a-4f95-b7da-4e5756e9fee2")
+	)
+	(wire
+		(pts
+			(xy 426.72 231.14)
+			(xy 429.26 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c758c1-caea-4495-aafa-00c2c65fcc94")
+	)
 )

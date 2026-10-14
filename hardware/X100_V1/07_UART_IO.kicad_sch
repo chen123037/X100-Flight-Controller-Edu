@@ -526,18 +526,19 @@
 		)
 	)
 	(text "External5V is protected EXT_5V; all UART/I2C signals3.3V."
-		(at 205 13.97 0)
+		(at 20 27 0)
 		(effects
 			(font
-				(size 1.4 1.4)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 6d1a9466-9be9-4962-bd7a-c6e186e3f909)
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9)
-			(xy 135.89000000000001 88.9)
+			(xy 142.24 96.52)
+			(xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +548,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 135.89000000000001 88.9 180)
+		(at 135.89 96.52 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -555,97 +556,7 @@
 		)
 		(uuid 7b361720-6ff1-4ab7-bff2-46bed2dd8685)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 88.9 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 142.24 91.44)
-			(xy 135.89000000000001 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid 6535286a-c714-4590-a164-571d0e8b1be7)
-	)
-	(global_label "GPS_TX"
-		(shape bidirectional)
-		(at 135.89000000000001 91.44 180)
-		(effects
-			(font
-				(size 0.9 0.9)
-			)
-		)
-		(uuid 67b6811c-45fe-438f-8c5b-f0346c181da8)
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 91.44 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 142.24 93.98)
-			(xy 135.89000000000001 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid 72d67d7e-02e0-482c-b09f-dd9b553b55ab)
-	)
-	(global_label "GPS_RX"
-		(shape bidirectional)
-		(at 135.89000000000001 93.98 180)
-		(effects
-			(font
-				(size 0.9 0.9)
-			)
-		)
-		(uuid 3346f6b4-d7b2-4c6b-a5b8-1809d42c985b)
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 93.98 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 142.24 96.52)
-			(xy 135.89000000000001 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid 7608a881-3bab-46a1-b4be-6caf355464e8)
-	)
-	(global_label "EXT_I2C1_SCL"
-		(shape bidirectional)
-		(at 135.89000000000001 96.52 180)
-		(effects
-			(font
-				(size 0.9 0.9)
-			)
-		)
-		(uuid 7fd930be-4a80-4172-9f86-cf4693f4e677)
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 96.52 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -657,25 +568,25 @@
 	(wire
 		(pts
 			(xy 142.24 99.06)
-			(xy 135.89000000000001 99.06)
+			(xy 135.89 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid abac33b4-978b-4806-88ff-c37023ee2219)
+		(uuid 6535286a-c714-4590-a164-571d0e8b1be7)
 	)
-	(global_label "EXT_I2C1_SDA"
+	(global_label "GPS_TX"
 		(shape bidirectional)
-		(at 135.89000000000001 99.06 180)
+		(at 135.89 99.06 180)
 		(effects
 			(font
 				(size 0.9 0.9)
 			)
 		)
-		(uuid 8cd1a40b-60e4-4f59-aa09-d4c9c49027bd)
+		(uuid 67b6811c-45fe-438f-8c5b-f0346c181da8)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 99.06 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -687,7 +598,97 @@
 	(wire
 		(pts
 			(xy 142.24 101.6)
-			(xy 135.89000000000001 101.6)
+			(xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 72d67d7e-02e0-482c-b09f-dd9b553b55ab)
+	)
+	(global_label "GPS_RX"
+		(shape bidirectional)
+		(at 135.89 101.6 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3346f6b4-d7b2-4c6b-a5b8-1809d42c985b)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14)
+			(xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7608a881-3bab-46a1-b4be-6caf355464e8)
+	)
+	(global_label "EXT_I2C1_SCL"
+		(shape bidirectional)
+		(at 135.89 104.14 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7fd930be-4a80-4172-9f86-cf4693f4e677)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68)
+			(xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid abac33b4-978b-4806-88ff-c37023ee2219)
+	)
+	(global_label "EXT_I2C1_SDA"
+		(shape bidirectional)
+		(at 135.89 106.68 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 8cd1a40b-60e4-4f59-aa09-d4c9c49027bd)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22)
+			(xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +698,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 135.89000000000001 101.6 180)
+		(at 135.89 109.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -705,7 +706,7 @@
 		)
 		(uuid 74074369-2d11-4064-9266-7d6d426c0eaa)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 101.6 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -716,7 +717,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:JST_GH6")
-		(at 149.86 95.25 0)
+		(at 149.86 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -724,23 +725,23 @@
 		(dnp no)
 		(uuid 8de4b93c-addf-48fa-87b2-2574a02ba460)
 		(property "Reference" "J701"
-			(at 149.86 73.66 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SM06B-GHS-TB(LF)(SN)"
-			(at 149.86 76.2 0)
+			(at 149.86 83.82 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -749,7 +750,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -758,7 +759,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -767,7 +768,7 @@
 			)
 		)
 		(property "MPN" "SM06B-GHS-TB(LF)(SN)"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -776,7 +777,7 @@
 			)
 		)
 		(property "Package" "GH1.25 6P side-entry SMT"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -785,7 +786,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 149.86 95.25 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -821,18 +822,19 @@
 		)
 	)
 	(text "GPS: FC_TX to receiverRX"
-		(at 150 65 0)
+		(at 28 147 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid b31a239f-202d-41f9-9a44-367e867eab0a)
 	)
 	(wire
 		(pts
-			(xy 322.58 88.9)
-			(xy 316.22999999999996 88.9)
+			(xy 421.64 96.52)
+			(xy 415.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +844,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 316.22999999999996 88.9 180)
+		(at 415.29 96.52 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -850,7 +852,7 @@
 		)
 		(uuid 6fb94392-b1e1-494e-a316-fca8de5871fb)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 88.9 0)
+			(at 415.29 96.52 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -861,8 +863,8 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 91.44)
-			(xy 316.22999999999996 91.44)
+			(xy 421.64 99.06)
+			(xy 415.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +874,7 @@
 	)
 	(global_label "TELEM_TX"
 		(shape bidirectional)
-		(at 316.22999999999996 91.44 180)
+		(at 415.29 99.06 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -880,7 +882,7 @@
 		)
 		(uuid afb3f781-0d7e-498b-b0ec-a3f95f86b9b8)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 91.44 0)
+			(at 415.29 99.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -891,8 +893,8 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 93.98)
-			(xy 316.22999999999996 93.98)
+			(xy 421.64 101.6)
+			(xy 415.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +904,7 @@
 	)
 	(global_label "TELEM_RX"
 		(shape bidirectional)
-		(at 316.22999999999996 93.98 180)
+		(at 415.29 101.6 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -910,7 +912,7 @@
 		)
 		(uuid ba44a60b-1c33-46eb-90e3-19dc2ae02b02)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 93.98 0)
+			(at 415.29 101.6 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -920,17 +922,17 @@
 		)
 	)
 	(no_connect
-		(at 322.58 96.52)
+		(at 421.64 104.14)
 		(uuid 65ddbf40-822d-46ed-9508-733fe7246a59)
 	)
 	(no_connect
-		(at 322.58 99.06)
+		(at 421.64 106.68)
 		(uuid 13cf4a26-a44d-469b-bb05-7b61e61b7705)
 	)
 	(wire
 		(pts
-			(xy 322.58 101.6)
-			(xy 316.22999999999996 101.6)
+			(xy 421.64 109.22)
+			(xy 415.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +942,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 316.22999999999996 101.6 180)
+		(at 415.29 109.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -948,7 +950,7 @@
 		)
 		(uuid 88e4c7ae-3743-41bb-b07b-321ba6eda267)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 101.6 0)
+			(at 415.29 109.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -959,7 +961,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:JST_GH6")
-		(at 330.2 95.25 0)
+		(at 429.26 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -967,23 +969,23 @@
 		(dnp no)
 		(uuid fb723895-2473-439e-b07f-b04a45c3ad92)
 		(property "Reference" "J702"
-			(at 330.2 73.66 0)
+			(at 429.26 81.28 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SM06B-GHS-TB(LF)(SN)"
-			(at 330.2 76.2 0)
+			(at 429.26 83.82 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -992,7 +994,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1001,7 +1003,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1010,7 +1012,7 @@
 			)
 		)
 		(property "MPN" "SM06B-GHS-TB(LF)(SN)"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1019,7 +1021,7 @@
 			)
 		)
 		(property "Package" "GH1.25 6P side-entry SMT"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1028,7 +1030,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 330.2 95.25 0)
+			(at 429.26 102.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1064,18 +1066,19 @@
 		)
 	)
 	(text "TELEM:4/5 NC no flow control"
-		(at 330 65 0)
+		(at 308 147 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid d5bba541-e9fa-461a-be55-3f8cd02149d6)
 	)
 	(wire
 		(pts
-			(xy 142.24 198.12)
-			(xy 135.89000000000001 198.12)
+			(xy 142.24 231.14)
+			(xy 135.89 231.14)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1088,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 135.89000000000001 198.12 180)
+		(at 135.89 231.14 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1093,7 +1096,7 @@
 		)
 		(uuid 0930f162-0c01-48d7-9541-e609a233454c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 198.12 0)
+			(at 135.89 231.14 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1104,8 +1107,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 200.66)
-			(xy 135.89000000000001 200.66)
+			(xy 142.24 233.68)
+			(xy 135.89 233.68)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1118,7 @@
 	)
 	(global_label "RC_TX"
 		(shape bidirectional)
-		(at 135.89000000000001 200.66 180)
+		(at 135.89 233.68 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1123,7 +1126,7 @@
 		)
 		(uuid f0f731cd-588e-4d1b-bd4a-fdb8f71da824)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 200.66 0)
+			(at 135.89 233.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1134,8 +1137,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 203.2)
-			(xy 135.89000000000001 203.2)
+			(xy 142.24 236.22)
+			(xy 135.89 236.22)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1148,7 @@
 	)
 	(global_label "RC_RX"
 		(shape bidirectional)
-		(at 135.89000000000001 203.2 180)
+		(at 135.89 236.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1153,7 +1156,7 @@
 		)
 		(uuid a3b407b3-38fc-47f3-8551-e17cab835b80)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 203.2 0)
+			(at 135.89 236.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1163,17 +1166,17 @@
 		)
 	)
 	(no_connect
-		(at 142.24 205.74)
+		(at 142.24 238.76)
 		(uuid c01c3ca0-2e8b-42a3-8c32-c113d1e86c09)
 	)
 	(no_connect
-		(at 142.24 208.28)
+		(at 142.24 241.3)
 		(uuid 6d41137d-94c4-4a8f-b251-cb613f3b46a9)
 	)
 	(wire
 		(pts
-			(xy 142.24 210.82)
-			(xy 135.89000000000001 210.82)
+			(xy 142.24 243.84)
+			(xy 135.89 243.84)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1186,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 135.89000000000001 210.82 180)
+		(at 135.89 243.84 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1191,7 +1194,7 @@
 		)
 		(uuid 3c3a72ac-eace-4193-af00-53f441452768)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 210.82 0)
+			(at 135.89 243.84 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1202,7 +1205,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:JST_GH6")
-		(at 149.86 204.47 0)
+		(at 149.86 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1210,23 +1213,23 @@
 		(dnp no)
 		(uuid 66e40413-1bf0-4005-9a8f-13dc50614c9d)
 		(property "Reference" "J703"
-			(at 149.86 182.88000000000002 0)
+			(at 149.86 215.9 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SM06B-GHS-TB(LF)(SN)"
-			(at 149.86 185.42000000000002 0)
+			(at 149.86 218.44 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1235,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1244,7 +1247,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1253,7 +1256,7 @@
 			)
 		)
 		(property "MPN" "SM06B-GHS-TB(LF)(SN)"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1262,7 +1265,7 @@
 			)
 		)
 		(property "Package" "GH1.25 6P side-entry SMT"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1271,7 +1274,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 149.86 204.47 0)
+			(at 149.86 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1307,18 +1310,19 @@
 		)
 	)
 	(text "RC: CRSF3.3V logic;4/5 NC"
-		(at 150 175 0)
+		(at 28 282 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 73faa20b-02a3-4135-a545-55bdfec2f1bc)
 	)
 	(wire
 		(pts
-			(xy 322.58 200.66)
-			(xy 316.22999999999996 200.66)
+			(xy 421.64 222.25)
+			(xy 415.29 222.25)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1332,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 316.22999999999996 200.66 180)
+		(at 415.29 222.25 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1336,7 +1340,7 @@
 		)
 		(uuid 58b0d9ed-5fbf-4c28-988e-1240b64fd3fa)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 200.66 0)
+			(at 415.29 222.25 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1347,8 +1351,8 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 203.2)
-			(xy 316.22999999999996 203.2)
+			(xy 421.64 224.79)
+			(xy 415.29 224.79)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1362,7 @@
 	)
 	(global_label "EXT_I2C1_SCL"
 		(shape bidirectional)
-		(at 316.22999999999996 203.2 180)
+		(at 415.29 224.79 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1366,7 +1370,7 @@
 		)
 		(uuid df2d874e-d0fa-48bc-ae00-9e5c595b5c67)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 203.2 0)
+			(at 415.29 224.79 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1377,8 +1381,8 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 205.74)
-			(xy 316.22999999999996 205.74)
+			(xy 421.64 227.33)
+			(xy 415.29 227.33)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1392,7 @@
 	)
 	(global_label "EXT_I2C1_SDA"
 		(shape bidirectional)
-		(at 316.22999999999996 205.74 180)
+		(at 415.29 227.33 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1396,7 +1400,7 @@
 		)
 		(uuid f0407527-aa99-4800-ada6-70c99e4b96f9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 205.74 0)
+			(at 415.29 227.33 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1407,8 +1411,8 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 208.28)
-			(xy 316.22999999999996 208.28)
+			(xy 421.64 229.87)
+			(xy 415.29 229.87)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1422,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 316.22999999999996 208.28 180)
+		(at 415.29 229.87 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1426,7 +1430,7 @@
 		)
 		(uuid 646d9df9-12e2-4d59-b53d-6f7ffb318df8)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.22999999999996 208.28 0)
+			(at 415.29 229.87 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1437,7 +1441,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:JST_GH4")
-		(at 330.2 204.47 0)
+		(at 429.26 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,23 +1449,23 @@
 		(dnp no)
 		(uuid 8612c5ce-fec8-4b7a-8dad-daf86d802bbe)
 		(property "Reference" "J704"
-			(at 330.2 185.42000000000002 0)
+			(at 429.26 207.01 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SM04B-GHS-TB(LF)(SN)"
-			(at 330.2 187.96 0)
+			(at 429.26 209.55 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1470,7 +1474,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1479,7 +1483,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1488,7 +1492,7 @@
 			)
 		)
 		(property "MPN" "SM04B-GHS-TB(LF)(SN)"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1497,7 +1501,7 @@
 			)
 		)
 		(property "Package" "GH1.25 4P side-entry SMT"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1506,7 +1510,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 330.2 204.47 0)
+			(at 429.26 226.06 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1537,8 +1541,8 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 241.3)
-			(xy 270.51 234.95000000000002)
+			(xy 360.68 266.7)
+			(xy 360.68 260.35)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1552,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 270.51 234.95000000000002 0)
+		(at 360.68 260.35 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1556,7 +1560,7 @@
 		)
 		(uuid cc40f1ad-a821-4041-96e6-1c181fc4d0df)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 234.95000000000002 0)
+			(at 360.68 260.35 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1567,8 +1571,8 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 248.92000000000002)
-			(xy 270.51 255.27)
+			(xy 360.68 274.32)
+			(xy 360.68 280.67)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1582,7 @@
 	)
 	(global_label "EXT_I2C1_SCL"
 		(shape bidirectional)
-		(at 270.51 255.27 0)
+		(at 360.68 280.67 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1586,7 +1590,7 @@
 		)
 		(uuid e2630754-075b-412b-91b2-1e7e4f15eea3)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 255.27 0)
+			(at 360.68 280.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1597,7 +1601,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_4k7")
-		(at 270.51 245.11 0)
+		(at 360.68 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1605,25 +1609,25 @@
 		(dnp no)
 		(uuid ee3c5198-18a0-499d-beab-d228494e2360)
 		(property "Reference" "R701"
-			(at 278.13 243.84 0)
+			(at 368.3 269.24 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "4.7k externalSCL pullup"
-			(at 278.13 246.38000000000002 0)
+			(at 368.3 271.78 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1632,7 +1636,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1641,7 +1645,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1650,7 +1654,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-074K7L"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1659,7 +1663,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1668,7 +1672,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1677,7 +1681,7 @@
 			)
 		)
 		(property "Specification Value" "4k7 ohm"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1686,7 +1690,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1695,7 +1699,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1704,7 +1708,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1713,7 +1717,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 270.51 245.11 0)
+			(at 360.68 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1738,8 +1742,8 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 241.3)
-			(xy 369.57 234.95000000000002)
+			(xy 480.06 266.7)
+			(xy 480.06 260.35)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +1753,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 369.57 234.95000000000002 0)
+		(at 480.06 260.35 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1757,7 +1761,7 @@
 		)
 		(uuid 8e531695-b78e-4daa-927d-896453c1c6e5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.57 234.95000000000002 0)
+			(at 480.06 260.35 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1768,8 +1772,8 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 248.92000000000002)
-			(xy 369.57 255.27)
+			(xy 480.06 274.32)
+			(xy 480.06 280.67)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1783,7 @@
 	)
 	(global_label "EXT_I2C1_SDA"
 		(shape bidirectional)
-		(at 369.57 255.27 0)
+		(at 480.06 280.67 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1787,7 +1791,7 @@
 		)
 		(uuid 4e611aad-ba3c-4b24-8850-58ed84613998)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.57 255.27 0)
+			(at 480.06 280.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1798,7 +1802,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_4k7")
-		(at 369.57 245.11 0)
+		(at 480.06 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1806,25 +1810,25 @@
 		(dnp no)
 		(uuid 70ef6b6e-a27b-46f3-94d8-6e388123a22f)
 		(property "Reference" "R702"
-			(at 377.19 243.84 0)
+			(at 487.68 269.24 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "4.7k externalSDA pullup"
-			(at 377.19 246.38000000000002 0)
+			(at 487.68 271.78 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1833,7 +1837,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1842,7 +1846,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1851,7 +1855,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-074K7L"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1860,7 +1864,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1869,7 +1873,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1878,7 +1882,7 @@
 			)
 		)
 		(property "Specification Value" "4k7 ohm"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1887,7 +1891,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1896,7 +1900,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1905,7 +1909,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1914,7 +1918,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 369.57 245.11 0)
+			(at 480.06 270.51 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1938,18 +1942,19 @@
 		)
 	)
 	(text "GPS and externalI2C share I2C1. Combined pullups/cable capacitance must satisfy rise time."
-		(at 205 274 0)
+		(at 20 400 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid 687ca2fb-e655-4d93-8156-b0dbbe8fa5ad)
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 35.56)
-			(xy 509.2700000000001 35.56)
+			(xy 306.07 321.31)
+			(xy 299.72 321.31)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1964,7 @@
 	)
 	(global_label "GPS_TX"
 		(shape bidirectional)
-		(at 509.2700000000001 35.56 180)
+		(at 299.72 321.31 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1967,7 +1972,7 @@
 		)
 		(uuid 9357f42a-6ca6-42a1-8cc1-9234aa696f06)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 35.56 0)
+			(at 299.72 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1978,7 +1983,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 35.56 0)
+		(at 309.88 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1986,25 +1991,25 @@
 		(dnp no)
 		(uuid 459b56eb-4df6-4b8b-bc1c-ed026439f13c)
 		(property "Reference" "TP701"
-			(at 527.0500000000001 34.29 0)
+			(at 317.5 320.04 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GPS_TX"
-			(at 527.0500000000001 36.830000000000005 0)
+			(at 317.5 322.58 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2013,7 +2018,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2022,7 +2027,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2031,7 +2036,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2040,7 +2045,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2049,7 +2054,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 35.56 0)
+			(at 309.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2071,8 +2076,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 43.18)
-			(xy 509.2700000000001 43.18)
+			(xy 369.57 321.31)
+			(xy 363.22 321.31)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2087,7 @@
 	)
 	(global_label "GPS_RX"
 		(shape bidirectional)
-		(at 509.2700000000001 43.18 180)
+		(at 363.22 321.31 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2090,7 +2095,7 @@
 		)
 		(uuid c3a19a8f-c878-4e76-9b57-964dad871bd1)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 43.18 0)
+			(at 363.22 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2101,7 +2106,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 43.18 0)
+		(at 373.38 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2109,25 +2114,25 @@
 		(dnp no)
 		(uuid 31329a7c-9196-49f1-bd16-1992b3738ab4)
 		(property "Reference" "TP702"
-			(at 527.0500000000001 41.91 0)
+			(at 381 320.04 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GPS_RX"
-			(at 527.0500000000001 44.45 0)
+			(at 381 322.58 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2136,7 +2141,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2145,7 +2150,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2154,7 +2159,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2163,7 +2168,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2172,7 +2177,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 43.18 0)
+			(at 373.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2194,8 +2199,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 50.8)
-			(xy 509.2700000000001 50.8)
+			(xy 433.07 321.31)
+			(xy 426.72 321.31)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2210,7 @@
 	)
 	(global_label "TELEM_TX"
 		(shape bidirectional)
-		(at 509.2700000000001 50.8 180)
+		(at 426.72 321.31 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2213,7 +2218,7 @@
 		)
 		(uuid 3abe3a8c-66f3-4397-a2a8-d29c0d4015e6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 50.8 0)
+			(at 426.72 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2224,7 +2229,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 50.8 0)
+		(at 436.88 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2232,25 +2237,25 @@
 		(dnp no)
 		(uuid 92ebc61c-c8f4-4cc2-ba32-0ce1473e9837)
 		(property "Reference" "TP703"
-			(at 527.0500000000001 49.529999999999994 0)
+			(at 444.5 320.04 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "TELEM_TX"
-			(at 527.0500000000001 52.07 0)
+			(at 444.5 322.58 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2259,7 +2264,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2268,7 +2273,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2277,7 +2282,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2286,7 +2291,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2295,7 +2300,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 50.8 0)
+			(at 436.88 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2317,8 +2322,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 58.42)
-			(xy 509.2700000000001 58.42)
+			(xy 496.57 321.31)
+			(xy 490.22 321.31)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2333,7 @@
 	)
 	(global_label "TELEM_RX"
 		(shape bidirectional)
-		(at 509.2700000000001 58.42 180)
+		(at 490.22 321.31 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2336,7 +2341,7 @@
 		)
 		(uuid 6072066a-322a-4a37-b1f7-bb1e3d3a201a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 58.42 0)
+			(at 490.22 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2347,7 +2352,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 58.42 0)
+		(at 500.38 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2355,25 +2360,25 @@
 		(dnp no)
 		(uuid d560f7f8-e9e2-45c8-971f-7a14e6348b2b)
 		(property "Reference" "TP704"
-			(at 527.0500000000001 57.15 0)
+			(at 508 320.04 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "TELEM_RX"
-			(at 527.0500000000001 59.690000000000005 0)
+			(at 508 322.58 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2382,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2391,7 +2396,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2400,7 +2405,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2409,7 +2414,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2418,7 +2423,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 58.42 0)
+			(at 500.38 321.31 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2440,8 +2445,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 67.31)
-			(xy 509.2700000000001 67.31)
+			(xy 306.07 341.63)
+			(xy 299.72 341.63)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2456,7 @@
 	)
 	(global_label "RC_TX"
 		(shape bidirectional)
-		(at 509.2700000000001 67.31 180)
+		(at 299.72 341.63 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2459,7 +2464,7 @@
 		)
 		(uuid fc3b9cda-a990-48b4-bc6d-5feef367879a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 67.31 0)
+			(at 299.72 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2470,7 +2475,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 67.31 0)
+		(at 309.88 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2478,25 +2483,25 @@
 		(dnp no)
 		(uuid 71c2d51b-cc34-4df4-84df-bc965ee1254c)
 		(property "Reference" "TP705"
-			(at 527.0500000000001 66.04 0)
+			(at 317.5 340.36 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "RC_TX"
-			(at 527.0500000000001 68.58 0)
+			(at 317.5 342.9 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2505,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2514,7 +2519,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2523,7 +2528,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2532,7 +2537,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2541,7 +2546,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 67.31 0)
+			(at 309.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2563,8 +2568,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 74.93)
-			(xy 509.2700000000001 74.93)
+			(xy 369.57 341.63)
+			(xy 363.22 341.63)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2579,7 @@
 	)
 	(global_label "RC_RX"
 		(shape bidirectional)
-		(at 509.2700000000001 74.93 180)
+		(at 363.22 341.63 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2582,7 +2587,7 @@
 		)
 		(uuid cd2fd1ab-964f-4dc9-be63-7b1dfce0d1b2)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 74.93 0)
+			(at 363.22 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2593,7 +2598,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 74.93 0)
+		(at 373.38 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2601,25 +2606,25 @@
 		(dnp no)
 		(uuid e76b6cff-dd32-4adc-b867-ce2d55c025be)
 		(property "Reference" "TP706"
-			(at 527.0500000000001 73.66000000000001 0)
+			(at 381 340.36 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "RC_RX"
-			(at 527.0500000000001 76.2 0)
+			(at 381 342.9 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2628,7 +2633,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2637,7 +2642,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2646,7 +2651,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2655,7 +2660,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2664,7 +2669,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 74.93 0)
+			(at 373.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2686,8 +2691,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 82.55)
-			(xy 509.2700000000001 82.55)
+			(xy 433.07 341.63)
+			(xy 426.72 341.63)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2702,7 @@
 	)
 	(global_label "EXT_I2C1_SCL"
 		(shape bidirectional)
-		(at 509.2700000000001 82.55 180)
+		(at 426.72 341.63 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2705,7 +2710,7 @@
 		)
 		(uuid 769fc2ad-e5ae-4b91-9999-f2b680314024)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 82.55 0)
+			(at 426.72 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2716,7 +2721,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 82.55 0)
+		(at 436.88 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2724,25 +2729,25 @@
 		(dnp no)
 		(uuid 363ae0b9-9cc5-47f8-91b5-e9ef6c230edc)
 		(property "Reference" "TP707"
-			(at 527.0500000000001 81.28 0)
+			(at 444.5 340.36 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "EXT_I2C1_SCL"
-			(at 527.0500000000001 83.82 0)
+			(at 444.5 342.9 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2751,7 +2756,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2760,7 +2765,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2769,7 +2774,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2778,7 +2783,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2787,7 +2792,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 82.55 0)
+			(at 436.88 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2809,8 +2814,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 91.44)
-			(xy 509.2700000000001 91.44)
+			(xy 496.57 341.63)
+			(xy 490.22 341.63)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2825,7 @@
 	)
 	(global_label "EXT_I2C1_SDA"
 		(shape bidirectional)
-		(at 509.2700000000001 91.44 180)
+		(at 490.22 341.63 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2828,7 +2833,7 @@
 		)
 		(uuid 7de8ead4-1a79-49c5-9db0-e5e32bfd64e1)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 91.44 0)
+			(at 490.22 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2839,7 +2844,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 91.44 0)
+		(at 500.38 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2847,25 +2852,25 @@
 		(dnp no)
 		(uuid dda1c7c2-86a8-40fd-b3c5-6ea1d17266bb)
 		(property "Reference" "TP708"
-			(at 527.0500000000001 90.17 0)
+			(at 508 340.36 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "EXT_I2C1_SDA"
-			(at 527.0500000000001 92.71 0)
+			(at 508 342.9 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2874,7 +2879,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2883,7 +2888,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2892,7 +2897,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2901,7 +2906,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2910,7 +2915,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 91.44 0)
+			(at 500.38 341.63 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2932,8 +2937,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 99.06)
-			(xy 509.2700000000001 99.06)
+			(xy 306.07 361.95)
+			(xy 299.72 361.95)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +2948,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 509.2700000000001 99.06 180)
+		(at 299.72 361.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2951,7 +2956,7 @@
 		)
 		(uuid 0fe5d28c-6937-414a-89b3-2961aaeb361b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 99.06 0)
+			(at 299.72 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2962,7 +2967,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 99.06 0)
+		(at 309.88 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2970,25 +2975,25 @@
 		(dnp no)
 		(uuid bb8eb64c-9302-4657-af8b-e60a46285312)
 		(property "Reference" "TP709"
-			(at 527.0500000000001 97.79 0)
+			(at 317.5 360.68 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "EXT_5V"
-			(at 527.0500000000001 100.33 0)
+			(at 317.5 363.22 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2997,7 +3002,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3006,7 +3011,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3015,7 +3020,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3024,7 +3029,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3033,7 +3038,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 99.06 0)
+			(at 309.88 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3055,8 +3060,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 106.68)
-			(xy 509.2700000000001 106.68)
+			(xy 369.57 361.95)
+			(xy 363.22 361.95)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3071,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 509.2700000000001 106.68 180)
+		(at 363.22 361.95 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3074,7 +3079,7 @@
 		)
 		(uuid a4c1668e-f9b4-45cc-9f90-bc7428eb5dd9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 106.68 0)
+			(at 363.22 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3085,7 +3090,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 106.68 0)
+		(at 373.38 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3093,25 +3098,25 @@
 		(dnp no)
 		(uuid e6fdf517-7cb0-45b4-98a5-55d16247c1b1)
 		(property "Reference" "TP710"
-			(at 527.0500000000001 105.41000000000001 0)
+			(at 381 360.68 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GND"
-			(at 527.0500000000001 107.95 0)
+			(at 381 363.22 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3120,7 +3125,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3129,7 +3134,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3138,7 +3143,7 @@
 			)
 		)
 		(property "MPN" "TP1p5"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3147,7 +3152,7 @@
 			)
 		)
 		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3156,7 +3161,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 106.68 0)
+			(at 373.38 361.95 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3178,7 +3183,7 @@
 	)
 	(hierarchical_label "EXT_5V"
 		(shape bidirectional)
-		(at 30.48 17.78 0)
+		(at 204.47 320.04 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3188,8 +3193,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 17.78)
-			(xy 55.879999999999995 17.78)
+			(xy 204.47 320.04)
+			(xy 229.87 320.04)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3204,7 @@
 	)
 	(global_label "EXT_5V"
 		(shape bidirectional)
-		(at 55.879999999999995 17.78 0)
+		(at 229.87 320.04 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3207,7 +3212,7 @@
 		)
 		(uuid 78f10ea5-be7d-487d-945b-9b081b68e6ca)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 17.78 0)
+			(at 229.87 320.04 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3218,7 +3223,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 30.48 21.59 0)
+		(at 204.47 323.85 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3228,8 +3233,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 21.59)
-			(xy 55.879999999999995 21.59)
+			(xy 204.47 323.85)
+			(xy 229.87 323.85)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3244,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 55.879999999999995 21.59 0)
+		(at 229.87 323.85 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3247,7 +3252,7 @@
 		)
 		(uuid f53185c8-21a4-4d86-912e-487b72be7be8)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 21.59 0)
+			(at 229.87 323.85 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3258,7 +3263,7 @@
 	)
 	(hierarchical_label "GPS_TX"
 		(shape bidirectional)
-		(at 30.48 25.400000000000002 0)
+		(at 27.94 320.04 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3268,8 +3273,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.400000000000002)
-			(xy 55.879999999999995 25.400000000000002)
+			(xy 27.94 320.04)
+			(xy 53.34 320.04)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3284,7 @@
 	)
 	(global_label "GPS_TX"
 		(shape bidirectional)
-		(at 55.879999999999995 25.400000000000002 0)
+		(at 53.34 320.04 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3287,7 +3292,7 @@
 		)
 		(uuid 857aa991-32cd-4d5b-a4c5-df8ef114576a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 25.400000000000002 0)
+			(at 53.34 320.04 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3298,7 +3303,7 @@
 	)
 	(hierarchical_label "TELEM_TX"
 		(shape bidirectional)
-		(at 30.48 29.21 0)
+		(at 27.94 323.85 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3308,8 +3313,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 29.21)
-			(xy 55.879999999999995 29.21)
+			(xy 27.94 323.85)
+			(xy 53.34 323.85)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3324,7 @@
 	)
 	(global_label "TELEM_TX"
 		(shape bidirectional)
-		(at 55.879999999999995 29.21 0)
+		(at 53.34 323.85 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3327,7 +3332,7 @@
 		)
 		(uuid dd260d02-6caf-45e6-8926-e7a52c50f2fc)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 29.21 0)
+			(at 53.34 323.85 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3338,7 +3343,7 @@
 	)
 	(hierarchical_label "RC_TX"
 		(shape bidirectional)
-		(at 30.48 33.02 0)
+		(at 115.57 320.04 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3348,8 +3353,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 33.02)
-			(xy 55.879999999999995 33.02)
+			(xy 115.57 320.04)
+			(xy 140.97 320.04)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3364,7 @@
 	)
 	(global_label "RC_TX"
 		(shape bidirectional)
-		(at 55.879999999999995 33.02 0)
+		(at 140.97 320.04 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3367,7 +3372,7 @@
 		)
 		(uuid 4100cfdc-0386-4f92-8486-d7bfa1a48545)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 33.02 0)
+			(at 140.97 320.04 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3378,7 +3383,7 @@
 	)
 	(hierarchical_label "GPS_RX"
 		(shape bidirectional)
-		(at 30.48 36.83 0)
+		(at 27.94 327.66 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3388,8 +3393,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83)
-			(xy 55.879999999999995 36.83)
+			(xy 27.94 327.66)
+			(xy 53.34 327.66)
 		)
 		(stroke
 			(width 0)
@@ -3399,7 +3404,7 @@
 	)
 	(global_label "GPS_RX"
 		(shape bidirectional)
-		(at 55.879999999999995 36.83 0)
+		(at 53.34 327.66 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3407,7 +3412,7 @@
 		)
 		(uuid d5a5df34-5c3d-41d5-80d6-45d788b507e3)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 36.83 0)
+			(at 53.34 327.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3418,7 +3423,7 @@
 	)
 	(hierarchical_label "TELEM_RX"
 		(shape bidirectional)
-		(at 30.48 40.64 0)
+		(at 27.94 331.47 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3428,8 +3433,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64)
-			(xy 55.879999999999995 40.64)
+			(xy 27.94 331.47)
+			(xy 53.34 331.47)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3444,7 @@
 	)
 	(global_label "TELEM_RX"
 		(shape bidirectional)
-		(at 55.879999999999995 40.64 0)
+		(at 53.34 331.47 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3447,7 +3452,7 @@
 		)
 		(uuid fed23959-4e31-4b7a-8c4a-37014d9ac617)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 40.64 0)
+			(at 53.34 331.47 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3458,7 +3463,7 @@
 	)
 	(hierarchical_label "RC_RX"
 		(shape bidirectional)
-		(at 30.48 44.45 0)
+		(at 115.57 323.85 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3468,8 +3473,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45)
-			(xy 55.879999999999995 44.45)
+			(xy 115.57 323.85)
+			(xy 140.97 323.85)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3484,7 @@
 	)
 	(global_label "RC_RX"
 		(shape bidirectional)
-		(at 55.879999999999995 44.45 0)
+		(at 140.97 323.85 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3487,7 +3492,7 @@
 		)
 		(uuid e8f8c54b-4433-4abc-abc6-7fb56af3ec6d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 44.45 0)
+			(at 140.97 323.85 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3498,7 +3503,7 @@
 	)
 	(hierarchical_label "EXT_I2C1_SCL"
 		(shape bidirectional)
-		(at 30.48 48.260000000000005 0)
+		(at 115.57 327.66 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3508,8 +3513,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 48.260000000000005)
-			(xy 55.879999999999995 48.260000000000005)
+			(xy 115.57 327.66)
+			(xy 140.97 327.66)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3524,7 @@
 	)
 	(global_label "EXT_I2C1_SCL"
 		(shape bidirectional)
-		(at 55.879999999999995 48.260000000000005 0)
+		(at 140.97 327.66 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3527,7 +3532,7 @@
 		)
 		(uuid 221cd41c-0914-45ec-83d0-bc2ce9bee596)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 48.260000000000005 0)
+			(at 140.97 327.66 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3538,7 +3543,7 @@
 	)
 	(hierarchical_label "EXT_I2C1_SDA"
 		(shape bidirectional)
-		(at 30.48 52.07 0)
+		(at 115.57 331.47 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -3548,8 +3553,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 52.07)
-			(xy 55.879999999999995 52.07)
+			(xy 115.57 331.47)
+			(xy 140.97 331.47)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3564,7 @@
 	)
 	(global_label "EXT_I2C1_SDA"
 		(shape bidirectional)
-		(at 55.879999999999995 52.07 0)
+		(at 140.97 331.47 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3567,7 +3572,7 @@
 		)
 		(uuid 4d3fdd01-bcea-4db0-b43c-bd53f717b081)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 52.07 0)
+			(at 140.97 331.47 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3577,4 +3582,324 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(text "07 串口与通用IO / UART AND GENERAL I/O"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "56061ada-ac95-437a-89c1-a2ddba9e66a1")
+	)
+	(rectangle
+		(start 18 36)
+		(end 288 161)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "58ae17f4-0727-4047-9698-816beeafda34")
+	)
+	(text "GPS 接口 / GPS INTERFACE"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d9a5663c-804b-4f02-ba41-0864c597bfd4")
+	)
+	(rectangle
+		(start 298 36)
+		(end 572 161)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a2243cfd-c305-43a5-8087-9619171776e0")
+	)
+	(text "遥测接口 / TELEMETRY INTERFACE"
+		(at 303 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "fc406abb-8a95-416d-90ac-f62311759d80")
+	)
+	(rectangle
+		(start 18 171)
+		(end 288 296)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "47fae343-462a-45b2-83fe-e52f69e1313f")
+	)
+	(text "RC 接收机 / RC RECEIVER · CRSF"
+		(at 23 177 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1aa94dfa-2acf-4b2e-8750-0c49b02ee146")
+	)
+	(rectangle
+		(start 298 171)
+		(end 572 296)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "61ce1fca-7da1-4b90-aa36-bb12ba3b6c1a")
+	)
+	(text "外部 I2C / EXTERNAL I2C"
+		(at 303 177 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bd04359e-ada6-460e-8dd7-937f5c4f65c5")
+	)
+	(text "GPS / TELEM"
+		(at 27.94 312.42 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b1b883cc-e4ff-4dbe-a9c6-8ce1ac604952")
+	)
+	(text "RC / EXTERNAL I2C"
+		(at 115.57 312.42 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6eb2eb8a-5b02-4cdf-bcb1-cbf33c3a9799")
+	)
+	(text "POWER / GND"
+		(at 204.47 312.42 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "210c385b-6976-4f82-89e0-9ba7e06062a6")
+	)
+	(junction
+		(at 480.06 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6b031ad-502e-478a-b680-92fb73af2e2c")
+	)
+	(junction
+		(at 480.06 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c894486-4fed-4946-a67f-24356aad3d46")
+	)
+	(junction
+		(at 416.56 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bafebdfd-0714-49b7-9da8-42141f18e245")
+	)
+	(junction
+		(at 360.68 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "564c84e8-465e-4fc5-b367-a40eb3a693a4")
+	)
+	(junction
+		(at 416.56 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f34a52-75f9-4cf8-b2fb-0b0c7dccbd7e")
+	)
+	(junction
+		(at 360.68 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4329473-e0ea-4701-8531-1d7a0be6d488")
+	)
+	(wire
+		(pts
+			(xy 482.6 261.62)
+			(xy 482.6 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe82f3f-56a7-4ed7-9266-efc36b8e5bf5")
+	)
+	(wire
+		(pts
+			(xy 480.06 261.62)
+			(xy 482.6 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58b5f2f-78ff-46cb-abe7-301e9b787b16")
+	)
+	(wire
+		(pts
+			(xy 363.22 226.06)
+			(xy 363.22 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b669c663-ad8e-4176-8804-972ef794075d")
+	)
+	(wire
+		(pts
+			(xy 360.68 279.4)
+			(xy 363.22 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4900f6-a99d-4291-b7d6-b3cd97a1350d")
+	)
+	(wire
+		(pts
+			(xy 358.14 281.94)
+			(xy 482.6 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe9db17-57b8-4525-9505-837368a92dbb")
+	)
+	(wire
+		(pts
+			(xy 422.91 279.4)
+			(xy 480.06 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d52a844-438a-45bc-b0eb-53e31b67fb57")
+	)
+	(wire
+		(pts
+			(xy 422.91 228.6)
+			(xy 422.91 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929baab3-1a1b-418d-9622-ec1a1a35b3ca")
+	)
+	(wire
+		(pts
+			(xy 363.22 226.06)
+			(xy 416.56 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbba3e8c-d282-4335-9b40-90c11c93f6ed")
+	)
+	(wire
+		(pts
+			(xy 358.14 261.62)
+			(xy 358.14 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94630137-3d2d-496b-a525-1e7756042529")
+	)
+	(wire
+		(pts
+			(xy 416.56 228.6)
+			(xy 422.91 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bd9eba-0fd7-498b-857e-dc566b69bb1d")
+	)
+	(wire
+		(pts
+			(xy 416.56 224.79)
+			(xy 416.56 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f729cbd0-8af0-4d2c-a485-f3ee2c253069")
+	)
+	(wire
+		(pts
+			(xy 358.14 261.62)
+			(xy 360.68 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce726aca-98bb-4a0a-b945-731d98822124")
+	)
+	(wire
+		(pts
+			(xy 416.56 227.33)
+			(xy 416.56 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b691af55-58b3-4758-8ce4-91bbaa7782ee")
+	)
 )
