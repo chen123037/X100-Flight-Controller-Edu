@@ -431,149 +431,6 @@
 			)
 		)
 	)
-	(footprint "X100_Physical:TP1p5_NoPaste"
-		(layer "F.Cu")
-		(uuid "0385c48b-6924-47b8-8b76-a6920925e0a2")
-		(at 102.8 78.75)
-		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
-		(property "Reference" "TP809"
-			(at 0 -2.75 0)
-			(layer "F.SilkS")
-			(uuid "cec763f2-14db-4186-955f-8e0fd664c83e")
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 0 2.75 0)
-			(layer "F.Fab")
-			(uuid "c1ccbc94-d381-47e4-a9a3-583f88d2127d")
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-			)
-		)
-		(property "Datasheet" "C/D testpoint policy"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a9c25c6-d779-4b48-a69e-3f62c4aaf14b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "692602fe-786e-482d-9ee5-539d166e26f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "X100 PCB feature"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17dc7f2c-93a5-4b23-8620-bb4f9ed26f71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "TP1p5"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de0c5416-e12c-4470-89ad-2034cb943c5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "1.5mm top probe"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a171c10-2474-4b64-815f-ee1ece84eb15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74ae6f7c-676c-41a8-a40e-fd671fdb289d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/a9529562-e378-4132-a719-b7e35975257c/d8654715-1a57-477b-afa0-5bdf4a89df45")
-		(sheetname "/08_PWM_ADC_DEBUG/")
-		(sheetfile "08_PWM_ADC_DEBUG.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -1.25)
-			(end 1.25 1.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fe508f14-17aa-4282-9675-474365f8d206")
-		)
-		(fp_rect
-			(start -0.75 -0.75)
-			(end 0.75 0.75)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "e9d2f573-9266-45cf-a00a-889c3d8da93e")
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
-			(net "GND")
-			(pinfunction "TP_1")
-			(pintype "passive")
-			(uuid "d8fff802-08fe-4201-bb97-26bbfbb2812b")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "MountingHole:MountingHole_4mm"
 		(layer "F.Cu")
 		(uuid "03a5fbe8-0608-4c65-ba1b-0aa342287172")
@@ -11548,10 +11405,10 @@
 	(footprint "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
 		(layer "F.Cu")
 		(uuid "5ece6424-acd1-4086-9b96-95b8124050b9")
-		(at 105.3 81.45 180)
+		(at 78.95 82 90)
 		(descr "Samtec exact TSW print/footprint;0.635square post;1.02mm finished drill")
 		(property "Reference" "J802"
-			(at 0 -3.27 180)
+			(at 0 -3.27 90)
 			(layer "F.SilkS")
 			(uuid "6d6583c7-8052-49f0-acc7-a3a165087c65")
 			(effects
@@ -11561,7 +11418,7 @@
 			)
 		)
 		(property "Value" "OUT2 /GND"
-			(at 0 5.81 180)
+			(at 0 5.81 90)
 			(layer "F.Fab")
 			(uuid "f7ac388f-1be8-4d38-9ac6-1ddd00ad9342")
 			(effects
@@ -11571,7 +11428,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8841313f-b4e3-4ff9-b46c-7fc05260a425")
@@ -11582,7 +11439,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d8eda28-7ad4-45a0-8b78-f2e089ec3e98")
@@ -11593,7 +11450,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11606,7 +11463,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11619,7 +11476,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11632,7 +11489,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11678,7 +11535,7 @@
 			(uuid "6a16d093-0889-497a-8c6d-e0403071c43d")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.8 1.8)
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
@@ -11689,7 +11546,7 @@
 			(uuid "b82f1e0e-219b-42bd-9604-4cd2434fd016")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54 180)
+			(at 0 2.54 90)
 			(size 1.8 1.8)
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
@@ -11698,174 +11555,6 @@
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "5f1d9768-eb31-4473-ac6b-f5513a79f20f")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste"
-		(layer "F.Cu")
-		(uuid "5fa0b7d8-8a97-4be0-a247-b71dc622fbf9")
-		(at 79.2 84.15 180)
-		(descr "PCB02C default OPEN CAN termination solder bridge; 1x1.5 mm pads, 0.3 mm copper gap; continuous mask opening, NO PASTE; no BOM/position item. Derived from installed KiCad 10 Jumper library.")
-		(tags "solder jumper open")
-		(property "Reference" "JP601"
-			(at 0 -1.8 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6ebecaaa-c564-4578-a9c1-890e2da0957d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "CAN TERM 120R / OPEN"
-			(at 0 1.9 180)
-			(layer "F.Fab")
-			(uuid "f81a7ca1-4536-45e9-8d0f-cb5fc5b0c998")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acfcc80e-e531-4990-9517-6e56326274fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6a500e9-5c79-4747-9b00-28a7773244f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/7087b015-6c25-414d-b3cf-5bdaa0d605aa/47a7cf62-a1dd-4e60-92ae-a40040345bca")
-		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.15 -0.75)
-			(end 0.15 0.75)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "ef2aab95-0613-4bee-849d-592301b023ba")
-		)
-		(fp_line
-			(start 1.4 1)
-			(end -1.4 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a44f9fe9-ef02-4b3d-a7f3-9caf05293abd")
-		)
-		(fp_line
-			(start 1.4 -1)
-			(end 1.4 1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed0d37d4-f019-4aef-8eea-2acadf845809")
-		)
-		(fp_line
-			(start -1.4 1)
-			(end -1.4 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75230409-5fcb-49dc-a0bf-550bee347717")
-		)
-		(fp_line
-			(start -1.4 -1)
-			(end 1.4 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db28d478-8e59-4e02-8fc2-7ce760e2664e")
-		)
-		(fp_line
-			(start 1.65 1.25)
-			(end 1.65 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "644bb889-5f78-4645-8ee4-8e2b0b8d3c42")
-		)
-		(fp_line
-			(start 1.65 1.25)
-			(end -1.65 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1b030b2e-b6c5-4518-8309-27066a5a2dd6")
-		)
-		(fp_line
-			(start -1.65 -1.25)
-			(end 1.65 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7b70b584-5bce-4efb-99b1-63084f5ff221")
-		)
-		(fp_line
-			(start -1.65 -1.25)
-			(end -1.65 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3d18b91c-afe6-44c8-ac70-91b5d1f6a790")
-		)
-		(pad "1" smd rect
-			(at -0.65 0 180)
-			(size 1 1.5)
-			(layers "F.Cu" "F.Mask")
-			(net "CAN_TERM")
-			(solder_mask_margin 0)
-			(uuid "1b8a345a-a302-4e2d-855b-ffae2105ce93")
-		)
-		(pad "2" smd rect
-			(at 0.65 0 180)
-			(size 1 1.5)
-			(layers "F.Cu" "F.Mask")
-			(net "CANL")
-			(solder_mask_margin 0)
-			(uuid "dcc69972-99fd-4335-ab94-6479e0f4901d")
 		)
 		(embedded_fonts no)
 	)
@@ -15181,7 +14870,7 @@
 	(footprint "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7f5e934d-886c-46df-b2bb-10e37ef1ecfa")
-		(at 91.65 80.705 180)
+		(at 100.1 80.705 180)
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J701"
@@ -19941,10 +19630,10 @@
 	(footprint "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
 		(layer "F.Cu")
 		(uuid "98056972-3c27-41fa-ae9a-f9799c8243b8")
-		(at 100.3 81.45 180)
+		(at 79.8 78.95 90)
 		(descr "Samtec exact TSW print/footprint;0.635square post;1.02mm finished drill")
 		(property "Reference" "J801"
-			(at 0 -3.27 180)
+			(at 0 -3.27 90)
 			(layer "F.SilkS")
 			(uuid "c8d0306a-56ec-413f-878a-7f0b84e86f5e")
 			(effects
@@ -19954,7 +19643,7 @@
 			)
 		)
 		(property "Value" "OUT1 /GND"
-			(at 0 5.81 180)
+			(at 0 5.81 90)
 			(layer "F.Fab")
 			(uuid "d5a7a3fe-e5aa-45cc-af77-63b080974781")
 			(effects
@@ -19964,7 +19653,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8507f753-00f0-4ee9-8879-3446a8cf03ef")
@@ -19975,7 +19664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6774db8a-976d-4ef2-8a24-7ffad9e121ff")
@@ -19986,7 +19675,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19999,7 +19688,7 @@
 			)
 		)
 		(property "MPN" "TSW-102-07-G-S"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20012,7 +19701,7 @@
 			)
 		)
 		(property "Package" "1x2 2.54 THT top insertion"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20025,7 +19714,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20071,7 +19760,7 @@
 			(uuid "974cd8ca-7554-4ede-a666-81968da10bf9")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.8 1.8)
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
@@ -20082,7 +19771,7 @@
 			(uuid "6836177b-29bf-4aac-b594-cfe940266ab8")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54 180)
+			(at 0 2.54 90)
 			(size 1.8 1.8)
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
@@ -21975,7 +21664,7 @@
 	(footprint "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "aad1f49c-02b0-4dab-bbda-5c03524eab78")
-		(at 81.75 80.2 180)
+		(at 89.3 80.705 180)
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J601"
@@ -26409,281 +26098,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-		(layer "F.Cu")
-		(uuid "d61f4891-a86a-4770-bb24-77ffa9619412")
-		(at 98.05 82.15 90)
-		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "resistor")
-		(property "Reference" "R204"
-			(at 0 -1.65 90)
-			(layer "F.SilkS")
-			(uuid "7ec6372a-b92b-4920-81bd-1d71cc313525")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "10k BOOT0 default LOW"
-			(at 0 1.65 90)
-			(layer "F.Fab")
-			(uuid "a1102342-bf7a-4e7e-8939-be51fed883c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24a1fdcd-171c-475d-9eb4-c39cd4080bfe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84eadf93-7fc8-47da-b336-500790ccda1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a54310f1-1410-4801-9d23-2e5ed0834d3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0adbbda4-5ee0-4095-b9ad-bcd4d3699793")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "RC0805FR-0710KL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0841f99c-3335-4f77-b585-3ff7233516ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e829078d-704a-4ab1-9fbb-99fa15fdb432")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f5b9d69-8a47-41d3-a75b-9d9f92a78d53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Specification Value" "10k ohm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c103ecbe-7139-497c-9b2a-b3dc78192924")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4085a1eb-a29f-4406-aa63-66138ea36d98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "N/A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b779345b-699e-4299-a16b-f607d4c3fb4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage Rating" ">=100V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "867de092-79dd-4782-a09d-e89748af0cce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Power Rating" ">=0.125W"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ddbb19e6-4d32-42bc-9e43-ca899dc468d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Official_Resistor_SMD_R_0805_2012Metric")
-		(path "/883cc889-203b-4364-8838-b2a24ad41969/c4a6f704-f7ae-4e31-b74d-0fb32383e380")
-		(sheetname "/02_MCU/")
-		(sheetfile "02_MCU.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "85c54f9c-a85e-4bd9-833b-9351c0c0ad28")
-		)
-		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5845e451-c745-4419-b48f-6aa738330bfd")
-		)
-		(fp_rect
-			(start -1.68 -0.95)
-			(end 1.68 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "44b47e7a-de11-401c-b49a-b18c37907831")
-		)
-		(fp_rect
-			(start -1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "7f107b6f-d8ba-429e-ad1d-5f8523c79f2d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "83da3b31-433e-479c-8b4d-eb01c7fb01be")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.9125 0 90)
-			(size 1.025 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.243902)
-			(net "BOOT0")
-			(pintype "passive")
-			(uuid "4789a94f-77b1-4554-b7d8-05e4375ea9bd")
-		)
-		(pad "2" smd roundrect
-			(at 0.9125 0 90)
-			(size 1.025 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.243902)
-			(net "GND")
-			(pintype "passive")
-			(uuid "e0fdfbb5-1e02-4233-817b-16e19502e8ff")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d7a359ec-9d33-4ae0-9925-c146b7d47a37")
@@ -29665,7 +29079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../docs/SOURCES.md"
+		(property "Datasheet" "${KIPRJMOD}/../../docs/Components/Barometer/SPL06-001/Goertek_SPL06-001_Datasheet_V7.0.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30312,6 +29726,157 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "X100_Physical:TP1p5_NoPaste"
+		(layer "B.Cu")
+		(uuid "0385c48b-6924-47b8-8b76-a6920925e0a2")
+		(at 106.45 79)
+		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
+		(property "Reference" "TP809"
+			(at 0 2.75 180)
+			(layer "B.SilkS")
+			(uuid "cec763f2-14db-4186-955f-8e0fd664c83e")
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -2.75 180)
+			(layer "B.Fab")
+			(uuid "c1ccbc94-d381-47e4-a9a3-583f88d2127d")
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a9c25c6-d779-4b48-a69e-3f62c4aaf14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "692602fe-786e-482d-9ee5-539d166e26f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17dc7f2c-93a5-4b23-8620-bb4f9ed26f71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "de0c5416-e12c-4470-89ad-2034cb943c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a171c10-2474-4b64-815f-ee1ece84eb15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74ae6f7c-676c-41a8-a40e-fd671fdb289d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/a9529562-e378-4132-a719-b7e35975257c/d8654715-1a57-477b-afa0-5bdf4a89df45")
+		(sheetname "/08_PWM_ADC_DEBUG/")
+		(sheetfile "08_PWM_ADC_DEBUG.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.25 1.25)
+			(end 1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "fe508f14-17aa-4282-9675-474365f8d206")
+		)
+		(fp_rect
+			(start -0.75 0.75)
+			(end 0.75 -0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "e9d2f573-9266-45cf-a00a-889c3d8da93e")
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net "GND")
+			(pinfunction "TP_1")
+			(pintype "passive")
+			(uuid "d8fff802-08fe-4201-bb97-26bbfbb2812b")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "B.Cu")
@@ -32839,7 +32404,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "1b2c99e1-6d59-48a7-b620-a88b13a41168")
-		(at 86.875 82)
+		(at 95.5 79)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP710"
 			(at 0 2.75 180)
@@ -32990,7 +32555,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "1b788a3e-84cf-456e-be36-a4172a260c2c")
-		(at 90.375 82)
+		(at 92 78.9)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP707"
 			(at 0 2.75 180)
@@ -35080,7 +34645,7 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "419f56fe-6305-4492-b59d-042432a338a2")
-		(at 79.5 83.15)
+		(at 89.7 82.2)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R602"
@@ -36432,7 +35997,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "5e7836c3-0adb-4a8d-b688-0ddcc8fc2323")
-		(at 83 82)
+		(at 90.25 79)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP603"
 			(at 0 2.75 180)
@@ -36577,6 +36142,178 @@
 			(pinfunction "TP_1")
 			(pintype "passive")
 			(uuid "620674de-3e62-45c4-9bf4-a37c827a150d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste"
+		(layer "B.Cu")
+		(uuid "5fa0b7d8-8a97-4be0-a247-b71dc622fbf9")
+		(at 85.9 81.5 180)
+		(descr "PCB02C default OPEN CAN termination solder bridge; 1x1.5 mm pads, 0.3 mm copper gap; continuous mask opening, NO PASTE; no BOM/position item. Derived from installed KiCad 10 Jumper library.")
+		(tags "solder jumper open")
+		(property "Reference" "JP601"
+			(at 0 1.8 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6ebecaaa-c564-4578-a9c1-890e2da0957d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "CAN TERM 120R / OPEN"
+			(at 0 -1.9 180)
+			(layer "B.Fab")
+			(uuid "f81a7ca1-4536-45e9-8d0f-cb5fc5b0c998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "acfcc80e-e531-4990-9517-6e56326274fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6a500e9-5c79-4747-9b00-28a7773244f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/7087b015-6c25-414d-b3cf-5bdaa0d605aa/47a7cf62-a1dd-4e60-92ae-a40040345bca")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.15 0.75)
+			(end 0.15 -0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "ef2aab95-0613-4bee-849d-592301b023ba")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ed0d37d4-f019-4aef-8eea-2acadf845809")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a44f9fe9-ef02-4b3d-a7f3-9caf05293abd")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "db28d478-8e59-4e02-8fc2-7ce760e2664e")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "75230409-5fcb-49dc-a0bf-550bee347717")
+		)
+		(fp_line
+			(start 1.65 -1.25)
+			(end 1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "644bb889-5f78-4645-8ee4-8e2b0b8d3c42")
+		)
+		(fp_line
+			(start 1.65 -1.25)
+			(end -1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1b030b2e-b6c5-4518-8309-27066a5a2dd6")
+		)
+		(fp_line
+			(start -1.65 1.25)
+			(end 1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7b70b584-5bce-4efb-99b1-63084f5ff221")
+		)
+		(fp_line
+			(start -1.65 1.25)
+			(end -1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3d18b91c-afe6-44c8-ac70-91b5d1f6a790")
+		)
+		(pad "1" smd rect
+			(at -0.65 0 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net "CAN_TERM")
+			(solder_mask_margin 0)
+			(uuid "1b8a345a-a302-4e2d-855b-ffae2105ce93")
+		)
+		(pad "2" smd rect
+			(at 0.65 0 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net "CANL")
+			(solder_mask_margin 0)
+			(uuid "dcc69972-99fd-4335-ab94-6479e0f4901d")
 		)
 		(embedded_fonts no)
 	)
@@ -37158,7 +36895,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "6c54e7ad-8a8d-4ae2-8a94-007a6e094dd1")
-		(at 88.625 82)
+		(at 93.75 78.9)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP708"
 			(at 0 2.75 180)
@@ -40510,7 +40247,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "8a82d5cc-efe1-4a9a-9128-96586915daad")
-		(at 78.8 79)
+		(at 85 79)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP605"
 			(at 0 2.75 180)
@@ -43271,7 +43008,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "c34bb8c0-ce39-4b94-ac25-9c665d5fe199")
-		(at 82 80.4)
+		(at 88.5 79)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP703"
 			(at 0 2.75 180)
@@ -44440,6 +44177,296 @@
 			)
 		)
 	)
+	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+		(layer "B.Cu")
+		(uuid "d61f4891-a86a-4770-bb24-77ffa9619412")
+		(at 104 79.9)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R204"
+			(at 0 1.65 180)
+			(layer "B.SilkS")
+			(uuid "7ec6372a-b92b-4920-81bd-1d71cc313525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "10k BOOT0 default LOW"
+			(at 0 -1.65 180)
+			(layer "B.Fab")
+			(uuid "a1102342-bf7a-4e7e-8939-be51fed883c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24a1fdcd-171c-475d-9eb4-c39cd4080bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84eadf93-7fc8-47da-b336-500790ccda1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a54310f1-1410-4801-9d23-2e5ed0834d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0adbbda4-5ee0-4095-b9ad-bcd4d3699793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0841f99c-3335-4f77-b585-3ff7233516ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e829078d-704a-4ab1-9fbb-99fa15fdb432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f5b9d69-8a47-41d3-a75b-9d9f92a78d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Specification Value" "10k ohm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c103ecbe-7139-497c-9b2a-b3dc78192924")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4085a1eb-a29f-4406-aa63-66138ea36d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b779345b-699e-4299-a16b-f607d4c3fb4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "867de092-79dd-4782-a09d-e89748af0cce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddbb19e6-4d32-42bc-9e43-ca899dc468d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Official_Resistor_SMD_R_0805_2012Metric")
+		(path "/883cc889-203b-4364-8838-b2a24ad41969/c4a6f704-f7ae-4e31-b74d-0fb32383e380")
+		(sheetname "/02_MCU/")
+		(sheetfile "02_MCU.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5845e451-c745-4419-b48f-6aa738330bfd")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "85c54f9c-a85e-4bd9-833b-9351c0c0ad28")
+		)
+		(fp_rect
+			(start -1.68 0.95)
+			(end 1.68 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "44b47e7a-de11-401c-b49a-b18c37907831")
+		)
+		(fp_rect
+			(start -1 0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "7f107b6f-d8ba-429e-ad1d-5f8523c79f2d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "83da3b31-433e-479c-8b4d-eb01c7fb01be")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0)
+			(size 1.025 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.243902)
+			(net "BOOT0")
+			(pintype "passive")
+			(uuid "4789a94f-77b1-4554-b7d8-05e4375ea9bd")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0)
+			(size 1.025 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.243902)
+			(net "GND")
+			(pintype "passive")
+			(uuid "e0fdfbb5-1e02-4233-817b-16e19502e8ff")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
 		(layer "B.Cu")
 		(uuid "d85bc79e-1bd0-4de3-8419-a9d9bb50fba2")
@@ -45174,7 +45201,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "dcb1e64f-9ff0-4277-a9d1-1671fc2d4490")
-		(at 83.5 79)
+		(at 86.75 79)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP604"
 			(at 0 2.75 180)

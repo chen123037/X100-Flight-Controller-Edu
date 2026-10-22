@@ -46,11 +46,11 @@
 
 人工新裁决：`USB_ONLY_CORE_POWER_SUPPORT=REQUIRED_FOR_V1`。未来必须仅插电脑USB、无VBAT即可完成MCU启动、USB设备枚举、DFU/bootloader/firmware flashing、ArduPilot刷写、地面站连接与参数配置、基础桌面调试及SWD/USB必要核心逻辑运行。**这些是需求，不是当前能力或已测试结果。**
 
-推荐支持BMI088/SPL06-001核心传感器，但3V3_SENSOR完整域、microSD/3V3_SD是否一起供电必须由后续ECO的电流预算和供电架构裁决，本轮不假定。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
+2026-10-22用户选择方案1：尽可能支持BMI088/SPL06-001桌面检测与校准；microSD不作为USB-only强制负载，且不得妨碍MCU启动、USB与参数配置。若固件确实依赖SD，先报告再裁决。此处仅确认需求，未批准具体架构或器件。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
 
-`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J601/J401共7条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[HANDOFF](../HANDOFF.md)，详细边界见[电源架构](POWER_ARCHITECTURE.md)。
+`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J401仍保留的4条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[HANDOFF](../HANDOFF.md)，详细边界见[电源架构](POWER_ARCHITECTURE.md)。
 
-## 后续USB_ONLY_CORE_POWER_ECO合同（尚未设计）
+## USB_ONLY_CORE_POWER_ECO合同（正式方案尚未批准）
 
 此需求文档不能当成已执行的ECO。保持`FORMAL_USB_HOST_BACKFEED_HARDWARE_EXCLUDED`原则：禁止USB_VBUS_RAW直接硬并5V_MAIN，禁止USB 5V与TPS54360B 5V直接并联，禁止未经reverse-current/fault分析直接用普通Schottky拼接，禁止重新引入5V_MAIN/3V3/VBAT→USB VBUS反灌。
 
@@ -64,7 +64,7 @@
 | --- | --- |
 | 3V3_MCU / MCU核心、USB PHY、必要调试逻辑 | 必须满足核心启动/枚举/刷写/配置；路径、预算及必要支路由ECO定义 |
 | 3V3_SENSOR / BMI088、SPL06-001 | 推荐支持核心传感器，但是否供完整域待预算/架构裁决 |
-| 3V3_SD / microSD | 是否纳入待裁决，不默认支持 |
+| 3V3_SD / microSD | 非强制负载，且不得妨碍核心；若实际固件依赖则先报告再决定 |
 | 5V_MAIN | 是否/如何纳入核心电源管理待裁决，绝不能与USB_VBUS_RAW硬并 |
 | EXT_SWITCH_OUT / EXT_5V / external 5V interfaces | 外部大负载默认不由USB供电；隔离/禁用方式须明确设计 |
 | ESC propulsion / Motor / Servo / 其它动力系统 | USB禁止供电，仍走Battery/PDB→ESC→Motor独立动力路径 |
@@ -73,7 +73,7 @@
 
 后续分别估算**startup、boot、idle、firmware flashing、normal configuration**，列出STM32H743、3V3 regulator losses、BMI088、SPL06、USB protection/sense、LED、其它core loads，以及SD（仅当决定USB供电）。推荐传感器若未纳入也需明确“未供电”，不能在预算中悄悄遗漏。
 
-旧3V3 operating budget=0.889A是保守工程预算，**不是USB模式实测需求，禁止直接照搬**。本轮不产生新数值、不选择IC。USB2.0 device / Type-C UFP、CC1/CC2 Rd和no PD high-voltage request保持，未经另行裁决不加入USB-PD，不默认主机可供1.5A或3A；须依据合法USB/Type-C默认供电能力与实际分阶段电流预算设计。
+旧3V3 operating budget=0.889A是保守工程预算，**不是USB模式实测需求，禁止直接照搬**。当前仅有隔离候选及初算，未形成已通过预算或正式选型。USB2.0 device / Type-C UFP、CC1/CC2 Rd和no PD high-voltage request保持，未经另行裁决不加入USB-PD，不默认主机可供1.5A或3A；须依据合法USB/Type-C默认供电能力与实际分阶段电流预算设计。
 
 ### 电源安全审查必答项
 
@@ -92,4 +92,4 @@ USB VBUS输入保护、USB→core限流、USB/VBAT ORing或等价管理、revers
 | G | Both → remove USB | 由VBAT安全继续，无异常rail transient |
 | Host-off边界 | 主机关闭 / VBUS low / 故障组合 | 无向PC反灌；限流、反向阻断、时序及brownout行为符合批准合同 |
 
-当前上述USB-only目标未实现、未测。完整门槛见[STAGE USB-PWR](ROADMAP.md)，本轮只记录，完成文档后STOP。
+当前目标未实现、未测。2026-10-22正在按授权清障，隔离候选及电流/SD/固件问题见[工程审查](USB_CORE_POWER_REVIEW.md)；具体架构与新器件仍须另行裁决。完整门槛见[STAGE USB-PWR](ROADMAP.md)。

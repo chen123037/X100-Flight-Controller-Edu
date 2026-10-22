@@ -1,7 +1,7 @@
 # X100 V1 后续开发路线图
 ## Development Roadmap
 
-当前处于**布线前：STAGE USB-PWR与Stage 0门槛均未关闭**，后续阶段是计划，均未执行。文件存在、placement完成或模型通过不能替代阶段验收。每阶段人工确认进入/完成条件并保存版本和证据；本轮文档工作结束即STOP，不启动其中任何硬件操作。
+当前处于**布线前：STAGE USB-PWR与Stage 0门槛均未关闭**，后续阶段是计划，均未执行。文件存在、placement完成或模型通过不能替代阶段验收。2026-10-22已授权清障并推进布线到可投板；具体电源架构与新器件仍待裁决，技术前置条件保持。
 
 ## STAGE USB-PWR：USB独立核心供电设计（USB-only Core Power ECO）
 
@@ -11,21 +11,21 @@
 | 主要工作（MAIN WORK） | define powered rails / not-powered rails；分状态current budget；power-path architecture；reverse blocking；dual-source sequencing；exact component selection；minimal schematic ECO；placement impact；safety review |
 | 完成条件（EXIT CONDITION） | USB_ONLY_CORE_POWER_ARCHITECTURE=PASS；USB_HOST_BACKFEED_REVIEW=PASS；USB_CURRENT_BUDGET=PASS；ERC=PASS；PRE_ROUTING_POWER_ARCHITECTURE=PASS；新网表/BOM/rail清单/检查证据固化 |
 
-此处PASS是未来ECO设计审查门槛，不代表当前实现或实板验收；状态A–G与host-off测试仍须在样机上完成。Stage0的制造确认可并行，但Stage1必须等USB-PWR和制造/几何门槛同时闭合。不得直接把USB与主Buck 5V并联；本轮不选器件或实施ECO。
+此处PASS是未来ECO设计审查门槛，不代表当前实现或实板验收；状态A–G与host-off测试仍须在样机上完成。Stage0的制造确认可并行，但Stage1必须等USB-PWR和制造/几何门槛同时闭合。不得直接把USB与主Buck 5V并联；隔离研究稿不等于正式ECO，具体架构/新器件经用户裁决后才能推广。
 
 ## Stage 0：关闭布线前阻塞
 
 | 阶段字段 | 中文说明 |
 | --- | --- |
-| 进入条件（ENTRY CONDITION） | 当前冻结教学基线，尚有J6013条、J4014条真实阻塞 |
-| 主要工作（MAIN WORK） | 按人工局部裁决关闭J601；取得JLCPCB对J401官方land明确结论；复核fresh ERC/DRC/几何 |
-| 完成条件（EXIT CONDITION） | 7条真实制造阻塞关闭，规则/板框保持；ECO后数量依新批准基线核对，不能继续假定201；其余报告分类，保存checkpoint并提交人工review |
+| 进入条件（ENTRY CONDITION） | 2026-10-22正式源：J601原3条已关闭，J401仍4条；USB电源前置条件未通过 |
+| 主要工作（MAIN WORK） | 复核J601已保存的局部结果；裁决J401官方land制造结论或Amphenol替代候选；复核fresh ERC/DRC/几何 |
+| 完成条件（EXIT CONDITION） | 原7条真实制造问题全部关闭（2026-10-22：J601的3条已关闭，正式J401仍4条），规则/板框保持；ECO后数量依新批准基线核对，不能继续假定201；其余报告分类，保存checkpoint并提交人工review |
 
 ## Stage 1：PCB03正式布线
 
 | 阶段字段 | 中文说明 |
 | --- | --- |
-| 进入条件（ENTRY CONDITION） | STAGE USB-PWR与阶段0均完成，人工确认ROUTING_PRECONDITIONS_MET=YES并明确PCB03授权 |
+| 进入条件（ENTRY CONDITION） | STAGE USB-PWR与阶段0均完成，技术确认ROUTING_PRECONDITIONS_MET=YES；具体电源架构/新器件已裁决，已有本轮推进布线授权 |
 | 主要工作（MAIN WORK） | 按冻结顺序布线功率、时钟、USB、传感/SD/CAN、模拟和IO；每步readback、DRC与checkpoint |
 | 完成条件（EXIT CONDITION） | 全部必要网络互连及GND参考/回流实现，未连接闭合，保留阶段验证证据 |
 

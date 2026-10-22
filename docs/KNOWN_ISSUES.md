@@ -1,6 +1,6 @@
 # 当前已知问题（Known Issues）
 
-当前不可制造、不可试飞。两类真实制造阻塞共7条，另有USB-only核心供电功能/电源架构阻塞，不能靠扩大板框或全局放宽规则获得DRC PASS。
+当前不可制造、不可试飞。J601原3条已关闭，正式J401仍有4条孔铜报告，另有USB-only核心供电功能/电源架构阻塞，不能靠扩大板框或全局放宽规则获得DRC PASS。
 
 ## 新增V1要求：USB独立核心供电（USB-only Core Power）
 
@@ -8,17 +8,13 @@
 
 人工新裁决：`USB_ONLY_CORE_POWER_SUPPORT=REQUIRED_FOR_V1`。未来必须仅插电脑USB、无VBAT即可完成MCU启动、USB设备枚举、DFU/bootloader/firmware flashing、ArduPilot刷写、地面站连接与参数配置、基础桌面调试及SWD/USB必要核心逻辑运行。**这些是需求，不是当前能力或已测试结果。**
 
-推荐支持BMI088/SPL06-001核心传感器，但3V3_SENSOR完整域、microSD/3V3_SD是否一起供电必须由后续ECO的电流预算和供电架构裁决，本轮不假定。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
+尽可能支持BMI088/SPL06-001桌面检测与校准；microSD不是强制负载，且不得妨碍MCU启动、USB和参数配置。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
 
-`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J601/J401共7条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[HANDOFF](../HANDOFF.md)，详细边界见[电源架构](POWER_ARCHITECTURE.md)。
+`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J401仍保留的4条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[HANDOFF](../HANDOFF.md)，详细边界见[电源架构](POWER_ARCHITECTURE.md)。
 
-## 1. J601接口制造空间问题（Connector Clearance）
+## 1. J601 局部制造问题已关闭（2026-10-22）
 
-J601两只JST GH机械固定焊盘（MP pad）的铜到板边均为 **0.000 mm**，未满足0.50 mm全局铜边距。`EXT_5V` pin1到H1非金属化安装孔（NPTH）为 **0.075 mm**，未满足当前0.25 mm孔铜距。合计3条真实DRC。
-
-下一步建议仅局部释放 **R204、J801、J802的位置**，重新工程摆放J601/J701接口带；这是待人工批准的最小架构调整建议。既有范围内候选没有可靠方案，不能由此认定45×45 mm整体架构失败。
-
-禁止移动H1、扩大板框、削减JST官方land或全局放宽clearance。局部调整仍需检查线束插拔、JP601可焊/可吸锡空间和相邻接口，不继续高成本穷举。
+本次授权下由 plant_kicad_v1 完成局部15项重排，原两处板边和一处H1孔铜报告消失。未动孔/板框/核心电路，未削官方land或放宽规则；逐项读回和fresh DRC见[当前状态](../STATUS.md)。不代表全板放行。
 
 ## 2. J401 USB-C内部孔铜间距（Internal Hole-to-Copper Clearance）
 
@@ -37,4 +33,4 @@ J601两只JST GH机械固定焊盘（MP pad）的铜到板边均为 **0.000 mm**
 - **DRC收尾：** 丝印/文字与courtyard元数据需后续分类处理，尚无整板制造DRC PASS。
 - **软件与飞行：** 本板ArduPilot hwdef、实板外设、安装方向、台架和飞行验证均未完成。
 
-下一步按[接手指南](../HANDOFF.md)处理，不自动进入PCB03。
+2026-10-22：已有[Amphenol未批准候选](../hardware/proposals/J401_AMPHENOL_UNAPPROVED/README.md)。USB-only功能范围及固件/启动电流新发现见[工程审查](USB_CORE_POWER_REVIEW.md)。新器件与电源方案未裁决、技术前置条件未通过前，不进入正式布线。
