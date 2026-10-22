@@ -21,3 +21,8 @@
 ## 2026-10-23正式布局基线
 
 见[测试点紧凑化实质检查](docs/COMPACT_PROBE_LAYOUT_REVIEW.md)。完整courtyard重叠234对；所有65测点和引脚网络保持，0.6mm点需要细针探测。正式源hardware/X100_V1及三份BOM/采购表已同步。仍有411未连接；J401/J501/J808组合、ADC/SWD等区域需重新安排，尚无完整可用放置解。USB电源Stage3是历史候选，不能直接覆盖当前正式测试点。
+
+
+## 右侧接口净空正式更新（2026-10-23）
+
+见[八件放置及证据](docs/RIGHT_PORT_CLEARANCE_REVIEW.md)。正式courtyard重叠230对、DRC报告628+411未连接、ERC0/0/native parity0。旧晶体/电源候选不得覆盖整个PCB；新选型应按改动集成并保留本次右侧接口、LED和C111位置。新晶体选型待用户裁决；未进入正式布线或制造放行。

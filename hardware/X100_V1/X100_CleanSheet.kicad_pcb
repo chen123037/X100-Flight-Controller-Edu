@@ -1323,7 +1323,7 @@
 	(footprint "X100_Physical:Official_LED_SMD_LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0fb2f76c-397c-4298-9dd9-270fc0d015d4")
-		(at 120 88.8)
+		(at 120 88)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D201"
@@ -1584,7 +1584,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "1362fef6-9918-473a-93b3-1939e6abbbac")
-		(at 115.5 89.5)
+		(at 113.5 90)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C111"
@@ -13036,7 +13036,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "6ea14899-47f7-4a3a-84ec-e60cd95eab30")
-		(at 115.7 104.675)
+		(at 115.2 104.675)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP706"
 			(at 0 -2.3 0)
@@ -13935,11 +13935,11 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "75674c77-494e-4713-a1c0-db278a5cb209")
-		(at 120 92.5)
+		(at 121 117 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R207"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "cca29ceb-67cb-4098-bb9e-8bc69aa71eb5")
 			(effects
@@ -13950,7 +13950,7 @@
 			)
 		)
 		(property "Value" "1.2k PWR current"
-			(at 0 1.65 0)
+			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "ad045440-9355-48a0-8e5f-a8151f972656")
 			(effects
@@ -13961,7 +13961,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071K2L"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "117fea49-6432-471a-a3fe-50a7d095901b")
@@ -13972,7 +13972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "220a0f8e-c11a-4cd4-a81f-d99340dd76f1")
@@ -13983,7 +13983,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3a9e848b-a69b-452d-ad07-829e8808c40a")
@@ -13995,7 +13995,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78aa4c69-8403-4a79-b454-71aa1b946f2f")
@@ -14007,7 +14007,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071K2L"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9dfef57-2cb5-4735-b3f3-2be544af6ed6")
@@ -14019,7 +14019,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f8de3fe-39f8-41a2-9de0-62980cef4ff0")
@@ -14031,7 +14031,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM; PCB01F3 prototype 1.2k authorized"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ebfb847-358a-4394-8aaf-291976f7f00c")
@@ -14043,7 +14043,7 @@
 			)
 		)
 		(property "Specification Value" "1.2k ohm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6861be9f-dbf9-4236-80b1-279f41fd1182")
@@ -14055,7 +14055,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "807220a1-9297-4ddf-b21a-55dc27b31126")
@@ -14067,7 +14067,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11743533-14db-469a-a15a-756f7f5f7757")
@@ -14079,7 +14079,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d28bbf6a-e588-48de-b039-935346e68cde")
@@ -14091,7 +14091,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3d9663f-4ff0-4d1d-8ff9-1373af3a5761")
@@ -14103,7 +14103,7 @@
 			)
 		)
 		(property "LCSC" "C114526"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1122e10-40b4-4ee6-8ed9-17e526381edf")
@@ -14160,7 +14160,7 @@
 			(uuid "d2d01592-20a7-46cb-ad7e-d1be41e0d700")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8309ced6-6802-46ac-8025-3ba0a43cac71")
 			(effects
@@ -14171,7 +14171,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
@@ -14179,7 +14179,7 @@
 			(uuid "66b1e92d-df0e-4436-b609-0774b1881d71")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
@@ -19591,7 +19591,7 @@
 	(footprint "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "94c8897a-5eea-4f18-9c33-bec68e397682")
-		(at 119.3 98.899999 90)
+		(at 119.3 95.2 90)
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J809"
@@ -20525,7 +20525,7 @@
 	(footprint "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "996b7fcb-9cfd-40e7-ad39-a675ba519f97")
-		(at 119.3 110.05 90)
+		(at 119.3 107.2 90)
 		(descr "JST GH series connector, SM06B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J703"
@@ -26826,11 +26826,11 @@
 	(footprint "X100_Physical:Official_LED_SMD_LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "da303fdb-4451-44f4-a3ad-569e18a656ee")
-		(at 120 90.75)
+		(at 118.7 117 90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D202"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "12769ab1-12be-4399-8a9a-122f3e64a2d4")
 			(effects
@@ -26841,7 +26841,7 @@
 			)
 		)
 		(property "Value" "GREEN; 3V3_MCU_PRESENT"
-			(at 0 1.65 0)
+			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "90731bc6-3881-4dd0-9871-1153c0dbbb2b")
 			(effects
@@ -26852,7 +26852,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-003/LTST-C170GKT.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2164a013-f51a-4d61-93c1-d228a4779c8a")
@@ -26863,7 +26863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9cde2f0e-e56c-4bdb-bc8d-dc67624f2861")
@@ -26874,7 +26874,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "126854d9-ceb9-4c3e-9bc8-65f8b060440c")
@@ -26886,7 +26886,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a1e5e39-300d-4331-95d7-7a7b79753cf2")
@@ -26898,7 +26898,7 @@
 			)
 		)
 		(property "MPN" "LTST-C170GKT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e820788f-effc-43a1-9be1-0767f8e092a8")
@@ -26910,7 +26910,7 @@
 			)
 		)
 		(property "Package" "0805 LED"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7332cf3d-c5fd-4ce6-849a-83083cb83292")
@@ -26922,7 +26922,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; same LED as D201; not ordered"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1367725f-1685-4a11-a2d1-2eea964c9f8b")
@@ -26934,7 +26934,7 @@
 			)
 		)
 		(property "LCSC" "C125090"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b128727b-85f6-4306-9a4f-7c7e09439872")
@@ -26948,6 +26948,16 @@
 		(path "/883cc889-203b-4364-8838-b2a24ad41969/143a4690-f5d2-4242-831e-7ed0fc2f21ac")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1 -0.96)
+			(end -1.685 -0.96)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "191eebd0-f669-4cf7-8416-2804d41a9066")
+		)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -26968,16 +26978,6 @@
 			(layer "F.SilkS")
 			(uuid "daeb5b8f-9451-4902-850f-69f59d34621c")
 		)
-		(fp_line
-			(start 1 -0.96)
-			(end -1.685 -0.96)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "191eebd0-f669-4cf7-8416-2804d41a9066")
-		)
 		(fp_rect
 			(start -1.68 -0.95)
 			(end 1.68 0.95)
@@ -26990,24 +26990,14 @@
 			(uuid "97c374fa-51e0-4aef-934d-43c3fa3c8d7a")
 		)
 		(fp_line
-			(start -1 -0.3)
-			(end -1 0.6)
+			(start 1 -0.6)
+			(end -0.7 -0.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "93a62776-853e-4b1f-8505-6fe1dabacd66")
-		)
-		(fp_line
-			(start -1 0.6)
-			(end 1 0.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9b2bf97e-945a-42a6-b62e-28af8b337081")
+			(uuid "e5210166-a317-4270-8418-73419ae8a92a")
 		)
 		(fp_line
 			(start -0.7 -0.6)
@@ -27020,14 +27010,14 @@
 			(uuid "816e6635-f1fd-4dec-98f2-cbd1098ed011")
 		)
 		(fp_line
-			(start 1 -0.6)
-			(end -0.7 -0.6)
+			(start -1 -0.3)
+			(end -1 0.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5210166-a317-4270-8418-73419ae8a92a")
+			(uuid "93a62776-853e-4b1f-8505-6fe1dabacd66")
 		)
 		(fp_line
 			(start 1 0.6)
@@ -27039,8 +27029,18 @@
 			(layer "F.Fab")
 			(uuid "0a330c68-0680-4c36-97ed-baa8afac2ee4")
 		)
+		(fp_line
+			(start -1 0.6)
+			(end 1 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b2bf97e-945a-42a6-b62e-28af8b337081")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "55a5de57-3953-4f74-a269-287a05f58786")
 			(effects
@@ -27051,7 +27051,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9375 0)
+			(at -0.9375 0 90)
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -27059,7 +27059,7 @@
 			(uuid "a77c242c-fa7d-42a4-94b2-751c27ba0b6e")
 		)
 		(pad "2" smd roundrect
-			(at 0.9375 0)
+			(at 0.9375 0 90)
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29350,7 +29350,7 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "fa40fe0f-39f0-4a47-9ffe-c5c75740ca60")
-		(at 116 92)
+		(at 114.1 92.6)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R206"

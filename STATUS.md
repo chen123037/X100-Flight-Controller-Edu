@@ -9,8 +9,8 @@
 | J601 | 原3条孔/板边阻塞已关闭，局部重排保持 |
 | J401 | Amphenol124019772112A / C5430474已正式接受；原4条孔铜阻塞关闭，官方板边基准已对齐 |
 | J401局部规则 | 仅SH/GND>=0.30mm，实际0.325mm；全局板边>=0.50mm保持 |
-| 原生DRC | 报告632 violations +411 unconnected；部分类别触及199条报告上限，632不是完整总数；原理图一致性问题0 |
-| 完整courtyard几何 | 324→280→234对重叠：先局部移动23点，再将46点紧凑化消除46对；剩余仍未通过 |
+| 原生DRC | 报告628 violations +411 unconnected；部分类别触及199条报告上限，628不是完整总数；原理图一致性问题0 |
+| 完整courtyard几何 | 324→280→234→230对：测试点移动/紧凑化后，右侧八件重排再消除4对；剩余仍未通过 |
 | Tracks / vias / zones | 0 /0 /0，正式布线未开始 |
 | USB-only | MCU启动/枚举/刷写/地面站/参数必须；推荐BMI088/SPL06；SD非强制且不得干扰核心；电源ECO未完成 |
 | ROUTING_PRECONDITIONS_MET | NO：USB-only电源/预算/SD支路尚需闭合 |
@@ -31,3 +31,6 @@
 
 
 2026-10-23新增[Y201紧凑晶体候选](hardware/proposals/Y201_YXC_5032_NOT_APPROVED/README.md)：YXC XG1EL89CSI-111YLC-8M/C5280575，8MHz/20pF保持，R205初装100Ω；独立候选ERC0/0、native parity0、网表和身份保持，courtyard234→224，无新增配对。正式源未替换，待新型号人工裁决；启动/激励首板验证未完成，全板布线与制造包仍未完成。
+
+
+2026-10-23正式源另完成[右侧接口净空](docs/RIGHT_PORT_CLEARANCE_REVIEW.md)：J703/J809之间及J703/安装孔的courtyard冲突关闭，八件放置受控更新；201器件/65测点/网表/身份/规则保持，ERC0/0、native parity0。当前基线POST_RIGHT_PORT_FORMAL_BASELINE；新晶体仍未正式采用。

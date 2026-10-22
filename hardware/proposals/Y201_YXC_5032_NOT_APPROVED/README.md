@@ -26,3 +26,6 @@
 
 
 参数标注更正：首选RC0805FR-07100RL的[原厂专用规格页](https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL)明确TCR为±100ppm/°C。候选原理图、PCB字段及计算已据此更正；不再沿用50ppm假设。晶体完整型号、100Ω初装值与三处放置方案保持，ERC仍0/0、原生一致性0。
+
+
+正式源后续更新：右侧八件放置已另行接受，见[正式净空复核](../../../docs/RIGHT_PORT_CLEARANCE_REVIEW.md)。本候选仍保持其原检查快照；获批后仅集成晶体/R205与三处时钟放置，不整项目覆盖正式源，避免回滚新接口位置。
