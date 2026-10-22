@@ -1863,7 +1863,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "13dec820-19b1-4e99-9bc9-720392391b2a")
-		(at 98.6 108.263)
+		(at 97.1 111.263)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP306"
 			(at 0 -2.75 0)
@@ -3142,7 +3142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "0af270ab-95e5-4e16-9590-178ecda2c2f7")
@@ -3153,11 +3153,66 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TI TPD2E2U06QDBZRQ1; DBZ0003A; two IO channels and GND only; internal clamp rail not bonded out; no VBUS power pin."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9ed27c6-17e6-44f1-aac5-7ff9f1fc1282")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cdcec98-b9b8-45aa-8942-178a1b14ed16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD2E2U06QDBZRQ1"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9af257e-4964-4f6c-b469-8efa173d1f76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DBZ / SOT-23-3"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ffe69e0-f640-432b-b081-4ad5789cebf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C488151"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7ab9c68-276b-4ab5-876d-a7de5d2d7d7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6e0fa99-1213-467e-b141-9bc606b49599")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3427,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "200cd129-94f0-4cbe-b8db-1767f4ca7de2")
-		(at 109.125 90.3)
+		(at 109.625 90.55)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP207"
 			(at 0 -2.3 0)
@@ -4208,7 +4263,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "238ac1bb-623a-408b-9d22-5c275f4f34c5")
-		(at 104.6 105.263)
+		(at 108.85 102.013)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP309"
 			(at 0 -2.75 0)
@@ -6323,7 +6378,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "35674203-5bfd-413b-9e7f-80364dab6236")
-		(at 110.12 105.5)
+		(at 110.12 104.75)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP807"
 			(at 0 -2.75 0)
@@ -10692,6 +10747,28 @@
 				)
 			)
 		)
+		(property "Procurement Approval" "USER_APPROVED_2026-10-22"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9625c330-b977-4bb7-b1c5-b913df12faa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mechanical Assembly" "Top mount; PCB 1.6mm; 0.50mm SH projection embedded in plated slots; solder from component side; inspect joint wetting"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a75184ea-102d-4bc8-92c9-047a69208fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/b5486f2c-43ef-4124-ae2d-8650a60747f3/5d617aa3-1385-479d-957f-20d9a9a5b08b")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -12974,7 +13051,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "6ea14899-47f7-4a3a-84ec-e60cd95eab30")
-		(at 116.45 105.675)
+		(at 115.7 104.675)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP706"
 			(at 0 -2.75 0)
@@ -13900,7 +13977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071K2L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13931,6 +14008,116 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78aa4c69-8403-4a79-b454-71aa1b946f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071K2L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9dfef57-2cb5-4735-b3f3-2be544af6ed6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f8de3fe-39f8-41a2-9de0-62980cef4ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM; PCB01F3 prototype 1.2k authorized"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ebfb847-358a-4394-8aaf-291976f7f00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specification Value" "1.2k ohm"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6861be9f-dbf9-4236-80b1-279f41fd1182")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "807220a1-9297-4ddf-b21a-55dc27b31126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11743533-14db-469a-a15a-756f7f5f7757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d28bbf6a-e588-48de-b039-935346e68cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3d9663f-4ff0-4d1d-8ff9-1373af3a5761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114526"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1122e10-40b4-4ee6-8ed9-17e526381edf")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14740,7 +14927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "bc824180-5aec-4157-9d33-9b0de03bf12e")
@@ -14751,11 +14938,66 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TI TPD2E2U06QDBZRQ1; DBZ0003A; two IO channels and GND only; internal clamp rail not bonded out; no VBUS power pin."
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67d0523c-c9e9-4734-9d30-84632fb85df2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56b11ba1-b1b2-4435-bfa2-e5ff6d0a8028")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD2E2U06QDBZRQ1"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1f8ef5e-3a0b-40ea-92ed-67c21a0c2d64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DBZ / SOT-23-3"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5ce5d3-6c30-4b14-bfba-7697646ab12b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C488151"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c65e88-2980-421a-a491-f4f1d35caaa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788a3687-4bcf-4181-851c-0ae133104499")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24315,7 +24557,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "ba4e9300-66c3-4dc3-9075-e3189c6a5ba0")
-		(at 115.6 99.725)
+		(at 114.6 99.725)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP804"
 			(at 0 -2.75 0)
@@ -24733,7 +24975,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "c672bbdf-56fa-4ad0-b1a8-3c4f55ec3f5c")
-		(at 112.66 105.5)
+		(at 112.66 104.75)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP808"
 			(at 0 -2.75 0)
@@ -25019,7 +25261,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "c80fb5d6-37d9-474d-871f-5b9602da8301")
-		(at 107.58 105.5)
+		(at 107.58 104.75)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP806"
 			(at 0 -2.75 0)
@@ -25616,7 +25858,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "ce04ec2e-16a1-4518-b293-b5ffad93e92d")
-		(at 115.45 107.425)
+		(at 111.95 102.175)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP705"
 			(at 0 -2.75 0)
@@ -26633,7 +26875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-003/LTST-C170GKT.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26664,6 +26906,61 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a1e5e39-300d-4331-95d7-7a7b79753cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e820788f-effc-43a1-9be1-0767f8e092a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805 LED"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7332cf3d-c5fd-4ce6-849a-83083cb83292")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; same LED as D201; not ordered"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1367725f-1685-4a11-a2d1-2eea964c9f8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C125090"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b128727b-85f6-4306-9a4f-7c7e09439872")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27997,7 +28294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3193e045-7128-4a32-8f3f-411b7ea1bd9c")
@@ -28013,6 +28310,61 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d083060-8e87-4371-9d3b-cf0c89f4ba5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c6b3312-9252-495f-93bc-8fdf508f954c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD2E2U06QDBZRQ1"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cd35cd1-a4b1-4ddc-90d6-ff2809ca5615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DBZ / SOT-23-3"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0769f96b-0ce9-4ee0-a298-fccfb9e9340f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77152078-951e-4c5c-9bfb-4c60973c3075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C488151"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a7ea65b-ac5c-4411-a41a-51b4c6ad2bae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28871,7 +29223,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "f6154bce-ee22-4980-a8f0-074a1f324278")
-		(at 89.75 120.7)
+		(at 89 121.2)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP108"
 			(at 0 -2.75 0)
@@ -31707,7 +32059,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "0efc8e76-6ebc-47c8-a899-fcda209912ad")
-		(at 78.75 85.095)
+		(at 78.75 84.845)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP602"
 			(at 0 2.75 180)
@@ -33832,7 +34184,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "30114226-2dc3-41d9-af86-8c47c929dc3c")
-		(at 109.638 114.05)
+		(at 109.638 113.55)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP402"
 			(at 0 2.75 180)
@@ -33983,7 +34335,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "3589de13-b06c-4ffe-8949-37ba03a3d2de")
-		(at 120.55 119.8)
+		(at 120.55 119.05)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP308"
 			(at 0 2.75 180)
@@ -34575,7 +34927,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "B.Cu")
 		(uuid "39f1a32f-706f-40a9-b878-a287e26e5ee3")
-		(at 90.295 118.37)
+		(at 88.795 116.62)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP503"
 			(at 0 2.3 180)
@@ -36422,7 +36774,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Default OPEN: 120 ohm disconnected. Bridge manually only at CAN bus end: termination enabled. Remove solder to restore OPEN. NO SOLDER PASTE; no independent BOM component."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36434,6 +36786,28 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Manufacturing Default" "OPEN"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd277954-127c-4a08-85c3-7cff51fd2864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly Instruction" "NO PASTE; manually bridge only at CAN bus end; wick clean to disable"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad216b0b-4e57-459d-acef-b6434fc19712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/7087b015-6c25-414d-b3cf-5bdaa0d605aa/47a7cf62-a1dd-4e60-92ae-a40040345bca")
@@ -36552,7 +36926,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "63aaf97a-25c1-4d5b-9d73-03244dbc0cfd")
-		(at 112 83.75)
+		(at 119.75 82.75)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP105"
 			(at 0 2.75 180)
@@ -43971,7 +44345,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "B.Cu")
 		(uuid "d1568ebf-e481-42f1-b07a-b399c6dd7a5f")
-		(at 90.595 117.37)
+		(at 87.095 117.37)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP506"
 			(at 0 2.3 180)
@@ -45584,7 +45958,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "B.Cu")
 		(uuid "dec1f631-62f3-4184-b3cd-37f31887a786")
-		(at 105.745 119.87)
+		(at 105.495 119.87)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP505"
 			(at 0 2.3 180)
@@ -45886,7 +46260,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "B.Cu")
 		(uuid "e3a0ec34-58e1-4c84-8d9b-40fa398f050a")
-		(at 105.195 120.87)
+		(at 107.195 121.62)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP504"
 			(at 0 2.3 180)
@@ -46037,7 +46411,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "e40859fa-0c62-4683-a296-4266dbb91332")
-		(at 98 79.4)
+		(at 98.25 78.9)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP202"
 			(at 0 2.75 180)
@@ -46478,7 +46852,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "e4376c7a-1dd3-4ae1-98d2-236d7b343877")
-		(at 94.375 82)
+		(at 100.875 80.75)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP701"
 			(at 0 2.75 180)
@@ -47070,7 +47444,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "eb14e95a-2ed7-4afa-b0e1-a2a8a7795454")
-		(at 84.975 112.045)
+		(at 81.475 115.795)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP102"
 			(at 0 2.75 180)
@@ -47221,7 +47595,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "ebc3a748-c6d4-4f06-8079-37355add8688")
-		(at 78.5 86.905)
+		(at 81.5 85.155)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP601"
 			(at 0 2.75 180)
@@ -47823,7 +48197,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "B.Cu")
 		(uuid "efb1299a-7817-4019-abdf-b0b54a97cc8e")
-		(at 106.795 116.37)
+		(at 107.795 110.87)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP508"
 			(at 0 2.75 180)

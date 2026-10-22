@@ -51,3 +51,20 @@ J401已正式应用；下列工作不再等待J401同型号批准。旧`ECO_STAG
 5. 当前ArduPilot H7时钟头文件对8MHz HSE分支只显式支持默认时钟与自定义480MHz；直接写`HAL_CUSTOM_MCU_CLOCKRATE=200000000`会进入#error，不能声称只改hwdef一个值即可完成USB低功耗启动。需要可实施的boot/application枚举前后时钟/负载策略，与合法描述符、硬件限流选择一起设计；没有改当前固件仓库。
 
 后续具体设计方向：区分枚举前与配置后的USB供电状态，软启动与可保证低电流启动联动；SD支路及SDIO避免USB-only寄生供电；VBAT/USB切换保持双向反灌分析。只在真实预算和故障路径闭合后写入正式电源ECO，不复制旧不合格研究稿。
+
+## 2026-10-22 USB兼容范围与时钟适配评估
+
+人工确认：必须兼容普通电脑USB-A→Type-C数据线及USB-C→Type-C数据线，不要求端口提供1.5A。允许USB-only采用分阶段启动和不高于200MHz的配置，VBAT保留400MHz目标；优先启动、枚举、可靠刷写和参数配置，不要求USB-only启动全部外设。允许继续评估最小必要板级适配，禁止为200MHz大规模改写ArduPilot。这些是兼容与评估授权，未批准电源架构、新器件或未验证软件。
+
+实际编译探针已完成，见[证据及边界](evidence/USB_CLOCK_FEASIBILITY_20261022/README.md)。使用本地ArduPilot `9165d22419406556fc9815d9f4e3e299e13713a8` 的实际公共配置与ChibiOS头文件、ARM GCC工具链，独立候选仅增加7行条件配置：8MHz HSE的PLL1 N=50/Q=5及200MHz时使用VOS3。原始400MHz、候选400MHz和候选200MHz编译通过；原始200MHz按预期在不支持的分支失败。
+
+| 静态配置 | CPU | AHB | APB1 | USB | PLL1-Q：SPI/SDMMC/CAN源 |
+| --- | --- | --- | --- | --- | --- |
+| 原始/候选VBAT配置 | 400MHz | 200MHz | 100MHz | 48MHz | 80MHz |
+| 候选USB配置 | 200MHz | 100MHz | 50MHz | 48MHz | 80MHz |
+
+静态200MHz配置本身改动小；这不是完整固件构建、动态切换或实板结果。枚举前启动仍是未关闭的真实问题：默认 `board.c::__early_init()` 先调用 `stm32_clock_init()`，晚到 `boardInit()` 才执行普通板级hook，因此只在后一个hook降频不能消除前面的400MHz启动阶段。`USB_EVENT_CONFIGURED` 当前只初始化端点，没有电流阶段切换。改变AHB/APB还会影响计时器及相应驱动的分频，不能只改CPU常数后宣称稳定。
+
+下一步最小方案应限定于X100的early-startup及bootloader/application共用USB电源状态钩子，先在允许电流内完成枚举，再按主机实际配置开放负载；同时重做硬件浪涌控制。需要验证reset/unconfigured/suspend、无VBAT、插卡、任一电源拔插及刷写阶段。不会默认普通端口在枚举前提供500mA或1.5A；CC为默认电流时仍走USB2.0预算。若局部适配无法维持计时/USB或预算，报告具体失败及最小硬件替代，不引入通用动态时钟框架来强行通过。
+
+本地227器件的SD隔离结构候选已通过ERC0/0及精确22个既有引脚改网检查，但其USB前端、启动浪涌、阶段预算和SD动态时序未通过；它未进入正式源或正式BOM。正式源已另行完成[23个测试点净空与字段同步](TESTPOINT_CLEARANCE_REVIEW.md)，后续ECO须基于这个新正式源，避免回滚布局。
