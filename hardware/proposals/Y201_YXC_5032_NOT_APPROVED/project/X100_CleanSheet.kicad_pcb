@@ -35917,7 +35917,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL"
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -36080,7 +36080,7 @@
 				(justify mirror)
 			)
 		)
-		(property "TCR" "<=50ppm/C"
+		(property "TCR" "<=100ppm/C"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

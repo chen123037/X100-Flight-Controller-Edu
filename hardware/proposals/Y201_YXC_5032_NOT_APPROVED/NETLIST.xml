@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\A_YAN_KECHEN\PLANT\design01_schematic\X100_CleanSheet\tmp\pcb03_fabrication_readiness_20261022\Y201_5032_CANDIDATE_NOT_APPROVED\X100_CleanSheet.kicad_sch</source>
-    <date>2026-10-23T01:23:40</date>
+    <date>2026-10-23T02:03:59</date>
     <tool>Eeschema 10.0.6</tool>
     <textvar name="DESIGN_SCOPE">PHYSICAL_SCHEMATIC_PCB_HOLD</textvar>
     <textvar name="USB_MODE">DATA_ONLY_VBUS_SENSE</textvar>
@@ -3032,7 +3032,7 @@
     <comp ref="R205">
       <value>100R HSE series; candidate</value>
       <footprint>X100_Physical:Official_Resistor_SMD_R_0805_2012Metric</footprint>
-      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL</datasheet>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL</datasheet>
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">RC0805FR-07100RL</field>
@@ -3043,9 +3043,9 @@
         <field name="Dielectric">N/A</field>
         <field name="Voltage Rating">&gt;=100V</field>
         <field name="Power Rating">&gt;=0.125W</field>
-        <field name="TCR">&lt;=50ppm/C</field>
+        <field name="TCR">&lt;=100ppm/C</field>
         <field name="Footprint">X100_Physical:Official_Resistor_SMD_R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL</field>
         <field name="Description"/>
       </fields>
       <libsource lib="X100_Physical" part="R_120" description="YAGEO RC0805FR-07120RL; exact 0805"/>
@@ -3058,7 +3058,7 @@
       <property name="Dielectric" value="N/A"/>
       <property name="Voltage Rating" value="&gt;=100V"/>
       <property name="Power Rating" value="&gt;=0.125W"/>
-      <property name="TCR" value="&lt;=50ppm/C"/>
+      <property name="TCR" value="&lt;=100ppm/C"/>
       <property name="Sheetname" value="02_MCU"/>
       <property name="Sheetfile" value="02_MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>

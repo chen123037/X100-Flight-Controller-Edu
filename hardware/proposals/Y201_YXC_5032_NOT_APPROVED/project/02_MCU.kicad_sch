@@ -10602,7 +10602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL"
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL"
 			(at 54.61 66.04 0)
 			(effects
 				(font
@@ -10692,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-    (property "TCR" "<=50ppm/C" (at 54.61 66.04 0)
+    (property "TCR" "<=100ppm/C" (at 54.61 66.04 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
 		(instances

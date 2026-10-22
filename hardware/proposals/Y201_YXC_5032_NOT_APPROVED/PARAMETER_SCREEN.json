@@ -13,21 +13,21 @@
   ],
   "stray_guard_classification": "ENGINEERING_LAYOUT_ASSUMPTION; not measured or guaranteed",
   "effective_load_range_pF": [
-    17.675,
-    22.325000000000003
+    17.627975,
+    22.376974999999998
   ],
-  "resistor_tolerance_and_TCR_guard": 0.015,
+  "resistor_tolerance_and_TCR_guard": 0.02,
   "cases": [
     {
       "R205_nominal_ohm": 120.0,
-      "R205_max_ohm": 121.79999999999998,
-      "gmcrit_worst_mA_per_V": 1.5227941690125328,
+      "R205_max_ohm": 122.4,
+      "gmcrit_worst_mA_per_V": 1.5331375794043183,
       "under_ST_1p5mA_per_V": false
     },
     {
       "R205_nominal_ohm": 100.0,
-      "R205_max_ohm": 101.49999999999999,
-      "gmcrit_worst_mA_per_V": 1.369609225350717,
+      "R205_max_ohm": 102.0,
+      "gmcrit_worst_mA_per_V": 1.378611854997954,
       "under_ST_1p5mA_per_V": true
     }
   ],
@@ -35,9 +35,9 @@
   "ST_gmcrit_max_mA_per_V": 1.5,
   "ST_limit_already_includes_gm_divided_by_5": true,
   "drive_level_max_uW": 300,
-  "conservative_loaded_ESR_for_drive_screen_ohm": 131.66360240792721,
-  "conservative_Irms_limit_mA": 1.5094813813498587,
-  "conservative_Ipp_limit_mA": 4.2694580833092886,
+  "conservative_loaded_ESR_for_drive_screen_ohm": 131.81854561124584,
+  "conservative_Irms_limit_mA": 1.5085939771977095,
+  "conservative_Ipp_limit_mA": 4.266948125334737,
   "oscillation_and_drive_measured": false,
   "not_proven": [
     "actual startup over voltage/temperature",
@@ -49,6 +49,13 @@
     "https://www.st.com/resource/en/datasheet/stm32h743bi.pdf",
     "https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf",
     "https://www.yxc.hk/uploadfiles/2024/02/20240222145814706.pdf",
-    "https://www.lcsc.com/product-detail/C5280575.html"
-  ]
+    "https://www.lcsc.com/product-detail/C5280575.html",
+    "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL"
+  ],
+  "resistor_TCR_ppm_per_C": 100,
+  "resistor_TCR_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100RL",
+  "resistor_temperature_delta_guard_C": 100,
+  "load_cap_temperature_fraction_guard": 0.003,
+  "load_cap_temperature_guard_note": "C0G30ppm/C x100C, in addition to5percent initial tolerance",
+  "correction_note": "R205 preferredRC0805FR-07100RL is100ppm/C, not50ppm/C. Recalculated; no change of100ohm value or crystalMPN."
 }
