@@ -9,8 +9,8 @@
 | J601 | 原3条孔/板边阻塞已关闭，局部重排保持 |
 | J401 | Amphenol124019772112A / C5430474已正式接受；原4条孔铜阻塞关闭，官方板边基准已对齐 |
 | J401局部规则 | 仅SH/GND>=0.30mm，实际0.325mm；全局板边>=0.50mm保持 |
-| 原生DRC | 报告612 violations +411 unconnected；丝印相互类别触及199条报告上限，612不是完整总数；原理图一致性问题0 |
-| 完整courtyard几何 | 324→280→234→230→201→185对：最近20测点与12阻容两批再消除45对，无新配对；剩余仍未通过 |
+| 原生DRC | 报告608 violations +411 unconnected；丝印相互类别触及199条报告上限，608不是完整总数；原理图一致性问题0 |
+| 完整courtyard几何 | 324→280→234→230→201→185→177对：最近追加C208/SWD及测点6件重排再消除8对，无新配对；剩余仍未通过 |
 | Tracks / vias / zones | 0 /0 /0，正式布线未开始 |
 | USB-only | MCU启动/枚举/刷写/地面站/参数必须；推荐BMI088/SPL06；SD非强制且不得干扰核心；电源ECO未完成 |
 | ROUTING_PRECONDITIONS_MET | NO：USB-only电源/预算/SD支路尚需闭合 |
@@ -37,3 +37,6 @@
 
 
 2026-10-23最新正式源完成[两批局部净空](docs/LOCAL_CLEARANCE_REVIEW.md)，32件放置改变、原理图/网络/身份/封装/规则不变；ERC0/0、native parity0。基线更新为POST_PASSIVE_CLEARANCE_FORMAL_BASELINE；当前185对庭院、612条DRC报告及411未连接，仍未布线、不可下单。此前230/234等均为阶段历史值。晶体与USB电源候选仍未正式采用。
+
+
+2026-10-23最新正式基线：POST_SWD_ROW_REFLOW_FORMAL_BASELINE。追加六件放置后庭院177对、DRC608+411未连接、ERC0/0/native parity0；[当前证据](docs/LOCAL_CLEARANCE_REVIEW.md)。此前185/612等是阶段记录。C208值/型号与所有各脚去耦电容、SWD五针及65测点保持；未正式采用新晶体/USB电源，布线及制造包未完成。

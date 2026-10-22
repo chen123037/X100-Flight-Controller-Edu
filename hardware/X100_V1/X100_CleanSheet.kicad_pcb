@@ -2141,7 +2141,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "18853c45-3b72-429a-ae42-01c628e128bb")
-		(at 80.5 101.975)
+		(at 79.25 115.625)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP103"
 			(at 0 -2.75 0)
@@ -3840,7 +3840,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "21667a8e-a9af-48a7-9c27-fe41b344a21e")
-		(at 102.85 105.238)
+		(at 101.1 108.113)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP305"
 			(at 0 -2.3 0)
@@ -7483,7 +7483,7 @@
 	(footprint "X100_Physical:Samtec_TSW10507GS_1x5_P2p54"
 		(layer "F.Cu")
 		(uuid "40a01b16-34d0-4a2d-8651-e0eb842a918d")
-		(at 102.5 108 90)
+		(at 103.725 107.375 90)
 		(descr "Samtec exact TSW print/footprint;0.635square post;1.02mm finished drill")
 		(property "Reference" "J807"
 			(at 0 -3.27 90)
@@ -24543,7 +24543,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "ba4e9300-66c3-4dc3-9075-e3189c6a5ba0")
-		(at 114.6 99.725)
+		(at 114.9 99.725)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP804"
 			(at 0 -2.3 0)
@@ -24684,11 +24684,11 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "c0f3aebf-5351-446c-91ee-4741851b357d")
-		(at 88.75 85.75 -90)
+		(at 111.75 99.5)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C208"
-			(at 0 -2.3 270)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "9c1d49cd-0bf4-4015-ae53-9c4e66776b6d")
 			(effects
@@ -24699,7 +24699,7 @@
 			)
 		)
 		(property "Value" "10u /50V MCU bulk >=4.7u effective"
-			(at 0 2.3 270)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "f68b9d03-eb11-4f58-bd14-3373d7ba1018")
 			(effects
@@ -24710,7 +24710,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a106c96-cd02-4e2b-beb1-e98d492d18d0")
@@ -24721,7 +24721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45ae6947-73cc-4cf3-a1e3-ed9dbb905382")
@@ -24732,7 +24732,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b73228b4-8837-4ce0-8ae3-93f3302c0492")
@@ -24744,7 +24744,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24757,7 +24757,7 @@
 			)
 		)
 		(property "MPN" "C1210C106K5RACTU"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24770,7 +24770,7 @@
 			)
 		)
 		(property "Package" "1210"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24783,7 +24783,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24796,7 +24796,7 @@
 			)
 		)
 		(property "Specification Value" "10uF"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24809,7 +24809,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24822,7 +24822,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24835,7 +24835,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24848,7 +24848,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24873,16 +24873,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 1.36)
-			(end 0.711252 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f76b8415-7646-484e-976b-d2e1d61a70e6")
-		)
-		(fp_line
 			(start -0.711252 -1.36)
 			(end 0.711252 -1.36)
 			(stroke
@@ -24891,6 +24881,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ee828a68-ab65-4c1f-9ca3-37408ba91684")
+		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f76b8415-7646-484e-976b-d2e1d61a70e6")
 		)
 		(fp_rect
 			(start -2.3 -1.6)
@@ -24915,7 +24915,7 @@
 			(uuid "ce2ec74a-5f2b-4a4d-a19b-3ad3cba15fe7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0cfd21ad-7789-48c3-adc4-d45c12d1331f")
 			(effects
@@ -24926,7 +24926,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0 270)
+			(at -1.475 0)
 			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -24935,7 +24935,7 @@
 			(uuid "ed7645b3-bb46-4afe-8025-ab118fe25910")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0 270)
+			(at 1.475 0)
 			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
@@ -27414,7 +27414,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "e05c6340-6b4b-4887-bd8d-a200279a251b")
-		(at 80.5 97.525)
+		(at 114.75 102.45)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP111"
 			(at 0 -2.75 0)

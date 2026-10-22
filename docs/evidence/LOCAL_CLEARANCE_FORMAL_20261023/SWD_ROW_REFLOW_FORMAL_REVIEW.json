@@ -1,0 +1,190 @@
+{
+  "stage": "SWD_ROW_REFLOW_FORMAL",
+  "executor": "plant_kicad_v1",
+  "scope": "Existing MCU bulk capacitor, five-pin debug header and four retained testpoints; placement only",
+  "changed_references": [
+    "C208",
+    "J807",
+    "TP103",
+    "TP111",
+    "TP305",
+    "TP804"
+  ],
+  "moves": {
+    "J807": {
+      "x": 103.725,
+      "y": 107.375,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "TP103": {
+      "x": 79.25,
+      "y": 115.625,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP111": {
+      "x": 114.75,
+      "y": 102.45,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "C208": {
+      "x": 111.75,
+      "y": 99.5,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP804": {
+      "x": 114.9,
+      "y": 99.725,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP305": {
+      "x": 101.1,
+      "y": 108.113,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    }
+  },
+  "source_or_pad_net_changes": 0,
+  "footprint_UUID_path_value_geometry_changes": 0,
+  "non_target_placement_changes": 0,
+  "schematic_rules_stackup_library_changes": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "courtyard_pairs_before": 185,
+  "courtyard_pairs_after": 177,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C208",
+      "C211"
+    ],
+    [
+      "C208",
+      "J601"
+    ],
+    [
+      "C208",
+      "R202"
+    ],
+    [
+      "J702",
+      "TP111"
+    ],
+    [
+      "J807",
+      "R401"
+    ],
+    [
+      "R801",
+      "TP111"
+    ],
+    [
+      "R805",
+      "TP103"
+    ],
+    [
+      "R806",
+      "TP103"
+    ]
+  ],
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "bulk_supply_proximity": {
+    "before": {
+      "nearest_MCU_supply_pin": "100",
+      "supply_pad_edge_distance_mm": 3.700000000000003
+    },
+    "after": {
+      "nearest_MCU_supply_pin": "50",
+      "supply_pad_edge_distance_mm": 3.6000000000000085
+    }
+  },
+  "probe_access": {
+    "TP103": {
+      "net": "VBAT_PROTECTED",
+      "nearest_body_mm": 0.875,
+      "nearest_same_net_pad_edge_mm_before": 0.0,
+      "nearest_same_net_pad_edge_mm_after": 0.625
+    },
+    "TP111": {
+      "net": "GND",
+      "nearest_body_mm": 1.1510864433221395,
+      "nearest_same_net_pad_edge_mm_before": 0.0,
+      "nearest_same_net_pad_edge_mm_after": 0.9384893079524247
+    },
+    "TP804": {
+      "net": "CURRENT_IN_RAW",
+      "nearest_body_mm": 1.25,
+      "nearest_same_net_pad_edge_mm_before": 3.765487109941159,
+      "nearest_same_net_pad_edge_mm_after": 3.6322630652436274
+    },
+    "TP305": {
+      "net": "BMI088_ACC_CS",
+      "nearest_body_mm": 1.0549999999999926,
+      "nearest_same_net_pad_edge_mm_before": 2.588000000000008,
+      "nearest_same_net_pad_edge_mm_after": 5.582383766520083
+    }
+  },
+  "debug_through_hole_copper_margin": {
+    "1": {
+      "net": "3V3_MCU",
+      "foreign_copper_min_mm": 0.2249999999999943
+    },
+    "2": {
+      "net": "GND",
+      "foreign_copper_min_mm": 1.640777541871155
+    },
+    "3": {
+      "net": "SWDIO",
+      "foreign_copper_min_mm": 1.6407775418711503
+    },
+    "4": {
+      "net": "SWCLK",
+      "foreign_copper_min_mm": 1.640777541871155
+    },
+    "5": {
+      "net": "NRST",
+      "foreign_copper_min_mm": 1.4177802946807474
+    }
+  },
+  "DRC_reported": 608,
+  "unconnected": 411,
+  "DRC_types": {
+    "courtyards_overlap": 177,
+    "npth_inside_courtyard": 13,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 16,
+    "text_height": 2,
+    "silk_over_copper": 198,
+    "silk_overlap": 199
+  },
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "placement_scope_review": "PASS",
+  "routing_power_integrity_review": "NOT_DONE",
+  "DRC_FINAL": "NOT_PASS",
+  "FABRICATION_READY": false
+}

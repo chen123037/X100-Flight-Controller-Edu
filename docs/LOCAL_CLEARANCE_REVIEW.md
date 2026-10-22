@@ -1,5 +1,17 @@
 # 测试点与局部阻容净空正式复核 — 2026-10-23
 
+最新正式更新：在下述两批32件放置之后，追加 C208、J807、TP103、TP111、TP305、TP804 六件重排。完整庭院 **185→177对**，无新增配对；fresh ERC0/0、native parity0，DRC报告 **608+411未连接**。仍无正式布线、不能下单。下面230→201→185及612计数是前两批的历史记录。
+
+C208保持原10µF、封装、网络和有效电容要求，改到MCU右下侧，释放左侧VBAT/去耦空间；距最近MCU供电脚的焊盘边距离3.7→3.6mm，各脚100nF电容与VCAP电容未动。最终3.3V供电与低电感GND回流须布线后检查，此处不是电源完整性PASS。
+
+J807保持原五针SWD接口和插接方向，仅微调到(103.725,107.375,90°,F)，避开背面C102与电感；逐针异网铜最小间距至少0.225mm（既定规则0.20mm），原PTH-庭院报告没有新增。TP103/TP111保持1.5mm大点，分别是VBAT_PROTECTED和GND；TP305是BMI088_ACC_CS、TP804是CURRENT_IN_RAW。四点均保留原网络与同面，至其它同面实体保留≥0.5mm。TP305到近邻同网焊盘边距离2.588→5.582mm，需在SPI布线时检查支线；该距离不是实际走线长度。
+
+当前DRC分类：庭院177、NPTH在庭院内13、PTH在庭院内3、丝印板边16、字高2、丝印铜198、丝印相互199（此类别仍达到报告上限）。相较前批新增的1条丝印板边、3条丝印铜也保留在报告中，尚待整理，没有隐藏或降低规则。源SCH/PRO/规则/库、器件身份/值/封装/焊盘网络、非目标位置保持；板框、孔位和冻结器件保持。
+
+当前本地基线为 `POST_SWD_ROW_REFLOW_FORMAL_BASELINE.json`；[六件原生复核](evidence/LOCAL_CLEARANCE_FORMAL_20261023/SWD_ROW_REFLOW_FORMAL_REVIEW.json)、[fresh ERC](evidence/LOCAL_CLEARANCE_FORMAL_20261023/SWD_ROW_REFLOW_FORMAL_ERC.json)、[fresh DRC](evidence/LOCAL_CLEARANCE_FORMAL_20261023/SWD_ROW_REFLOW_FORMAL_DRC.json)。未批准晶体或电源候选须按差异集成，不能整项目覆盖当前正式PCB。
+
+---
+
 正式源从右侧接口基线继续，由唯一 CAD 执行器 `plant_kicad_v1` 分两批实施并保存。第一批只移动20个测试点XY；第二批仅改变12个既有阻容的XY/朝向。测试候选先通过同一套检查，再由执行器应用到正式源并重新检查。未采用新晶体或USB电源方案。
 
 | 检查 | 正式结果 |
