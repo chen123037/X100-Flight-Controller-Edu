@@ -1,10 +1,8 @@
 {
-  "DRC.json": "3f5d37319d3b0c29ba3a973c7b18b9d1f61ef30b0b95797beaacd2091301808a",
-  "ERC.json": "f72f8ba389e48ae22277fca4ea3fa12883422a2c5a331fe8fee53b10960c9531",
+  "DRC.json": "e993e6b23711bf22f7287bb160972d6008b6175ea6913304564989881ceb71b3",
+  "ERC.json": "640f911a66780c92c2fb7f489f0bec262394f18d9869102251687b9cd22f5f72",
   "NETLIST.xml": "b9b2f29368214e2fb8096849f606c41718cb0fca6e9409356916afaf9718281a",
   "PARAMETER_SCREEN.json": "28f8c6912df2396189eaf37c63362b88a4d5ae39c143de1f4cb6bfcb44c0c03f",
-  "README.md": "6784b67750fcbe32b8707193575d8afbf3cd7f536bf20e041f3ba29f24280a4d",
-  "REVIEW.json": "26649edc3518b459042ad3dc218e348d03f87ebe4108688071d00269a551a1ae",
   "project/01_POWER.kicad_sch": "b6aa9c5170e6e6b4e82f59c6581648f2682b35776bbda284deaa2ee168b0e725",
   "project/02_MCU.kicad_sch": "89894f36393973d07257871e819227df6e9cf9610ee8fd26198663326fdcfc3d",
   "project/03_SENSORS.kicad_sch": "9a877aaa81c0305391af54270f12064cc940c9056995f1882e1bfb3ba805c603",
@@ -21,8 +19,8 @@
   "project/X100_CleanSheet.kicad_sch": "d2e929e0529d930fa9122753d262d9f51d9595c364fed38d08f6ab9dd77515ba",
   "project/X100_Framework.kicad_sym": "15dd97aea598e36db8bdc72eca282acf09d0e7b6b58b9fd868e29cb8290bfdbf",
   "project/X100_LayoutECO.kicad_sym": "9961c6c5c73e1c0b42097730bbd7582cef829bd44935d0262be41bb9113d14d6",
-  "project/X100_Physical.kicad_sym": "309f190859be0617947fe3b7ed493d0c6389d19a76b99c2903e7c27419bf169a",
   "project/X100_MountingHole.pretty/MountingHole_4mm.kicad_mod": "be65b6d4da99a7f06b14a5e6112c4807fc7c21293a05b4fb347146d4e4921840",
+  "project/X100_Physical.kicad_sym": "309f190859be0617947fe3b7ed493d0c6389d19a76b99c2903e7c27419bf169a",
   "project/X100_Physical.pretty/Bosch_BMI088_LGA16.kicad_mod": "41504b547d8337a8fa0140a9fcc4fccfbe90bd98082f67e641c90c1a1bbd471a",
   "project/X100_Physical.pretty/Bourns_SRN6045.kicad_mod": "34fb64221b7828b6fde230c08a38fe4bacaa8576a5690132afdd108b920715cb",
   "project/X100_Physical.pretty/Bourns_SRP1265A.kicad_mod": "f45473cf5c39f7e8bfce8f1e18314d4ab614a1e86db2427bb25dacc9b7a18025",
@@ -61,5 +59,7 @@
   "project/X100_Physical.pretty/TP1p5_NoPaste.kicad_mod": "6f73d2aac04baa554c9f2f27bf3e65af93b76329772f8f6a4ec9c4683e17b2b6",
   "project/X100_Physical.pretty/TPS54360B_DDA0008B_NoVIP.kicad_mod": "6def4d8c1aee118e36d24ec2831357645f18556b90b5ba9021a0cc71ed0be673",
   "project/X100_Physical.pretty/VBAT_PAD_PAIR_V1.kicad_mod": "62858b651214dbd5a81a9feed89eaf9a3a0f3e5baa03684a11beb88e1300574f",
-  "project/X100_Physical.pretty/YXC_YSX530GA_5032_2Pad_NoVIP.kicad_mod": "82ef5b267cd2fd446a25a7c88e8ec00cba6307b8ffeb5143492c9b8e84f0f614"
+  "project/X100_Physical.pretty/YXC_YSX530GA_5032_2Pad_NoVIP.kicad_mod": "3442e768e076a7a15adf2667d6792d774f8f3fba49a7fd1e73725dbf1823b901",
+  "README.md": "00e6bdd29520feae292bbd695e8944fb75f52ac5b0927a025602da05c1256637",
+  "REVIEW.json": "dca3816a65fb95ddc3ac6cc56ddb175434ae0c0fc1b08557beafdac265a7142b"
 }

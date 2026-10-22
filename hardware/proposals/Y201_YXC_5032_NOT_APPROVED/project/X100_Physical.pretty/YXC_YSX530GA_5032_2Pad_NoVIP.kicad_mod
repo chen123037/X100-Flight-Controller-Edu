@@ -3,21 +3,22 @@
   (generator "kicad-mcp")
   (generator_version "9.0")
   (layer "F.Cu")
+  (attr smd)
   (descr "YXC YSX530GA official2024 land pattern; C5280575 XG1EL89CSI-111YLC-8M; pads1.7x2.4 gap2.0 centres3.7; case maximum5.15x3.35x1.35; no drill/noVIP")
 
   (property "Reference" "REF**" (at 0 -3 0)
     (layer "F.SilkS")
-    (uuid "c91122fe-cacb-4001-8668-d15f4e64a8fb")
+    (uuid "258e1cbf-f09e-4b4f-8f73-77207e6b3d36")
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (property "Value" "YXC_YSX530GA_5032_2Pad_NoVIP" (at 0 3 0)
     (layer "F.Fab")
-    (uuid "0bedf47b-3441-47a0-b74a-ca2c31121372")
+    (uuid "ca755b2a-031d-410c-b6ac-aa5df008ecc0")
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (property "Datasheet" "" (at 0 0 0)
     (layer "F.Fab")
-    (uuid "d878a8fc-df5a-4274-a519-edbb8a72734e")
+    (uuid "65024ad4-e882-43c1-a381-2e97588d416b")
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
@@ -27,7 +28,7 @@
     (stroke (width 0.05) (type default))
     (fill none)
     (layer "F.CrtYd")
-    (uuid "804e51c6-2852-4dc9-95ba-220a231a6f6c")
+    (uuid "5b3c6a73-dfdd-4a66-95e0-3f83109cea18")
   )
 
   (fp_rect
@@ -36,21 +37,21 @@
     (stroke (width 0.1) (type default))
     (fill none)
     (layer "F.Fab")
-    (uuid "fb4743ea-74c2-400c-9fdb-1f7655ff9f8e")
+    (uuid "11c4745f-e48e-4b21-bd60-bd5e379cd105")
   )
 
   (pad "1" smd rect
     (at -1.85 0)
     (size 1.7 2.4)
     (layers "F.Cu" "F.Paste" "F.Mask")
-    (uuid "bcff01f9-55b8-4721-a24c-2c791f6c9351")
+    (uuid "a4822823-df99-4d5e-8881-5a7f72c6ba38")
   )
 
   (pad "2" smd rect
     (at 1.85 0)
     (size 1.7 2.4)
     (layers "F.Cu" "F.Paste" "F.Mask")
-    (uuid "f0344284-a942-4692-8434-0a12b5c0db79")
+    (uuid "e1658f2c-78e6-4c7c-9361-0bac79272688")
   )
 
 )

@@ -1,5 +1,7 @@
 # X100 V1 当前状态
 
+新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。新型号尚未批准，正式仍用SRP1265A-100M；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
+
 更新2026-10-23，分支`feature/pcb-fabrication-readiness`。用户已正式批准J401替换，并授权常规工程修复、PCB设计及制造文件生成；不含付款或实际下单。目标仍为完整可提交嘉立创打样的制造包，不在局部完成后宣告成功。
 
 | 项目 | 当前正式源 |

@@ -112,7 +112,7 @@
   "Y201_courtyard_area_before_mm2": 85.0401000000002,
   "Y201_courtyard_area_after_mm2": 27.732600000000023,
   "Y201_courtyard_area_saved_mm2": 57.307500000000175,
-  "reported_DRC": 630,
+  "reported_DRC": 629,
   "unconnected": 411,
   "npth_courtyard_count": 14,
   "formal_changed": [],
@@ -149,5 +149,9 @@
   "clock_frequency_Hz": 8000000,
   "firmware_clock_parameter_change_required": false,
   "FABRICATION_READY": false,
-  "FORMAL_REPLACEMENT_APPROVED": false
+  "FORMAL_REPLACEMENT_APPROVED": false,
+  "library_footprint_mismatch": 0,
+  "SMD_attribute_metadata_refresh": "2026-10-23; library SMD flag corrected through plant_kicad_v1; PCB/schematic/MPN/net/geometry unchanged",
+  "geometry_parent_baseline": "POST_COMPACT_PROBE_FORMAL_BASELINE; historical, not current MCU-corridor baseline",
+  "formal_source_not_touched_by_this_refresh": true
 }
