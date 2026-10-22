@@ -1,0 +1,292 @@
+{
+  "scope": "FORMAL_COMPACT_TEST_LANDS_ONLY",
+  "executor": "plant_kicad_v1",
+  "electrical_components": 201,
+  "PCB_footprints": 205,
+  "total_testpoints": 65,
+  "compact_testpoints": 60,
+  "retained_1p5_testpoints": [
+    "TP102",
+    "TP103",
+    "TP104",
+    "TP105",
+    "TP111"
+  ],
+  "converted_testpoints": [
+    "TP101",
+    "TP106",
+    "TP107",
+    "TP108",
+    "TP109",
+    "TP110",
+    "TP201",
+    "TP202",
+    "TP203",
+    "TP204",
+    "TP208",
+    "TP301",
+    "TP305",
+    "TP306",
+    "TP307",
+    "TP308",
+    "TP309",
+    "TP401",
+    "TP402",
+    "TP405",
+    "TP501",
+    "TP508",
+    "TP601",
+    "TP602",
+    "TP603",
+    "TP604",
+    "TP605",
+    "TP701",
+    "TP702",
+    "TP703",
+    "TP704",
+    "TP705",
+    "TP706",
+    "TP707",
+    "TP708",
+    "TP709",
+    "TP710",
+    "TP801",
+    "TP802",
+    "TP803",
+    "TP804",
+    "TP805",
+    "TP806",
+    "TP807",
+    "TP808",
+    "TP809"
+  ],
+  "old_pin_net_changes": 0,
+  "placement_changes": 0,
+  "FP_UUID_or_path_changes": 0,
+  "non_testpoint_identity_changes": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "courtyard_pairs_before": 280,
+  "courtyard_pairs_after": 234,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C120",
+      "TP109"
+    ],
+    [
+      "C208",
+      "TP201"
+    ],
+    [
+      "C213",
+      "TP208"
+    ],
+    [
+      "C301",
+      "TP305"
+    ],
+    [
+      "C402",
+      "TP501"
+    ],
+    [
+      "D103",
+      "TP208"
+    ],
+    [
+      "J704",
+      "TP803"
+    ],
+    [
+      "J807",
+      "TP305"
+    ],
+    [
+      "J807",
+      "TP401"
+    ],
+    [
+      "J807",
+      "TP405"
+    ],
+    [
+      "R109",
+      "TP110"
+    ],
+    [
+      "R301",
+      "TP305"
+    ],
+    [
+      "R302",
+      "TP301"
+    ],
+    [
+      "R402",
+      "TP307"
+    ],
+    [
+      "R501",
+      "TP109"
+    ],
+    [
+      "R506",
+      "TP109"
+    ],
+    [
+      "R602",
+      "TP208"
+    ],
+    [
+      "R701",
+      "TP208"
+    ],
+    [
+      "R801",
+      "TP204"
+    ],
+    [
+      "R805",
+      "TP204"
+    ],
+    [
+      "R806",
+      "TP803"
+    ],
+    [
+      "R806",
+      "TP805"
+    ],
+    [
+      "R809",
+      "TP203"
+    ],
+    [
+      "TP103",
+      "TP204"
+    ],
+    [
+      "TP106",
+      "TP107"
+    ],
+    [
+      "TP106",
+      "U103"
+    ],
+    [
+      "TP107",
+      "U103"
+    ],
+    [
+      "TP111",
+      "TP802"
+    ],
+    [
+      "TP201",
+      "TP704"
+    ],
+    [
+      "TP204",
+      "TP801"
+    ],
+    [
+      "TP204",
+      "TP802"
+    ],
+    [
+      "TP208",
+      "TP702"
+    ],
+    [
+      "TP405",
+      "U403"
+    ],
+    [
+      "TP501",
+      "U402"
+    ],
+    [
+      "TP603",
+      "TP702"
+    ],
+    [
+      "TP603",
+      "TP703"
+    ],
+    [
+      "TP603",
+      "TP707"
+    ],
+    [
+      "TP604",
+      "TP605"
+    ],
+    [
+      "TP604",
+      "TP703"
+    ],
+    [
+      "TP702",
+      "TP707"
+    ],
+    [
+      "TP702",
+      "TP708"
+    ],
+    [
+      "TP707",
+      "TP708"
+    ],
+    [
+      "TP708",
+      "TP710"
+    ],
+    [
+      "TP801",
+      "TP802"
+    ],
+    [
+      "TP802",
+      "TP805"
+    ],
+    [
+      "TP803",
+      "TP805"
+    ]
+  ],
+  "courtyard_area_reclaimed_mm2": 168.91200000000117,
+  "reported_DRC_count": 632,
+  "reported_unconnected": 411,
+  "DRC_counts": {
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 15,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 15,
+    "text_height": 2,
+    "silk_over_copper": 199,
+    "silk_overlap": 199
+  },
+  "body_or_pad_growth": false,
+  "board_and_holes_and_rules_unchanged": true,
+  "changed_CAD_files": [
+    "01_POWER.kicad_sch",
+    "02_MCU.kicad_sch",
+    "03_SENSORS.kicad_sch",
+    "04_USB.kicad_sch",
+    "05_SD.kicad_sch",
+    "06_CAN.kicad_sch",
+    "07_UART_IO.kicad_sch",
+    "08_PWM_ADC_DEBUG.kicad_sch",
+    "X100_CleanSheet.kicad_pcb"
+  ],
+  "layout_scope_check": "PASS",
+  "DRC_FINAL": "NOT_PASS",
+  "USB_power_candidate_formally_promoted": false,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "FABRICATION_READY": false,
+  "probe_access_note": "Use fine-tip probe on 0.6mm lands. Existing 0.5mm local probe envelope is retained; lands are PCB features, not purchased components."
+}

@@ -16,3 +16,8 @@
 ## USB-only Stage3续推进（2026-10-22）
 
 用户确认无开发板/实物条件，不额外购开发板；启动、电流、枚举和切换实验纳入[首板计划](docs/FIRST_BOARD_USB_BRINGUP.md)，继续资料设计和PCB工作。[Stage3具体候选与计算边界](docs/USB_CORE_STAGE3_REVIEW.md)已保存，工程在`hardware/proposals/USB_CORE_STAGE3_NOT_APPROVED/project`。240器件ERC0/0，候选原生parity0、逐焊盘网络和符号绑定核对通过；正式源55项CAD哈希未变。新增39个封装仍在原点、未完成放置，不能自动布线或制造。接下来做紧凑布局/必要局部重排与候选IC焊盘/可采购性核查；新增架构/exact MPN尚未正式采用。J401已批准，不重复申请。
+
+
+## 2026-10-23正式布局基线
+
+见[测试点紧凑化实质检查](docs/COMPACT_PROBE_LAYOUT_REVIEW.md)。完整courtyard重叠234对；所有65测点和引脚网络保持，0.6mm点需要细针探测。正式源hardware/X100_V1及三份BOM/采购表已同步。仍有411未连接；J401/J501/J808组合、ADC/SWD等区域需重新安排，尚无完整可用放置解。USB电源Stage3是历史候选，不能直接覆盖当前正式测试点。

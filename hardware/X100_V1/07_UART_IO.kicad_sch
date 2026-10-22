@@ -2008,7 +2008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 309.88 321.31 0)
 			(effects
 				(font
@@ -2035,7 +2035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 309.88 321.31 0)
 			(effects
 				(font
@@ -2044,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 309.88 321.31 0)
 			(effects
 				(font
@@ -2062,6 +2062,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 309.88 321.31 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2131,7 +2134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 373.38 321.31 0)
 			(effects
 				(font
@@ -2158,7 +2161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 373.38 321.31 0)
 			(effects
 				(font
@@ -2167,7 +2170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 373.38 321.31 0)
 			(effects
 				(font
@@ -2185,6 +2188,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 373.38 321.31 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2254,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 436.88 321.31 0)
 			(effects
 				(font
@@ -2281,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 436.88 321.31 0)
 			(effects
 				(font
@@ -2290,7 +2296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 436.88 321.31 0)
 			(effects
 				(font
@@ -2308,6 +2314,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 436.88 321.31 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2377,7 +2386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 500.38 321.31 0)
 			(effects
 				(font
@@ -2404,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 500.38 321.31 0)
 			(effects
 				(font
@@ -2413,7 +2422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 500.38 321.31 0)
 			(effects
 				(font
@@ -2431,6 +2440,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 500.38 321.31 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2500,7 +2512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 309.88 341.63 0)
 			(effects
 				(font
@@ -2527,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 309.88 341.63 0)
 			(effects
 				(font
@@ -2536,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 309.88 341.63 0)
 			(effects
 				(font
@@ -2554,6 +2566,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 309.88 341.63 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2623,7 +2638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 373.38 341.63 0)
 			(effects
 				(font
@@ -2650,7 +2665,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 373.38 341.63 0)
 			(effects
 				(font
@@ -2659,7 +2674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 373.38 341.63 0)
 			(effects
 				(font
@@ -2677,6 +2692,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 373.38 341.63 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2746,7 +2764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 436.88 341.63 0)
 			(effects
 				(font
@@ -2773,7 +2791,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 436.88 341.63 0)
 			(effects
 				(font
@@ -2782,7 +2800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 436.88 341.63 0)
 			(effects
 				(font
@@ -2800,6 +2818,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 436.88 341.63 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2869,7 +2890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 500.38 341.63 0)
 			(effects
 				(font
@@ -2896,7 +2917,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 500.38 341.63 0)
 			(effects
 				(font
@@ -2905,7 +2926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 500.38 341.63 0)
 			(effects
 				(font
@@ -2923,6 +2944,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 500.38 341.63 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -2992,7 +3016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 309.88 361.95 0)
 			(effects
 				(font
@@ -3019,7 +3043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 309.88 361.95 0)
 			(effects
 				(font
@@ -3028,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 309.88 361.95 0)
 			(effects
 				(font
@@ -3046,6 +3070,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 309.88 361.95 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"
@@ -3115,7 +3142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
 			(at 373.38 361.95 0)
 			(effects
 				(font
@@ -3142,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
 			(at 373.38 361.95 0)
 			(effects
 				(font
@@ -3151,7 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
 			(at 373.38 361.95 0)
 			(effects
 				(font
@@ -3169,6 +3196,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 373.38 361.95 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd"

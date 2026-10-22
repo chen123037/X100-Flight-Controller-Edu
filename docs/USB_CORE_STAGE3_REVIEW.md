@@ -64,3 +64,6 @@ TIM5 1MHz 时基的 PSC 为 USB99、VBAT199。计划仅在 RTOS 启动前按电�
 继续方向：在45×45mm与孔位不变的约束下，评估新增普通R/C采用适当小封装、重排局部功率/SD区；不降低全局DRC、不变冻结MCU/IMU/气压计、不反复申请J401。完成具体器件机械焊盘/可采购性和布局验证后，再把新增电源架构及 exact MPN 作为一份具体可审查结果申请正式采用。
 
 `POWER_SAFETY_REVIEW=NOT_COMPLETE`；`DRC_FINAL=NOT_PASS`；`PCB_MANUFACTURING_PACKAGE=NOT_READY`。还没有生成投板用制造包。[首板测试计划](FIRST_BOARD_USB_BRINGUP.md)已明确列出不能在制板前完成的实验。
+
+
+2026-10-23补充：正式源已另行采用[紧凑测试点](COMPACT_PROBE_LAYOUT_REVIEW.md)，Stage3候选仍保留旧测点尺寸。后续集成先基于新正式基线；本页“正式源哈希未变”是Stage3审查时的历史事实。新增USB架构/IC依旧未正式采用。
