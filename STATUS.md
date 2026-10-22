@@ -28,3 +28,6 @@
 
 
 2026-10-23当前正式源完成[测试点紧凑化复核](docs/COMPACT_PROBE_LAYOUT_REVIEW.md)：201器件、65测点保持，46点采用已有0.6mm无孔/无Paste封装，五个电源/地测点仍1.5mm；网络、坐标、朝向、非测试点器件与板框/孔位/规则保持。fresh ERC0/0、native parity0。后续从POST_COMPACT_PROBE_FORMAL_BASELINE继续，不覆盖为Stage3旧测点。USB新电源架构仍未正式采用，制造包仍未就绪。
+
+
+2026-10-23新增[Y201紧凑晶体候选](hardware/proposals/Y201_YXC_5032_NOT_APPROVED/README.md)：YXC XG1EL89CSI-111YLC-8M/C5280575，8MHz/20pF保持，R205初装100Ω；独立候选ERC0/0、native parity0、网表和身份保持，courtyard234→224，无新增配对。正式源未替换，待新型号人工裁决；启动/激励首板验证未完成，全板布线与制造包仍未完成。

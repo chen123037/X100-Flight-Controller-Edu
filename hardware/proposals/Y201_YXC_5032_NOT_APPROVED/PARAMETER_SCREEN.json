@@ -1,0 +1,54 @@
+{
+  "scope": "CALCULATED_PARAMETER_SCREEN_ONLY",
+  "candidate_MPN": "XG1EL89CSI-111YLC-8M",
+  "supplier": "LCSC C5280575",
+  "frequency_Hz": 8000000.0,
+  "ESR_max_ohm": 80.0,
+  "C0_max_pF": 5,
+  "load_caps_pF": 33,
+  "load_cap_tolerance": 0.05,
+  "stray_cap_guard_pF": [
+    2,
+    5
+  ],
+  "stray_guard_classification": "ENGINEERING_LAYOUT_ASSUMPTION; not measured or guaranteed",
+  "effective_load_range_pF": [
+    17.675,
+    22.325000000000003
+  ],
+  "resistor_tolerance_and_TCR_guard": 0.015,
+  "cases": [
+    {
+      "R205_nominal_ohm": 120.0,
+      "R205_max_ohm": 121.79999999999998,
+      "gmcrit_worst_mA_per_V": 1.5227941690125328,
+      "under_ST_1p5mA_per_V": false
+    },
+    {
+      "R205_nominal_ohm": 100.0,
+      "R205_max_ohm": 101.49999999999999,
+      "gmcrit_worst_mA_per_V": 1.369609225350717,
+      "under_ST_1p5mA_per_V": true
+    }
+  ],
+  "selected_initial_R205_ohm": 100,
+  "ST_gmcrit_max_mA_per_V": 1.5,
+  "ST_limit_already_includes_gm_divided_by_5": true,
+  "drive_level_max_uW": 300,
+  "conservative_loaded_ESR_for_drive_screen_ohm": 131.66360240792721,
+  "conservative_Irms_limit_mA": 1.5094813813498587,
+  "conservative_Ipp_limit_mA": 4.2694580833092886,
+  "oscillation_and_drive_measured": false,
+  "not_proven": [
+    "actual startup over voltage/temperature",
+    "actual crystal drive power",
+    "negative-resistance margin on fabricated board",
+    "actual load capacitance and frequency pulling"
+  ],
+  "sources": [
+    "https://www.st.com/resource/en/datasheet/stm32h743bi.pdf",
+    "https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf",
+    "https://www.yxc.hk/uploadfiles/2024/02/20240222145814706.pdf",
+    "https://www.lcsc.com/product-detail/C5280575.html"
+  ]
+}
