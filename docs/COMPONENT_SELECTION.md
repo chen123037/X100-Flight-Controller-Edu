@@ -27,7 +27,7 @@
 | L102 | 功率电感 | Bourns | SRN6045-4R7Y | 6x6x4.5 SMD visible end terminals |
 | Y201 | 8MHz石英晶体 | TAITIEN | XJHCELNANF-8M | HC49-class 2SMD 12.5x4.5x4 |
 | C105 | 聚合物铝电容 | Panasonic | 50SVPF39M | OS-CON E12 diameter8 height11.9 |
-| J401 | USB Type-C母座 | GCT | USB4105-GF-A | default0.95mm stake Type-C16P |
+| J401 | USB Type-C母座 | Amphenol | 124019772112A / C5430474 | USB-C dual-row SMT / 4 plated SH slots |
 | J501 | microSD卡座 | Molex | 1040310811 | microSD SMT push-pull8+2detect |
 | J601 | JST GH侧插连接器 | JST | SM04B-GHS-TB(LF)(SN) | GH1.25 4P side-entry SMT |
 | D201 | 绿色发光二极管 | Lite-On | LTST-C170GKT | 0805 LED |
@@ -401,21 +401,9 @@
 | 当前验证状态 | BENCH_VERIFY（实板未验证） |
 | 采购注意事项 | 50SVPF39M，Ø8mm高11.9mm；底部装机高度待确认，不自行减容 |
 
-## J401：USB Type-C母座（USB4105-GF-A）
+## J401：USB Type-C母座（Amphenol 124019772112A）
 
-| 字段 | 冻结说明 |
-| --- | --- |
-| 功能中文名（English Function） | USB通信与保护模块 / USB Type-C母座（USB-C interface） |
-| 器件类别中文名 | USB Type-C母座 |
-| Reference | J401 |
-| Manufacturer | GCT |
-| MPN | USB4105-GF-A |
-| Package | default0.95mm stake Type-C16P |
-| Selection Status | FINAL_SELECTED_FOR_V1 |
-| 为什么采用 | 冻结GCT USB-C exact连接器，已核对官方land |
-| 为什么没有选择主要替代方案 | 已有V1方案冻结；其它替代的逐型号拒绝理由未公开，不在本轮补做比较 |
-| 当前验证状态 | BENCH_VERIFY（实板未验证） |
-| 采购注意事项 | USB4105-GF-A保留；两处0.1944mm内部孔铜结构待板厂接受 |
+2026-10-22用户正式批准，立创C5430474，优先立创；无须再次申请同一器件批准或等待旧GCT孔铜确认。已通过plant_kicad_v1写入正式源，保持USB/CC/VBUS/GND/Shield功能；GCT原型号退出J401正式BOM。[正式接受记录](J401_FORMAL_ACCEPTANCE.md)说明官方板边、1.6mm安装结构、局部规则、fresh检查与实物待验证事项。当前器件状态FINAL_SELECTED_FOR_V1 / DESIGN_REVIEWED_BENCH_PENDING，不表示整板可下单。
 
 ## J501：microSD卡座（1040310811）
 

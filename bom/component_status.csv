@@ -1,4 +1,4 @@
-﻿Function,Reference,MPN,Package,Selection Status,Verification Status,In BOM,Procurement Policy,Reason,Notes
+Function,Reference,MPN,Package,Selection Status,Verification Status,In BOM,Procurement Policy,Reason,Notes
 Power rail / protection support,C101,C1210C106K5RACTU,1210,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,SPECIFICATION_FROZEN_PREFERRED_BOM,Frozen V1 schematic/netlist choice,Specification selection frozen; preferred MPN is not mandatory
 Power rail / protection support,C102,C1210C106K5RACTU,1210,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,SPECIFICATION_FROZEN_PREFERRED_BOM,Frozen V1 schematic/netlist choice,Specification selection frozen; preferred MPN is not mandatory
 Power rail / protection support,C103,C1210C106K5RACTU,1210,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,SPECIFICATION_FROZEN_PREFERRED_BOM,Frozen V1 schematic/netlist choice,Specification selection frozen; preferred MPN is not mandatory
@@ -54,7 +54,7 @@ MCU / clock / reset support,D201,LTST-C170GKT,0805 LED,FINAL_SELECTED_FOR_V1,NOT
 MCU / clock / reset support,D202,LTST-C170GKT,0805 LED,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,EXACT_MPN_AUTHORIZED_PCB01F3; same LED as D201; not ordered,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
 FC input fuse,F101,0451003.MRL,NANO2 451 SMD,FINAL_SELECTED_FOR_V1,BENCH_VERIFY,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
 Power rail / protection support,F102,1812L200/12DR,1812 PTC,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
-USB-C interface,J401,USB4105-GF-A,default0.95mm stake Type-C16P,FINAL_SELECTED_FOR_V1,BENCH_VERIFY,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
+USB-C interface,J401,124019772112A,USB-C dual-row SMT / 4 plated SH slots,FINAL_SELECTED_FOR_V1,DESIGN_REVIEWED_BENCH_PENDING,YES,EXACT_MPN_FROZEN,User-approved exact connector replacement2026-10-22; native KiCad sync and pinmap checked,Amphenol / LCSC C5430474; nominal1.6mm top-mount geometry reviewed; physical solder/retention pending; no fabrication release
 microSD / SDMMC1 4-bit storage,J501,1040310811,microSD SMT push-pull8+2detect,FINAL_SELECTED_FOR_V1,PENDING_SAMPLE_VERIFICATION,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
 External CAN connector,J601,SM04B-GHS-TB(LF)(SN),GH1.25 4P side-entry SMT,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed
 UART / I2C / RC interface,J701,SM06B-GHS-TB(LF)(SN),GH1.25 6P side-entry SMT,FINAL_SELECTED_FOR_V1,NOT_TESTED,YES,EXACT_MPN_FROZEN,Frozen V1 schematic/netlist choice,Bench/flight validation not completed

@@ -1645,6 +1645,370 @@
 				)
 			)
 		)
+		(symbol "X100_Physical:Amphenol_124019772112A"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 14.7 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "124019772112A"
+				(at 0 -14.7 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Amphenol_124019772112A_0_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Amphenol_124019772112A_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.619999999999999 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.079999999999999 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.539999999999999 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.540000000000001 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.080000000000002 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.620000000000001 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.619999999999999 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.079999999999999 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.539999999999999 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.540000000000001 180)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.080000000000002 180)
+					(length 2.54)
+					(name "B9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.620000000000001 180)
+					(length 2.54)
+					(name "B12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "USB DATA ONLY + VBUS SENSE. Battery/bench power required."
 		(at 20 27 0)
@@ -2115,71 +2479,91 @@
 		)
 	)
 	(symbol
-		(lib_id "X100_Physical:GCT_USB4105_GF_A")
+		(lib_id "X100_Physical:Amphenol_124019772112A")
 		(at 119.38 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid 5d617aa3-1385-479d-957f-20d9a9a5b08b)
 		(property "Reference" "J401"
-			(at 119.38 88.9 0)
+			(at 119.38 129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Value" "124019772112A"
+			(at 119.38 99.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A"
-			(at 119.38 91.44 0)
+		(property "Manufacturer" "Amphenol"
+			(at 119.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "X100_Physical:Official_Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "MPN" "124019772112A"
 			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gct.co/files/drawings/usb4105.pdf"
+		(property "Package" "USB-C dual-row SMT / 4 plated SH slots"
 			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "default0.95mm stake Type-C16P"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2188,21 +2572,61 @@
 			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(instances
-			(project "X100_CleanSheet"
-				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
-					(reference "J401")
-					(unit 1)
+		(property "LCSC" "C5430474"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Selection Status" "FINAL_SELECTED_FOR_V1"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "DESIGN_REVIEWED_BENCH_PENDING"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Approval" "USER_APPROVED_2026-10-22"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mechanical Assembly" "Top mount; PCB 1.6mm; 0.50mm SH projection embedded in plated slots; solder from component side; inspect joint wetting"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
 			(uuid c9bbda30-b402-422c-bafd-957cbb2644d7)
+		)
+		(pin "A12"
+			(uuid 8d131038-b1e8-4124-9a53-0c34ba02c913)
 		)
 		(pin "A4"
 			(uuid 0f8b97f6-1821-4347-98ff-52c55167d4b8)
@@ -2222,11 +2646,11 @@
 		(pin "A9"
 			(uuid c112db88-b994-4edb-ae9d-0659a1c2ca4d)
 		)
-		(pin "A12"
-			(uuid 8d131038-b1e8-4124-9a53-0c34ba02c913)
-		)
 		(pin "B1"
 			(uuid 2ab7f3f7-858c-4de2-a901-ce1040b81093)
+		)
+		(pin "B12"
+			(uuid f47754c3-e70b-436a-8686-eddbfaa28016)
 		)
 		(pin "B4"
 			(uuid 481ae7c6-1b49-4bb4-808e-5511737cd57c)
@@ -2246,11 +2670,17 @@
 		(pin "B9"
 			(uuid 1146dc80-444e-4192-a878-08f23a01a79c)
 		)
-		(pin "B12"
-			(uuid f47754c3-e70b-436a-8686-eddbfaa28016)
-		)
 		(pin "SH"
 			(uuid 1c95cb14-5ed9-47f5-aff7-49f5fb45b1bd)
+		)
+		(uuid 5d617aa3-1385-479d-957f-20d9a9a5b08b)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
+					(reference "J401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	

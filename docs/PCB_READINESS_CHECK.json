@@ -2,13 +2,12 @@
   "date": "2026-10-22",
   "kicad": "10.0.6",
   "formal": {
-    "violations": 635,
-    "unconnected": 405,
+    "violations": 629,
+    "unconnected": 411,
     "by_type": {
-      "hole_clearance": 4,
       "courtyards_overlap": 199,
-      "npth_inside_courtyard": 19,
-      "pth_inside_courtyard": 4,
+      "npth_inside_courtyard": 18,
+      "pth_inside_courtyard": 3,
       "silk_edge_clearance": 16,
       "text_height": 2,
       "silk_over_copper": 192,
@@ -40,5 +39,8 @@
     "actual_edge_clearance_mm": 0.325,
     "required_edge_clearance_mm": 0.5
   },
-  "J401_formal_replacement_authorized": false
+  "J401_formal_replacement_authorized": true,
+  "J401_formal_replacement": "APPLIED",
+  "J401_current_review": "docs/evidence/J401_FORMAL_20261022/REVIEW.json",
+  "historical_candidate_results_not_current_verdict": true
 }

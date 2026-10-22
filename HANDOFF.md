@@ -1,13 +1,11 @@
 # 接手指南
 
-2026-10-22：用户授权清除阻塞并推进布线至可投板；USB-only需求已确认，**具体电源架构及器件未批准**。从[当前状态](STATUS.md)、[USB工程审查](docs/USB_CORE_POWER_REVIEW.md)、[已知问题](docs/KNOWN_ISSUES.md)读取最新事实。
+2026-10-22最终人工授权：J401_REPLACEMENT=APPROVED；已写入正式源。继续推进完整PCB与制造包到READY_FOR_HUMAN_FABRICATION_APPROVAL，届时STOP供人工验收；不付款、不实际下单。已授权常规工程修复，不再申请同一J401型号批准。
 
-1. 正式源仍是 `hardware/X100_V1`。J601已局部重排关闭3条制造问题；J401未替换，仍4条孔铜报告。不要恢复旧位置或按旧7条统计报告当前状态。
-2. [Amphenol连接器候选](hardware/proposals/J401_AMPHENOL_UNAPPROVED/README.md)有独立工程、ERC、网表与几何证据。用户已确认exact MPN对应采购来源，但只准继续验证。最新[验证结论](hardware/proposals/J401_AMPHENOL_UNAPPROVED/VALIDATION.md)为HOLD：板厚适配未闭合，板边基准对齐后新增2条铜边距错误。依用户要求暂停，不再申请正式替换，未经新授权不另起替换型号/布线。没有新电源电路混在这个候选中。
-3. USB-only必须MCU启动/枚举/刷写/地面站/参数，推荐核心传感器；SD不强制且不得妨碍核心。ArduPilot Flash参数与无卡后台重试有源码证据；X100自己的hwdef/bootloader、描述符和阶段电流仍未验证。
-4. 先闭合USB浪涌、枚举前电流、配置后预算、SD支路、反灌与双源故障分析，再提交具体架构/可采购器件。隔离电源研究稿ERC0/0不是功能通过，不能直接推广。
-5. 通过裁决后执行最小正式ECO，fresh ERC/XML/native同步、逐脚身份/网络核对、局部放置和制造几何复查；满足技术前置条件才执行已授权布线。正式PCB修改仍由plant_kicad_v1执行。
-6. 完成关键电源/USB/时钟/传感器回流与信号布线，保持In1连续GND、现有四层规则和标准贯通孔。自动布线结果必须经过约束、连通及native DRC审查。
-7. 最后完成丝印/courtyard解释、DRC、Gerber回读、BOM/CPL/钢网和板厂在线DFM，才能形成可下单结论；没有制造放行不下单。
+1. 先读[当前状态](STATUS.md)与[J401正式接受记录](docs/J401_FORMAL_ACCEPTANCE.md)。正式源为`hardware/X100_V1`。原J6013条和J4014条孔/板边问题已关闭，J401板边基准已对齐。
+2. 关闭[USB-only供电事项](docs/USB_CORE_POWER_REVIEW.md)：核心功能必须保留，SD非强制且不得拖垮核心；需要分阶段电流、浪涌、反向阻断和双源/SD支路处理，不得直接并USB VBUS和5V_MAIN。隔离旧研究稿ERC0不是功能通过。
+3. 电源ECO后native ERC/XML→PCB同步、逐脚/UUID/封装核对、局部放置复查。正式PCB修改由plant_kicad_v1执行，保留checkpoint；不要使用旧的几何推断网名同步器。
+4. 技术前置条件闭合后执行已授权routing、标准贯通过孔和铺铜。先Buck回路/GND、HSE、USB、BMI088、SD/CAN/ADC，再其它IO；In1保持连续GND参考。
+5. 完成完整ERC/DRC、板边/孔铜/装配/丝印/阻焊、JLC3313叠层及真实制造参数、BOM/CPL，导出并回读Gerber/钻孔、完成最终DFM。只有真实证据覆盖全部要求才宣布可提交打样。
 
-保持45×45mm、H1–H4 Ø4 NPTH及30.5mm孔距、MCU/IMU/主Buck架构和已接受microSD向内位置。禁止扩大板框、削官方land、全局放宽clearance、排除整个连接器或复制TEST铜。只学习参考的模块化绘图语法，不复制他人的电路。具体供电方案和器件的审批要求来自用户2026-10-22的明确边界。
+保持45×45mm、H1–H4 Ø4 NPTH和30.5mm孔距、MCU/IMU/气压计冻结选型。J401精确SH/GND局部0.30mm规则有制造依据，全局0.50mm及其它规则保持，不泛化例外、不排除整只连接器。仅学习参考的模块边框、标题、聚类和局部完整电路绘图语法，不复制他人电路。
