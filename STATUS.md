@@ -1,6 +1,6 @@
 # X100 V1 当前状态
 
-最新供电评估为[USB-only Stage5](hardware/proposals/USB_CORE_STAGE5_NOT_APPROVED/README.md)：在候选内门控外部I2C上拉，隔开其负载与传感器LDO使能，并恢复独立3V3_MCU电源指示。242器件ERC0/0、native parity0，28处既有引脚改网逐项匹配；205个既有实体位置已同步当前正式布局。41个新增封装仍未放置，启动/挂起电流及电源安全未通过。该方案/新门型号未批准，正式源未变，不能下单。
+最新隔离评估为[USB-only Stage6 合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)：保留Stage5的外I2C门控、独立PWR指示与SD硬件隔离，组合待批准的Y201/L101，并以既有型号180µF合并2×82µF，减少一颗器件和30.9701mm²封装占位。241电气器件、245封装fresh ERC0/0、native parity0；除移除C127外，Stage5全部引脚网络保持。40个新增封装仍未完成放置，联合试排未取得全器件可接受解；轨迹/过孔/铺铜仍0/0/0。启动/挂起、源切换及电源安全未通过。正式源55项CAD和Stage5父工程59项CAD未变，未批准器件/架构未推广，不能下单。
 
 新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。新型号尚未批准，正式仍用SRP1265A-100M；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
 
