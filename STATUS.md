@@ -22,3 +22,6 @@
 后续先完成[USB电源事项](docs/USB_CORE_POWER_REVIEW.md)，再推进routing、回流/信号/热/机械检查及制造包。未通过完整检查不标记PASS。J401不再等待同一器件批准或GCT旧孔铜结论。
 
 本轮[测试点净空与同步检查](docs/TESTPOINT_CLEARANCE_REVIEW.md)已正式保存；电气网表/BOM、45mm板框、孔位、J401等功能器件姿态保持。USB-A→C与USB-C→C均为必需兼容目标；USB-only最高200MHz、VBAT400MHz获准继续评估。200MHz静态时钟编译探针通过不代表分阶段启动或USB电流通过。
+
+
+2026-10-22 USB-only续推进：用户确认目前没有开发板/测试条件，不额外购买；电流、枚举和切换波形安排首板Bring-up，不再因缺实板暂停设计。[Stage3候选](docs/USB_CORE_STAGE3_REVIEW.md)已完成240器件ERC0/0、精确27处既有引脚改网及候选PCB逐焊盘/UUID/Value/封装同步检查，原生parity0；正式源55项CAD哈希未变。该候选新增39个封装尚未完成放置，未布线；预配置/挂起仍未资格验证，新电源器件/架构未正式采用。上述正式源状态与NO结论保持。
