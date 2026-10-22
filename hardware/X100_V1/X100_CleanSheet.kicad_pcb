@@ -159,7 +159,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "01211fd3-1025-4923-a080-5f7f0c85c558")
-		(at 90.75 87.8 90)
+		(at 91.75 87.8 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C211"
@@ -491,7 +491,7 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0450d6e7-c06d-44af-a9cf-be6313659a02")
-		(at 88.5 96 180)
+		(at 89.5 96 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R201"
@@ -1584,7 +1584,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "1362fef6-9918-473a-93b3-1939e6abbbac")
-		(at 113.5 90)
+		(at 113.625 90)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C111"
@@ -3422,7 +3422,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "200cd129-94f0-4cbe-b8db-1767f4ca7de2")
-		(at 109.625 90.55)
+		(at 110.5 90.55)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP207"
 			(at 0 -2.3 0)
@@ -3565,7 +3565,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "20f3e2bf-4bf4-474a-a904-bdb037055384")
-		(at 108.5 85.3)
+		(at 109.5 85.3)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C206"
@@ -4256,7 +4256,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "238ac1bb-623a-408b-9d22-5c275f4f34c5")
-		(at 108.85 102.013)
+		(at 111.225 100.263)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP309"
 			(at 0 -2.3 0)
@@ -4397,7 +4397,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "2448c42c-0f2e-4ef5-8b64-b9cfdc2b1228")
-		(at 110.875 85.425)
+		(at 111.875 85.425)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP206"
 			(at 0 -2.3 0)
@@ -5384,7 +5384,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2ec33646-9691-4f6c-9f96-c99cf7deda91")
-		(at 107.875 100.425)
+		(at 108.875 100.425)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C205"
@@ -6369,7 +6369,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "35674203-5bfd-413b-9e7f-80364dab6236")
-		(at 110.12 104.75)
+		(at 108.62 104.75)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP807"
 			(at 0 -2.3 0)
@@ -8222,7 +8222,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "479cb210-a3bb-42ba-a5e2-b222a1885516")
-		(at 90.75 95.55 90)
+		(at 91.75 95.55 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C210"
@@ -9654,7 +9654,7 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "4e4c0c5b-a686-4ad0-828f-9b9c92862769")
-		(at 88.5 91 180)
+		(at 89.5 91 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R203"
@@ -11556,7 +11556,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "5e412518-9929-4d35-b7b3-ab46a67c8fbd")
-		(at 106.825 103.1)
+		(at 107.825 102.975)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP205"
 			(at 0 -2.3 0)
@@ -11855,7 +11855,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "64a18d8b-455d-45f7-9bdb-3439f0aa47d0")
-		(at 92.25 84.55 180)
+		(at 93.25 84.55 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C207"
@@ -14202,7 +14202,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "76ea5695-cbd2-4921-ab8a-4b92a00682a7")
-		(at 105 102.8 -90)
+		(at 106 102.8 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C201"
@@ -15065,7 +15065,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7bb2e092-7a89-48c6-9472-3364a27b54e9")
-		(at 89.75 97.75 180)
+		(at 90.75 97.75 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C209"
@@ -16118,7 +16118,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "81454efe-9dfd-4fd0-8823-7b91799c5046")
-		(at 90.75 90.55 90)
+		(at 91.75 90.55 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C203"
@@ -16675,7 +16675,7 @@
 	(footprint "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "870398fb-ad25-4731-8528-4544105b3262")
-		(at 88.5 88.75 180)
+		(at 89.5 88.75 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R202"
@@ -17225,7 +17225,7 @@
 	(footprint "X100_Physical:Official_Package_QFP_LQFP-100_14x14mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "8cb4c39b-e870-4887-88a5-50cbb0d975b2")
-		(at 99.95 92.3)
+		(at 100.95 92.3)
 		(descr "LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf)")
 		(tags "LQFP QFP")
 		(property "Reference" "U201"
@@ -21578,7 +21578,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a3faaec9-d1fd-44f9-9d4e-3d5ce383931a")
-		(at 110.375 87.3)
+		(at 111.375 87.3)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C202"
@@ -24268,7 +24268,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b7e52934-0289-4093-aa18-90d68fd238e9")
-		(at 89.75 92.75 180)
+		(at 90.75 92.75 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C212"
@@ -24543,7 +24543,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "ba4e9300-66c3-4dc3-9075-e3189c6a5ba0")
-		(at 114.9 99.725)
+		(at 115 100.9)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP804"
 			(at 0 -2.3 0)
@@ -24684,7 +24684,7 @@
 	(footprint "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "c0f3aebf-5351-446c-91ee-4741851b357d")
-		(at 111.75 99.5)
+		(at 111.75 102.75)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C208"
@@ -24959,7 +24959,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "c672bbdf-56fa-4ad0-b1a8-3c4f55ec3f5c")
-		(at 112.66 104.75)
+		(at 114.91 103)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP808"
 			(at 0 -2.3 0)
@@ -25243,7 +25243,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "c80fb5d6-37d9-474d-871f-5b9602da8301")
-		(at 107.58 104.75)
+		(at 107.58 110)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP806"
 			(at 0 -2.3 0)
@@ -25838,7 +25838,7 @@
 	(footprint "X100_Physical:TP0p6_Inline_NoPaste"
 		(layer "F.Cu")
 		(uuid "ce04ec2e-16a1-4518-b293-b5ffad93e92d")
-		(at 111.95 102.175)
+		(at 111.95 98.55)
 		(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
 		(property "Reference" "TP705"
 			(at 0 -2.3 0)
@@ -27414,7 +27414,7 @@
 	(footprint "X100_Physical:TP1p5_NoPaste"
 		(layer "F.Cu")
 		(uuid "e05c6340-6b4b-4887-bd8d-a200279a251b")
-		(at 114.75 102.45)
+		(at 114.75 98.8)
 		(descr "Project1.5mm round accessible top test pad; no hole; no paste")
 		(property "Reference" "TP111"
 			(at 0 -2.75 0)

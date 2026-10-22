@@ -9,8 +9,8 @@
 | J601 | 原3条孔/板边阻塞已关闭，局部重排保持 |
 | J401 | Amphenol124019772112A / C5430474已正式接受；原4条孔铜阻塞关闭，官方板边基准已对齐 |
 | J401局部规则 | 仅SH/GND>=0.30mm，实际0.325mm；全局板边>=0.50mm保持 |
-| 原生DRC | 报告608 violations +411 unconnected；丝印相互类别触及199条报告上限，608不是完整总数；原理图一致性问题0 |
-| 完整courtyard几何 | 324→280→234→230→201→185→177对：最近追加C208/SWD及测点6件重排再消除8对，无新配对；剩余仍未通过 |
+| 原生DRC | 报告602 violations +411 unconnected；丝印相互类别触及199条报告上限，602不是完整总数；原理图一致性问题0 |
+| 完整courtyard几何 | 172对：最近MCU/局部去耦整体平移及测点重排再消除5对，无新配对；剩余仍未通过 |
 | Tracks / vias / zones | 0 /0 /0，正式布线未开始 |
 | USB-only | MCU启动/枚举/刷写/地面站/参数必须；推荐BMI088/SPL06；SD非强制且不得干扰核心；电源ECO未完成 |
 | ROUTING_PRECONDITIONS_MET | NO：USB-only电源/预算/SD支路尚需闭合 |
@@ -40,3 +40,6 @@
 
 
 2026-10-23最新正式基线：POST_SWD_ROW_REFLOW_FORMAL_BASELINE。追加六件放置后庭院177对、DRC608+411未连接、ERC0/0/native parity0；[当前证据](docs/LOCAL_CLEARANCE_REVIEW.md)。此前185/612等是阶段记录。C208值/型号与所有各脚去耦电容、SWD五针及65测点保持；未正式采用新晶体/USB电源，布线及制造包未完成。
+
+
+2026-10-23最新正式基线：POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE。26件位置更新，MCU及局部去耦向右1mm；庭院172、DRC602+411未连接、ERC0/0/native parity0。C204留原位，距U201.27为1.825mm，实际供电/GND回路仍待布线审查。6×4mm空白方向标记预留区右移1.25mm，真实轴向/箭头尚未闭合。见[当前布局证据](docs/LOCAL_CLEARANCE_REVIEW.md)。此前177/608等均为历史阶段，仍未布线和生成制造包。

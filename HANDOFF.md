@@ -1,6 +1,6 @@
 # 接手指南
 
-最新正式基线（2026-10-23）：[C208/SWD及测点六件后续重排](docs/LOCAL_CLEARANCE_REVIEW.md)。完整庭院177对、fresh DRC608+411未连接、ERC0/0/native parity0；正式PCB/身份/网络同步完成。后续从POST_SWD_ROW_REFLOW_FORMAL_BASELINE继续，勿用旧候选整板覆盖。下文185/280/234/230计数是阶段历史。
+最新正式基线（2026-10-23）：[MCU/局部去耦空间调整](docs/LOCAL_CLEARANCE_REVIEW.md)。完整庭院172对、fresh DRC602+411未连接、ERC0/0/native parity0；正式PCB/身份/网络同步完成。后续从POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE继续，勿用旧候选整板覆盖；C204距离增加后的实际回路与方向标记尚待闭合。下文177/185/280/234/230计数是阶段历史。
 
 2026-10-22最终人工授权：J401_REPLACEMENT=APPROVED；已写入正式源。继续推进完整PCB与制造包到READY_FOR_HUMAN_FABRICATION_APPROVAL，届时STOP供人工验收；不付款、不实际下单。已授权常规工程修复，不再申请同一J401型号批准。
 
