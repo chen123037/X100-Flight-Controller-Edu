@@ -26,8 +26,19 @@
       "text_height": 2,
       "silk_over_copper": 192,
       "silk_overlap": 199
-    }
+    },
+    "mechanical_verdict": "HOLD",
+    "thickness_1p6mm_compatibility": "NOT_CONFIRMED",
+    "pcb_edge_datum_mismatch_mm": 0.325
   },
   "routing_ready": false,
-  "fabrication_ready": false
+  "fabrication_ready": false,
+  "J401_candidate_edge_aligned_test_only": {
+    "violations": 631,
+    "unconnected": 411,
+    "new_copper_edge_clearance_errors": 2,
+    "actual_edge_clearance_mm": 0.325,
+    "required_edge_clearance_mm": 0.5
+  },
+  "J401_formal_replacement_authorized": false
 }

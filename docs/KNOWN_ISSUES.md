@@ -33,4 +33,4 @@
 - **DRC收尾：** 丝印/文字与courtyard元数据需后续分类处理，尚无整板制造DRC PASS。
 - **软件与飞行：** 本板ArduPilot hwdef、实板外设、安装方向、台架和飞行验证均未完成。
 
-2026-10-22：已有[Amphenol未批准候选](../hardware/proposals/J401_AMPHENOL_UNAPPROVED/README.md)。USB-only功能范围及固件/启动电流新发现见[工程审查](USB_CORE_POWER_REVIEW.md)。新器件与电源方案未裁决、技术前置条件未通过前，不进入正式布线。
+2026-10-22：[Amphenol候选完整验证](../hardware/proposals/J401_AMPHENOL_UNAPPROVED/VALIDATION.md)为HOLD；1.6mm适配未闭合，官方板边基准对齐后新增2条0.325<0.500mm板边错误。用户已确认采购来源，但尚未批准替换；按发现风险即暂停的指令停止推进该候选。USB-only功能范围及固件/启动电流新发现见[工程审查](USB_CORE_POWER_REVIEW.md)。新器件与电源方案未裁决、技术前置条件未通过前，不进入正式布线。
