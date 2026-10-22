@@ -1,5 +1,7 @@
 # 接手指南
 
+供电后续评估从[Stage5完整候选](hardware/proposals/USB_CORE_STAGE5_NOT_APPROVED/README.md)继续：保留Stage4的SD PG修正并同步当前205个既有位置，外I2C上拉增加模式门控，独立PWR LED恢复直接MCU轨指示。新方案/型号仍待整体裁决；41个新封装尚未放置，电气同步通过不等于电源/制造通过。不要用Stage3/4整板覆盖当前正式源。
+
 L101另有[可打开的SRP1038A-100M/C780184候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)，只改L101及对应库/字段，非目标204个PCB实体保持，等待新MPN裁决；不要据此认定完整电源或制造通过。旧Y201候选已补齐库SMD属性，原PCB/原理图未变，旧父基线的几何数据不能替代当前MCU位置检查。
 
 最新正式基线（2026-10-23）：[MCU/局部去耦空间调整](docs/LOCAL_CLEARANCE_REVIEW.md)。完整庭院172对、fresh DRC602+411未连接、ERC0/0/native parity0；正式PCB/身份/网络同步完成。后续从POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE继续，勿用旧候选整板覆盖；C204距离增加后的实际回路与方向标记尚待闭合。下文177/185/280/234/230计数是阶段历史。

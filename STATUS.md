@@ -1,5 +1,7 @@
 # X100 V1 当前状态
 
+最新供电评估为[USB-only Stage5](hardware/proposals/USB_CORE_STAGE5_NOT_APPROVED/README.md)：在候选内门控外部I2C上拉，隔开其负载与传感器LDO使能，并恢复独立3V3_MCU电源指示。242器件ERC0/0、native parity0，28处既有引脚改网逐项匹配；205个既有实体位置已同步当前正式布局。41个新增封装仍未放置，启动/挂起电流及电源安全未通过。该方案/新门型号未批准，正式源未变，不能下单。
+
 新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。新型号尚未批准，正式仍用SRP1265A-100M；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
 
 更新2026-10-23，分支`feature/pcb-fabrication-readiness`。用户已正式批准J401替换，并授权常规工程修复、PCB设计及制造文件生成；不含付款或实际下单。目标仍为完整可提交嘉立创打样的制造包，不在局部完成后宣告成功。
