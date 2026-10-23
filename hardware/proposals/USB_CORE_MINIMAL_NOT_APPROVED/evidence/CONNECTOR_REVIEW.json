@@ -1,0 +1,39 @@
+{
+  "board_sha256": "58c7accf093af78921e62c044601853fd9a77921d4d04315412241bc51883759",
+  "CONNECTOR_ACCESS": "PASS",
+  "scope": "BARE_PCB_FROZEN_CONNECTOR_BODIES_AXIAL_ACCESS_STANDARD_USB_C_OVERMOULD_INSERTED_MICROSD_AND_NYLON_CONTACT_GEOMETRY",
+  "axial_blockers": [],
+  "USB_overmould_width_mm": 12.85,
+  "USB_overmould_height_mm": 7.0,
+  "USB_overmould_conflicts": [],
+  "USB_to_inserted_microSD_planar_gap_mm": 0.57,
+  "mount_contact_diameter_mm": 7,
+  "mount_faces": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "washer7_failures": [],
+  "min_nominal_margin_beyond_washer_mm": 0.1,
+  "before_intrusions_by_hole": {
+    "H1": 9,
+    "H2": 8,
+    "H3": 8,
+    "H4": 14
+  },
+  "before_intrusions": 39,
+  "after_intrusions": 0,
+  "reference": {
+    "author": "USB-IF / USB 3.0 Promoter Group",
+    "document": "USB Type-C Cable and Connector Specification Release2.4 October2024",
+    "figure": "3-12",
+    "page": 66,
+    "archive_url": "https://usb.org/sites/default/files/usb_type-c_2.4_release_202410.zip",
+    "PDF_SHA256": "f5407e6120db1e28137e7fee60f3125f4284e2252b1240d271ce6e40c0ba3121"
+  },
+  "limits": [
+    "CAD nominal geometry; exact frame/bolt length/post height not frozen by user",
+    "No physical soldering, retention, cable/washer sample or system enclosure test claimed",
+    "All Fab bodies and exposed TP/pads outside7mm nominal contact, with >=0.10mm design margin; not a statistical assembly-tolerance certification",
+    "Updated12.85x7.0mm standard envelope; no assumption that older12.35x6.5mm limits cover all current cables"
+  ]
+}

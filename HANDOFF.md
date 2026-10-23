@@ -1,8 +1,10 @@
 # 接手指南
 
-当前继续工作的统一候选为 [USB 最小架构完整放置检查点](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)：**236 电气器件 /240 PCB 实体，全部已在原生 KiCad 落板**（含 65 测试点），实体/跨面通孔/实际孔侵入均 0，fresh ERC0、native parity0、异网铜间距/板边失败0。使用唯一指定 `plant_kicad_v1` 写入；保留原 Y201/120R HSE 与已批准 J401/L101。正式 201 电气器件 /205 实体原本已全部板内放置、实体冲突0，未被此候选覆盖。旧 Stage6 的174板外实体只属于旧的局部试验。
+当前继续工作的统一候选为 [USB最小架构完整放置工程](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)：236电气器件 /240 PCB实体（含65测试点）全部已落板。本轮已按用户指定的四孔双面Ø7.0mm尼龙垫圈接触范围重排，原39处侵入全部关闭，名义余量≥0.10mm；板框、孔位及器件封装保持。
 
-**布局验收尚未结束，尚未开始此候选整板布线。** 原生 DRC631条、未连接报告499封顶；完整 courtyard242对需装配处置（不是实体碰撞），插拔包络与关键布线空间仍待闭合。`FULL_PLACEMENT_READY_FOR_ROUTING=NOT_YET_ACCEPTED`，电源安全/USB合规/制造包均未PASS。下一步从这一个完整原生工程继续局部修复与验收，不再扩展历史候选。
+保存后实体/跨面通孔/实际孔冲突0，所有同面Fab壳体间距≥0.20mm，fresh ERC0 /native parity0、铜间距/孔铜/板边/阻焊桥0。`CONNECTOR_ACCESS=PASS`限裸板标准插头/插卡及安装接触包络CAD几何；USB按R2.4的12.85×7.0mm检查，卡/插头平面间距0.57mm。正式201电气器件 /205实体原本已板内放置、实体冲突0，本轮正式57项CAD哈希未变；旧174板外实体只属于历史Stage6局部试验。
+
+**仍未接受整板布线前置条件**：主电源SW/BOOT/VIN/输出/COMP路径已通过几何预检查，但其余关键引出未闭合。当前候选0轨迹/0过孔/0铺铜，DRC619报告项、未连接499封顶，完整courtyard286对仍待处置；`CRITICAL_ROUTING_SPACE=PENDING`、`FULL_PLACEMENT_READY_FOR_ROUTING=NOT_YET_ACCEPTED`，电源安全/制造包未PASS。继续同一工程的关键路由空间核对与实际布线，不等待安装件型号，不覆盖正式工程。
 
 以下为历史阶段记录；与以上冲突时以上为准。
 
