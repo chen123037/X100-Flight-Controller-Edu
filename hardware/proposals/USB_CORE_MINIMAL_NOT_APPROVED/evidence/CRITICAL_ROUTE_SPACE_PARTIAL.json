@@ -7166,7 +7166,7 @@
   "plan_generation_complete": true,
   "placement_access_review": {
     "board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
-    "layout_signature": "589c0faa944a8edd14323f9eb3e2dc1835b5cad14f6fc478ff41fc37c17fb4f6",
+    "layout_signature": "54c3d892f9dca7a924b5359cc6a7b23a19d869cadfa38b2bed0f13e2c8bf33d7",
     "native_physical_gate_clear": true,
     "critical_link_count": 65,
     "simultaneous_path_links": 56,
@@ -7406,6 +7406,30 @@
         },
         "reason": "5V distribution: reverse U104/C118 to face the power bus; R506 frees the front transfer neck; R510 relocated clear of cross-face PTH. Fresh all-entity physical/net/identity/washer/edge audit and native electrical DRC clear; existing USB corridor retains >=0.50mm from all saved copper. Historical simultaneous signal plans remain pre-routing evidence, not a claim of final signal completion.",
         "board_sha256": "7d3b22888a285a72f280a000a1076ae1203ab973e25016ca6931fa517049404d"
+      },
+      {
+        "moves": {
+          "R105": {
+            "x": 86.375,
+            "y": 107.85,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "R109": {
+            "x": 86,
+            "y": 104.85,
+            "rotation": 270,
+            "layer": "B.Cu"
+          },
+          "TP110": {
+            "x": 103,
+            "y": 108.825,
+            "rotation": 180.0,
+            "layer": "F.Cu"
+          }
+        },
+        "reason": "External power routing: two resistor poses and one fault-probe pose refined; native all-entity physical/identity/net/washer/edge checks clear, and future USB corridor retains>=0.50mm from saved copper. Pre-routing signal plans remain historical access evidence, not simultaneous signal completion.",
+        "board_sha256": "2cec8e6dddaabd4f50fda81aa4f13d49d504b6b678bd33a2530e95deb3fce255"
       }
     ]
   }

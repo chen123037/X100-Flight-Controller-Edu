@@ -1,0 +1,85 @@
+{
+  "scope": "MERGE_INPUT_ZONE_BY_AUTHORIZED_MCP_REPLAY_NOT_POWER_SAFETY_PASS",
+  "source_board_sha256": "02490989ab3ea8e1be437e730dfe97a82dfb2b61e4a567df06e45ff87444860d",
+  "base_checkpoint": "USB_MINIMAL_PRE_INPUT_POWER_CHECKPOINT.zip",
+  "kept_copper_items": 126,
+  "removed_base_items": 63,
+  "replayed_items": 395,
+  "moves": {
+    "C118": {
+      "x": 86.1,
+      "y": 110.25,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "TP110": {
+      "x": 103.0,
+      "y": 108.825,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R506": {
+      "x": 105.2,
+      "y": 106.0,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U104": {
+      "x": 86.5,
+      "y": 110.2,
+      "rotation": 180.0,
+      "layer": "B.Cu"
+    },
+    "R105": {
+      "x": 86.375,
+      "y": 107.85,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R109": {
+      "x": 86.0,
+      "y": 104.85,
+      "rotation": 270.0,
+      "layer": "B.Cu"
+    },
+    "R510": {
+      "x": 107.0,
+      "y": 96.0,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    }
+  },
+  "outline": [
+    [
+      80,
+      96
+    ],
+    [
+      88.5,
+      96
+    ],
+    [
+      88.5,
+      100.25
+    ],
+    [
+      102.5,
+      100.25
+    ],
+    [
+      102.5,
+      121.75
+    ],
+    [
+      80,
+      121.75
+    ]
+  ],
+  "clearance_mm": 0.5,
+  "expected_native": {
+    "tracks": 463,
+    "vias": 58,
+    "zones": 2
+  },
+  "reason": "Adjacent same-priority zones trigger KiCad zones_intersect even with shared edges; retain the successfully checked copper while merging their equivalent outline."
+}

@@ -1026,6 +1026,14 @@
     "outline": [
       [
         80,
+        96
+      ],
+      [
+        88.5,
+        96
+      ],
+      [
+        88.5,
         100.25
       ],
       [
@@ -1034,21 +1042,21 @@
       ],
       [
         102.5,
-        115.75
+        121.75
       ],
       [
         80,
-        115.75
+        121.75
       ]
     ],
     "section_x_range_mm": [
       82.25,
       99.5
     ],
-    "minimum_aggregate_section_mm": 8.921262,
+    "minimum_aggregate_section_mm": 9.478316,
     "required_section_mm": 8.3,
     "scope": "Sum of parallel conducting slices in the connected plane; not a claim that every individual branch is8.3mm or that thermal/current sharing passed.",
-    "geometry_checked_on_board_sha256": "7d3b22888a285a72f280a000a1076ae1203ab973e25016ca6931fa517049404d"
+    "geometry_checked_on_board_sha256": "2cec8e6dddaabd4f50fda81aa4f13d49d504b6b678bd33a2530e95deb3fce255"
   },
   "notes": [
     "All new surface traces are F/B; no thin In2 power track or custom-rule change",
@@ -1056,7 +1064,8 @@
     "Via tenting inherits native front/back yes; effective tenting must be read back",
     "Only masked traces/inner copper may pass beneath nylon bearing envelopes; all bodies/pads/exposed probes/via annuli stay clear",
     "VBAT_RAW and5V_MAIN are never connected; existing USB/VBAT source isolation preserved",
-    "5V DRC repair: same input plane replayed as ONE outline ending y=115.75; no overlapping same-priority stripe."
+    "5V DRC repair: same input plane replayed as ONE outline ending y=115.75; no overlapping same-priority stripe.",
+    "External-power stage: one merged input plane with upper-left/bottom extensions; fresh native filled area and current corridor checked in ACTUAL_ROUTING_REVIEW."
   ],
   "applied_board_sha256": "7d3b22888a285a72f280a000a1076ae1203ab973e25016ca6931fa517049404d"
 }
