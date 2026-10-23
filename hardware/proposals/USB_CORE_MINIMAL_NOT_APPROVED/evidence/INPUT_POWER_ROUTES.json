@@ -1056,7 +1056,7 @@
     "minimum_aggregate_section_mm": 9.478316,
     "required_section_mm": 8.3,
     "scope": "Sum of parallel conducting slices in the connected plane; not a claim that every individual branch is8.3mm or that thermal/current sharing passed.",
-    "geometry_checked_on_board_sha256": "2cec8e6dddaabd4f50fda81aa4f13d49d504b6b678bd33a2530e95deb3fce255"
+    "geometry_checked_on_board_sha256": "1fcf0202f985c8b54f99afcac072193638459637c96b24595036d33742f6f058"
   },
   "notes": [
     "All new surface traces are F/B; no thin In2 power track or custom-rule change",

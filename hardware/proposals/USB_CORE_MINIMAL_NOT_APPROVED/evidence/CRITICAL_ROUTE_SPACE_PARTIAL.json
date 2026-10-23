@@ -7166,7 +7166,7 @@
   "plan_generation_complete": true,
   "placement_access_review": {
     "board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
-    "layout_signature": "54c3d892f9dca7a924b5359cc6a7b23a19d869cadfa38b2bed0f13e2c8bf33d7",
+    "layout_signature": "1cf479766af949bb0c47f78e4b8b6d150dcd5061cee19357e189bb62b3dff6b8",
     "native_physical_gate_clear": true,
     "critical_link_count": 65,
     "simultaneous_path_links": 56,
@@ -7430,6 +7430,36 @@
         },
         "reason": "External power routing: two resistor poses and one fault-probe pose refined; native all-entity physical/identity/net/washer/edge checks clear, and future USB corridor retains>=0.50mm from saved copper. Pre-routing signal plans remain historical access evidence, not simultaneous signal completion.",
         "board_sha256": "2cec8e6dddaabd4f50fda81aa4f13d49d504b6b678bd33a2530e95deb3fce255"
+      },
+      {
+        "moves": {
+          "U102": {
+            "x": 115.25,
+            "y": 89.8,
+            "rotation": 180,
+            "layer": "B.Cu"
+          },
+          "C112": {
+            "x": 118.5,
+            "y": 88.4,
+            "rotation": 90,
+            "layer": "B.Cu"
+          },
+          "R108": {
+            "x": 107,
+            "y": 96,
+            "rotation": 270,
+            "layer": "B.Cu"
+          },
+          "R510": {
+            "x": 91.55,
+            "y": 103.5,
+            "rotation": 270,
+            "layer": "F.Cu"
+          }
+        },
+        "reason": "Core-supply routing: AP/bootstrap poses refined; R108/R510 exchange face/position for the filtered5V branch. Native physical/pad/net/identity/washer/edge checks clear. The17 native clearance findings are repaired; current electrical DRC categories clear. Future USB corridor minimum0.5128mm. No manufacturing or power-safety release.",
+        "board_sha256": "1fcf0202f985c8b54f99afcac072193638459637c96b24595036d33742f6f058"
       }
     ]
   }

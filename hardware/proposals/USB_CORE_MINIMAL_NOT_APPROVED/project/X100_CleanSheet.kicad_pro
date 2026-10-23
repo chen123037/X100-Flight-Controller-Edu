@@ -745,7 +745,14 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "5V_CORE": [
+        "5V_POWER"
+      ],
+      "5V_CORE_MUX": [
+        "5V_POWER"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "LOW_SPEED_CONTROL",
@@ -1195,7 +1202,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "\u4f4d\u53f7"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
