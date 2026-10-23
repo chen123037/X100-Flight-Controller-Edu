@@ -1,10 +1,10 @@
 # X100 V1 当前状态
 
-当前在唯一的 [统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md) 内工作，已经进入主电源实际布线：**289段铜线 /35过孔 /2个已填充铜区**（In1地、In2保护后输入电源）。236电气器件 /240实体全部落板；实体/跨面通孔冲突0，四孔双面Ø7内器件/裸焊盘/过孔保持净空，元件Fab壳体间距≥0.20mm。冻结板框、孔位和核心型号保持，正式201器件/205实体及57项CAD未覆盖。
+当前在唯一的 [统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md) 内工作，已完成主输入/Buck及5V_MAIN各负载输入的实际连接：**366段铜线 /47过孔 /2个已填充铜区**（In1地、In2保护后输入电源）。236电气器件 /240实体全部落板；实体/跨面通孔冲突0，四孔双面Ø7内器件/裸焊盘/过孔保持净空，元件Fab壳体间距≥0.20mm。冻结板框、孔位和核心型号保持，正式201器件/205实体及57项CAD未覆盖。
 
-`CRITICAL_ROUTING_SPACE=REVIEWED`、`FULL_PLACEMENT_READY_FOR_ROUTING=YES`，范围是布局出口和关键通道，不是整板信号布通证明。VBAT入口/保险丝/保护MOS/输入储能/TVS/栅极偏置，以及主Buck的SW/BOOT/本地去耦/输出/COMP/RT/FB/EN及指定地节点已经按实际铜线和填充多边形核对连通。输入平面有效并行截面最小9.41mm，不等于热/电流分配验证PASS。全部CAD只通过plant_kicad_v1执行。
+`CRITICAL_ROUTING_SPACE=REVIEWED`、`FULL_PLACEMENT_READY_FOR_ROUTING=YES`，范围是布局出口和关键通道，不是整板信号布通证明。VBAT入口/保险丝/保护MOS/输入储能/TVS/栅极偏置，以及主Buck的SW/BOOT/本地去耦/输出/COMP/RT/FB/EN及指定地节点已经按实际铜线和填充多边形核对连通。5V_MAIN全部12个焊盘、U105优先级分压器和本级地回路已接通；反馈取样从C108正极独立引出。输入平面有效并行截面最小8.92mm，不等于热/电流分配验证PASS。全部CAD只通过plant_kicad_v1执行。
 
-Fresh ERC0 /native parity0，当前电气铜距/孔铜/线宽/VIP/禁止层类别无报告。**DRC_FINAL未PASS**：仍有618条庭院/丝印/文字报告及438项未连接，完整庭院287对。5V负载分配、3V3和信号布线、电源/USB/热故障及制造包尚未完成；继续既定顺序，不采购或下单。
+Fresh ERC0 /native parity0，当前电气铜距/孔铜/线宽/VIP/禁止层类别无报告。**DRC_FINAL未PASS**：仍有618条庭院/丝印/文字报告及421项未连接，完整庭院287对。外部5V开关输出/限流控制、核心5V/3V3及信号布线、电源/USB/热故障及制造包尚未完成；继续既定顺序，不采购或下单。
 
 以下为历史阶段记录；与以上冲突时以上为准。
 
