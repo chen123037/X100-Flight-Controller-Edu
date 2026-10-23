@@ -1,8 +1,8 @@
 # X100 V1 当前状态
 
-当前唯一[统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)已完成主输入/Buck、5V_MAIN输入分配，U104输出至F102/C119、限流/故障信号，以及核心MUX/保持电容/受控5V、AP63203本地3V3和MCU供电第一轮的实际连接：**1212段铜线 /111过孔 /2个填充铜区**。236电气器件 /240实体全部落板，实体/跨面通孔冲突0，器件Fab壳体间距≥0.20mm，四孔双面Ø7接触区保持净空。正式201器件/205实体及57项CAD未覆盖。
+当前唯一[统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)已接通MCU全部5个VDD、6个GND及VCAP1/2，并增加In2分区3V3铜面：**1282铜线 /118标准过孔 /3填充铜区**。3V3同网47个焊盘中41个接入主供电，6个未接入；VDDA上游R201.1仍未供电，不能宣称MCU可启动。236电气器件/240实体全部落板，实体及跨面通孔冲突0，Fab壳体间距≥0.20mm。
 
-Fresh ERC0 /native parity0；当前DRC无电气/孔铜/线宽/VIP/禁止层类别报告。输入平面最小并行有效截面9.48mm，满足8.3mm几何要求；不等于电流分配/热/保护安全PASS。DRC_FINAL仍未PASS：618条庭院/丝印/文字报告、336项未连接。MCU VDD27/75/100已接入主供电，VCAP1/2及VDDA/VBAT局部成网；VDD11/50、C208主干、R201/R202上游和其余供电仍待连接。继续局部供电出口调整、外设/传感器供电、保险丝后EXT5V接口及核心状态逻辑；随后HSE、USB、IMU、SDMMC、CAN及其余信号。全部CAD由plant_kicad_v1执行，不采购或下单。
+Fresh ERC0 /native parity0；当前DRC无电气、铜距、线宽、孔铜、VIP或禁止层类别报告。仍有618条庭院/丝印/文字报告和316项未连接，**不可投板**。继续剩余供电，再进行HSE、USB、IMU、SDMMC、CAN及其余信号。正式201器件/205实体及57项CAD未覆盖；35个新增USB电源器件未正式采用，不采购或下单。
 
 以下为历史阶段记录；与以上冲突时以上为准。
 

@@ -1,7 +1,7 @@
 {
   "scope": "SAVED_NATIVE_FULL_CANDIDATE_PLACEMENT_CHECKPOINT_NOT_MANUFACTURING_RELEASE",
   "project": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE",
-  "board_sha256": "bd7fc158b4e27b13f55adadbf29b51a5d488c32f06140f50b5cc65544cd8949e",
+  "board_sha256": "be74ea213a3e867d8bc4ec8236622b6c9c54a87a9b531f075bc3167ec9646aac",
   "electrical_count": 236,
   "PCB_entities": 240,
   "testpoints": 65,
@@ -24,9 +24,9 @@
     "silk_over_copper": 199,
     "silk_overlap": 199
   },
-  "DRC_unconnected": 336,
+  "DRC_unconnected": 316,
   "schematic_parity": 0,
-  "courtyard_pairs_actual": 287,
+  "courtyard_pairs_actual": 281,
   "courtyard_classification": [
     {
       "refs": [
@@ -301,7 +301,7 @@
     {
       "refs": [
         "C109",
-        "R510"
+        "R206"
       ],
       "combined_gap_mm": 0.2,
       "case_gap_mm": 0.725,
@@ -409,7 +409,7 @@
     {
       "refs": [
         "C116",
-        "R510"
+        "R206"
       ],
       "combined_gap_mm": 0.2,
       "case_gap_mm": 0.725,
@@ -769,19 +769,10 @@
     {
       "refs": [
         "C201",
-        "R206"
-      ],
-      "combined_gap_mm": 0.225,
-      "case_gap_mm": 0.75,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "C201",
         "R301"
       ],
-      "combined_gap_mm": 0.225,
-      "case_gap_mm": 0.75,
+      "combined_gap_mm": 0.2,
+      "case_gap_mm": 0.37583,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -789,8 +780,8 @@
         "C201",
         "TP205"
       ],
-      "combined_gap_mm": 0.25,
-      "case_gap_mm": 0.7,
+      "combined_gap_mm": 0.3,
+      "case_gap_mm": 0.4,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -798,8 +789,8 @@
         "C201",
         "TP305"
       ],
-      "combined_gap_mm": 0.77158,
-      "case_gap_mm": 0.96469,
+      "combined_gap_mm": 0.2,
+      "case_gap_mm": 0.31623,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -825,8 +816,8 @@
         "C203",
         "R202"
       ],
-      "combined_gap_mm": 0.42121,
-      "case_gap_mm": 0.92905,
+      "combined_gap_mm": 0.31065,
+      "case_gap_mm": 0.81624,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -834,14 +825,14 @@
         "C203",
         "R203"
       ],
-      "combined_gap_mm": 0.35,
-      "case_gap_mm": 0.85,
+      "combined_gap_mm": 0.225,
+      "case_gap_mm": 0.725,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
       "refs": [
         "C204",
-        "R510"
+        "R206"
       ],
       "combined_gap_mm": 0.2,
       "case_gap_mm": 1.05,
@@ -870,8 +861,8 @@
         "C205",
         "TP309"
       ],
-      "combined_gap_mm": 0.55,
-      "case_gap_mm": 0.625,
+      "combined_gap_mm": 0.1,
+      "case_gap_mm": 0.175,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -899,15 +890,6 @@
       ],
       "combined_gap_mm": 0.30336,
       "case_gap_mm": 0.725,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "C208",
-        "R103"
-      ],
-      "combined_gap_mm": 0.3,
-      "case_gap_mm": 0.825,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -1644,8 +1626,8 @@
         "R103",
         "R302"
       ],
-      "combined_gap_mm": 0.26169,
-      "case_gap_mm": 1.05,
+      "combined_gap_mm": 0.23319,
+      "case_gap_mm": 0.68096,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -1660,7 +1642,7 @@
     {
       "refs": [
         "R104",
-        "R510"
+        "R206"
       ],
       "combined_gap_mm": 0.43175,
       "case_gap_mm": 0.92804,
@@ -1714,7 +1696,7 @@
     {
       "refs": [
         "R107",
-        "R510"
+        "R206"
       ],
       "combined_gap_mm": 0.3,
       "case_gap_mm": 0.8,
@@ -1876,37 +1858,10 @@
     {
       "refs": [
         "R206",
-        "R301"
+        "TP106"
       ],
-      "combined_gap_mm": 0.2,
-      "case_gap_mm": 0.35,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "R206",
-        "TP205"
-      ],
-      "combined_gap_mm": 0.85264,
-      "case_gap_mm": 1.15163,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "R206",
-        "TP305"
-      ],
-      "combined_gap_mm": 0.25,
+      "combined_gap_mm": 0.28855,
       "case_gap_mm": 0.325,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "R206",
-        "U301"
-      ],
-      "combined_gap_mm": 0.2,
-      "case_gap_mm": 0.725,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2067,8 +2022,8 @@
         "R506",
         "TP205"
       ],
-      "combined_gap_mm": 0.2,
-      "case_gap_mm": 0.275,
+      "combined_gap_mm": 0.3,
+      "case_gap_mm": 0.375,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2096,15 +2051,6 @@
       ],
       "combined_gap_mm": 0.2,
       "case_gap_mm": 0.35,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "R510",
-        "TP106"
-      ],
-      "combined_gap_mm": 0.28855,
-      "case_gap_mm": 0.325,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2664,6 +2610,11 @@
       0.05
     ],
     [
+      "C205",
+      "TP309",
+      0.1
+    ],
+    [
       "C301",
       "TP301",
       0.125
@@ -2724,13 +2675,13 @@
     "front": [
       "C114",
       "R110",
-      "C113",
-      "D202"
+      "D202",
+      "C113"
     ]
   },
-  "tracks": 1212,
-  "vias": 111,
-  "zones": 2,
+  "tracks": 1282,
+  "vias": 118,
+  "zones": 3,
   "USB_CORE_ARCHITECTURE_MINIMAL_SET": "DEFINED",
   "ALL_FOOTPRINTS_WITHIN_45MM": "YES",
   "REAL_BODY_CONFLICTS": 0,
@@ -2791,6 +2742,12 @@
       "hole": "H2",
       "side": "F.Cu",
       "margin_mm": 0.105551
+    },
+    {
+      "ref": "R510",
+      "hole": "H2",
+      "side": "B.Cu",
+      "margin_mm": 0.108292
     },
     {
       "ref": "L102",
@@ -2869,17 +2826,11 @@
       "hole": "H4",
       "side": "F.Cu",
       "margin_mm": 0.179524
-    },
-    {
-      "ref": "D201",
-      "hole": "H4",
-      "side": "F.Cu",
-      "margin_mm": 0.180936
     }
   ],
   "min_case_to_case_gap_mm": 0.2,
   "case_to_case_gap_below_0p2mm": [],
-  "layout_signature": "1cf479766af949bb0c47f78e4b8b6d150dcd5061cee19357e189bb62b3dff6b8",
+  "layout_signature": "4e56aa2c60dd9eed42cc17dde4f30e9f29cafc4baa5ad0740a87b4a1c19fe149",
   "CRITICAL_ROUTING_SPACE_SCOPE": "Native placement/connector/critical-pad exits and named main/core/USB reservations; signal-path conflicts remain actual routing work. This is not simultaneous-routing completion, SI, power safety, final DRC or manufacturing release.",
   "placement_accepted_at_board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70"
 }

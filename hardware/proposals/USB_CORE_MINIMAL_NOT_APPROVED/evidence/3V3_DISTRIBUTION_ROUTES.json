@@ -1,7 +1,50 @@
 {
-  "scope": "APPLIED_NATIVE_3V3_FIRST_PASS_WITH_EXPLICIT_UNPOWERED_PINS_NOT_POWER_SAFETY_PASS",
+  "scope": "APPLIED_NATIVE_MCU_ALL_VDD_GND_CONNECTED_WITH_SIX_OTHER_SUPPLY_PINS_PENDING_NOT_FAB_READY",
   "source_board_sha256": "1fcf0202f985c8b54f99afcac072193638459637c96b24595036d33742f6f058",
-  "moves": {},
+  "moves": {
+    "TP309": {
+      "x": 110,
+      "y": 99.55,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R103": {
+      "x": 108.81,
+      "y": 103.46,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R510": {
+      "x": 120.277,
+      "y": 84.087,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "R206": {
+      "x": 91.55,
+      "y": 103.5,
+      "rotation": 270,
+      "layer": "F.Cu"
+    },
+    "C201": {
+      "x": 105.7,
+      "y": 103.375,
+      "rotation": 180,
+      "layer": "F.Cu"
+    },
+    "TP205": {
+      "x": 106.3,
+      "y": 104.7,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "C203": {
+      "x": 91.625,
+      "y": 90.55,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    }
+  },
   "routes": [
     {
       "label": "3V3_MCU direct",
@@ -84,50 +127,6 @@
         [
           94.025,
           84.55
-        ]
-      ]
-    },
-    {
-      "label": "VCAP1 local pitch escape",
-      "net": "VCAP1",
-      "layer": "F.Cu",
-      "width_mm": 0.15,
-      "points": [
-        [
-          105.95,
-          99.975
-        ],
-        [
-          105.95,
-          101.0625
-        ],
-        [
-          107.06,
-          101.0625
-        ],
-        [
-          107.06,
-          103.75
-        ],
-        [
-          106.05,
-          103.75
-        ]
-      ]
-    },
-    {
-      "label": "VCAP1 direct",
-      "net": "VCAP1",
-      "layer": "F.Cu",
-      "width_mm": 0.2,
-      "points": [
-        [
-          106.05,
-          103.75
-        ],
-        [
-          106.0,
-          104.8
         ]
       ]
     },
@@ -386,22 +385,6 @@
     {
       "label": "GND direct",
       "net": "GND",
-      "layer": "F.Cu",
-      "width_mm": 0.3,
-      "points": [
-        [
-          106.05,
-          101.85
-        ],
-        [
-          106.322,
-          102.672
-        ]
-      ]
-    },
-    {
-      "label": "GND direct",
-      "net": "GND",
       "layer": "B.Cu",
       "width_mm": 0.3,
       "points": [
@@ -444,30 +427,6 @@
         [
           92.348014,
           101.117
-        ]
-      ]
-    },
-    {
-      "label": "GND space",
-      "net": "GND",
-      "layer": "F.Cu",
-      "width_mm": 0.3,
-      "points": [
-        [
-          110.45,
-          100.425
-        ],
-        [
-          111.17500000000001,
-          101.0
-        ],
-        [
-          111.4,
-          101.075
-        ],
-        [
-          112.413,
-          101.085918
         ]
       ]
     },
@@ -1574,6 +1533,598 @@
           88.725
         ]
       ]
+    },
+    {
+      "label": "R103 local GND via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          108.81,
+          102.5475
+        ],
+        [
+          108.75,
+          101.6675
+        ]
+      ]
+    },
+    {
+      "label": "TP309 local GND reused bypass land",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          110.0,
+          99.55
+        ],
+        [
+          110.45,
+          100.425
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "points": [
+        [
+          114.15,
+          96.475
+        ],
+        [
+          111.15,
+          97.17500000000001
+        ],
+        [
+          111.0,
+          97.275
+        ],
+        [
+          109.575,
+          98.85000000000001
+        ],
+        [
+          109.42500000000001,
+          98.92500000000001
+        ],
+        [
+          109.30000000000001,
+          99.10000000000001
+        ],
+        [
+          108.9,
+          100.425
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          108.9,
+          100.425
+        ],
+        [
+          110.775,
+          102.75
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          88.775,
+          92.225
+        ],
+        [
+          88.7,
+          93.10000000000001
+        ],
+        [
+          88.4,
+          93.35000000000001
+        ],
+        [
+          87.15,
+          93.35000000000001
+        ],
+        [
+          86.9,
+          93.60000000000001
+        ],
+        [
+          85.05000000000001,
+          93.9
+        ],
+        [
+          83.30000000000001,
+          94.05000000000001
+        ],
+        [
+          81.7,
+          94.05000000000001
+        ],
+        [
+          81.45,
+          93.80000000000001
+        ],
+        [
+          81.4,
+          93.7
+        ],
+        [
+          81.4,
+          91.9
+        ],
+        [
+          81.45,
+          91.80000000000001
+        ],
+        [
+          81.65,
+          91.60000000000001
+        ],
+        [
+          81.80000000000001,
+          91.55000000000001
+        ],
+        [
+          83.4,
+          91.55000000000001
+        ],
+        [
+          83.75,
+          91.9
+        ],
+        [
+          83.80000000000001,
+          92.05000000000001
+        ],
+        [
+          84.10000000000001,
+          92.25
+        ],
+        [
+          85.0,
+          92.25
+        ],
+        [
+          85.5,
+          91.75
+        ],
+        [
+          85.5,
+          90.75
+        ],
+        [
+          85.60000000000001,
+          90.5
+        ],
+        [
+          85.9,
+          90.25
+        ],
+        [
+          88.15,
+          90.0
+        ],
+        [
+          89.0,
+          90.0
+        ],
+        [
+          89.30000000000001,
+          90.2
+        ],
+        [
+          89.4,
+          90.35000000000001
+        ],
+        [
+          91.75,
+          91.325
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          89.30000000000001,
+          90.2
+        ],
+        [
+          89.2,
+          90.0
+        ],
+        [
+          89.2,
+          89.7
+        ],
+        [
+          89.30000000000001,
+          89.5
+        ],
+        [
+          90.4125,
+          88.75
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          109.85,
+          105.5
+        ],
+        [
+          109.039536,
+          106.121093
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          109.05286175983498,
+          106.11088090402389
+        ],
+        [
+          109.8875,
+          107.2
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          115.1375,
+          105.75
+        ],
+        [
+          114.15586,
+          105.497525
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          109.8875,
+          107.2
+        ],
+        [
+          109.95,
+          107.35000000000001
+        ],
+        [
+          109.95,
+          109.5
+        ],
+        [
+          109.325,
+          110.6
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          115.0,
+          99.9125
+        ],
+        [
+          116.033,
+          100.052734
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          114.775,
+          121.325
+        ],
+        [
+          118.2,
+          120.80000000000001
+        ],
+        [
+          119.80000000000001,
+          120.05000000000001
+        ],
+        [
+          120.0,
+          119.85000000000001
+        ],
+        [
+          120.4,
+          116.80000000000001
+        ],
+        [
+          120.4,
+          115.5
+        ],
+        [
+          120.15,
+          115.2
+        ],
+        [
+          119.9,
+          115.10000000000001
+        ],
+        [
+          119.15,
+          115.15
+        ],
+        [
+          119.05000000000001,
+          115.2
+        ],
+        [
+          118.80000000000001,
+          115.45
+        ],
+        [
+          117.522212,
+          118.312
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          117.522212,
+          118.312
+        ],
+        [
+          113.9,
+          119.10000000000001
+        ],
+        [
+          112.9625,
+          119.55
+        ]
+      ]
+    },
+    {
+      "label": "C121 ground relocated to free VCAP area",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "points": [
+        [
+          105.2,
+          102.0
+        ],
+        [
+          102.45,
+          103
+        ]
+      ]
+    },
+    {
+      "label": "C201 short ground return",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          104.75,
+          103.375
+        ],
+        [
+          102.45,
+          103
+        ]
+      ]
+    },
+    {
+      "label": "VCAP1 moved testpoint branch",
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          106.65,
+          103.375
+        ],
+        [
+          106.3,
+          104.7
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          119.3645,
+          84.087
+        ],
+        [
+          120.185237,
+          83.479709
+        ]
+      ]
+    },
+    {
+      "label": "VCAP1 local pitch fanout",
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          105.95,
+          99.975
+        ],
+        [
+          105.95,
+          100.9
+        ],
+        [
+          105.85,
+          100.9
+        ],
+        [
+          105.85,
+          102.2
+        ],
+        [
+          106.65,
+          103.375
+        ]
+      ]
+    },
+    {
+      "label": "Ground49 local through-via fanout",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          106.45,
+          99.975
+        ],
+        [
+          106.45,
+          100.7
+        ],
+        [
+          106.2,
+          101.2
+        ],
+        [
+          106.45,
+          101.86
+        ]
+      ]
+    },
+    {
+      "label": "MCU50 shortened plane fanout",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          106.95,
+          99.975
+        ],
+        [
+          106.89,
+          101.18
+        ]
+      ]
+    },
+    {
+      "label": "Ground10 to local bypass ground",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          93.275,
+          90.8
+        ],
+        [
+          92.5,
+          90.85
+        ],
+        [
+          92.075,
+          90.475
+        ],
+        [
+          91.625,
+          89.775
+        ]
+      ]
+    },
+    {
+      "label": "R114 static status pullup supply",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          109.325,
+          110.6
+        ],
+        [
+          109.325,
+          111.5
+        ],
+        [
+          108.6,
+          111.9
+        ],
+        [
+          108,
+          111.65
+        ],
+        [
+          104.6,
+          111.65
+        ],
+        [
+          104.6,
+          111.95
+        ],
+        [
+          104.15,
+          112.1
+        ],
+        [
+          103.55,
+          112.9125
+        ]
+      ]
     }
   ],
   "vias": [
@@ -1627,15 +2178,6 @@
       "position": [
         92.348014,
         101.117
-      ],
-      "diameter_mm": 0.6,
-      "drill_mm": 0.3
-    },
-    {
-      "net": "GND",
-      "position": [
-        112.413,
-        101.085918
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3
@@ -1825,6 +2367,87 @@
       "position": [
         82.45,
         88.85000000000001
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        108.75,
+        101.6675
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        109.039536,
+        106.121093
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        114.15586,
+        105.497525
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        116.033,
+        100.052734
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        117.522212,
+        118.312
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.45,
+        103
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        120.185237,
+        83.479709
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        106.45,
+        101.86
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        106.89,
+        101.18
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3
@@ -2298,16 +2921,95 @@
       "width_mm": 0.3,
       "length_mm": 2.151256,
       "added_vias": 0
+    },
+    {
+      "pin": "C203.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 23.000408265104408,
+      "added_vias": 0
+    },
+    {
+      "pin": "R202.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 2.0889126116731043,
+      "added_vias": 0
+    },
+    {
+      "pin": "C133.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.3,
+      "length_mm": 1.0210819800314743,
+      "via": [
+        109.039536,
+        106.121093
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "R509.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.25,
+      "length_mm": 1.3721521042383,
+      "added_vias": 0
+    },
+    {
+      "pin": "U110.5",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.25,
+      "length_mm": 1.0135880401943382,
+      "via": [
+        114.15586,
+        105.497525
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "U109.8",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.25,
+      "length_mm": 3.5776580928879915,
+      "added_vias": 0
+    },
+    {
+      "pin": "R110.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.25,
+      "length_mm": 1.0424752154156973,
+      "via": [
+        116.033,
+        100.052734
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "C402.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.15,
+      "length_mm": 14.902108013425586,
+      "via": [
+        117.522212,
+        118.312
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "U402.5",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 4.746841398807522,
+      "added_vias": 0
     }
   ],
   "ground_links": [
     {
       "pin": "C201.2",
       "via": [
-        106.322,
-        102.672
+        102.45,
+        103
       ],
-      "length_mm": 0.865834
+      "length_mm": 2.3303701422735372
     },
     {
       "pin": "C202.2",
@@ -2335,11 +3037,9 @@
     },
     {
       "pin": "C205.2",
-      "via": [
-        112.413,
-        101.085918
-      ],
-      "length_mm": 2.175567
+      "via": null,
+      "length_mm": null,
+      "status": "Redundant direct branch removed; native pre-existing GND path retained and checked"
     },
     {
       "pin": "C206.2",
@@ -2460,9 +3160,306 @@
         78.75
       ],
       "length_mm": 0.963
+    },
+    {
+      "pin": "R103.2",
+      "via": [
+        108.75,
+        101.6675
+      ],
+      "length_mm": 0.8820430828479935
+    },
+    {
+      "pin": "TP309.1",
+      "via": null,
+      "length_mm": 0.98425,
+      "status": "Short F.Cu branch to existing C205 GND land"
+    },
+    {
+      "pin": "U201.10",
+      "via": null,
+      "target": "C203.2",
+      "length_mm": 2.175566279642842
+    },
+    {
+      "pin": "U201.49",
+      "via": [
+        106.45,
+        101.86
+      ],
+      "length_mm": 1.9897789939187083
     }
   ],
   "pending": [
+    {
+      "pin": "C132.1",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    },
+    {
+      "pin": "C135.1",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    },
+    {
+      "pin": "J807.1",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    },
+    {
+      "pin": "R201.1",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    },
+    {
+      "pin": "U108.1",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    },
+    {
+      "pin": "U111.5",
+      "reason": "Not connected to C113.1 in current saved native graph"
+    }
+  ],
+  "plan_generation_complete": true,
+  "protected_reserved_paths": [
+    "HSE",
+    "USB",
+    "MCU SPI/SD fanout",
+    "AP feedback independent branch"
+  ],
+  "supply_layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "global_rules_changed": false,
+  "USB_local_breakout": {
+    "region_mm": [
+      105.8,
+      100.8,
+      107.2,
+      104.0
+    ],
+    "clearance_mm": 0.2,
+    "scope": "Only VCAP1 local escape beside the fixed MCU/capacitor lands; native .20mm clearance unchanged. General .50mm USB reservation elsewhere retained. Final SI review pending."
+  },
+  "remaining": "Sensor/SD switched supplies, power status/enable and all critical/other signals; electrical/thermal/loop/USB and final manufacturing review.",
+  "unused_vias_removed": [
+    {
+      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
+      "pos": {
+        "x": 113.944243,
+        "y": 105.285909
+      },
+      "uuid": "813d8a6c-3ae1-4229-aec2-bf0c46d77eca"
+    },
+    {
+      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
+      "pos": {
+        "x": 108.9167,
+        "y": 106.466773
+      },
+      "uuid": "ef7b38b6-fb78-4b92-bc0c-1063763c4fbf"
+    },
+    {
+      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
+      "pos": {
+        "x": 90.687301,
+        "y": 92.212699
+      },
+      "uuid": "f7069520-ea12-4299-b55c-cabdbabb3b79"
+    }
+  ],
+  "rooting_caveat": "Source connectivity is established by ACTUAL_ROUTING_REVIEW, not the planning tree. In particular C208 bulk trunk was not routed by this pass.",
+  "applied_board_sha256": "be74ea213a3e867d8bc4ec8236622b6c9c54a87a9b531f075bc3167ec9646aac",
+  "native_connected_supply_pins": [
+    "C113.1",
+    "C114.1",
+    "C130.1",
+    "C133.1",
+    "C203.1",
+    "C204.1",
+    "C205.1",
+    "C206.1",
+    "C207.1",
+    "C208.1",
+    "C402.1",
+    "C601.1",
+    "C805.1",
+    "L102.2",
+    "R110.1",
+    "R114.1",
+    "R118.1",
+    "R202.1",
+    "R203.1",
+    "R207.1",
+    "R509.1",
+    "R510.1",
+    "R603.1",
+    "R811.1",
+    "TP105.1",
+    "TP203.1",
+    "U102.1",
+    "U109.8",
+    "U109.9",
+    "U110.5",
+    "U114.5",
+    "U201.100",
+    "U201.11",
+    "U201.27",
+    "U201.50",
+    "U201.75",
+    "U402.5",
+    "U601.3",
+    "U801.1",
+    "U801.14",
+    "U801.4"
+  ],
+  "native_unpowered_supply_pins": [
+    "C132.1",
+    "C135.1",
+    "J807.1",
+    "R201.1",
+    "U108.1",
+    "U111.5"
+  ],
+  "next_local_engineering_action": "Review and adjust TP309/R103 local poses and GND branches at the C205/C208 front-copper entrance; restore VDD11, VDD50, MCU GND10/49 and remaining supply branches. Failed bulk refinement was NOT applied.",
+  "superseded_segments": [
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          109.375,
+          101.75
+        ],
+        [
+          110.625,
+          100.5
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          109.2,
+          102.0875
+        ],
+        [
+          109.375,
+          101.75
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          105.2,
+          102.0
+        ],
+        [
+          106.322,
+          102.672
+        ]
+      ]
+    }
+  ],
+  "local_exit_adjustment_applied": {
+    "plan": "USB_MINIMAL_3V3_EXIT_ADJUSTMENT_PLAN.json",
+    "source_board_sha256": "bd7fc158b4e27b13f55adadbf29b51a5d488c32f06140f50b5cc65544cd8949e",
+    "C205_native_GND_preserved": true,
+    "MAIN_EN_endpoint_preserved": true,
+    "USB_reserved_jog_delay_mm": 0.3
+  },
+  "plane_fanouts_applied": {
+    "source": "8cb50096c8edc85697eab169181c9fdb565d26068cfea4c7999519fa3872b28e",
+    "plan": "USB_MINIMAL_3V3_PLANE_FANOUTS_PLAN.json",
+    "long_branches_requiring_current_and_loop_review": [
+      {
+        "pin": "C203.1",
+        "type": "branch from rooted outer copper",
+        "width_mm": 0.15,
+        "length_mm": 23.000408265104408,
+        "added_vias": 0
+      },
+      {
+        "pin": "C402.1",
+        "type": "short fanout to rooted In2 plane",
+        "width_mm": 0.15,
+        "length_mm": 14.902108013425586,
+        "via": [
+          117.522212,
+          118.312
+        ],
+        "added_vias": 1
+      }
+    ]
+  },
+  "pending_power_plane_fanouts": [
+    {
+      "pin": "R201.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C132.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U111.5",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R114.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C135.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U108.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "J807.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    }
+  ],
+  "removed_prior_vias": [
+    {
+      "net": "GND",
+      "position": [
+        106.322,
+        102.672
+      ]
+    }
+  ],
+  "MCU50_escape_applied": {
+    "plan": "USB_MINIMAL_MCU50_ESCAPE_PLAN.json",
+    "source_board_sha256": "88cf726a3ed0d2750e070ae3cfdc38e47356afd3d0544cf78709436ac23ecaca",
+    "USB_local_breakout": {
+      "region_mm": [
+        106.5,
+        99.8,
+        107.3,
+        102.5
+      ],
+      "minimum_rule_mm": 0.2,
+      "scope": "Fixed MCU50 fanout and standard through-via only; native rules unchanged, final SI review pending"
+    }
+  },
+  "MCU_ground_completion_applied": {
+    "plan": "USB_MINIMAL_MCU_GROUND_COMPLETION_PLAN.json",
+    "source_board_sha256": "ac401c1a4a9ea5169b7c01ba7239d1494c120b97996c5264c0859f99a872ca0c"
+  },
+  "R114_pullup_supply_applied": {
+    "plan": "USB_MINIMAL_R114_SUPPLY_PLAN.json",
+    "width_mm": 0.15,
+    "scope": "Static status pullup only, not a reviewed SD-load power trunk."
+  },
+  "historical_failed_attempts": [
     {
       "label": "VDD50 local bypass",
       "net": "3V3_MCU",
@@ -2482,27 +3479,6 @@
     {
       "label": "GND U201.49",
       "reason": "('no local via', 'GND', [106.45, 99.975])"
-    },
-    {
-      "label": "3V3 bulk trunk",
-      "net": "3V3_MCU",
-      "source": "C113.1",
-      "destination": "C208.1",
-      "reason": [
-        "no route in screened endpoint and same-net-exit domain with 8mm margin",
-        "no route in screened endpoint and same-net-exit domain with 8mm margin"
-      ]
-    },
-    {
-      "label": "MCU bypass supply C205",
-      "net": "3V3_MCU",
-      "source": "C208.1",
-      "destination": "C205.1",
-      "reason": [
-        "no route in screened endpoint and same-net-exit domain with 8mm margin",
-        "no route in screened endpoint and same-net-exit domain with 8mm margin",
-        "no route in screened endpoint and same-net-exit domain with 8mm margin"
-      ]
     },
     {
       "label": "MCU bypass supply C203",
@@ -2549,16 +3525,6 @@
       "net": "3V3_MCU",
       "source": "C208.1",
       "destination": "C133.1",
-      "reason": [
-        "no route in screened endpoint and same-net-exit domain with 8mm margin",
-        "no route in screened endpoint and same-net-exit domain with 8mm margin"
-      ]
-    },
-    {
-      "label": "3V3 load C205.1",
-      "net": "3V3_MCU",
-      "source": "C208.1",
-      "destination": "C205.1",
       "reason": [
         "no route in screened endpoint and same-net-exit domain with 8mm margin",
         "no route in screened endpoint and same-net-exit domain with 8mm margin"
@@ -2741,107 +3707,26 @@
       ]
     }
   ],
-  "plan_generation_complete": true,
-  "protected_reserved_paths": [
-    "HSE",
-    "USB",
-    "MCU SPI/SD fanout",
-    "AP feedback independent branch"
-  ],
-  "supply_layers": [
-    "F.Cu",
-    "B.Cu"
-  ],
-  "global_rules_changed": false,
-  "USB_local_breakout": {
-    "region_mm": [
-      105.8,
-      100.8,
-      107.2,
-      104.0
-    ],
-    "clearance_mm": 0.2,
-    "scope": "Only VCAP1 local escape beside the fixed MCU/capacitor lands; native .20mm clearance unchanged. General .50mm USB reservation elsewhere retained. Final SI review pending."
-  },
-  "remaining": "Sensor/SD switched supplies, power status/enable and all critical/other signals; electrical/thermal/loop/USB and final manufacturing review.",
-  "unused_vias_removed": [
+  "next_engineering_actions": [
     {
-      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
-      "pos": {
-        "x": 113.944243,
-        "y": 105.285909
-      },
-      "uuid": "813d8a6c-3ae1-4229-aec2-bf0c46d77eca"
+      "priority": 1,
+      "target": "R201.1 VDDA input",
+      "proposal": "Local GND via90.403199,98.763 may move to90.203199,98.813 (pad/copper probe checked); then verify a .15mm F.Cu feed from C204.1 through91.55,98.8 /90.85,98.8 /90.85,96.9. Complete wire path has not been checked or applied."
     },
     {
-      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
-      "pos": {
-        "x": 108.9167,
-        "y": 106.466773
-      },
-      "uuid": "ef7b38b6-fb78-4b92-bc0c-1063763c4fbf"
+      "priority": 2,
+      "target": "C132.1 and U111.5",
+      "proposal": "Try .15mm F.Cu from rooted U201.27/C204.1 on the LEFT of the reserved USB pair, then local C132.1 to U111.5 through cap-body midpoint105.4,107.625 /105.4,109.05. Do not choose only nearer right-of-USB sources. Paths not yet checked."
     },
     {
-      "description": "\u8fc7\u5b54 [GND] (F.Cu - B.Cu)",
-      "pos": {
-        "x": 90.687301,
-        "y": 92.212699
-      },
-      "uuid": "f7069520-ea12-4299-b55c-cabdbabb3b79"
+      "priority": 3,
+      "target": "C135.1 U108.1 J807.1",
+      "proposal": "Do not use R114 static pullup branch as an unchecked SD load trunk. Examine a dedicated .6/.3 through-via97.6,111.95 and F.Cu supply from left-side rooted copper or SWD_REF PTH; candidate point/path not yet checked. C135.1 to U108.1 direct B.Cu .30mm was screened clear, but source remains unpowered."
+    },
+    {
+      "priority": 4,
+      "target": "HSE / USB / IMU / SDMMC / CAN / other signals",
+      "proposal": "Continue actual routing after supply closure; preserve all frozen parts, board/holes, native rule values and source/checkpoint evidence."
     }
-  ],
-  "rooting_caveat": "Source connectivity is established by ACTUAL_ROUTING_REVIEW, not the planning tree. In particular C208 bulk trunk was not routed by this pass.",
-  "applied_board_sha256": "bd7fc158b4e27b13f55adadbf29b51a5d488c32f06140f50b5cc65544cd8949e",
-  "native_connected_supply_pins": [
-    "C113.1",
-    "C114.1",
-    "C130.1",
-    "C204.1",
-    "C206.1",
-    "C207.1",
-    "C601.1",
-    "C805.1",
-    "L102.2",
-    "R118.1",
-    "R603.1",
-    "R811.1",
-    "TP105.1",
-    "TP203.1",
-    "U102.1",
-    "U114.5",
-    "U201.100",
-    "U201.27",
-    "U201.75",
-    "U601.3",
-    "U801.1",
-    "U801.14",
-    "U801.4"
-  ],
-  "native_unpowered_supply_pins": [
-    "C132.1",
-    "C133.1",
-    "C135.1",
-    "C203.1",
-    "C205.1",
-    "C208.1",
-    "C402.1",
-    "J807.1",
-    "R110.1",
-    "R114.1",
-    "R201.1",
-    "R202.1",
-    "R203.1",
-    "R207.1",
-    "R509.1",
-    "R510.1",
-    "U108.1",
-    "U109.8",
-    "U109.9",
-    "U110.5",
-    "U111.5",
-    "U201.11",
-    "U201.50",
-    "U402.5"
-  ],
-  "next_local_engineering_action": "Review and adjust TP309/R103 local poses and GND branches at the C205/C208 front-copper entrance; restore VDD11, VDD50, MCU GND10/49 and remaining supply branches. Failed bulk refinement was NOT applied."
+  ]
 }
