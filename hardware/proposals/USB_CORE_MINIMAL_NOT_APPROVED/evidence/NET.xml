@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\A_YAN_KECHEN\PLANT\design01_schematic\X100_CleanSheet\tmp\pcb03_fabrication_readiness_20261022\USB_CORE_MINIMAL_CANDIDATE\X100_CleanSheet.kicad_sch</source>
-    <date>2026-10-23T21:00:24</date>
+    <date>2026-10-23T22:29:18</date>
     <tool>Eeschema 10.0.6</tool>
     <textvar name="DESIGN_SCOPE">PHYSICAL_SCHEMATIC_PCB_HOLD</textvar>
     <textvar name="USB_MODE">DATA_ONLY_VBUS_SENSE</textvar>

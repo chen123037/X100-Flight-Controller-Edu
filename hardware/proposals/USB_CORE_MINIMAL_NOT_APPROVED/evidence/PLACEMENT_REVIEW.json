@@ -1,7 +1,7 @@
 {
   "scope": "SAVED_NATIVE_FULL_CANDIDATE_PLACEMENT_CHECKPOINT_NOT_MANUFACTURING_RELEASE",
   "project": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE",
-  "board_sha256": "da6f085745abb489dc867e22de0de03492f7be1752282d724db0b0cd74c4a6c3",
+  "board_sha256": "c581906dae7f7dfdce85914d3ac3842dff4b18e5d759e5e244d82979d1ea2331",
   "electrical_count": 236,
   "PCB_entities": 240,
   "testpoints": 65,
@@ -24,9 +24,9 @@
     "silk_over_copper": 199,
     "silk_overlap": 199
   },
-  "DRC_unconnected": 464,
+  "DRC_unconnected": 438,
   "schematic_parity": 0,
-  "courtyard_pairs_actual": 286,
+  "courtyard_pairs_actual": 287,
   "courtyard_classification": [
     {
       "refs": [
@@ -130,7 +130,7 @@
     {
       "refs": [
         "C103",
-        "TP101"
+        "TP507"
       ],
       "combined_gap_mm": 0.571,
       "case_gap_mm": 0.571,
@@ -435,6 +435,15 @@
     },
     {
       "refs": [
+        "C117",
+        "TP110"
+      ],
+      "combined_gap_mm": 0.225,
+      "case_gap_mm": 0.30414,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
         "C118",
         "J807"
       ],
@@ -492,17 +501,8 @@
         "C119",
         "TP101"
       ],
-      "combined_gap_mm": 0.229,
-      "case_gap_mm": 0.229,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "C119",
-        "TP110"
-      ],
-      "combined_gap_mm": 0.45,
-      "case_gap_mm": 0.45,
+      "combined_gap_mm": 0.22,
+      "case_gap_mm": 0.22,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -519,8 +519,8 @@
         "C119",
         "TP507"
       ],
-      "combined_gap_mm": 0.22,
-      "case_gap_mm": 0.22,
+      "combined_gap_mm": 0.229,
+      "case_gap_mm": 0.229,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -1570,7 +1570,7 @@
     {
       "refs": [
         "J808",
-        "TP507"
+        "TP101"
       ],
       "combined_gap_mm": 0.33,
       "case_gap_mm": 0.33,
@@ -2015,6 +2015,15 @@
       ],
       "combined_gap_mm": 0.34826,
       "case_gap_mm": 0.45,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
+        "R502",
+        "TP110"
+      ],
+      "combined_gap_mm": 0.325,
+      "case_gap_mm": 0.75,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2713,15 +2722,15 @@
     "z": [],
     "blocked": [],
     "front": [
+      "C113",
       "R110",
       "C114",
-      "D202",
-      "C113"
+      "D202"
     ]
   },
-  "tracks": 172,
-  "vias": 17,
-  "zones": 1,
+  "tracks": 289,
+  "vias": 35,
+  "zones": 2,
   "USB_CORE_ARCHITECTURE_MINIMAL_SET": "DEFINED",
   "ALL_FOOTPRINTS_WITHIN_45MM": "YES",
   "REAL_BODY_CONFLICTS": 0,
@@ -2871,7 +2880,7 @@
   "min_case_to_case_gap_mm": 0.2,
   "case_to_case_gap_below_0p2mm": [],
   "CONNECTOR_ACCESS_SCOPE": "BARE_PCB_FROZEN_CONNECTOR_BODIES_AXIAL_ACCESS_STANDARD_USB_C_OVERMOULD_INSERTED_MICROSD_AND_NYLON_CONTACT_GEOMETRY",
-  "layout_signature": "be92d661f1f4d53bc8c8fadce62cc3aa078b7a5525bdde31513058aa5c6b60b5",
+  "layout_signature": "a101b5fbc78acee8b8ad12dd44d4420a85d59de3025cffdfa577d02d9701c932",
   "CRITICAL_ROUTING_SPACE_SCOPE": "Native placement/connector/critical-pad exits and named main/core/USB reservations; signal-path conflicts remain actual routing work. This is not simultaneous-routing completion, SI, power safety, final DRC or manufacturing release.",
   "placement_accepted_at_board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70"
 }

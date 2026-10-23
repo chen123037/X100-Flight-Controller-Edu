@@ -7166,7 +7166,7 @@
   "plan_generation_complete": true,
   "placement_access_review": {
     "board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
-    "layout_signature": "be92d661f1f4d53bc8c8fadce62cc3aa078b7a5525bdde31513058aa5c6b60b5",
+    "layout_signature": "a101b5fbc78acee8b8ad12dd44d4420a85d59de3025cffdfa577d02d9701c932",
     "native_physical_gate_clear": true,
     "critical_link_count": 65,
     "simultaneous_path_links": 56,
@@ -7346,6 +7346,36 @@
         },
         "reason": "Relocate bare SPI-MISO probe to free two standard control-return exits below U101; native clearance and future USB>=0.50mm preserved.",
         "board_sha256": "94a7b4f5883e8f98e9cb4eff74c5edc9231781c19ed96936a7ed8bdf508362ab"
+      },
+      {
+        "moves": {
+          "TP101": {
+            "x": 89.195,
+            "y": 118.37,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP507": {
+            "x": 93.321,
+            "y": 118.379,
+            "rotation": 0,
+            "layer": "B.Cu"
+          }
+        },
+        "reason": "Exchange positions of identical0.6mm bare probes; RAW near connector and SD-D3 near card, preserving all pin nets and physical envelope union.",
+        "board_sha256": "5b7bfe89f1fe9d92de557b106a750651f0bd92d89fe0f5bcec1cd33640cee936"
+      },
+      {
+        "moves": {
+          "TP110": {
+            "x": 90.25,
+            "y": 109.5,
+            "rotation": 0,
+            "layer": "B.Cu"
+          }
+        },
+        "reason": "Clear1.2mm fused-input local corridor between U104 and H3; preserve EXT_FAULT probe net and size.",
+        "board_sha256": "67ef42f2196f3a7557d0f99b79e259181392b282e784f2d179472fd5e0f2dd0b"
       }
     ]
   }
