@@ -1,5 +1,11 @@
 # X100 V1 当前状态
 
+当前继续工作的统一候选为 [USB 最小架构完整放置检查点](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)：**236 电气器件 /240 PCB 实体，全部已在原生 KiCad 落板**（含 65 测试点），实体/跨面通孔/实际孔侵入均 0，fresh ERC0、native parity0、异网铜间距/板边失败0。使用唯一指定 `plant_kicad_v1` 写入；保留原 Y201/120R HSE 与已批准 J401/L101。正式 201 电气器件 /205 实体原本已全部板内放置、实体冲突0，未被此候选覆盖。旧 Stage6 的174板外实体只属于旧的局部试验。
+
+**布局验收尚未结束，尚未开始此候选整板布线。** 原生 DRC631条、未连接报告499封顶；完整 courtyard242对需装配处置（不是实体碰撞），插拔包络与关键布线空间仍待闭合。`FULL_PLACEMENT_READY_FOR_ROUTING=NOT_YET_ACCEPTED`，电源安全/USB合规/制造包均未PASS。下一步从这一个完整原生工程继续局部修复与验收，不再扩展历史候选。
+
+以下为历史阶段记录；与以上冲突时以上为准。
+
 主电源另有[可打开的局部布线检查点](hardware/proposals/MAIN_POWER_PARTIAL_ROUTING_NOT_APPROVED/README.md)：22轨迹/14贯通过孔/1填充In1 GND面，原生确认SW/BOOT与关键GND回流真实连通。完整245实体保留，但174个仍在板外待排；局部DRC149条、未连接报告499封顶，不是完整PCB。未正式推广USB/Y201，正式源仍为POST_L101。
 
 2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
