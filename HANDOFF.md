@@ -1,8 +1,12 @@
 # 接手指南
 
-供电后续评估从[Stage6隔离合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)继续：组合待裁决的Y201/L101，保留Stage5外I2C门控/硬件PWR指示/SD隔离，并将2×82µF合并为复用C108型号的180µF。241器件fresh ERC0/0、native parity0；旧引脚网络除移除C127外保持。40个新封装未完成放置，联合试排仍未取得全器件可接受解，方案/型号尚未正式集成。正式CAD与Stage5父候选未变；不要用任何候选整板覆盖当前正式源。Stage5单独候选继续保留用于差异复核。
+2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
 
-L101另有[可打开的SRP1038A-100M/C780184候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)，只改L101及对应库/字段，非目标204个PCB实体保持，等待新MPN裁决；不要据此认定完整电源或制造通过。旧Y201候选已补齐库SMD属性，原PCB/原理图未变，旧父基线的几何数据不能替代当前MCU位置检查。
+以下阶段记录以本段为最新状态；旧“当前基线”仅对应记录当时。
+
+供电后续评估从[Stage6隔离合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)继续：组合待裁决的Y201及现已批准的L101，保留Stage5外I2C门控/硬件PWR指示/SD隔离，并将2×82µF合并为复用C108型号的180µF。241器件fresh ERC0/0、native parity0；旧引脚网络除移除C127外保持。40个新封装未完成放置，联合试排仍未取得全器件可接受解，方案/型号尚未正式集成。该检查时正式CAD与Stage5父候选未变；随后正式L101已独立集成；不要用任何候选整板覆盖当前正式源。Stage5单独候选继续保留用于差异复核。
+
+L101另有[可打开的SRP1038A-100M/C780184候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)，只改L101及对应库/字段，非目标204个PCB实体保持，L101现已正式批准并集成；不要据此认定完整电源或制造通过。旧Y201候选已补齐库SMD属性，原PCB/原理图未变，旧父基线的几何数据不能替代当前MCU位置检查。
 
 最新正式基线（2026-10-23）：[MCU/局部去耦空间调整](docs/LOCAL_CLEARANCE_REVIEW.md)。完整庭院172对、fresh DRC602+411未连接、ERC0/0/native parity0；正式PCB/身份/网络同步完成。后续从POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE继续，勿用旧候选整板覆盖；C204距离增加后的实际回路与方向标记尚待闭合。下文177/185/280/234/230计数是阶段历史。
 

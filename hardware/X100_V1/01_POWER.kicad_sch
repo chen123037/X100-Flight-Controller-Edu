@@ -110,8 +110,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0 -2.54)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -454,9 +453,7 @@
 			(symbol "BZT52H_C12_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27)
-						(xy -1.27 1.27)
-						(xy -0.762 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -468,8 +465,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0)
-						(xy -1.27 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -481,10 +477,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27)
-						(xy 1.27 1.27)
-						(xy -1.27 0)
-						(xy 1.27 -1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -764,11 +757,7 @@
 			(symbol "SMBJ26CA_TR_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27)
-						(xy -2.54 -1.27)
-						(xy 2.54 1.27)
-						(xy 2.54 -1.27)
-						(xy -2.54 1.27)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -780,10 +769,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27)
-						(xy 0 1.27)
-						(xy 0 -1.27)
-						(xy -0.508 -1.27)
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -795,8 +781,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0)
-						(xy -1.27 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -938,8 +923,7 @@
 			(symbol "C_10u50_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -951,8 +935,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1105,8 +1088,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286)
-						(xy -0.762 2.286)
+						(xy -1.778 2.286) (xy -0.762 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1118,8 +1100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.794)
-						(xy -1.27 1.778)
+						(xy -1.27 2.794) (xy -1.27 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1538,8 +1519,7 @@
 			(symbol "C_100n6_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1551,8 +1531,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1976,8 +1955,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286)
-						(xy -0.762 2.286)
+						(xy -1.778 2.286) (xy -0.762 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1989,8 +1967,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.794)
-						(xy -1.27 1.778)
+						(xy -1.27 2.794) (xy -1.27 1.778)
 					)
 					(stroke
 						(width 0)
@@ -2977,8 +2954,7 @@
 			(symbol "C_22n_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2990,8 +2966,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -3133,8 +3108,7 @@
 			(symbol "C_240p_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -3146,8 +3120,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -3671,8 +3644,7 @@
 			(symbol "C_22u16_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -3684,8 +3656,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -4152,8 +4123,7 @@
 			(symbol "C_2u2_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -4165,8 +4135,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -4751,10 +4720,7 @@
 			(symbol "Littelfuse1812L200_12DR_0_1"
 				(polyline
 					(pts
-						(xy -1.524 2.54)
-						(xy -1.524 1.524)
-						(xy 1.524 -1.524)
-						(xy 1.524 -2.54)
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -4777,8 +4743,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy 0 -2.54)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -4931,8 +4896,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286)
-						(xy -0.762 2.286)
+						(xy -1.778 2.286) (xy -0.762 2.286)
 					)
 					(stroke
 						(width 0)
@@ -4944,8 +4908,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.794)
-						(xy -1.27 1.778)
+						(xy -1.27 2.794) (xy -1.27 1.778)
 					)
 					(stroke
 						(width 0)
@@ -5098,8 +5061,7 @@
 			(symbol "C_1u_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -5111,8 +5073,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -5340,12 +5301,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 1.27)
-						(xy -1.016 1.905)
-						(xy 0 2.54)
-						(xy 1.016 1.905)
-						(xy 0 1.27)
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -5361,6 +5317,274 @@
 			(in_bom no)
 			(on_board no)
 		)
+		(symbol "X100_LayoutECO:Bourns_SRP1038A_100M"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10uH"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Bourns_SRP1038A_LeadFrame_NoVIP"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bourns SRP1038A-100M; lead-frame; max case11.5x10.3x4.0mm; user-approved20261023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Bourns_SRP1038A_LeadFrame_NoVIP"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SRP1038A-100M"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C780184"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "Lead-frame SMD; case max11.5x10.3x4.0mm"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Procurement Policy" "EXACT_MPN_FROZEN; USER_APPROVED_20261023; NO_PURCHASE"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Inductance" "10uH +/-20% @100kHz/1V"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DCR Max" "30mOhm @25C"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Irms" "7.5A; rated40C rise; application thermal test required"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Isat" "12A @25C for20% L drop; not hot minimum guarantee"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verification Status" "DATASHEET_AND_LAYOUT_VERIFIED; POWER_REVIEW_OPEN; NO_BENCH_PASS"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Bourns_SRP1038A_100M_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Bourns_SRP1038A_100M_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
 	)
 	(text "MAIN 5V: battery/bench only, 3S-6S. USB is never a supply."
 		(at 20 27 0)
@@ -5374,8 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85)
-			(xy 43.18 69.85)
+			(xy 49.53 69.85) (xy 43.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5404,8 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85)
-			(xy 63.5 69.85)
+			(xy 57.15 69.85) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5530,8 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66)
-			(xy 161.29 73.66)
+			(xy 154.94 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5560,8 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12)
-			(xy 161.29 71.12)
+			(xy 154.94 71.12) (xy 161.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5590,8 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58)
-			(xy 161.29 68.58)
+			(xy 154.94 68.58) (xy 161.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5620,8 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04)
-			(xy 161.29 66.04)
+			(xy 154.94 66.04) (xy 161.29 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5650,8 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66)
-			(xy 118.11 73.66)
+			(xy 124.46 73.66) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5680,8 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12)
-			(xy 118.11 71.12)
+			(xy 124.46 71.12) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5710,8 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58)
-			(xy 118.11 68.58)
+			(xy 124.46 68.58) (xy 118.11 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5740,8 +5955,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 66.04)
-			(xy 118.11 66.04)
+			(xy 124.46 66.04) (xy 118.11 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5882,8 +6096,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76)
-			(xy 60.96 111.76)
+			(xy 67.31 111.76) (xy 60.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5912,8 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76)
-			(xy 81.28 111.76)
+			(xy 74.93 111.76) (xy 81.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6038,8 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95)
-			(xy 133.35 101.6)
+			(xy 133.35 107.95) (xy 133.35 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6068,8 +6279,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57)
-			(xy 133.35 121.92)
+			(xy 133.35 115.57) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6239,8 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76)
-			(xy 177.8 111.76)
+			(xy 184.15 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6269,8 +6478,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 111.76)
-			(xy 198.12 111.76)
+			(xy 191.77 111.76) (xy 198.12 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6395,8 +6603,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 147.32)
-			(xy 38.1 140.97)
+			(xy 38.1 147.32) (xy 38.1 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6425,8 +6632,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 154.94)
-			(xy 38.1 161.29)
+			(xy 38.1 154.94) (xy 38.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6596,8 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 147.32)
-			(xy 76.2 140.97)
+			(xy 76.2 147.32) (xy 76.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6626,8 +6831,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 154.94)
-			(xy 76.2 161.29)
+			(xy 76.2 154.94) (xy 76.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6797,8 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32)
-			(xy 114.3 140.97)
+			(xy 114.3 147.32) (xy 114.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6827,8 +7030,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 154.94)
-			(xy 114.3 161.29)
+			(xy 114.3 154.94) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6998,8 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 147.32)
-			(xy 152.4 140.97)
+			(xy 152.4 147.32) (xy 152.4 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7028,8 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 154.94)
-			(xy 152.4 161.29)
+			(xy 152.4 154.94) (xy 152.4 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7199,8 +7399,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 147.32)
-			(xy 190.5 140.97)
+			(xy 190.5 147.32) (xy 190.5 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7229,8 +7428,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 154.94)
-			(xy 190.5 161.29)
+			(xy 190.5 154.94) (xy 190.5 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7355,8 +7553,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 74.93)
-			(xy 335.28 74.93)
+			(xy 328.93 74.93) (xy 335.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7385,8 +7582,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 74.93)
-			(xy 302.26 74.93)
+			(xy 308.61 74.93) (xy 302.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7415,8 +7611,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 87.63)
-			(xy 302.26 87.63)
+			(xy 308.61 87.63) (xy 302.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7445,8 +7640,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 80.01)
-			(xy 302.26 80.01)
+			(xy 308.61 80.01) (xy 302.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7475,8 +7669,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 87.63)
-			(xy 335.28 87.63)
+			(xy 328.93 87.63) (xy 335.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7505,8 +7698,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 82.55)
-			(xy 335.28 82.55)
+			(xy 328.93 82.55) (xy 335.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7535,8 +7727,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 92.71)
-			(xy 316.23 99.06)
+			(xy 316.23 92.71) (xy 316.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7565,8 +7756,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 80.01)
-			(xy 335.28 80.01)
+			(xy 328.93 80.01) (xy 335.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7595,8 +7785,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 92.71)
-			(xy 318.77 99.06)
+			(xy 318.77 92.71) (xy 318.77 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7740,8 +7929,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 100.33)
-			(xy 265.43 93.98)
+			(xy 265.43 100.33) (xy 265.43 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7770,8 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 107.95)
-			(xy 265.43 114.3)
+			(xy 265.43 107.95) (xy 265.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7941,8 +8128,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 58.42)
-			(xy 365.76 58.42)
+			(xy 372.11 58.42) (xy 365.76 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7971,8 +8157,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 58.42)
-			(xy 386.08 58.42)
+			(xy 379.73 58.42) (xy 386.08 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8142,8 +8327,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 119.38)
-			(xy 375.92 125.73)
+			(xy 375.92 119.38) (xy 375.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8172,8 +8356,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 104.14)
-			(xy 375.92 97.79)
+			(xy 375.92 104.14) (xy 375.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8298,8 +8481,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 80.01)
-			(xy 429.26 80.01)
+			(xy 435.61 80.01) (xy 429.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8328,8 +8510,7 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 80.01)
-			(xy 449.58 80.01)
+			(xy 443.23 80.01) (xy 449.58 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8356,106 +8537,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "X100_Physical:SRP1265A_100M")
-		(at 439.42 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid d9f0ba89-b6de-438d-8e71-291b90794cbc)
-		(property "Reference" "L101"
-			(at 445.77 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uH"
-			(at 445.77 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "X100_Physical:Bourns_SRP1265A"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1265a.pdf"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SRP1265A-100M"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "13.5x12.5x6.2 SMD"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 439.42 80.01 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "X100_CleanSheet"
-				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
-					(reference "L101")
-					(unit 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid 3e3e3920-cd6e-4d12-84d7-eb1b2b7a53b0)
-		)
-		(pin "2"
-			(uuid bec24ba0-c0a6-41e6-8536-5eb7ef015b02)
-		)
-	)
 	(wire
 		(pts
-			(xy 523.24 97.79)
-			(xy 523.24 91.44)
+			(xy 523.24 97.79) (xy 523.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8484,8 +8568,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 105.41)
-			(xy 523.24 111.76)
+			(xy 523.24 105.41) (xy 523.24 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8610,8 +8693,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 139.7)
-			(xy 266.7 133.35)
+			(xy 266.7 139.7) (xy 266.7 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8640,8 +8722,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 147.32)
-			(xy 266.7 153.67)
+			(xy 266.7 147.32) (xy 266.7 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8811,8 +8892,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 171.45)
-			(xy 266.7 165.1)
+			(xy 266.7 171.45) (xy 266.7 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8841,8 +8921,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 179.07)
-			(xy 266.7 185.42)
+			(xy 266.7 179.07) (xy 266.7 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9012,8 +9091,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 148.59)
-			(xy 318.77 142.24)
+			(xy 318.77 148.59) (xy 318.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9042,8 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 156.21)
-			(xy 318.77 162.56)
+			(xy 318.77 156.21) (xy 318.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9213,8 +9290,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 128.27)
-			(xy 436.88 121.92)
+			(xy 436.88 128.27) (xy 436.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9243,8 +9319,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 135.89)
-			(xy 436.88 142.24)
+			(xy 436.88 135.89) (xy 436.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9414,8 +9489,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 161.29)
-			(xy 436.88 154.94)
+			(xy 436.88 161.29) (xy 436.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9444,8 +9518,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 168.91)
-			(xy 436.88 175.26)
+			(xy 436.88 168.91) (xy 436.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9615,8 +9688,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 134.62)
-			(xy 494.03 128.27)
+			(xy 494.03 134.62) (xy 494.03 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9645,8 +9717,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 142.24)
-			(xy 494.03 148.59)
+			(xy 494.03 142.24) (xy 494.03 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9816,8 +9887,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 154.94)
-			(xy 494.03 148.59)
+			(xy 494.03 154.94) (xy 494.03 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9846,8 +9916,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 162.56)
-			(xy 494.03 168.91)
+			(xy 494.03 162.56) (xy 494.03 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10017,8 +10086,7 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 148.59)
-			(xy 547.37 142.24)
+			(xy 547.37 148.59) (xy 547.37 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10047,8 +10115,7 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 156.21)
-			(xy 547.37 162.56)
+			(xy 547.37 156.21) (xy 547.37 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10218,8 +10285,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 236.22)
-			(xy 135.89 236.22)
+			(xy 129.54 236.22) (xy 135.89 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10248,8 +10314,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 236.22)
-			(xy 102.87 236.22)
+			(xy 109.22 236.22) (xy 102.87 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10278,8 +10343,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 231.14)
-			(xy 102.87 231.14)
+			(xy 109.22 231.14) (xy 102.87 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10308,8 +10372,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 241.3)
-			(xy 119.38 247.65)
+			(xy 119.38 241.3) (xy 119.38 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10338,8 +10401,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 231.14)
-			(xy 135.89 231.14)
+			(xy 129.54 231.14) (xy 135.89 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10368,8 +10430,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 233.68)
-			(xy 135.89 233.68)
+			(xy 129.54 233.68) (xy 135.89 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10504,8 +10565,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 229.87)
-			(xy 48.26 223.52)
+			(xy 48.26 229.87) (xy 48.26 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10534,8 +10594,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 237.49)
-			(xy 48.26 243.84)
+			(xy 48.26 237.49) (xy 48.26 243.84)
 		)
 		(stroke
 			(width 0)
@@ -10705,8 +10764,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 233.68)
-			(xy 182.88 233.68)
+			(xy 189.23 233.68) (xy 182.88 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10735,8 +10793,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 233.68)
-			(xy 203.2 233.68)
+			(xy 196.85 233.68) (xy 203.2 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10906,8 +10963,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 289.56)
-			(xy 52.07 289.56)
+			(xy 58.42 289.56) (xy 52.07 289.56)
 		)
 		(stroke
 			(width 0)
@@ -10936,8 +10992,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 289.56)
-			(xy 72.39 289.56)
+			(xy 66.04 289.56) (xy 72.39 289.56)
 		)
 		(stroke
 			(width 0)
@@ -11062,8 +11117,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 285.75)
-			(xy 127 279.4)
+			(xy 127 285.75) (xy 127 279.4)
 		)
 		(stroke
 			(width 0)
@@ -11092,8 +11146,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 293.37)
-			(xy 127 299.72)
+			(xy 127 293.37) (xy 127 299.72)
 		)
 		(stroke
 			(width 0)
@@ -11263,8 +11316,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 285.75)
-			(xy 191.77 279.4)
+			(xy 191.77 285.75) (xy 191.77 279.4)
 		)
 		(stroke
 			(width 0)
@@ -11293,8 +11345,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 293.37)
-			(xy 191.77 299.72)
+			(xy 191.77 293.37) (xy 191.77 299.72)
 		)
 		(stroke
 			(width 0)
@@ -11464,8 +11515,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 233.68)
-			(xy 275.59 233.68)
+			(xy 281.94 233.68) (xy 275.59 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11494,8 +11544,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 233.68)
-			(xy 295.91 233.68)
+			(xy 289.56 233.68) (xy 295.91 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11665,8 +11714,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 247.65)
-			(xy 340.36 247.65)
+			(xy 346.71 247.65) (xy 340.36 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11695,8 +11743,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 257.81)
-			(xy 354.33 264.16)
+			(xy 354.33 257.81) (xy 354.33 264.16)
 		)
 		(stroke
 			(width 0)
@@ -11725,8 +11772,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 250.19)
-			(xy 340.36 250.19)
+			(xy 346.71 250.19) (xy 340.36 250.19)
 		)
 		(stroke
 			(width 0)
@@ -11759,8 +11805,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 247.65)
-			(xy 368.3 247.65)
+			(xy 361.95 247.65) (xy 368.3 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11892,8 +11937,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 285.75)
-			(xy 284.48 279.4)
+			(xy 284.48 285.75) (xy 284.48 279.4)
 		)
 		(stroke
 			(width 0)
@@ -11922,8 +11966,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 293.37)
-			(xy 284.48 299.72)
+			(xy 284.48 293.37) (xy 284.48 299.72)
 		)
 		(stroke
 			(width 0)
@@ -12093,8 +12136,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 285.75)
-			(xy 355.6 279.4)
+			(xy 355.6 285.75) (xy 355.6 279.4)
 		)
 		(stroke
 			(width 0)
@@ -12123,8 +12165,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 293.37)
-			(xy 355.6 299.72)
+			(xy 355.6 293.37) (xy 355.6 299.72)
 		)
 		(stroke
 			(width 0)
@@ -12294,8 +12335,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 233.68)
-			(xy 430.53 233.68)
+			(xy 436.88 233.68) (xy 430.53 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12324,8 +12364,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 236.22)
-			(xy 430.53 236.22)
+			(xy 436.88 236.22) (xy 430.53 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12354,8 +12393,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 238.76)
-			(xy 430.53 238.76)
+			(xy 436.88 238.76) (xy 430.53 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12384,8 +12422,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 241.3)
-			(xy 430.53 241.3)
+			(xy 436.88 241.3) (xy 430.53 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12414,8 +12451,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 233.68)
-			(xy 473.71 233.68)
+			(xy 467.36 233.68) (xy 473.71 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12444,8 +12480,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 236.22)
-			(xy 473.71 236.22)
+			(xy 467.36 236.22) (xy 473.71 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12580,8 +12615,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 281.94)
-			(xy 431.8 275.59)
+			(xy 431.8 281.94) (xy 431.8 275.59)
 		)
 		(stroke
 			(width 0)
@@ -12610,8 +12644,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 289.56)
-			(xy 431.8 295.91)
+			(xy 431.8 289.56) (xy 431.8 295.91)
 		)
 		(stroke
 			(width 0)
@@ -12781,8 +12814,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 281.94)
-			(xy 478.79 275.59)
+			(xy 478.79 281.94) (xy 478.79 275.59)
 		)
 		(stroke
 			(width 0)
@@ -12811,8 +12843,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 289.56)
-			(xy 478.79 295.91)
+			(xy 478.79 289.56) (xy 478.79 295.91)
 		)
 		(stroke
 			(width 0)
@@ -12982,8 +13013,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 231.14)
-			(xy 527.05 224.79)
+			(xy 527.05 231.14) (xy 527.05 224.79)
 		)
 		(stroke
 			(width 0)
@@ -13012,8 +13042,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 238.76)
-			(xy 527.05 245.11)
+			(xy 527.05 238.76) (xy 527.05 245.11)
 		)
 		(stroke
 			(width 0)
@@ -13183,8 +13212,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 265.43)
-			(xy 527.05 259.08)
+			(xy 527.05 265.43) (xy 527.05 259.08)
 		)
 		(stroke
 			(width 0)
@@ -13213,8 +13241,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 273.05)
-			(xy 527.05 279.4)
+			(xy 527.05 273.05) (xy 527.05 279.4)
 		)
 		(stroke
 			(width 0)
@@ -13384,8 +13411,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 302.26)
-			(xy 516.89 302.26)
+			(xy 523.24 302.26) (xy 516.89 302.26)
 		)
 		(stroke
 			(width 0)
@@ -13414,8 +13440,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 302.26)
-			(xy 537.21 302.26)
+			(xy 530.86 302.26) (xy 537.21 302.26)
 		)
 		(stroke
 			(width 0)
@@ -13540,8 +13565,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 307.34)
-			(xy 435.61 300.99)
+			(xy 435.61 307.34) (xy 435.61 300.99)
 		)
 		(stroke
 			(width 0)
@@ -13570,8 +13594,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 314.96)
-			(xy 435.61 321.31)
+			(xy 435.61 314.96) (xy 435.61 321.31)
 		)
 		(stroke
 			(width 0)
@@ -13696,8 +13719,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 307.34)
-			(xy 481.33 300.99)
+			(xy 481.33 307.34) (xy 481.33 300.99)
 		)
 		(stroke
 			(width 0)
@@ -13726,8 +13748,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 314.96)
-			(xy 481.33 321.31)
+			(xy 481.33 314.96) (xy 481.33 321.31)
 		)
 		(stroke
 			(width 0)
@@ -13907,8 +13928,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 351.79)
-			(xy 280.67 351.79)
+			(xy 287.02 351.79) (xy 280.67 351.79)
 		)
 		(stroke
 			(width 0)
@@ -14016,9 +14036,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 290.83 351.79 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 290.83 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -14033,8 +14059,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 351.79)
-			(xy 350.52 351.79)
+			(xy 356.87 351.79) (xy 350.52 351.79)
 		)
 		(stroke
 			(width 0)
@@ -14156,8 +14181,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 351.79)
-			(xy 420.37 351.79)
+			(xy 426.72 351.79) (xy 420.37 351.79)
 		)
 		(stroke
 			(width 0)
@@ -14279,8 +14303,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 351.79)
-			(xy 490.22 351.79)
+			(xy 496.57 351.79) (xy 490.22 351.79)
 		)
 		(stroke
 			(width 0)
@@ -14402,8 +14425,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 365.76)
-			(xy 280.67 365.76)
+			(xy 287.02 365.76) (xy 280.67 365.76)
 		)
 		(stroke
 			(width 0)
@@ -14525,8 +14547,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 365.76)
-			(xy 350.52 365.76)
+			(xy 356.87 365.76) (xy 350.52 365.76)
 		)
 		(stroke
 			(width 0)
@@ -14634,9 +14655,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 360.68 365.76 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 360.68 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -14651,8 +14678,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 365.76)
-			(xy 420.37 365.76)
+			(xy 426.72 365.76) (xy 420.37 365.76)
 		)
 		(stroke
 			(width 0)
@@ -14760,9 +14786,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 430.53 365.76 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 430.53 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -14777,8 +14809,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 365.76)
-			(xy 490.22 365.76)
+			(xy 496.57 365.76) (xy 490.22 365.76)
 		)
 		(stroke
 			(width 0)
@@ -14886,9 +14917,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 500.38 365.76 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 500.38 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -14903,8 +14940,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 379.73)
-			(xy 280.67 379.73)
+			(xy 287.02 379.73) (xy 280.67 379.73)
 		)
 		(stroke
 			(width 0)
@@ -15012,9 +15048,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 290.83 379.73 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 290.83 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -15029,8 +15071,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 379.73)
-			(xy 350.52 379.73)
+			(xy 356.87 379.73) (xy 350.52 379.73)
 		)
 		(stroke
 			(width 0)
@@ -15138,9 +15179,15 @@
 				(hide yes)
 			)
 		)
-    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 360.68 379.73 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained"
+			(at 360.68 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
@@ -15155,8 +15202,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 379.73)
-			(xy 420.37 379.73)
+			(xy 426.72 379.73) (xy 420.37 379.73)
 		)
 		(stroke
 			(width 0)
@@ -15278,8 +15324,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 387.35)
-			(xy 35.56 393.7)
+			(xy 35.56 387.35) (xy 35.56 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15401,8 +15446,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 387.35)
-			(xy 90.17 393.7)
+			(xy 90.17 387.35) (xy 90.17 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15524,8 +15568,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 387.35)
-			(xy 144.78 393.7)
+			(xy 144.78 387.35) (xy 144.78 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15647,8 +15690,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 387.35)
-			(xy 199.39 393.7)
+			(xy 199.39 387.35) (xy 199.39 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15770,8 +15812,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 387.35)
-			(xy 254 393.7)
+			(xy 254 387.35) (xy 254 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15893,8 +15934,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 387.35)
-			(xy 308.61 393.7)
+			(xy 308.61 387.35) (xy 308.61 393.7)
 		)
 		(stroke
 			(width 0)
@@ -16016,8 +16056,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 387.35)
-			(xy 363.22 393.7)
+			(xy 363.22 387.35) (xy 363.22 393.7)
 		)
 		(stroke
 			(width 0)
@@ -16139,8 +16178,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 387.35)
-			(xy 417.83 393.7)
+			(xy 417.83 387.35) (xy 417.83 393.7)
 		)
 		(stroke
 			(width 0)
@@ -16272,8 +16310,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 349.25)
-			(xy 50.8 349.25)
+			(xy 25.4 349.25) (xy 50.8 349.25)
 		)
 		(stroke
 			(width 0)
@@ -16312,8 +16349,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 349.25)
-			(xy 226.06 349.25)
+			(xy 200.66 349.25) (xy 226.06 349.25)
 		)
 		(stroke
 			(width 0)
@@ -16352,8 +16388,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 353.06)
-			(xy 50.8 353.06)
+			(xy 25.4 353.06) (xy 50.8 353.06)
 		)
 		(stroke
 			(width 0)
@@ -16392,8 +16427,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 349.25)
-			(xy 138.43 349.25)
+			(xy 113.03 349.25) (xy 138.43 349.25)
 		)
 		(stroke
 			(width 0)
@@ -16432,8 +16466,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 353.06)
-			(xy 138.43 353.06)
+			(xy 113.03 353.06) (xy 138.43 353.06)
 		)
 		(stroke
 			(width 0)
@@ -16472,8 +16505,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 353.06)
-			(xy 226.06 353.06)
+			(xy 200.66 353.06) (xy 226.06 353.06)
 		)
 		(stroke
 			(width 0)
@@ -16501,7 +16533,6 @@
 		)
 	)
 	(embedded_fonts no)
-
 	(text "01 电源管理 / POWER MANAGEMENT"
 		(at 20 20 0)
 		(effects
@@ -17354,8 +17385,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 72.39)
-			(xy 119.38 72.39)
+			(xy 62.23 72.39) (xy 119.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -17365,8 +17395,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 237.49)
-			(xy 429.26 294.64)
+			(xy 429.26 237.49) (xy 429.26 294.64)
 		)
 		(stroke
 			(width 0)
@@ -17376,8 +17405,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 299.72)
-			(xy 518.16 299.72)
+			(xy 472.44 299.72) (xy 518.16 299.72)
 		)
 		(stroke
 			(width 0)
@@ -17387,8 +17415,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 160.02)
-			(xy 152.4 160.02)
+			(xy 114.3 160.02) (xy 152.4 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17398,8 +17425,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 279.4)
-			(xy 110.49 279.4)
+			(xy 53.34 279.4) (xy 110.49 279.4)
 		)
 		(stroke
 			(width 0)
@@ -17409,8 +17435,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 222.25)
-			(xy 204.47 222.25)
+			(xy 46.99 222.25) (xy 204.47 222.25)
 		)
 		(stroke
 			(width 0)
@@ -17420,8 +17445,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 234.95)
-			(xy 193.04 234.95)
+			(xy 128.27 234.95) (xy 193.04 234.95)
 		)
 		(stroke
 			(width 0)
@@ -17431,8 +17455,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 80.01)
-			(xy 523.24 80.01)
+			(xy 449.58 80.01) (xy 523.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -17442,8 +17465,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76)
-			(xy 62.23 142.24)
+			(xy 62.23 111.76) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -17453,8 +17475,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 83.82)
-			(xy 439.42 83.82)
+			(xy 334.01 83.82) (xy 439.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -17464,8 +17485,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 299.72)
-			(xy 472.44 299.72)
+			(xy 436.88 299.72) (xy 472.44 299.72)
 		)
 		(stroke
 			(width 0)
@@ -17475,8 +17495,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 102.87)
-			(xy 133.35 102.87)
+			(xy 80.01 102.87) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -17486,8 +17505,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 236.22)
-			(xy 472.44 299.72)
+			(xy 472.44 236.22) (xy 472.44 299.72)
 		)
 		(stroke
 			(width 0)
@@ -17497,8 +17515,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 81.28)
-			(xy 384.81 81.28)
+			(xy 334.01 81.28) (xy 384.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -17508,8 +17525,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 320.04)
-			(xy 481.33 320.04)
+			(xy 435.61 320.04) (xy 481.33 320.04)
 		)
 		(stroke
 			(width 0)
@@ -17519,8 +17535,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 78.74)
-			(xy 264.16 95.25)
+			(xy 264.16 78.74) (xy 264.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -17530,8 +17545,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 111.76)
-			(xy 196.85 160.02)
+			(xy 196.85 111.76) (xy 196.85 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17541,8 +17555,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 143.51)
-			(xy 318.77 143.51)
+			(xy 309.88 143.51) (xy 318.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -17552,8 +17565,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 100.33)
-			(xy 321.31 161.29)
+			(xy 321.31 100.33) (xy 321.31 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17563,8 +17575,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 161.29)
-			(xy 320.04 173.99)
+			(xy 320.04 161.29) (xy 320.04 173.99)
 		)
 		(stroke
 			(width 0)
@@ -17574,8 +17585,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 304.8)
-			(xy 535.94 304.8)
+			(xy 482.6 304.8) (xy 535.94 304.8)
 		)
 		(stroke
 			(width 0)
@@ -17585,8 +17595,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 226.06)
-			(xy 525.78 226.06)
+			(xy 431.8 226.06) (xy 525.78 226.06)
 		)
 		(stroke
 			(width 0)
@@ -17596,8 +17605,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 161.29)
-			(xy 547.37 161.29)
+			(xy 492.76 161.29) (xy 547.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17607,8 +17615,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 140.97)
-			(xy 435.61 140.97)
+			(xy 334.01 140.97) (xy 435.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -17618,8 +17625,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 298.45)
-			(xy 191.77 298.45)
+			(xy 127 298.45) (xy 191.77 298.45)
 		)
 		(stroke
 			(width 0)
@@ -17629,8 +17635,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 143.51)
-			(xy 547.37 143.51)
+			(xy 496.57 143.51) (xy 547.37 143.51)
 		)
 		(stroke
 			(width 0)
@@ -17640,8 +17645,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 236.22)
-			(xy 134.62 280.67)
+			(xy 134.62 236.22) (xy 134.62 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17651,8 +17655,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 80.01)
-			(xy 448.31 92.71)
+			(xy 448.31 80.01) (xy 448.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -17662,8 +17665,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 232.41)
-			(xy 104.14 232.41)
+			(xy 49.53 232.41) (xy 104.14 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17673,8 +17675,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 78.74)
-			(xy 430.53 78.74)
+			(xy 384.81 78.74) (xy 430.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -17684,8 +17685,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31)
-			(xy 153.67 102.87)
+			(xy 153.67 67.31) (xy 153.67 102.87)
 		)
 		(stroke
 			(width 0)
@@ -17695,8 +17695,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 234.95)
-			(xy 204.47 234.95)
+			(xy 193.04 234.95) (xy 204.47 234.95)
 		)
 		(stroke
 			(width 0)
@@ -17706,8 +17705,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 110.49)
-			(xy 68.58 110.49)
+			(xy 36.83 110.49) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -17717,8 +17715,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 226.06)
-			(xy 525.78 260.35)
+			(xy 525.78 226.06) (xy 525.78 260.35)
 		)
 		(stroke
 			(width 0)
@@ -17728,8 +17725,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 280.67)
-			(xy 127 280.67)
+			(xy 71.12 280.67) (xy 127 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17739,8 +17735,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24)
-			(xy 76.2 142.24)
+			(xy 62.23 142.24) (xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -17750,8 +17745,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 280.67)
-			(xy 294.64 280.67)
+			(xy 284.48 280.67) (xy 294.64 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17761,8 +17755,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 120.65)
-			(xy 133.35 120.65)
+			(xy 68.58 120.65) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -17772,8 +17765,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 246.38)
-			(xy 341.63 246.38)
+			(xy 294.64 246.38) (xy 341.63 246.38)
 		)
 		(stroke
 			(width 0)
@@ -17783,8 +17775,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 320.04)
-			(xy 538.48 320.04)
+			(xy 481.33 320.04) (xy 538.48 320.04)
 		)
 		(stroke
 			(width 0)
@@ -17794,8 +17785,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 92.71)
-			(xy 523.24 92.71)
+			(xy 448.31 92.71) (xy 523.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -17805,8 +17795,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 243.84)
-			(xy 528.32 278.13)
+			(xy 528.32 243.84) (xy 528.32 278.13)
 		)
 		(stroke
 			(width 0)
@@ -17816,8 +17805,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 247.65)
-			(xy 367.03 280.67)
+			(xy 367.03 247.65) (xy 367.03 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17827,8 +17815,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 246.38)
-			(xy 294.64 280.67)
+			(xy 294.64 246.38) (xy 294.64 280.67)
 		)
 		(stroke
 			(width 0)
@@ -17838,8 +17825,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 167.64)
-			(xy 492.76 167.64)
+			(xy 439.42 167.64) (xy 492.76 167.64)
 		)
 		(stroke
 			(width 0)
@@ -17849,8 +17835,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 110.49)
-			(xy 36.83 160.02)
+			(xy 36.83 110.49) (xy 36.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17860,8 +17845,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 87.63)
-			(xy 334.01 140.97)
+			(xy 334.01 87.63) (xy 334.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -17871,8 +17855,7 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 110.49)
-			(xy 548.64 161.29)
+			(xy 548.64 110.49) (xy 548.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -17882,8 +17865,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 160.02)
-			(xy 76.2 160.02)
+			(xy 38.1 160.02) (xy 76.2 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17893,8 +17875,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 160.02)
-			(xy 114.3 160.02)
+			(xy 76.2 160.02) (xy 114.3 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17904,8 +17885,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 87.63)
-			(xy 303.53 152.4)
+			(xy 303.53 87.63) (xy 303.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -17915,8 +17895,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 173.99)
-			(xy 436.88 173.99)
+			(xy 320.04 173.99) (xy 436.88 173.99)
 		)
 		(stroke
 			(width 0)
@@ -17926,8 +17905,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 234.95)
-			(xy 128.27 246.38)
+			(xy 128.27 234.95) (xy 128.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -17937,8 +17915,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 78.74)
-			(xy 303.53 78.74)
+			(xy 264.16 78.74) (xy 303.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -17948,8 +17925,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 234.95)
-			(xy 474.98 294.64)
+			(xy 474.98 234.95) (xy 474.98 294.64)
 		)
 		(stroke
 			(width 0)
@@ -17959,8 +17935,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 97.79)
-			(xy 317.5 100.33)
+			(xy 317.5 97.79) (xy 317.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -17970,8 +17945,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 232.41)
-			(xy 184.15 232.41)
+			(xy 134.62 232.41) (xy 184.15 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17981,8 +17955,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 80.01)
-			(xy 523.24 91.44)
+			(xy 523.24 80.01) (xy 523.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -17992,8 +17965,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 229.87)
-			(xy 201.93 229.87)
+			(xy 134.62 229.87) (xy 201.93 229.87)
 		)
 		(stroke
 			(width 0)
@@ -18003,8 +17975,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87)
-			(xy 153.67 102.87)
+			(xy 133.35 102.87) (xy 153.67 102.87)
 		)
 		(stroke
 			(width 0)
@@ -18014,8 +17985,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 234.95)
-			(xy 193.04 298.45)
+			(xy 193.04 234.95) (xy 193.04 298.45)
 		)
 		(stroke
 			(width 0)
@@ -18025,8 +17995,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 262.89)
-			(xy 353.06 298.45)
+			(xy 353.06 262.89) (xy 353.06 298.45)
 		)
 		(stroke
 			(width 0)
@@ -18036,8 +18005,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 280.67)
-			(xy 134.62 280.67)
+			(xy 127 280.67) (xy 134.62 280.67)
 		)
 		(stroke
 			(width 0)
@@ -18047,8 +18015,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 184.15)
-			(xy 320.04 184.15)
+			(xy 266.7 184.15) (xy 320.04 184.15)
 		)
 		(stroke
 			(width 0)
@@ -18058,8 +18025,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 81.28)
-			(xy 309.88 143.51)
+			(xy 309.88 81.28) (xy 309.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -18069,8 +18035,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 173.99)
-			(xy 320.04 184.15)
+			(xy 320.04 173.99) (xy 320.04 184.15)
 		)
 		(stroke
 			(width 0)
@@ -18080,8 +18045,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 113.03)
-			(xy 179.07 142.24)
+			(xy 179.07 113.03) (xy 179.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18091,8 +18055,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 110.49)
-			(xy 548.64 110.49)
+			(xy 523.24 110.49) (xy 548.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -18102,8 +18065,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 111.76)
-			(xy 179.07 113.03)
+			(xy 179.07 111.76) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -18113,8 +18075,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 142.24)
-			(xy 62.23 142.24)
+			(xy 38.1 142.24) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18124,8 +18085,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 302.26)
-			(xy 436.88 302.26)
+			(xy 435.61 302.26) (xy 436.88 302.26)
 		)
 		(stroke
 			(width 0)
@@ -18135,8 +18095,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 280.67)
-			(xy 191.77 280.67)
+			(xy 134.62 280.67) (xy 191.77 280.67)
 		)
 		(stroke
 			(width 0)
@@ -18146,8 +18105,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 227.33)
-			(xy 110.49 279.4)
+			(xy 110.49 227.33) (xy 110.49 279.4)
 		)
 		(stroke
 			(width 0)
@@ -18157,8 +18115,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 129.54)
-			(xy 496.57 143.51)
+			(xy 496.57 129.54) (xy 496.57 143.51)
 		)
 		(stroke
 			(width 0)
@@ -18168,8 +18125,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 242.57)
-			(xy 430.53 276.86)
+			(xy 430.53 242.57) (xy 430.53 276.86)
 		)
 		(stroke
 			(width 0)
@@ -18179,8 +18135,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 129.54)
-			(xy 494.03 129.54)
+			(xy 439.42 129.54) (xy 494.03 129.54)
 		)
 		(stroke
 			(width 0)
@@ -18190,8 +18145,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 233.68)
-			(xy 294.64 246.38)
+			(xy 294.64 233.68) (xy 294.64 246.38)
 		)
 		(stroke
 			(width 0)
@@ -18201,8 +18155,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 294.64)
-			(xy 430.53 294.64)
+			(xy 429.26 294.64) (xy 430.53 294.64)
 		)
 		(stroke
 			(width 0)
@@ -18212,8 +18165,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 73.66)
-			(xy 367.03 73.66)
+			(xy 334.01 73.66) (xy 367.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -18223,8 +18175,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 294.64)
-			(xy 430.53 320.04)
+			(xy 430.53 294.64) (xy 430.53 320.04)
 		)
 		(stroke
 			(width 0)
@@ -18234,8 +18185,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 58.42)
-			(xy 384.81 78.74)
+			(xy 384.81 58.42) (xy 384.81 78.74)
 		)
 		(stroke
 			(width 0)
@@ -18245,8 +18195,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66)
-			(xy 160.02 113.03)
+			(xy 160.02 73.66) (xy 160.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -18256,8 +18205,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 160.02)
-			(xy 190.5 160.02)
+			(xy 152.4 160.02) (xy 190.5 160.02)
 		)
 		(stroke
 			(width 0)
@@ -18267,8 +18215,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 229.87)
-			(xy 201.93 233.68)
+			(xy 201.93 229.87) (xy 201.93 233.68)
 		)
 		(stroke
 			(width 0)
@@ -18278,8 +18225,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 278.13)
-			(xy 538.48 320.04)
+			(xy 538.48 278.13) (xy 538.48 320.04)
 		)
 		(stroke
 			(width 0)
@@ -18289,8 +18235,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 110.49)
-			(xy 68.58 120.65)
+			(xy 68.58 110.49) (xy 68.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -18300,8 +18245,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24)
-			(xy 114.3 142.24)
+			(xy 76.2 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18311,8 +18255,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24)
-			(xy 179.07 142.24)
+			(xy 152.4 142.24) (xy 179.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18322,8 +18265,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 280.67)
-			(xy 367.03 280.67)
+			(xy 355.6 280.67) (xy 367.03 280.67)
 		)
 		(stroke
 			(width 0)
@@ -18333,8 +18275,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 320.04)
-			(xy 435.61 320.04)
+			(xy 430.53 320.04) (xy 435.61 320.04)
 		)
 		(stroke
 			(width 0)
@@ -18344,8 +18285,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 100.33)
-			(xy 321.31 100.33)
+			(xy 317.5 100.33) (xy 321.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -18355,8 +18295,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 85.09)
-			(xy 336.55 99.06)
+			(xy 336.55 85.09) (xy 336.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -18366,8 +18305,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 246.38)
-			(xy 128.27 246.38)
+			(xy 119.38 246.38) (xy 128.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -18377,8 +18315,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 298.45)
-			(xy 353.06 298.45)
+			(xy 284.48 298.45) (xy 353.06 298.45)
 		)
 		(stroke
 			(width 0)
@@ -18388,8 +18325,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 227.33)
-			(xy 134.62 227.33)
+			(xy 110.49 227.33) (xy 134.62 227.33)
 		)
 		(stroke
 			(width 0)
@@ -18399,8 +18335,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 83.82)
-			(xy 439.42 129.54)
+			(xy 439.42 83.82) (xy 439.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -18410,8 +18345,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24)
-			(xy 152.4 142.24)
+			(xy 114.3 142.24) (xy 152.4 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18421,8 +18355,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 99.06)
-			(xy 375.92 99.06)
+			(xy 336.55 99.06) (xy 375.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -18432,8 +18365,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 224.79)
-			(xy 49.53 224.79)
+			(xy 48.26 224.79) (xy 49.53 224.79)
 		)
 		(stroke
 			(width 0)
@@ -18443,8 +18375,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 152.4)
-			(xy 303.53 152.4)
+			(xy 266.7 152.4) (xy 303.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -18454,8 +18385,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 302.26)
-			(xy 482.6 302.26)
+			(xy 481.33 302.26) (xy 482.6 302.26)
 		)
 		(stroke
 			(width 0)
@@ -18465,8 +18395,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 222.25)
-			(xy 46.99 242.57)
+			(xy 46.99 222.25) (xy 46.99 242.57)
 		)
 		(stroke
 			(width 0)
@@ -18476,8 +18405,7 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 278.13)
-			(xy 538.48 278.13)
+			(xy 528.32 278.13) (xy 538.48 278.13)
 		)
 		(stroke
 			(width 0)
@@ -18487,8 +18415,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 280.67)
-			(xy 71.12 289.56)
+			(xy 71.12 280.67) (xy 71.12 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18498,8 +18425,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 156.21)
-			(xy 436.88 156.21)
+			(xy 435.61 156.21) (xy 436.88 156.21)
 		)
 		(stroke
 			(width 0)
@@ -18509,8 +18435,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 302.26)
-			(xy 482.6 304.8)
+			(xy 482.6 302.26) (xy 482.6 304.8)
 		)
 		(stroke
 			(width 0)
@@ -18520,8 +18445,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 222.25)
-			(xy 204.47 234.95)
+			(xy 204.47 222.25) (xy 204.47 234.95)
 		)
 		(stroke
 			(width 0)
@@ -18531,8 +18455,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 298.45)
-			(xy 355.6 298.45)
+			(xy 353.06 298.45) (xy 355.6 298.45)
 		)
 		(stroke
 			(width 0)
@@ -18542,8 +18465,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 95.25)
-			(xy 264.16 134.62)
+			(xy 264.16 95.25) (xy 264.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -18553,8 +18475,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 140.97)
-			(xy 435.61 156.21)
+			(xy 435.61 140.97) (xy 435.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -18564,8 +18485,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 299.72)
-			(xy 518.16 302.26)
+			(xy 518.16 299.72) (xy 518.16 302.26)
 		)
 		(stroke
 			(width 0)
@@ -18575,8 +18495,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 298.45)
-			(xy 193.04 298.45)
+			(xy 191.77 298.45) (xy 193.04 298.45)
 		)
 		(stroke
 			(width 0)
@@ -18586,8 +18505,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 85.09)
-			(xy 336.55 85.09)
+			(xy 327.66 85.09) (xy 336.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -18597,8 +18515,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 142.24)
-			(xy 190.5 142.24)
+			(xy 179.07 142.24) (xy 190.5 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18608,8 +18525,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 58.42)
-			(xy 367.03 73.66)
+			(xy 367.03 58.42) (xy 367.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -18619,8 +18535,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 276.86)
-			(xy 431.8 276.86)
+			(xy 430.53 276.86) (xy 431.8 276.86)
 		)
 		(stroke
 			(width 0)
@@ -18630,8 +18545,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 69.85)
-			(xy 62.23 72.39)
+			(xy 62.23 69.85) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -18641,8 +18555,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 160.02)
-			(xy 38.1 160.02)
+			(xy 36.83 160.02) (xy 38.1 160.02)
 		)
 		(stroke
 			(width 0)
@@ -18652,8 +18565,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 166.37)
-			(xy 266.7 166.37)
+			(xy 265.43 166.37) (xy 266.7 166.37)
 		)
 		(stroke
 			(width 0)
@@ -18663,8 +18575,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 278.13)
-			(xy 528.32 278.13)
+			(xy 527.05 278.13) (xy 528.32 278.13)
 		)
 		(stroke
 			(width 0)
@@ -18674,8 +18585,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03)
-			(xy 179.07 113.03)
+			(xy 160.02 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -18685,8 +18595,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 160.02)
-			(xy 196.85 160.02)
+			(xy 190.5 160.02) (xy 196.85 160.02)
 		)
 		(stroke
 			(width 0)
@@ -18696,8 +18605,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 78.74)
-			(xy 384.81 81.28)
+			(xy 384.81 78.74) (xy 384.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -18707,8 +18615,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 102.87)
-			(xy 80.01 111.76)
+			(xy 80.01 102.87) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -18718,8 +18625,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 302.26)
-			(xy 535.94 304.8)
+			(xy 535.94 302.26) (xy 535.94 304.8)
 		)
 		(stroke
 			(width 0)
@@ -18729,8 +18635,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 227.33)
-			(xy 134.62 229.87)
+			(xy 134.62 227.33) (xy 134.62 229.87)
 		)
 		(stroke
 			(width 0)
@@ -18740,8 +18645,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 232.41)
-			(xy 104.14 236.22)
+			(xy 104.14 232.41) (xy 104.14 236.22)
 		)
 		(stroke
 			(width 0)
@@ -18751,8 +18655,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 279.4)
-			(xy 53.34 289.56)
+			(xy 53.34 279.4) (xy 53.34 289.56)
 		)
 		(stroke
 			(width 0)
@@ -18762,8 +18665,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 81.28)
-			(xy 327.66 85.09)
+			(xy 327.66 81.28) (xy 327.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -18773,8 +18675,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 224.79)
-			(xy 49.53 232.41)
+			(xy 49.53 224.79) (xy 49.53 232.41)
 		)
 		(stroke
 			(width 0)
@@ -18784,8 +18685,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 294.64)
-			(xy 478.79 294.64)
+			(xy 474.98 294.64) (xy 478.79 294.64)
 		)
 		(stroke
 			(width 0)
@@ -18795,8 +18695,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 95.25)
-			(xy 265.43 95.25)
+			(xy 264.16 95.25) (xy 265.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -18806,8 +18705,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31)
-			(xy 160.02 67.31)
+			(xy 153.67 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -18817,8 +18715,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 167.64)
-			(xy 439.42 173.99)
+			(xy 439.42 167.64) (xy 439.42 173.99)
 		)
 		(stroke
 			(width 0)
@@ -18828,8 +18725,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 243.84)
-			(xy 528.32 243.84)
+			(xy 527.05 243.84) (xy 528.32 243.84)
 		)
 		(stroke
 			(width 0)
@@ -18839,8 +18735,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 73.66)
-			(xy 334.01 74.93)
+			(xy 334.01 73.66) (xy 334.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -18850,8 +18745,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 242.57)
-			(xy 48.26 242.57)
+			(xy 46.99 242.57) (xy 48.26 242.57)
 		)
 		(stroke
 			(width 0)
@@ -18861,8 +18755,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 226.06)
-			(xy 431.8 233.68)
+			(xy 431.8 226.06) (xy 431.8 233.68)
 		)
 		(stroke
 			(width 0)
@@ -18872,8 +18765,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 152.4)
-			(xy 265.43 166.37)
+			(xy 265.43 152.4) (xy 265.43 166.37)
 		)
 		(stroke
 			(width 0)
@@ -18883,8 +18775,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 236.22)
-			(xy 431.8 237.49)
+			(xy 431.8 236.22) (xy 431.8 237.49)
 		)
 		(stroke
 			(width 0)
@@ -18894,8 +18785,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 81.28)
-			(xy 334.01 81.28)
+			(xy 327.66 81.28) (xy 334.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -18905,8 +18795,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 167.64)
-			(xy 494.03 167.64)
+			(xy 492.76 167.64) (xy 494.03 167.64)
 		)
 		(stroke
 			(width 0)
@@ -18916,8 +18805,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 81.28)
-			(xy 309.88 81.28)
+			(xy 303.53 81.28) (xy 309.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -18927,8 +18815,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 237.49)
-			(xy 431.8 237.49)
+			(xy 429.26 237.49) (xy 431.8 237.49)
 		)
 		(stroke
 			(width 0)
@@ -18938,8 +18825,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 74.93)
-			(xy 303.53 78.74)
+			(xy 303.53 74.93) (xy 303.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -18949,8 +18835,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 241.3)
-			(xy 431.8 242.57)
+			(xy 431.8 241.3) (xy 431.8 242.57)
 		)
 		(stroke
 			(width 0)
@@ -18960,8 +18845,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 80.01)
-			(xy 334.01 81.28)
+			(xy 334.01 80.01) (xy 334.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -18971,8 +18855,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 232.41)
-			(xy 134.62 233.68)
+			(xy 134.62 232.41) (xy 134.62 233.68)
 		)
 		(stroke
 			(width 0)
@@ -18982,8 +18865,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 129.54)
-			(xy 496.57 129.54)
+			(xy 494.03 129.54) (xy 496.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -18993,8 +18875,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 72.39)
-			(xy 119.38 73.66)
+			(xy 119.38 72.39) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -19004,8 +18885,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 234.95)
-			(xy 474.98 234.95)
+			(xy 472.44 234.95) (xy 474.98 234.95)
 		)
 		(stroke
 			(width 0)
@@ -19015,8 +18895,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 299.72)
-			(xy 436.88 302.26)
+			(xy 436.88 299.72) (xy 436.88 302.26)
 		)
 		(stroke
 			(width 0)
@@ -19026,8 +18905,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 233.68)
-			(xy 472.44 234.95)
+			(xy 472.44 233.68) (xy 472.44 234.95)
 		)
 		(stroke
 			(width 0)
@@ -19037,8 +18915,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 80.01)
-			(xy 303.53 81.28)
+			(xy 303.53 80.01) (xy 303.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -19048,8 +18925,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 260.35)
-			(xy 527.05 260.35)
+			(xy 525.78 260.35) (xy 527.05 260.35)
 		)
 		(stroke
 			(width 0)
@@ -19059,8 +18935,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 262.89)
-			(xy 354.33 262.89)
+			(xy 353.06 262.89) (xy 354.33 262.89)
 		)
 		(stroke
 			(width 0)
@@ -19070,8 +18945,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 242.57)
-			(xy 431.8 242.57)
+			(xy 430.53 242.57) (xy 431.8 242.57)
 		)
 		(stroke
 			(width 0)
@@ -19081,8 +18955,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 161.29)
-			(xy 492.76 167.64)
+			(xy 492.76 161.29) (xy 492.76 167.64)
 		)
 		(stroke
 			(width 0)
@@ -19092,8 +18965,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 140.97)
-			(xy 436.88 140.97)
+			(xy 435.61 140.97) (xy 436.88 140.97)
 		)
 		(stroke
 			(width 0)
@@ -19103,8 +18975,7 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 161.29)
-			(xy 548.64 161.29)
+			(xy 547.37 161.29) (xy 548.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -19114,8 +18985,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 161.29)
-			(xy 320.04 161.29)
+			(xy 318.77 161.29) (xy 320.04 161.29)
 		)
 		(stroke
 			(width 0)
@@ -19125,8 +18995,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 82.55)
-			(xy 334.01 83.82)
+			(xy 334.01 82.55) (xy 334.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -19136,8 +19005,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 232.41)
-			(xy 184.15 233.68)
+			(xy 184.15 232.41) (xy 184.15 233.68)
 		)
 		(stroke
 			(width 0)
@@ -19147,8 +19015,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 161.29)
-			(xy 321.31 161.29)
+			(xy 320.04 161.29) (xy 321.31 161.29)
 		)
 		(stroke
 			(width 0)
@@ -19158,8 +19025,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 78.74)
-			(xy 430.53 80.01)
+			(xy 430.53 78.74) (xy 430.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -19169,8 +19035,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 173.99)
-			(xy 439.42 173.99)
+			(xy 436.88 173.99) (xy 439.42 173.99)
 		)
 		(stroke
 			(width 0)
@@ -19180,8 +19045,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 134.62)
-			(xy 266.7 134.62)
+			(xy 264.16 134.62) (xy 266.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -19191,8 +19055,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 152.4)
-			(xy 266.7 152.4)
+			(xy 265.43 152.4) (xy 266.7 152.4)
 		)
 		(stroke
 			(width 0)
@@ -19202,8 +19065,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 246.38)
-			(xy 341.63 247.65)
+			(xy 341.63 246.38) (xy 341.63 247.65)
 		)
 		(stroke
 			(width 0)
@@ -19213,8 +19075,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 97.79)
-			(xy 317.5 97.79)
+			(xy 316.23 97.79) (xy 317.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -19224,8 +19085,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 229.87)
-			(xy 134.62 231.14)
+			(xy 134.62 229.87) (xy 134.62 231.14)
 		)
 		(stroke
 			(width 0)
@@ -19235,8 +19095,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04)
-			(xy 160.02 67.31)
+			(xy 160.02 66.04) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -19246,8 +19105,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 294.64)
-			(xy 431.8 294.64)
+			(xy 430.53 294.64) (xy 431.8 294.64)
 		)
 		(stroke
 			(width 0)
@@ -19257,13 +19115,181 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 226.06)
-			(xy 527.05 226.06)
+			(xy 525.78 226.06) (xy 527.05 226.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f35fa4a-6ad1-47e8-b27c-3b651980d7a9")
+	)
+	(symbol
+		(lib_id "X100_LayoutECO:Bourns_SRP1038A_100M")
+		(at 439.42 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(property "Reference" "L101"
+			(at 439.42 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 439.42 78.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Bourns_SRP1038A_LeadFrame_NoVIP"
+			(at 439.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf"
+			(at 439.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bourns SRP1038A-100M; lead-frame; max case11.5x10.3x4.0mm; user-approved20261023"
+			(at 439.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRP1038A-100M"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Lead-frame SMD; case max11.5x10.3x4.0mm"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN; USER_APPROVED_20261023; NO_PURCHASE"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C780184"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" "10uH +/-20% @100kHz/1V"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR Max" "30mOhm @25C"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Irms" "7.5A; rated40C rise; application thermal test required"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" "12A @25C for20% L drop; not hot minimum guarantee"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "DATASHEET_AND_LAYOUT_VERIFIED; POWER_REVIEW_OPEN; NO_BENCH_PASS"
+			(at 439.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid 3e3e3920-cd6e-4d12-84d7-eb1b2b7a53b0)
+		)
+		(pin "2"
+			(uuid bec24ba0-c0a6-41e6-8536-5eb7ef015b02)
+		)
+		(uuid d9f0ba89-b6de-438d-8e71-291b90794cbc)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953"
+					(reference "L101")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

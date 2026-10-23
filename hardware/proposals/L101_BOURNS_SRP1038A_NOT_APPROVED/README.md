@@ -1,5 +1,7 @@
 # L101 紧凑10µH电感候选 — 未批准正式采用
 
+**状态更新2026-10-23：本型号已获人工批准并正式集成，见[正式接受记录](../../../docs/L101_FORMAL_ACCEPTANCE.md)。目录名与以下未批准结论保留候选评估当时的历史状态。**
+
 本候选基于正式 `6e1b539`（MCU向右1mm后的基线），唯一CAD执行器 `plant_kicad_v1` 生成。只评估 **Bourns SRP1038A-100M / LCSC C780184** 替代原 **SRP1265A-100M**；保持10µH、Buck IC、补偿阻容、MAIN_SW/5V_MAIN、MCU/IMU/气压计、板框和安装孔。`project/X100_CleanSheet.kicad_pro` 可独立打开；不得整项目覆盖正式工程。
 
 ## 实质检查

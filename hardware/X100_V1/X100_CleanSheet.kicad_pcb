@@ -33974,50 +33974,52 @@
 			)
 		)
 	)
-	(footprint "X100_Physical:Bourns_SRP1265A"
+	(footprint "X100_Physical:Bourns_SRP1038A_LeadFrame_NoVIP"
 		(layer "B.Cu")
 		(uuid "2b79f2c0-518f-4a6b-8ed4-6f5556bc24f2")
-		(at 113.7 98)
-		(descr "Bourns SRP1265A official land 14.2/8.0/5.0mm")
+		(at 114 97)
+		(descr "Bourns SRP1038A-100M lead-frame; official layout outer13.6 gap5.4 height3.5 => pads4.1x3.5 centres9.5; maxcase11.5x10.3x4.0; no drill/noVIP; candidate only")
 		(property "Reference" "L101"
-			(at 0 8.25 180)
+			(at 0 6.5 180)
 			(layer "B.SilkS")
-			(uuid "9b93785d-b553-4479-a4c2-ea279b9e512b")
+			(uuid "a6fd1a93-abd6-48ee-8697-bb2361effe75")
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "10uH"
-			(at 0 -8.25 180)
+			(at 0 -6.5 180)
 			(layer "B.Fab")
-			(uuid "3b83dbeb-f81d-46b9-bfa0-a1c6503e8ff9")
+			(uuid "23796fee-170d-45af-8d52-9884ea8cd45b")
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1265a.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
-			(hide yes)
-			(uuid "3003e37c-1112-4606-9a72-190215e1ab26")
+			(uuid "c5071b30-6d39-440e-827c-c8b399d2cbd9")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns SRP1038A-100M; lead-frame; max case11.5x10.3x4.0mm; user-approved20261023"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "680aa175-92f4-4acb-950c-7c45d17e52d8")
+			(uuid "cccb5865-279d-4055-a57d-f485a1353029")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34026,112 +34028,163 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 0 0 180)
-			(unlocked yes)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "79e4f6b9-5d6b-43b7-b1cf-07760bf5d46b")
+			(uuid "eb485b86-3e70-4e43-837c-8c1d220276db")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property "MPN" "SRP1265A-100M"
-			(at 0 0 180)
-			(unlocked yes)
+		(property "MPN" "SRP1038A-100M"
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0651ab5-8c6e-435c-a432-8999e4e8c587")
+			(uuid "6866b029-776c-4f30-9e25-c12ce1c53017")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property "Package" "13.5x12.5x6.2 SMD"
-			(at 0 0 180)
-			(unlocked yes)
+		(property "Package" "Lead-frame SMD; case max11.5x10.3x4.0mm"
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "37229fe1-2ceb-4559-a80d-b29f4c3c7d87")
+			(uuid "f6f022a0-67a9-4bcc-83cc-720a99189f16")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 0 0 180)
-			(unlocked yes)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN; USER_APPROVED_20261023; NO_PURCHASE"
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3ee24d8f-cde8-4887-8c12-56d3f4b9ba5f")
+			(uuid "431ba158-f4e3-4ac1-8164-c5995ec74bc6")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "Bourns_SRP1265A")
+		(property "LCSC" "C780184"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51404599-8c60-48bb-bcb8-bfb328ba8c57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Inductance" "10uH +/-20% @100kHz/1V"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c1ecb5bd-1912-48de-abde-aa142c18b9c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DCR Max" "30mOhm @25C"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4aee7f09-c4c3-480c-b8d4-95351bbaf60a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Irms" "7.5A; rated40C rise; application thermal test required"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4cdf38d-1703-4739-bfd1-926b7c913046")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Isat" "12A @25C for20% L drop; not hot minimum guarantee"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df5dac1b-506a-4e48-bbcb-483323233b4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Verification Status" "DATASHEET_AND_LAYOUT_VERIFIED; POWER_REVIEW_OPEN; NO_BENCH_PASS"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3606130-1295-4ba7-8480-417b8c32f11e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2bad489b-1315-4ccb-9ea4-49daf7c43953/d9f0ba89-b6de-438d-8e71-291b90794cbc")
-		(sheetname "/01_POWER/")
-		(sheetfile "01_POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -7.6 6.75)
-			(end 7.6 -6.75)
+			(start -7.3 5.65)
+			(end 7.3 -5.65)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "0dd05203-2849-487b-8d21-48104e0651eb")
+			(uuid "447cc831-9414-4acd-bc78-bf4ec5792f03")
 		)
 		(fp_rect
-			(start -6.75 6.25)
-			(end 6.75 -6.25)
+			(start -5.75 5.15)
+			(end 5.75 -5.15)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "2a574c0a-0039-4d85-80c7-2a34f3ea4dbf")
+			(uuid "e2071874-0061-48ee-be09-cc71b9da4a9e")
 		)
 		(pad "1" smd rect
-			(at -5.55 0)
-			(size 3.1 5)
+			(at -4.75 0)
+			(size 4.1 3.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "MAIN_SW")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "aa67c8c2-c7eb-4174-ad77-3bb46c72c947")
+			(uuid "a30f0a45-cf6e-4c88-b2f1-8510a0c50735")
 		)
 		(pad "2" smd rect
-			(at 5.55 0)
-			(size 3.1 5)
+			(at 4.75 0)
+			(size 4.1 3.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "5V_MAIN")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "97e94bbd-18d6-448b-895c-4a977a2d34cd")
+			(uuid "d26392cf-8183-4cf0-9b24-4fc4293f5316")
 		)
 		(embedded_fonts no)
 	)

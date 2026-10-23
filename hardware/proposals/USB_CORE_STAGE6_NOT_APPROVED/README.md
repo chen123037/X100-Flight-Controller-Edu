@@ -1,5 +1,7 @@
 # USB-only Stage6 合并候选：未批准、未布线、不可下单
 
+2026-10-23状态更新：L101型号已正式批准并单独集成，见[接受记录](../../../docs/L101_FORMAL_ACCEPTANCE.md)；Y201及本USB架构仍未批准。以下“正式源未变/型号未批准”为候选生成当时的记录，不能覆盖当前POST_L101正式基线。
+
 在Stage5基础上组合已分别验证但未正式批准的[Y201晶体](../Y201_YXC_5032_NOT_APPROVED/README.md)与[L101电感](../L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)，并将C121/C127的2×82µF合并为C121=180µF。复用C108已选Panasonic16SVPF180M/CP_C6，不引入额外电容型号；C127移除。此处只是隔离候选，既有器件待裁决项保持，没有覆盖正式工程，也不重新申请J401同型号批准。
 
 实际保存的工程为241个电气器件+4孔。fresh原生ERC0错误/0警告、schematic parity0；逐焊盘网络/Value/封装/UUID路径同步检查一致。Stage5除移除C127外的既有引脚网络全部保持。原Stage5父工程59项CAD和正式工程55项CAD哈希未变。新候选的40个新增封装仍未完成放置，tracks/vias/zones=0/0/0；原生DRC报告1527条+453 unconnected，多个类别触及报告数量上限，绝不是DRC通过。

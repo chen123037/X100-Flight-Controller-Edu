@@ -1,8 +1,12 @@
 # X100 V1 当前状态
 
-最新隔离评估为[USB-only Stage6 合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)：保留Stage5的外I2C门控、独立PWR指示与SD硬件隔离，组合待批准的Y201/L101，并以既有型号180µF合并2×82µF，减少一颗器件和30.9701mm²封装占位。241电气器件、245封装fresh ERC0/0、native parity0；除移除C127外，Stage5全部引脚网络保持。40个新增封装仍未完成放置，联合试排未取得全器件可接受解；轨迹/过孔/铺铜仍0/0/0。启动/挂起、源切换及电源安全未通过。正式源55项CAD和Stage5父工程59项CAD未变，未批准器件/架构未推广，不能下单。
+2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
 
-新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。新型号尚未批准，正式仍用SRP1265A-100M；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
+以下阶段记录以本段为最新状态；旧“当前基线”仅对应记录当时。
+
+最新隔离评估为[USB-only Stage6 合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)：保留Stage5的外I2C门控、独立PWR指示与SD硬件隔离，组合待批准的Y201及现已批准的L101，并以既有型号180µF合并2×82µF，减少一颗器件和30.9701mm²封装占位。241电气器件、245封装fresh ERC0/0、native parity0；除移除C127外，Stage5全部引脚网络保持。40个新增封装仍未完成放置，联合试排未取得全器件可接受解；轨迹/过孔/铺铜仍0/0/0。启动/挂起、源切换及电源安全未通过。该Stage6检查时正式源55项CAD和Stage5父工程59项CAD未变；随后正式L101已独立集成，未批准器件/架构未推广，不能下单。
+
+新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。L101现已正式批准并集成；下文为当时的候选检查记录；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
 
 更新2026-10-23，分支`feature/pcb-fabrication-readiness`。用户已正式批准J401替换，并授权常规工程修复、PCB设计及制造文件生成；不含付款或实际下单。目标仍为完整可提交嘉立创打样的制造包，不在局部完成后宣告成功。
 
@@ -13,8 +17,8 @@
 | J601 | 原3条孔/板边阻塞已关闭，局部重排保持 |
 | J401 | Amphenol124019772112A / C5430474已正式接受；原4条孔铜阻塞关闭，官方板边基准已对齐 |
 | J401局部规则 | 仅SH/GND>=0.30mm，实际0.325mm；全局板边>=0.50mm保持 |
-| 原生DRC | 报告602 violations +411 unconnected；丝印相互类别触及199条报告上限，602不是完整总数；原理图一致性问题0 |
-| 完整courtyard几何 | 172对：最近MCU/局部去耦整体平移及测点重排再消除5对，无新配对；剩余仍未通过 |
+| 原生DRC | 报告599 violations +411 unconnected；丝印相互类别触及199条报告上限，599不是完整总数；原理图一致性问题0 |
+| 完整courtyard几何 | 170对：L101替换再消除2对，无新配对；剩余仍未通过 |
 | Tracks / vias / zones | 0 /0 /0，正式布线未开始 |
 | USB-only | MCU启动/枚举/刷写/地面站/参数必须；推荐BMI088/SPL06；SD非强制且不得干扰核心；电源ECO未完成 |
 | ROUTING_PRECONDITIONS_MET | NO：USB-only电源/预算/SD支路尚需闭合 |

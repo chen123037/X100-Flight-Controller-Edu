@@ -22,7 +22,7 @@
 | J808 / VBAT_RAW | 飞控电源焊线正输入，pin2为GND | 3S–6S ONLY，既有输入包络9.0～25.2V；2S不支持 |
 | F101 / VBAT_FUSED | 3A/125V输入熔断保险丝 | 不意味着可给ESC传输推进电流 |
 | Q101 / VBAT_PROTECTED | P-MOS反接保护 | D101是栅源12V稳压钳位；D102才是26V双向输入TVS |
-| U101 TPS54360BDDAR + D103 STPS8H100G-TR / L101 SRP1265A-100M | 主5V降压电源（Buck Converter） | 功率回路、补偿、启动、短路与温升待实板验证 |
+| U101 TPS54360BDDAR + D103 STPS8H100G-TR / L101 SRP1038A-100M | 主5V降压电源（Buck Converter） | 功率回路、补偿、启动、短路与温升待实板验证 |
 | 5V_MAIN | 板内主5V | 工程稳态目标4.90～5.10V，不宣称动态/全温已验收 |
 | U102 AP63203WU-7 / L102 SRN6045-4R7Y | 后级3V3_MCU | 给主控与相关逻辑；R501分出3V3_SD |
 | U103 TPS7A2033PDBVR | 传感3V3低压差稳压器（LDO） | 输入为滤波后的5V_MAIN；3V3_SENSOR给BMI088/SPL06-001 |
@@ -93,3 +93,6 @@ USB VBUS输入保护、USB→core限流、USB/VBAT ORing或等价管理、revers
 | Host-off边界 | 主机关闭 / VBUS low / 故障组合 | 无向PC反灌；限流、反向阻断、时序及brownout行为符合批准合同 |
 
 当前目标未实现、未测。2026-10-22正在按授权清障，隔离候选及电流/SD/固件问题见[工程审查](USB_CORE_POWER_REVIEW.md)；具体架构与新器件仍须另行裁决。完整门槛见[STAGE USB-PWR](ROADMAP.md)。
+
+
+2026-10-23 L101已按人工批准正式采用SRP1038A-100M/C780184，见[实际负载与接受记录](L101_FORMAL_ACCEPTANCE.md)。保守连续筛选1.883A、容量2.448A；不是USB电流或全电源安全PASS。
