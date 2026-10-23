@@ -1,5 +1,7 @@
 # X100 V1 当前状态
 
+主电源另有[可打开的局部布线检查点](hardware/proposals/MAIN_POWER_PARTIAL_ROUTING_NOT_APPROVED/README.md)：22轨迹/14贯通过孔/1填充In1 GND面，原生确认SW/BOOT与关键GND回流真实连通。完整245实体保留，但174个仍在板外待排；局部DRC149条、未连接报告499封顶，不是完整PCB。未正式推广USB/Y201，正式源仍为POST_L101。
+
 2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
 
 以下阶段记录以本段为最新状态；旧“当前基线”仅对应记录当时。
