@@ -1,48 +1,47 @@
-# X100 USB 核心供电统一候选：完整放置与 Ø7 安装预留
+# X100统一候选：完整布局与主电源实际布线
 
-当前只在这一个候选继续工作，未覆盖正式 `hardware/X100_V1`，不可投板。打开 [KiCad 工程](project/X100_CleanSheet.kicad_pro) / [PCB](project/X100_CleanSheet.kicad_pcb)。全部 CAD 修改由唯一指定的 `plant_kicad_v1` 完成。
+打开 [KiCad工程](project/X100_CleanSheet.kicad_pro) / [PCB](project/X100_CleanSheet.kicad_pcb)。唯一工作候选，**不可投板**；未覆盖正式hardware/X100_V1。全部CAD修改由唯一指定的plant_kicad_v1执行。
 
-2026-10-23：236 电气器件 /240 PCB 实体全部落板，含四个孔和65个测试点。35个新增器件集合保持；原 TAITIEN XJHCELNANF-8M /120R HSE、已批准 J401/L101、45×45mm 板框与 Ø4mm /30.5mm 安装孔不变。本地正式57项CAD哈希保持。
+截至2026-10-23，保存后的原生板已有 **172段铜线 /17个0.6/0.3mm标准过孔 /1个已填充In1 GND区**。236电气器件 /240实体（含65测试点、4孔）全部落板。35个新增器件仍属候选；BOM不是采购批准。
 
-| 要求 | 保存后原生工程结论 |
+| 要求 | 当前结论 |
 | --- | --- |
-| USB_CORE_ARCHITECTURE_MINIMAL_SET | DEFINED；统一候选，未正式采用 |
-| ALL_FOOTPRINTS_WITHIN_45MM | YES；安装焊盘全部受板支承；标准插卡/插头外伸已另审 |
-| REAL_BODY_CONFLICTS | 0；含测试点、跨面通孔和四个实际孔 |
-| CONNECTOR_ACCESS | PASS；裸板连接器、轴向路径、标准USB插头/插卡及尼龙垫圈 CAD 几何范围 |
-| CRITICAL_ROUTING_SPACE | PENDING；主电源、核心5V/3V3及USB前层路径已预检查，其余关键引出尚未闭合 |
-| FULL_PLACEMENT_READY_FOR_ROUTING | NOT_YET_ACCEPTED |
-| ERC / native schematic parity | 0 /0，逐焊盘网络匹配，器件UUID/path/封装身份保持 |
-| 铜间距不足 /孔铜 /板边 /阻焊桥报告 | 0；精确 J401 SH/GND 0.30mm 例外及其余规则保持 |
-| tracks / vias / zones | 0 /0 /0；路径预检查不是实际铜线 |
-| PCB_MANUFACTURING_PACKAGE | NOT_READY |
+| USB_CORE_ARCHITECTURE_MINIMAL_SET | DEFINED；未正式采用 |
+| ALL_FOOTPRINTS_WITHIN_45MM | YES |
+| REAL_BODY_CONFLICTS | 0 |
+| CONNECTOR_ACCESS | PASS；裸板标准插头/插卡、轴向路径、Ø7接触包络CAD范围 |
+| CRITICAL_ROUTING_SPACE | REVIEWED；布局出口与关键预留通道 |
+| FULL_PLACEMENT_READY_FOR_ROUTING | YES；已进入实际布线 |
+| Current ERC /native parity | 0 /0 |
+| DRC_FINAL /PCB_MANUFACTURING_PACKAGE | NOT_PASS /NOT_READY |
 
-## 本轮安装预留已落地
+## 已实际写入的主Buck局部电路
 
-按人工指定的 M3 尼龙螺钉＋尼龙平垫圈，四孔正反面均按最大 Ø7.0mm 接触外径检查。旧布局侵入 H1/H2/H3/H4 分别为9/8/8/14处，共39处；当前 **39→0**。所有器件 Fab/焊盘和裸测试点距该包络至少 **0.10mm 名义余量**。没有移动孔、扩大板框或缩小元件封装。各处旧位置、侵入量、现位置及余量见 [39处修复表](evidence/MOUNTING7_RESOLUTION.csv)。
+SW、BOOT、C101/C102/C106本地输入去耦、L101至C108输出、COMP/RC、RT、FB、EN及相关地连接均已写入原生铜线。[原生连接复核](evidence/ACTUAL_ROUTING_REVIEW.json) 按实际焊盘、铜线、过孔及含孔洞的填充地多边形确认这些指定节点连通，未声称整网或整板完成。
 
-重排包括：顶部 CAN/GPS/PWM 接口与 CAN/HSE 区、ADC隔离开关及配套RC、底部输入/TVS/SD/USB和电源辅助器件。USB座与卡座共同左移，面别/插入方向保持正确。为主 Buck 的实际 SW 引出，将 HSE 负载电容C214放到正面并调整旁边NRST电容与bootstrap局部位置；电路与型号不变。
+In1地铜已填充，主连续多边形约1769.66mm²，另有两处小多边形，最终回流/孤岛审查待完成。U101 EP/7脚、D103阳极、输入/输出电容及COMP/RT/FB/EN的指定地节点已确认同网连通。无VIP/HDI、无In1信号线、无全局规则放宽。
 
-除去不装元件的探测焊盘/孔，所有同面 Fab 壳体最小间距为 **0.20mm**，实体/跨面通孔冲突均0。这里是保存后名义几何，未把它升级为统计装配公差、样品焊接或整机振动/保持力测试通过。用户未冻结的螺钉长度/柱高和具体机架不在本次结论范围；绝缘支撑板＋减振泡棉、防脱措施的安装方向保留。
+5V主输出干线1.5mm；0.25mm外层支线仅给R105分压器取样，不承载外部负载。使能控制颈线0.15mm，保持0.20mm铜间距。尺寸和连通性不等于电流/热/短路/稳定性验证PASS。
 
-## 连接器空间
+实际布线中，R104旋转180°；C102/C121/L101各右移0.35mm，打开U101使能脚出口，保留C101/C106本地去耦；TP304移出控制过孔出口。型号、引脚网络、45×45mm板框、Ø4孔/30.5mm孔距保持。保存后实体/跨面通孔/孔/铜距/板边问题0，同面元件Fab壳体最小间距≥0.20mm；正式57项CAD哈希未变。
 
-轴向路径阻塞0；标准USB插头外模包络按 **12.85×7.0mm** 核对，插入的microSD与其平面间距为 **0.57mm**。采用 [USB-IF官方R2.4源包](https://usb.org/sites/default/files/usb_type-c_2.4_release_202410.zip) 中 Figure3-12、p66，已查看原图；没有把旧12.35×6.5mm范围当作当前最大值。来源PDF哈希及范围见 [连接器几何检查](evidence/CONNECTOR_REVIEW.json)。这是CAD装配范围，非USB认证或实物线缆测试。
+## 布局审查范围
 
-## 实际尚未完成
+MCU↔IMU焊盘通道0.225→1.225mm。关键网络65条连接覆盖原生引脚：布线前56条有同时避让的计划路径，9条在保留功率/USB通道时独立确认出口。**这是进入布线的依据，不证明65条信号已同时布通。**详细路径冲突留在布线中重布；当前铜线以原生PCB和本页计数为准。[审查及局部调整](evidence/CRITICAL_ROUTE_SPACE_PARTIAL.json)。
 
-Fresh native DRC 报告 **618项**、未连接499项达到报告上限；courtyard类别199条达到类别上限，完整几何计数为 **285对**。当前剩余为courtyard/丝印/文字。courtyard重叠不是器件本体相交；壳体≥0.20mm、异网焊盘≥0.20mm、安装接触区清空已分别检查，但庭院装配余量及制造前最终处置仍需完成。没有缩courtyard、降全局规则或批量排除报告。
+四孔双面Ø7mm尼龙垫圈接触区39处侵入已清零，名义余量≥0.10mm。USB插头按USB-IF R2.4 Figure3-12的12.85×7mm包络检查，与插入卡片平面间距0.57mm。[连接器检查](evidence/CONNECTOR_REVIEW.json)限CAD范围，不含实物插拔/振动/机架放行。
 
-主电源SW/BOOT/VIN/5V输出与COMP网络已有逐段宽度、两颗标准贯通孔的 [几何可行路径](evidence/POWER_PATH_PROBE.json)，与当前原生板哈希绑定。新增 [核心5V/3V3空间检查](evidence/CORE_POWER_PATH_PROBE.json) 包含2mm内层核心桥接、标准0.6/0.3mm过孔组、3V3输出及bootstrap路径，焊盘/预留线冲突0；3V3开关路径的电流与回流优化仍属于实际布线审查，未宣称电源安全通过。
+旧USB/核心/主电源路径预检查各有原始源板哈希，属于历史布线前材料。主输入旁路已重布，当前对应[实际局部路径](evidence/MAIN_LOCAL_ROUTES.json)和[地连接](evidence/MAIN_GROUND_ROUTES.json)。USB 15.7mm双排合并支路仍需FS负载审查，尚无USB合规PASS。
 
-本轮23处局部位置/面别调整已写入同一原生工程。[USB前层路径检查](evidence/USB_FCU_PATH_PROBE.json) 的10条折线路径均避开异网焊盘、与DM/DP彼此保持规则间距，MCU区域通过LQFP本体内侧，主线中心路径29.32mm。Type-C双排合并的DM外绕支路15.70mm，需按USB-FS支路负载审查；没有把它当成480Mbps高速布线或USB合规PASS。上述全部仍是路径预检查，实际铜线0；HSE/IMU/SDMMC/CAN/ADC的同时走线和整体前置条件尚待闭合。
+## 未完成项
 
-随后已通过同一执行器保存 [7处IMU局部通道调整](evidence/IMU_CHANNEL_CHANGE.json)：U301向板内下移1mm，连带调整C301、R102和4个裸测试点。MCU底排焊盘至BMI088顶排焊盘的空隙从 **0.225mm增至1.225mm**；原空隙不足以容纳0.15mm横向线及两侧各0.20mm净空。器件型号/电气网络、板框和孔保持。保存后fresh ERC0、native parity0、实体/跨面通孔/铜间距/孔铜/板边冲突0；全部同面元件Fab壳体仍≥0.20mm，测试点移出SWD连接器壳体。
+- VBAT入口、保险丝/保护MOS、输入储能/TVS地连接、5V分配；随后3V3、HSE、USB、IMU、SDMMC、CAN与其余接口的实际布线。
+- 最坏负载/纹波/限流/热态裕量及回流/稳定性审查。USB-only普通A→C/C→C、枚举前电流、最小软件分阶段启动继续保留；理论预算不写成实测，启动/挂起/切换/热故障实测留bring-up。
+- Fresh DRC有618条庭院/丝印/文字报告、464项未连接；庭院完整几何计数286对，不是本体碰撞，也不是DRC PASS。未缩庭院、批量排除或降全局规则。
+- 最终机械/阻焊/丝印/DFM、JLC3313实际下单参数、BOM/CPL、Gerber/钻孔及投板审查包。
 
-[关键路径部分检查](evidence/CRITICAL_ROUTE_SPACE_PARTIAL.json) 当前找到 55 条连接路径，仍有 10 条连接未闭合。五条MCU↔BMI088主线及两个MISO焊盘之间的连接已有同时避让的几何路径；支路及SDMMC/CAN等未闭合项逐条保留。它是只读计划，所有过孔/轨迹均未写入；未把搜索失败认定为45mm不可能，亦未将局部通过升级为整板可布线或SI通过。
+**未采购、付款、下单、合并main或正式采用新增USB电源器件。**投板仍须最终人工验收。
 
-USB-only继续要求普通A→C和C→C、枚举前电流限制及最小软件分阶段启动；启动/挂起/切换、电流/热/故障、最终DFM仍未PASS。BOM是设计审查清单，不是采购批准。本候选未正式集成、不采购、不付款、不实际下单。
+证据：[当前原生放置](evidence/PLACEMENT_REVIEW.json)、[ERC](evidence/ERC.json)、[DRC](evidence/DRC.json)、[网表](evidence/NET.xml)、[实际铜线与地连通](evidence/ACTUAL_ROUTING_REVIEW.json)、[BOM](BOM_CANDIDATE.csv)、[60项CAD哈希](evidence/CAD_SHA256.json)。
 
-证据：[原生放置/身份检查](evidence/PLACEMENT_REVIEW.json)、[ERC](evidence/ERC.json)、[DRC](evidence/DRC.json)、[原生网表](evidence/NET.xml)、[完整候选BOM](BOM_CANDIDATE.csv)、[CAD哈希](evidence/CAD_SHA256.json)。
-
-![保存后原生正反面位置；红圈为Ø7接触区](evidence/PLACEMENT.png)
+![保存后铜线：红F.Cu、蓝B.Cu、绿In2、金色过孔](evidence/PLACEMENT.png)

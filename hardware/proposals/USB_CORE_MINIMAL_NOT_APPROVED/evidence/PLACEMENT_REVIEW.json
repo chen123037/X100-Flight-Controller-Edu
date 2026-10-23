@@ -1,7 +1,7 @@
 {
   "scope": "SAVED_NATIVE_FULL_CANDIDATE_PLACEMENT_CHECKPOINT_NOT_MANUFACTURING_RELEASE",
   "project": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE",
-  "board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
+  "board_sha256": "da6f085745abb489dc867e22de0de03492f7be1752282d724db0b0cd74c4a6c3",
   "electrical_count": 236,
   "PCB_entities": 240,
   "testpoints": 65,
@@ -24,9 +24,9 @@
     "silk_over_copper": 199,
     "silk_overlap": 199
   },
-  "DRC_unconnected": 499,
+  "DRC_unconnected": 464,
   "schematic_parity": 0,
-  "courtyard_pairs_actual": 285,
+  "courtyard_pairs_actual": 286,
   "courtyard_classification": [
     {
       "refs": [
@@ -60,8 +60,8 @@
         "C101",
         "C121"
       ],
-      "combined_gap_mm": 0.2,
-      "case_gap_mm": 0.65,
+      "combined_gap_mm": 0.55,
+      "case_gap_mm": 1.0,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -87,8 +87,8 @@
         "C102",
         "U101"
       ],
-      "combined_gap_mm": 0.225,
-      "case_gap_mm": 2.2,
+      "combined_gap_mm": 0.575,
+      "case_gap_mm": 2.55,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -196,7 +196,7 @@
         "C121"
       ],
       "combined_gap_mm": 0.375,
-      "case_gap_mm": 0.45,
+      "case_gap_mm": 0.49244,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -526,6 +526,15 @@
     {
       "refs": [
         "C121",
+        "C133"
+      ],
+      "combined_gap_mm": 0.7,
+      "case_gap_mm": 1.15,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
+        "C121",
         "D103"
       ],
       "combined_gap_mm": 0.65,
@@ -546,8 +555,17 @@
         "C121",
         "R501"
       ],
-      "combined_gap_mm": 0.31199,
-      "case_gap_mm": 0.70045,
+      "combined_gap_mm": 0.01832,
+      "case_gap_mm": 0.35089,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
+        "C121",
+        "R509"
+      ],
+      "combined_gap_mm": 0.725,
+      "case_gap_mm": 1.15,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -555,8 +573,8 @@
         "C122",
         "L101"
       ],
-      "combined_gap_mm": 0.525,
-      "case_gap_mm": 0.625,
+      "combined_gap_mm": 0.175,
+      "case_gap_mm": 0.275,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -1534,15 +1552,6 @@
     {
       "refs": [
         "J807",
-        "TP304"
-      ],
-      "combined_gap_mm": 0.205,
-      "case_gap_mm": 0.205,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "J807",
         "TP306"
       ],
       "combined_gap_mm": 0.705,
@@ -1581,8 +1590,8 @@
         "L101",
         "TP104"
       ],
-      "combined_gap_mm": 0.5,
-      "case_gap_mm": 0.5,
+      "combined_gap_mm": 0.15,
+      "case_gap_mm": 0.15,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -1929,6 +1938,15 @@
     },
     {
       "refs": [
+        "R302",
+        "TP304"
+      ],
+      "combined_gap_mm": 0.60073,
+      "case_gap_mm": 0.83554,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
         "R304",
         "TP308"
       ],
@@ -2087,6 +2105,15 @@
       ],
       "combined_gap_mm": 0.65,
       "case_gap_mm": 1.075,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
+        "R511",
+        "TP304"
+      ],
+      "combined_gap_mm": 0.89264,
+      "case_gap_mm": 1.19635,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2361,6 +2388,15 @@
     },
     {
       "refs": [
+        "TP107",
+        "TP304"
+      ],
+      "combined_gap_mm": 0.45,
+      "case_gap_mm": 0.45,
+      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
+    },
+    {
+      "refs": [
         "TP203",
         "TP701"
       ],
@@ -2425,15 +2461,6 @@
     {
       "refs": [
         "TP303",
-        "TP304"
-      ],
-      "combined_gap_mm": 0.462,
-      "case_gap_mm": 0.462,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "TP303",
         "TP306"
       ],
       "combined_gap_mm": 0.4,
@@ -2447,24 +2474,6 @@
       ],
       "combined_gap_mm": 0.55,
       "case_gap_mm": 0.55,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "TP304",
-        "TP306"
-      ],
-      "combined_gap_mm": 0.25,
-      "case_gap_mm": 0.25,
-      "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
-    },
-    {
-      "refs": [
-        "TP304",
-        "U301"
-      ],
-      "combined_gap_mm": 0.98489,
-      "case_gap_mm": 0.98489,
       "classification": "COURTYARD_MARGIN_OVERLAP_NOT_BODY_COLLISION"
     },
     {
@@ -2616,6 +2625,16 @@
       0.05
     ],
     [
+      "C121",
+      "R501",
+      0.01832
+    ],
+    [
+      "C122",
+      "L101",
+      0.175
+    ],
+    [
       "C122",
       "U107",
       0.08767
@@ -2649,6 +2668,11 @@
       "J806",
       "J809",
       0.115
+    ],
+    [
+      "L101",
+      "TP104",
+      0.15
     ],
     [
       "Q101",
@@ -2689,21 +2713,21 @@
     "z": [],
     "blocked": [],
     "front": [
+      "R110",
       "C114",
-      "C113",
       "D202",
-      "R110"
+      "C113"
     ]
   },
-  "tracks": 0,
-  "vias": 0,
-  "zones": 0,
+  "tracks": 172,
+  "vias": 17,
+  "zones": 1,
   "USB_CORE_ARCHITECTURE_MINIMAL_SET": "DEFINED",
   "ALL_FOOTPRINTS_WITHIN_45MM": "YES",
   "REAL_BODY_CONFLICTS": 0,
   "CONNECTOR_ACCESS": "PASS",
-  "CRITICAL_ROUTING_SPACE": "PENDING",
-  "FULL_PLACEMENT_READY_FOR_ROUTING": "NOT_YET_ACCEPTED",
+  "CRITICAL_ROUTING_SPACE": "REVIEWED",
+  "FULL_PLACEMENT_READY_FOR_ROUTING": "YES",
   "PCB_MANUFACTURING_PACKAGE": "NOT_READY",
   "frozen_board_outline_unchanged": true,
   "frozen_mounting_holes_unchanged": true,
@@ -2847,5 +2871,7 @@
   "min_case_to_case_gap_mm": 0.2,
   "case_to_case_gap_below_0p2mm": [],
   "CONNECTOR_ACCESS_SCOPE": "BARE_PCB_FROZEN_CONNECTOR_BODIES_AXIAL_ACCESS_STANDARD_USB_C_OVERMOULD_INSERTED_MICROSD_AND_NYLON_CONTACT_GEOMETRY",
-  "MAIN_POWER_PATH_SPACE": "GEOMETRY_CLEAR"
+  "layout_signature": "be92d661f1f4d53bc8c8fadce62cc3aa078b7a5525bdde31513058aa5c6b60b5",
+  "CRITICAL_ROUTING_SPACE_SCOPE": "Native placement/connector/critical-pad exits and named main/core/USB reservations; signal-path conflicts remain actual routing work. This is not simultaneous-routing completion, SI, power safety, final DRC or manufacturing release.",
+  "placement_accepted_at_board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70"
 }

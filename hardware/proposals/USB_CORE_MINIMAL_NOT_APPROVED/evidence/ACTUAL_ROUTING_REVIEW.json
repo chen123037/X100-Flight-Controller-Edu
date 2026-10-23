@@ -1,0 +1,305 @@
+{
+  "scope": "SAVED_NATIVE_MAIN_POWER_ROUTING_CHECKPOINT_NOT_COMPLETE_POWER_OR_BOARD",
+  "board_sha256": "da6f085745abb489dc867e22de0de03492f7be1752282d724db0b0cd74c4a6c3",
+  "layout_signature": "be92d661f1f4d53bc8c8fadce62cc3aa078b7a5525bdde31513058aa5c6b60b5",
+  "placement_acceptance_preserved": true,
+  "formal_57_hashes_unchanged": true,
+  "actual_tracks": 172,
+  "actual_vias": 17,
+  "actual_zones": 1,
+  "actual_track_layers": {
+    "F.Cu": 106,
+    "B.Cu": 63,
+    "In2.Cu": 3
+  },
+  "via_geometry": [
+    {
+      "net": "GND",
+      "position": [
+        88.25,
+        104.55
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        120.25,
+        109.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        111.875,
+        102.125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        119.0,
+        109.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.0,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        99.65,
+        103.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.875,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        101.725,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.875,
+        106.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        105.25,
+        112.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        86.375,
+        109.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        96.75,
+        106.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        103.375,
+        105.125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        111.75,
+        104.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_COMP",
+      "position": [
+        87.5,
+        103.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_COMP",
+      "position": [
+        93.75,
+        106.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_RT",
+      "position": [
+        95.5,
+        106.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    }
+  ],
+  "planned_main_segments_found": true,
+  "main_connectivity": [
+    {
+      "net": "MAIN_SW",
+      "pins": [
+        "U101.8",
+        "D103.K",
+        "L101.1",
+        "C107.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_BOOT",
+      "pins": [
+        "U101.1",
+        "C107.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "pins": [
+        "U101.2",
+        "C101.1",
+        "C102.1",
+        "C106.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "5V_MAIN",
+      "pins": [
+        "L101.2",
+        "C108.1",
+        "R105.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_COMP",
+      "pins": [
+        "U101.6",
+        "C110.1",
+        "R107.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_COMP_RC",
+      "pins": [
+        "R107.2",
+        "C109.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_RT",
+      "pins": [
+        "U101.4",
+        "R104.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_FB",
+      "pins": [
+        "U101.5",
+        "R106.1",
+        "R105.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_EN",
+      "pins": [
+        "U101.3",
+        "R102.2",
+        "R103.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U101.7",
+        "U101.9",
+        "D103.A",
+        "C101.2",
+        "C102.2",
+        "C106.2",
+        "C108.2",
+        "C109.2",
+        "C110.2",
+        "R104.2",
+        "R106.2",
+        "R103.2"
+      ],
+      "connected": true
+    }
+  ],
+  "ground_filled_polygon_areas_mm2": [
+    1769.663592,
+    0.732328,
+    0.732328
+  ],
+  "remaining": "VBAT input protection/source and external bulk/TVS ground ties, main downstream distribution, full current/thermal/fault and loop-quality review are unfinished. Signal routing remains. No power safety/final DRC/manufacturing PASS.",
+  "project_settings_semantically_unchanged": true,
+  "custom_rules_byte_identical": true,
+  "DRC_types": {
+    "courtyards_overlap": 199,
+    "silk_edge_clearance": 19,
+    "text_height": 2,
+    "silk_over_copper": 199,
+    "silk_overlap": 199
+  },
+  "DRC_unconnected": 464,
+  "schematic_parity": 0
+}
