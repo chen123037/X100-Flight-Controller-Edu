@@ -7461,6 +7461,24 @@
         "reason": "Core-supply routing: AP/bootstrap poses refined; R108/R510 exchange face/position for the filtered5V branch. Native physical/pad/net/identity/washer/edge checks clear. The17 native clearance findings are repaired; current electrical DRC categories clear. Future USB corridor minimum0.5128mm. No manufacturing or power-safety release.",
         "board_sha256": "1fcf0202f985c8b54f99afcac072193638459637c96b24595036d33742f6f058"
       }
-    ]
+    ],
+    "last_local_routing_adjustment": {
+      "reason": "3V3 first routing pass, native tracks/vias and local VCAP1 escape checked. Existing PCB/project numeric rules unchanged. Partial supply islands and local access issues remain explicit.",
+      "reviewed_against_saved_board_sha256": "bd7fc158b4e27b13f55adadbf29b51a5d488c32f06140f50b5cc65544cd8949e",
+      "native_USB_reservation_review": {
+        "board_sha256": "bd7fc158b4e27b13f55adadbf29b51a5d488c32f06140f50b5cc65544cd8949e",
+        "minimum_foreign_native_copper_clearance_mm": 0.26130000000000564,
+        "minimum_outside_VCAP1_breakout_mm": 0.5128265936525898,
+        "VCAP1_window_mm": [
+          105.8,
+          100.8,
+          107.2,
+          104.0
+        ],
+        "native_rule_minimum_mm": 0.2,
+        "scope": "Future USB reservation vs saved native tracks/vias only; local VCAP1 fanout uses existing native .20mm clearance. Width/gap/SI/whole-USB review remains pending."
+      },
+      "source_placement_signature_preserved": true
+    }
   }
 }
