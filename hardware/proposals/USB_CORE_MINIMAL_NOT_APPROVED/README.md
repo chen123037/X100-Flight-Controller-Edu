@@ -10,7 +10,7 @@
 | ALL_FOOTPRINTS_WITHIN_45MM | YES；安装焊盘全部受板支承；标准插卡/插头外伸已另审 |
 | REAL_BODY_CONFLICTS | 0；含测试点、跨面通孔和四个实际孔 |
 | CONNECTOR_ACCESS | PASS；裸板连接器、轴向路径、标准USB插头/插卡及尼龙垫圈 CAD 几何范围 |
-| CRITICAL_ROUTING_SPACE | PENDING；主电源路径预检查通过，其余关键引出尚未闭合 |
+| CRITICAL_ROUTING_SPACE | PENDING；主电源、核心5V/3V3及USB前层路径已预检查，其余关键引出尚未闭合 |
 | FULL_PLACEMENT_READY_FOR_ROUTING | NOT_YET_ACCEPTED |
 | ERC / native schematic parity | 0 /0，逐焊盘网络匹配，器件UUID/path/封装身份保持 |
 | 铜间距不足 /孔铜 /板边 /阻焊桥报告 | 0；精确 J401 SH/GND 0.30mm 例外及其余规则保持 |
@@ -31,9 +31,15 @@
 
 ## 实际尚未完成
 
-Fresh native DRC 报告 **619项**、未连接499项达到报告上限；courtyard类别199条达到类别上限，完整几何计数为 **286对**。当前剩余为courtyard/丝印/文字。courtyard重叠不是器件本体相交；壳体≥0.20mm、异网焊盘≥0.20mm、安装接触区清空已分别检查，但庭院装配余量及制造前最终处置仍需完成。没有缩courtyard、降全局规则或批量排除报告。
+Fresh native DRC 报告 **618项**、未连接499项达到报告上限；courtyard类别199条达到类别上限，完整几何计数为 **285对**。当前剩余为courtyard/丝印/文字。courtyard重叠不是器件本体相交；壳体≥0.20mm、异网焊盘≥0.20mm、安装接触区清空已分别检查，但庭院装配余量及制造前最终处置仍需完成。没有缩courtyard、降全局规则或批量排除报告。
 
-主电源SW/BOOT/VIN/5V输出与COMP网络已有逐段宽度、两颗标准贯通孔的 [几何可行路径](evidence/POWER_PATH_PROBE.json)，与当前原生板哈希绑定；这些未写入铜线，也不是电流/热/回流安全通过。3V3/core桥接、HSE、USB、IMU、SDMMC、CAN、ADC等完整关键引出仍待核对，随后才接受整板布局并执行正式布线。
+主电源SW/BOOT/VIN/5V输出与COMP网络已有逐段宽度、两颗标准贯通孔的 [几何可行路径](evidence/POWER_PATH_PROBE.json)，与当前原生板哈希绑定。新增 [核心5V/3V3空间检查](evidence/CORE_POWER_PATH_PROBE.json) 包含2mm内层核心桥接、标准0.6/0.3mm过孔组、3V3输出及bootstrap路径，焊盘/预留线冲突0；3V3开关路径的电流与回流优化仍属于实际布线审查，未宣称电源安全通过。
+
+本轮23处局部位置/面别调整已写入同一原生工程。[USB前层路径检查](evidence/USB_FCU_PATH_PROBE.json) 的10条折线路径均避开异网焊盘、与DM/DP彼此保持规则间距，MCU区域通过LQFP本体内侧，主线中心路径29.32mm。Type-C双排合并的DM外绕支路15.70mm，需按USB-FS支路负载审查；没有把它当成480Mbps高速布线或USB合规PASS。上述全部仍是路径预检查，实际铜线0；HSE/IMU/SDMMC/CAN/ADC的同时走线和整体前置条件尚待闭合。
+
+随后已通过同一执行器保存 [7处IMU局部通道调整](evidence/IMU_CHANNEL_CHANGE.json)：U301向板内下移1mm，连带调整C301、R102和4个裸测试点。MCU底排焊盘至BMI088顶排焊盘的空隙从 **0.225mm增至1.225mm**；原空隙不足以容纳0.15mm横向线及两侧各0.20mm净空。器件型号/电气网络、板框和孔保持。保存后fresh ERC0、native parity0、实体/跨面通孔/铜间距/孔铜/板边冲突0；全部同面元件Fab壳体仍≥0.20mm，测试点移出SWD连接器壳体。
+
+[关键路径部分检查](evidence/CRITICAL_ROUTE_SPACE_PARTIAL.json) 当前找到 55 条连接路径，仍有 10 条连接未闭合。五条MCU↔BMI088主线及两个MISO焊盘之间的连接已有同时避让的几何路径；支路及SDMMC/CAN等未闭合项逐条保留。它是只读计划，所有过孔/轨迹均未写入；未把搜索失败认定为45mm不可能，亦未将局部通过升级为整板可布线或SI通过。
 
 USB-only继续要求普通A→C和C→C、枚举前电流限制及最小软件分阶段启动；启动/挂起/切换、电流/热/故障、最终DFM仍未PASS。BOM是设计审查清单，不是采购批准。本候选未正式集成、不采购、不付款、不实际下单。
 

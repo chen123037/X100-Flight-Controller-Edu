@@ -1,0 +1,48 @@
+{
+  "moves": {
+    "U301": {
+      "x": 99.7,
+      "y": 103.6,
+      "rotation": 270,
+      "layer": "F.Cu"
+    },
+    "C301": {
+      "x": 100.25,
+      "y": 105.95,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP306": {
+      "x": 97.6,
+      "y": 105.8,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP304": {
+      "x": 96.75,
+      "y": 106.3,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP301": {
+      "x": 98.6,
+      "y": 106.3,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP107": {
+      "x": 110,
+      "y": 108,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R102": {
+      "x": 102.8,
+      "y": 106.9,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    }
+  },
+  "conflicts": [],
+  "engineering_reason": "MCU bottom-pad to IMU top-pad separation 0.225mm -> 1.225mm; previous gap cannot accommodate even one horizontal 0.15mm signal with 0.20mm clearance each side. Shift IMU and only interfering local decoupler/probes; frozen nets/parts unchanged."
+}

@@ -4,7 +4,7 @@
 
 保存后实体/跨面通孔/实际孔冲突0，所有同面Fab壳体间距≥0.20mm，fresh ERC0 /native parity0、铜间距/孔铜/板边/阻焊桥0。`CONNECTOR_ACCESS=PASS`限裸板标准插头/插卡及安装接触包络CAD几何；USB按R2.4的12.85×7.0mm检查，卡/插头平面间距0.57mm。正式201电气器件 /205实体原本已板内放置、实体冲突0，本轮正式57项CAD哈希未变；旧174板外实体只属于历史Stage6局部试验。
 
-**仍未接受整板布线前置条件**：主电源SW/BOOT/VIN/输出/COMP路径已通过几何预检查，但其余关键引出未闭合。当前候选0轨迹/0过孔/0铺铜，DRC619报告项、未连接499封顶，完整courtyard286对仍待处置；`CRITICAL_ROUTING_SPACE=PENDING`、`FULL_PLACEMENT_READY_FOR_ROUTING=NOT_YET_ACCEPTED`，电源安全/制造包未PASS。继续同一工程的关键路由空间核对与实际布线，不等待安装件型号，不覆盖正式工程。
+**仍未接受整板布线前置条件**：USB局部重排及7处IMU通道调整已保存，MCU↔IMU焊盘间空隙0.225→1.225mm；主电源、核心5V/3V3、USB前层路径已通过几何预检查，其余关键引出仍有10条连接未闭合。当前候选0轨迹/0过孔/0铺铜，DRC618报告项、未连接499封顶，完整courtyard285对仍待处置；`CRITICAL_ROUTING_SPACE=PENDING`、`FULL_PLACEMENT_READY_FOR_ROUTING=NOT_YET_ACCEPTED`，电源安全/制造包未PASS。继续同一工程的关键路由空间核对与实际布线，不等待安装件型号，不覆盖正式工程。
 
 以下为历史阶段记录；与以上冲突时以上为准。
 

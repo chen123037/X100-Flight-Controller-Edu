@@ -1,6 +1,6 @@
 {
   "scope": "GEOMETRIC_POWER_PATH_WITNESSES_NOT_APPLIED_NOT_COMPLETE_ROUTING",
-  "board_sha256": "58c7accf093af78921e62c044601853fd9a77921d4d04315412241bc51883759",
+  "board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
   "routes": [
     {
       "label": "SW IC escape",
