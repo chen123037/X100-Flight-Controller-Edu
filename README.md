@@ -11,7 +11,7 @@ X100 面向第一次参与飞控硬件设计的本科生、研究生及课程接
 
 当前人工接受的教学基线为 `X100_V1_PRE_ROUTING_TEACHING_BASELINE`，来源为 `PCB02C2_BLOCKER_CHECKPOINT`。原理图已完成受控ECO并冻结；201/201 个电气封装已放置，另有4个安装孔。四层PCB为 **45×45 mm**，安装孔距 **30.5×30.5 mm，Ø4 NPTH**，采用选择性双面装配。正式走线、过孔、铺铜均为 **0**。
 
-**现在不能直接下单。** ERC 为0错误/0警告；J601有3条、J401有4条真实布线前阻塞，共7条，整板DRC尚未通过。先完成USB-only核心供电ECO裁决与安全审查，并关闭两个局部制造问题，再经人工批准进入PCB03布线；布线后还需DFM、CAM、首电、台架和飞行验证。
+**现在不能直接下单。** J601原3条、J401原4条局部制造阻塞已关闭，J401已正式更换为Amphenol124019772112A（C5430474）。本轮23个测试点局部重排使完整courtyard重叠324→280对；fresh ERC0/0、原理图一致性问题0。native DRC报告634+411未连接，部分类别触及199条上限，634不是完整总数；正式布线尚未开始。下一步闭合USB-only电源并推进完整PCB与制造包。[当前状态](STATUS.md) / [测试点检查](docs/TESTPOINT_CLEARANCE_REVIEW.md) / [J401正式接受](docs/J401_FORMAL_ACCEPTANCE.md)。
 
 ## 新增V1要求：USB独立核心供电（USB-only Core Power）
 
@@ -19,9 +19,9 @@ X100 面向第一次参与飞控硬件设计的本科生、研究生及课程接
 
 人工新裁决：`USB_ONLY_CORE_POWER_SUPPORT=REQUIRED_FOR_V1`。未来必须仅插电脑USB、无VBAT即可完成MCU启动、USB设备枚举、DFU/bootloader/firmware flashing、ArduPilot刷写、地面站连接与参数配置、基础桌面调试及SWD/USB必要核心逻辑运行。**这些是需求，不是当前能力或已测试结果。**
 
-推荐支持BMI088/SPL06-001核心传感器，但3V3_SENSOR完整域、microSD/3V3_SD是否一起供电必须由后续ECO的电流预算和供电架构裁决，本轮不假定。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
+尽可能支持BMI088/SPL06-001桌面检测与校准。microSD不是USB-only强制负载，且不得妨碍MCU启动、USB和参数配置；具体支路须经电流及供电架构审查。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
 
-`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J601/J401共7条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[接手指南](HANDOFF.md)，详细边界见[电源架构](docs/POWER_ARCHITECTURE.md)。
+`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于已完成的J601/J401局部制造闭合。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[接手指南](HANDOFF.md)，详细边界见[电源架构](docs/POWER_ARCHITECTURE.md)。
 
 ## 硬件速览
 
@@ -32,7 +32,7 @@ X100 面向第一次参与飞控硬件设计的本科生、研究生及课程接
 | 气压感知（Barometer） | U302 | Goertek SPL06-001，数字气压传感器 |
 | 主5V电源（Buck Converter） | U101 | TPS54360B系列；正式订货型号TPS54360BDDAR |
 | 数据存储（microSD） | J501 | Molex 1040310811，SDMMC1四位接口；样品机械核验待完成 |
-| USB通信（USB FS） | J401 | GCT USB4105-GF-A；当前baseline仅数据/检测，USB-only供电待ECO |
+| USB通信（USB FS） | J401 | Amphenol 124019772112A / C5430474；当前baseline仅数据/检测，USB-only供电待ECO |
 | CAN通信（CAN Transceiver） | U601 / J601 | TI TCAN3414DR；JP601控制120Ω终端，默认OPEN |
 
 其它功能包括GPS/TELEM/RC串口、外部I2C、六路PWM信号、板内电池电压采样、外部电流模拟输入、SWD调试、两只绿色指示灯及65个PCB测试点。功能已设计和放置，不等于已经实板验证；具体边界见功能成熟度表。

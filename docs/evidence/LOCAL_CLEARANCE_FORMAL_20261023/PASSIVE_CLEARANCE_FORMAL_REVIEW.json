@@ -1,0 +1,290 @@
+{
+  "stage": "PASSIVE_CLEARANCE_FORMAL",
+  "executor": "plant_kicad_v1",
+  "scope": "12 passive XY/orientation positions only",
+  "changed_references": [
+    "C201",
+    "C202",
+    "C205",
+    "C303",
+    "C304",
+    "C402",
+    "C805",
+    "R301",
+    "R304",
+    "R404",
+    "R504",
+    "R505"
+  ],
+  "moves": {
+    "C805": {
+      "x": 91.375,
+      "y": 100.25,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R301": {
+      "x": 103.0,
+      "y": 102.75,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R504": {
+      "x": 100.625,
+      "y": 115.0,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "C201": {
+      "x": 105.0,
+      "y": 102.8,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "C202": {
+      "x": 110.375,
+      "y": 87.3,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C205": {
+      "x": 107.875,
+      "y": 100.425,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C303": {
+      "x": 118.25,
+      "y": 121.525,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C304": {
+      "x": 115.625,
+      "y": 118.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C402": {
+      "x": 111.375,
+      "y": 119.75,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "R304": {
+      "x": 118.625,
+      "y": 121.3,
+      "rotation": 180.0,
+      "layer": "B.Cu"
+    },
+    "R404": {
+      "x": 110.1,
+      "y": 115.75,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R505": {
+      "x": 94.125,
+      "y": 113.475,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    }
+  },
+  "source_or_pad_net_changes": 0,
+  "footprint_UUID_path_value_geometry_changes": 0,
+  "non_target_placement_changes": 0,
+  "schematic_rules_stackup_library_changes": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "courtyard_pairs_before": 201,
+  "courtyard_pairs_after": 185,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C201",
+      "U201"
+    ],
+    [
+      "C202",
+      "U201"
+    ],
+    [
+      "C205",
+      "U201"
+    ],
+    [
+      "C209",
+      "C805"
+    ],
+    [
+      "C303",
+      "U302"
+    ],
+    [
+      "C304",
+      "U302"
+    ],
+    [
+      "C402",
+      "U402"
+    ],
+    [
+      "C502",
+      "R504"
+    ],
+    [
+      "C805",
+      "U201"
+    ],
+    [
+      "C805",
+      "U801"
+    ],
+    [
+      "R301",
+      "U201"
+    ],
+    [
+      "R301",
+      "U301"
+    ],
+    [
+      "R304",
+      "TP307"
+    ],
+    [
+      "R404",
+      "U402"
+    ],
+    [
+      "R501",
+      "R505"
+    ],
+    [
+      "R503",
+      "R504"
+    ]
+  ],
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "placement_metrics": {
+    "C205": {
+      "move_mm": 1.1858541225631423,
+      "dedicated_supply_pin": {
+        "anchor": "U201.50",
+        "before_mm": 0.17500000000001137,
+        "after_mm": 0.5500000000000115,
+        "growth_mm": 0.3750000000000001
+      }
+    },
+    "R505": {
+      "move_mm": 0.39528470752104744,
+      "dedicated_supply_pin": null
+    },
+    "C201": {
+      "move_mm": 0.25,
+      "dedicated_supply_pin": {
+        "anchor": "U201.48",
+        "before_mm": 0.3249999999999886,
+        "after_mm": 0.5749999999999886,
+        "growth_mm": 0.25000000000000006
+      }
+    },
+    "C202": {
+      "move_mm": 0.125,
+      "dedicated_supply_pin": {
+        "anchor": "U201.73",
+        "before_mm": 0.375,
+        "after_mm": 0.5,
+        "growth_mm": 0.125
+      }
+    },
+    "C805": {
+      "move_mm": 0.45069390943299864,
+      "dedicated_supply_pin": {
+        "anchor": "U801.14",
+        "before_mm": 0.17500000000001134,
+        "after_mm": 0.5500000000000113,
+        "growth_mm": 0.3749999999999999
+      }
+    },
+    "C303": {
+      "move_mm": 0.5,
+      "dedicated_supply_pin": {
+        "anchor": "U302.8",
+        "before_mm": 0.687784511022163,
+        "after_mm": 1.0551547900170581,
+        "growth_mm": 0.36737027899489516
+      }
+    },
+    "C304": {
+      "move_mm": 0.9100137361600648,
+      "dedicated_supply_pin": {
+        "anchor": "U302.6",
+        "before_mm": 0.375,
+        "after_mm": 0.8749999999999999,
+        "growth_mm": 0.4999999999999999
+      }
+    },
+    "R504": {
+      "move_mm": 0.2795084971874737,
+      "dedicated_supply_pin": null
+    },
+    "R301": {
+      "move_mm": 0.7905694150420949,
+      "dedicated_supply_pin": null
+    },
+    "C402": {
+      "move_mm": 0.125,
+      "dedicated_supply_pin": {
+        "anchor": "U402.5",
+        "before_mm": 0.7287753113614589,
+        "after_mm": 0.8317874173597342,
+        "growth_mm": 0.10301210599827526
+      }
+    },
+    "R304": {
+      "move_mm": 0.125,
+      "dedicated_supply_pin": null
+    },
+    "R404": {
+      "move_mm": 0.25,
+      "dedicated_supply_pin": null
+    }
+  },
+  "DRC_reported": 612,
+  "unconnected": 411,
+  "DRC_types": {
+    "courtyards_overlap": 185,
+    "npth_inside_courtyard": 13,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 15,
+    "text_height": 2,
+    "silk_over_copper": 195,
+    "silk_overlap": 199
+  },
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "placement_scope_review": "PASS",
+  "DRC_FINAL": "NOT_PASS",
+  "FABRICATION_READY": false
+}

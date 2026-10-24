@@ -1,0 +1,3046 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "12390810-2eaf-470f-a20c-0bb68e78d9d9"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 12390810-2eaf-470f-a20c-0bb68e78d9d9",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "1e0d399a-3a81-4f35-a482-8ee8b2453379"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 1e0d399a-3a81-4f35-a482-8ee8b2453379",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "49b92b46-086d-481c-b324-e59669bbc496"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 49b92b46-086d-481c-b324-e59669bbc496",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "520cc136-6cd8-4219-9b99-0800d0fdc6f9"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 520cc136-6cd8-4219-9b99-0800d0fdc6f9",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "6fba986e-bb40-4673-a8cd-db55e69ec7b6"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 6fba986e-bb40-4673-a8cd-db55e69ec7b6",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "774a0f3a-5feb-4f4a-b2a1-4a3a4cd14f38"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 774a0f3a-5feb-4f4a-b2a1-4a3a4cd14f38",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "882bc6a1-3731-4f87-91c6-7cf4713570b0"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 882bc6a1-3731-4f87-91c6-7cf4713570b0",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "a6059e5d-dcfc-4ef6-85f0-17a2af723217"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: a6059e5d-dcfc-4ef6-85f0-17a2af723217",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "f41c8ea7-7bad-4f13-b14f-66c442b368f3"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: f41c8ea7-7bad-4f13-b14f-66c442b368f3",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "fd5a6575-34d4-452d-9a1a-e462ca45fa29"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: fd5a6575-34d4-452d-9a1a-e462ca45fa29",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "HSE_IN",
+        "position": {
+          "x": 93.25,
+          "y": 85.60000000000001,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 93.25,
+          "y": 85.60000000000001,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "HSE_OUT",
+        "position": {
+          "x": 96.55000000000001,
+          "y": 89.30000000000001,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 96.55000000000001,
+          "y": 89.30000000000001,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "HSE_OUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "HSE_XOUT",
+        "position": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "HSE_XOUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 93.275,
+          "y": 91.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 91.75,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 93.275,
+          "y": 91.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 91.75,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.15,
+          "y": 91.75,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.35000000000001,
+          "y": 91.55000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.15,
+          "y": 91.75,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.35,
+          "y": 91.55,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.35000000000001,
+          "y": 91.55000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.4,
+          "y": 91.45,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.35,
+          "y": 91.55,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.4,
+          "y": 91.45,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.4,
+          "y": 91.45,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.4,
+          "y": 86.15,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.4,
+          "y": 91.45,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.4,
+          "y": 86.15,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.4,
+          "y": 86.15,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.35000000000001,
+          "y": 86.05000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.4,
+          "y": 86.15,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.35,
+          "y": 86.05,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.35000000000001,
+          "y": 86.05000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 85.85000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.35,
+          "y": 86.05,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 85.85,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.15,
+          "y": 85.85000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 93.25,
+          "y": 85.60000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.15,
+          "y": 85.85,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 93.25,
+          "y": 85.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 93.25,
+          "y": 85.60000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 92.65,
+          "y": 85.95,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 93.25,
+          "y": 85.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 92.65,
+          "y": 85.95,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 92.65,
+          "y": 85.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.85,
+          "y": 86.5,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 92.65,
+          "y": 85.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.85,
+          "y": 86.5,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_IN",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 90.85,
+          "y": 86.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 93.3,
+          "y": 82.5,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 90.85,
+          "y": 86.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 93.3,
+          "y": 82.5,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_IN"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_OUT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 93.275,
+          "y": 92.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 92.25,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 93.275,
+          "y": 92.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.15,
+          "y": 92.25,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_OUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_OUT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.15,
+          "y": 92.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.65,
+          "y": 91.80000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.15,
+          "y": 92.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 94.65,
+          "y": 91.8,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_OUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_OUT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 94.65,
+          "y": 91.80000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.55000000000001,
+          "y": 89.30000000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 94.65,
+          "y": 91.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.55,
+          "y": 89.3,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_OUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_OUT",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 96.55000000000001,
+          "y": 89.30000000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 95.6625,
+          "y": 88.95,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 96.55,
+          "y": 89.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 95.6625,
+          "y": 88.95,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_OUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_XOUT",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 93.8375,
+          "y": 88.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.85,
+          "y": 95.5,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 93.8375,
+          "y": 88.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.85,
+          "y": 95.5,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_XOUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_XOUT",
+        "layer": "B.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 90.85,
+          "y": 95.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 90.85,
+          "y": 95.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.15,
+        "net": "HSE_XOUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "HSE_XOUT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 88.35,
+          "y": 94.375,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 89.2,
+          "y": 94.75,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 88.35,
+          "y": 94.375,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "HSE_XOUT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.625,
+          "y": 88.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.9,
+          "y": 88.3,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.625,
+          "y": 88.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.9,
+          "y": 88.3,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.9,
+          "y": 88.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.7,
+          "y": 88.37315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.9,
+          "y": 88.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.7,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.7,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.97315,
+          "y": 88.37315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.7,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.97315,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.97315,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.97315,
+          "y": 90.22315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.97315,
+          "y": 88.37315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.97315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.97315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.62315,
+          "y": 90.22315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.97315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.62315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 104.62315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.62315,
+          "y": 96.22325366850569,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.62315,
+          "y": 90.22315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.62315,
+          "y": 96.223253,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 104.62315,
+          "y": 96.22325366850569,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.64989633149432,
+          "y": 99.25,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.62315,
+          "y": 96.223253,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.649896,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.64989633149432,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.47315,
+          "y": 99.42674633149431,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.649896,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.47315,
+          "y": 99.426746,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.47315,
+          "y": 99.42674633149431,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.47315,
+          "y": 105.17325366850567,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.47315,
+          "y": 99.426746,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.47315,
+          "y": 105.173253,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.47315,
+          "y": 105.17325366850567,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67314999999999,
+          "y": 105.37325366850567,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.47315,
+          "y": 105.173253,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67315,
+          "y": 105.373253,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.67314999999999,
+          "y": 105.37325366850567,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67314999999999,
+          "y": 113.5,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.67315,
+          "y": 105.373253,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67315,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.625,
+          "y": 88.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.9,
+          "y": 88.8,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.625,
+          "y": 88.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.9,
+          "y": 88.8,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.9,
+          "y": 88.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.7,
+          "y": 88.72685,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.9,
+          "y": 88.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.7,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.7,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.32685000000001,
+          "y": 88.72685,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.7,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.32685,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.32685000000001,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.32685000000001,
+          "y": 90.57685000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.32685,
+          "y": 88.72685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.32685,
+          "y": 90.57685,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.32685000000001,
+          "y": 90.57685000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.97685,
+          "y": 90.57685000000001,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.32685,
+          "y": 90.57685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.97685,
+          "y": 90.57685,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 104.97685,
+          "y": 90.57685000000001,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.97685,
+          "y": 96.07674633149432,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.97685,
+          "y": 90.57685,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.97685,
+          "y": 96.076746,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 104.97685,
+          "y": 96.07674633149432,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.1501036685057,
+          "y": 99.25,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.97685,
+          "y": 96.076746,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.150103,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.1501036685057,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.82685000000001,
+          "y": 99.57325366850569,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.150103,
+          "y": 99.25,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.82685,
+          "y": 99.573253,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.82685000000001,
+          "y": 99.57325366850569,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.82685000000001,
+          "y": 105.02674633149432,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.82685,
+          "y": 99.573253,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.82685,
+          "y": 105.026746,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.82685000000001,
+          "y": 105.02674633149432,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 105.22674633149433,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.82685,
+          "y": 105.026746,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 105.226746,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.02685,
+          "y": 105.22674633149433,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 113.5,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.02685,
+          "y": 105.226746,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.67314999999999,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67314999999999,
+          "y": 113.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.67315,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.67315,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.67314999999999,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 113.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.67315,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 105.925,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 114.625,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 105.925,
+          "y": 113.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.02685,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 114.2,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.02685,
+          "y": 113.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 108.02685,
+          "y": 114.2,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 108.02685,
+          "y": 114.2,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.825,
+          "y": 114.625,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 108.02685,
+          "y": 114.2,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.825,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 105.925,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 115.225,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 105.925,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.925,
+          "y": 115.225,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 105.925,
+          "y": 115.225,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 115.9,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 105.925,
+          "y": 115.225,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.825,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.825,
+          "y": 115.575,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.825,
+          "y": 114.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.825,
+          "y": 115.575,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.825,
+          "y": 115.575,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.5,
+          "y": 115.9,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.825,
+          "y": 115.575,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.5,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.6,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 116.1,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.6,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.6,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.92315,
+          "y": 116.42315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.6,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.92315,
+          "y": 116.42315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.92315,
+          "y": 116.42315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.92315,
+          "y": 116.8,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.92315,
+          "y": 116.42315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.92315,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.92315,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.85,
+          "y": 117.725,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.92315,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.85,
+          "y": 117.725,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.5,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.5,
+          "y": 116.1,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.5,
+          "y": 115.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.5,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.5,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.27685,
+          "y": 116.32315,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.5,
+          "y": 116.1,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.27685,
+          "y": 116.32315,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.27685,
+          "y": 116.32315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.27685,
+          "y": 116.8,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.27685,
+          "y": 116.32315,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.27685,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.27685,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 117.725,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.27685,
+          "y": 116.8,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 117.725,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.85,
+          "y": 117.725,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.85,
+          "y": 118.3,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.85,
+          "y": 117.725,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.85,
+          "y": 118.3,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.85,
+          "y": 118.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.1,
+          "y": 118.55,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.85,
+          "y": 118.3,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.1,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.1,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.6,
+          "y": 118.55,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.1,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.6,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.6,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.6,
+          "y": 118.975,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.6,
+          "y": 118.55,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.6,
+          "y": 118.975,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DP"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.6,
+          "y": 118.975,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 119.7,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.6,
+          "y": 118.975,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.6,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 106.6,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 112.35,
+          "y": 119.7,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 106.6,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 112.35,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 112.35,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 112.35,
+          "y": 116.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 112.35,
+          "y": 119.7,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 112.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 112.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 116.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 112.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "start": {
+          "x": 107.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 117.725,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 107.35,
+          "y": 116.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 107.35,
+          "y": 117.725,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.1537,
+        "net": "USB_DM"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "GND",
+        "layer": "B.Cu",
+        "width": 0.2,
+        "start": {
+          "x": 95.2,
+          "y": 82.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 95.920215,
+          "y": 83.312,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 95.2,
+          "y": 82.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 95.920215,
+          "y": 83.312,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.2,
+        "net": "GND"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.2,
+        "start": {
+          "x": 90.25,
+          "y": 94.375,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.337,
+          "y": 93.718762,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 90.25,
+          "y": 94.375,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.337,
+          "y": 93.718762,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.2,
+        "net": "GND"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "save_project",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Saved project to: E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "refill_zones",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Zones refilled successfully (3 zones)",
+      "zoneCount": 3,
+      "_backend": "swig",
+      "_realtime": false,
+      "warnings": [
+        "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change."
+      ],
+      "autoSave": {
+        "saved": false,
+        "warning": "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change.",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+        "diskChangedExternally": true,
+        "expectedMtimeNs": 1792806238763703300,
+        "currentMtimeNs": 1792806239753754600,
+        "memChangesUnsaved": true
+      }
+    }
+  }
+]

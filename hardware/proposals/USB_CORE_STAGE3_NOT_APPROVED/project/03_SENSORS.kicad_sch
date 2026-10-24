@@ -1,0 +1,6058 @@
+(kicad_sch
+	(version 20260101)
+	(generator eeschema)
+	(generator_version "10.0")
+	(uuid 4849dd25-141f-448f-8c2a-20d49f87fb1b)
+	(paper "A2")
+	(title_block
+		(title "03_SENSORS")
+		(date "2026-10-04")
+		(rev "Physical-1")
+		(company "X100 Clean-Sheet")
+		(comment 1 "PCB_LAYOUT=HOLD; physical exact-part schematic")
+		(comment 2 "See unresolved_items.md; local holds are not ERC failures")
+	)
+	(lib_symbols
+		(symbol "X100_Physical:BMI088"
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMI088"
+				(at 8.89 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Bosch_BMI088_LGA16"
+				(at -16.51 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
+				(at -16.51 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bosch BMI088; exact LGA16 3x4.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Bosch-Sensortec inertial-measurement-unit IMU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Bosch_BMI088_LGA16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMI088_1_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -15.24 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "~{CSB2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "PS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCK/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "SDO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "INT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "INT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "~{CSB1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:R_10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805FR-0710KL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805FR-0710KL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:C_100n6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C0603C104K5RACTU"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "KEMET C0603C104K5RACTU; exact 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n6_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:SPL06_001"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.16 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "SPL06-001"
+				(at 0 -12.16 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Goertek_SPL06_001_LGA8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../../docs/Components/Barometer/SPL06-001/Goertek_SPL06-001_Datasheet_V7.0.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPL06_001_0_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SPL06_001_1_1"
+				(pin power_in line
+					(at -15.239999999999998 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 5.08 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 0.0 0)
+					(length 2.54)
+					(name "SDO_ADDR"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 -2.539999999999999 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 -7.620000000000001 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.239999999999998 7.62 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:R_4k7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805FR-074K7L"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805FR-074K7L; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_4k7_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_4k7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:TP1p5"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TP1p5"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C/D testpoint policy"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP1p5_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP1p5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:TP0p6"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TP0p6"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C/D high-speed testpoint policy"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP0p6_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP0p6_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Single BMI088 SPI1 and single SPL06-001 I2C2. No compass/second IMU."
+		(at 20 27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 8f45d5b4-906d-4e0e-8dd8-b73e3906f93a)
+	)
+	(no_connect
+		(at 157.48 107.95)
+		(uuid 9c0f6493-ce52-4e1f-a1ac-58b9b73a6292)
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73)
+			(xy 137.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3f9f7ff7-2c3b-4241-ab5c-467368add956)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 137.16 132.08 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid be5f1270-1b26-41ff-ae01-3306b5189c5a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25)
+			(xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3b171b8f-2db1-407f-9b75-f6a6ba4245a0)
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73)
+			(xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7c22c514-b81c-4408-8911-d4e09a2bb875)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 142.24 132.08 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 15ce03e2-ffc5-4b1e-877f-634d8d56486a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41)
+			(xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e395935e-243f-4574-9fd3-31d74f2483e7)
+	)
+	(global_label "BMI088_GYRO_CS"
+		(shape bidirectional)
+		(at 125.73 105.41 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 78198674-466e-492c-85e8-3a82934378f6)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73)
+			(xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0c65cdbf-3266-4925-b2cc-0d42e0288d2a)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 147.32 132.08 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 5f0bfef0-bc87-4791-a2b1-112cd8a2250f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 132.08 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 120.65)
+			(xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3efba18e-ac9b-422d-84f2-fab1f3b6b673)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 125.73 120.65 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 26e73426-214a-43a8-841d-76752c44e3e0)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95)
+			(xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7e5af20e-edb8-41e3-a3b2-3953822709f4)
+	)
+	(global_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 125.73 107.95 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 702b5e4e-ab3e-4c1d-8aae-95c3c3625166)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49)
+			(xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 880a0788-1430-419a-8d2c-762640e479ad)
+	)
+	(global_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 125.73 110.49 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 4fef57a6-cbfb-4206-9e71-b1b082fb5fae)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57)
+			(xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 549dc00a-553b-4628-889a-13abf445dcab)
+	)
+	(global_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 125.73 115.57 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 559e80b8-c431-4e55-8e68-ba5ca1a4b533)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25)
+			(xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 46994b67-11fe-4212-933e-3ea01e92c1f8)
+	)
+	(no_connect
+		(at 157.48 113.03)
+		(uuid 1cbe8d52-2f32-4d1e-8cc6-853dd537e121)
+	)
+	(no_connect
+		(at 157.48 118.11)
+		(uuid 9e59db2e-2aea-430e-99c6-76d1f7a220a5)
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87)
+			(xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bd1ab4ab-c25e-4f79-843d-86af4a98c6fc)
+	)
+	(global_label "BMI088_ACC_CS"
+		(shape bidirectional)
+		(at 125.73 102.87 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3d2556b3-8ea3-4241-81eb-723f1ce5821d)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 132.08 113.03)
+			(xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 173f5b39-3508-44c7-bdef-ff1be3fb19b9)
+	)
+	(global_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 125.73 113.03 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3d5f868f-0d33-4205-9424-5d4afc5d3bdc)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 157.48 102.87)
+		(uuid 6985534d-eef0-4fa6-8bfd-dfbc237b02b9)
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9)
+			(xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 449bbf96-164c-45e1-8d84-84f79568e447)
+	)
+	(junction
+		(at 147.32 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid 6177516f-8a8e-4dcd-8002-220892fcb2e2)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 151.13 88.9 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3109b225-5942-40fc-b3df-501db3f38d9d)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:BMI088")
+		(at 144.78 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 76a54db9-ef54-4697-bf06-3b8ae17517b9)
+		(property "Reference" "U301"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMI088"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Bosch_BMI088_LGA16"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bosch"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI088"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LGA16 3x4.5"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 34520ed8-7ba8-4391-bbed-56768e912933)
+		)
+		(pin "2"
+			(uuid 28cb645e-3e4b-4e42-93b1-f1d982cbd705)
+		)
+		(pin "3"
+			(uuid fb25ba90-1751-4d37-9631-b6ed7539f6eb)
+		)
+		(pin "4"
+			(uuid 3b3ab373-d48a-4258-852f-ae5a00b7c911)
+		)
+		(pin "5"
+			(uuid 593698cc-f86e-48c5-89ce-b1319b4ce6ea)
+		)
+		(pin "6"
+			(uuid 3b783c65-eed7-482f-83b3-365b0927ec21)
+		)
+		(pin "7"
+			(uuid 524cecfa-03ef-4fb9-b941-f10ae5902210)
+		)
+		(pin "8"
+			(uuid 1d666bb7-65b8-4c85-8e15-788214264bfb)
+		)
+		(pin "9"
+			(uuid ff593af1-e258-477a-8ec2-844d4de04f19)
+		)
+		(pin "10"
+			(uuid 7af0528f-6d72-4007-bf55-5f61bc3b511e)
+		)
+		(pin "11"
+			(uuid f2bfedcf-b40f-4763-82bd-97da428b1921)
+		)
+		(pin "12"
+			(uuid e91f2185-5afb-4162-865f-ca00c63d8927)
+		)
+		(pin "13"
+			(uuid 3854553f-d03a-4e96-8816-8b274e5f4f41)
+		)
+		(pin "14"
+			(uuid 6537114b-4f4c-4ef9-9325-f5e96c6aa942)
+		)
+		(pin "15"
+			(uuid 09f74086-379f-4dc0-b512-2a29c006a5b8)
+		)
+		(pin "16"
+			(uuid 76cbb7b9-b004-4257-ab19-37f27119cf5b)
+		)
+	)
+	(wire
+		(pts
+			(xy 85.09 176.53)
+			(xy 85.09 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f78af6ce-c9e3-474a-b243-567e3a81857b)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 85.09 170.18 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3d9fa558-cb7a-4b26-a269-923726b7082b)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 85.09 184.15)
+			(xy 85.09 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7263f6c4-3966-4a0b-a7be-5ab321254865)
+	)
+	(global_label "BMI088_ACC_CS"
+		(shape bidirectional)
+		(at 85.09 190.5 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 6d20c4eb-f588-4b08-98b8-d475909f82bf)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_10k")
+		(at 85.09 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid efeb8264-d4be-4983-a794-bd29f55f72d0)
+		(property "Reference" "R301"
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k CS1 safe HIGH"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "10k ohm"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 68bf7905-a493-4f93-86fc-11c343a553aa)
+		)
+		(pin "2"
+			(uuid fa726257-8292-41c5-8541-549803178061)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 176.53)
+			(xy 199.39 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0f9402d5-4546-4c1b-8b1a-baceb5965e8e)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 199.39 170.18 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ce9ab7f5-bd40-44b9-9985-ec12fdd68371)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.39 184.15)
+			(xy 199.39 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3e713a19-38ee-49f3-8542-44addeb525a8)
+	)
+	(global_label "BMI088_GYRO_CS"
+		(shape bidirectional)
+		(at 199.39 190.5 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 1d971608-3e2b-4b36-bfb1-a81b1a3946c5)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 190.5 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_10k")
+		(at 199.39 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 279c6381-df03-447c-9394-e3d31096e88b)
+		(property "Reference" "R302"
+			(at 207.01 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k CS2 safe HIGH"
+			(at 207.01 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "10k ohm"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid a29a15f2-9ffa-498c-b027-8e691a880ecb)
+		)
+		(pin "2"
+			(uuid 66bedf32-b73d-477f-be09-1ef1574f6832)
+		)
+	)
+	(wire
+		(pts
+			(xy 59.69 106.68)
+			(xy 59.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a720d597-d689-4414-8811-3a136eda9fb9)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 59.69 100.33 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 058dae50-0fc4-4504-a79c-9e0f6c74e573)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 59.69 114.3)
+			(xy 59.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a3121af4-bafc-4e97-9f1f-704aa10e06fb)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 59.69 120.65 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7f936c67-dd99-484d-a324-2255b666092f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 59.69 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f753ecaa-380f-4264-9a81-e8eb014bcb5f)
+		(property "Reference" "C301"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n VDD3 loop"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 48290347-dc42-4e17-9b2f-f4e151458a08)
+		)
+		(pin "2"
+			(uuid 822fae49-f193-4c6d-b5e2-01e967f79f16)
+		)
+	)
+	(wire
+		(pts
+			(xy 234.95 106.68)
+			(xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ce41a01a-683d-4b6a-b517-199cd4212397)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 234.95 100.33 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 8c07ca06-ca94-44e2-aad7-c90479d5a362)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3)
+			(xy 234.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid df685882-cab8-4b00-bad2-433a3d7c7e5b)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 234.95 120.65 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid cc0a4c7a-12d7-4aaa-b940-9fad190d5857)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 234.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 9d61ff8f-dd89-40cb-968f-4b4c876dcbd5)
+		(property "Reference" "C302"
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n VDDIO11 loop"
+			(at 242.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 1feaf301-ecc4-4475-ad61-8c175ade502d)
+		)
+		(pin "2"
+			(uuid 5230f058-5031-4986-a8bb-5c1af3ef2365)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 102.87)
+			(xy 403.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4c6f0103-7764-460d-842b-ef76d0c1d393)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 403.86 102.87 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid f525eab9-c06b-41e0-882f-bb6c8f52dfc9)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 105.41)
+			(xy 403.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f3f38d8a-dd81-44d9-aefb-32936574cce3)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 403.86 105.41 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid d8391f0a-2c65-4dc6-9c57-c2dde898af1a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 105.41 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 107.95)
+			(xy 403.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 088a3683-f2e3-4d07-a87a-5689d040addf)
+	)
+	(global_label "BARO_I2C2_SCL"
+		(shape bidirectional)
+		(at 403.86 107.95 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 68ef4e99-d635-4588-86c1-ee96955817ce)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 110.49)
+			(xy 403.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 6a760a1a-60b0-4945-8c54-264339063669)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 403.86 110.49 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0c89364d-1683-4bae-9d7e-2a4e00a57441)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 113.03)
+			(xy 403.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c9da7f7b-101b-4bae-9327-0cee87c333cf)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 403.86 113.03 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 9aab95ec-445f-4865-a0e0-4097471ad637)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 115.57)
+			(xy 403.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 833dc5f8-f4a8-4fe9-8d0c-9759e4f3d12a)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 403.86 115.57 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid bf044625-ad01-4b99-957d-15138e86312b)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 410.21 118.11)
+			(xy 403.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 6ca7abdd-9baf-400c-9ab0-0eb8238f0f35)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 403.86 118.11 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0b995ff3-f9d0-47b9-973d-6cdc741521ae)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.86 118.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 440.69 102.87)
+			(xy 447.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid db765230-c5c2-4bde-b8df-57c080945e9b)
+	)
+	(global_label "BARO_I2C2_SDA"
+		(shape bidirectional)
+		(at 447.04 102.87 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid aa450d5d-5229-46a0-880e-c8bd5d483600)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 447.04 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:SPL06_001")
+		(at 425.45 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 8a1ab463-2ec2-4dbc-96f7-e3bf9f4413ba)
+		(property "Reference" "U302"
+			(at 425.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPL06-001"
+			(at 425.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Goertek_SPL06_001_LGA8"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../docs/Components/Barometer/SPL06-001/Goertek_SPL06-001_Datasheet_V7.0.pdf"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Goertek"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPL06-001"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LGA8 2x2.5"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 425.45 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "U302")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid bfda93eb-059f-4955-b597-bce06dc8c952)
+		)
+		(pin "2"
+			(uuid 64cf8ca2-ff4c-4a2b-938f-7d53468a1e02)
+		)
+		(pin "4"
+			(uuid 36a7fa4b-d487-40fb-8cc5-d938d9542d92)
+		)
+		(pin "5"
+			(uuid 320a6b9d-74bf-4102-ba16-ce54d50a882c)
+		)
+		(pin "6"
+			(uuid 5be84c10-70dd-4d7a-81ae-f897d0151132)
+		)
+		(pin "7"
+			(uuid 37700fe4-3fd1-4e99-9197-a6dd901547df)
+		)
+		(pin "8"
+			(uuid 1b14a2fc-d77a-4a38-92e9-e8630ecdd024)
+		)
+		(pin "3"
+			(uuid 01292840-ffa9-4245-b5b7-4606ecdec96d)
+		)
+	)
+	(wire
+		(pts
+			(xy 364.49 176.53)
+			(xy 364.49 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 410945b8-d4e3-4887-95e2-e0a97d902594)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 364.49 170.18 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 52841468-870b-4b56-a70f-20060f033ba3)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 170.18 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 364.49 184.15)
+			(xy 364.49 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bd73c0d8-c2da-4d1a-8a68-f8d08c22ee2d)
+	)
+	(global_label "BARO_I2C2_SCL"
+		(shape bidirectional)
+		(at 364.49 190.5 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 8d8ce986-938a-43f7-b902-66c02d34a0d4)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 190.5 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_4k7")
+		(at 364.49 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid d62f0088-ccc2-4092-8656-5d0d1838b859)
+		(property "Reference" "R303"
+			(at 372.11 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k internal SCL pullup"
+			(at 372.11 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "4k7 ohm"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 364.49 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid e0e4cf65-afc2-4a9d-bf61-49518ca3da95)
+		)
+		(pin "2"
+			(uuid ecec0cdf-02f5-4274-8aa5-c0d3386e54a2)
+		)
+	)
+	(wire
+		(pts
+			(xy 490.22 176.53)
+			(xy 490.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c49b8d4a-7a86-40e7-b5bc-a0020589db8a)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 490.22 170.18 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 4eda3ace-6e6b-41c2-a86a-ce1e6dae84d8)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 490.22 170.18 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 490.22 184.15)
+			(xy 490.22 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 863090fe-a73a-4e8a-8d2f-40b90f23850c)
+	)
+	(global_label "BARO_I2C2_SDA"
+		(shape bidirectional)
+		(at 490.22 190.5 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid f9130806-a103-4a42-9cc7-cbf177a4c310)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 490.22 190.5 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_4k7")
+		(at 490.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 61ce0188-f597-47c2-87c3-7c070b804c65)
+		(property "Reference" "R304"
+			(at 497.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k internal SDA pullup"
+			(at 497.84 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "4k7 ohm"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 490.22 180.34 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 3dedc88d-ecc8-4662-adfe-8ac7952232fc)
+		)
+		(pin "2"
+			(uuid de7f56e8-bb89-41f0-9342-6252ea1b5f00)
+		)
+	)
+	(wire
+		(pts
+			(xy 350.52 106.68)
+			(xy 350.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 92362264-f607-4bf2-a532-cea0a7b186d9)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 350.52 100.33 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 4d808c89-42f6-45b7-ad5d-1e960d390c9e)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.52 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 350.52 114.3)
+			(xy 350.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c0aded14-6996-49a8-b1ec-27964ee0e1fc)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 350.52 120.65 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid bddb0335-9c2f-4924-9959-7fb1401aa03b)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.52 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 350.52 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 41947ce3-da0a-435e-84d0-54c20e204e74)
+		(property "Reference" "C303"
+			(at 358.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n SPL VDD8"
+			(at 358.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 350.52 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "C303")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 9c7719fd-d8a8-427a-a2c7-6cba741977ab)
+		)
+		(pin "2"
+			(uuid 57dfb721-62d1-4a1b-8613-ad09f0a4056b)
+		)
+	)
+	(wire
+		(pts
+			(xy 524.51 106.68)
+			(xy 524.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 125cda56-717f-4d07-8524-d5e007f6403e)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 524.51 100.33 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 8e160d74-ae5c-4bc3-ad82-0b07f966189c)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 524.51 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 524.51 114.3)
+			(xy 524.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 48ff8d8c-d52e-4925-9b03-bd39c610b1d2)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 524.51 120.65 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 89ac9d32-cc1b-40f2-b830-fe02e8cdcb8f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 524.51 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 524.51 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 705aa685-1dd5-4a4c-acba-9c587826cdb5)
+		(property "Reference" "C304"
+			(at 532.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n SPL VDDIO6"
+			(at 532.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 524.51 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "C304")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid c45b0b36-3feb-4031-b5cb-70d1767d3679)
+		)
+		(pin "2"
+			(uuid e3f73fbb-6352-49ed-ac51-5e7280421e08)
+		)
+	)
+	(text "SPL: CSB2=VDDIO; SDO5=GND => I2C0x76. BMI: PS7=GND; NC2=GND."
+		(at 20 388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 53c7e96c-7f07-4f9e-84ab-adc527e7d6a2)
+	)
+	(text "SPI initialization must toggle accel CS and discard dummy read. Sensor-off GPIO must not drive."
+		(at 20 400 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 829ea63a-b602-486e-a2cf-e953bccedc53)
+	)
+	(wire
+		(pts
+			(xy 306.07 285.75)
+			(xy 299.72 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a3f00c97-c18d-4b9a-988b-ec86fc3c8e30)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 299.72 285.75 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 13f1f7cb-dc05-47a4-9f24-1d9505824cdd)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.72 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 309.88 285.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid f82fe3ad-2ba0-4c64-bf8f-d854770d46b9)
+		(property "Reference" "TP301"
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3_SENSOR"
+			(at 317.5 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 309.88 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP301")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 4c2903a8-37b0-4f2c-ac57-2977978cfc33)
+		)
+	)
+	(wire
+		(pts
+			(xy 389.89 285.75)
+			(xy 383.54 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 54927735-633f-4f73-ae1b-7cd12ed38a04)
+	)
+	(global_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 383.54 285.75 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid e936cec1-54de-4b75-9195-e4da72e7cd39)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 393.7 285.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 8b31187f-adfd-4322-afa9-2dd18c530f7b)
+		(property "Reference" "TP302"
+			(at 401.32 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI1_SCK"
+			(at 401.32 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 393.7 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP302")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 9940c67c-b604-43f6-b07a-5c733c0f6c14)
+		)
+	)
+	(wire
+		(pts
+			(xy 473.71 285.75)
+			(xy 467.36 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid de5bf7f8-fdd3-4285-bc8c-3ea8b19fee79)
+	)
+	(global_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 467.36 285.75 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ce336963-5442-4b03-9161-1198a41fe376)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 467.36 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 477.52 285.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid ebed8217-8a67-4e6f-b8b6-b7e162fc4be6)
+		(property "Reference" "TP303"
+			(at 485.14 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI1_MOSI"
+			(at 485.14 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 477.52 285.75 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 0c51a477-2778-465c-b500-186f463345f0)
+		)
+	)
+	(wire
+		(pts
+			(xy 306.07 312.42)
+			(xy 299.72 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d72ca99e-d9bc-418e-af56-1f1a84b3b2ea)
+	)
+	(global_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 299.72 312.42 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 6db59863-8586-4817-ad9d-b6113f0e0fc3)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.72 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 309.88 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 1f4d5d36-272a-4e29-a392-679669105fb3)
+		(property "Reference" "TP304"
+			(at 317.5 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPI1_MISO"
+			(at 317.5 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 309.88 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP304")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid e0b1a7c6-bac3-428d-8f28-1239478fa504)
+		)
+	)
+	(wire
+		(pts
+			(xy 389.89 312.42)
+			(xy 383.54 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 404ec498-5eb1-4173-b611-8bc0d70014b6)
+	)
+	(global_label "BMI088_ACC_CS"
+		(shape bidirectional)
+		(at 383.54 312.42 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid d46573c8-1313-4b8f-9585-701049e11211)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 393.7 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 90c18ac2-aa86-45bf-a02a-7ddc41e4be76)
+		(property "Reference" "TP305"
+			(at 401.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI088_ACC_CS"
+			(at 401.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 393.7 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP305")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid c3be5f89-1c95-4cdb-80e7-f34859f58c95)
+		)
+	)
+	(wire
+		(pts
+			(xy 473.71 312.42)
+			(xy 467.36 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a05bde3f-060e-40fa-9375-97b8065c8547)
+	)
+	(global_label "BMI088_GYRO_CS"
+		(shape bidirectional)
+		(at 467.36 312.42 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 51f9e36b-011d-4ba7-87ab-d5260340cf43)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 467.36 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 477.52 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 7a6c0594-2195-477b-a2c3-9883c09ecc89)
+		(property "Reference" "TP306"
+			(at 485.14 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI088_GYRO_CS"
+			(at 485.14 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 477.52 312.42 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP306")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid da9efaca-28f0-43ee-b7d1-713619252690)
+		)
+	)
+	(wire
+		(pts
+			(xy 306.07 339.09)
+			(xy 299.72 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 365b8f03-4a56-43b9-99de-ad41a0353009)
+	)
+	(global_label "BARO_I2C2_SCL"
+		(shape bidirectional)
+		(at 299.72 339.09 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 9935f584-32a1-4b0d-a65c-f6caed63e64e)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.72 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 309.88 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 8cb6f240-f19b-4991-b3d4-0b0d0097e12d)
+		(property "Reference" "TP307"
+			(at 317.5 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BARO_I2C2_SCL"
+			(at 317.5 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 309.88 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP307")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid d0699d8c-d72b-4b20-82d8-ac41df408396)
+		)
+	)
+	(wire
+		(pts
+			(xy 389.89 339.09)
+			(xy 383.54 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2ff7ab98-9fbf-47d0-b756-d5304ded926b)
+	)
+	(global_label "BARO_I2C2_SDA"
+		(shape bidirectional)
+		(at 383.54 339.09 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7119e041-340b-4e7a-915f-f1503e98d097)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 393.7 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid d26d0c60-afba-4dad-836d-d63026a13d91)
+		(property "Reference" "TP308"
+			(at 401.32 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BARO_I2C2_SDA"
+			(at 401.32 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 393.7 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP308")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 52d4fe94-9518-4d41-8147-c58c2f17ea5a)
+		)
+	)
+	(wire
+		(pts
+			(xy 473.71 339.09)
+			(xy 467.36 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 52cc1278-751f-4b36-be5a-22018b9d5e7f)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 467.36 339.09 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 24c7a592-9301-499d-b41c-16765e98ba8a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 467.36 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 477.52 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid b2c44c67-b652-48f7-9d9e-c36ae89e7a1e)
+		(property "Reference" "TP309"
+			(at 485.14 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 485.14 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560"
+					(reference "TP309")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid b6bbf033-4da9-4850-943a-3516622fca87)
+		)
+	)
+	(hierarchical_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 27.94 290.83 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 0695ae13-8d08-4716-b1eb-996f51dc4109)
+	)
+	(wire
+		(pts
+			(xy 27.94 290.83)
+			(xy 53.34 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid fe89642d-9e75-4fa1-956a-28ac2dc79f30)
+	)
+	(global_label "3V3_SENSOR"
+		(shape bidirectional)
+		(at 53.34 290.83 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid febe9a27-6ef3-4eea-8387-0d7fa7d94fa5)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 290.83 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 27.94 294.64 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 3fdb966d-0cf6-4699-9b5b-a41bc61fd975)
+	)
+	(wire
+		(pts
+			(xy 27.94 294.64)
+			(xy 53.34 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2db7f4cb-a686-4a33-87ab-cc030f49a58d)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 53.34 294.64 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 181c6c23-adb1-415c-913a-9bbf8b6dd3f7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 294.64 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 115.57 290.83 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 862101a3-5778-4f19-b514-2e45445defc6)
+	)
+	(wire
+		(pts
+			(xy 115.57 290.83)
+			(xy 140.97 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a2469523-bdcd-4a4e-ba0f-8342236a724a)
+	)
+	(global_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 140.97 290.83 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 450f5766-488c-4fd5-b85e-69bf7cf3d9e9)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 290.83 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 115.57 294.64 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 5efa806c-0317-4aa1-ac96-bbf18b26d248)
+	)
+	(wire
+		(pts
+			(xy 115.57 294.64)
+			(xy 140.97 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 520ef947-6e11-4021-b593-a5f1a027272a)
+	)
+	(global_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 140.97 294.64 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 1a5b793c-974e-4f73-8072-64356e0a3909)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 294.64 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "BMI088_ACC_CS"
+		(shape bidirectional)
+		(at 115.57 298.45 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid e636978c-80b0-43d1-af01-bee8d6eee892)
+	)
+	(wire
+		(pts
+			(xy 115.57 298.45)
+			(xy 140.97 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2f2c74d9-0f61-43fd-a2f1-96f7358db335)
+	)
+	(global_label "BMI088_ACC_CS"
+		(shape bidirectional)
+		(at 140.97 298.45 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid e2322a51-4112-44b3-adb9-25ab21ba87f7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 298.45 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "BMI088_GYRO_CS"
+		(shape bidirectional)
+		(at 115.57 302.26 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 6ea88dec-3103-45ac-bbac-0d239dc3c211)
+	)
+	(wire
+		(pts
+			(xy 115.57 302.26)
+			(xy 140.97 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 5462b8e7-6591-4dc5-ab2e-b5b7caa85137)
+	)
+	(global_label "BMI088_GYRO_CS"
+		(shape bidirectional)
+		(at 140.97 302.26 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 5a8b0437-d259-40a6-8b68-b1e15add4572)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 302.26 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 115.57 306.07 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid f5c75b8a-53ca-4f8a-91c2-c72e167ddfd4)
+	)
+	(wire
+		(pts
+			(xy 115.57 306.07)
+			(xy 140.97 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3fff1949-f019-4a5e-b6b7-ac3b14edbe9c)
+	)
+	(global_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 140.97 306.07 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid b3756bcf-dd66-400c-a67b-01f96de0a479)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 306.07 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "BARO_I2C2_SCL"
+		(shape bidirectional)
+		(at 204.47 290.83 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid c6161e10-a459-4af4-aa7c-dccaef744293)
+	)
+	(wire
+		(pts
+			(xy 204.47 290.83)
+			(xy 229.87 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid a75a1eee-ab1b-4c0e-a5f4-d0075b4c9026)
+	)
+	(global_label "BARO_I2C2_SCL"
+		(shape bidirectional)
+		(at 229.87 290.83 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0a277092-7a34-450f-b47c-8c2ad273bb91)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 290.83 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "BARO_I2C2_SDA"
+		(shape bidirectional)
+		(at 204.47 294.64 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 991fa0bd-1b6a-43ba-aaa8-16d6435c7a38)
+	)
+	(wire
+		(pts
+			(xy 204.47 294.64)
+			(xy 229.87 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d0db09e6-72c3-41f1-bfc8-25b11bd2e261)
+	)
+	(global_label "BARO_I2C2_SDA"
+		(shape bidirectional)
+		(at 229.87 294.64 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 6765bd10-e2ea-4b55-aa23-dbbcf508fb4f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 294.64 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+
+	(text "03 传感器 / SENSORS"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d723a5a5-9773-4d2a-8829-b690aa15d786")
+	)
+	(rectangle
+		(start 18 36)
+		(end 288 254)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ccb84b13-2bc2-4d8f-9cf8-6e9072d97060")
+	)
+	(text "BMI088 惯性测量 / BMI088 IMU · SPI1"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "30cbe9f5-1848-4406-89e3-7fad295fb324")
+	)
+	(rectangle
+		(start 298 36)
+		(end 572 254)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b6d6507c-d2f9-49ad-b7f0-73a80013559a")
+	)
+	(text "SPL06-001 气压计 / BAROMETER · I2C2"
+		(at 303 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4f1a2a83-6dbb-4d46-a31c-044a2df596da")
+	)
+	(rectangle
+		(start 18 264)
+		(end 572 374)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9745a213-4ced-4c48-81ef-2e7fa4fb63d4")
+	)
+	(text "传感器接口与测点 / SENSOR INTERFACES AND TEST"
+		(at 23 270 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4eac1b90-43bd-4a0f-9d73-9644fc98dcce")
+	)
+	(text "POWER / GND"
+		(at 27.94 283.21 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "91d2eb72-f433-4393-b061-4eded20d71e4")
+	)
+	(text "SPI1 / IMU"
+		(at 115.57 283.21 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7ecbc619-394c-42ce-a6ee-fa3fed7c14f7")
+	)
+	(text "I2C2 / BARO"
+		(at 204.47 283.21 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9542dd2a-8841-4146-a6d1-6e283a1d6c23")
+	)
+	(junction
+		(at 59.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ae5d448-e6c7-425a-9da9-a067cdc2e427")
+	)
+	(junction
+		(at 127 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b107ec-bcd6-4fde-b138-3295a1e76dab")
+	)
+	(junction
+		(at 405.13 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc0dd9a-f3ef-436a-b565-cf773a99c4eb")
+	)
+	(junction
+		(at 85.09 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621668a1-a9ed-4266-9f3f-e9ddf452adaa")
+	)
+	(junction
+		(at 60.96 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fad9a5c-5e51-4215-ac98-d87d499ab530")
+	)
+	(junction
+		(at 149.86 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff2dd291-49a6-4685-8a13-ba6968f98fae")
+	)
+	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee5c7bfb-138a-4b43-9f9f-ccc6a00c0d9d")
+	)
+	(junction
+		(at 405.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b14a57-f635-4246-b568-d731ce979d64")
+	)
+	(junction
+		(at 198.12 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c1eaa1-9223-4545-b266-bd8d683bb9ce")
+	)
+	(junction
+		(at 402.59 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cd167d-84e6-45f9-9a69-628ffada857e")
+	)
+	(junction
+		(at 405.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb390c93-6895-45de-be38-0c9a667743b9")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7ba3af-40b8-4e34-9915-1e124346232c")
+	)
+	(junction
+		(at 199.39 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3667d32-def2-46a9-847d-d83c71613684")
+	)
+	(junction
+		(at 199.39 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0581c0df-ea85-431c-87a4-0614a39058f6")
+	)
+	(junction
+		(at 234.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635982a6-a62e-42f5-aae2-e3e9611ba4a6")
+	)
+	(junction
+		(at 350.52 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "783dc334-065a-487b-be19-0f33b7bfe511")
+	)
+	(junction
+		(at 488.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37686a2a-5fd4-474b-9e31-488691bd7121")
+	)
+	(junction
+		(at 234.95 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8fc5fcd-360f-4976-b6bf-43388de0dcbc")
+	)
+	(junction
+		(at 364.49 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "339c3263-4a9c-460f-a149-a82cfbabda03")
+	)
+	(junction
+		(at 411.48 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c13da4-3c5b-4573-b8cd-d2992fff9ae8")
+	)
+	(junction
+		(at 363.22 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d317188-f69d-420f-97ea-29c52e79636c")
+	)
+	(junction
+		(at 445.77 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "650362d9-e563-4668-98c9-c38de3a5877f")
+	)
+	(junction
+		(at 85.09 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1b9c386-da68-4ef5-be69-30a1e5c2dbf2")
+	)
+	(junction
+		(at 127 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f389fdc8-9dc4-4b31-9fef-882e0a13f470")
+	)
+	(junction
+		(at 490.22 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e54486a-98d5-45dc-846d-2e20a0f89c61")
+	)
+	(junction
+		(at 350.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6862f51d-e004-40db-ae24-d4b76f5b47ce")
+	)
+	(junction
+		(at 490.22 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14ddc55-4bd5-49d6-933a-a3360ed3fce3")
+	)
+	(junction
+		(at 364.49 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbc8f73-8ca2-4b7a-813b-17fb3b6dc13e")
+	)
+	(junction
+		(at 524.51 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12e11f8-04dc-43e2-8c7c-fc092ae5f5b7")
+	)
+	(junction
+		(at 524.51 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0d4ede-c5dc-4ca3-8569-fa951cc90073")
+	)
+	(wire
+		(pts
+			(xy 363.22 104.14)
+			(xy 363.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222a06d4-69e4-476d-8431-166df7589692")
+	)
+	(wire
+		(pts
+			(xy 367.03 109.22)
+			(xy 367.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a56267-4194-4630-b3de-62f9d4d3e80c")
+	)
+	(wire
+		(pts
+			(xy 133.35 106.68)
+			(xy 133.35 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a31ba2-0eb4-42ca-96d1-e26f10c013eb")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6)
+			(xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e229fe-fa4b-4642-99e2-722000eb889e")
+	)
+	(wire
+		(pts
+			(xy 445.77 189.23)
+			(xy 490.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe63312-816a-4fd8-98b1-729f93db0121")
+	)
+	(wire
+		(pts
+			(xy 445.77 102.87)
+			(xy 445.77 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917bf8e6-91a8-492d-b5ee-96d84bde0ad6")
+	)
+	(wire
+		(pts
+			(xy 492.76 119.38)
+			(xy 492.76 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef2b58b-974e-4ae3-a1c3-1b758f8a1819")
+	)
+	(wire
+		(pts
+			(xy 411.48 101.6)
+			(xy 411.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4e2dc6-7f8d-439f-bfb4-161ba0a74a8d")
+	)
+	(wire
+		(pts
+			(xy 133.35 189.23)
+			(xy 199.39 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bcaa21-aab1-4d30-9cef-3cded8e5bef0")
+	)
+	(wire
+		(pts
+			(xy 351.79 119.38)
+			(xy 351.79 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f48bf6-d4a0-4a0f-aa28-13487da8bb3e")
+	)
+	(wire
+		(pts
+			(xy 488.95 101.6)
+			(xy 488.95 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebc4c6b-4221-4cde-832f-9daca287090f")
+	)
+	(wire
+		(pts
+			(xy 87.63 104.14)
+			(xy 87.63 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3020fd-9685-4eda-a424-381384b293de")
+	)
+	(wire
+		(pts
+			(xy 411.48 191.77)
+			(xy 492.76 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1767ff70-ad69-41a7-bb6e-659bdf101d6f")
+	)
+	(wire
+		(pts
+			(xy 367.03 109.22)
+			(xy 405.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c668b7-0112-43f3-bcd3-be5d16c1b280")
+	)
+	(wire
+		(pts
+			(xy 60.96 171.45)
+			(xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6831138-a6c4-4cb3-a01a-850406d0d820")
+	)
+	(wire
+		(pts
+			(xy 439.42 101.6)
+			(xy 488.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913e0e39-5838-4d39-b344-74170c7d5790")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63)
+			(xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe56ee52-c315-485d-bf2f-e03e5fca6265")
+	)
+	(wire
+		(pts
+			(xy 363.22 104.14)
+			(xy 402.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b79d50-d29b-4800-83b1-930ed74d1bb3")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6)
+			(xy 198.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a29583-7888-44c3-974b-10bcb8f7dbc5")
+	)
+	(wire
+		(pts
+			(xy 351.79 191.77)
+			(xy 411.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72696f0f-faa6-49c8-80bd-c1ecde2cf169")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52)
+			(xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e7ce0d-351f-4a41-8a83-37c87c8581d7")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6)
+			(xy 198.12 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a51da17-f55d-4691-990b-2ecc451fd499")
+	)
+	(wire
+		(pts
+			(xy 87.63 104.14)
+			(xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bb1c15-f412-4933-b8c2-e06a2b81df7b")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6)
+			(xy 234.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257f4202-7b23-4570-988e-901d444d5d80")
+	)
+	(wire
+		(pts
+			(xy 402.59 99.06)
+			(xy 439.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd944c5-fa1c-4d73-a7ae-01c091bf5503")
+	)
+	(wire
+		(pts
+			(xy 488.95 101.6)
+			(xy 524.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8b8d0b-9232-4192-b6e5-38ca867f737e")
+	)
+	(wire
+		(pts
+			(xy 402.59 99.06)
+			(xy 402.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db21987-c219-4a65-8ae0-b38693f1557c")
+	)
+	(wire
+		(pts
+			(xy 156.21 96.52)
+			(xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa99707e-3431-45b3-995c-ffac1dcde1a3")
+	)
+	(wire
+		(pts
+			(xy 402.59 104.14)
+			(xy 405.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c65bac-fcda-48e2-9b22-043cfa5bb11c")
+	)
+	(wire
+		(pts
+			(xy 236.22 87.63)
+			(xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a312be-469c-40e3-922e-4f708d976989")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9)
+			(xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dbc780-a836-4dd9-ad9c-2f4f42fd521a")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63)
+			(xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a0a28f-73ed-4599-82e7-106cdbd7b998")
+	)
+	(wire
+		(pts
+			(xy 492.76 119.38)
+			(xy 524.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183b46cf-c04e-4b9b-b228-6318d8e3fa47")
+	)
+	(wire
+		(pts
+			(xy 127 105.41)
+			(xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e0878d-21a4-423a-b116-e4f5991524da")
+	)
+	(wire
+		(pts
+			(xy 350.52 119.38)
+			(xy 351.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23abf9d-b353-4511-a61f-6cbf86acfffb")
+	)
+	(wire
+		(pts
+			(xy 127 106.68)
+			(xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3580b0d8-761b-415c-ad11-5f8a591c95d1")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52)
+			(xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70714c01-99ef-43b5-a3f1-bcb66613f481")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52)
+			(xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f935e8-9b18-4d3b-8d96-f6303a615c1b")
+	)
+	(wire
+		(pts
+			(xy 488.95 171.45)
+			(xy 490.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958cdd52-d3f6-44cd-babd-8490f5a599ef")
+	)
+	(wire
+		(pts
+			(xy 351.79 104.14)
+			(xy 363.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee34f2c9-3f10-488c-b89a-abfbf067608d")
+	)
+	(wire
+		(pts
+			(xy 350.52 101.6)
+			(xy 351.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56119735-eabb-4a29-b16f-87e7f5e8f9f7")
+	)
+	(wire
+		(pts
+			(xy 405.13 101.6)
+			(xy 411.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0b840b-6697-4a1d-b2b6-c25d61dd81b0")
+	)
+	(wire
+		(pts
+			(xy 198.12 171.45)
+			(xy 199.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a614929c-199a-4d11-89e3-4683e181d96d")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38)
+			(xy 59.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d62bd73-2907-4e44-b145-c8941ddade02")
+	)
+	(wire
+		(pts
+			(xy 234.95 119.38)
+			(xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31db661-babf-418d-bfca-0cf75415baa0")
+	)
+	(wire
+		(pts
+			(xy 439.42 99.06)
+			(xy 439.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d635fbb-0132-4661-b9ea-ab3d66522916")
+	)
+	(wire
+		(pts
+			(xy 405.13 101.6)
+			(xy 405.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be70d90-7fda-47eb-b484-3205d9fd0fb6")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6)
+			(xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207fa830-87f4-4a3a-9419-4364e5c140ed")
+	)
+	(wire
+		(pts
+			(xy 405.13 104.14)
+			(xy 405.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5ce5bd-de16-4f17-bc76-cdb7d43562b1")
+	)
+	(wire
+		(pts
+			(xy 351.79 101.6)
+			(xy 351.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db46b05f-e8b2-4537-9f30-2128a6c2449f")
+	)
+	(wire
+		(pts
+			(xy 363.22 171.45)
+			(xy 364.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15c3b64-a758-4426-b0d5-eec8eab71f09")
+	)
+	(wire
+		(pts
+			(xy 364.49 189.23)
+			(xy 367.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9dd70e-8ee5-433d-8475-81feadec368d")
+	)
+	(wire
+		(pts
+			(xy 405.13 107.95)
+			(xy 405.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c7dbf6-86e1-4085-9b00-7d7243362e5e")
+	)
+	(wire
+		(pts
+			(xy 85.09 189.23)
+			(xy 87.63 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cf3a77-a57e-4574-9fa7-a8a9b850fe18")
+	)
+	(wire
+		(pts
+			(xy 127 102.87)
+			(xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffa9cd9-f405-460f-9791-c6ebc26925a3")
+	)
+)

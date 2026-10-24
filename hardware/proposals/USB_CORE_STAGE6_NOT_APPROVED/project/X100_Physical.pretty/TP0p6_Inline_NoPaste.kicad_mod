@@ -1,0 +1,50 @@
+(footprint "TP0p6_Inline_NoPaste"
+	(version 20241229)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(descr "Project0.6mm inline probe pad; high speed no long branch; no hole; no paste")
+	(attr smd)
+	(property "Reference" "REF**"
+		(layer "F.SilkS")
+		(at 0 -2.3)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(property "Value" "TP0p6"
+		(layer "F.Fab")
+		(at 0 2.3)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(fp_rect
+		(start -0.3 -0.3)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+	)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+)

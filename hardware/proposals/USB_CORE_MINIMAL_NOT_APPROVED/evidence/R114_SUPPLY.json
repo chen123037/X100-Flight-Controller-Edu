@@ -1,0 +1,47 @@
+{
+  "source_board_sha256": "28881889d8b836cdb165c6519a57d6ce843ff614c215591388c5d53af5acde11",
+  "routes": [
+    {
+      "label": "R114 static status pullup supply",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          109.325,
+          110.6
+        ],
+        [
+          109.325,
+          111.5
+        ],
+        [
+          108.6,
+          111.9
+        ],
+        [
+          108,
+          111.65
+        ],
+        [
+          104.6,
+          111.65
+        ],
+        [
+          104.6,
+          111.95
+        ],
+        [
+          104.15,
+          112.1
+        ],
+        [
+          103.55,
+          112.9125
+        ]
+      ]
+    }
+  ],
+  "vias": [],
+  "scope": "R114_LOW_CURRENT_STATUS_PULLUP_FEED_NOT_SD_LOAD_TRUNK_NOT_POWER_SAFETY_PASS"
+}

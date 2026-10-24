@@ -1,0 +1,32 @@
+{
+  "scope": "UNAPPROVED_COMBINED_CANDIDATE;NO_FORMAL_PROMOTION",
+  "electrical_count": 241,
+  "footprint_count": 245,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "DRC_count": 1527,
+  "unconnected_count": 453,
+  "DRC_types": {
+    "shorting_items": 199,
+    "clearance": 499,
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 12,
+    "pth_inside_courtyard": 3,
+    "solder_mask_bridge": 199,
+    "silk_edge_clearance": 16,
+    "text_height": 2,
+    "silk_over_copper": 199,
+    "silk_overlap": 199
+  },
+  "unplaced_new_count": 40,
+  "formal_hashes_unchanged": 55,
+  "stage5_parent_hashes_unchanged": 59,
+  "old_pin_net_changes_beyond_approved_candidate": 0,
+  "delta_vs_stage5": "Y201/R205/L101 validated unapproved options plus C121consolidation/removalC127",
+  "PCB_MANUFACTURING_PACKAGE": "NOT_READY",
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE"
+}

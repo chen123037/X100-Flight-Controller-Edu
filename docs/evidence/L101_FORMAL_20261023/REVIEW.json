@@ -1,0 +1,101 @@
+{
+  "scope": "FORMAL_L101_ACCEPTANCE_20261023",
+  "executor": "plant_kicad_v1",
+  "user_approved": true,
+  "formal_adoption_complete": true,
+  "MPN": "SRP1038A-100M",
+  "LCSC": "C780184",
+  "inductance_uH": 10,
+  "changed_existing_CAD": [
+    "01_POWER.kicad_sch",
+    "sym-lib-table",
+    "X100_CleanSheet.kicad_pcb"
+  ],
+  "added_CAD": [
+    "X100_LayoutECO.kicad_sym",
+    "X100_Physical.pretty/Bourns_SRP1038A_LeadFrame_NoVIP.kicad_mod"
+  ],
+  "electrical_components": 201,
+  "PCB_footprints": 205,
+  "net_changes": 0,
+  "source_UUID_changes": 0,
+  "PCB_UUID_path_changes": 0,
+  "non_target_204_footprints_preserved": true,
+  "placement_mm": {
+    "x": 114,
+    "y": 97,
+    "rotation": 0,
+    "layer": "B.Cu"
+  },
+  "pads": [
+    {
+      "number": "1",
+      "net": "MAIN_SW",
+      "size_mm": [
+        4.1,
+        3.5
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "number": "2",
+      "net": "5V_MAIN",
+      "size_mm": [
+        4.1,
+        3.5
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "library_mismatch": 0,
+  "SMD_library_and_placed": true,
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "courtyard_pairs_before": 172,
+  "courtyard_pairs_after": 170,
+  "reported_DRC": 599,
+  "unconnected": 411,
+  "DRC_types": {
+    "courtyards_overlap": 170,
+    "npth_inside_courtyard": 13,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 16,
+    "text_height": 2,
+    "silk_over_copper": 196,
+    "silk_overlap": 199
+  },
+  "DRC_counts_may_be_capped": true,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE",
+  "FABRICATION_READY": false,
+  "purchase_or_order": false,
+  "unapproved_Y201_or_USB_integrated": false
+}

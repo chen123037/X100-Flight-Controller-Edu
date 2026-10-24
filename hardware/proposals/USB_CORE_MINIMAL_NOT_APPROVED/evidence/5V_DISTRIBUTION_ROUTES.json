@@ -1,0 +1,1131 @@
+{
+  "scope": "APPLIED_NATIVE_ROUTING_CHECKPOINT_NOT_POWER_SAFETY_PASS",
+  "source_board_sha256": "c581906dae7f7dfdce85914d3ac3842dff4b18e5d759e5e244d82979d1ea2331",
+  "moves": {
+    "U104": {
+      "x": 86.5,
+      "y": 110.2,
+      "rotation": 180.0,
+      "layer": "B.Cu"
+    },
+    "C118": {
+      "x": 86.1,
+      "y": 110.25,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R506": {
+      "x": 105.2,
+      "y": 106.0,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R510": {
+      "x": 107,
+      "y": 96,
+      "rotation": 90,
+      "layer": "B.Cu"
+    }
+  },
+  "delete_trace_uuids": [
+    "07fca0ef-caa3-430f-90f8-f425bcf5d4da",
+    "08a7243d-257f-411c-9449-5add330f3372",
+    "09bc17cc-86fa-4c4d-866a-0aa230381cbd",
+    "0b4e97f6-ba6d-4c24-ba77-0eeccc9160f1",
+    "248ab779-3ec5-421d-8431-9a8612d81fce",
+    "2da5a6a0-6df5-42f2-a763-e8ca86e2af2b",
+    "3c5b9139-85ac-451a-bb92-3cedca58d414",
+    "48e05a18-581b-4afc-b7e1-716229a95c9e",
+    "49663215-fc3e-4e0c-94e5-57d8a085b754",
+    "4d6297d7-30f4-4334-8386-7168fe82ab47",
+    "501f7d60-9eb0-4fdb-a3ec-f971a73fde92",
+    "590d9c8d-2cc2-4416-a3ec-acbf1a440069",
+    "598894a6-9dc8-42fa-a76e-444da7b92107",
+    "6a3f620d-7efd-4e62-987d-bb3245ad23f4",
+    "6a9066e3-9575-442a-bec9-c7d7b421cd58",
+    "6d6f1b6d-2ca2-4454-a8b7-f16ee8f71725",
+    "72a8317b-c014-4085-b5e3-92b56d9d3c2e",
+    "73634ab5-926e-4b0b-ad9a-9bc3d1963f7e",
+    "89d52f7d-23af-490a-b604-9e1d3131ca64",
+    "8bbb3ce7-d501-4b71-982e-79c9fecd6cc0",
+    "94622c2c-4b48-4adf-b944-19416c7b6f02",
+    "96232e40-98a9-4707-8648-478695e25860",
+    "9cb4065e-b404-4baa-a20d-34e20dac348d",
+    "9d984085-753a-4ac7-a057-2ddcfe24e97e",
+    "a391ea73-1203-4cc4-b83a-ea2c5666a7da",
+    "a70b9cc6-6936-4c1f-a3de-803ac9741919",
+    "aa348976-6ea5-438c-85be-3ff8c95fb4d4",
+    "aa5e5c55-1134-4f3f-b235-1921f00dfe82",
+    "ac62d4cd-5dbe-4f0d-80bc-79adc1b7cbe6",
+    "ba41da5b-3da7-43c3-9005-4ac9f508cb64",
+    "bc0415ce-8625-4c59-92c4-893bf76ac49e",
+    "cf22a4ca-e6e9-4d49-8f83-85efa8c9cd96",
+    "cfb51c14-62ae-4951-95ed-191c1717c928",
+    "d47b80b0-8a04-4095-80be-ee8ebf2bbc36",
+    "dfd05c2d-fc7e-4d42-90d9-d91ff835e92c",
+    "e4ae9b3e-65b8-4f35-8e47-8aee3bda67b5",
+    "f00f0198-02b7-4618-b523-eb4e9b30ee75",
+    "f598e79c-77ed-4e66-96f9-a7f8ad482105",
+    "f6739741-54e3-43df-994b-2c8e6f1aa031",
+    "fac55c47-a22d-44a0-a44a-756da0425a17",
+    "fbc62c42-1e2b-4279-ac24-02e98b5918f2",
+    "fd844e2d-0739-4acb-b3d5-78ca0983f26f",
+    "731bcb30-ee2e-4a8a-990a-29933fba3b35",
+    "9ca271a9-fd38-4433-89b0-254cdeccaaf4",
+    "0be26863-5522-4c97-ac4c-44b33252662a",
+    "343babff-e144-41cc-ba9d-1c4327b4f4fa",
+    "3a4c4be8-21b0-4bfe-8eb0-8c993c3344e6",
+    "4d3a7426-90e1-4946-87db-f3932b114326",
+    "6927fbfb-d49b-44bb-8306-a092a96dee46",
+    "852e2028-b76c-483f-bfa4-9a042794c287",
+    "88429212-822c-47ca-a426-d0d8364ad49e",
+    "af51b2c3-3873-4087-ad84-2cb4fbe3ea0e",
+    "b69d4a7e-6093-46fd-ada4-e923bf0f3853",
+    "bf774de6-0e0b-47c0-9f27-d59bb13e9a49",
+    "c1d60d90-5a7e-4c86-9e5b-65afdd3eaddb",
+    "f209493c-1146-4bc8-a7b6-29df6901da0a",
+    "f3d30e30-9aec-4362-b4e0-3f5fd75dfd42"
+  ],
+  "superseded_prior_routes": {
+    "plan": "USB_MINIMAL_MAIN_LOCAL_PLAN.json",
+    "net": "5V_MAIN",
+    "width_mm": 0.25
+  },
+  "routes": [
+    {
+      "label": "Main core and external trunk",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          114.65,
+          108.2
+        ],
+        [
+          114.65,
+          110.8
+        ],
+        [
+          112.5,
+          112.75
+        ],
+        [
+          112.5,
+          113.5
+        ],
+        [
+          105.5,
+          113.5
+        ]
+      ]
+    },
+    {
+      "label": "Main right transfer bank feed",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          106,
+          113.5
+        ],
+        [
+          105.875,
+          112.375
+        ],
+        [
+          105,
+          113.25
+        ]
+      ]
+    },
+    {
+      "label": "Main front short transfer neck",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.39,
+      "points": [
+        [
+          105.875,
+          112.375
+        ],
+        [
+          105.875,
+          111.65
+        ],
+        [
+          102.9,
+          111.65
+        ],
+        [
+          102.2,
+          112.35
+        ]
+      ]
+    },
+    {
+      "label": "Main front left bank link",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          102.2,
+          112.35
+        ],
+        [
+          102.325,
+          113.25
+        ],
+        [
+          101,
+          112.75
+        ]
+      ]
+    },
+    {
+      "label": "Core input VSON launch",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          102.325,
+          113.25
+        ],
+        [
+          102.325,
+          113.4
+        ],
+        [
+          101.64,
+          113.4
+        ],
+        [
+          100.9,
+          113.4
+        ],
+        [
+          100.9,
+          113.9
+        ],
+        [
+          100.16,
+          113.9
+        ]
+      ]
+    },
+    {
+      "label": "Core input bank B link",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          102.325,
+          113.25
+        ],
+        [
+          101,
+          112.75
+        ],
+        [
+          100.25,
+          111.7
+        ]
+      ]
+    },
+    {
+      "label": "External branch front launch",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          101,
+          112.75
+        ],
+        [
+          100,
+          113.25
+        ]
+      ]
+    },
+    {
+      "label": "External branch front trunk",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          100,
+          113.25
+        ],
+        [
+          90,
+          113.25
+        ],
+        [
+          88.5,
+          112
+        ],
+        [
+          88.5,
+          110.25
+        ],
+        [
+          87.57499999999999,
+          110.25
+        ]
+      ]
+    },
+    {
+      "label": "External input via approach",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          87.57499999999999,
+          110.25
+        ],
+        [
+          88.5,
+          110.25
+        ],
+        [
+          88.5,
+          109.5
+        ],
+        [
+          88.65,
+          108.925
+        ]
+      ]
+    },
+    {
+      "label": "External controller VIN",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          88.65,
+          108.925
+        ],
+        [
+          87.6375,
+          109.25
+        ]
+      ]
+    },
+    {
+      "label": "External enable VIN body strap",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          87.6375,
+          109.25
+        ],
+        [
+          86.5,
+          109.25
+        ],
+        [
+          86.5,
+          111.15
+        ],
+        [
+          87.6375,
+          111.15
+        ]
+      ]
+    },
+    {
+      "label": "External input 100n",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          87.6375,
+          111.15
+        ],
+        [
+          89.25,
+          111.425
+        ]
+      ]
+    },
+    {
+      "label": "External input bulk ground",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          84.62499999999999,
+          110.25
+        ],
+        [
+          84.35,
+          108.5
+        ]
+      ]
+    },
+    {
+      "label": "External controller ground",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          87.6375,
+          110.2
+        ],
+        [
+          89.25,
+          109.875
+        ]
+      ]
+    },
+    {
+      "label": "GND space",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          89.25,
+          109.875
+        ],
+        [
+          89.625,
+          110.0
+        ],
+        [
+          89.875,
+          110.25
+        ],
+        [
+          90.125,
+          110.25
+        ],
+        [
+          90.875,
+          111.0
+        ],
+        [
+          91.0,
+          111.0
+        ],
+        [
+          91.125,
+          111.125
+        ],
+        [
+          91.875,
+          111.125
+        ],
+        [
+          92.4,
+          111.2
+        ]
+      ]
+    },
+    {
+      "label": "GND direct",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          102.15,
+          111.7
+        ],
+        [
+          102.125,
+          110.625
+        ]
+      ]
+    },
+    {
+      "label": "GND direct",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          100.16,
+          114.9
+        ],
+        [
+          99.25,
+          114.875
+        ]
+      ]
+    },
+    {
+      "label": "GND direct",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          101.2125,
+          118.25
+        ],
+        [
+          101.625,
+          119.25
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          100.16,
+          113.9
+        ],
+        [
+          100.625,
+          113.875
+        ],
+        [
+          100.875,
+          114.125
+        ],
+        [
+          100.875,
+          115.125
+        ],
+        [
+          99.75,
+          116.25
+        ],
+        [
+          99.3875,
+          116.5
+        ]
+      ]
+    },
+    {
+      "label": "CORE_PWR_PRIORITY direct",
+      "net": "CORE_PWR_PRIORITY",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          101.2125,
+          116.5
+        ],
+        [
+          99.3875,
+          118.25
+        ]
+      ]
+    },
+    {
+      "label": "CORE_PWR_PRIORITY space",
+      "net": "CORE_PWR_PRIORITY",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          101.2125,
+          116.5
+        ],
+        [
+          100.875,
+          116.625
+        ],
+        [
+          100.0,
+          117.5
+        ],
+        [
+          99.875,
+          117.5
+        ],
+        [
+          99.75,
+          117.625
+        ],
+        [
+          99.0,
+          117.625
+        ],
+        [
+          98.875,
+          117.5
+        ],
+        [
+          98.75,
+          117.5
+        ],
+        [
+          98.625,
+          117.375
+        ],
+        [
+          98.625,
+          117.25
+        ],
+        [
+          98.5,
+          117.125
+        ],
+        [
+          98.5,
+          115.375
+        ],
+        [
+          97.625,
+          114.5
+        ],
+        [
+          97.625,
+          114.25
+        ],
+        [
+          97.5,
+          114.125
+        ],
+        [
+          97.5,
+          113.375
+        ],
+        [
+          97.625,
+          113.25
+        ],
+        [
+          97.625,
+          113.0
+        ],
+        [
+          98.0,
+          112.625
+        ],
+        [
+          98.875,
+          112.625
+        ],
+        [
+          99.25,
+          113.0
+        ],
+        [
+          99.375,
+          113.0
+        ],
+        [
+          99.5,
+          113.125
+        ],
+        [
+          99.625,
+          113.125
+        ],
+        [
+          100.16,
+          113.4
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN direct",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          119.35,
+          99.4
+        ],
+        [
+          121.25,
+          103.6
+        ]
+      ]
+    },
+    {
+      "label": "Main front right transfer-bank parallel link",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          105,
+          113.25
+        ],
+        [
+          105.875,
+          112.375
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          114.65,
+          108.2
+        ],
+        [
+          114.25,
+          108.375
+        ],
+        [
+          114.0,
+          108.375
+        ],
+        [
+          113.25,
+          109.125
+        ],
+        [
+          113.25,
+          109.375
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          113.25,
+          109.375
+        ],
+        [
+          113.125,
+          109.5
+        ],
+        [
+          113.125,
+          110.0
+        ],
+        [
+          113.0,
+          110.125
+        ],
+        [
+          113.0,
+          110.25
+        ],
+        [
+          112.75,
+          110.5
+        ],
+        [
+          112.75,
+          111.625
+        ],
+        [
+          112.625,
+          111.75
+        ],
+        [
+          112.625,
+          111.875
+        ],
+        [
+          112.25,
+          112.25
+        ],
+        [
+          112.125,
+          112.25
+        ],
+        [
+          110.125,
+          114.25
+        ],
+        [
+          110.125,
+          114.875
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          110.125,
+          114.875
+        ],
+        [
+          104.375,
+          114.875
+        ],
+        [
+          104.25,
+          115.0
+        ],
+        [
+          104.125,
+          115.0
+        ],
+        [
+          104.0,
+          115.125
+        ],
+        [
+          102.875,
+          115.125
+        ],
+        [
+          102.25,
+          115.75
+        ],
+        [
+          102.25,
+          116.0
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          102.25,
+          116.0
+        ],
+        [
+          101.375,
+          116.0
+        ],
+        [
+          101.25,
+          116.125
+        ],
+        [
+          99.625,
+          116.125
+        ],
+        [
+          99.0,
+          115.5
+        ],
+        [
+          98.875,
+          115.5
+        ],
+        [
+          98.625,
+          115.25
+        ],
+        [
+          92.5,
+          115.25
+        ],
+        [
+          92.375,
+          115.125
+        ],
+        [
+          92.125,
+          115.125
+        ],
+        [
+          91.375,
+          114.375
+        ],
+        [
+          89.625,
+          114.375
+        ],
+        [
+          89.5,
+          114.25
+        ],
+        [
+          89.375,
+          114.25
+        ],
+        [
+          88.75,
+          113.625
+        ],
+        [
+          88.625,
+          113.625
+        ],
+        [
+          88.0,
+          113.0
+        ],
+        [
+          87.875,
+          113.0
+        ],
+        [
+          86.875,
+          112.0
+        ],
+        [
+          84.125,
+          112.0
+        ],
+        [
+          83.125,
+          111.0
+        ],
+        [
+          81.75,
+          111.0
+        ],
+        [
+          81.625,
+          110.875
+        ],
+        [
+          81.5,
+          110.875
+        ],
+        [
+          81.375,
+          110.75
+        ],
+        [
+          81.375,
+          110.5
+        ],
+        [
+          81.25,
+          110.375
+        ],
+        [
+          81.25,
+          108.625
+        ]
+      ]
+    },
+    {
+      "label": "5V_MAIN space",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          81.25,
+          108.625
+        ],
+        [
+          83.25,
+          108.625
+        ],
+        [
+          84.0,
+          107.875
+        ],
+        [
+          84.25,
+          107.875
+        ],
+        [
+          84.375,
+          107.75
+        ],
+        [
+          85.5,
+          107.75
+        ],
+        [
+          85.8375,
+          107.85
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "5V_MAIN",
+      "position": [
+        102.325,
+        113.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        101,
+        112.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        105,
+        113.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        105.875,
+        112.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        88.65,
+        108.925
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        84.35,
+        108.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.4,
+        111.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.125,
+        110.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        99.25,
+        114.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        101.625,
+        119.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        113.25,
+        109.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        110.125,
+        114.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        102.25,
+        116.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        81.25,
+        108.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "sense_route_start_index": 23,
+  "sense_reference": "C108.1 only; load copper reserved outside its positive land",
+  "input_plane_extension": {
+    "net": "VBAT_PROTECTED",
+    "layer": "In2.Cu",
+    "implementation": "Merged into the one input-power zone during official MCP checkpoint replay",
+    "outline": [
+      [
+        80,
+        100.25
+      ],
+      [
+        102.5,
+        100.25
+      ],
+      [
+        102.5,
+        115.75
+      ],
+      [
+        80,
+        115.75
+      ]
+    ],
+    "clearance_mm": 0.5
+  },
+  "repair": {
+    "failed_board_sha256": "d2b0f0d06798abb42b60150ad58788684cefa7ab873229c7443f8cf93ed25746",
+    "baseline_checkpoint": "USB_MINIMAL_PRE_INPUT_POWER_CHECKPOINT.zip",
+    "baseline_sha256": "67ef42f2196f3a7557d0f99b79e259181392b282e784f2d179472fd5e0f2dd0b",
+    "reason": [
+      "R510 cross-face PTH collision",
+      "Equal-priority power-zone intersection",
+      "5V right-bank missing front strap"
+    ],
+    "executor": "plant_kicad_v1",
+    "expected_native": {
+      "tracks": 366,
+      "vias": 47,
+      "zones": 2
+    }
+  },
+  "applied_board_sha256": "7d3b22888a285a72f280a000a1076ae1203ab973e25016ca6931fa517049404d"
+}

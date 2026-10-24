@@ -1,0 +1,22 @@
+{
+  "scope": "STATIC_CONFIGURATION_COMPILE_ONLY",
+  "profiles": {
+    "usb_before_config": {
+      "exit_code": 0,
+      "object_sha256": "d10bdeb340d8ad5a61f2b2ab420fdb7551a7ab9d0ab7492dc94d83d518dce9e8",
+      "isolated_header_sha256": "456caec13495b08a3480ed20e18b9006dfb52640f861e4a0636052c227576f69"
+    },
+    "usb_configured": {
+      "exit_code": 0,
+      "object_sha256": "e1e9709451b997bdd553f9e3262c0e658f1a6a8f9292189a8ab43a68f0dd794e",
+      "isolated_header_sha256": "040c812a222ebb1f2312b3090b6fcc7b754c7ee695fda4df4cc91c2361579afc"
+    },
+    "vbat": {
+      "exit_code": 0,
+      "object_sha256": "1151a7b32304eace3b8be6918b025d62464b261f43619f1b8ec3dc41596b7f50",
+      "isolated_header_sha256": "69f0e2b33f917887e7ca5c1998f0f79450887c8e4bfb2498ef81863b68adb00b"
+    }
+  },
+  "full_firmware_build": false,
+  "hardware_test": false
+}

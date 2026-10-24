@@ -1,0 +1,55 @@
+(footprint "Littelfuse1812L200_12DR"
+	(version 20241229)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(descr "Littelfuse1812L Rev2021 pad layout:innergap3.15mm,leadpad1.78mm,height3.45mm")
+	(attr smd)
+	(property "Reference" "REF**"
+		(layer "F.SilkS")
+		(at 0 -3.625)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(property "Value" "1812L200/12DR"
+		(layer "F.Fab")
+		(at 0 3.625)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.275 -1.625)
+		(end 2.275 1.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(pad "1" smd rect
+		(at -2.465 0)
+		(size 1.78 3.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 2.465 0)
+		(size 1.78 3.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(fp_rect
+		(start -3.855 -2.225)
+		(end 3.855 2.225)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+)

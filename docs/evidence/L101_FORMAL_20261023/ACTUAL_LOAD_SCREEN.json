@@ -1,0 +1,168 @@
+{
+  "scope": "X100_L101_ACTUAL_5V_LOAD_SCREEN_20261023",
+  "formal_MPN": "SRP1038A-100M",
+  "evidence_classes": {
+    "official_conditions": "Bourns10uH +/-20%,DCR30mOhm max@25C,7.5A/40C-rise,12A/20percent-L-drop@25C; TI minimum limit4.5A",
+    "project_load_budget": "0.889A 3V3_MCU;0.025A sensor/LDO;all EXT ports shared1A; retained historical1.823619A continuous screen",
+    "engineering_assumptions": "80percent downstream efficiency,5mA control allowance,6.4uH effective L,400..600kHz,1V diode guard,estimated125C DCR; none are complete hot-corner guarantees",
+    "measured": "NONE"
+  },
+  "inputs": {
+    "MCU_3V3_budget_A": 0.889,
+    "sensor_LDO_A": 0.025,
+    "shared_EXT_5V_A": 1.0,
+    "additional_5V_allowance_A": 0.005,
+    "downstream_efficiency_guard": 0.8,
+    "MCU_voltage_upper_V": 3.33,
+    "main_voltage_lower_V": 4.9,
+    "normal_Vin_V": [
+      8.55,
+      25.2
+    ],
+    "ambient_C": 50,
+    "frequency_engineering_guard_Hz": [
+      400000.0,
+      600000.0
+    ],
+    "effective_L_engineering_guard_H": 6.4e-06,
+    "estimated_DCR_125C_ohm": 0.04179
+  },
+  "load_results": {
+    "recalculated_continuous_A": 1.7851964285714286,
+    "retained_continuous_A": 1.8829863469387755,
+    "capacity_with_30percent_A": 2.4478822510204084,
+    "existing_approx_2p442A_capacity_was_without_new_5mA_allowance": true
+  },
+  "normal_and_capacity_rows": [
+    {
+      "case": "recalculated_continuous",
+      "output_A": 1.7851964285714286,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 2.760385263864282,
+      "conditional_distance_to_minimum_current_limit_A": 1.7396147361357182,
+      "RMS_A": 1.8718771443155116,
+      "winding_loss_25C_W": 0.10511772130232383,
+      "estimated_winding_loss_125C_W": 0.1464289857741371,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "retained_historical_continuous_plus_updates",
+      "output_A": 1.8829863469387755,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 2.8581751822316286,
+      "conditional_distance_to_minimum_current_limit_A": 1.6418248177683714,
+      "RMS_A": 1.965358831761886,
+      "winding_loss_25C_W": 0.11587906012753335,
+      "estimated_winding_loss_125C_W": 0.16141953075765397,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "capacity_with_30percent",
+      "output_A": 2.4478822510204084,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 3.4230710863132616,
+      "conditional_distance_to_minimum_current_limit_A": 1.0769289136867384,
+      "RMS_A": 2.5117972190619513,
+      "winding_loss_25C_W": 0.18927375809062055,
+      "estimated_winding_loss_125C_W": 0.26365834502023444,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "EXT_limiter_max_1p2761A_with_recalculated_core",
+      "output_A": 2.0612964285714286,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 3.036485263864282,
+      "conditional_distance_to_minimum_current_limit_A": 1.4635147361357181,
+      "RMS_A": 2.136806196468912,
+      "winding_loss_25C_W": 0.1369782216380381,
+      "estimated_winding_loss_125C_W": 0.1908106627417871,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "historical_extreme_3p5A",
+      "output_A": 3.5,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 4.475188835292853,
+      "conditional_distance_to_minimum_current_limit_A": 0.024811164707146838,
+      "RMS_A": 3.5449961572372137,
+      "winding_loss_25C_W": 0.3770099326447984,
+      "estimated_winding_loss_125C_W": 0.5251748361742041,
+      "not_guaranteed_hot_margin": true
+    }
+  ],
+  "low_input_screen": {
+    "required_input_by_approx_dropout_V": 6.134084495643517,
+    "available_input_floor_V": 8.55,
+    "conditional_screen_satisfied": true,
+    "not_a_dynamic_or_BOOT_voltage_guarantee": true
+  },
+  "native_formal_capacitor_connections": {
+    "5V_MAIN": [
+      {
+        "ref": "C108",
+        "pin": "1",
+        "value": "180u /16V +5V_MAIN"
+      },
+      {
+        "ref": "C111",
+        "pin": "1",
+        "value": "10u AP input"
+      },
+      {
+        "ref": "C117",
+        "pin": "1",
+        "value": "100n switch input loop"
+      },
+      {
+        "ref": "C118",
+        "pin": "1",
+        "value": "10u switch input"
+      }
+    ],
+    "EXT_SWITCH_OUT": [
+      {
+        "ref": "C119",
+        "pin": "1",
+        "value": "82u /16V PTC-before bulk"
+      }
+    ]
+  },
+  "startup_sensitivity": [
+    {
+      "topology": "formal_topology",
+      "Cmax_screen_uF": 239.21,
+      "minimum_screen_ramp_ms": 1.7066666666666666,
+      "average_charging_A": 0.7708916015625,
+      "retained_continuous_plus_average_charge_A": 2.6538779485012753,
+      "plus_independent_ripple_half_peak_screen_A": 3.6290667837941286,
+      "not_an_instantaneous_current_bound": true,
+      "excludes_downstream_EXT_and_3V3_startup_current_waveforms": true
+    },
+    {
+      "topology": "stage6_conditional_additional_core_bulk",
+      "Cmax_screen_uF": 455.21,
+      "minimum_screen_ramp_ms": 1.7066666666666666,
+      "average_charging_A": 1.4669853515625,
+      "retained_continuous_plus_average_charge_A": 3.3499716985012755,
+      "plus_independent_ripple_half_peak_screen_A": 4.325160533794128,
+      "not_an_instantaneous_current_bound": true,
+      "excludes_downstream_EXT_and_3V3_startup_current_waveforms": true
+    }
+  ],
+  "old_3p5A_risk_preserved": true,
+  "conclusion": "Actual declared steady load and retained30percent capacity do not require3.5A continuous; current-limit arithmetic does not block the selected10uH. Startup/compensation/hot inductance/core loss/layout/TVS-fuse-SOA remain open; no complete POWER_SAFETY_REVIEW PASS.",
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE",
+  "first_board_required": [
+    "startup peak and brownout with EXT load",
+    "load step and compensation/Bode",
+    "coil core plus copper temperature at50C ambient and6S",
+    "short/foldback/recovery waveforms",
+    "hotplug TVS/fuse/MOS coordination"
+  ],
+  "sources": [
+    "design00_pinmap/X100_CleanSheet/X100_CleanSheet_Core_Component_Design_Input.md sections4,5,7,14",
+    "docs/INTERFACES.md EXT_5V shared1A contract",
+    "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps54360b.pdf"
+  ]
+}

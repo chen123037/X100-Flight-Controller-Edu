@@ -1,20 +1,46 @@
-# 接手指南（Handoff Guide）
+# 接手指南
 
-**如果你第一次接手本项目，不要重新选器件，也不要重新画原理图。** 当前冻结教学baseline需受控增补USB-only核心供电功能，不能因新需求重做全部硬件。
+当前[统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)已有 **1398铜线 / 127标准过孔 / 3填充铜区**。HSE三个网络及USB DP/DM全部相关焊盘已通过保存后铜线连通检查，晶振负载电容接地接通。3V3_MCU相关47个焊盘全部接主供电，包含MCU全部VDD和VDDA上游。SD受控电源10/13焊盘接通。仅表示声明的直流连接，不是启动、USB合规或完整电源安全通过。
 
-先读[当前状态](STATUS.md)、[电源架构](docs/POWER_ARCHITECTURE.md)、[已知问题](docs/KNOWN_ISSUES.md)和[接口表](docs/INTERFACES.md)，再打开`hardware/X100_V1/X100_CleanSheet.kicad_pro`。当前201个电气封装已放置，走线/过孔/铺铜为0；USB-only供电是`NOT_IMPLEMENTED`，不是最终V1预期行为。
+Fresh ERC0 / native parity0，原生DRC无电气铜距、线宽、孔铜、VIP或禁止层报告；仍有618条庭院/丝印/文字报告和 **282项未连接**，不可投板。236电气器件/240实体落板，实际实体及跨面通孔冲突0，Fab壳体间距≥0.20mm。正式201器件/205实体及57项CAD未覆盖，35个新增USB电源器件未正式采用，不采购或下单。
 
-1. **完成USB-only core power architecture adjudication。** 单独启动`USB_ONLY_CORE_POWER_ECO`，先定义供电/不供电轨、电流预算、双源管理、reverse blocking和故障路径，再核验候选数据手册并裁决exact MPN。此步骤是未来任务，本轮不选IC、不估算或实现电源方案。
-2. **执行已批准范围内的最小schematic ECO。** 按裁决新增/修改必要电源路径，保留USB主机禁止反灌原则，控制placement影响；不要借机重新选择MCU/IMU/气压计或全局重排。未获ECO范围批准，不实施。
-3. **Fresh ERC / netlist / power-path safety review。** 复核新ECO真实网表、供电域、startup/boot/idle/flashing/configuration电流预算、双源上/掉电、host-off/VBUS low、rail sequencing、brownout与hotplug；保存新的批准基线。ECO后数量以新基线为准，不能把当前201当作不得更新的统计，也不能仍沿用旧PASS。
-4. **关闭J601。** 先取得仅释放R204/J801/J802局部位置的人工裁决，再工程重排J601/J701接口带；检查J702、CAN支持/JP601的线束、焊接与吸锡空间。每个局部阻塞最多3轮主要候选，每轮有限局部核查；无可靠解就`PCB_BLOCKER=YES`并STOP，不再高成本穷举。
-5. **关闭J401。** 取得JLCPCB对USB4105-GF-A官方land两处约0.1944mm内部孔铜结构的明确制造结论；接受后仅审查具体pad/hole pair局部规则，拒绝则提交官方替代land或connector ECO人工裁决。
-6. **重新完成pre-routing DRC / geometry / power review。** 制造7条阻塞关闭，新ECO实体数量与库/网表一致，实际几何冲突闭合，USB-only核心供电架构/反灌/电流预算审查通过，冻结尺寸与制造规则保持；其余报告逐类解释，保存checkpoint。
-7. **人工确认`ROUTING_PRECONDITIONS_MET=YES`。** 即使J601/J401关闭，只要USB power ECO未完成，仍为`PCB03_FORMAL_ROUTING_READY=NO`。
-8. **明确授权后才进入PCB03 formal routing。** 本轮没有PCB03执行授权；文档完成即STOP。
+以下为历史阶段记录；与以上冲突时以上为准。
 
-已有J601/J401制造资料确认可以与USB ECO文档评审并行，但不能跳过USB供电门槛。保持45×45mm、30.5×30.5mm孔距、H1–H4 Ø4 NPTH及核心架构；禁止移动孔、扩大板框、削JST官方land、全局放宽clearance、排除整个连接器或复制TEST铜。不回滚已通过的microSD位置，不重新比较ICM-42688-P/DPS310。
+主电源另有[可打开的局部布线检查点](hardware/proposals/MAIN_POWER_PARTIAL_ROUTING_NOT_APPROVED/README.md)：22轨迹/14贯通过孔/1填充In1 GND面，原生确认SW/BOOT与关键GND回流真实连通。完整245实体保留，但174个仍在板外待排；局部DRC149条、未连接报告499封顶，不是完整PCB。未正式推广USB/Y201，正式源仍为POST_L101。
 
-后续正式PCB修改由`plant_kicad_v1`执行，Codex负责分析、只读核查、证据与STOP判断。除非有明确能力缺口且特殊操作已授权，不用脚本绕过plant改正式placement。USB供电必须禁止USB_VBUS_RAW与5V_MAIN硬并、未经反灌/故障分析的普通Schottky拼接，以及5V_MAIN/3V3/VBAT向PC反灌。
+2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
 
-完整[路线图](docs/ROADMAP.md)已增加STAGE USB-PWR；采购表仅反映**当前硬件**，不包含尚未选择的USB ECO器件。没有制造放行前，不下单当前工程。
+以下阶段记录以本段为最新状态；旧“当前基线”仅对应记录当时。
+
+供电后续评估从[Stage6隔离合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)继续：组合待裁决的Y201及现已批准的L101，保留Stage5外I2C门控/硬件PWR指示/SD隔离，并将2×82µF合并为复用C108型号的180µF。241器件fresh ERC0/0、native parity0；旧引脚网络除移除C127外保持。40个新封装未完成放置，联合试排仍未取得全器件可接受解，方案/型号尚未正式集成。该检查时正式CAD与Stage5父候选未变；随后正式L101已独立集成；不要用任何候选整板覆盖当前正式源。Stage5单独候选继续保留用于差异复核。
+
+L101另有[可打开的SRP1038A-100M/C780184候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)，只改L101及对应库/字段，非目标204个PCB实体保持，L101现已正式批准并集成；不要据此认定完整电源或制造通过。旧Y201候选已补齐库SMD属性，原PCB/原理图未变，旧父基线的几何数据不能替代当前MCU位置检查。
+
+最新正式基线（2026-10-23）：[MCU/局部去耦空间调整](docs/LOCAL_CLEARANCE_REVIEW.md)。完整庭院172对、fresh DRC602+411未连接、ERC0/0/native parity0；正式PCB/身份/网络同步完成。后续从POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE继续，勿用旧候选整板覆盖；C204距离增加后的实际回路与方向标记尚待闭合。下文177/185/280/234/230计数是阶段历史。
+
+2026-10-22最终人工授权：J401_REPLACEMENT=APPROVED；已写入正式源。继续推进完整PCB与制造包到READY_FOR_HUMAN_FABRICATION_APPROVAL，届时STOP供人工验收；不付款、不实际下单。已授权常规工程修复，不再申请同一J401型号批准。
+
+后续已保存[23个测试点净空修复与字段同步](docs/TESTPOINT_CLEARANCE_REVIEW.md)。完整courtyard重叠280对，原生报告634条是受类别上限影响的下界，411未连接、原理图一致性问题0。必须继续关闭实际几何问题，不能以计数达到199不变误判修复无效或遗漏其它重叠。
+
+1. 先读[当前状态](STATUS.md)与[J401正式接受记录](docs/J401_FORMAL_ACCEPTANCE.md)。正式源为`hardware/X100_V1`。原J6013条和J4014条孔/板边问题已关闭，J401板边基准已对齐。
+2. 关闭[USB-only供电事项](docs/USB_CORE_POWER_REVIEW.md)：必须支持USB-A→C与USB-C→C，不以1.5A端口为前提；允许USB-only最高200MHz及最小必要板级适配，VBAT保持400MHz目标。核心功能必须保留，SD非强制且不得拖垮核心；需要分阶段电流、浪涌、反向阻断和双源/SD支路处理，不得直接并USB VBUS和5V_MAIN。隔离旧研究稿ERC0不是功能通过。
+3. 电源ECO后native ERC/XML→PCB同步、逐脚/UUID/封装核对、局部放置复查。正式PCB修改由plant_kicad_v1执行，保留checkpoint；不要使用旧的几何推断网名同步器。
+4. 技术前置条件闭合后执行已授权routing、标准贯通过孔和铺铜。先Buck回路/GND、HSE、USB、BMI088、SD/CAN/ADC，再其它IO；In1保持连续GND参考。
+5. 完成完整ERC/DRC、板边/孔铜/装配/丝印/阻焊、JLC3313叠层及真实制造参数、BOM/CPL，导出并回读Gerber/钻孔、完成最终DFM。只有真实证据覆盖全部要求才宣布可提交打样。
+
+保持45×45mm、H1–H4 Ø4 NPTH和30.5mm孔距、MCU/IMU/气压计冻结选型。J401精确SH/GND局部0.30mm规则有制造依据，全局0.50mm及其它规则保持，不泛化例外、不排除整只连接器。仅学习参考的模块边框、标题、聚类和局部完整电路绘图语法，不复制他人电路。
+
+
+## USB-only Stage3续推进（2026-10-22）
+
+用户确认无开发板/实物条件，不额外购开发板；启动、电流、枚举和切换实验纳入[首板计划](docs/FIRST_BOARD_USB_BRINGUP.md)，继续资料设计和PCB工作。[Stage3具体候选与计算边界](docs/USB_CORE_STAGE3_REVIEW.md)已保存，工程在`hardware/proposals/USB_CORE_STAGE3_NOT_APPROVED/project`。240器件ERC0/0，候选原生parity0、逐焊盘网络和符号绑定核对通过；正式源55项CAD哈希未变。新增39个封装仍在原点、未完成放置，不能自动布线或制造。接下来做紧凑布局/必要局部重排与候选IC焊盘/可采购性核查；新增架构/exact MPN尚未正式采用。J401已批准，不重复申请。
+
+
+## 2026-10-23正式布局基线
+
+见[测试点紧凑化实质检查](docs/COMPACT_PROBE_LAYOUT_REVIEW.md)。完整courtyard重叠234对；所有65测点和引脚网络保持，0.6mm点需要细针探测。正式源hardware/X100_V1及三份BOM/采购表已同步。仍有411未连接；J401/J501/J808组合、ADC/SWD等区域需重新安排，尚无完整可用放置解。USB电源Stage3是历史候选，不能直接覆盖当前正式测试点。
+
+
+## 右侧接口净空正式更新（2026-10-23）
+
+见[八件放置及证据](docs/RIGHT_PORT_CLEARANCE_REVIEW.md)。正式courtyard重叠230对、DRC报告628+411未连接、ERC0/0/native parity0。旧晶体/电源候选不得覆盖整个PCB；新选型应按改动集成并保留本次右侧接口、LED和C111位置。新晶体选型待用户裁决；未进入正式布线或制造放行。

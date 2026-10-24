@@ -1,44 +1,61 @@
-# X100 V1 当前状态（Project Status）
+# X100 V1 当前状态
 
-记录日期：2026-10-13。当前为**布线前教学基线**：`X100_V1_PRE_ROUTING_TEACHING_BASELINE`，来源为`PCB02C2_BLOCKER_CHECKPOINT`。
+当前[统一USB候选](hardware/proposals/USB_CORE_MINIMAL_NOT_APPROVED/README.md)已有 **1398铜线 / 127标准过孔 / 3填充铜区**。HSE三个网络及USB DP/DM全部相关焊盘已通过保存后铜线连通检查，晶振负载电容接地接通。3V3_MCU相关47个焊盘全部接主供电，包含MCU全部VDD和VDDA上游。SD受控电源10/13焊盘接通。仅表示声明的直流连接，不是启动、USB合规或完整电源安全通过。
 
-| 项目 | 当前事实 / 状态 |
+Fresh ERC0 / native parity0，原生DRC无电气铜距、线宽、孔铜、VIP或禁止层报告；仍有618条庭院/丝印/文字报告和 **282项未连接**，不可投板。236电气器件/240实体落板，实际实体及跨面通孔冲突0，Fab壳体间距≥0.20mm。正式201器件/205实体及57项CAD未覆盖，35个新增USB电源器件未正式采用，不采购或下单。
+
+以下为历史阶段记录；与以上冲突时以上为准。
+
+主电源另有[可打开的局部布线检查点](hardware/proposals/MAIN_POWER_PARTIAL_ROUTING_NOT_APPROVED/README.md)：22轨迹/14贯通过孔/1填充In1 GND面，原生确认SW/BOOT与关键GND回流真实连通。完整245实体保留，但174个仍在板外待排；局部DRC149条、未连接报告499封顶，不是完整PCB。未正式推广USB/Y201，正式源仍为POST_L101。
+
+2026-10-23最新正式基线 **POST_L101_FORMAL_BASELINE**：[L101已正式接受](docs/L101_FORMAL_ACCEPTANCE.md)，Bourns SRP1038A-100M/C780184、10µH。ERC0/0、native parity0、其余204个PCB实体/全部网络保持；庭院170对、DRC599条报告+411未连接，0轨迹/过孔/铺铜。实际负载容量筛查2.448A；原3.5A极端风险保留，电源安全与制造包未通过。未采购/未下单。
+
+以下阶段记录以本段为最新状态；旧“当前基线”仅对应记录当时。
+
+最新隔离评估为[USB-only Stage6 合并候选](hardware/proposals/USB_CORE_STAGE6_NOT_APPROVED/README.md)：保留Stage5的外I2C门控、独立PWR指示与SD硬件隔离，组合待批准的Y201及现已批准的L101，并以既有型号180µF合并2×82µF，减少一颗器件和30.9701mm²封装占位。241电气器件、245封装fresh ERC0/0、native parity0；除移除C127外，Stage5全部引脚网络保持。40个新增封装仍未完成放置，联合试排未取得全器件可接受解；轨迹/过孔/铺铜仍0/0/0。启动/挂起、源切换及电源安全未通过。该Stage6检查时正式源55项CAD和Stage5父工程59项CAD未变；随后正式L101已独立集成，未批准器件/架构未推广，不能下单。
+
+新增独立[L101紧凑电感候选](hardware/proposals/L101_BOURNS_SRP1038A_NOT_APPROVED/README.md)：SRP1038A-100M/C780184，保持10µH，原厂焊盘核对、ERC0/0、native parity0、库封装一致性通过，节省40.192mm²。L101现已正式批准并集成；下文为当时的候选检查记录；候选正常/故障计算不代表实测或完整电源通过。Y201历史候选同时补齐SMD库属性，fresh ERC0/0、lib mismatch0，未更换正式晶体。
+
+更新2026-10-23，分支`feature/pcb-fabrication-readiness`。用户已正式批准J401替换，并授权常规工程修复、PCB设计及制造文件生成；不含付款或实际下单。目标仍为完整可提交嘉立创打样的制造包，不在局部完成后宣告成功。
+
+| 项目 | 当前正式源 |
 | --- | --- |
-| 原理图（Schematic） | POST-ECO FROZEN：受控ECO后冻结 |
-| 电气封装（Electrical footprints） | 201 |
-| 器件放置（Placement） | 201/201 COMPLETE |
-| PCB板框 | 45×45 mm，XY边界77.5…122.5 mm |
-| 安装孔（Mounting） | H1–H4，Ø4 NPTH，30.5×30.5 mm孔距 |
-| 装配架构 | 选择性双面装配（double-side selective） |
-| 正式布线（Routing） | NOT STARTED |
-| 走线 / 过孔 / 铺铜（Tracks / Vias / Zones） | 0 / 0 / 0 |
-| 电气规则检查（ERC） | 0 error / 0 warning |
-| 当前真实制造阻塞 | J601/J401两类 / 7条DRC |
-| PRE_ROUTING_FUNCTIONAL_BLOCKER | USB_ONLY_CORE_POWER_SUPPORT=NOT_IMPLEMENTED |
-| USB_ONLY_CORE_POWER_V1_REQUIREMENT | REQUIRED / REQUIRED_FOR_V1 |
-| USB_POWER_ECO_REQUIRED_BEFORE_PCB03 | YES |
-| J601 | 3条：2处板边铜距＋1处H1孔铜距 |
-| J401 | 4条逻辑报告，对应2个物理位置 |
-| 实际装配实体冲突 | 0，仅限已核查的Fab/pad/PTH/孔几何范围 |
-| 库封装不一致 | 0 |
-| PCB02C2_PARTIAL_PASS | YES；局部部分通过，不能当作全板通过 |
-| PCB03_FORMAL_ROUTING_READY | NO |
-| ROUTING_PRECONDITIONS_MET | NO |
-| 制造放行（MANUFACTURING_RELEASE） | NO |
-| 可投板（FABRICATION_READY） | NO |
-| 台架验证 | BENCH_NOT_VALIDATED |
-| 飞行验证 | NOT STARTED / FLIGHT_NOT_VALIDATED |
+| 原理图 | J401受控替换已执行；201个电气器件，fresh ERC0/0 |
+| PCB | 201电气封装+4孔，45×45mm、30.5mm孔距、Ø4 NPTH保持 |
+| J601 | 原3条孔/板边阻塞已关闭，局部重排保持 |
+| J401 | Amphenol124019772112A / C5430474已正式接受；原4条孔铜阻塞关闭，官方板边基准已对齐 |
+| J401局部规则 | 仅SH/GND>=0.30mm，实际0.325mm；全局板边>=0.50mm保持 |
+| 原生DRC | 报告599 violations +411 unconnected；丝印相互类别触及199条报告上限，599不是完整总数；原理图一致性问题0 |
+| 完整courtyard几何 | 170对：L101替换再消除2对，无新配对；剩余仍未通过 |
+| Tracks / vias / zones | 0 /0 /0，正式布线未开始 |
+| USB-only | MCU启动/枚举/刷写/地面站/参数必须；推荐BMI088/SPL06；SD非强制且不得干扰核心；电源ECO未完成 |
+| ROUTING_PRECONDITIONS_MET | NO：USB-only电源/预算/SD支路尚需闭合 |
+| FABRICATION_READY / MANUFACTURING_RELEASE | NO /NO |
+| BENCH /FLIGHT | NOT_VALIDATED /NOT_VALIDATED |
 
-最后基线原生DRC为 **644 violations＋405 unconnected**。405条未连接与尚未布线有关；644项中还包含丝印、装配边界等报告。这里列出的7条是当前真实制造阻塞，不能用7替代原生DRC总数，也不能把它们排除后宣称整板PASS。本轮隔离副本fresh ERC仍为0/0，硬件文件没有改变。USB-only新需求不会凭空增加原生DRC报告数，不能由ERC0/0证明功能满足。
+[J401正式接受及实质检查](docs/J401_FORMAL_ACCEPTANCE.md)与[原生证据](docs/evidence/J401_FORMAL_20261022/REVIEW.json)为当前事实；`hardware/proposals/J401_AMPHENOL_UNAPPROVED`保留历史候选，不能覆盖正式源。采购/BOM/选型记录已同步。连接器样品焊接/保持力、外形/槽孔CAM公差、最终DFM未完成。
 
-microSD的10条板边问题已关闭，保留已接受的位置；J501的官方land证据重新实证、样品机械核验及装机插卡访问仍为`PENDING_SAMPLE_VERIFICATION`。底面净空、USB反灌/热插拔、TVS、启动过冲和温升均待实测。后续入口见[接手指南](HANDOFF.md)与[已知问题](docs/KNOWN_ISSUES.md)。
+后续先完成[USB电源事项](docs/USB_CORE_POWER_REVIEW.md)，再推进routing、回流/信号/热/机械检查及制造包。未通过完整检查不标记PASS。J401不再等待同一器件批准或GCT旧孔铜结论。
 
-## 新增V1要求：USB独立核心供电（USB-only Core Power）
+本轮[测试点净空与同步检查](docs/TESTPOINT_CLEARANCE_REVIEW.md)已正式保存；电气网表/BOM、45mm板框、孔位、J401等功能器件姿态保持。USB-A→C与USB-C→C均为必需兼容目标；USB-only最高200MHz、VBAT400MHz获准继续评估。200MHz静态时钟编译探针通过不代表分阶段启动或USB电流通过。
 
-**当前公开baseline中，USB-only尚不能启动飞控核心。这是KNOWN DESIGN LIMITATION，不是最终X100 V1预期行为。** 当前USB-C为self-powered/data-only，USB_VBUS_RAW没有向5V_MAIN、3V3_MCU或3V3_SENSOR提供预定运行电源；没有VBAT/J808独立供电时，STM32H743不能按设计正常启动。不得把当前baseline直接当作最终USB供电方案。
 
-人工新裁决：`USB_ONLY_CORE_POWER_SUPPORT=REQUIRED_FOR_V1`。未来必须仅插电脑USB、无VBAT即可完成MCU启动、USB设备枚举、DFU/bootloader/firmware flashing、ArduPilot刷写、地面站连接与参数配置、基础桌面调试及SWD/USB必要核心逻辑运行。**这些是需求，不是当前能力或已测试结果。**
+2026-10-22 USB-only续推进：用户确认目前没有开发板/测试条件，不额外购买；电流、枚举和切换波形安排首板Bring-up，不再因缺实板暂停设计。[Stage3候选](docs/USB_CORE_STAGE3_REVIEW.md)已完成240器件ERC0/0、精确27处既有引脚改网及候选PCB逐焊盘/UUID/Value/封装同步检查，原生parity0；正式源55项CAD哈希未变。该候选新增39个封装尚未完成放置，未布线；预配置/挂起仍未资格验证，新电源器件/架构未正式采用。上述正式源状态与NO结论保持。
 
-推荐支持BMI088/SPL06-001核心传感器，但3V3_SENSOR完整域、microSD/3V3_SD是否一起供电必须由后续ECO的电流预算和供电架构裁决，本轮不假定。USB只用于CORE LOGIC / BENCH DEBUG POWER，不供ESC推进、电机、舵机、外部高电流5V、EXT_SWITCH_OUT大负载或其它动力负载。
 
-`USB_ONLY_CORE_POWER_CURRENT_IMPLEMENTATION=NOT_IMPLEMENTED`；`USB_ONLY_CORE_POWER_V1_REQUIREMENT=REQUIRED`；`USB_POWER_ECO_REQUIRED_BEFORE_PCB03=YES`。这是功能/电源架构阻塞，独立于J601/J401共7条制造DRC。两处制造问题即使关闭，也必须先完成独立`USB_ONLY_CORE_POWER_ECO`并通过技术裁决，才能批准PCB03。接手顺序见[接手指南](HANDOFF.md)，详细边界见[电源架构](docs/POWER_ARCHITECTURE.md)。
+2026-10-23当前正式源完成[测试点紧凑化复核](docs/COMPACT_PROBE_LAYOUT_REVIEW.md)：201器件、65测点保持，46点采用已有0.6mm无孔/无Paste封装，五个电源/地测点仍1.5mm；网络、坐标、朝向、非测试点器件与板框/孔位/规则保持。fresh ERC0/0、native parity0。后续从POST_COMPACT_PROBE_FORMAL_BASELINE继续，不覆盖为Stage3旧测点。USB新电源架构仍未正式采用，制造包仍未就绪。
+
+
+2026-10-23新增[Y201紧凑晶体候选](hardware/proposals/Y201_YXC_5032_NOT_APPROVED/README.md)：YXC XG1EL89CSI-111YLC-8M/C5280575，8MHz/20pF保持，R205初装100Ω；独立候选ERC0/0、native parity0、网表和身份保持，courtyard234→224，无新增配对。正式源未替换，待新型号人工裁决；启动/激励首板验证未完成，全板布线与制造包仍未完成。
+
+
+2026-10-23正式源另完成[右侧接口净空](docs/RIGHT_PORT_CLEARANCE_REVIEW.md)：J703/J809之间及J703/安装孔的courtyard冲突关闭，八件放置受控更新；201器件/65测点/网表/身份/规则保持，ERC0/0、native parity0。当前基线POST_RIGHT_PORT_FORMAL_BASELINE；新晶体仍未正式采用。
+
+
+2026-10-23最新正式源完成[两批局部净空](docs/LOCAL_CLEARANCE_REVIEW.md)，32件放置改变、原理图/网络/身份/封装/规则不变；ERC0/0、native parity0。基线更新为POST_PASSIVE_CLEARANCE_FORMAL_BASELINE；当前185对庭院、612条DRC报告及411未连接，仍未布线、不可下单。此前230/234等均为阶段历史值。晶体与USB电源候选仍未正式采用。
+
+
+2026-10-23最新正式基线：POST_SWD_ROW_REFLOW_FORMAL_BASELINE。追加六件放置后庭院177对、DRC608+411未连接、ERC0/0/native parity0；[当前证据](docs/LOCAL_CLEARANCE_REVIEW.md)。此前185/612等是阶段记录。C208值/型号与所有各脚去耦电容、SWD五针及65测点保持；未正式采用新晶体/USB电源，布线及制造包未完成。
+
+
+2026-10-23最新正式基线：POST_MCU_CORRIDOR_SHIFT_FORMAL_BASELINE。26件位置更新，MCU及局部去耦向右1mm；庭院172、DRC602+411未连接、ERC0/0/native parity0。C204留原位，距U201.27为1.825mm，实际供电/GND回路仍待布线审查。6×4mm空白方向标记预留区右移1.25mm，真实轴向/箭头尚未闭合。见[当前布局证据](docs/LOCAL_CLEARANCE_REVIEW.md)。此前177/608等均为历史阶段，仍未布线和生成制造包。

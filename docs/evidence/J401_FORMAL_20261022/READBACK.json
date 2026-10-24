@@ -1,0 +1,85 @@
+{
+  "changed_existing_formal_files": [
+    "04_USB.kicad_sch",
+    "X100_CleanSheet.kicad_dru",
+    "X100_CleanSheet.kicad_pcb",
+    "X100_Physical.kicad_sym"
+  ],
+  "new_formal_file": "X100_Physical.pretty/Official_USB_C_Amphenol_124019772112A.kicad_mod",
+  "moves": {
+    "J401": [
+      [
+        108.5,
+        120.015,
+        0.0,
+        "F.Cu"
+      ],
+      [
+        108.6,
+        120.925,
+        0.0,
+        "F.Cu"
+      ]
+    ],
+    "J501": [
+      [
+        97.325,
+        115.995,
+        0.0,
+        "B.Cu"
+      ],
+      [
+        97.2,
+        115.995,
+        0.0,
+        "B.Cu"
+      ]
+    ],
+    "TP307": [
+      [
+        116.025,
+        120.025,
+        0.0,
+        "B.Cu"
+      ],
+      [
+        116.125,
+        120.025,
+        0.0,
+        "B.Cu"
+      ]
+    ],
+    "R303": [
+      [
+        114.25,
+        120.575,
+        -90.0,
+        "B.Cu"
+      ],
+      [
+        114.45,
+        120.575,
+        -90.0,
+        "B.Cu"
+      ]
+    ],
+    "TP501": [
+      [
+        104.395,
+        119.245,
+        0.0,
+        "B.Cu"
+      ],
+      [
+        109.5,
+        121.2,
+        0.0,
+        "B.Cu"
+      ]
+    ]
+  },
+  "symbol_path_and_fp_uuid_preserved": true,
+  "non_J401_pad_nets_preserved": true,
+  "J401_board_MPN_Manufacturer_LCSC_verified": true,
+  "public_mirror_bytes_match": true
+}

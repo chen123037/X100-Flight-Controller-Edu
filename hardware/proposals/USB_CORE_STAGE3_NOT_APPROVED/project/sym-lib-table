@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "X100_Physical") (type "KiCad") (uri "${KIPRJMOD}/X100_Physical.kicad_sym") (options "") (descr "Exact physical X100 parts")) (lib (name "X100_PowerECO") (type "KiCad") (uri "${KIPRJMOD}/X100_PowerECO.kicad_sym") (options "") (descr "")))
