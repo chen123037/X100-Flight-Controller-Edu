@@ -1,0 +1,511 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "7d5ad4d5-4a21-4af5-be14-28375a552a00"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 7d5ad4d5-4a21-4af5-be14-28375a552a00",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "fa922e0e-0d95-43e4-aa58-dbe4b232b33a"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: fa922e0e-0d95-43e4-aa58-dbe4b232b33a",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "c9c7230b-b8e0-4591-8932-b32d0244b722"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: c9c7230b-b8e0-4591-8932-b32d0244b722",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "edd7b46e-a779-42fd-a43d-46989035b6a2"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: edd7b46e-a779-42fd-a43d-46989035b6a2",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "02e9165e-e55f-4af2-ac1c-9abb16c03a71"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 02e9165e-e55f-4af2-ac1c-9abb16c03a71",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "0f29ddae-2ae4-493f-a027-f0c0e38d7eb1"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 0f29ddae-2ae4-493f-a027-f0c0e38d7eb1",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "1158b32a-0399-405a-a9da-285603223689"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 1158b32a-0399-405a-a9da-285603223689",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "1343a3e5-830b-44d0-9727-eb97fca105cd"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 1343a3e5-830b-44d0-9727-eb97fca105cd",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "17ad553b-d096-469f-bbcb-28b3a69168e5"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 17ad553b-d096-469f-bbcb-28b3a69168e5",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "1bc1443a-c7f5-4b39-b5f9-b6db5042088e"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 1bc1443a-c7f5-4b39-b5f9-b6db5042088e",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "1d9c8795-466f-437a-91f2-b911fdfee464"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 1d9c8795-466f-437a-91f2-b911fdfee464",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "27a22f0b-d7a1-4456-857e-2935e9b00c58"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 27a22f0b-d7a1-4456-857e-2935e9b00c58",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "3cff07bb-262a-45fc-839e-562e676ff230"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 3cff07bb-262a-45fc-839e-562e676ff230",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "400e2aa2-8117-437b-9146-3081e6cf625b"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 400e2aa2-8117-437b-9146-3081e6cf625b",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "4b70c812-7f71-4b5e-9098-a7129449feb7"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 4b70c812-7f71-4b5e-9098-a7129449feb7",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "4b8d8cc3-31d3-461b-b391-586d605a2f23"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 4b8d8cc3-31d3-461b-b391-586d605a2f23",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "66468c33-367f-48e0-986e-4ebc0c3c275b"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 66468c33-367f-48e0-986e-4ebc0c3c275b",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "748678b9-8ae2-49f7-9528-b9dbe5402714"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 748678b9-8ae2-49f7-9528-b9dbe5402714",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "789b8949-2f4e-414b-82d2-4451d8037c80"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 789b8949-2f4e-414b-82d2-4451d8037c80",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "8286ab7f-9167-4ea0-9f6a-39129697968a"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 8286ab7f-9167-4ea0-9f6a-39129697968a",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "864fc6c2-25ae-466d-a2ff-366bac4acab5"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 864fc6c2-25ae-466d-a2ff-366bac4acab5",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "97287fe9-3b56-41d3-9680-a81e72a48eb7"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 97287fe9-3b56-41d3-9680-a81e72a48eb7",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "a0e8f306-c463-483e-a4e0-d9d5f1475f55"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: a0e8f306-c463-483e-a4e0-d9d5f1475f55",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "a89f28e7-6bd1-4d1d-bcd9-b7685b10ca06"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: a89f28e7-6bd1-4d1d-bcd9-b7685b10ca06",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "cb60149c-b727-43e4-aafa-dca9301b5ec9"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: cb60149c-b727-43e4-aafa-dca9301b5ec9",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "cb75989b-dc63-44aa-9c5d-16bc6757a26f"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: cb75989b-dc63-44aa-9c5d-16bc6757a26f",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "ce8bc386-f381-4f5b-95c2-46396f52c1f5"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: ce8bc386-f381-4f5b-95c2-46396f52c1f5",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "d121a416-1258-45dd-88cf-a54af0c0715a"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: d121a416-1258-45dd-88cf-a54af0c0715a",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "e301eb12-4821-4a2b-9857-0d9be4bf8581"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: e301eb12-4821-4a2b-9857-0d9be4bf8581",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "e4b31ec8-c47a-433f-a620-d1dcb1441d99"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: e4b31ec8-c47a-433f-a620-d1dcb1441d99",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "ea1e57dc-d4fa-44da-9d47-34453145d528"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: ea1e57dc-d4fa-44da-9d47-34453145d528",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "ebacdc78-2c12-4871-87fe-288110d760cd"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: ebacdc78-2c12-4871-87fe-288110d760cd",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "save_project",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Saved project to: E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "refill_zones",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Zones refilled successfully (3 zones)",
+      "zoneCount": 3,
+      "_backend": "swig",
+      "_realtime": false,
+      "warnings": [
+        "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change."
+      ],
+      "autoSave": {
+        "saved": false,
+        "warning": "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change.",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+        "diskChangedExternally": true,
+        "expectedMtimeNs": 1792805295950263000,
+        "currentMtimeNs": 1792805296908427000,
+        "memChangesUnsaved": true
+      }
+    }
+  }
+]

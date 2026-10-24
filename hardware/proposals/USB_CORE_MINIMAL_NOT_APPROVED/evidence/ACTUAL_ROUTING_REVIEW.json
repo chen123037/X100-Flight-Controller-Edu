@@ -1,11 +1,11 @@
 {
   "scope": "SAVED_NATIVE_MAIN_POWER_ROUTING_CHECKPOINT_NOT_COMPLETE_POWER_OR_BOARD",
-  "board_sha256": "be74ea213a3e867d8bc4ec8236622b6c9c54a87a9b531f075bc3167ec9646aac",
-  "layout_signature": "4e56aa2c60dd9eed42cc17dde4f30e9f29cafc4baa5ad0740a87b4a1c19fe149",
+  "board_sha256": "884cf31fa961e39a1de56e751196a6b140a5d2770d359c1feeb83435137f17b6",
+  "layout_signature": "c6edceeabd8c6110e63dc49e0fe6215a41c6ea24a7447da0af1e409d624c3ab1",
   "placement_acceptance_preserved": true,
   "formal_57_hashes_unchanged": true,
-  "actual_tracks": 1282,
-  "actual_vias": 118,
+  "actual_tracks": 1398,
+  "actual_vias": 127,
   "actual_zones": 3,
   "zones": [
     {
@@ -28,8 +28,8 @@
     }
   ],
   "actual_track_layers": {
-    "F.Cu": 391,
-    "B.Cu": 867,
+    "F.Cu": 471,
+    "B.Cu": 903,
     "In2.Cu": 24
   },
   "via_geometry": [
@@ -246,6 +246,16 @@
     {
       "net": "GND",
       "position": [
+        90.003199,
+        98.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
         108.75,
         101.6675
       ],
@@ -268,16 +278,6 @@
       "position": [
         102.875,
         86.9
-      ],
-      "diameter_mm": 0.6,
-      "drill_mm": 0.3,
-      "type": 4
-    },
-    {
-      "net": "GND",
-      "position": [
-        90.403199,
-        98.763
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3,
@@ -476,16 +476,6 @@
     {
       "net": "3V3_MCU",
       "position": [
-        120.185237,
-        83.479709
-      ],
-      "diameter_mm": 0.6,
-      "drill_mm": 0.3,
-      "type": 4
-    },
-    {
-      "net": "3V3_MCU",
-      "position": [
         109.039536,
         106.121093
       ],
@@ -526,6 +516,16 @@
     {
       "net": "3V3_MCU",
       "position": [
+        104.6,
+        112.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
         90.8,
         81.175
       ],
@@ -536,8 +536,28 @@
     {
       "net": "3V3_MCU",
       "position": [
+        97.6,
+        111.95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
         107.85,
         84.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        103.62,
+        107.625
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3,
@@ -684,6 +704,46 @@
       "type": 4
     },
     {
+      "net": "3V3_SD",
+      "position": [
+        104.7,
+        117.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        95.95,
+        115.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        96.9,
+        120.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        100.3,
+        119.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
       "net": "5V_CORE",
       "position": [
         119.0,
@@ -786,8 +846,8 @@
     {
       "net": "VBAT_PROTECTED",
       "position": [
-        98.625,
-        101.5
+        101.78,
+        108.75
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3,
@@ -796,8 +856,8 @@
     {
       "net": "VBAT_PROTECTED",
       "position": [
-        101.75,
-        107.8125
+        98.625,
+        101.5
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3,
@@ -968,6 +1028,36 @@
       "position": [
         111.75,
         104.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_XOUT",
+      "position": [
+        89.2,
+        94.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_IN",
+      "position": [
+        93.25,
+        85.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_OUT",
+      "position": [
+        96.55,
+        89.3
       ],
       "diameter_mm": 0.6,
       "drill_mm": 0.3,
@@ -1662,13 +1752,13 @@
     }
   ],
   "ground_filled_polygon_areas_mm2": [
-    1708.112758,
+    1699.368511,
     0.732328
   ],
   "input_plane_geometry": {
     "status": "AGGREGATE_COPPER_GEOMETRY_CLEAR_NOT_THERMAL_OR_POWER_SAFETY_PASS",
     "connected_polygon_count": 1,
-    "area_mm2": 354.140138,
+    "area_mm2": 346.216175,
     "minimum_aggregate_section_mm": 9.478316,
     "minimum_at_x_mm": 90.03,
     "required_aggregate_section_mm": 8.3,
@@ -1720,7 +1810,7 @@
     "length_mm": 59.801403,
     "scope": "Geometric branch isolation only; feedback stability and noise/loop review remain."
   },
-  "remaining": "R201 VDDA input, C132/U111 logic and C135/U108/SD plus SWD_REF supply inputs; sensor/external/USB power logic and all critical/other signals. MCU VDD5/5 and GND6/6 are connected, but full power/USB safety, final DRC and manufacturing remain incomplete.",
+  "remaining": "Sensor filtered input/output distribution, local grounds and enable; SD slew/discharge/default/control and three rail taps; USB-limited input and post-fuse external headers; IMU/SDMMC/CAN/ADC/other interfaces, all remaining connections; full power/current/thermal/fault/loop, SI/DFM/mechanical and manufacturing review. No final PASS.",
   "project_settings_semantically_unchanged": false,
   "AP3V3_local_review": {
     "status": "LOCAL_REGULATOR_CONNECTIVITY_AND_GEOMETRY_CHECKED_NOT_POWER_SAFETY_PASS",
@@ -1743,7 +1833,9 @@
       "C113.1",
       "C114.1",
       "C130.1",
+      "C132.1",
       "C133.1",
+      "C135.1",
       "C203.1",
       "C204.1",
       "C205.1",
@@ -1753,10 +1845,12 @@
       "C402.1",
       "C601.1",
       "C805.1",
+      "J807.1",
       "L102.2",
       "R110.1",
       "R114.1",
       "R118.1",
+      "R201.1",
       "R202.1",
       "R203.1",
       "R207.1",
@@ -1767,9 +1861,11 @@
       "TP105.1",
       "TP203.1",
       "U102.1",
+      "U108.1",
       "U109.8",
       "U109.9",
       "U110.5",
+      "U111.5",
       "U114.5",
       "U201.100",
       "U201.11",
@@ -1782,16 +1878,36 @@
       "U801.14",
       "U801.4"
     ],
-    "not_connected_to_root": [
-      "C132.1",
-      "C135.1",
-      "J807.1",
-      "R201.1",
-      "U108.1",
-      "U111.5"
-    ],
+    "not_connected_to_root": [],
     "root": "C113.1",
-    "scope": "Native DC connectivity only. Unpowered islands remain explicitly listed. No MCU boot, decoupling-loop quality, current/thermal or final power-safety PASS.",
+    "scope": "Native DC connectivity only; current unpowered islands are explicitly listed. No MCU boot, decoupling-loop quality, current/thermal or final power-safety PASS.",
+    "historical_local_route_attempts": [
+      {
+        "pin": "C132.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "C135.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "J807.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "R201.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "U108.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "U111.5",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      }
+    ],
+    "pending_local_route_attempts": [],
     "MCU_all_five_VDD": {
       "net": "3V3_MCU",
       "pins": [
@@ -1823,7 +1939,7 @@
         "C113.1",
         "R201.1"
       ],
-      "connected": false
+      "connected": true
     },
     "backup_domain_input_feed": {
       "net": "3V3_MCU",
@@ -1832,268 +1948,272 @@
         "R202.1"
       ],
       "connected": true
-    },
-    "historical_failed_attempts": [
+    }
+  },
+  "HSE_USB_signal_review": {
+    "scope": "ALL_NAMED_PINS_CONNECTED_IN_SAVED_COPPER;NOT_OSCILLATOR_STARTUP_USB_IMPEDANCE_SI_OR_COMPLIANCE_PASS",
+    "nets": [
       {
-        "label": "VDD50 local bypass",
-        "net": "3V3_MCU",
-        "source": "U201.50",
-        "destination": "C205.1",
-        "reason": "Fixed USB F.Cu corridor separates the pads; nearest legal standard through-via exit is locally enclosed by existing power routing. Requires a local routing/placement adjustment; not claimed connected."
+        "net": "HSE_IN",
+        "pins": [
+          "C213.1",
+          "U201.12",
+          "Y201.1"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "C213.1",
+          "U201.12",
+          "Y201.1"
+        ],
+        "not_connected_to_root": [],
+        "root": "C213.1",
+        "trace_length_mm": 15.167254,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
       },
       {
-        "label": "local ground U201.10",
-        "net": "GND",
-        "source": "U201.10",
-        "destination": "point.",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
+        "net": "HSE_OUT",
+        "pins": [
+          "R205.1",
+          "U201.13"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "R205.1",
+          "U201.13"
+        ],
+        "not_connected_to_root": [],
+        "root": "R205.1",
+        "trace_length_mm": 5.643193,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
       },
       {
-        "label": "GND U201.49",
-        "reason": "('no local via', 'GND', [106.45, 99.975])"
+        "net": "HSE_XOUT",
+        "pins": [
+          "C214.1",
+          "R205.2",
+          "Y201.2"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "C214.1",
+          "R205.2",
+          "Y201.2"
+        ],
+        "not_connected_to_root": [],
+        "root": "C214.1",
+        "trace_length_mm": 9.940645,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
       },
       {
-        "label": "MCU bypass supply C203",
-        "net": "3V3_MCU",
-        "source": "C207.1",
-        "destination": "C203.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "bounded path search timed out, expanded 889856"
-        ]
+        "net": "USB_DP",
+        "pins": [
+          "J401.A6",
+          "J401.B6",
+          "TP403.1",
+          "U201.71",
+          "U401.1"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "J401.A6",
+          "J401.B6",
+          "TP403.1",
+          "U201.71",
+          "U401.1"
+        ],
+        "not_connected_to_root": [],
+        "root": "J401.A6",
+        "trace_length_mm": 38.794468,
+        "track_layers": [
+          "F.Cu"
+        ],
+        "via_count": 0
       },
       {
-        "label": "local ground C132.2",
-        "net": "GND",
-        "source": "C132.2",
-        "destination": "point.",
-        "reason": [
-          "bounded path search timed out, expanded 786432",
-          "bounded path search timed out, expanded 786432"
-        ]
-      },
-      {
-        "label": "local ground C133.2",
-        "net": "GND",
-        "source": "C133.2",
-        "destination": "point.",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load R510.1",
-        "net": "3V3_MCU",
-        "source": "C204.1",
-        "destination": "R510.1",
-        "reason": [
-          "bounded path search timed out, expanded 857088"
-        ]
-      },
-      {
-        "label": "3V3 load C133.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "C133.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load R110.1",
-        "net": "3V3_MCU",
-        "source": "C114.1",
-        "destination": "R110.1",
-        "reason": [
-          "bounded path search timed out, expanded 813056"
-        ]
-      },
-      {
-        "label": "3V3 load R201.1",
-        "net": "3V3_MCU",
-        "source": "C204.1",
-        "destination": "R201.1",
-        "reason": [
-          "bounded path search timed out, expanded 847872"
-        ]
-      },
-      {
-        "label": "3V3 load R509.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "R509.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load U110.5",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "U110.5",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load R202.1",
-        "net": "3V3_MCU",
-        "source": "C207.1",
-        "destination": "R202.1",
-        "reason": [
-          "bounded path search timed out, expanded 863232"
-        ]
-      },
-      {
-        "label": "3V3 load C203.1",
-        "net": "3V3_MCU",
-        "source": "C207.1",
-        "destination": "C203.1",
-        "reason": [
-          "bounded path search timed out, expanded 843776",
-          "bounded path search timed out, expanded 862208"
-        ]
-      },
-      {
-        "label": "3V3 load R203.1",
-        "net": "3V3_MCU",
-        "source": "C207.1",
-        "destination": "R203.1",
-        "reason": [
-          "bounded path search timed out, expanded 862208"
-        ]
-      },
-      {
-        "label": "3V3 load U111.5",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "U111.5",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load U109.9",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "U109.9",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load U109.8",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "U109.8",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load C132.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "C132.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load J807.1",
-        "net": "3V3_MCU",
-        "source": "C204.1",
-        "destination": "J807.1",
-        "reason": [
-          "bounded path search timed out, expanded 816128",
-          "bounded path search timed out, expanded 815104"
-        ]
-      },
-      {
-        "label": "3V3 load R114.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "R114.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load U108.1",
-        "net": "3V3_MCU",
-        "source": "C204.1",
-        "destination": "U108.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "bounded path search timed out, expanded 835584",
-          "bounded path search timed out, expanded 828416"
-        ]
-      },
-      {
-        "label": "3V3 load R207.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "R207.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load C135.1",
-        "net": "3V3_MCU",
-        "source": "C204.1",
-        "destination": "C135.1",
-        "reason": [
-          "bounded path search timed out, expanded 837632",
-          "bounded path search timed out, expanded 839680"
-        ]
-      },
-      {
-        "label": "3V3 load U402.5",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "U402.5",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
-      },
-      {
-        "label": "3V3 load C402.1",
-        "net": "3V3_MCU",
-        "source": "C208.1",
-        "destination": "C402.1",
-        "reason": [
-          "no route in screened endpoint and same-net-exit domain with 8mm margin",
-          "no route in screened endpoint and same-net-exit domain with 8mm margin"
-        ]
+        "net": "USB_DM",
+        "pins": [
+          "J401.A7",
+          "J401.B7",
+          "TP404.1",
+          "U201.70",
+          "U401.2"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "J401.A7",
+          "J401.B7",
+          "TP404.1",
+          "U201.70",
+          "U401.2"
+        ],
+        "not_connected_to_root": [],
+        "root": "J401.A7",
+        "trace_length_mm": 50.165837,
+        "track_layers": [
+          "F.Cu"
+        ],
+        "via_count": 0
       }
     ],
-    "current_pending_supply_pins": [
-      "C132.1",
-      "C135.1",
-      "J807.1",
-      "R201.1",
-      "U108.1",
-      "U111.5"
+    "crystal_capacitor_ground": {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "C213.2",
+        "C214.2"
+      ],
+      "connected": true
+    },
+    "USB_launch_notes": [
+      {
+        "usb_route": "MCU coupled USB_DP",
+        "foreign_net": "3V3_MCU",
+        "bounds": [
+          106.79011721802911,
+          99.8751172180291,
+          107.0498827819709,
+          101.2798827819709
+        ],
+        "clearance_mm": 0.3464172180291172,
+        "scope": "MCU_VDD50_LOCAL_LAUNCH;REQUIRES_FINAL_USB_REVIEW;NOT_UNIFORM_90OHM_OR_COMPLIANCE_PASS"
+      },
+      {
+        "usb_route": "MCU coupled USB_DP",
+        "foreign_net": "3V3_MCU",
+        "bounds": [
+          106.59,
+          100.88000000000001,
+          107.19,
+          101.48
+        ],
+        "clearance_mm": 0.206300000000013,
+        "scope": "MCU_VDD50_LOCAL_LAUNCH;REQUIRES_FINAL_USB_REVIEW;NOT_UNIFORM_90OHM_OR_COMPLIANCE_PASS"
+      }
     ]
+  },
+  "peripheral_supply_progress": {
+    "scope": "PARTIAL_DC_CONNECTIVITY_ONLY;REMAINING_PINS_EXPLICIT",
+    "SD_gated_rail": {
+      "net": "3V3_SD",
+      "pins": [
+        "R501.2"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "C131.1",
+        "C501.1",
+        "C502.1",
+        "J501.4",
+        "R501.2",
+        "R503.1",
+        "R504.1",
+        "R505.1",
+        "TP501.1",
+        "U109.20"
+      ],
+      "not_connected_to_root": [
+        "R502.1",
+        "R506.1",
+        "R507.1"
+      ],
+      "root": "R501.2"
+    },
+    "SD_switch_source": {
+      "net": "3V3_SD_SWITCHED_SRC",
+      "pins": [
+        "U108.6",
+        "R501.1"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "R501.1",
+        "U108.6"
+      ],
+      "not_connected_to_root": [
+        "R511.1"
+      ],
+      "root": "U108.6"
+    },
+    "SD_switch_ground": {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "U108.2"
+      ],
+      "connected": true
+    },
+    "sensor_output_capacitor": {
+      "net": "3V3_SENSOR",
+      "pins": [
+        "U103.5",
+        "C116.1"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "C116.1",
+        "U103.5"
+      ],
+      "not_connected_to_root": [
+        "C301.1",
+        "C302.1",
+        "C303.1",
+        "C304.1",
+        "R301.1",
+        "R302.1",
+        "R303.1",
+        "R304.1",
+        "TP107.1",
+        "TP301.1",
+        "U301.11",
+        "U301.3",
+        "U302.2",
+        "U302.6",
+        "U302.8"
+      ],
+      "root": "U103.5"
+    },
+    "sensor_input": {
+      "net": "SENSOR_LDO_IN",
+      "pins": [
+        "R108.2"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "R108.2"
+      ],
+      "not_connected_to_root": [
+        "C115.1",
+        "TP106.1",
+        "U103.1"
+      ],
+      "root": "R108.2"
+    },
+    "SD_CT": {
+      "net": "SD_SLEW",
+      "pins": [
+        "U108.4",
+        "C134.1"
+      ],
+      "connected": false
+    }
   },
   "MCU3V3_plane_geometry": {
     "status": "MAIN_AGGREGATE_PLANE_GEOMETRY_CHECKED_NOT_POWER_SAFETY_PASS",
     "connected_polygon_count": 1,
-    "largest_area_mm2": 1073.586976,
+    "largest_area_mm2": 1066.427341,
     "vertical_aggregate_minimum_mm": 13.549072,
     "vertical_x_range_mm": [
       94,
@@ -2846,6 +2966,22 @@
       "native_track_mask_opening": false
     },
     {
+      "uuid": "2345dfea-7d36-474a-b51d-7ee100167faf",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "609be6a2-d48a-4310-a401-337f6d8ee4b9",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
       "uuid": "0d65fd4f-682b-4e08-8fd4-9b22373d4d44",
       "net": "VBAT_FUSED",
       "layer": "F.Cu",
@@ -3159,6 +3295,6 @@
     "silk_over_copper": 199,
     "silk_overlap": 199
   },
-  "DRC_unconnected": 316,
+  "DRC_unconnected": 282,
   "schematic_parity": 0
 }

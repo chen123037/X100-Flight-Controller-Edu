@@ -1,7 +1,7 @@
 {
-  "board_sha256": "be74ea213a3e867d8bc4ec8236622b6c9c54a87a9b531f075bc3167ec9646aac",
+  "board_sha256": "884cf31fa961e39a1de56e751196a6b140a5d2770d359c1feeb83435137f17b6",
   "minimum_foreign_native_copper_clearance_mm": 0.206300000000013,
-  "minimum_outside_local_MCU50_breakout_mm": 0.5128265936525898,
+  "minimum_outside_local_MCU50_breakout_mm": 0.512826593652592,
   "local_breakout_window_mm": [
     106.5,
     99.8,
@@ -9,5 +9,31 @@
     102.5
   ],
   "native_rule_minimum_mm": 0.2,
-  "scope": "Future USB reservation versus saved traces/vias; local MCU50 fanout uses existing native .20mm. No final SI/impedance PASS."
+  "local_under_0p5mm": [
+    {
+      "net": "3V3_MCU",
+      "uuid": "1bd82825-c856-4ff9-adba-a3f82b42345e",
+      "bounds": [
+        106.79000002204857,
+        99.87500002204857,
+        107.04999997795143,
+        101.27999997795143
+      ],
+      "clearance_mm": 0.34630002204858096,
+      "inside_local_window": true
+    },
+    {
+      "net": "3V3_MCU",
+      "uuid": "eafad791-dfd9-4ac3-b500-cb9fac5bc2cc",
+      "bounds": [
+        106.59,
+        100.88000000000001,
+        107.19,
+        101.48
+      ],
+      "clearance_mm": 0.206300000000013,
+      "inside_local_window": true
+    }
+  ],
+  "scope": "ACTUAL_SAVED_F_CU_USB_VERSUS_FOREIGN_TRACES_AND_VIAS;MCU50_LOCAL_LAUNCH_USES_EXISTING_0p20_RULE;PADS_CHECKED_BY_NATIVE_DRC;NOT_USB_SI_IMPEDANCE_OR_COMPLIANCE_PASS"
 }
