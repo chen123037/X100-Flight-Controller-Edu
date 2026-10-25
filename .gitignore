@@ -25,3 +25,6 @@ _autosave-*
 checkpoints/
 local-audit/
 temporary-review/
+
+# Explicitly published c8 independent-review download only
+!hardware/reviews/X100_C8_LAYOUT_REVIEW/download/X100_中文评审包_c8.zip

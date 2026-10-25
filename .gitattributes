@@ -6,3 +6,8 @@
 sym-lib-table -text
 fp-lib-table -text
 *.png binary
+
+# Frozen review packet: preserve exact bytes and its checksum manifest.
+hardware/reviews/X100_C8_LAYOUT_REVIEW/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.zip binary
+*.pdf binary
