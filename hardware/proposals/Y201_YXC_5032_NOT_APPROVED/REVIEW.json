@@ -1,0 +1,157 @@
+{
+  "scope": "Y201_COMPACT_CRYSTAL_CANDIDATE_NOT_APPROVED",
+  "executor": "plant_kicad_v1",
+  "electrical_components": 201,
+  "PCB_footprints": 205,
+  "net_changes": 0,
+  "source_symbol_UUID_changes": 0,
+  "PCB_UUID_or_path_changes": 0,
+  "placement_changes": [
+    "Y201",
+    "C213",
+    "C214"
+  ],
+  "non_target_201_footprints_preserved": true,
+  "only_BOM_changes": [
+    "Y201:TAITIEN XJHCELNANF-8M ->YXC XG1EL89CSI-111YLC-8M C5280575",
+    "R205:120ohm ->100ohm initial value; same0805"
+  ],
+  "Y201_pad_net_check": [
+    {
+      "number": "1",
+      "net": "HSE_IN",
+      "drill": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.7,
+        2.4
+      ]
+    },
+    {
+      "number": "2",
+      "net": "HSE_XOUT",
+      "drill": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        1.7,
+        2.4
+      ]
+    }
+  ],
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "courtyard_pairs_before": 234,
+  "courtyard_pairs_after": 224,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C105",
+      "Y201"
+    ],
+    [
+      "C213",
+      "C804"
+    ],
+    [
+      "C213",
+      "Y201"
+    ],
+    [
+      "C214",
+      "R205"
+    ],
+    [
+      "C214",
+      "Y201"
+    ],
+    [
+      "R106",
+      "Y201"
+    ],
+    [
+      "R205",
+      "Y201"
+    ],
+    [
+      "R601",
+      "Y201"
+    ],
+    [
+      "TP208",
+      "Y201"
+    ],
+    [
+      "U601",
+      "Y201"
+    ]
+  ],
+  "Y201_courtyard_area_before_mm2": 85.0401000000002,
+  "Y201_courtyard_area_after_mm2": 27.732600000000023,
+  "Y201_courtyard_area_saved_mm2": 57.307500000000175,
+  "reported_DRC": 629,
+  "unconnected": 411,
+  "npth_courtyard_count": 14,
+  "formal_changed": [],
+  "clock_terminal_separation": [
+    {
+      "connection": "U201.12--Y201.1",
+      "old_pad_edge_distance_mm": 2.8463637223801888,
+      "new_pad_edge_distance_mm": 1.151079858255715
+    },
+    {
+      "connection": "R205.1--U201.13",
+      "old_pad_edge_distance_mm": 1.3750000000000002,
+      "new_pad_edge_distance_mm": 1.3750000000000002
+    },
+    {
+      "connection": "R205.2--Y201.2",
+      "old_pad_edge_distance_mm": 1.7000000000000026,
+      "new_pad_edge_distance_mm": 1.3871422173450676
+    },
+    {
+      "connection": "C213.1--Y201.1",
+      "old_pad_edge_distance_mm": 1.5750000000000028,
+      "new_pad_edge_distance_mm": 0.7749999999999915
+    },
+    {
+      "connection": "C214.1--Y201.2",
+      "old_pad_edge_distance_mm": 1.5750000000000028,
+      "new_pad_edge_distance_mm": 0.7750000000000057
+    }
+  ],
+  "not_actual_routed_trace_lengths": true,
+  "parameter_screen": "CALCULATED_ONLY; SEE_Y201_5032_PARAMETER_SCREEN.json",
+  "oscillation_or_drive_measured": false,
+  "clock_frequency_Hz": 8000000,
+  "firmware_clock_parameter_change_required": false,
+  "FABRICATION_READY": false,
+  "FORMAL_REPLACEMENT_APPROVED": false,
+  "library_footprint_mismatch": 0,
+  "SMD_attribute_metadata_refresh": "2026-10-23; library SMD flag corrected through plant_kicad_v1; PCB/schematic/MPN/net/geometry unchanged",
+  "geometry_parent_baseline": "POST_COMPACT_PROBE_FORMAL_BASELINE; historical, not current MCU-corridor baseline",
+  "formal_source_not_touched_by_this_refresh": true
+}

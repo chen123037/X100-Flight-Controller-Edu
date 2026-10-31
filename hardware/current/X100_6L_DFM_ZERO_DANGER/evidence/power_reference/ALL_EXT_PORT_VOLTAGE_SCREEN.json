@@ -1,0 +1,237 @@
+{
+  "PCB_sha256": "d20522fe43098a0189f4efa94b1c7fbe709dc9468d5846a9bb14e3eca66ac790",
+  "classification": "ENGINEERING_DC_SCREEN_NOT_MEASURED_OR_GUARANTEED_BOUND",
+  "scope": "Five actual EXT_5V ports; each separately1A plus retained core/sensor load,6S averaged return,80C copper",
+  "shared_EXTERNAL_budget_A": 1.0,
+  "simultaneous_1A_per_port_permitted": false,
+  "positive_path_source": "ALL_EXT_PORT_POSITIVE_PATHS.json",
+  "ground_model_sources": [
+    "ground_dc_mesh_0p2.json",
+    "ground_dc_mesh_0p16.json"
+  ],
+  "main_feed_R80_ohm_estimate": 0.012528629204225379,
+  "U104_Ron_assumption_ohm": 0.135,
+  "feedback_derivation": "Vport=(Vref-(G_R106-G_U101))*(1+R105/R106)-positive_drop-(Gport-G_R106)",
+  "divider_gain_at_low_resistor_corner": 6.32261086198306,
+  "rows": [
+    {
+      "port": "J601.1",
+      "ground_pin": "J601.4",
+      "grid_mm": 0.2,
+      "EXT_positive_R80_mohm_estimate": 48.60453092703949,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 9.074938412897405,
+      "feedback_ground_minus_U101_ground_mV": 0.5327755857079501,
+      "Vport_low_corner_model_V": 4.787868562908035,
+      "margin_vs_example4p75V_mV": 37.86856290803531,
+      "KCL_residual_A": 1.0759615420852242e-10
+    },
+    {
+      "port": "J601.1",
+      "ground_pin": "J601.4",
+      "grid_mm": 0.16,
+      "EXT_positive_R80_mohm_estimate": 48.60453092703949,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 7.650990720813782,
+      "feedback_ground_minus_U101_ground_mV": 0.7015037864648147,
+      "Vport_low_corner_model_V": 4.788225707845291,
+      "margin_vs_example4p75V_mV": 38.22570784529056,
+      "KCL_residual_A": 1.76670233997811e-10
+    },
+    {
+      "port": "J701.1",
+      "ground_pin": "J701.6",
+      "grid_mm": 0.2,
+      "EXT_positive_R80_mohm_estimate": 39.07845459048964,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 8.028428379876027,
+      "feedback_ground_minus_U101_ground_mV": 0.3316498637935508,
+      "Vport_low_corner_model_V": 4.799712788951607,
+      "margin_vs_example4p75V_mV": 49.71278895160669,
+      "KCL_residual_A": 7.475620122932014e-11
+    },
+    {
+      "port": "J701.1",
+      "ground_pin": "J701.6",
+      "grid_mm": 0.16,
+      "EXT_positive_R80_mohm_estimate": 39.07845459048964,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 7.536271128027001,
+      "feedback_ground_minus_U101_ground_mV": 0.4901406556257742,
+      "Vport_low_corner_model_V": 4.799202870601493,
+      "margin_vs_example4p75V_mV": 49.20287060149331,
+      "KCL_residual_A": 1.2588596831619725e-10
+    },
+    {
+      "port": "J702.1",
+      "ground_pin": "J702.6",
+      "grid_mm": 0.2,
+      "EXT_positive_R80_mohm_estimate": 37.76134638189452,
+      "serial_via_transitions": 2,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 6.689258154736326,
+      "feedback_ground_minus_U101_ground_mV": 0.602976574726528,
+      "Vport_low_corner_model_V": 4.800653574175651,
+      "margin_vs_example4p75V_mV": 50.65357417565064,
+      "KCL_residual_A": 7.451639305600111e-11
+    },
+    {
+      "port": "J702.1",
+      "ground_pin": "J702.6",
+      "grid_mm": 0.16,
+      "EXT_positive_R80_mohm_estimate": 37.76134638189452,
+      "serial_via_transitions": 2,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 8.120689696602467,
+      "feedback_ground_minus_U101_ground_mV": 0.7967124181083953,
+      "Vport_low_corner_model_V": 4.797997226286062,
+      "margin_vs_example4p75V_mV": 47.9972262860624,
+      "KCL_residual_A": 1.3192602565936795e-10
+    },
+    {
+      "port": "J703.1",
+      "ground_pin": "J703.6",
+      "grid_mm": 0.2,
+      "EXT_positive_R80_mohm_estimate": 57.669756081637246,
+      "serial_via_transitions": 4,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 10.059297084923482,
+      "feedback_ground_minus_U101_ground_mV": 0.6362655793194492,
+      "Vport_low_corner_model_V": 4.777164652123697,
+      "margin_vs_example4p75V_mV": 27.16465212369723,
+      "KCL_residual_A": 7.84043940882384e-11
+    },
+    {
+      "port": "J703.1",
+      "ground_pin": "J703.6",
+      "grid_mm": 0.16,
+      "EXT_positive_R80_mohm_estimate": 57.669756081637246,
+      "serial_via_transitions": 4,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 8.2462789670903,
+      "feedback_ground_minus_U101_ground_mV": 0.8341529110754957,
+      "Vport_low_corner_model_V": 4.777726505648321,
+      "margin_vs_example4p75V_mV": 27.72650564832091,
+      "KCL_residual_A": 1.5490986271515794e-10
+    },
+    {
+      "port": "J704.1",
+      "ground_pin": "J704.4",
+      "grid_mm": 0.2,
+      "EXT_positive_R80_mohm_estimate": 24.820877799685036,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 14.243012341698007,
+      "feedback_ground_minus_U101_ground_mV": 0.36991424179010035,
+      "Vport_low_corner_model_V": 4.8075138510086415,
+      "margin_vs_example4p75V_mV": 57.51385100864148,
+      "KCL_residual_A": 8.808020979245157e-11
+    },
+    {
+      "port": "J704.1",
+      "ground_pin": "J704.4",
+      "grid_mm": 0.16,
+      "EXT_positive_R80_mohm_estimate": 24.820877799685036,
+      "serial_via_transitions": 3,
+      "minimum_routed_width_mm": 1.2,
+      "main_shared_load_A": 1.8829863469387755,
+      "external_single_port_load_A": 1.0,
+      "port_ground_minus_feedback_ground_mV": 13.823392595064094,
+      "feedback_ground_minus_U101_ground_mV": 0.5322124551022365,
+      "Vport_low_corner_model_V": 4.8069073223089065,
+      "margin_vs_example4p75V_mV": 56.907322308906494,
+      "KCL_residual_A": 1.234221613799491e-10
+    }
+  ],
+  "port_summary": [
+    {
+      "port": "J601.1",
+      "model_V_range_across_two_meshes": [
+        4.787868562908035,
+        4.788225707845291
+      ],
+      "minimum_routed_width_mm": 1.2,
+      "serial_via_transitions": 3
+    },
+    {
+      "port": "J701.1",
+      "model_V_range_across_two_meshes": [
+        4.799202870601493,
+        4.799712788951607
+      ],
+      "minimum_routed_width_mm": 1.2,
+      "serial_via_transitions": 3
+    },
+    {
+      "port": "J702.1",
+      "model_V_range_across_two_meshes": [
+        4.797997226286062,
+        4.800653574175651
+      ],
+      "minimum_routed_width_mm": 1.2,
+      "serial_via_transitions": 2
+    },
+    {
+      "port": "J703.1",
+      "model_V_range_across_two_meshes": [
+        4.777164652123697,
+        4.777726505648321
+      ],
+      "minimum_routed_width_mm": 1.2,
+      "serial_via_transitions": 4
+    },
+    {
+      "port": "J704.1",
+      "model_V_range_across_two_meshes": [
+        4.8069073223089065,
+        4.8075138510086415
+      ],
+      "minimum_routed_width_mm": 1.2,
+      "serial_via_transitions": 3
+    }
+  ],
+  "J703_native_path_minus_earlier_path_mV_at1A": -0.3107007166666467,
+  "earlier_larger_J703_positive_drop_retained": true,
+  "J809_not_EXT5V": {
+    "pads1_2_4": "intentionally unconnected in actual netlist",
+    "pad3": "CURRENT_IN_RAW",
+    "pads5_6": "GND"
+  },
+  "findings": [
+    "J703 remains the lowest modeled voltage among the five tested single-port cases.",
+    "All five selected power paths have1.2mm minimum track width; offset landings and serial vias are explicitly listed.",
+    "No confirmed new copper/connection fault or justified new component change follows from this bounded screen."
+  ],
+  "limits": [
+    "Not a guaranteed4.75V minimum. Cable/contact/solder/ripple/transient/FBbias are not bounded.",
+    "Nominal copper and20um via-wall assumptions, whole primitive resistance paths and four-sheet ground approximation are not a calibrated electrothermal model.",
+    "Two meshes assess numerical sensitivity only; they do not qualify the model or establish error bars.",
+    "Single-port test cases are not all distributed loads, all battery levels, all faults or all actual peripheral specifications.",
+    "A0.20mm feedback sampling spur is not the1A power trunk. Do not widen sampling stubs or count serial vias as parallel conductors."
+  ],
+  "CAD_or_BOM_changed": false,
+  "POWER_SAFETY_REVIEW": "NOT_SIGNED_OFF",
+  "manufacturing_release": false
+}

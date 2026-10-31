@@ -1,0 +1,160 @@
+{
+  "source_PCB_sha256": "d20522fe43098a0189f4efa94b1c7fbe709dc9468d5846a9bb14e3eca66ac790",
+  "current_loss_calculation_rebound": true,
+  "retained_continuous_A": 1.8829863469387755,
+  "retained_capacity_A": 2.4478822510204084,
+  "required_effective_thermal_targets": [
+    {
+      "part": "D103",
+      "load_case": "retained_continuous",
+      "main_output_A": 1.8829863469387755,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 1.2619006603940073,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 0,
+      "project_Tj_target_C": 125,
+      "effective_R_limit_from_Ttarget_CperW": 59.43415544024084,
+      "retained_older_R_target_CperW": 40,
+      "stricter_R_target_CperW": 40,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "D103",
+      "load_case": "retained_continuous",
+      "main_output_A": 1.8829863469387755,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 1.2619006603940073,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 15,
+      "project_Tj_target_C": 125,
+      "effective_R_limit_from_Ttarget_CperW": 47.547324352192675,
+      "retained_older_R_target_CperW": 40,
+      "stricter_R_target_CperW": 40,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "U101",
+      "load_case": "retained_continuous",
+      "main_output_A": 1.8829863469387755,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 0.6564546052977361,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 0,
+      "project_Tj_target_C": 110,
+      "effective_R_limit_from_Ttarget_CperW": 91.40007475884322,
+      "retained_older_R_target_CperW": null,
+      "stricter_R_target_CperW": 91.40007475884322,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "U101",
+      "load_case": "retained_continuous",
+      "main_output_A": 1.8829863469387755,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 0.6564546052977361,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 15,
+      "project_Tj_target_C": 110,
+      "effective_R_limit_from_Ttarget_CperW": 68.55005606913241,
+      "retained_older_R_target_CperW": null,
+      "stricter_R_target_CperW": 68.55005606913241,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "D103",
+      "load_case": "capacity_plus30percent",
+      "main_output_A": 2.4478822510204084,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 1.5902586494948685,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 0,
+      "project_Tj_target_C": 125,
+      "effective_R_limit_from_Ttarget_CperW": 47.162139331122695,
+      "retained_older_R_target_CperW": 40,
+      "stricter_R_target_CperW": 40,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "D103",
+      "load_case": "capacity_plus30percent",
+      "main_output_A": 2.4478822510204084,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 1.5902586494948685,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 15,
+      "project_Tj_target_C": 125,
+      "effective_R_limit_from_Ttarget_CperW": 37.72971146489816,
+      "retained_older_R_target_CperW": 40,
+      "stricter_R_target_CperW": 37.72971146489816,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "U101",
+      "load_case": "capacity_plus30percent",
+      "main_output_A": 2.4478822510204084,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 0.8811524188573111,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 0,
+      "project_Tj_target_C": 110,
+      "effective_R_limit_from_Ttarget_CperW": 68.09264630721744,
+      "retained_older_R_target_CperW": null,
+      "stricter_R_target_CperW": 68.09264630721744,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    },
+    {
+      "part": "U101",
+      "load_case": "capacity_plus30percent",
+      "main_output_A": 2.4478822510204084,
+      "Vin_V": 25.2,
+      "frequency_Hz": 600000.0,
+      "power_engineering_guard_W": 0.8811524188573111,
+      "Ta_C": 50,
+      "neighbor_rise_sensitivity_C": 15,
+      "project_Tj_target_C": 110,
+      "effective_R_limit_from_Ttarget_CperW": 51.06948473041308,
+      "retained_older_R_target_CperW": null,
+      "stricter_R_target_CperW": 51.06948473041308,
+      "actual_board_Rtheta_achieved": "NOT_ESTABLISHED"
+    }
+  ],
+  "actual_local_geometry": "ACTUAL_LOCAL_THERMAL_PATH_GEOMETRY.json",
+  "local_dielectric_path_sensitivities": [
+    {
+      "path": "D103_K_to_In4_through_dielectric",
+      "k_FR4_assumed_WmK": 0.25,
+      "overlap_area_mm2": 118.95,
+      "dielectric_mm": 0.09939999999999993,
+      "one_dimensional_estimate_CperW": 3.3425809163514058
+    },
+    {
+      "path": "D103_K_to_In4_through_dielectric",
+      "k_FR4_assumed_WmK": 0.35,
+      "overlap_area_mm2": 118.95,
+      "dielectric_mm": 0.09939999999999993,
+      "one_dimensional_estimate_CperW": 2.3875577973938613
+    }
+  ],
+  "six_via_axial_short_span_ideal_parallel_CperW": 2.6462059849013055,
+  "thermal_metric_limit": "TI RthetaJCbottom3.6 and ST RthetaJC1.6 are separate package test metrics. Do not blindly add/subtract them into a guaranteed board-to-air resistance or inferred temperature.",
+  "what_this_resolves": [
+    "U101has6actualdirectEP9groundviasratherthanonlylongsurfacegroundnecks.",
+    "D103entire118p95mm2TabprojectionoverlapsactualIn4GNDacross0p0994mmFR4,withoutan electricalSW-to-GNDconnection.",
+    "CurrentlossguardandprojectlimitsboundtorealcurrentPCB; no quietenvironment/load reduction."
+  ],
+  "what_is_still_unproven": [
+    "Wholeboardplane spreading/air boundary/mutualsource heating underretained50C andloads.",
+    "Measured steadyjunction/case/sensor temperatures and ripple/shortcircuit behavior."
+  ],
+  "pre_fabrication_decision": "No new mandatory exact PCB copper/component change was established by this local-path check. Wholethermal design risk acceptance remains OPEN; not interchangeable with missingphysicaltest or a temperaturePASS.",
+  "old_3p5A_4p475A_peak_risk_retained": true,
+  "POWER_SAFETY_REVIEW": "NOT_SIGNED_OFF",
+  "manufacturing_release": false
+}

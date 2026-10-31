@@ -1,0 +1,468 @@
+{
+  "scope": "F_CU_ONLY_ROUTE_SPACE_WITNESS_NOT_APPLIED",
+  "source_board_sha256": "72ccb5aa9895967edf1e1afc270690c517337b87b1ed2c441d301a2424282c70",
+  "moves": {
+    "C205": {
+      "x": 109.675,
+      "y": 100.425,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "D202": {
+      "x": 112.6,
+      "y": 98.25,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R403": {
+      "x": 108.85,
+      "y": 119.9,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "TP402": {
+      "x": 110.3,
+      "y": 121.1,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "C208": {
+      "x": 112.25,
+      "y": 102.75,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R103": {
+      "x": 109.2,
+      "y": 103,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "R303": {
+      "x": 112.65,
+      "y": 100,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R102": {
+      "x": 102.45,
+      "y": 105.875,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "R206": {
+      "x": 103.675,
+      "y": 103.35,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP305": {
+      "x": 104.3,
+      "y": 104.6,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R510": {
+      "x": 105.2,
+      "y": 106,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "C132": {
+      "x": 105.4,
+      "y": 107.625,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R511": {
+      "x": 110.4,
+      "y": 110.375,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "C401": {
+      "x": 112.75,
+      "y": 111.15,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R508": {
+      "x": 112,
+      "y": 108.775,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "TP205": {
+      "x": 106,
+      "y": 104.8,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "D201": {
+      "x": 113.4,
+      "y": 120.1,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "C402": {
+      "x": 114.775,
+      "y": 120.55,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "TP307": {
+      "x": 110.3,
+      "y": 119.3,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "TP309": {
+      "x": 110.1,
+      "y": 99.1,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP110": {
+      "x": 87.6,
+      "y": 112.15,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "R302": {
+      "x": 110.4,
+      "y": 106.05,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "R507": {
+      "x": 114.8,
+      "y": 108.8,
+      "rotation": 90,
+      "layer": "F.Cu"
+    }
+  },
+  "placement_conflicts": [],
+  "routing_conflicts": [],
+  "routes": [
+    {
+      "label": "MCU coupled USB_DP",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          108.625,
+          88.3
+        ],
+        [
+          107.9,
+          88.3
+        ],
+        [
+          107.7,
+          88.37315
+        ],
+        [
+          106.97315,
+          88.37315
+        ],
+        [
+          106.97315,
+          90.22315
+        ],
+        [
+          104.62315,
+          90.22315
+        ],
+        [
+          104.62315,
+          96.22325366850569
+        ],
+        [
+          107.64989633149432,
+          99.25
+        ],
+        [
+          107.47315,
+          99.42674633149431
+        ],
+        [
+          107.47315,
+          104.87325366850567
+        ],
+        [
+          107.67314999999999,
+          105.07325366850567
+        ],
+        [
+          107.67314999999999,
+          113.5
+        ]
+      ]
+    },
+    {
+      "label": "MCU coupled USB_DM",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          108.625,
+          88.8
+        ],
+        [
+          107.9,
+          88.8
+        ],
+        [
+          107.7,
+          88.72685
+        ],
+        [
+          107.32685000000001,
+          88.72685
+        ],
+        [
+          107.32685000000001,
+          90.57685000000001
+        ],
+        [
+          104.97685,
+          90.57685000000001
+        ],
+        [
+          104.97685,
+          96.07674633149432
+        ],
+        [
+          108.1501036685057,
+          99.25
+        ],
+        [
+          107.82685000000001,
+          99.57325366850569
+        ],
+        [
+          107.82685000000001,
+          104.72674633149433
+        ],
+        [
+          108.02685,
+          104.92674633149433
+        ],
+        [
+          108.02685,
+          113.5
+        ]
+      ]
+    },
+    {
+      "label": "DP ESD launch",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          107.67314999999999,
+          113.5
+        ],
+        [
+          107.67314999999999,
+          113.6
+        ],
+        [
+          105.925,
+          113.6
+        ],
+        [
+          105.925,
+          114.625
+        ]
+      ]
+    },
+    {
+      "label": "DM ESD launch",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          108.02685,
+          113.5
+        ],
+        [
+          108.02685,
+          114.2
+        ],
+        [
+          107.825,
+          114.625
+        ]
+      ]
+    },
+    {
+      "label": "DP ESD to probe",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          105.925,
+          114.625
+        ],
+        [
+          105.925,
+          115.225
+        ],
+        [
+          106.6,
+          115.9
+        ]
+      ]
+    },
+    {
+      "label": "DM ESD to probe",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          107.825,
+          114.625
+        ],
+        [
+          107.825,
+          115.575
+        ],
+        [
+          107.5,
+          115.9
+        ]
+      ]
+    },
+    {
+      "label": "DP probe to socket",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          106.6,
+          115.9
+        ],
+        [
+          106.6,
+          116.1
+        ],
+        [
+          106.92315,
+          116.42315
+        ],
+        [
+          106.92315,
+          116.8
+        ],
+        [
+          106.85,
+          117.725
+        ]
+      ]
+    },
+    {
+      "label": "DM probe to socket",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          107.5,
+          115.9
+        ],
+        [
+          107.5,
+          116.1
+        ],
+        [
+          107.27685,
+          116.32315
+        ],
+        [
+          107.27685,
+          116.8
+        ],
+        [
+          107.35,
+          117.725
+        ]
+      ]
+    },
+    {
+      "label": "DP dual-row merge",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          106.85,
+          117.725
+        ],
+        [
+          106.85,
+          118.3
+        ],
+        [
+          107.1,
+          118.55
+        ],
+        [
+          107.6,
+          118.55
+        ],
+        [
+          107.6,
+          118.975
+        ]
+      ]
+    },
+    {
+      "label": "DM dual-row perimeter merge",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "points": [
+        [
+          106.6,
+          118.975
+        ],
+        [
+          106.6,
+          119.7
+        ],
+        [
+          112.35,
+          119.7
+        ],
+        [
+          112.35,
+          116.6
+        ],
+        [
+          107.35,
+          116.6
+        ],
+        [
+          107.35,
+          117.725
+        ]
+      ]
+    }
+  ],
+  "main_pair_length_mm": 29.320458146424492,
+  "DM_perimeter_branch_mm": 15.700000000000017,
+  "notes": [
+    "No via or inner/back USB trace; retain width0.1537/gap0.20 and copper0.20",
+    "Dense MCU corner, USB ESD/test-pad and TypeC dual-row launches are distinct from the homogeneous nominal90ohm line; no USB compliance PASS",
+    "Main paired path under LQFP body references continuous In1 GND; component plastic is not copper",
+    "Unpaired TypeC perimeter branch must be reviewed as a USB-FS capacitive stub; not a USB-HS route"
+  ]
+}

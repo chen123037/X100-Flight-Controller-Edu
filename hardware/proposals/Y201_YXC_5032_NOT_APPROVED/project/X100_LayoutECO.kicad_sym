@@ -1,0 +1,89 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (symbol "YXC_XG1EL89CSI_111YLC_8M"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "Y"
+      (at 2.54 0 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "YXC_XG1EL89CSI_111YLC_8M"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "X100_Physical:YXC_YSX530GA_5032_2Pad_NoVIP"
+      (at 0 -5.08 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Datasheet" "https://www.yxc.hk/uploadfiles/2024/02/20240222145814706.pdf"
+      (at 0 -7.62 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (property "Description" "YXC XG1EL89CSI-111YLC-8M / LCSC C5280575;8MHz20pF two-terminal passive crystal; candidate not approved"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+      (hide yes)
+    )
+    (symbol "YXC_XG1EL89CSI_111YLC_8M_0_1"
+      (rectangle
+        (start -1.8 -1.3)
+        (end 1.8 1.3)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.2 -1.6)
+          (xy -2.2 1.6)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.2 -1.6)
+          (xy 2.2 1.6)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "YXC_XG1EL89CSI_111YLC_8M_1_1"
+      (pin passive line
+        (at -3.81 0 0)
+        (length 1.27)
+        (name "1"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "1"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (pin passive line
+        (at 3.81 0 180)
+        (length 1.27)
+        (name "2"
+          (effects (font (size 1.27 1.27)))
+        )
+        (number "2"
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+  )
+)

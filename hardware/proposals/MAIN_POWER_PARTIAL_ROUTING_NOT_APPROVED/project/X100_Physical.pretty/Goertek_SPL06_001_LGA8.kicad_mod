@@ -1,0 +1,95 @@
+(footprint "Goertek_SPL06_001_LGA8"
+	(version 20241229)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(descr "Goertek V7.0 Fig3/Fig5:bottom-to-top mirrored;0.65pitch/1.45row;0.35square contacts;project0.05mm land extension")
+	(attr smd)
+	(property "Reference" "REF**"
+		(layer "F.SilkS")
+		(at 0 -3.0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(property "Value" "SPL06-001"
+		(layer "F.Fab")
+		(at 0 3.0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.25 -1.0)
+		(end 1.25 1.0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(pad "1" smd rect
+		(at 0.975 0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 0.32499999999999996 0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at -0.32500000000000007 0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at -0.9750000000000002 0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "8" smd rect
+		(at 0.975 -0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "7" smd rect
+		(at 0.32499999999999996 -0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd rect
+		(at -0.32500000000000007 -0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd rect
+		(at -0.9750000000000002 -0.725)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(fp_rect
+		(start -1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+	(fp_circle
+		(center 1.55 1.3)
+		(end 1.7 1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+)

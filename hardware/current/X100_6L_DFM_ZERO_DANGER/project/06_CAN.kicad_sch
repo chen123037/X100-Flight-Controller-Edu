@@ -1,0 +1,3467 @@
+(kicad_sch
+	(version 20260101)
+	(generator eeschema)
+	(generator_version "10.0")
+	(uuid 98a6f748-8e6e-4942-ba11-ed972aa00366)
+	(paper "A2")
+	(title_block
+		(title "06_CAN")
+		(date "2026-10-04")
+		(rev "Physical-1")
+		(company "X100 Clean-Sheet")
+		(comment 1 "PCB_LAYOUT=HOLD; physical exact-part schematic")
+		(comment 2 "See unresolved_items.md; local holds are not ERC failures")
+	)
+	(lib_symbols
+		(symbol "X100_Physical:TCAN3414DR"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.620000000000001 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TCAN3414DR"
+				(at 0 -9.620000000000001 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TCAN3414_D0008A_SOIC8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN3414DR_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCAN3414DR_1_1"
+				(pin input line
+					(at -15.239999999999998 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 0.0 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 -2.54 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 -5.079999999999999 0)
+					(length 2.54)
+					(name "STB"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.239999999999998 5.08 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.239999999999998 2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.239999999999998 0.0 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:R_0"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805JR-070RL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805JR-070RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805JR-070RL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:R_10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805FR-0710KL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805FR-0710KL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:C_100n6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C0603C104K5RACTU"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "KEMET C0603C104K5RACTU; exact 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n6_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:JST_GH4"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.35 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "SM04B-GHS-TB(LF)(SN)"
+				(at 0 -8.35 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_GH4_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "JST_GH4_1_1"
+				(pin passive line
+					(at -7.62 3.8099999999999996 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.2699999999999996 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.2700000000000005 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.8100000000000005 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:R_120"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805FR-07120RL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805FR-07120RL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_120_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_120_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:Samtec_TSW10207GS"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.8100000000000005 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TSW-102-07-G-S"
+				(at 0 -5.8100000000000005 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Samtec_TSW10207GS_1x2_P2p54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.samtec.com/products/tsw-102-07-g-s"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Samtec_TSW10207GS_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Samtec_TSW10207GS_1_1"
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:TP1p5"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TP1p5"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C/D testpoint policy"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP1p5_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP1p5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:CAN_SolderJumper_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CAN TERM 120R / OPEN"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Default OPEN: 120 ohm disconnected. Bridge manually only at CAN bus end: termination enabled. Remove solder to restore OPEN. NO SOLDER PASTE; no independent BOM component."
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAN_SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAN_SolderJumper_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAN_SolderJumper_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TCAN3414DR 3.3V; Classical CAN only. SHDN=0,STB=0: Normal mode."
+		(at 20 27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 2025a84f-7726-41b5-8847-f25eb24bddee)
+	)
+	(wire
+		(pts
+			(xy 139.7 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b0c9e592-1346-48d6-89be-32735aebf998)
+	)
+	(global_label "CAN_TX"
+		(shape bidirectional)
+		(at 133.35 107.95 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 719dee0b-4594-4eb7-9954-1dbf49deca3f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0cd773cb-6678-404f-8359-c47caf802892)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 133.35 110.49 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid d1985a3c-03c8-4242-bc8e-98f3aae8ddf2)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.7 113.03) (xy 133.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 07b33c55-eb7e-4ae5-8b33-27ce0c3fb629)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 133.35 113.03 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid e989a74d-aeda-40ac-a709-286164c95da2)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e72a3cce-c0a2-4a33-80ec-4a97a94197ee)
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4bc8308b-5c89-44fc-a54a-3497799df358)
+	)
+	(global_label "CAN_RX"
+		(shape bidirectional)
+		(at 176.53 107.95 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7b299f93-e3ec-46f8-80d9-553f954269c4)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid adcf0f99-ca8b-4911-a7ad-db70e89739b4)
+	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 176.53 110.49 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ee2ea216-21f6-4970-a9c9-697e9912ae02)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bbc7f3d5-755d-4c41-b7bf-1e93fb09a878)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 176.53 113.03 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 4d4dee0f-f258-4862-91fb-061f2d03bd89)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TCAN3414DR")
+		(at 154.94 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 7bdb5340-de13-48a3-923f-c95257a212d1)
+		(property "Reference" "U601"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN3414DR"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:TCAN3414_D0008A_SOIC8"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TCAN3414DR"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TI D0008A SOIC-8"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid f37ed496-7eb4-418d-8580-d01beac6a634)
+		)
+		(pin "2"
+			(uuid 4f5a116a-e1c5-45a7-a4fa-4342ec3534f7)
+		)
+		(pin "3"
+			(uuid 6705655e-dc91-4940-ae37-3576f8e1a014)
+		)
+		(pin "5"
+			(uuid 64ca37c5-f8d3-48a8-8958-63c36957815e)
+		)
+		(pin "8"
+			(uuid 38d32c8f-30b4-4e76-a3d0-422cd6dcc85e)
+		)
+		(pin "4"
+			(uuid b0ceabdc-6768-41f5-8f75-310ee886971b)
+		)
+		(pin "6"
+			(uuid f345309d-548b-43a5-9634-6fa67ce3f31e)
+		)
+		(pin "7"
+			(uuid fd3cee2a-c293-428b-9ea0-51fac4e2d449)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b5f643b3-f5bc-4db5-ae5b-5f032f3b14ea)
+	)
+	(wire
+		(pts
+			(xy 111.76 162.56) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4696e654-100b-40d1-a5fd-f83b85bead02)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 111.76 168.91 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 795fb571-da42-4ad8-abd2-750ab3f3d9e6)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 165.1 189.23) (xy 165.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 54c89d0f-7cd6-4334-90cc-21cdf1164021)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 165.1 182.88 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ea6d561d-0527-4dfe-b353-69b88e0eea37)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 165.1 196.85) (xy 165.1 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 0220f16f-a8c1-4eae-a720-9516da87b98c)
+	)
+	(global_label "CAN_TX"
+		(shape bidirectional)
+		(at 165.1 203.2 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 969c88d2-eea6-4e15-b04a-40c46e5af8ee)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 203.2 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_10k")
+		(at 165.1 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 26d388b4-b7f7-456e-9c81-e495aa7ceb6c)
+		(property "Reference" "R603"
+			(at 172.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k TXD default recessive"
+			(at 172.72 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "10k ohm"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 165.1 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "R603")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 8000811e-66b2-46dc-908a-ca91b788ae52)
+		)
+		(pin "2"
+			(uuid f08ca19d-bced-4cab-9caa-90f5ab8a0f5f)
+		)
+	)
+	(wire
+		(pts
+			(xy 66.04 189.23) (xy 66.04 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3be949c4-fbea-431e-ac0e-80a253f80d69)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 66.04 182.88 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 030b440d-7b9b-4bf7-ac4c-b3506cc0b4f6)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 182.88 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 66.04 196.85) (xy 66.04 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid e0930c00-6101-4154-b874-cf05ac1eea98)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 66.04 203.2 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0dc8cc1b-7240-4d09-b600-a04be8fb1bc3)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 203.2 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 66.04 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 0a412e94-0bca-43ea-bbf4-d7361b2235cf)
+		(property "Reference" "C601"
+			(at 73.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n VCC3 loop"
+			(at 73.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 050dfb8f-4c82-4867-885d-ef68562a6f01)
+		)
+		(pin "2"
+			(uuid 15700d9b-dc07-4581-a194-d81b35dee1f8)
+		)
+	)
+	(wire
+		(pts
+			(xy 436.88 85.09) (xy 430.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 49fd625a-d440-4acf-9e0b-c4f86d21140c)
+	)
+	(global_label "EXT_5V"
+		(shape bidirectional)
+		(at 430.53 85.09 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 47d9fea5-ab14-4c71-8542-8888562391bb)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 85.09 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 436.88 87.63) (xy 430.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b85a0be5-8251-40d1-85d3-09df095c6b3f)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 430.53 87.63 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid c0bdfe56-2df2-4d0b-9a3e-9a7a5f023687)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 87.63 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 436.88 90.17) (xy 430.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 97baa575-92fc-45cb-8c4f-76ddcfce0056)
+	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 430.53 90.17 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7804ae86-4a91-47f5-a3d4-14a123274a00)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 90.17 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 436.88 92.71) (xy 430.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f533fd36-d6c3-48a8-81ad-e04e235a387a)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 430.53 92.71 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 3fdf825b-a267-441a-a9a5-f222e1b4f9c9)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 430.53 92.71 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:JST_GH4")
+		(at 444.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 20f6c87e-78f3-4fa3-8734-f230293ecc7e)
+		(property "Reference" "J601"
+			(at 444.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-GHS-TB(LF)(SN)"
+			(at 444.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-GHS-TB(LF)(SN)"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "GH1.25 4P side-entry SMT"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 444.5 88.9 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "J601")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 8190aa82-5cd4-40a5-8bc3-544323bc75e7)
+		)
+		(pin "2"
+			(uuid 3ac5ec7f-5a25-4e3a-a3f8-6322d0a31329)
+		)
+		(pin "3"
+			(uuid ba332b18-a8bf-49f5-b10f-e9bbd1801455)
+		)
+		(pin "4"
+			(uuid 795fe83a-7749-47b5-80d8-9f319f226bdd)
+		)
+	)
+	(wire
+		(pts
+			(xy 392.43 189.23) (xy 386.08 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3d6bc6c0-9e17-4a34-9e40-c5ba566bfac6)
+	)
+	(global_label "CANH"
+		(shape bidirectional)
+		(at 386.08 189.23 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid fe41d0bc-6e61-44f7-859f-e65b9777ed99)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 386.08 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 400.05 189.23) (xy 406.4 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1978f921-913b-47a5-a75d-d27d8cee1dc4)
+	)
+	(global_label "CAN_TERM"
+		(shape bidirectional)
+		(at 406.4 189.23 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 127aafbb-7a03-498d-97d1-843d5d9268c1)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 406.4 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_120")
+		(at 396.24 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 0375428f-8154-4325-a9f8-6b0e908ae265)
+		(property "Reference" "R602"
+			(at 402.59 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R end termination"
+			(at 402.59 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07120RL"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "120 ohm"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 396.24 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "R602")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid e9db33bb-6584-43ad-af48-eb54d588a726)
+		)
+		(pin "2"
+			(uuid 092fe011-cfdb-450d-8d9d-ac3892ce1187)
+		)
+	)
+	(global_label "CAN_TERM"
+		(shape bidirectional)
+		(at 485.14 189.23 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 6076ad43-db3c-4ec9-ac1e-8f28a229dd8c)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 485.14 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape bidirectional)
+		(at 510.54 189.23 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 545fea51-0181-4ac7-b8ed-2b8d11e6be27)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 510.54 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:CAN_SolderJumper_Open")
+		(at 499.11 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid 47a7cf62-a1dd-4e60-92ae-a40040345bca)
+		(property "Reference" "JP601"
+			(at 499.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN TERM 120R / OPEN"
+			(at 499.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste"
+			(at 499.11 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 189.23 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "JP601")
+					(unit 1)
+				)
+			)
+		)
+		(property "Description" "Default OPEN: 120 ohm disconnected. Bridge manually only at CAN bus end: termination enabled. Remove solder to restore OPEN. NO SOLDER PASTE; no independent BOM component."
+			(at 173.99 19.05 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Default" "OPEN"
+			(at 173.99 19.05 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly Instruction" "NO PASTE; manually bridge only at CAN bus end; wick clean to disable"
+			(at 173.99 19.05 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f6f1cc-c94b-4baf-8d80-6919699c9be8")
+		)
+		(pin "2"
+			(uuid "9b1e0b2f-5a55-4773-b261-36f1d6a8b74d")
+		)
+	)
+	(text "JP601 CAN TERM / 120R: manufacture OPEN (disabled). Manually solder bridge only at bus end (enabled). NO PASTE; wick clean to restore OPEN."
+		(at 20 376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 0ec71754-1dd3-4aac-a380-35f2a9ba7074)
+	)
+	(text "Built-in bus standoff +/-58V; receiver common mode +/-30V; bus-pin IEC ESD +/-10kV."
+		(at 20 388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid ac97fcf3-e779-41ad-a8ac-1999a9b4abb0)
+	)
+	(text "EXTERNAL_CAN_TVS=NOT_REQUIRED_FOR_V1. Whole-board IEC qualification deferred to test."
+		(at 20 400 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 6091d709-e183-4679-8c30-ae5b74d705a4)
+	)
+	(hierarchical_label "3V3_MCU"
+		(shape bidirectional)
+		(at 115.57 279.4 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid ba2b85ee-4248-4f8e-a652-936794148e16)
+	)
+	(wire
+		(pts
+			(xy 115.57 279.4) (xy 140.97 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3bf89acb-07d3-4051-ab52-a3688ab34c77)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 140.97 279.4 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 9bf02208-1041-4629-8547-cffb1e2c4736)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 279.4 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "EXT_5V"
+		(shape bidirectional)
+		(at 115.57 283.21 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 956772ce-0526-47d5-affa-7d741794a35b)
+	)
+	(wire
+		(pts
+			(xy 115.57 283.21) (xy 140.97 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid dc460f14-a889-41e5-8382-12b0a2b31833)
+	)
+	(global_label "EXT_5V"
+		(shape bidirectional)
+		(at 140.97 283.21 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid b267b087-c66a-4fb9-8ed2-66db1357b90e)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 283.21 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 115.57 287.02 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid eff43d4d-166a-4b98-9eaa-eeaa92a012be)
+	)
+	(wire
+		(pts
+			(xy 115.57 287.02) (xy 140.97 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 93331ec8-0feb-43b5-b514-1afec786e899)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 140.97 287.02 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 996f5323-d7de-4f8b-943f-252de8d588fb)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 287.02 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CAN_TX"
+		(shape bidirectional)
+		(at 27.94 279.4 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 541d99b9-3c27-47a4-b7d7-cb6ec212847e)
+	)
+	(wire
+		(pts
+			(xy 27.94 279.4) (xy 53.34 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 666a12da-1e07-4d3a-b3ce-cb540c2876d6)
+	)
+	(global_label "CAN_TX"
+		(shape bidirectional)
+		(at 53.34 279.4 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 600fe851-a0af-4c16-a385-b3ff7d04c05d)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 279.4 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CAN_RX"
+		(shape bidirectional)
+		(at 27.94 283.21 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 805b5281-bf89-4099-a222-1eda1f5522e4)
+	)
+	(wire
+		(pts
+			(xy 27.94 283.21) (xy 53.34 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bc658383-697f-410b-a5f7-aeb5c14dfaf9)
+	)
+	(global_label "CAN_RX"
+		(shape bidirectional)
+		(at 53.34 283.21 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid c363fd9d-b888-4250-af78-678b9e5c19c0)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 283.21 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(wire
+		(pts
+			(xy 485.14 189.23) (xy 494.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890d4560-3540-4d03-ab37-c0f7eaae428e")
+	)
+	(wire
+		(pts
+			(xy 504.19 189.23) (xy 510.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc664669-e02d-48a9-b600-b42528d7cc81")
+	)
+	(text "06 CAN通信 / CAN INTERFACE"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "96ce46aa-7386-4890-b4c2-4ec92176f1be")
+	)
+	(rectangle
+		(start 18 36)
+		(end 324 243)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "16e3cd73-6008-485a-bc16-eb15dda686ef")
+	)
+	(text "CAN 收发器 / CAN TRANSCEIVER"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "97ddb1bf-4eb0-45e1-97ba-43a645b6725f")
+	)
+	(rectangle
+		(start 334 36)
+		(end 572 127)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fd397910-3fed-4cd0-88e5-e3918aa962fb")
+	)
+	(text "CAN 总线接口 / CAN BUS CONNECTOR"
+		(at 339 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5be82caf-fdb8-4b58-86aa-95d643be6e8f")
+	)
+	(rectangle
+		(start 334 137)
+		(end 572 243)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2cb762b8-d3cf-422b-926e-f3a9a4215f77")
+	)
+	(text "120Ω 终端 / CAN TERMINATION · 默认OPEN"
+		(at 339 143 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2be6abc2-fce2-402a-bd7e-fe2504d24341")
+	)
+	(text "CANH → R602 → CAN_TERM → JP601 → CANL"
+		(at 342 231 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "5c17480b-2651-4adf-bcf7-add600a15114")
+	)
+	(rectangle
+		(start 18 253)
+		(end 572 355)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1f546b47-710c-456c-81ae-08d82ffdfc5b")
+	)
+	(text "接口与测点 / INTERFACES AND TEST POINTS"
+		(at 23 259 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c7589d2d-d0cb-412a-864c-b568d298ff7e")
+	)
+	(text "MCU / CONTROL"
+		(at 27.94 271.78 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0576d56a-4949-4c56-a461-dbbe86ca1ffc")
+	)
+	(text "CANH / CANL / POWER"
+		(at 115.57 271.78 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "70e8d918-3660-4aad-b74f-c12c616fd1b3")
+	)
+	(junction
+		(at 66.04 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1834af4a-5046-4357-ac6d-aa53123c8a7b")
+	)
+	(junction
+		(at 486.41 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7edac3-d59b-4782-9464-01b1bd513977")
+	)
+	(junction
+		(at 405.13 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61bf26ec-0931-4676-9600-ffa8b9964242")
+	)
+	(junction
+		(at 132.08 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d766a74d-84dd-4805-82df-7615e711ccb8")
+	)
+	(junction
+		(at 134.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ea6d9f-1a3d-4f2b-90a0-36b36e74ce77")
+	)
+	(junction
+		(at 165.1 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dce8808-bdd4-451f-80d8-f0fc913dba89")
+	)
+	(junction
+		(at 165.1 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8a2e2e-c4e0-417f-b1a8-cbf2860a970f")
+	)
+	(junction
+		(at 134.62 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c0064e-f0e0-411d-87be-cdfac3b408f9")
+	)
+	(junction
+		(at 109.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc78e8a-be4b-46b9-bd13-5cda4b0d23a8")
+	)
+	(junction
+		(at 111.76 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a01eb80c-8cab-4ef2-aea7-c827727ca3b3")
+	)
+	(junction
+		(at 134.62 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb5b2f1a-f111-44bb-927b-70efd5c18cd1")
+	)
+	(junction
+		(at 66.04 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770fe1e2-b020-4437-9aa5-2fa2cb0e6aa0")
+	)
+	(wire
+		(pts
+			(xy 64.77 201.93) (xy 66.04 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c481c9cb-4ef2-4367-a32a-023393e7655c")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 132.08 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585bc7d2-17f2-4e60-a82e-653c14422da4")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 140.97 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81638f57-79f8-460f-a09d-3468003faca2")
+	)
+	(wire
+		(pts
+			(xy 140.97 201.93) (xy 165.1 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4600de02-10a3-4a3e-9f31-edac31a19fc0")
+	)
+	(wire
+		(pts
+			(xy 64.77 167.64) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2beecf79-faf9-4ad7-ac1a-100330a83409")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73510da8-ddd5-461f-a7dd-ca035fbe5976")
+	)
+	(wire
+		(pts
+			(xy 167.64 184.15) (xy 167.64 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0923333c-4714-46ce-aa44-5239ed2fc04a")
+	)
+	(wire
+		(pts
+			(xy 67.31 204.47) (xy 132.08 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2307cde-ac76-4178-8885-d8b514843e81")
+	)
+	(wire
+		(pts
+			(xy 405.13 187.96) (xy 486.41 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46cc0a4-8d0b-4886-bbb5-7800773b6320")
+	)
+	(wire
+		(pts
+			(xy 132.08 204.47) (xy 167.64 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d17ebb-fec5-4734-86c3-d4897cba8c67")
+	)
+	(wire
+		(pts
+			(xy 64.77 167.64) (xy 64.77 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ef4040-2601-4e66-95e1-e6b86744b2bb")
+	)
+	(wire
+		(pts
+			(xy 486.41 187.96) (xy 486.41 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3541fc-9919-4a34-abdb-4a858d9a377b")
+	)
+	(wire
+		(pts
+			(xy 405.13 187.96) (xy 405.13 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47284622-006b-460a-b5a9-424908ea7038")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21b41a7-d580-4a71-92e1-c05d5d7f785d")
+	)
+	(wire
+		(pts
+			(xy 67.31 184.15) (xy 67.31 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1065766d-b9f9-483d-a360-6d6e90ec87f8")
+	)
+	(wire
+		(pts
+			(xy 165.1 184.15) (xy 167.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a519d3-2d72-4fb5-beb4-cdd46defc313")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d0e5a8-a93d-4994-8be1-30ef4f30a6dd")
+	)
+	(wire
+		(pts
+			(xy 134.62 109.22) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1375fa-f4fb-4249-b92b-3747d4e76d89")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a181e3-de2c-4415-a062-f1f550bbe9b2")
+	)
+	(wire
+		(pts
+			(xy 109.22 167.64) (xy 111.76 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c52a936-a5b7-47f7-8eab-93de617a399f")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83148f70-4054-45dd-83d5-e30f9ccc6a18")
+	)
+	(wire
+		(pts
+			(xy 66.04 184.15) (xy 67.31 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eeaa2b-3747-4533-b96a-194b4ccb6524")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb99c5a-7da1-4bf8-b003-02272c4109f4")
+	)
+	(global_label "GND"
+		(at 111.76 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e384c6a-4d0a-46e5-a5f0-d6d63a88321f")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0f5ecd-54ea-4c91-bbc7-fb46223c4d67")
+	)
+	(global_label "GND"
+		(at 139.7 115.57000000000001 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75ab61cc-5752-4dde-bd2a-a2e799a78d77")
+	)
+	(global_label "CAN_STB"
+		(at 133.35 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4cc659c-81ee-4176-b3ad-64b9a646c5f7")
+	)
+	(symbol
+		(lib_id "X100_Physical:R_10k")
+		(at 120.65 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "990c01cb-9b90-4400-af52-812c5038acea")
+		(property "Reference" "R604"
+			(at 125.73 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 118.872 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "YAGEO RC0805FR-0710KL; exact 0805"
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "10k ohm"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X03 approved isolated candidate; PE3 HIGH/reset=CAN standby, LOW=normal; firmware configuration required."
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e6ae014-90e9-4037-b64b-76d7d5065108")
+		)
+		(pin "2"
+			(uuid "ff5066c6-8279-4bd3-9961-b04315a240d9")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa"
+					(reference "R604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(at 120.65 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2313ad6e-e8a6-4d0e-8308-665f860c90cc")
+	)
+	(global_label "CAN_STB"
+		(at 120.65 137.16 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5519fa00-977c-48f0-89e0-60e04a8795e8")
+	)
+)

@@ -1,0 +1,5172 @@
+{
+  "components": {
+    "C101": {
+      "value": "10u /50V X7R",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C102": {
+      "value": "10u /50V X7R",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C103": {
+      "value": "10u /50V X7R",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C104": {
+      "value": "10u /50V X7R",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C105": {
+      "value": "39u /50V +VIN",
+      "footprint": "X100_Physical:Panasonic_OSCON_E12",
+      "fields": {
+        "Manufacturer": "Panasonic",
+        "MPN": "50SVPF39M",
+        "Package": "OS-CON E12 diameter8 height11.9",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Panasonic_OSCON_E12",
+        "Datasheet": "https://industrial.panasonic.com/ww/products/pt/os-con/models/50SVPF39M",
+        "Description": ""
+      }
+    },
+    "C106": {
+      "value": "100n /50V 0603 VIN loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C107": {
+      "value": "100n BOOT-SW",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C108": {
+      "value": "180u /16V +5V_MAIN",
+      "footprint": "X100_Physical:Panasonic_OSCON_C6",
+      "fields": {
+        "Manufacturer": "Panasonic",
+        "MPN": "16SVPF180M",
+        "Package": "OS-CON C6 diameter6.3 height5.9",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Panasonic_OSCON_C6",
+        "Datasheet": "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M",
+        "Description": ""
+      }
+    },
+    "C109": {
+      "value": "22n COMP series",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C223K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C223K5RACTU",
+        "Description": ""
+      }
+    },
+    "C110": {
+      "value": "240p COMP pole",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C241J5GACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "240pF",
+        "Tolerance": "5%",
+        "Dielectric": "C0G/NP0",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C241J5GACTU",
+        "Description": ""
+      }
+    },
+    "C111": {
+      "value": "10u AP input",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C112": {
+      "value": "100n BST-SW",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C113": {
+      "value": "22u /16V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C226K4RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C226K4RACTU",
+        "Description": ""
+      }
+    },
+    "C114": {
+      "value": "22u /16V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C226K4RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C226K4RACTU",
+        "Description": ""
+      }
+    },
+    "C115": {
+      "value": "2.2u /16V input",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C225K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "2u2F",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C225K4RACTU",
+        "Description": ""
+      }
+    },
+    "C116": {
+      "value": "2.2u /16V output",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C225K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "2u2F",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C225K4RACTU",
+        "Description": ""
+      }
+    },
+    "C117": {
+      "value": "100n switch input loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C118": {
+      "value": "10u switch input",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C119": {
+      "value": "82u /16V PTC-before bulk",
+      "footprint": "X100_Physical:Panasonic_OSCON_B6",
+      "fields": {
+        "Manufacturer": "Panasonic",
+        "MPN": "16SVPF82M",
+        "Package": "OS-CON B6 diameter5 height5.9",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Panasonic_OSCON_B6",
+        "Datasheet": "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF82M",
+        "Description": ""
+      }
+    },
+    "C120": {
+      "value": "1u EXT local",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C105K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C105K4RACTU",
+        "Description": ""
+      }
+    },
+    "D101": {
+      "value": "12V VGS clamp K=source",
+      "footprint": "X100_Physical:Official_Diode_SMD_D_SOD-123F",
+      "fields": {
+        "Manufacturer": "Nexperia",
+        "MPN": "BZT52H-C12,115",
+        "Package": "SOD123F",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Diode_SMD_D_SOD-123F",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BZT52H_SER.pdf",
+        "Description": ""
+      }
+    },
+    "D102": {
+      "value": "26V bidirectional TVS",
+      "footprint": "X100_Physical:Official_Diode_SMD_D_SMB",
+      "fields": {
+        "Manufacturer": "ST",
+        "MPN": "SMBJ26CA-TR",
+        "Package": "SMB DO214AA",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Diode_SMD_D_SMB",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/smbj26ca.pdf",
+        "Description": ""
+      }
+    },
+    "D103": {
+      "value": "STPS8H100G-TR",
+      "footprint": "X100_Physical:STPS8H100G_D2PAK_A_K_TabK_NoVIP",
+      "fields": {
+        "Manufacturer": "ST",
+        "MPN": "STPS8H100G-TR",
+        "Package": "D2PAK A/K/tabK",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:STPS8H100G_D2PAK_A_K_TabK_NoVIP",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/stps8h100.pdf",
+        "Description": ""
+      }
+    },
+    "F101": {
+      "value": "3A /125V",
+      "footprint": "X100_Physical:Official_Fuse_Fuse_Littelfuse-NANO2-451_453",
+      "fields": {
+        "Manufacturer": "Littelfuse",
+        "MPN": "0451003.MRL",
+        "Package": "NANO2 451 SMD",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Fuse_Fuse_Littelfuse-NANO2-451_453",
+        "Datasheet": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+        "Description": ""
+      }
+    },
+    "L101": {
+      "value": "10uH",
+      "footprint": "X100_Physical:Bourns_SRP1038A_LeadFrame_NoVIP",
+      "fields": {
+        "Manufacturer": "Bourns",
+        "MPN": "SRP1038A-100M",
+        "Package": "Lead-frame SMD; case max11.5x10.3x4.0mm",
+        "Procurement Policy": "EXACT_MPN_FROZEN; USER_APPROVED_20261023; NO_PURCHASE",
+        "LCSC": "C780184",
+        "Inductance": "10uH +/-20% @100kHz/1V",
+        "DCR Max": "30mOhm @25C",
+        "Irms": "7.5A; rated40C rise; application thermal test required",
+        "Isat": "12A @25C for20% L drop; not hot minimum guarantee",
+        "Verification Status": "DATASHEET_AND_LAYOUT_VERIFIED; POWER_REVIEW_OPEN; NO_BENCH_PASS",
+        "Footprint": "X100_Physical:Bourns_SRP1038A_LeadFrame_NoVIP",
+        "Datasheet": "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf",
+        "Description": "Bourns SRP1038A-100M; lead-frame; max case11.5x10.3x4.0mm; user-approved20261023"
+      }
+    },
+    "L102": {
+      "value": "4.7uH design-calculated at 5V",
+      "footprint": "X100_Physical:Bourns_SRN6045",
+      "fields": {
+        "Manufacturer": "Bourns",
+        "MPN": "SRN6045-4R7Y",
+        "Package": "6x6x4.5 SMD visible end terminals",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Bourns_SRN6045",
+        "Datasheet": "https://www.bourns.com/docs/product-datasheets/srn6045.pdf",
+        "Description": ""
+      }
+    },
+    "Q101": {
+      "value": "DMP6023LSS-13",
+      "footprint": "X100_Physical:Official_Package_SO_SOIC-8_3.9x4.9mm_P1.27mm",
+      "fields": {
+        "Manufacturer": "Diodes",
+        "MPN": "DMP6023LSS-13",
+        "Package": "SO8",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_SO_SOIC-8_3.9x4.9mm_P1.27mm",
+        "Datasheet": "https://www.diodes.com/assets/Datasheets/DMP6023LSS.pdf",
+        "Description": ""
+      }
+    },
+    "R101": {
+      "value": "20k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0720KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "20k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0720KL",
+        "Description": ""
+      }
+    },
+    "R102": {
+      "value": "294k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-07294KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "294k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07294KL",
+        "Description": ""
+      }
+    },
+    "R103": {
+      "value": "54.9k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0754K9L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "54k9 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0754K9L",
+        "Description": ""
+      }
+    },
+    "R104": {
+      "value": "200k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-07200KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "200k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07200KL",
+        "Description": ""
+      }
+    },
+    "R105": {
+      "value": "53.6k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RT0805BRD0753K6L",
+        "Package": "0805",
+        "Procurement Policy": "CANDIDATE_ONLY; DOMESTIC_SOURCE_NOT_VERIFIED; NO_PURCHASE",
+        "Specification Value": "53k6 ohm",
+        "Tolerance": "0.1%; TCR<=25ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Verification Status": "HUMAN_APPROVED_CANDIDATE_ONLY; 5Vsetpointpaperreviewpending; notfinalselected",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD0753K6L",
+        "Description": "YAGEO RT0805BRD0753K6L; 53.6k 0.1% 0805; isolated validation candidate"
+      }
+    },
+    "R106": {
+      "value": "10k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RT0805BRD0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "0.1%; TCR<=25ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD0710KL",
+        "Description": ""
+      }
+    },
+    "R107": {
+      "value": "18.7k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0718K7L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "18k7 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0718K7L",
+        "Description": ""
+      }
+    },
+    "R108": {
+      "value": "10R RC sensor filter",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710RL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710RL",
+        "Description": ""
+      }
+    },
+    "R109": {
+      "value": "22.1k limit",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0722K1L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22k1 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722K1L",
+        "Description": ""
+      }
+    },
+    "R110": {
+      "value": "10k FAULT pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "TP101": {
+      "value": "VBAT_RAW",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP103": {
+      "value": "VBAT_PROTECTED",
+      "footprint": "X100_Physical:TP1p5_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP1p5",
+        "Package": "1.5mm top probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP1p5_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP104": {
+      "value": "5V_MAIN",
+      "footprint": "X100_Physical:TP1p5_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP1p5",
+        "Package": "1.5mm top probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP1p5_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP105": {
+      "value": "3V3_MCU",
+      "footprint": "X100_Physical:TP1p5_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP1p5",
+        "Package": "1.5mm top probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP1p5_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP106": {
+      "value": "SENSOR_LDO_IN",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP107": {
+      "value": "3V3_SENSOR",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP109": {
+      "value": "EXT_5V",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP110": {
+      "value": "EXT_FAULT",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP111": {
+      "value": "GND",
+      "footprint": "X100_Physical:TP1p5_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP1p5",
+        "Package": "1.5mm top probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP1p5_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "U101": {
+      "value": "TPS54360BDDAR",
+      "footprint": "X100_Physical:TPS54360B_DDA0008B_NoVIP",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "TPS54360BDDAR",
+        "Package": "DDA0008B HSOIC8 EP",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TPS54360B_DDA0008B_NoVIP",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps54360b.pdf",
+        "Description": ""
+      }
+    },
+    "U102": {
+      "value": "AP63203WU-7",
+      "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_TSOT-23-6",
+      "fields": {
+        "Manufacturer": "Diodes",
+        "MPN": "AP63203WU-7",
+        "Package": "TSOT26",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_TO_SOT_SMD_TSOT-23-6",
+        "Datasheet": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+        "Description": ""
+      }
+    },
+    "U103": {
+      "value": "TPS7A2033PDBVR",
+      "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-5",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "TPS7A2033PDBVR",
+        "Package": "DBV5 SOT23-5",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+        "Description": ""
+      }
+    },
+    "U104": {
+      "value": "TPS2553DBVR",
+      "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "TPS2553DBVR",
+        "Package": "DBV6 SOT23-6",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+        "Description": ""
+      }
+    },
+    "C201": {
+      "value": "2.2u VCAP /16V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C225K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "2u2F",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C225K4RACTU",
+        "Description": ""
+      }
+    },
+    "C202": {
+      "value": "2.2u VCAP /16V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C225K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "2u2F",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C225K4RACTU",
+        "Description": ""
+      }
+    },
+    "C203": {
+      "value": "100n local VDD pin11",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C204": {
+      "value": "100n local VDD pin27",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C205": {
+      "value": "100n local VDD pin50",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C206": {
+      "value": "100n local VDD pin75",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C207": {
+      "value": "100n local VDD pin100",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C208": {
+      "value": "10u /50V MCU bulk >=4.7u effective",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "C209": {
+      "value": "2.2u VDDA",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C225K4RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "2u2F",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C225K4RACTU",
+        "Description": ""
+      }
+    },
+    "C210": {
+      "value": "100n VDDA pin21/VREF20",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C211": {
+      "value": "100n MCU VBAT pin6",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C212": {
+      "value": "100n reset",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C104K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C213": {
+      "value": "33p C0G /0805",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0805JRNPO9BN330",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "33pF",
+        "Tolerance": "5%",
+        "Dielectric": "C0G/NP0",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/CC0805JRNPO9BN330",
+        "Description": ""
+      }
+    },
+    "C214": {
+      "value": "33p C0G /0805",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "CC0805JRNPO9BN330",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "33pF",
+        "Tolerance": "5%",
+        "Dielectric": "C0G/NP0",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/CC0805JRNPO9BN330",
+        "Description": ""
+      }
+    },
+    "D201": {
+      "value": "GREEN; PB0 HIGH=ON",
+      "footprint": "X100_Physical:Official_LED_SMD_LED_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "Lite-On",
+        "MPN": "LTST-C170GKT",
+        "Package": "0805 LED",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_LED_SMD_LED_0805_2012Metric",
+        "Datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-003/LTST-C170GKT.pdf",
+        "Description": ""
+      }
+    },
+    "D202": {
+      "value": "GREEN; 3V3_MCU_PRESENT",
+      "footprint": "X100_Physical:Official_LED_SMD_LED_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "Lite-On",
+        "MPN": "LTST-C170GKT",
+        "Package": "0805 LED",
+        "Procurement Policy": "EXACT_MPN_AUTHORIZED_PCB01F3; same LED as D201; not ordered",
+        "LCSC": "C125090",
+        "Footprint": "X100_Physical:Official_LED_SMD_LED_0805_2012Metric",
+        "Datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-003/LTST-C170GKT.pdf",
+        "Description": ""
+      }
+    },
+    "R201": {
+      "value": "10R VDDA filter",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710RL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710RL",
+        "Description": ""
+      }
+    },
+    "R203": {
+      "value": "10k reset pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R204": {
+      "value": "10k BOOT0 default LOW",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R205": {
+      "value": "120R HSE series",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-07120RL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "120 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL",
+        "Description": ""
+      }
+    },
+    "R206": {
+      "value": "1k LED current",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "R207": {
+      "value": "1.2k PWR current",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071K2L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM; PCB01F3 prototype 1.2k authorized",
+        "Specification Value": "1.2k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "LCSC": "C114526",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071K2L",
+        "Description": ""
+      }
+    },
+    "TP202": {
+      "value": "BOOT0",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP204": {
+      "value": "MCU_VDDA",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP205": {
+      "value": "VCAP1",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP0p6",
+        "Package": "0.6mm inline probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D high-speed testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP206": {
+      "value": "VCAP2",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP0p6",
+        "Package": "0.6mm inline probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D high-speed testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP208": {
+      "value": "GND",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "U201": {
+      "value": "STM32H743VIT6",
+      "footprint": "X100_Physical:Official_Package_QFP_LQFP-100_14x14mm_P0.5mm",
+      "fields": {
+        "Manufacturer": "ST",
+        "MPN": "STM32H743VIT6",
+        "Package": "LQFP100 14x14 P0.5",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_QFP_LQFP-100_14x14mm_P0.5mm",
+        "Datasheet": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+        "Description": ""
+      }
+    },
+    "Y201": {
+      "value": "8.000MHz /CL20pF",
+      "footprint": "X100_Physical:Taitien_XJ_2Pad_5p5x2p0_P9p0",
+      "fields": {
+        "Manufacturer": "TAITIEN",
+        "MPN": "XJHCELNANF-8M",
+        "Package": "HC49-class 2SMD 12.5x4.5x4",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Taitien_XJ_2Pad_5p5x2p0_P9p0",
+        "Datasheet": "https://www.taitien.com/wp-content/uploads/2015/12/AT-0020_XJ.pdf",
+        "Description": ""
+      }
+    },
+    "C301": {
+      "value": "100n VDD3 loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C302": {
+      "value": "100n VDDIO11 loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C303": {
+      "value": "100n SPL VDD8",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C304": {
+      "value": "100n SPL VDDIO6",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "R301": {
+      "value": "10k CS1 safe HIGH",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R302": {
+      "value": "10k CS2 safe HIGH",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R303": {
+      "value": "4.7k internal SCL pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-074K7L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "4k7 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L",
+        "Description": ""
+      }
+    },
+    "R304": {
+      "value": "4.7k internal SDA pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-074K7L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "4k7 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L",
+        "Description": ""
+      }
+    },
+    "TP302": {
+      "value": "SPI1_SCK",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP0p6",
+        "Package": "0.6mm inline probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D high-speed testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP303": {
+      "value": "SPI1_MOSI",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP0p6",
+        "Package": "0.6mm inline probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D high-speed testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP304": {
+      "value": "SPI1_MISO",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "TP0p6",
+        "Package": "0.6mm inline probe",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D high-speed testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP305": {
+      "value": "BMI088_ACC_CS",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP306": {
+      "value": "BMI088_GYRO_CS",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP307": {
+      "value": "BARO_I2C2_SCL",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP308": {
+      "value": "BARO_I2C2_SDA",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "U301": {
+      "value": "BMI088",
+      "footprint": "X100_Physical:Bosch_BMI088_LGA16",
+      "fields": {
+        "Manufacturer": "Bosch",
+        "MPN": "BMI088",
+        "Package": "LGA16 3x4.5",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Bosch_BMI088_LGA16",
+        "Datasheet": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+        "Description": ""
+      }
+    },
+    "U302": {
+      "value": "SPL06-001",
+      "footprint": "X100_Physical:Goertek_SPL06_001_LGA8",
+      "fields": {
+        "Manufacturer": "Goertek",
+        "MPN": "SPL06-001",
+        "Package": "LGA8 2x2.5",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Goertek_SPL06_001_LGA8",
+        "Datasheet": "${KIPRJMOD}/../../docs/Components/Barometer/SPL06-001/Goertek_SPL06-001_Datasheet_V7.0.pdf",
+        "Description": ""
+      }
+    },
+    "C401": {
+      "value": "100n clamp bypass only",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C104K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C402": {
+      "value": "100n buffer VCC",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "J401": {
+      "value": "124019772112A",
+      "footprint": "X100_Physical:Official_USB_C_Amphenol_124019772112A",
+      "fields": {
+        "Manufacturer": "Amphenol",
+        "MPN": "124019772112A",
+        "Package": "USB-C dual-row SMT / 4 plated SH slots",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "LCSC": "C5430474",
+        "Selection Status": "FINAL_SELECTED_FOR_V1",
+        "Verification Status": "DESIGN_REVIEWED_BENCH_PENDING",
+        "Procurement Approval": "USER_APPROVED_2026-10-22",
+        "Mechanical Assembly": "Top mount; PCB 1.6mm; 0.50mm SH projection embedded in plated slots; solder from component side; inspect joint wetting",
+        "Footprint": "X100_Physical:Official_USB_C_Amphenol_124019772112A",
+        "Datasheet": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf",
+        "Description": ""
+      }
+    },
+    "R401": {
+      "value": "5.1k CC1 Rd",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-075K1L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "5k1 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-075K1L",
+        "Description": ""
+      }
+    },
+    "R402": {
+      "value": "5.1k CC2 Rd",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-075K1L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "5k1 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-075K1L",
+        "Description": ""
+      }
+    },
+    "R403": {
+      "value": "10k detection input",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R404": {
+      "value": "100k unplug LOW",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-07100KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100KL",
+        "Description": ""
+      }
+    },
+    "TP401": {
+      "value": "USB_VBUS_RAW",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP405": {
+      "value": "GND",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "U401": {
+      "value": "TPD4E1U06DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "TPD4E1U06DBVR",
+        "Package": "DBV SOT-23-6",
+        "Procurement Policy": "USER_APPROVED_OPTIMIZATION; no purchase",
+        "LCSC": "C124691",
+        "Verification Status": "Schematic candidate; PCB/ESD system test pending",
+        "Footprint": "Package_TO_SOT_SMD:SOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd4e1u06.pdf",
+        "Description": "TI TPD4E1U06DBVR exact DBV: 1 DP,6 DM,3 CC1,4 CC2,2 GND,5 NC"
+      }
+    },
+    "U402": {
+      "value": "SN74LVC1G17DBVR",
+      "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-5",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "SN74LVC1G17DBVR",
+        "Package": "DBV5 SOT23-5",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-5",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+        "Description": ""
+      }
+    },
+    "U403": {
+      "value": "TPD2E2U06QDBZRQ1",
+      "footprint": "X100_Physical:TI_TPD2E2U06_DBZ0003A",
+      "fields": {
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TPD2E2U06QDBZRQ1",
+        "Package": "DBZ / SOT-23-3",
+        "LCSC": "C488151",
+        "Procurement Policy": "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered",
+        "Footprint": "X100_Physical:TI_TPD2E2U06_DBZ0003A",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf",
+        "Description": "TI TPD2E2U06QDBZRQ1; DBZ0003A; two IO channels and GND only; internal clamp rail not bonded out; no VBUS power pin."
+      }
+    },
+    "C501": {
+      "value": "100n socket VDD loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C502": {
+      "value": "10u /50V SD local",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C1210C106K5RACTU",
+        "Package": "1210",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Description": ""
+      }
+    },
+    "J501": {
+      "value": "1040310811",
+      "footprint": "X100_Physical:Official_Connector_Card_microSD_HC_Molex_104031-0811",
+      "fields": {
+        "Manufacturer": "Molex",
+        "MPN": "1040310811",
+        "Package": "microSD SMT push-pull8+2detect",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_Card_microSD_HC_Molex_104031-0811",
+        "Datasheet": "https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf",
+        "Description": ""
+      }
+    },
+    "R501": {
+      "value": "0R SD service isolation",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805JR-070RL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "0 ohm",
+        "Tolerance": "jumper",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805JR-070RL",
+        "Description": ""
+      }
+    },
+    "R502": {
+      "value": "47k SD pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0747KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "47k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL",
+        "Description": ""
+      }
+    },
+    "R503": {
+      "value": "47k SD pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0747KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "47k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL",
+        "Description": ""
+      }
+    },
+    "R504": {
+      "value": "47k SD pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0747KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "47k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL",
+        "Description": ""
+      }
+    },
+    "R505": {
+      "value": "47k SD pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0747KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "47k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL",
+        "Description": ""
+      }
+    },
+    "R506": {
+      "value": "47k SD pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0747KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "47k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL",
+        "Description": ""
+      }
+    },
+    "TP501": {
+      "value": "3V3_SD",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "C601": {
+      "value": "100n VCC3 loop",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "J601": {
+      "value": "SM04B-GHS-TB(LF)(SN)",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM04B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 4P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "JP601": {
+      "value": "CAN TERM 120R / OPEN",
+      "footprint": "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste",
+      "fields": {
+        "Manufacturing Default": "OPEN",
+        "Assembly Instruction": "NO PASTE; manually bridge only at CAN bus end; wick clean to disable",
+        "Footprint": "X100_Physical:CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste",
+        "Datasheet": "",
+        "Description": "Default OPEN: 120 ohm disconnected. Bridge manually only at CAN bus end: termination enabled. Remove solder to restore OPEN. NO SOLDER PASTE; no independent BOM component."
+      }
+    },
+    "R602": {
+      "value": "120R end termination",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-07120RL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "120 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL",
+        "Description": ""
+      }
+    },
+    "R603": {
+      "value": "10k TXD default recessive",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": ""
+      }
+    },
+    "R604": {
+      "value": "10k",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Notes": "X03 approved isolated candidate; PE3 HIGH/reset=CAN standby, LOW=normal; firmware configuration required.",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL",
+        "Description": "YAGEO RC0805FR-0710KL; exact 0805"
+      }
+    },
+    "U601": {
+      "value": "TCAN3414DR",
+      "footprint": "X100_Physical:TCAN3414_D0008A_SOIC8",
+      "fields": {
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TCAN3414DR",
+        "Package": "TI D0008A SOIC-8",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:TCAN3414_D0008A_SOIC8",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tcan3414.pdf",
+        "Description": ""
+      }
+    },
+    "J701": {
+      "value": "SM06B-GHS-TB(LF)(SN)",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM06B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 6P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "J702": {
+      "value": "SM06B-GHS-TB(LF)(SN)",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM06B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 6P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "J703": {
+      "value": "SM06B-GHS-TB(LF)(SN)",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM06B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 6P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "J704": {
+      "value": "SM04B-GHS-TB(LF)(SN)",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM04B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 4P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "R701": {
+      "value": "4.7k externalSCL pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-074K7L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "4k7 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L",
+        "Description": ""
+      }
+    },
+    "R702": {
+      "value": "4.7k externalSDA pullup",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-074K7L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "4k7 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074K7L",
+        "Description": ""
+      }
+    },
+    "C801": {
+      "value": "100n ADC LPF",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C104K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C802": {
+      "value": "100n X7R 50V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C104K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "C803": {
+      "value": "22n X7R 50V ADC reservoir",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C223K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C223K5RACTU",
+        "Description": ""
+      }
+    },
+    "C804": {
+      "value": "22n X7R 50V ADC reservoir",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C223K5RACTU",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C223K5RACTU",
+        "Description": ""
+      }
+    },
+    "C805": {
+      "value": "100n U801 VDD14",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+      "fields": {
+        "Manufacturer": "KEMET",
+        "MPN": "C0603C104K5RACTU",
+        "Package": "0603",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "100nF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=50V",
+        "Power Rating": "N/A",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Description": ""
+      }
+    },
+    "J801": {
+      "value": "OUT1 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J802": {
+      "value": "OUT2 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J803": {
+      "value": "OUT3 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J804": {
+      "value": "OUT4 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J805": {
+      "value": "OUT5 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J806": {
+      "value": "OUT6 /GND",
+      "footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-102-07-G-S",
+        "Package": "1x2 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10207GS_1x2_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-102-07-g-s",
+        "Description": ""
+      }
+    },
+    "J807": {
+      "value": "SWD:1REF2GND3IO4CLK5NRST",
+      "footprint": "X100_Physical:Samtec_TSW10507GS_1x5_P2p54",
+      "fields": {
+        "Manufacturer": "Samtec",
+        "MPN": "TSW-105-07-G-S",
+        "Package": "1x5 2.54 THT top insertion",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Samtec_TSW10507GS_1x5_P2p54",
+        "Datasheet": "https://www.samtec.com/products/tsw-105-07-g-s",
+        "Description": ""
+      }
+    },
+    "J808": {
+      "value": "BATTERY/bench3S-6S ONLY",
+      "footprint": "X100_Physical:VBAT_PAD_PAIR_V1",
+      "fields": {
+        "Manufacturer": "X100 custom interface",
+        "MPN": "VBAT_PAD_PAIR_V1",
+        "Package": "top solder pads",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:VBAT_PAD_PAIR_V1",
+        "Datasheet": "X100_CleanSheet_Core_Component_Design_Input.md section10",
+        "Description": ""
+      }
+    },
+    "J809": {
+      "value": "CURRENT monitor only",
+      "footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "fields": {
+        "Manufacturer": "JST",
+        "MPN": "SM06B-GHS-TB(LF)(SN)",
+        "Package": "GH1.25 6P side-entry SMT",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+        "Description": ""
+      }
+    },
+    "R801": {
+      "value": "150k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RT0805BRD07150KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "150k ohm",
+        "Tolerance": "0.1%; TCR<=25ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD07150KL",
+        "Description": ""
+      }
+    },
+    "R802": {
+      "value": "10k 0.1% scale16",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RT0805BRD0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "10k ohm",
+        "Tolerance": "0.1%; TCR<=25ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0805BRD0710KL",
+        "Description": ""
+      }
+    },
+    "R803": {
+      "value": "1k ADC series",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "R804": {
+      "value": "1k isolate ADC reservoir",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "R805": {
+      "value": "22.1k 1% >=100V",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0722K1L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "22k1 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722K1L",
+        "Description": ""
+      }
+    },
+    "R806": {
+      "value": "20k 1% scale20/42.1",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-0720KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "20k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0720KL",
+        "Description": ""
+      }
+    },
+    "R807": {
+      "value": "1k current limit",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "R808": {
+      "value": "1k isolate ADC reservoir",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "R809": {
+      "value": "1.3M 1% discharge/IOFF bound",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071M3L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1M3 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "preferred BOM only; specification controls",
+        "Description": ""
+      }
+    },
+    "R810": {
+      "value": "1.3M 1% discharge/IOFF bound",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "YAGEO",
+        "MPN": "RC0805FR-071M3L",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1M3 ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "preferred BOM only; specification controls",
+        "Description": ""
+      }
+    },
+    "R811": {
+      "value": "10k rail discharge; off bound 81.6mV",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Manufacturer": "Yageo",
+        "MPN": "RC0805FR-0710KL",
+        "Package": "0805",
+        "Procurement Policy": "SPECIFICATION_FROZEN_PREFERRED_BOM",
+        "Specification Value": "1k ohm",
+        "Tolerance": "1%; TCR<=100ppm/C",
+        "Dielectric": "N/A",
+        "Voltage Rating": ">=100V",
+        "Power Rating": ">=0.125W",
+        "Verification Status": "CANDIDATE: Ioff 8uA x Rmax 10.2k = 81.6mV; no physical test",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071KL",
+        "Description": ""
+      }
+    },
+    "TP803": {
+      "value": "VBAT_ADC",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "TP805": {
+      "value": "CURRENT_ADC",
+      "footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+      "fields": {
+        "Manufacturer": "X100 PCB feature",
+        "MPN": "PCB_TESTPAD_0P6_NO_PASTE",
+        "Package": "PCB feature: 0.6mm exposed round test land; no paste",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Layout Note": "Stage4 candidate: 0.6mm land retains 0.5mm probe envelope; fine-tip probing; all net access preserved",
+        "Footprint": "X100_Physical:TP0p6_Inline_NoPaste",
+        "Datasheet": "C/D testpoint policy",
+        "Description": ""
+      }
+    },
+    "U801": {
+      "value": "TMUX1511PWR",
+      "footprint": "X100_Physical:Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm",
+      "fields": {
+        "Manufacturer": "TI",
+        "MPN": "TMUX1511PWR",
+        "Package": "PW14 TSSOP14 0.65mm visible leads",
+        "Procurement Policy": "EXACT_MPN_FROZEN",
+        "Footprint": "X100_Physical:Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+        "Description": ""
+      }
+    },
+    "C121": {
+      "value": "180u /16V core mux hold-up (+ pin1)",
+      "footprint": "X100_Physical:Panasonic_OSCON_C6",
+      "fields": {
+        "Procurement Policy": "EXACT_MPN; REUSE_SELECTED_16SVPF180M; CANDIDATE_ARCHITECTURE_UNAPPROVED; NO_PURCHASE",
+        "Verification Status": "DATASHEET_CAPACITANCE_ESR_SCREEN; STARTUP_AND_HOLDUP_NOT_QUALIFIED",
+        "Manufacturer": "Panasonic",
+        "MPN": "16SVPF180M",
+        "Package": "OS-CON C6 diameter6.3 height5.9",
+        "Footprint": "X100_Physical:Panasonic_OSCON_C6",
+        "Datasheet": "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M",
+        "Description": "Panasonic 16SVPF180M; CP_C6; consolidated 5V_CORE_MUX bulk; + pin1"
+      }
+    },
+    "C123": {
+      "value": "1u /16V shared input bypass",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE_SHARED_DECOUPLING; PLACEMENT_REQUIRED; NO_BENCH_PASS",
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C105K4RACTU",
+        "Specification Value": "1uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Package": "0805",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor"
+      }
+    },
+    "C124": {
+      "value": "1u /16V",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C105K4RACTU",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor"
+      }
+    },
+    "C125": {
+      "value": "1u /16V mux VIN1",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE_SHARED_DECOUPLING; PLACEMENT_REQUIRED; NO_BENCH_PASS",
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C105K4RACTU",
+        "Specification Value": "1uF",
+        "Tolerance": "10%",
+        "Dielectric": "X7R",
+        "Voltage Rating": ">=16V",
+        "Package": "0805",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor"
+      }
+    },
+    "R111": {
+      "value": "33.2k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "Yageo",
+        "MPN": "RT0805BRD0733K2L",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Resistor"
+      }
+    },
+    "R112": {
+      "value": "10k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "Yageo",
+        "MPN": "RT0805BRD0710KL",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Resistor"
+      }
+    },
+    "R113": {
+      "value": "49.9k 0.1%",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "USER_APPROVED_SINGLE_LIMIT; conservative design envelope 473-584mA; first-board measurement pending",
+        "Manufacturer": "YAGEO",
+        "MPN": "RT0805BRD0749K9L",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "https://yageogroup.com/component-documentation/download/specsheet/RT0805BRD0749K9L",
+        "Description": "Resistor"
+      }
+    },
+    "R114": {
+      "value": "10k ST pull-up",
+      "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "Yageo",
+        "MPN": "RC0805FR-0710KL",
+        "Footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Resistor"
+      }
+    },
+    "U105": {
+      "value": "TPS2116DRLR",
+      "footprint": "Package_TO_SOT_SMD:SOT-583-8",
+      "fields": {
+        "Procurement Policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TPS2116DRLR",
+        "Footprint": "Package_TO_SOT_SMD:SOT-583-8",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps2116.pdf",
+        "Description": "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
+      }
+    },
+    "U106": {
+      "value": "TPS2553DBVR",
+      "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6",
+      "fields": {
+        "Procurement Policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TPS2553DBVR",
+        "Footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+        "Description": ""
+      }
+    },
+    "C126": {
+      "value": "1u /16V mux output",
+      "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+      "fields": {
+        "Procurement Policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked",
+        "Verification Status": "CANDIDATE; native ERC checked; functional/current/DFM not complete",
+        "Manufacturer": "KEMET",
+        "MPN": "C0805C105K4RACTU",
+        "Footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+        "Datasheet": "",
+        "Description": "Unpolarized capacitor"
+      }
+    }
+  },
+  "nets": {
+    "/02_MCU/PWR_LED_A": [
+      [
+        "D202",
+        "2"
+      ],
+      [
+        "R207",
+        "2"
+      ]
+    ],
+    "3V3_MCU": [
+      [
+        "C113",
+        "1"
+      ],
+      [
+        "C114",
+        "1"
+      ],
+      [
+        "C203",
+        "1"
+      ],
+      [
+        "C204",
+        "1"
+      ],
+      [
+        "C205",
+        "1"
+      ],
+      [
+        "C206",
+        "1"
+      ],
+      [
+        "C207",
+        "1"
+      ],
+      [
+        "C208",
+        "1"
+      ],
+      [
+        "C211",
+        "1"
+      ],
+      [
+        "C402",
+        "1"
+      ],
+      [
+        "C601",
+        "1"
+      ],
+      [
+        "C805",
+        "1"
+      ],
+      [
+        "J807",
+        "1"
+      ],
+      [
+        "L102",
+        "2"
+      ],
+      [
+        "R110",
+        "1"
+      ],
+      [
+        "R114",
+        "1"
+      ],
+      [
+        "R201",
+        "1"
+      ],
+      [
+        "R203",
+        "1"
+      ],
+      [
+        "R207",
+        "1"
+      ],
+      [
+        "R501",
+        "1"
+      ],
+      [
+        "R603",
+        "1"
+      ],
+      [
+        "R604",
+        "1"
+      ],
+      [
+        "R701",
+        "1"
+      ],
+      [
+        "R702",
+        "1"
+      ],
+      [
+        "R811",
+        "1"
+      ],
+      [
+        "TP105",
+        "1"
+      ],
+      [
+        "U102",
+        "1"
+      ],
+      [
+        "U103",
+        "3"
+      ],
+      [
+        "U201",
+        "100"
+      ],
+      [
+        "U201",
+        "11"
+      ],
+      [
+        "U201",
+        "27"
+      ],
+      [
+        "U201",
+        "50"
+      ],
+      [
+        "U201",
+        "6"
+      ],
+      [
+        "U201",
+        "75"
+      ],
+      [
+        "U402",
+        "5"
+      ],
+      [
+        "U601",
+        "3"
+      ],
+      [
+        "U801",
+        "1"
+      ],
+      [
+        "U801",
+        "14"
+      ],
+      [
+        "U801",
+        "4"
+      ]
+    ],
+    "3V3_SD": [
+      [
+        "C501",
+        "1"
+      ],
+      [
+        "C502",
+        "1"
+      ],
+      [
+        "J501",
+        "4"
+      ],
+      [
+        "R501",
+        "2"
+      ],
+      [
+        "R502",
+        "1"
+      ],
+      [
+        "R503",
+        "1"
+      ],
+      [
+        "R504",
+        "1"
+      ],
+      [
+        "R505",
+        "1"
+      ],
+      [
+        "R506",
+        "1"
+      ],
+      [
+        "TP501",
+        "1"
+      ]
+    ],
+    "3V3_SENSOR": [
+      [
+        "C116",
+        "1"
+      ],
+      [
+        "C301",
+        "1"
+      ],
+      [
+        "C302",
+        "1"
+      ],
+      [
+        "C303",
+        "1"
+      ],
+      [
+        "C304",
+        "1"
+      ],
+      [
+        "R301",
+        "1"
+      ],
+      [
+        "R302",
+        "1"
+      ],
+      [
+        "R303",
+        "1"
+      ],
+      [
+        "R304",
+        "1"
+      ],
+      [
+        "TP107",
+        "1"
+      ],
+      [
+        "U103",
+        "5"
+      ],
+      [
+        "U301",
+        "11"
+      ],
+      [
+        "U301",
+        "3"
+      ],
+      [
+        "U302",
+        "2"
+      ],
+      [
+        "U302",
+        "6"
+      ],
+      [
+        "U302",
+        "8"
+      ]
+    ],
+    "5V_CORE": [
+      [
+        "C111",
+        "1"
+      ],
+      [
+        "C121",
+        "1"
+      ],
+      [
+        "C126",
+        "1"
+      ],
+      [
+        "R108",
+        "1"
+      ],
+      [
+        "U102",
+        "2"
+      ],
+      [
+        "U102",
+        "3"
+      ],
+      [
+        "U105",
+        "2"
+      ],
+      [
+        "U105",
+        "7"
+      ]
+    ],
+    "5V_MAIN": [
+      [
+        "C108",
+        "1"
+      ],
+      [
+        "C117",
+        "1"
+      ],
+      [
+        "C118",
+        "1"
+      ],
+      [
+        "C125",
+        "1"
+      ],
+      [
+        "L101",
+        "2"
+      ],
+      [
+        "R105",
+        "1"
+      ],
+      [
+        "R111",
+        "1"
+      ],
+      [
+        "TP104",
+        "1"
+      ],
+      [
+        "U104",
+        "1"
+      ],
+      [
+        "U104",
+        "3"
+      ],
+      [
+        "U105",
+        "3"
+      ],
+      [
+        "U105",
+        "5"
+      ]
+    ],
+    "BARO_I2C2_SCL": [
+      [
+        "R303",
+        "2"
+      ],
+      [
+        "TP307",
+        "1"
+      ],
+      [
+        "U201",
+        "46"
+      ],
+      [
+        "U302",
+        "4"
+      ]
+    ],
+    "BARO_I2C2_SDA": [
+      [
+        "R304",
+        "2"
+      ],
+      [
+        "TP308",
+        "1"
+      ],
+      [
+        "U201",
+        "47"
+      ],
+      [
+        "U302",
+        "3"
+      ]
+    ],
+    "BMI088_ACC_CS": [
+      [
+        "R301",
+        "2"
+      ],
+      [
+        "TP305",
+        "1"
+      ],
+      [
+        "U201",
+        "32"
+      ],
+      [
+        "U301",
+        "14"
+      ]
+    ],
+    "BMI088_GYRO_CS": [
+      [
+        "R302",
+        "2"
+      ],
+      [
+        "TP306",
+        "1"
+      ],
+      [
+        "U201",
+        "33"
+      ],
+      [
+        "U301",
+        "5"
+      ]
+    ],
+    "BOOT0": [
+      [
+        "R204",
+        "1"
+      ],
+      [
+        "TP202",
+        "1"
+      ],
+      [
+        "U201",
+        "94"
+      ]
+    ],
+    "CANH": [
+      [
+        "J601",
+        "2"
+      ],
+      [
+        "R602",
+        "1"
+      ],
+      [
+        "U601",
+        "7"
+      ]
+    ],
+    "CANL": [
+      [
+        "J601",
+        "3"
+      ],
+      [
+        "JP601",
+        "2"
+      ],
+      [
+        "U601",
+        "6"
+      ]
+    ],
+    "CAN_RX": [
+      [
+        "U201",
+        "81"
+      ],
+      [
+        "U601",
+        "4"
+      ]
+    ],
+    "CAN_STB": [
+      [
+        "R604",
+        "2"
+      ],
+      [
+        "U201",
+        "2"
+      ],
+      [
+        "U601",
+        "8"
+      ]
+    ],
+    "CAN_TERM": [
+      [
+        "JP601",
+        "1"
+      ],
+      [
+        "R602",
+        "2"
+      ]
+    ],
+    "CAN_TX": [
+      [
+        "R603",
+        "2"
+      ],
+      [
+        "U201",
+        "82"
+      ],
+      [
+        "U601",
+        "1"
+      ]
+    ],
+    "CORE_BAT_SELECTED": [
+      [
+        "R114",
+        "2"
+      ],
+      [
+        "U105",
+        "8"
+      ],
+      [
+        "U201",
+        "1"
+      ]
+    ],
+    "CORE_PWR_PRIORITY": [
+      [
+        "R111",
+        "2"
+      ],
+      [
+        "R112",
+        "1"
+      ],
+      [
+        "U105",
+        "4"
+      ]
+    ],
+    "CURRENT_ADC": [
+      [
+        "C804",
+        "1"
+      ],
+      [
+        "R808",
+        "2"
+      ],
+      [
+        "R810",
+        "1"
+      ],
+      [
+        "TP805",
+        "1"
+      ],
+      [
+        "U201",
+        "16"
+      ]
+    ],
+    "CURRENT_ADC_ISOLATED": [
+      [
+        "R808",
+        "1"
+      ],
+      [
+        "U801",
+        "6"
+      ]
+    ],
+    "CURRENT_ADC_PRE_PROTECTION": [
+      [
+        "C802",
+        "1"
+      ],
+      [
+        "R807",
+        "2"
+      ],
+      [
+        "U801",
+        "5"
+      ]
+    ],
+    "CURRENT_DIV": [
+      [
+        "R805",
+        "2"
+      ],
+      [
+        "R806",
+        "1"
+      ],
+      [
+        "R807",
+        "1"
+      ]
+    ],
+    "CURRENT_IN_RAW": [
+      [
+        "J809",
+        "3"
+      ],
+      [
+        "R805",
+        "1"
+      ]
+    ],
+    "EXT_5V": [
+      [
+        "C119",
+        "1"
+      ],
+      [
+        "C120",
+        "1"
+      ],
+      [
+        "J601",
+        "1"
+      ],
+      [
+        "J701",
+        "1"
+      ],
+      [
+        "J702",
+        "1"
+      ],
+      [
+        "J703",
+        "1"
+      ],
+      [
+        "J704",
+        "1"
+      ],
+      [
+        "TP109",
+        "1"
+      ],
+      [
+        "U104",
+        "6"
+      ]
+    ],
+    "EXT_FAULT": [
+      [
+        "R110",
+        "2"
+      ],
+      [
+        "TP110",
+        "1"
+      ],
+      [
+        "U104",
+        "4"
+      ]
+    ],
+    "EXT_I2C1_SCL": [
+      [
+        "J701",
+        "4"
+      ],
+      [
+        "J704",
+        "2"
+      ],
+      [
+        "R701",
+        "2"
+      ],
+      [
+        "U201",
+        "95"
+      ]
+    ],
+    "EXT_I2C1_SDA": [
+      [
+        "J701",
+        "5"
+      ],
+      [
+        "J704",
+        "3"
+      ],
+      [
+        "R702",
+        "2"
+      ],
+      [
+        "U201",
+        "96"
+      ]
+    ],
+    "EXT_ILIM": [
+      [
+        "R109",
+        "1"
+      ],
+      [
+        "U104",
+        "5"
+      ]
+    ],
+    "GND": [
+      [
+        "C101",
+        "2"
+      ],
+      [
+        "C102",
+        "2"
+      ],
+      [
+        "C103",
+        "2"
+      ],
+      [
+        "C104",
+        "2"
+      ],
+      [
+        "C105",
+        "2"
+      ],
+      [
+        "C106",
+        "2"
+      ],
+      [
+        "C108",
+        "2"
+      ],
+      [
+        "C109",
+        "2"
+      ],
+      [
+        "C110",
+        "2"
+      ],
+      [
+        "C111",
+        "2"
+      ],
+      [
+        "C113",
+        "2"
+      ],
+      [
+        "C114",
+        "2"
+      ],
+      [
+        "C115",
+        "2"
+      ],
+      [
+        "C116",
+        "2"
+      ],
+      [
+        "C117",
+        "2"
+      ],
+      [
+        "C118",
+        "2"
+      ],
+      [
+        "C119",
+        "2"
+      ],
+      [
+        "C120",
+        "2"
+      ],
+      [
+        "C121",
+        "2"
+      ],
+      [
+        "C123",
+        "2"
+      ],
+      [
+        "C124",
+        "2"
+      ],
+      [
+        "C125",
+        "2"
+      ],
+      [
+        "C126",
+        "2"
+      ],
+      [
+        "C201",
+        "2"
+      ],
+      [
+        "C202",
+        "2"
+      ],
+      [
+        "C203",
+        "2"
+      ],
+      [
+        "C204",
+        "2"
+      ],
+      [
+        "C205",
+        "2"
+      ],
+      [
+        "C206",
+        "2"
+      ],
+      [
+        "C207",
+        "2"
+      ],
+      [
+        "C208",
+        "2"
+      ],
+      [
+        "C209",
+        "2"
+      ],
+      [
+        "C210",
+        "2"
+      ],
+      [
+        "C211",
+        "2"
+      ],
+      [
+        "C212",
+        "2"
+      ],
+      [
+        "C213",
+        "2"
+      ],
+      [
+        "C214",
+        "2"
+      ],
+      [
+        "C301",
+        "2"
+      ],
+      [
+        "C302",
+        "2"
+      ],
+      [
+        "C303",
+        "2"
+      ],
+      [
+        "C304",
+        "2"
+      ],
+      [
+        "C401",
+        "2"
+      ],
+      [
+        "C402",
+        "2"
+      ],
+      [
+        "C501",
+        "2"
+      ],
+      [
+        "C502",
+        "2"
+      ],
+      [
+        "C601",
+        "2"
+      ],
+      [
+        "C801",
+        "2"
+      ],
+      [
+        "C802",
+        "2"
+      ],
+      [
+        "C803",
+        "2"
+      ],
+      [
+        "C804",
+        "2"
+      ],
+      [
+        "C805",
+        "2"
+      ],
+      [
+        "D102",
+        "2"
+      ],
+      [
+        "D103",
+        "A"
+      ],
+      [
+        "D201",
+        "1"
+      ],
+      [
+        "D202",
+        "1"
+      ],
+      [
+        "J401",
+        "A1"
+      ],
+      [
+        "J401",
+        "A12"
+      ],
+      [
+        "J401",
+        "B1"
+      ],
+      [
+        "J401",
+        "B12"
+      ],
+      [
+        "J401",
+        "SH"
+      ],
+      [
+        "J501",
+        "6"
+      ],
+      [
+        "J501",
+        "SH"
+      ],
+      [
+        "J601",
+        "4"
+      ],
+      [
+        "J701",
+        "6"
+      ],
+      [
+        "J702",
+        "6"
+      ],
+      [
+        "J703",
+        "6"
+      ],
+      [
+        "J704",
+        "4"
+      ],
+      [
+        "J801",
+        "2"
+      ],
+      [
+        "J802",
+        "2"
+      ],
+      [
+        "J803",
+        "2"
+      ],
+      [
+        "J804",
+        "2"
+      ],
+      [
+        "J805",
+        "2"
+      ],
+      [
+        "J806",
+        "2"
+      ],
+      [
+        "J807",
+        "2"
+      ],
+      [
+        "J808",
+        "2"
+      ],
+      [
+        "J809",
+        "5"
+      ],
+      [
+        "J809",
+        "6"
+      ],
+      [
+        "R101",
+        "2"
+      ],
+      [
+        "R103",
+        "2"
+      ],
+      [
+        "R104",
+        "2"
+      ],
+      [
+        "R106",
+        "2"
+      ],
+      [
+        "R109",
+        "2"
+      ],
+      [
+        "R112",
+        "2"
+      ],
+      [
+        "R113",
+        "2"
+      ],
+      [
+        "R204",
+        "2"
+      ],
+      [
+        "R401",
+        "2"
+      ],
+      [
+        "R402",
+        "2"
+      ],
+      [
+        "R404",
+        "2"
+      ],
+      [
+        "R802",
+        "2"
+      ],
+      [
+        "R806",
+        "2"
+      ],
+      [
+        "R809",
+        "2"
+      ],
+      [
+        "R810",
+        "2"
+      ],
+      [
+        "R811",
+        "2"
+      ],
+      [
+        "TP111",
+        "1"
+      ],
+      [
+        "TP208",
+        "1"
+      ],
+      [
+        "TP405",
+        "1"
+      ],
+      [
+        "U101",
+        "7"
+      ],
+      [
+        "U101",
+        "9"
+      ],
+      [
+        "U102",
+        "4"
+      ],
+      [
+        "U103",
+        "2"
+      ],
+      [
+        "U104",
+        "2"
+      ],
+      [
+        "U105",
+        "1"
+      ],
+      [
+        "U106",
+        "2"
+      ],
+      [
+        "U201",
+        "10"
+      ],
+      [
+        "U201",
+        "19"
+      ],
+      [
+        "U201",
+        "26"
+      ],
+      [
+        "U201",
+        "49"
+      ],
+      [
+        "U201",
+        "74"
+      ],
+      [
+        "U201",
+        "99"
+      ],
+      [
+        "U301",
+        "2"
+      ],
+      [
+        "U301",
+        "4"
+      ],
+      [
+        "U301",
+        "6"
+      ],
+      [
+        "U301",
+        "7"
+      ],
+      [
+        "U302",
+        "1"
+      ],
+      [
+        "U302",
+        "5"
+      ],
+      [
+        "U302",
+        "7"
+      ],
+      [
+        "U401",
+        "2"
+      ],
+      [
+        "U402",
+        "3"
+      ],
+      [
+        "U403",
+        "3"
+      ],
+      [
+        "U601",
+        "2"
+      ],
+      [
+        "U601",
+        "5"
+      ],
+      [
+        "U801",
+        "10"
+      ],
+      [
+        "U801",
+        "11"
+      ],
+      [
+        "U801",
+        "12"
+      ],
+      [
+        "U801",
+        "13"
+      ],
+      [
+        "U801",
+        "7"
+      ],
+      [
+        "U801",
+        "8"
+      ],
+      [
+        "U801",
+        "9"
+      ]
+    ],
+    "GPS_RX": [
+      [
+        "J701",
+        "3"
+      ],
+      [
+        "U201",
+        "87"
+      ]
+    ],
+    "GPS_TX": [
+      [
+        "J701",
+        "2"
+      ],
+      [
+        "U201",
+        "86"
+      ]
+    ],
+    "HSE_IN": [
+      [
+        "C213",
+        "1"
+      ],
+      [
+        "U201",
+        "12"
+      ],
+      [
+        "Y201",
+        "1"
+      ]
+    ],
+    "HSE_OUT": [
+      [
+        "R205",
+        "1"
+      ],
+      [
+        "U201",
+        "13"
+      ]
+    ],
+    "HSE_XOUT": [
+      [
+        "C214",
+        "1"
+      ],
+      [
+        "R205",
+        "2"
+      ],
+      [
+        "Y201",
+        "2"
+      ]
+    ],
+    "LED_A": [
+      [
+        "D201",
+        "2"
+      ],
+      [
+        "R206",
+        "2"
+      ]
+    ],
+    "MAIN_BOOT": [
+      [
+        "C107",
+        "1"
+      ],
+      [
+        "U101",
+        "1"
+      ]
+    ],
+    "MAIN_COMP": [
+      [
+        "C110",
+        "1"
+      ],
+      [
+        "R107",
+        "1"
+      ],
+      [
+        "U101",
+        "6"
+      ]
+    ],
+    "MAIN_COMP_RC": [
+      [
+        "C109",
+        "1"
+      ],
+      [
+        "R107",
+        "2"
+      ]
+    ],
+    "MAIN_EN": [
+      [
+        "R102",
+        "2"
+      ],
+      [
+        "R103",
+        "1"
+      ],
+      [
+        "U101",
+        "3"
+      ]
+    ],
+    "MAIN_FB": [
+      [
+        "R105",
+        "2"
+      ],
+      [
+        "R106",
+        "1"
+      ],
+      [
+        "U101",
+        "5"
+      ]
+    ],
+    "MAIN_RT": [
+      [
+        "R104",
+        "1"
+      ],
+      [
+        "U101",
+        "4"
+      ]
+    ],
+    "MAIN_SW": [
+      [
+        "C107",
+        "2"
+      ],
+      [
+        "D103",
+        "K"
+      ],
+      [
+        "L101",
+        "1"
+      ],
+      [
+        "U101",
+        "8"
+      ]
+    ],
+    "MCU_BOOT": [
+      [
+        "C112",
+        "1"
+      ],
+      [
+        "U102",
+        "6"
+      ]
+    ],
+    "MCU_SW": [
+      [
+        "C112",
+        "2"
+      ],
+      [
+        "L102",
+        "1"
+      ],
+      [
+        "U102",
+        "5"
+      ]
+    ],
+    "MCU_VDDA": [
+      [
+        "C209",
+        "1"
+      ],
+      [
+        "C210",
+        "1"
+      ],
+      [
+        "R201",
+        "2"
+      ],
+      [
+        "TP204",
+        "1"
+      ],
+      [
+        "U201",
+        "20"
+      ],
+      [
+        "U201",
+        "21"
+      ]
+    ],
+    "NRST": [
+      [
+        "C212",
+        "1"
+      ],
+      [
+        "J807",
+        "5"
+      ],
+      [
+        "R203",
+        "2"
+      ],
+      [
+        "U201",
+        "14"
+      ]
+    ],
+    "OUT1": [
+      [
+        "J801",
+        "1"
+      ],
+      [
+        "U201",
+        "39"
+      ]
+    ],
+    "OUT2": [
+      [
+        "J802",
+        "1"
+      ],
+      [
+        "U201",
+        "41"
+      ]
+    ],
+    "OUT3": [
+      [
+        "J803",
+        "1"
+      ],
+      [
+        "U201",
+        "43"
+      ]
+    ],
+    "OUT4": [
+      [
+        "J804",
+        "1"
+      ],
+      [
+        "U201",
+        "44"
+      ]
+    ],
+    "OUT5": [
+      [
+        "J805",
+        "1"
+      ],
+      [
+        "U201",
+        "59"
+      ]
+    ],
+    "OUT6": [
+      [
+        "J806",
+        "1"
+      ],
+      [
+        "U201",
+        "60"
+      ]
+    ],
+    "RC_RX": [
+      [
+        "J703",
+        "3"
+      ],
+      [
+        "U201",
+        "64"
+      ]
+    ],
+    "RC_TX": [
+      [
+        "J703",
+        "2"
+      ],
+      [
+        "U201",
+        "63"
+      ]
+    ],
+    "RP_GATE": [
+      [
+        "D101",
+        "2"
+      ],
+      [
+        "Q101",
+        "4"
+      ],
+      [
+        "R101",
+        "1"
+      ]
+    ],
+    "SDMMC1_CK": [
+      [
+        "J501",
+        "5"
+      ],
+      [
+        "U201",
+        "80"
+      ]
+    ],
+    "SDMMC1_CMD": [
+      [
+        "J501",
+        "3"
+      ],
+      [
+        "R502",
+        "2"
+      ],
+      [
+        "U201",
+        "83"
+      ]
+    ],
+    "SDMMC1_D0": [
+      [
+        "J501",
+        "7"
+      ],
+      [
+        "R503",
+        "2"
+      ],
+      [
+        "U201",
+        "65"
+      ]
+    ],
+    "SDMMC1_D1": [
+      [
+        "J501",
+        "8"
+      ],
+      [
+        "R504",
+        "2"
+      ],
+      [
+        "U201",
+        "66"
+      ]
+    ],
+    "SDMMC1_D2": [
+      [
+        "J501",
+        "1"
+      ],
+      [
+        "R505",
+        "2"
+      ],
+      [
+        "U201",
+        "78"
+      ]
+    ],
+    "SDMMC1_D3": [
+      [
+        "J501",
+        "2"
+      ],
+      [
+        "R506",
+        "2"
+      ],
+      [
+        "U201",
+        "79"
+      ]
+    ],
+    "SENSOR_LDO_IN": [
+      [
+        "C115",
+        "1"
+      ],
+      [
+        "R108",
+        "2"
+      ],
+      [
+        "TP106",
+        "1"
+      ],
+      [
+        "U103",
+        "1"
+      ]
+    ],
+    "SPI1_MISO": [
+      [
+        "TP304",
+        "1"
+      ],
+      [
+        "U201",
+        "30"
+      ],
+      [
+        "U301",
+        "10"
+      ],
+      [
+        "U301",
+        "15"
+      ]
+    ],
+    "SPI1_MOSI": [
+      [
+        "TP303",
+        "1"
+      ],
+      [
+        "U201",
+        "31"
+      ],
+      [
+        "U301",
+        "9"
+      ]
+    ],
+    "SPI1_SCK": [
+      [
+        "TP302",
+        "1"
+      ],
+      [
+        "U201",
+        "29"
+      ],
+      [
+        "U301",
+        "8"
+      ]
+    ],
+    "STATUS_LED": [
+      [
+        "R206",
+        "1"
+      ],
+      [
+        "U201",
+        "34"
+      ]
+    ],
+    "SWCLK": [
+      [
+        "J807",
+        "4"
+      ],
+      [
+        "U201",
+        "76"
+      ]
+    ],
+    "SWDIO": [
+      [
+        "J807",
+        "3"
+      ],
+      [
+        "U201",
+        "72"
+      ]
+    ],
+    "TELEM_RX": [
+      [
+        "J702",
+        "3"
+      ],
+      [
+        "U201",
+        "56"
+      ]
+    ],
+    "TELEM_TX": [
+      [
+        "J702",
+        "2"
+      ],
+      [
+        "U201",
+        "55"
+      ]
+    ],
+    "USB_5V_LIMITED": [
+      [
+        "C124",
+        "1"
+      ],
+      [
+        "U105",
+        "6"
+      ],
+      [
+        "U106",
+        "6"
+      ]
+    ],
+    "USB_CC1": [
+      [
+        "J401",
+        "A5"
+      ],
+      [
+        "R401",
+        "1"
+      ],
+      [
+        "U401",
+        "3"
+      ]
+    ],
+    "USB_CC2": [
+      [
+        "J401",
+        "B5"
+      ],
+      [
+        "R402",
+        "1"
+      ],
+      [
+        "U401",
+        "4"
+      ]
+    ],
+    "USB_DM": [
+      [
+        "J401",
+        "A7"
+      ],
+      [
+        "J401",
+        "B7"
+      ],
+      [
+        "U201",
+        "70"
+      ],
+      [
+        "U401",
+        "6"
+      ]
+    ],
+    "USB_DP": [
+      [
+        "J401",
+        "A6"
+      ],
+      [
+        "J401",
+        "B6"
+      ],
+      [
+        "U201",
+        "71"
+      ],
+      [
+        "U401",
+        "1"
+      ]
+    ],
+    "USB_PWR_ILIM": [
+      [
+        "R113",
+        "1"
+      ],
+      [
+        "U106",
+        "5"
+      ]
+    ],
+    "USB_VBUS_RAW": [
+      [
+        "C123",
+        "1"
+      ],
+      [
+        "C401",
+        "1"
+      ],
+      [
+        "J401",
+        "A4"
+      ],
+      [
+        "J401",
+        "A9"
+      ],
+      [
+        "J401",
+        "B4"
+      ],
+      [
+        "J401",
+        "B9"
+      ],
+      [
+        "R403",
+        "1"
+      ],
+      [
+        "TP401",
+        "1"
+      ],
+      [
+        "U106",
+        "1"
+      ],
+      [
+        "U106",
+        "3"
+      ],
+      [
+        "U403",
+        "1"
+      ]
+    ],
+    "USB_VBUS_SENSE": [
+      [
+        "U201",
+        "68"
+      ],
+      [
+        "U402",
+        "4"
+      ]
+    ],
+    "VBAT_ADC": [
+      [
+        "C803",
+        "1"
+      ],
+      [
+        "R804",
+        "2"
+      ],
+      [
+        "R809",
+        "1"
+      ],
+      [
+        "TP803",
+        "1"
+      ],
+      [
+        "U201",
+        "15"
+      ]
+    ],
+    "VBAT_ADC_ISOLATED": [
+      [
+        "R804",
+        "1"
+      ],
+      [
+        "U801",
+        "3"
+      ]
+    ],
+    "VBAT_ADC_PRE_PROTECTION": [
+      [
+        "C801",
+        "1"
+      ],
+      [
+        "R803",
+        "2"
+      ],
+      [
+        "U801",
+        "2"
+      ]
+    ],
+    "VBAT_DIV": [
+      [
+        "R801",
+        "2"
+      ],
+      [
+        "R802",
+        "1"
+      ],
+      [
+        "R803",
+        "1"
+      ]
+    ],
+    "VBAT_FUSED": [
+      [
+        "F101",
+        "2"
+      ],
+      [
+        "Q101",
+        "5"
+      ],
+      [
+        "Q101",
+        "6"
+      ],
+      [
+        "Q101",
+        "7"
+      ],
+      [
+        "Q101",
+        "8"
+      ]
+    ],
+    "VBAT_PROTECTED": [
+      [
+        "C101",
+        "1"
+      ],
+      [
+        "C102",
+        "1"
+      ],
+      [
+        "C103",
+        "1"
+      ],
+      [
+        "C104",
+        "1"
+      ],
+      [
+        "C105",
+        "1"
+      ],
+      [
+        "C106",
+        "1"
+      ],
+      [
+        "D101",
+        "1"
+      ],
+      [
+        "D102",
+        "1"
+      ],
+      [
+        "Q101",
+        "1"
+      ],
+      [
+        "Q101",
+        "2"
+      ],
+      [
+        "Q101",
+        "3"
+      ],
+      [
+        "R102",
+        "1"
+      ],
+      [
+        "R801",
+        "1"
+      ],
+      [
+        "TP103",
+        "1"
+      ],
+      [
+        "U101",
+        "2"
+      ]
+    ],
+    "VBAT_RAW": [
+      [
+        "F101",
+        "1"
+      ],
+      [
+        "J808",
+        "1"
+      ],
+      [
+        "TP101",
+        "1"
+      ]
+    ],
+    "VBUS_BUF_A": [
+      [
+        "R403",
+        "2"
+      ],
+      [
+        "R404",
+        "1"
+      ],
+      [
+        "U402",
+        "2"
+      ]
+    ],
+    "VCAP1": [
+      [
+        "C201",
+        "1"
+      ],
+      [
+        "TP205",
+        "1"
+      ],
+      [
+        "U201",
+        "48"
+      ]
+    ],
+    "VCAP2": [
+      [
+        "C202",
+        "1"
+      ],
+      [
+        "TP206",
+        "1"
+      ],
+      [
+        "U201",
+        "73"
+      ]
+    ],
+    "unconnected-(J401-PadA8)": [
+      [
+        "J401",
+        "A8"
+      ]
+    ],
+    "unconnected-(J401-PadB8)": [
+      [
+        "J401",
+        "B8"
+      ]
+    ],
+    "unconnected-(J501-DET_A-Pad10)": [
+      [
+        "J501",
+        "10"
+      ]
+    ],
+    "unconnected-(J501-DET_B-Pad9)": [
+      [
+        "J501",
+        "9"
+      ]
+    ],
+    "unconnected-(J702-Pad4)": [
+      [
+        "J702",
+        "4"
+      ]
+    ],
+    "unconnected-(J702-Pad5)": [
+      [
+        "J702",
+        "5"
+      ]
+    ],
+    "unconnected-(J703-Pad4)": [
+      [
+        "J703",
+        "4"
+      ]
+    ],
+    "unconnected-(J703-Pad5)": [
+      [
+        "J703",
+        "5"
+      ]
+    ],
+    "unconnected-(J809-Pad1)": [
+      [
+        "J809",
+        "1"
+      ]
+    ],
+    "unconnected-(J809-Pad2)": [
+      [
+        "J809",
+        "2"
+      ]
+    ],
+    "unconnected-(J809-Pad4)": [
+      [
+        "J809",
+        "4"
+      ]
+    ],
+    "unconnected-(U103-NC-Pad4)": [
+      [
+        "U103",
+        "4"
+      ]
+    ],
+    "unconnected-(U106-~{FAULT}-Pad4)": [
+      [
+        "U106",
+        "4"
+      ]
+    ],
+    "unconnected-(U201-PA0-Pad22)": [
+      [
+        "U201",
+        "22"
+      ]
+    ],
+    "unconnected-(U201-PA1-Pad23)": [
+      [
+        "U201",
+        "23"
+      ]
+    ],
+    "unconnected-(U201-PA2-Pad24)": [
+      [
+        "U201",
+        "24"
+      ]
+    ],
+    "unconnected-(U201-PA3-Pad25)": [
+      [
+        "U201",
+        "25"
+      ]
+    ],
+    "unconnected-(U201-PA4-Pad28)": [
+      [
+        "U201",
+        "28"
+      ]
+    ],
+    "unconnected-(U201-PA8-Pad67)": [
+      [
+        "U201",
+        "67"
+      ]
+    ],
+    "unconnected-(U201-PA10-Pad69)": [
+      [
+        "U201",
+        "69"
+      ]
+    ],
+    "unconnected-(U201-PA15-Pad77)": [
+      [
+        "U201",
+        "77"
+      ]
+    ],
+    "unconnected-(U201-PB1-Pad35)": [
+      [
+        "U201",
+        "35"
+      ]
+    ],
+    "unconnected-(U201-PB2-Pad36)": [
+      [
+        "U201",
+        "36"
+      ]
+    ],
+    "unconnected-(U201-PB3-Pad89)": [
+      [
+        "U201",
+        "89"
+      ]
+    ],
+    "unconnected-(U201-PB4-Pad90)": [
+      [
+        "U201",
+        "90"
+      ]
+    ],
+    "unconnected-(U201-PB5-Pad91)": [
+      [
+        "U201",
+        "91"
+      ]
+    ],
+    "unconnected-(U201-PB6-Pad92)": [
+      [
+        "U201",
+        "92"
+      ]
+    ],
+    "unconnected-(U201-PB7-Pad93)": [
+      [
+        "U201",
+        "93"
+      ]
+    ],
+    "unconnected-(U201-PB12-Pad51)": [
+      [
+        "U201",
+        "51"
+      ]
+    ],
+    "unconnected-(U201-PB13-Pad52)": [
+      [
+        "U201",
+        "52"
+      ]
+    ],
+    "unconnected-(U201-PB14-Pad53)": [
+      [
+        "U201",
+        "53"
+      ]
+    ],
+    "unconnected-(U201-PB15-Pad54)": [
+      [
+        "U201",
+        "54"
+      ]
+    ],
+    "unconnected-(U201-PC2_C-Pad17)": [
+      [
+        "U201",
+        "17"
+      ]
+    ],
+    "unconnected-(U201-PC3_C-Pad18)": [
+      [
+        "U201",
+        "18"
+      ]
+    ],
+    "unconnected-(U201-PC13-Pad7)": [
+      [
+        "U201",
+        "7"
+      ]
+    ],
+    "unconnected-(U201-PC14-Pad8)": [
+      [
+        "U201",
+        "8"
+      ]
+    ],
+    "unconnected-(U201-PC15-Pad9)": [
+      [
+        "U201",
+        "9"
+      ]
+    ],
+    "unconnected-(U201-PD3-Pad84)": [
+      [
+        "U201",
+        "84"
+      ]
+    ],
+    "unconnected-(U201-PD4-Pad85)": [
+      [
+        "U201",
+        "85"
+      ]
+    ],
+    "unconnected-(U201-PD7-Pad88)": [
+      [
+        "U201",
+        "88"
+      ]
+    ],
+    "unconnected-(U201-PD10-Pad57)": [
+      [
+        "U201",
+        "57"
+      ]
+    ],
+    "unconnected-(U201-PD11-Pad58)": [
+      [
+        "U201",
+        "58"
+      ]
+    ],
+    "unconnected-(U201-PD14-Pad61)": [
+      [
+        "U201",
+        "61"
+      ]
+    ],
+    "unconnected-(U201-PD15-Pad62)": [
+      [
+        "U201",
+        "62"
+      ]
+    ],
+    "unconnected-(U201-PE0-Pad97)": [
+      [
+        "U201",
+        "97"
+      ]
+    ],
+    "unconnected-(U201-PE1-Pad98)": [
+      [
+        "U201",
+        "98"
+      ]
+    ],
+    "unconnected-(U201-PE4-Pad3)": [
+      [
+        "U201",
+        "3"
+      ]
+    ],
+    "unconnected-(U201-PE5-Pad4)": [
+      [
+        "U201",
+        "4"
+      ]
+    ],
+    "unconnected-(U201-PE6-Pad5)": [
+      [
+        "U201",
+        "5"
+      ]
+    ],
+    "unconnected-(U201-PE7-Pad37)": [
+      [
+        "U201",
+        "37"
+      ]
+    ],
+    "unconnected-(U201-PE8-Pad38)": [
+      [
+        "U201",
+        "38"
+      ]
+    ],
+    "unconnected-(U201-PE10-Pad40)": [
+      [
+        "U201",
+        "40"
+      ]
+    ],
+    "unconnected-(U201-PE12-Pad42)": [
+      [
+        "U201",
+        "42"
+      ]
+    ],
+    "unconnected-(U201-PE15-Pad45)": [
+      [
+        "U201",
+        "45"
+      ]
+    ],
+    "unconnected-(U301-INT1-Pad16)": [
+      [
+        "U301",
+        "16"
+      ]
+    ],
+    "unconnected-(U301-INT2-Pad1)": [
+      [
+        "U301",
+        "1"
+      ]
+    ],
+    "unconnected-(U301-INT3-Pad12)": [
+      [
+        "U301",
+        "12"
+      ]
+    ],
+    "unconnected-(U301-INT4-Pad13)": [
+      [
+        "U301",
+        "13"
+      ]
+    ],
+    "unconnected-(U401-NC-Pad5)": [
+      [
+        "U401",
+        "5"
+      ]
+    ],
+    "unconnected-(U402-NC-Pad1)": [
+      [
+        "U402",
+        "1"
+      ]
+    ],
+    "unconnected-(U403-IO2-Pad2)": [
+      [
+        "U403",
+        "2"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Bourns_SRP1265A.pdf": {
+    "url": "https://www.bourns.com/docs/product-datasheets/srp1265a.pdf",
+    "sha256": "30b470999b737a6350ce5b09a917a5f12090c2e0895a78ddc15285e3d44ec649",
+    "bytes": 292802
+  },
+  "Bourns_SRP7050TA.pdf": {
+    "url": "https://www.bourns.com/docs/Product-Datasheets/SRP7050TA.pdf",
+    "sha256": "8d6261ce72dcdc9eff3da4facc72e5fb6a80bc03156e8afdf5c34e133f470a42",
+    "bytes": 716509
+  },
+  "Bourns_SRP1038A.pdf": {
+    "url": "https://www.bourns.com/docs/Product-Datasheets/SRP1038A.pdf",
+    "sha256": "92c761c358a1e5a3915a936f6f0795096bb6b965617bb5c408bd8be30ad285af",
+    "bytes": 453568
+  },
+  "TI_TPS54360B.pdf": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps54360b.pdf",
+    "sha256": "37d66e8642a126af9ca15f1bfbe4f17d8dbbd46815280fa6e528e50a2f41d15f",
+    "bytes": 1738149
+  }
+}

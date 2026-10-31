@@ -1,0 +1,139 @@
+{
+  "stage": "RIGHT_PORT_CLEARANCE_FORMAL",
+  "executor": "plant_kicad_v1",
+  "scope": "PLACEMENT_ONLY; no clock or USB power adoption",
+  "changed_references": [
+    "C111",
+    "D201",
+    "D202",
+    "J703",
+    "J809",
+    "R206",
+    "R207",
+    "TP706"
+  ],
+  "moves": {
+    "J809": {
+      "x": 119.3,
+      "y": 95.2,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "J703": {
+      "x": 119.3,
+      "y": 107.2,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "D202": {
+      "x": 118.7,
+      "y": 117.0,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "R207": {
+      "x": 121.0,
+      "y": 117.0,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "D201": {
+      "x": 120,
+      "y": 88,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "R206": {
+      "x": 114.1,
+      "y": 92.6,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "C111": {
+      "x": 113.5,
+      "y": 90.0,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "TP706": {
+      "x": 115.2,
+      "y": 104.675,
+      "rotation": 0,
+      "layer": "F.Cu"
+    }
+  },
+  "source_or_pad_net_changes": 0,
+  "footprint_UUID_path_value_geometry_changes": 0,
+  "non_target_placement_changes": 0,
+  "schematic_rules_stackup_library_changes": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "courtyard_pairs_before": 234,
+  "courtyard_pairs_after": 230,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C111",
+      "R206"
+    ],
+    [
+      "D202",
+      "R207"
+    ],
+    [
+      "J703",
+      "J809"
+    ],
+    [
+      "J809",
+      "R207"
+    ]
+  ],
+  "J703_mount_hole_courtyard_intrusion": false,
+  "J703_J809_courtyard_overlap": false,
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "DRC_reported": 628,
+  "unconnected": 411,
+  "DRC_types": {
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 14,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 15,
+    "text_height": 2,
+    "silk_over_copper": 196,
+    "silk_overlap": 199
+  },
+  "C111_to_U102_VIN_pad_edge_mm": {
+    "before": 0.0,
+    "after": 0.8726854680531179
+  },
+  "C111_to_U102_GND_pad_edge_mm": {
+    "before": 0.0,
+    "after": 0.21073900963039946
+  },
+  "C111_via_escape": "0.6/0.3mm through-via sites exist for both pins; see RIGHT_PORT_C111_VIA_ESCAPE.json; no vias or tracks created",
+  "tracks": 0,
+  "zones": 0,
+  "placement_scope_review": "PASS",
+  "DRC_FINAL": "NOT_PASS",
+  "FABRICATION_READY": false
+}

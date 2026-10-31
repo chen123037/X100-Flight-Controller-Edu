@@ -1,0 +1,189 @@
+{
+  "scope": "LOCAL_TESTPOINT_PLACEMENT_AND_SOURCE_FIELD_SYNC",
+  "executor": "plant_kicad_v1",
+  "changed_CAD_files": [
+    "X100_CleanSheet.kicad_pcb"
+  ],
+  "moved_testpoint_count": 23,
+  "moves": {
+    "TP306": {
+      "x": 97.1,
+      "y": 111.263,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP207": {
+      "x": 109.625,
+      "y": 90.55,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP309": {
+      "x": 108.85,
+      "y": 102.013,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP807": {
+      "x": 110.12,
+      "y": 104.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP706": {
+      "x": 115.7,
+      "y": 104.675,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP804": {
+      "x": 114.6,
+      "y": 99.725,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP808": {
+      "x": 112.66,
+      "y": 104.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP806": {
+      "x": 107.58,
+      "y": 104.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP705": {
+      "x": 111.95,
+      "y": 102.175,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP108": {
+      "x": 89.0,
+      "y": 121.2,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP602": {
+      "x": 78.75,
+      "y": 84.845,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP402": {
+      "x": 109.638,
+      "y": 113.55,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP308": {
+      "x": 120.55,
+      "y": 119.05,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP503": {
+      "x": 88.795,
+      "y": 116.62,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP105": {
+      "x": 119.75,
+      "y": 82.75,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP506": {
+      "x": 87.095,
+      "y": 117.37,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP505": {
+      "x": 105.495,
+      "y": 119.87,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP504": {
+      "x": 107.195,
+      "y": 121.62,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP202": {
+      "x": 98.25,
+      "y": 78.9,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP701": {
+      "x": 100.875,
+      "y": 80.75,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP102": {
+      "x": 81.475,
+      "y": 115.795,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP601": {
+      "x": 81.5,
+      "y": 85.155,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP508": {
+      "x": 107.795,
+      "y": 110.87,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    }
+  },
+  "schematic_and_BOM_unchanged": true,
+  "all_footprint_pad_net_uuid_path_identity_preserved": true,
+  "ERC": "ERC result: 0 violation(s)\n  Errors: 0  Warnings: 0  Info: 0",
+  "schematic_parity_issues": 0,
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "all_courtyard_polygon_pairs_before": 324,
+  "all_courtyard_polygon_pairs_after": 280,
+  "native_DRC_reported_violations": 634,
+  "native_DRC_report_is_lower_bound": true,
+  "native_DRC_by_type": {
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 17,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 15,
+    "text_height": 2,
+    "silk_over_copper": 199,
+    "silk_overlap": 199
+  },
+  "unconnected": 411,
+  "tracks": 0,
+  "zones": 0,
+  "DRC_FINAL": "NOT_PASS",
+  "FABRICATION_READY": false
+}

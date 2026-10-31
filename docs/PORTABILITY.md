@@ -1,3 +1,5 @@
+> **最新入口：** [c8状态](../STATUS.md) / [中文评审资料](../hardware/reviews/X100_C8_LAYOUT_REVIEW/)。下文涉及45mm、30.5孔距、零布线或旧正式源的描述属于历史基线，不代表c8；数值规则须结合c8的PRO/DRU和后续裁决。当前仍不可投板。
+
 # 可移植性与基线边界（Portability）
 
 在另一台计算机安装KiCad 10及标准库后，打开`hardware/X100_V1/X100_CleanSheet.kicad_pro`。项目symbol table使用`${KIPRJMOD}/X100_Physical.kicad_sym`；两个footprint library使用同目录`.pretty`。root和8个子页都随仓库提供。

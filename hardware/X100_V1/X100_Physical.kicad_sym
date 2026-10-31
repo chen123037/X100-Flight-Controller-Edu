@@ -11096,7 +11096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../docs/SOURCES.md"
+		(property "Datasheet" "${KIPRJMOD}/../../docs/Components/Barometer/SPL06-001/Goertek_SPL06-001_Datasheet_V7.0.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13905,4 +13905,369 @@
 		(embedded_fonts no)
 	)
 
+
+	(symbol "Amphenol_124019772112A"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 14.7 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Value" "124019772112A"
+			(at 0 -14.7 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Amphenol_124019772112A_0_1"
+			(rectangle
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Amphenol_124019772112A_1_1"
+			(pin passive line
+				(at -7.62 10.16 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 7.619999999999999 0)
+				(length 2.54)
+				(name "A4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 5.079999999999999 0)
+				(length 2.54)
+				(name "A5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.539999999999999 0)
+				(length 2.54)
+				(name "A6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0.0 0)
+				(length 2.54)
+				(name "A7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.540000000000001 0)
+				(length 2.54)
+				(name "A8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.080000000000002 0)
+				(length 2.54)
+				(name "A9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -7.620000000000001 0)
+				(length 2.54)
+				(name "A12"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name "B1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.619999999999999 180)
+				(length 2.54)
+				(name "B4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.079999999999999 180)
+				(length 2.54)
+				(name "B5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.539999999999999 180)
+				(length 2.54)
+				(name "B6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0.0 180)
+				(length 2.54)
+				(name "B7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.540000000000001 180)
+				(length 2.54)
+				(name "B8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.080000000000002 180)
+				(length 2.54)
+				(name "B9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.620000000000001 180)
+				(length 2.54)
+				(name "B12"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

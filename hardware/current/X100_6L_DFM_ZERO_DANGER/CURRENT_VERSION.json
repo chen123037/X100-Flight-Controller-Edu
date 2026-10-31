@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "current_directory": "hardware/current/X100_6L_DFM_ZERO_DANGER",
+  "project": "hardware/current/X100_6L_DFM_ZERO_DANGER/project/X100_CleanSheet.kicad_pro",
+  "manufacturing_zip": "hardware/current/X100_6L_DFM_ZERO_DANGER/manufacturing/X100_6L_DFM_gap_silk_v4.zip",
+  "PCB_SHA256": "09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529",
+  "manufacturing_zip_SHA256": "85254aca1ba4356953ddff8653cff87964dce0b77bb30dd6c1584126908b1bfc",
+  "PCB_ORDER_INPUTS_CURRENT": true,
+  "CAN_SUBMIT_FACTORY_ENGINEERING_REVIEW": true,
+  "PCB_DFM_REPORTED_DANGER": 0,
+  "PCB_DFM_REPORTED_WARNING": 468,
+  "ERC_violations": 0,
+  "DRC_errors": 0,
+  "unconnected": 0,
+  "schematic_parity_differences": 0,
+  "DRC_library_warnings": 56,
+  "POWER_SAFETY_REVIEW": "NOT_SIGNED_OFF",
+  "FACTORY_PROCESS_ACCEPTANCE": "PENDING_ORDER_PRODUCTION_DRAFT",
+  "FULL_MANUFACTURING_RELEASE": false,
+  "FLIGHT_VALIDATION": "NOT_RUN",
+  "purchase_instances_per_board": 142,
+  "unique_MPNs": 62,
+  "procurement_candidate_fields": [
+    "C121",
+    "R105",
+    "U105",
+    "U106"
+  ],
+  "main_merge_performed": false,
+  "payment_or_order_performed": false,
+  "procurement_sourcing_snapshot": {
+    "query_date": "2026-10-31",
+    "report": "hardware/current/X100_6L_DFM_ZERO_DANGER/procurement/actual_sourcing/",
+    "original_MPNs_checked": 62,
+    "retail_sufficient_for_one_board": 54,
+    "same_MPN_import_channels": 2,
+    "retail_quantity_short": 1,
+    "retail_no_stock": 4,
+    "user_confirmed_taobao_details_unverified": 1,
+    "supply_gap_candidate_groups": 5,
+    "candidate_parts_adopted": false
+  }
+}

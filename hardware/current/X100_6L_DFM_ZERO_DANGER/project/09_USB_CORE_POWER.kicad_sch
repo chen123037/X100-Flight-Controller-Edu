@@ -1,0 +1,2739 @@
+(kicad_sch
+	(version 20260101)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid 3c4a70e3-61fa-4e6d-8352-41494aedd756)
+	(paper "A4")
+	(lib_symbols
+		(symbol "Power_Management:TPS2116DRL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.874 9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS2116DRL"
+				(at 0.508 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+				(at 0 -22.352 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2116.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
+				(at 0 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Texas-Instruments power-mux switchover"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?5?3*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS2116DRL_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS2116DRL_1_0"
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS2116DRL_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "PR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "VIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:TPS2553DBVR"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.35 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TPS2553DBVR"
+				(at 0 -8.35 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS2553DBVR_0_1"
+				(rectangle
+					(start -12.7 6.35)
+					(end 12.7 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS2553DBVR_1_1"
+				(pin power_in line
+					(at -15.239999999999998 3.8099999999999996 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.239999999999998 1.2699999999999996 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.239999999999998 -1.2700000000000005 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.239999999999998 -3.8100000000000005 0)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 15.239999999999998 3.8099999999999996 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.239999999999998 1.2699999999999996 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_PowerECO:R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0805_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_PowerECO:C_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Capacitor_SMD_C_0805_2012Metric"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:CP_C6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "16SVPF180M"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "X100_Physical:Panasonic_OSCON_C6"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Panasonic 16SVPF180M; exact OS-CON C6 diameter6.3 height5.9"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Panasonic_OSCON_C6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CP_C6_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_C6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS2116DRL")
+		(at 83.82 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "686b5aaa-ad62-4e3e-9404-5a1e446d1902")
+		(property "Reference" "U105"
+			(at 75.946 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS2116DRLR"
+			(at 84.328 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+			(at 83.82 18.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2116.pdf"
+			(at 83.82 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
+			(at 83.82 39.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS2116DRLR"
+			(at 83.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfb76b7b-5b32-4fe7-8e52-d15cea6b5bb2")
+		)
+		(pin "2"
+			(uuid "23adc689-5f36-4834-b600-c8bb026f6744")
+		)
+		(pin "3"
+			(uuid "20d7a8c4-6484-4621-819d-0309bab5e404")
+		)
+		(pin "4"
+			(uuid "18a1c4d3-15bf-46e3-adbe-2f2d54ec452d")
+		)
+		(pin "5"
+			(uuid "7978d8c4-030b-477a-ad98-2bebb984e015")
+		)
+		(pin "6"
+			(uuid "f9732b01-ecc6-4d69-b255-933b849471fa")
+		)
+		(pin "7"
+			(uuid "ffd607c0-07e9-4b18-a7de-c06a0d8c02ec")
+		)
+		(pin "8"
+			(uuid "6111efd1-782c-4b95-a78f-87d5ca4dca1b")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "U105")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "U105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "5V_CORE"
+		(at 93.97999999999999 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0557860b-e3f3-44ed-8129-70f576695f43")
+	)
+	(global_label "5V_CORE"
+		(at 93.97999999999999 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cc7473e-c519-43c1-b5b9-40781e84ac28")
+	)
+	(global_label "5V_MAIN"
+		(at 73.66 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd485869-c4f1-44f4-8b1e-e3cbfc5291ab")
+	)
+	(global_label "5V_MAIN"
+		(at 73.66 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "370c20c9-8de2-424b-8b9a-abe8c31773b2")
+	)
+	(global_label "CORE_BAT_SELECTED"
+		(at 93.97999999999999 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68a5ee45-276c-4d97-9fe4-c82613697a9e")
+	)
+	(global_label "CORE_PWR_PRIORITY"
+		(at 73.66 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88564335-a2cf-4f64-bc5e-0ea231d3730c")
+	)
+	(global_label "GND"
+		(at 83.82 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2981cc13-020e-441b-8278-89e947fbc415")
+	)
+	(global_label "USB_5V_LIMITED"
+		(at 73.66 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e240cc2e-a3b6-4990-b814-cc977f3fab4d")
+	)
+	(symbol
+		(lib_id "X100_Physical:TPS2553DBVR")
+		(at 30.48 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "967c28be-71c4-4d67-933e-c0c46f1393d7")
+		(property "Reference" "U106"
+			(at 30.48 48.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Value" "TPS2553DBVR"
+			(at 30.48 32.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6"
+			(at 30.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+			(at 30.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS2553DBVR"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85c0aa8e-3862-434f-ba7a-bb6ffc50a522")
+		)
+		(pin "2"
+			(uuid "b680b82b-754b-40f4-be09-2c4d7807ffb3")
+		)
+		(pin "3"
+			(uuid "907d356c-3013-4951-b964-ffe1996c241a")
+		)
+		(pin "4"
+			(uuid "1bc42a70-72cf-44b1-9efa-99ec6b85cbbb")
+		)
+		(pin "5"
+			(uuid "a4ea99cf-25a1-4022-bf65-fd256350cd45")
+		)
+		(pin "6"
+			(uuid "ca83ad17-0d29-4080-a578-a8b8a7f22401")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "U106")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "U106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(at 15.240000000000002 39.370000000000005 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2de7fe00-2c1c-4c47-a33a-2ac4f4ee8d56")
+	)
+	(global_label "USB_5V_LIMITED"
+		(at 45.72 39.370000000000005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acfba88d-a0fa-417d-a823-db92e905f18f")
+	)
+	(global_label "USB_PWR_ILIM"
+		(at 15.240000000000002 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dc41bc3-e446-4249-aacb-c1c7e6a0bd6d")
+	)
+	(global_label "USB_VBUS_RAW"
+		(at 15.240000000000002 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19bd2c41-1e3f-4727-95a9-c67c080f6f37")
+	)
+	(global_label "USB_VBUS_RAW"
+		(at 15.240000000000002 41.910000000000004 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ab2b300-1c22-41fc-a7f2-232b694e08cb")
+	)
+	(no_connect
+		(at 45.72 36.83)
+		(uuid "9768fe85-a128-4783-8551-54b96916b7d1")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:R_0805")
+		(at 124.46 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a2e8f55-a071-4b4f-ba54-17981ffd20ce")
+		(property "Reference" "R111"
+			(at 126.492 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33.2k 0.1%"
+			(at 124.46 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 122.682 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRD0733K2L"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b2b697a-d300-492c-aea6-12889c5ea2bf")
+		)
+		(pin "2"
+			(uuid "d8320a38-8846-4179-b861-f73fdbad303a")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "R111")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "5V_MAIN"
+		(at 124.46 26.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b54925d-61c3-494d-b2b1-137565462e7d")
+	)
+	(global_label "CORE_PWR_PRIORITY"
+		(at 124.46 34.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31b8d88f-ad90-40bc-81ff-2728727ef533")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:R_0805")
+		(at 124.46 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5b55d00-2219-40a1-89ed-b274469ee71b")
+		(property "Reference" "R112"
+			(at 126.492 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k 0.1%"
+			(at 124.46 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 122.682 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRD0710KL"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9274dc9a-ff1a-4b86-8b78-238851dddc11")
+		)
+		(pin "2"
+			(uuid "35af6092-ecbf-4fb8-b513-f49f71a47cea")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "R112")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CORE_PWR_PRIORITY"
+		(at 124.46 46.989999999999995 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf606317-ae11-47a9-a8e7-3eba03d00732")
+	)
+	(global_label "GND"
+		(at 124.46 54.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e7820b1-fc1e-46bd-964a-c0148bf54325")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:R_0805")
+		(at 30.48 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7e966d5-05ee-40ad-9d23-0284f0557e90")
+		(property "Reference" "R113"
+			(at 32.512 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9k 0.1%"
+			(at 30.48 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 28.702 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0805BRD0749K9L"
+			(at 30.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "USER_APPROVED_SINGLE_LIMIT; conservative design envelope 473-584mA; first-board measurement pending"
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRD0749K9L"
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1bbc876-0603-43b8-b2a6-4c70433a1c3a")
+		)
+		(pin "2"
+			(uuid "b363b194-7de4-4245-9def-a8e031a9b919")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "R113")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(at 30.48 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e130a937-fbaa-49db-95ca-b69e500cbdc0")
+	)
+	(global_label "USB_PWR_ILIM"
+		(at 30.48 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "413e3e50-712a-4b31-a33d-205fc4b5c73c")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:R_0805")
+		(at 124.46 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30db8723-451d-4c05-9d40-966ee9ab243b")
+		(property "Reference" "R114"
+			(at 126.492 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k ST pull-up"
+			(at 124.46 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 122.682 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb51a24d-ec66-4306-bde8-fc20a7534701")
+		)
+		(pin "2"
+			(uuid "daabd4b3-94c8-4410-97e3-f0dd32934f6d")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "R114")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(at 124.46 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5934aba-503d-4178-82ab-20584340b5c7")
+	)
+	(global_label "CORE_BAT_SELECTED"
+		(at 124.46 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13697018-37a2-4814-8248-959429672b3c")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:C_0805")
+		(at 10.16 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ca3a823-e706-4948-b544-4d1e7e0066af")
+		(property "Reference" "C123"
+			(at 10.795 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u /16V shared input bypass"
+			(at 10.795 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
+			(at 11.125 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 10.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE_SHARED_DECOUPLING; PLACEMENT_REQUIRED; NO_BENCH_PASS"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C105K4RACTU"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "1uF"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=16V"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 10.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c770f0-3b81-4077-9d5c-193735fca422")
+		)
+		(pin "2"
+			(uuid "6737184b-d610-44ca-a060-af251f6d7b44")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "C123")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(at 10.16 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69235501-645a-4d97-a005-65f44405157c")
+	)
+	(global_label "USB_VBUS_RAW"
+		(at 10.16 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e12e6c8-4eef-4e40-8c92-5f00cb2f0556")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:C_0805")
+		(at 63.5 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ad60020-ca0e-477f-ae91-20d4bf5880f3")
+		(property "Reference" "C124"
+			(at 64.135 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u /16V"
+			(at 64.135 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
+			(at 64.465 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE; native ERC checked; functional/current/DFM not complete"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C105K4RACTU"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7878a6b-df24-4037-bbac-b505f81023c5")
+		)
+		(pin "2"
+			(uuid "81e8030a-9754-4784-881e-211c05d68393")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "C124")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(at 63.5 77.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a504a24-1d6f-4f62-9cad-4e06a4a6a817")
+	)
+	(global_label "USB_5V_LIMITED"
+		(at 63.5 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22f35501-fb96-4151-8042-6ca4d5583a0d")
+	)
+	(symbol
+		(lib_id "X100_PowerECO:C_0805")
+		(at 63.5 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32bb63de-b594-4f31-a038-31720b64dd0d")
+		(property "Reference" "C125"
+			(at 64.135 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u /16V mux VIN1"
+			(at 64.135 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
+			(at 64.465 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "CANDIDATE_SHARED_DECOUPLING; PLACEMENT_REQUIRED; NO_BENCH_PASS"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C105K4RACTU"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "1uF"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=16V"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 63.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "327137ba-b8a7-484b-8791-a2d3c478abff")
+		)
+		(pin "2"
+			(uuid "594a87c4-f542-4fc8-93e8-888cef954be9")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "C125")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "5V_MAIN"
+		(at 63.5 11.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaffd53b-8de2-4097-ae5d-4d0078f45158")
+	)
+	(global_label "GND"
+		(at 63.5 19.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9644328e-c0c9-4c7f-aab2-bae049655053")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 10.16 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7e956c0-5099-472d-91cf-0f69ba59f936")
+		(property "Reference" "#FLG109"
+			(at 10.16 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 10.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 10.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70c75811-4acd-4cb9-9027-be184b4203fd")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "#FLG109")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "#FLG109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:CP_C6")
+		(at 109.22 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b000352-9c15-4297-a2a1-83a8f9235065")
+		(property "Reference" "C121"
+			(at 109.855 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180u /16V core mux hold-up (+ pin1)"
+			(at 109.855 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Panasonic_OSCON_C6"
+			(at 110.185 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M"
+			(at 109.22 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panasonic 16SVPF180M; CP_C6; consolidated 5V_CORE_MUX bulk; + pin1"
+			(at 109.22 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN; REUSE_SELECTED_16SVPF180M; CANDIDATE_ARCHITECTURE_UNAPPROVED; NO_PURCHASE"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "DATASHEET_CAPACITANCE_ESR_SCREEN; STARTUP_AND_HOLDUP_NOT_QUALIFIED"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "16SVPF180M"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "OS-CON C6 diameter6.3 height5.9"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5feabcad-2133-43ca-ab74-35359a51dbb7")
+		)
+		(pin "2"
+			(uuid "460c5ae9-323c-48b7-a60f-e5528893b701")
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/ad6f293c-c08a-4491-865f-aac6fa901f51"
+					(reference "C121")
+					(unit 1)
+				)
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "5V_CORE"
+		(at 109.22 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08ccf667-069e-4302-bf87-771ef8cc9f17")
+	)
+	(global_label "GND"
+		(at 109.22 44.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31f775d1-7e52-472f-bc30-1d4eb8ec45a8")
+	)
+	(text "B143: single USB current limit; MCU, sensors, SD and CAN powered from core. External 5V is battery-only."
+		(exclude_from_sim no)
+		(at 12.7 8.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7448f6e1-7009-42b3-8940-de522b975a80")
+	)
+	(global_label "USB_VBUS_RAW"
+		(at 10.16 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d10a6d0b-7b0d-4f49-a409-7200655d2cee")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

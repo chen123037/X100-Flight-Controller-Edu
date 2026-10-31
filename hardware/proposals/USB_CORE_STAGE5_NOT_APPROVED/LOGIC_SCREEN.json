@@ -1,0 +1,90 @@
+{
+  "scope": "Static logic screen; not measured power or protocol compliance",
+  "interface": "Existing3.3V open-drain externalI2C; existing prohibition on5V pull-ups retained",
+  "logic_spec_conditions": "SN74AUP1G32 RevK -40..85C; manufacturer VOH/VOL cases at VCC3.0V; use as lower-supply drive screen for3.3V rail",
+  "VCC_design_screen_V": [
+    3.0,
+    3.6
+  ],
+  "two_pullups_and_buffer_input_max_mA": 1.5641784628745115,
+  "AUP_VOH_min_V": 2.67,
+  "AUP_VOH_test_IOH_mA": 2.7,
+  "AUP_VOL_max_V": 0.33,
+  "AUP_VOL_test_IOL_mA": 2.7,
+  "buffer_input_high_screen_V": 2.52,
+  "buffer_input_low_screen_V": 0.8999999999999999,
+  "loaded_high_margin_V": 0.1499999999999999,
+  "loaded_low_margin_V": 0.5699999999999998,
+  "clean_output_VOH_min_V": 2.9,
+  "clean_output_VOL_max_V": 0.1,
+  "clean_output_load_condition_uA": 20,
+  "LDO_enable_on_threshold_V": 0.9,
+  "LDO_enable_off_threshold_V": 0.3,
+  "LDO_low_margin_V": 0.19999999999999998,
+  "drive_screen": true,
+  "level_screen": true,
+  "AUP_ICC_max_uA": 0.9,
+  "AUP_Ioff_max_per_exposed_pin_uA": 0.6,
+  "AUP_Ioff_condition": "VCC0V; DeltaIoff also specified over0..0.2V; VI/VO0..3.6V; -40..85C",
+  "local_off_leakage_calculation": {
+    "exposed_AUP_pins": 3,
+    "AUP_contribution_uA": 1.8,
+    "prior_declared_ADC_leakage_uA": 8,
+    "R811_max_ohm": 10200,
+    "combined_local_contribution_estimate_V": 0.09996,
+    "not_a_whole_board_off_voltage_guarantee": true,
+    "remaining_paths": "Direct MCU GPIO connection and external devices still require separate off-power review/test"
+  },
+  "states": [
+    {
+      "VBAT": 0,
+      "USB_CFG": 0,
+      "CORE_ACTIVE_RAW": 0,
+      "CORE_ACTIVE": 0,
+      "I2C_local_pullup": "LOW, weak pulldown via4.7k",
+      "sensor_LDO_enabled": false
+    },
+    {
+      "VBAT": 0,
+      "USB_CFG": 1,
+      "CORE_ACTIVE_RAW": 1,
+      "CORE_ACTIVE": 1,
+      "I2C_local_pullup": "active HIGH",
+      "sensor_LDO_enabled": true
+    },
+    {
+      "VBAT": 1,
+      "USB_CFG": 0,
+      "CORE_ACTIVE_RAW": 1,
+      "CORE_ACTIVE": 1,
+      "I2C_local_pullup": "active HIGH",
+      "sensor_LDO_enabled": true
+    },
+    {
+      "VBAT": 1,
+      "USB_CFG": 1,
+      "CORE_ACTIVE_RAW": 1,
+      "CORE_ACTIVE": 1,
+      "I2C_local_pullup": "active HIGH",
+      "sensor_LDO_enabled": true
+    }
+  ],
+  "firmware_requirements": [
+    "Use existing PE3; no added MCU GPIO",
+    "Before USB suspend or unconfiguration: stop externalI2C peripheral, park GPIO analog/no-pull, then clear PE3",
+    "Keep USB wake path operational; reinitialize/recover externalI2C after configuration/resume",
+    "Keep PB0 STATUS_LED off during low-current stages; dedicated PWR LED remains hardware"
+  ],
+  "not_qualified": [
+    "ExternalI2C rise-time/cable-capacitance and mixed peripheral loads",
+    "GPIO direct pin injection with MCU unpowered",
+    "Non-rail input ICC and source transitions",
+    "Firmware implementation, USB current and suspend/recovery waveforms"
+  ],
+  "sources": {
+    "logic": "https://www.ti.com/lit/ds/symlink/sn74aup1g32.pdf",
+    "LDO": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "listing": "https://www.lcsc.com/product-detail/C469878.html"
+  },
+  "bench_pass": false
+}

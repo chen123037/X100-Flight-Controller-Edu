@@ -1,20 +1,20 @@
-# 接手指南（Handoff Guide）
+# 当前六层工程接手说明
 
-**如果你第一次接手本项目，不要重新选器件，也不要重新画原理图。** 当前冻结教学baseline需受控增补USB-only核心供电功能，不能因新需求重做全部硬件。
+从[当前目录](hardware/current/X100_6L_DFM_ZERO_DANGER/)和[KiCad工程](hardware/current/X100_6L_DFM_ZERO_DANGER/project/X100_CleanSheet.kicad_pro)接手。下载[完整包](hardware/current/X100_6L_DFM_ZERO_DANGER/download/X100_六层当前版_工程制造及清单.zip)后解压；不要从旧hardware/X100_V1或c8开始改，也不要用旧Gerber或CPL下单。
 
-先读[当前状态](STATUS.md)、[电源架构](docs/POWER_ARCHITECTURE.md)、[已知问题](docs/KNOWN_ISSUES.md)和[接口表](docs/INTERFACES.md)，再打开`hardware/X100_V1/X100_CleanSheet.kicad_pro`。当前201个电气封装已放置，走线/过孔/铺铜为0；USB-only供电是`NOT_IMPLEMENTED`，不是最终V1预期行为。
+当前全部连接完成，PCB DFM所报危险0。制造ZIP身份、35项计数、freshERC/DRC、网表和源文件校验在当前目录；56条库副本差异及468条黄色未被隐藏。该文件集是当前PCB订单输入资料，整板热接受及工厂工艺/生产稿确认仍需完成，不宣告所有放行项PASS。
 
-1. **完成USB-only core power architecture adjudication。** 单独启动`USB_ONLY_CORE_POWER_ECO`，先定义供电/不供电轨、电流预算、双源管理、reverse blocking和故障路径，再核验候选数据手册并裁决exact MPN。此步骤是未来任务，本轮不选IC、不估算或实现电源方案。
-2. **执行已批准范围内的最小schematic ECO。** 按裁决新增/修改必要电源路径，保留USB主机禁止反灌原则，控制placement影响；不要借机重新选择MCU/IMU/气压计或全局重排。未获ECO范围批准，不实施。
-3. **Fresh ERC / netlist / power-path safety review。** 复核新ECO真实网表、供电域、startup/boot/idle/flashing/configuration电流预算、双源上/掉电、host-off/VBUS low、rail sequencing、brownout与hotplug；保存新的批准基线。ECO后数量以新基线为准，不能把当前201当作不得更新的统计，也不能仍沿用旧PASS。
-4. **关闭J601。** 先取得仅释放R204/J801/J802局部位置的人工裁决，再工程重排J601/J701接口带；检查J702、CAN支持/JP601的线束、焊接与吸锡空间。每个局部阻塞最多3轮主要候选，每轮有限局部核查；无可靠解就`PCB_BLOCKER=YES`并STOP，不再高成本穷举。
-5. **关闭J401。** 取得JLCPCB对USB4105-GF-A官方land两处约0.1944mm内部孔铜结构的明确制造结论；接受后仅审查具体pad/hole pair局部规则，拒绝则提交官方替代land或connector ECO人工裁决。
-6. **重新完成pre-routing DRC / geometry / power review。** 制造7条阻塞关闭，新ECO实体数量与库/网表一致，实际几何冲突闭合，USB-only核心供电架构/反灌/电流预算审查通过，冻结尺寸与制造规则保持；其余报告逐类解释，保存checkpoint。
-7. **人工确认`ROUTING_PRECONDITIONS_MET=YES`。** 即使J601/J401关闭，只要USB power ECO未完成，仍为`PCB03_FORMAL_ROUTING_READY=NO`。
-8. **明确授权后才进入PCB03 formal routing。** 本轮没有PCB03执行授权；文档完成即STOP。
+## 保留的约束
 
-已有J601/J401制造资料确认可以与USB ECO文档评审并行，但不能跳过USB供电门槛。保持45×45mm、30.5×30.5mm孔距、H1–H4 Ø4 NPTH及核心架构；禁止移动孔、扩大板框、削JST官方land、全局放宽clearance、排除整个连接器或复制TEST铜。不回滚已通过的microSD位置，不重新比较ICM-42688-P/DPS310。
+STM32H743VIT6、BMI088、SPL06-001、8MHz晶振、Amphenol124019772112A及L101SRP1038A-100M保持。D103保留STPS8H100G-TR大封装。当前六层、安装耳及孔位、26TP、器件位号与实际源规则以新工程为准；旧四层/65TP约定已不是当前状态。
 
-后续正式PCB修改由`plant_kicad_v1`执行，Codex负责分析、只读核查、证据与STOP判断。除非有明确能力缺口且特殊操作已授权，不用脚本绕过plant改正式placement。USB供电必须禁止USB_VBUS_RAW与5V_MAIN硬并、未经反灌/故障分析的普通Schottky拼接，以及5V_MAIN/3V3/VBAT向PC反灌。
+正常PCB编辑继续用plant_kicad_v1；仅已明确批准且工具无法表达的丝印/叠层/局部规则等例外可限定直接处理。不得全局降低规则、擅自移动器件或删除功能。新位置及架构重大变化按人工既有要求报告，已批准的同一器件或限定操作不重复申请。
 
-完整[路线图](docs/ROADMAP.md)已增加STAGE USB-PWR；采购表仅反映**当前硬件**，不包含尚未选择的USB ECO器件。没有制造放行前，不下单当前工程。
+## 下一步
+
+1. 按当前真实铜与保留负载/环境闭合U101/D103整体热设计，明确计算/估计/待实测，不能凭DFM0代替。
+2. 审核实际订单的六层叠层、沉金、高精字符、U101六孔树脂填孔＋电镀盖帽；其它孔保持用途与原Gerber开窗。
+3. 结合已有裁决核对候选采购字段与完整MPN；当前原生CPL只供装联审稿，需审核面别/角度/吸附原点及贴片来源。
+4. 保存生产稿与最终人工接受结论，再开展首板限流上电、USB/SD/CAN/传感器、温升、固件、无桨和分级飞行验证。
+
+旧c8及旧正式源均保留。公开整理只复制当前源与证据，没有重新绘制PCB、改MCU引脚或修改源选型。

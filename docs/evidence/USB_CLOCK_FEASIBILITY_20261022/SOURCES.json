@@ -1,0 +1,5 @@
+{
+  "libraries/AP_HAL_ChibiOS/hwdef/common/stm32h7_mcuconf.h": "69f0e2b33f917887e7ca5c1998f0f79450887c8e4bfb2498ef81863b68adb00b",
+  "modules/ChibiOS/os/hal/ports/STM32/STM32H7xx/hal_lld_type1.h": "edcd228748d515deb9ac15be9bdf735131bc5b4907ed4f3babcbf20a3eb47724",
+  "modules/ChibiOS/os/common/ext/ST/STM32H7xx/stm32h743xx.h": "4f741484a9c3607876d27704472e6fb9489e6b559af7fa392b9d6765c27838b4"
+}

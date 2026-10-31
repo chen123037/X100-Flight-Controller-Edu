@@ -1,3 +1,7 @@
+> **当前入口更新：** [六层V4工程、DFM零危险和下单资料](../hardware/current/X100_6L_DFM_ZERO_DANGER/)。本文保留旧阶段背景；涉及层数、孔位、器件/TP数量及进度时，以当前源工程和[STATUS](../STATUS.md)为准。旧的审批约束不用于撤销已经取得的后续人工授权。
+
+> **最新入口：** [c8状态](../STATUS.md) / [中文评审资料](../hardware/reviews/X100_C8_LAYOUT_REVIEW/)。下文涉及45mm、30.5孔距、零布线或旧正式源的描述属于历史基线，不代表c8；数值规则须结合c8的PRO/DRU和后续裁决。当前仍不可投板。
+
 # 学生协作指南（Contributing）
 
 仓库owner为 **chen123037**。学生/合作开发者可通过GitHub collaborator与pull request参与；owner保留仓库管理及最终技术review权。项目当前为开放教学硬件，许可范围见[开放许可决定](../LICENSE_DECISION.md)。

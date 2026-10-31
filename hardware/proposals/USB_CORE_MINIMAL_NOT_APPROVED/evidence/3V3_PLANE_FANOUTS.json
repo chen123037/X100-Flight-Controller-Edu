@@ -1,0 +1,518 @@
+{
+  "scope": "3V3_INNER_PLANE_FANOUT_PLAN_NOT_APPLIED_NOT_POWER_SAFETY_PASS",
+  "source_board_sha256": "8cb50096c8edc85697eab169181c9fdb565d26068cfea4c7999519fa3872b28e",
+  "routes": [
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          88.775,
+          92.225
+        ],
+        [
+          88.7,
+          93.10000000000001
+        ],
+        [
+          88.4,
+          93.35000000000001
+        ],
+        [
+          87.15,
+          93.35000000000001
+        ],
+        [
+          86.9,
+          93.60000000000001
+        ],
+        [
+          85.05000000000001,
+          93.9
+        ],
+        [
+          83.30000000000001,
+          94.05000000000001
+        ],
+        [
+          81.7,
+          94.05000000000001
+        ],
+        [
+          81.45,
+          93.80000000000001
+        ],
+        [
+          81.4,
+          93.7
+        ],
+        [
+          81.4,
+          91.9
+        ],
+        [
+          81.45,
+          91.80000000000001
+        ],
+        [
+          81.65,
+          91.60000000000001
+        ],
+        [
+          81.80000000000001,
+          91.55000000000001
+        ],
+        [
+          83.4,
+          91.55000000000001
+        ],
+        [
+          83.75,
+          91.9
+        ],
+        [
+          83.80000000000001,
+          92.05000000000001
+        ],
+        [
+          84.10000000000001,
+          92.25
+        ],
+        [
+          85.0,
+          92.25
+        ],
+        [
+          85.5,
+          91.75
+        ],
+        [
+          85.5,
+          90.75
+        ],
+        [
+          85.60000000000001,
+          90.5
+        ],
+        [
+          85.9,
+          90.25
+        ],
+        [
+          88.15,
+          90.0
+        ],
+        [
+          89.0,
+          90.0
+        ],
+        [
+          89.30000000000001,
+          90.2
+        ],
+        [
+          89.4,
+          90.35000000000001
+        ],
+        [
+          91.75,
+          91.325
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          89.30000000000001,
+          90.2
+        ],
+        [
+          89.2,
+          90.0
+        ],
+        [
+          89.2,
+          89.7
+        ],
+        [
+          89.30000000000001,
+          89.5
+        ],
+        [
+          90.4125,
+          88.75
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          109.85,
+          105.5
+        ],
+        [
+          109.039536,
+          106.121093
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          109.05286175983498,
+          106.11088090402389
+        ],
+        [
+          109.8875,
+          107.2
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          115.1375,
+          105.75
+        ],
+        [
+          114.15586,
+          105.497525
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          109.8875,
+          107.2
+        ],
+        [
+          109.95,
+          107.35000000000001
+        ],
+        [
+          109.95,
+          109.5
+        ],
+        [
+          109.325,
+          110.6
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU direct",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          115.0,
+          99.9125
+        ],
+        [
+          116.033,
+          100.052734
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          114.775,
+          121.325
+        ],
+        [
+          118.2,
+          120.80000000000001
+        ],
+        [
+          119.80000000000001,
+          120.05000000000001
+        ],
+        [
+          120.0,
+          119.85000000000001
+        ],
+        [
+          120.4,
+          116.80000000000001
+        ],
+        [
+          120.4,
+          115.5
+        ],
+        [
+          120.15,
+          115.2
+        ],
+        [
+          119.9,
+          115.10000000000001
+        ],
+        [
+          119.15,
+          115.15
+        ],
+        [
+          119.05000000000001,
+          115.2
+        ],
+        [
+          118.80000000000001,
+          115.45
+        ],
+        [
+          117.522212,
+          118.312
+        ]
+      ]
+    },
+    {
+      "label": "3V3_MCU space",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          117.522212,
+          118.312
+        ],
+        [
+          113.9,
+          119.10000000000001
+        ],
+        [
+          112.9625,
+          119.55
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "3V3_MCU",
+      "position": [
+        109.039536,
+        106.121093
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        114.15586,
+        105.497525
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        116.033,
+        100.052734
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        117.522212,
+        118.312
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "links": [
+    {
+      "pin": "C203.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 23.000408265104408,
+      "added_vias": 0
+    },
+    {
+      "pin": "R202.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 2.0889126116731043,
+      "added_vias": 0
+    },
+    {
+      "pin": "C133.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.3,
+      "length_mm": 1.0210819800314743,
+      "via": [
+        109.039536,
+        106.121093
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "R509.1",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.25,
+      "length_mm": 1.3721521042383,
+      "added_vias": 0
+    },
+    {
+      "pin": "U110.5",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.25,
+      "length_mm": 1.0135880401943382,
+      "via": [
+        114.15586,
+        105.497525
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "U109.8",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.25,
+      "length_mm": 3.5776580928879915,
+      "added_vias": 0
+    },
+    {
+      "pin": "R110.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.25,
+      "length_mm": 1.0424752154156973,
+      "via": [
+        116.033,
+        100.052734
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "C402.1",
+      "type": "short fanout to rooted In2 plane",
+      "width_mm": 0.15,
+      "length_mm": 14.902108013425586,
+      "via": [
+        117.522212,
+        118.312
+      ],
+      "added_vias": 1
+    },
+    {
+      "pin": "U402.5",
+      "type": "branch from rooted outer copper",
+      "width_mm": 0.15,
+      "length_mm": 4.746841398807522,
+      "added_vias": 0
+    }
+  ],
+  "pending": [
+    {
+      "pin": "R201.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C132.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U111.5",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R114.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C135.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U108.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "J807.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R510.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R201.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C132.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U111.5",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R114.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "C135.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U108.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "J807.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "R510.1",
+      "reason": "Local fanout/placement adjustment remains; no false connection claim"
+    },
+    {
+      "pin": "U201.50",
+      "reason": "C201/VCAP1 and local via placement refinement still required; no global blind routing search."
+    }
+  ],
+  "plan_generation_complete": true,
+  "plane_source_net": "3V3_MCU",
+  "track_layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "via_geometry_mm": [
+    0.6,
+    0.3
+  ],
+  "numeric_rules_changed": false
+}

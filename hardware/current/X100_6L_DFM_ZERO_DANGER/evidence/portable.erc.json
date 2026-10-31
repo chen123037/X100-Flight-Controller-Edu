@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.kicad.org/erc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-10-31T18:24:43",
+  "ignored_checks": [
+    {
+      "description": "SPICE model issue",
+      "key": "simulation_model_issue"
+    }
+  ],
+  "included_severities": [
+    "error",
+    "warning",
+    "exclusion"
+  ],
+  "kicad_version": "10.0.6",
+  "sheets": [
+    {
+      "path": "/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3",
+      "violations": []
+    },
+    {
+      "path": "/01_POWER/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/2bad489b-1315-4ccb-9ea4-49daf7c43953",
+      "violations": []
+    },
+    {
+      "path": "/02_MCU/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/883cc889-203b-4364-8838-b2a24ad41969",
+      "violations": []
+    },
+    {
+      "path": "/03_SENSORS/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/c5f7efe8-49e8-49db-81f4-1852b1686560",
+      "violations": []
+    },
+    {
+      "path": "/04_USB/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3",
+      "violations": []
+    },
+    {
+      "path": "/05_SD/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633",
+      "violations": []
+    },
+    {
+      "path": "/06_CAN/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/7087b015-6c25-414d-b3cf-5bdaa0d605aa",
+      "violations": []
+    },
+    {
+      "path": "/07_UART_IO/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/aeeb1f66-db8e-4ba1-b35b-2b5fb616c5dd",
+      "violations": []
+    },
+    {
+      "path": "/08_PWM_ADC_DEBUG/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/a9529562-e378-4132-a719-b7e35975257c",
+      "violations": []
+    },
+    {
+      "path": "/09 Core power B143/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/9ef40811-ea9f-4c6d-90bf-9200790faea9",
+      "violations": []
+    },
+    {
+      "path": "/10 Core output bypass B143/",
+      "uuid_path": "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/0fb3e010-1ef1-4fcb-a3f3-748df17f2d72",
+      "violations": []
+    }
+  ],
+  "source": "X100_CleanSheet.kicad_sch"
+}

@@ -1,0 +1,278 @@
+{
+  "assumptions": {
+    "outer_um": 35,
+    "inner_um": 17.5,
+    "dT_C": 20,
+    "via_A": 1.22,
+    "note": "single widest path, parallel copper ignored; plane cross-section from declared review if given"
+  },
+  "VBAT_RAW": {
+    "source": "J808.1",
+    "loads": [
+      {
+        "load": "F101.1",
+        "need_A": 3.0,
+        "maxflow_A": 4.56,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=1.60 (81.5,123.1)"
+        ]
+      }
+    ]
+  },
+  "VBAT_FUSED": {
+    "source": "F101.2",
+    "loads": [
+      {
+        "load": "Q101.5",
+        "need_A": 3.0,
+        "maxflow_A": 5.57,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "F w=1.50 (82.3,120.1)",
+          "via (78.3,114.1)"
+        ]
+      }
+    ]
+  },
+  "VBAT_PROTECTED": {
+    "source": "Q101.1",
+    "loads": [
+      {
+        "load": "U101.2",
+        "need_A": 1.6,
+        "maxflow_A": 2.24,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=0.60 (81.8,103.3)"
+        ]
+      },
+      {
+        "load": "C101.1",
+        "need_A": 1.6,
+        "maxflow_A": 2.24,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=0.60 (81.8,103.3)"
+        ]
+      },
+      {
+        "load": "C102.1",
+        "need_A": 1.6,
+        "maxflow_A": 1.22,
+        "ok": false,
+        "connected": true,
+        "min_cut": [
+          "via (97.8,111.5)"
+        ]
+      }
+    ]
+  },
+  "MAIN_SW": {
+    "source": "U101.8",
+    "loads": [
+      {
+        "load": "L101.1",
+        "need_A": 2.8,
+        "maxflow_A": 3.7,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=1.20 (95.9,100.4)"
+        ]
+      }
+    ]
+  },
+  "5V_MAIN": {
+    "source": "L101.2",
+    "loads": [
+      {
+        "load": "C108.1",
+        "need_A": 2.45,
+        "maxflow_A": 3.7,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=1.20 (119.9,99.8)"
+        ]
+      },
+      {
+        "load": "U104.1",
+        "need_A": 1.1,
+        "maxflow_A": 1.01,
+        "ok": false,
+        "connected": true,
+        "min_cut": [
+          "B w=0.20 (110.8,102.1)"
+        ]
+      },
+      {
+        "load": "U105.3",
+        "need_A": 0.6,
+        "maxflow_A": 0.82,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "B w=0.15 (100.1,114.3)"
+        ]
+      }
+    ]
+  },
+  "EXT_SWITCH_OUT": {
+    "source": "U104.6",
+    "loads": [
+      {
+        "load": "F102.1",
+        "need_A": 1.0,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      }
+    ]
+  },
+  "EXT_5V": {
+    "source": "F102.2",
+    "loads": [
+      {
+        "load": "J601.1",
+        "need_A": 1.0,
+        "maxflow_A": 1.22,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "via (92.3,78.8)"
+        ]
+      },
+      {
+        "load": "J701.1",
+        "need_A": 1.0,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      },
+      {
+        "load": "J702.1",
+        "need_A": 1.0,
+        "maxflow_A": 1.22,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "via (80.5,85.0)"
+        ]
+      },
+      {
+        "load": "J703.1",
+        "need_A": 1.0,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      },
+      {
+        "load": "J704.1",
+        "need_A": 1.0,
+        "maxflow_A": 1.22,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "via (80.5,85.0)"
+        ]
+      }
+    ]
+  },
+  "USB_VBUS_RAW": {
+    "source": "J401.A4",
+    "loads": [
+      {
+        "load": "U106.1",
+        "need_A": 0.5,
+        "maxflow_A": 1.01,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "F w=0.20 (121.8,118.0)"
+        ]
+      },
+      {
+        "load": "U106.3",
+        "need_A": 0.5,
+        "maxflow_A": 1.01,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "F w=0.20 (121.8,118.0)"
+        ]
+      }
+    ]
+  },
+  "USB_5V_LIMITED": {
+    "source": "U106.6",
+    "loads": [
+      {
+        "load": "U105.6",
+        "need_A": 0.5,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      }
+    ]
+  },
+  "5V_CORE_MUX": {
+    "source": "U105.2",
+    "loads": [
+      {
+        "load": "U107.1",
+        "need_A": 0.6,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      },
+      {
+        "load": "U105.7",
+        "need_A": 0.6,
+        "maxflow_A": null,
+        "ok": false,
+        "connected": false,
+        "min_cut": []
+      }
+    ]
+  },
+  "5V_CORE": {
+    "source": "U107.5",
+    "loads": [
+      {
+        "load": "U102.2",
+        "need_A": 0.5,
+        "maxflow_A": 1.22,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "via (122.6,88.7)"
+        ]
+      }
+    ]
+  },
+  "3V3_MCU": {
+    "source": "L102.2",
+    "loads": [
+      {
+        "load": "U201.11",
+        "need_A": 0.4,
+        "maxflow_A": 0.82,
+        "ok": true,
+        "connected": true,
+        "min_cut": [
+          "F w=0.15 (91.9,90.9)"
+        ]
+      }
+    ]
+  }
+}

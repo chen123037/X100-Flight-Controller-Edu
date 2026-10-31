@@ -1,0 +1,135 @@
+(footprint "Bosch_BMI088_LGA16"
+	(version 20241229)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(descr "Bosch BMI088 DS001 Rev1.9 Fig11 recommended land:0.675x0.25;row0.5mm;no metal below")
+	(attr smd)
+	(property "Reference" "REF**"
+		(layer "F.SilkS")
+		(at 0 -4.25)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(property "Value" "BMI088"
+		(layer "F.Fab")
+		(at 0 4.25)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.5 -2.25)
+		(end 1.5 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+	)
+	(pad "1" smd rect
+		(at 1.2625 -1.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at 1.2625 -1.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at 1.2625 -0.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at 1.2625 0.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "5" smd rect
+		(at 1.2625 0.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "6" smd rect
+		(at 1.2625 1.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "7" smd rect
+		(at 1.2625 1.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "15" smd rect
+		(at -1.2625 -1.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "14" smd rect
+		(at -1.2625 -1.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "13" smd rect
+		(at -1.2625 -0.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "12" smd rect
+		(at -1.2625 0.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "11" smd rect
+		(at -1.2625 0.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "10" smd rect
+		(at -1.2625 1.0)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "9" smd rect
+		(at -1.2625 1.5)
+		(size 0.675 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "16" smd rect
+		(at 0 -2.0125)
+		(size 0.25 0.675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "8" smd rect
+		(at 0 2.0125)
+		(size 0.25 0.675)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(fp_rect
+		(start -2.1 -2.85)
+		(end 2.1 2.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+	)
+	(fp_circle
+		(center 1.9 -2.75)
+		(end 2.05 -2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+	)
+)

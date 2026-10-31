@@ -1,0 +1,273 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "replace_schematic_component",
+      "arguments": {
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\04_USB.kicad_sch",
+        "reference": "J401",
+        "newSymbol": "X100_Physical:Amphenol_124019772112A"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Replaced J401 with X100_Physical:Amphenol_124019772112A at (119.38, 114.3)"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "edit_schematic_component",
+      "arguments": {
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\04_USB.kicad_sch",
+        "reference": "J401",
+        "value": "124019772112A",
+        "footprint": "X100_Physical:Official_USB_C_Amphenol_124019772112A",
+        "properties": {
+          "Value": "124019772112A",
+          "Manufacturer": "Amphenol",
+          "MPN": "124019772112A",
+          "LCSC": "C5430474",
+          "Package": "USB-C dual-row SMT / 4 plated SH slots",
+          "Datasheet": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf",
+          "Procurement Policy": "EXACT_MPN_FROZEN",
+          "Selection Status": "FINAL_SELECTED_FOR_V1",
+          "Verification Status": "DESIGN_REVIEWED_BENCH_PENDING",
+          "Procurement Approval": "USER_APPROVED_2026-10-22",
+          "Mechanical Assembly": "Top mount; PCB 1.6mm; 0.50mm SH projection embedded in plated slots; solder from component side; inspect joint wetting"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Successfully updated J401: footprint=X100_Physical:Official_USB_C_Amphenol_124019772112A; value=124019772112A; added=LCSC,Selection Status,Verification Status,Procurement Approval,Mechanical Assembly; updated=Value,Manufacturer,MPN,Package,Datasheet,Procurement Policy"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "edit_component",
+      "arguments": {
+        "reference": "J401",
+        "value": "124019772112A",
+        "footprint": "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Updated component: J401",
+      "component": {
+        "reference": "J401",
+        "value": "124019772112A",
+        "footprint": "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "batch_move_components",
+      "arguments": {
+        "moves": {
+          "J401": {
+            "x": 108.6,
+            "y": 120.925,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "J501": {
+            "x": 97.2,
+            "y": 115.995
+          },
+          "TP501": {
+            "x": 109.5,
+            "y": 121.2,
+            "layer": "B.Cu"
+          },
+          "R303": {
+            "x": 114.45,
+            "y": 120.575,
+            "layer": "B.Cu"
+          },
+          "TP307": {
+            "x": 116.125,
+            "y": 120.025,
+            "layer": "B.Cu"
+          }
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Moved 5 component(s)",
+      "moved": [
+        {
+          "reference": "J401",
+          "position": {
+            "x": 108.6,
+            "y": 120.925,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "J501",
+          "position": {
+            "x": 97.2,
+            "y": 115.995,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP501",
+          "position": {
+            "x": 109.5,
+            "y": 121.2,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "R303",
+          "position": {
+            "x": 114.45,
+            "y": 120.575,
+            "unit": "mm"
+          },
+          "rotation": -90,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP307",
+          "position": {
+            "x": 116.125,
+            "y": 120.025,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        }
+      ],
+      "saved": true,
+      "autoSave": {
+        "saved": true,
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb",
+        "backup": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\.mcp-backups\\X100_CleanSheet.kicad_pcb.20261022-190939-643"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "sync_schematic_to_board",
+      "arguments": {
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb",
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_sch"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "PCB updated from schematic: 0 footprints added, 0 nets added, 558 pads assigned",
+      "sheets_scanned": [
+        "X100_CleanSheet.kicad_sch",
+        "01_POWER.kicad_sch",
+        "02_MCU.kicad_sch",
+        "03_SENSORS.kicad_sch",
+        "04_USB.kicad_sch",
+        "05_SD.kicad_sch",
+        "06_CAN.kicad_sch",
+        "07_UART_IO.kicad_sch",
+        "08_PWM_ADC_DEBUG.kicad_sch"
+      ],
+      "nets_added": [],
+      "nets_total": 147,
+      "pads_assigned": 558,
+      "unmatched_pad_count": 17,
+      "unmatched_pads": [
+        "H4/",
+        "J702/MP",
+        "J702/MP",
+        "H2/",
+        "J704/MP",
+        "J704/MP",
+        "J701/MP",
+        "J701/MP",
+        "H3/",
+        "J809/MP",
+        "J809/MP",
+        "J703/MP",
+        "J703/MP",
+        "J601/MP",
+        "J601/MP",
+        "H1/",
+        "D103/"
+      ],
+      "unmatched_pads_sample": [
+        "H4/",
+        "J702/MP",
+        "J702/MP",
+        "H2/",
+        "J704/MP",
+        "J704/MP",
+        "J701/MP",
+        "J701/MP",
+        "H3/",
+        "J809/MP"
+      ],
+      "warnings": [
+        "17 pad(s) have no net in the schematic and were left unchanged: H4/, J702/MP, J702/MP, H2/, J704/MP, J704/MP, J701/MP, J701/MP, H3/, J809/MP, J809/MP, J703/MP, J703/MP, J601/MP, J601/MP, H1/, D103/"
+      ],
+      "footprints_added": [],
+      "footprints_skipped": [],
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "save_project",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Saved project to: E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  }
+]
