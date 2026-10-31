@@ -27,5 +27,17 @@
     "U106"
   ],
   "main_merge_performed": false,
-  "payment_or_order_performed": false
+  "payment_or_order_performed": false,
+  "procurement_sourcing_snapshot": {
+    "query_date": "2026-10-31",
+    "report": "hardware/current/X100_6L_DFM_ZERO_DANGER/procurement/actual_sourcing/",
+    "original_MPNs_checked": 62,
+    "retail_sufficient_for_one_board": 54,
+    "same_MPN_import_channels": 2,
+    "retail_quantity_short": 1,
+    "retail_no_stock": 4,
+    "user_confirmed_taobao_details_unverified": 1,
+    "supply_gap_candidate_groups": 5,
+    "candidate_parts_adopted": false
+  }
 }

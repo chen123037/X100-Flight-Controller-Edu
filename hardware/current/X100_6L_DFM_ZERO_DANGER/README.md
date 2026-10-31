@@ -10,6 +10,7 @@
 - [仅Gerber/钻孔：本次实际DFM零危险ZIP](manufacturing/X100_6L_DFM_gap_silk_v4.zip)
 - [KiCad10工程](project/X100_CleanSheet.kicad_pro)；11张原理图、自定义符号/封装库随附，保持相对库表。
 - [嘉立创下单参数与六孔说明](manufacturing/嘉立创下单参数与六孔说明.md) · [六孔定位图](images/U101六孔_板厂定位图.png)
+- [实际货源核查：62项真实商品链接、MOQ与交期](procurement/actual_sourcing/)
 - [淘宝器件清单与完整MPN](procurement/) · [可筛选Excel](procurement/X100_当前淘宝器件清单.xlsx)
 - [嘉立创原生PDF报告](evidence/JLC_DFM_NATIVE_REPORT_0_DANGER.pdf) · [全部原生计数](evidence/JLC_DFM_NATIVE_ALL_COUNTS.json)
 

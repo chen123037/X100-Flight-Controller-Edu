@@ -10,6 +10,7 @@
 - [完整当前工程、制造资料与购买清单](hardware/current/X100_6L_DFM_ZERO_DANGER/download/X100_六层当前版_工程制造及清单.zip)
 - [当前Gerber/钻孔ZIP](hardware/current/X100_6L_DFM_ZERO_DANGER/manufacturing/X100_6L_DFM_gap_silk_v4.zip)
 - [嘉立创参数与U101树脂塞孔盖帽说明](hardware/current/X100_6L_DFM_ZERO_DANGER/manufacturing/嘉立创下单参数与六孔说明.md)
+- [实际货源核查：商品直达页、库存、MOQ、交期及候选](hardware/current/X100_6L_DFM_ZERO_DANGER/procurement/actual_sourcing/)
 - [淘宝器件清单：62种MPN、每板142件](hardware/current/X100_6L_DFM_ZERO_DANGER/procurement/)
 - [KiCad当前工程](hardware/current/X100_6L_DFM_ZERO_DANGER/project/X100_CleanSheet.kicad_pro)
 - [原生DFM报告](hardware/current/X100_6L_DFM_ZERO_DANGER/evidence/JLC_DFM_NATIVE_REPORT_0_DANGER.pdf)
