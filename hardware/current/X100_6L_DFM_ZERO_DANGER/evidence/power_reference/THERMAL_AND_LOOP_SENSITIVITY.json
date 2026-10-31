@@ -1,0 +1,4067 @@
+{
+  "source_PCB_sha256": "d20522fe43098a0189f4efa94b1c7fbe709dc9468d5846a9bb14e3eca66ac790",
+  "retained_load_authority": "reference/ACTUAL_LOAD_SCREEN.json",
+  "retained_continuous_A": 1.8829863469387755,
+  "capacity30percent_A": 2.4478822510204084,
+  "old_3p5A_case_preserved_not_rated_continuous": true,
+  "thermal_rows": [
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 1.8829863469387755,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.8489228830645161,
+      "peak_A": 2.3074477884710336,
+      "arithmetic_distance_to_4p5_A": 2.192552211528967,
+      "diode_P_fit_W": 0.3532373951281414,
+      "diode_P_guard_W": 0.5681551510566163,
+      "inductor_estimated_DCR125_W": 0.15068192807224257,
+      "U101_conduction_screen_W": 0.4300545437280949,
+      "U101_switching_estimate_W": 0.028129104522925715,
+      "U101_gate_drive_example_W": 0.01026,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 0.46993989825102056,
+      "D103_DC_guard_W": 0.5579208010566163,
+      "D103_Cj_AC_guard_W": 0.010234350000000001,
+      "U101_total_retained_engineering_guard_W": 0.5098252527739463,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 137.30194732240463,
+        "50": 117.68738341920397
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 61.41266061650575
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 70.58951516643678
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 78.23689395804598
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 90.98252527739463
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 76.41266061650575
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 85.58951516643678
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 93.23689395804598
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 105.98252527739463
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 71.41266061650575
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 80.58951516643678
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 88.23689395804598
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 100.98252527739463
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 86.41266061650575
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 95.58951516643678
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 103.23689395804598
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 115.98252527739463
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 149.60702167695354,
+        "50": 132.00619559731194
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 180.87419330928327,
+        "50": 159.59487644936758
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 62.72620604226465
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 68.40775755283082
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 74.08930906339697
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 82.61163632924622
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 77.72620604226465
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 83.40775755283082
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.08930906339697
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 97.61163632924622
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 72.72620604226465
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 78.40775755283082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.08930906339697
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 92.61163632924622
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 87.72620604226465
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 93.40775755283082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 99.08930906339697
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 107.61163632924622
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 59.73747572654287
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 68.19639389506123
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 77.59519186008164
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 86.99398982510206
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 74.73747572654287
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 83.19639389506123
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 92.59519186008164
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 101.99398982510206
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 69.73747572654287
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 78.19639389506123
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 87.59519186008164
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 96.99398982510206
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 84.73747572654287
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 93.19639389506123
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 102.59519186008164
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 111.99398982510206
+        }
+      ]
+    },
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 1.8829863469387755,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.5659485887096775,
+      "peak_A": 2.1659606412936143,
+      "arithmetic_distance_to_4p5_A": 2.334039358706386,
+      "diode_P_fit_W": 0.35308214325186366,
+      "diode_P_guard_W": 0.5732723260566164,
+      "inductor_estimated_DCR125_W": 0.14928763168957998,
+      "U101_conduction_screen_W": 0.42607514485565534,
+      "U101_switching_estimate_W": 0.04219365678438857,
+      "U101_gate_drive_example_W": 0.015390000000000001,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 0.4851550516400439,
+      "D103_DC_guard_W": 0.5579208010566163,
+      "D103_Cj_AC_guard_W": 0.015351525000000003,
+      "U101_total_retained_engineering_guard_W": 0.5442349584244325,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 128.6209180730524,
+        "50": 110.24650120547346
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 62.85786825382617
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 72.65409750546596
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 80.81762188183244
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 94.42349584244324
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 77.85786825382617
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 87.65409750546596
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 95.81762188183244
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 109.42349584244324
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 72.85786825382617
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 82.65409750546596
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 90.81762188183244
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 104.42349584244324
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 87.85786825382617
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 97.65409750546596
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 105.81762188183244
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 119.42349584244324
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 148.27159124301667,
+        "50": 130.82787462619117
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 175.20172100169108,
+        "50": 154.58975382502155
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 62.93089304226466
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 68.66361630283082
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 74.39633956339699
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 82.99542445424623
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 77.93089304226466
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 83.66361630283082
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.39633956339699
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 97.99542445424623
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 72.93089304226466
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 78.66361630283082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.39633956339699
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 92.99542445424623
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 87.93089304226466
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 93.66361630283082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 99.39633956339699
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 107.99542445424623
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 60.376512168881845
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 69.10930309840263
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 78.81240413120352
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 88.5155051640044
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 75.37651216888185
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.10930309840263
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 93.81240413120352
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 103.5155051640044
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 70.37651216888185
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 79.10930309840263
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 88.81240413120352
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 98.5155051640044
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 85.37651216888185
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 94.10930309840263
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 103.81240413120352
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 113.5155051640044
+        }
+      ]
+    },
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 2.4478822510204084,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.8489228830645161,
+      "peak_A": 2.8723436925526666,
+      "arithmetic_distance_to_4p5_A": 1.6276563074473336,
+      "diode_P_fit_W": 0.4655592520505551,
+      "diode_P_guard_W": 0.7258704429865044,
+      "inductor_estimated_DCR125_W": 0.25292074233482303,
+      "U101_conduction_screen_W": 0.7218497655009106,
+      "U101_switching_estimate_W": 0.03656783587980343,
+      "U101_gate_drive_example_W": 0.01026,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 0.770173851380714,
+      "D103_DC_guard_W": 0.7156360929865044,
+      "D103_Cj_AC_guard_W": 0.010234350000000001,
+      "U101_total_retained_engineering_guard_W": 0.8184979372605174,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 85.52251241376054,
+        "50": 73.30501064036618
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 74.37691336494174
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.10987623563105
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 101.38734529453882
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 121.84979372605174
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 89.37691336494174
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 104.10987623563105
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 116.38734529453882
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 136.84979372605176
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 84.37691336494174
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 99.10987623563105
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 111.38734529453882
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 131.84979372605176
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 99.37691336494174
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 114.10987623563105
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 126.38734529453882
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 146.84979372605176
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 117.10078681572705,
+        "50": 103.32422366093563
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 110.36469213751924,
+        "50": 97.38061070957579
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 69.03481771946018
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 76.29352214932521
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 83.55222657919026
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 94.44028322398782
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 84.03481771946018
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 91.29352214932521
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 98.55222657919026
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 109.44028322398782
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 79.03481771946018
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 86.29352214932521
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 93.55222657919026
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 104.44028322398782
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 94.03481771946018
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 101.29352214932521
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 108.55222657919026
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 119.44028322398782
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 72.34730175798998
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 86.21043108284285
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 101.61390811045712
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 117.0173851380714
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 87.34730175798998
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 101.21043108284285
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 116.61390811045712
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 132.0173851380714
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 82.34730175798998
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 96.21043108284285
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 111.61390811045712
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 127.0173851380714
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 97.34730175798998
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 111.21043108284285
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 126.61390811045712
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 142.0173851380714
+        }
+      ]
+    },
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 2.4478822510204084,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.5659485887096775,
+      "peak_A": 2.730856545375247,
+      "arithmetic_distance_to_4p5_A": 1.7691434546247529,
+      "diode_P_fit_W": 0.46540400017427735,
+      "diode_P_guard_W": 0.7309876179865045,
+      "inductor_estimated_DCR125_W": 0.25152644595216045,
+      "U101_conduction_screen_W": 0.717870366628471,
+      "U101_switching_estimate_W": 0.05485175381970515,
+      "U101_gate_drive_example_W": 0.015390000000000001,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 0.7896083704481762,
+      "D103_DC_guard_W": 0.7156360929865044,
+      "D103_Cj_AC_guard_W": 0.015351525000000003,
+      "U101_total_retained_engineering_guard_W": 0.8613463742678813,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 81.26811941305019,
+        "50": 69.65838806832873
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 76.176547719251
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 91.68078245607288
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 104.6009780700911
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 126.13463742678813
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 91.176547719251
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 106.68078245607288
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 119.6009780700911
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 141.13463742678812
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 86.176547719251
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 101.68078245607288
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 114.6009780700911
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 136.13463742678812
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 101.176547719251
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 116.68078245607288
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 129.60097807009112
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 151.13463742678812
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 116.28103938905471,
+        "50": 102.60091710798945
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 107.64830159000796,
+        "50": 94.98379552059525
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 69.23950471946017
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 76.54938089932523
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 83.85925707919027
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 94.82407134898784
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 84.23950471946017
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 91.54938089932523
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 98.85925707919027
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 109.82407134898784
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 79.23950471946017
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 86.54938089932523
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 93.85925707919027
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 104.82407134898784
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 94.23950471946017
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 101.54938089932523
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 108.85925707919027
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 119.82407134898784
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 73.1635515588234
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 87.37650222689058
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 103.1686696358541
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 118.96083704481762
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 88.1635515588234
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 102.37650222689058
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 118.1686696358541
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 133.96083704481762
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 83.1635515588234
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 97.37650222689058
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 113.1686696358541
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 128.96083704481762
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 98.1635515588234
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 112.37650222689058
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 128.1686696358541
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 143.96083704481762
+        }
+      ]
+    },
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 3.5,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.8489228830645161,
+      "peak_A": 3.924461441532258,
+      "arithmetic_distance_to_4p5_A": 0.5755385584677419,
+      "diode_P_fit_W": 0.6826750178934292,
+      "diode_P_guard_W": 1.0196149306451614,
+      "inductor_estimated_DCR125_W": 0.5144372334887927,
+      "U101_conduction_screen_W": 1.4682322728091008,
+      "U101_switching_estimate_W": 0.052284960000000005,
+      "U101_gate_drive_example_W": 0.01026,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 1.5322734828091007,
+      "D103_DC_guard_W": 1.0093805806451615,
+      "D103_Cj_AC_guard_W": 0.010234350000000001,
+      "U101_total_retained_engineering_guard_W": 1.596314692809101,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 43.85100275987443,
+        "50": 37.586573794178086
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 107.04521709798225
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 135.77888156854607
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 159.72360196068257
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 199.6314692809101
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 122.04521709798225
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 150.77888156854607
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 174.72360196068257
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 214.6314692809101
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 117.04521709798225
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 145.77888156854607
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 169.72360196068257
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 209.6314692809101
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 132.04521709798223
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 160.77888156854607
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 184.72360196068257
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 224.6314692809101
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 83.36480512914444,
+        "50": 73.55718099630391
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 55.47312601414364,
+        "50": 48.94687589483262
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 80.78459722580646
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 90.98074653225807
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 101.17689583870968
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 116.47111979838711
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 95.78459722580646
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 105.98074653225807
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 116.17689583870968
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 131.47111979838712
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 90.78459722580646
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 100.98074653225807
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 111.17689583870968
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 126.47111979838711
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 105.78459722580646
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 115.98074653225807
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 126.17689583870968
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 141.47111979838712
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 104.35548627798222
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 131.93640896854606
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 162.58187862472806
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 193.22734828091006
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 119.35548627798222
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 146.93640896854606
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 177.58187862472806
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 208.22734828091006
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 114.35548627798222
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 141.93640896854606
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 172.58187862472806
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 203.22734828091006
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 129.3554862779822
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 156.93640896854606
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 187.58187862472806
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 218.22734828091006
+        }
+      ]
+    },
+    {
+      "Vin_V": 8.55,
+      "Iout_A": 3.5,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.6277419354838709,
+      "ripple_pp_A": 0.5659485887096775,
+      "peak_A": 3.7829742943548386,
+      "arithmetic_distance_to_4p5_A": 0.7170257056451612,
+      "diode_P_fit_W": 0.6825197660171514,
+      "diode_P_guard_W": 1.0247321056451615,
+      "inductor_estimated_DCR125_W": 0.51304293710613,
+      "U101_conduction_screen_W": 1.4642528739366611,
+      "U101_switching_estimate_W": 0.07842744000000001,
+      "U101_gate_drive_example_W": 0.015390000000000001,
+      "U101_quiescent_screen_W": 0.0014962500000000002,
+      "U101_total_estimate_W": 1.5595665639366612,
+      "D103_DC_guard_W": 1.0093805806451615,
+      "D103_Cj_AC_guard_W": 0.015351525000000003,
+      "U101_total_retained_engineering_guard_W": 1.6548802539366612,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 42.29913302396511,
+        "50": 36.25639973482724
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 109.50497066533977
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 139.29281523619966
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 164.11601904524957
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 205.4880253936661
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 124.50497066533977
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 154.29281523619966
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 179.11601904524957
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 220.4880253936661
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 119.50497066533977
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 149.29281523619966
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 174.11601904524957
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 215.4880253936661
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 134.50497066533978
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 164.29281523619966
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 189.11601904524957
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 230.4880253936661
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 82.94850871924699,
+        "50": 73.1898606346297
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 54.502322610355804,
+        "50": 48.090284656196296
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 80.98928422580646
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 91.23660528225807
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 101.4839263387097
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 116.85490792338712
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 95.98928422580646
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 106.23660528225807
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 116.4839263387097
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 131.85490792338712
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 90.98928422580646
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 101.23660528225807
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 111.4839263387097
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 126.85490792338712
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 105.98928422580646
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 116.23660528225807
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 126.4839263387097
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 141.85490792338712
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 105.50179568533977
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 133.57399383619966
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 164.7653251149329
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 195.95665639366612
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 120.50179568533977
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 148.57399383619966
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 179.7653251149329
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 210.95665639366612
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 115.50179568533977
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 143.57399383619966
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 174.7653251149329
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 205.95665639366612
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 130.50179568533977
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 158.57399383619966
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 189.7653251149329
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 220.95665639366612
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 1.8829863469387755,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.767429190751445,
+      "peak_A": 2.766700942314498,
+      "arithmetic_distance_to_4p5_A": 1.7332990576855023,
+      "diode_P_fit_W": 0.7373686049889212,
+      "diode_P_guard_W": 1.217447860394007,
+      "inductor_estimated_DCR125_W": 0.15905084878454537,
+      "U101_conduction_screen_W": 0.1626836655880498,
+      "U101_switching_estimate_W": 0.13347089271606857,
+      "U101_gate_drive_example_W": 0.03024,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.3308045583041184,
+      "D103_DC_guard_W": 1.1285422603940072,
+      "D103_Cj_AC_guard_W": 0.08890559999999999,
+      "U101_total_retained_engineering_guard_W": 0.4989254510201869,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 140.3015217140481,
+        "50": 120.2584471834698
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 60.95486894284785
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 69.93552706121122
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 77.41940882651403
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 89.89254510201869
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 75.95486894284785
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.93552706121122
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 92.41940882651403
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 104.89254510201869
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 70.95486894284785
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 79.93552706121122
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 87.41940882651403
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 99.89254510201869
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 85.95486894284785
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 94.93552706121122
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 102.41940882651403
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 114.89254510201869
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 69.81818504530547,
+        "50": 61.60428092232835
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 256.94930092788195,
+        "50": 226.71997140695467
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 88.69791441576028
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 100.87239301970035
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 113.04687162364043
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 131.30858952955055
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 103.69791441576028
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 115.87239301970035
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 128.0468716236404
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 146.30858952955055
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 98.69791441576028
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 110.87239301970035
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 123.04687162364043
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 141.30858952955055
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 113.69791441576028
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 125.87239301970035
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 138.0468716236404
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 156.30858952955055
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 53.89379144877297
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 59.84827349824711
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 66.46436466432948
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 73.08045583041184
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 68.89379144877297
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 74.84827349824711
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 81.46436466432948
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 88.08045583041184
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 63.89379144877297
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 69.84827349824711
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 76.46436466432948
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 83.08045583041184
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 78.89379144877297
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.84827349824711
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 91.46436466432948
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 98.08045583041184
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 1.8829863469387755,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.1782861271676301,
+      "peak_A": 2.472129410522591,
+      "arithmetic_distance_to_4p5_A": 2.0278705894774096,
+      "diode_P_fit_W": 0.735967540237615,
+      "diode_P_guard_W": 1.2619006603940073,
+      "inductor_estimated_DCR125_W": 0.153007152006159,
+      "U101_conduction_screen_W": 0.1565019271495303,
+      "U101_switching_estimate_W": 0.20020633907410287,
+      "U101_gate_drive_example_W": 0.045360000000000004,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.4064782662236332,
+      "D103_DC_guard_W": 1.1285422603940072,
+      "D103_Cj_AC_guard_W": 0.1333584,
+      "U101_total_retained_engineering_guard_W": 0.6564546052977361,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 106.63342055198376,
+        "50": 91.40007475884322
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 67.57109342250492
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 79.38727631786418
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 89.23409539733021
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 105.64546052977362
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 82.57109342250492
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 94.38727631786418
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 104.23409539733021
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 120.64546052977362
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 77.57109342250492
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.38727631786418
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 99.23409539733021
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 115.64546052977362
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 92.57109342250492
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 104.38727631786418
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 114.23409539733021
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 130.64546052977363
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 67.35870949893962,
+        "50": 59.43415544024084
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 209.11327139256034,
+        "50": 184.5117100522591
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 90.47602641576029
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 103.09503301970037
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 115.71403962364043
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 134.64254952955054
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 105.47602641576029
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 118.09503301970037
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 130.71403962364042
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 149.64254952955054
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 100.47602641576029
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 113.09503301970037
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 125.71403962364043
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 144.64254952955054
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 115.47602641576029
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 128.09503301970037
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 140.71403962364042
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 159.64254952955054
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 57.07208718139259
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 64.388695973418
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 72.51826129789066
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 80.64782662236331
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 72.07208718139259
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 79.388695973418
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 87.51826129789066
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 95.64782662236331
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 67.07208718139259
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 74.388695973418
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 82.51826129789066
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 90.64782662236331
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 82.07208718139259
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.388695973418
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 97.51826129789066
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 105.64782662236331
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 2.4478822510204084,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.767429190751445,
+      "peak_A": 3.3315968463961307,
+      "arithmetic_distance_to_4p5_A": 1.1684031536038693,
+      "diode_P_fit_W": 0.9712189730782381,
+      "diode_P_guard_W": 1.5458058494948685,
+      "inductor_estimated_DCR125_W": 0.26128966304712586,
+      "U101_conduction_screen_W": 0.267257675703163,
+      "U101_switching_estimate_W": 0.17351216053088914,
+      "U101_gate_drive_example_W": 0.03024,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.47541983623405215,
+      "D103_DC_guard_W": 1.4569002494948686,
+      "D103_Cj_AC_guard_W": 0.08890559999999999,
+      "U101_total_retained_engineering_guard_W": 0.6835819967649414,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 102.40176062458593,
+        "50": 87.77293767821651
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 68.71044386412754
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 81.01491980589648
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 91.26864975737061
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 108.35819967649414
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 83.71044386412754
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 96.01491980589648
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 106.26864975737061
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 123.35819967649414
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 78.71044386412754
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 91.01491980589648
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 101.26864975737061
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 118.35819967649414
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 93.71044386412754
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 106.01491980589648
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 116.26864975737061
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 133.35819967649414
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 54.98750055045782,
+        "50": 48.518382838639255
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 178.78934264357025,
+        "50": 157.75530233256197
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 101.83223397979475
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 117.29029247474342
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 132.74835096969213
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 155.93543871211514
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 116.83223397979475
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 132.2902924747434
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 147.74835096969213
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 170.93543871211514
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 111.83223397979475
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 127.29029247474342
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 142.74835096969213
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 165.93543871211514
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 126.83223397979475
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 142.2902924747434
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 157.74835096969213
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 180.93543871211514
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 59.96763312183019
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 68.52519017404313
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 78.03358689872417
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 87.54198362340522
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 74.96763312183019
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 83.52519017404313
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 93.03358689872417
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 102.54198362340522
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 69.96763312183019
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 78.52519017404313
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 88.03358689872417
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 97.54198362340522
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 84.96763312183019
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 93.52519017404313
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 103.03358689872417
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 112.54198362340522
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 2.4478822510204084,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.1782861271676301,
+      "peak_A": 3.0370253146042234,
+      "arithmetic_distance_to_4p5_A": 1.4629746853957766,
+      "diode_P_fit_W": 0.9698179083269319,
+      "diode_P_guard_W": 1.5902586494948685,
+      "inductor_estimated_DCR125_W": 0.2552459662687395,
+      "U101_conduction_screen_W": 0.26107593726464345,
+      "U101_switching_estimate_W": 0.26026824079633376,
+      "U101_gate_drive_example_W": 0.045360000000000004,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.5711141780609772,
+      "D103_DC_guard_W": 1.4569002494948686,
+      "D103_Cj_AC_guard_W": 0.1333584,
+      "U101_total_retained_engineering_guard_W": 0.8811524188573111,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 79.44142069175368,
+        "50": 68.09264630721744
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 77.00840159200706
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 92.86914513143867
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 106.08643141429833
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 128.1152418857311
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 92.00840159200706
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 107.86914513143867
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 121.08643141429833
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 143.1152418857311
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 87.00840159200706
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 102.86914513143867
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 116.08643141429833
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 138.1152418857311
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 102.00840159200706
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 117.86914513143867
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 131.08643141429832
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 153.1152418857311
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 53.450424575272386,
+        "50": 47.162139331122695
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 148.83188557599536,
+        "50": 131.32225197881945
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 103.61034597979474
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 119.51293247474342
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 135.41551896969213
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 159.26939871211513
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 118.61034597979474
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 134.51293247474342
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 150.41551896969213
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 174.26939871211513
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 113.61034597979474
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 129.51293247474342
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 145.41551896969213
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 169.26939871211513
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 128.61034597979474
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 144.51293247474342
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 160.41551896969213
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 184.26939871211513
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 63.98679547856104
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 74.26685068365863
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 85.68913424487818
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 97.11141780609772
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 78.98679547856105
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.26685068365863
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 100.68913424487818
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 112.11141780609772
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 73.98679547856105
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 84.26685068365863
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 95.68913424487818
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 107.11141780609772
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 88.98679547856105
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 99.26685068365863
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 110.68913424487818
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 122.11141780609772
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 3.5,
+      "fsw_Hz": 400000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.767429190751445,
+      "peak_A": 4.383714595375722,
+      "arithmetic_distance_to_4p5_A": 0.1162854046242775,
+      "diode_P_fit_W": 1.4232467720436806,
+      "diode_P_guard_W": 2.1573720971098265,
+      "inductor_estimated_DCR125_W": 0.5228061542010956,
+      "U101_conduction_screen_W": 0.534747360403208,
+      "U101_switching_estimate_W": 0.24808896,
+      "U101_gate_drive_example_W": 0.03024,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.8174863204032081,
+      "D103_DC_guard_W": 2.0684664971098266,
+      "D103_Cj_AC_guard_W": 0.08890559999999999,
+      "U101_total_retained_engineering_guard_W": 1.1002252804032082,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 63.623333554330394,
+        "50": 54.53428590371176
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 86.20946177693475
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 106.0135168241925
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 122.51689603024062
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 150.02252804032082
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 101.20946177693475
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 121.0135168241925
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 137.51689603024062
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 165.02252804032082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 96.20946177693475
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 116.0135168241925
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 132.51689603024062
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 160.02252804032082
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 111.20946177693475
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 131.0135168241925
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 147.51689603024062
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 175.02252804032082
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 39.39978648739928,
+        "50": 34.76451748888172
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 103.9772750669094,
+        "50": 91.74465447080242
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 126.29488388439306
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 147.86860485549133
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 169.44232582658958
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 201.80290728323698
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 141.29488388439307
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 162.86860485549133
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 184.44232582658958
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 216.80290728323698
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 136.29488388439307
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 157.86860485549133
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 179.44232582658958
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 211.80290728323698
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 151.29488388439307
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 172.86860485549133
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 194.44232582658958
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 226.80290728323698
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 74.33442545693474
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 89.04917922419249
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 105.39890563225666
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 121.74863204032081
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 89.33442545693474
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 104.04917922419249
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 120.39890563225666
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 136.7486320403208
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 84.33442545693474
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 99.04917922419249
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 115.39890563225666
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 131.7486320403208
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 99.33442545693474
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 114.04917922419249
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 130.39890563225666
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 146.7486320403208
+        }
+      ]
+    },
+    {
+      "Vin_V": 25.2,
+      "Iout_A": 3.5,
+      "fsw_Hz": 600000.0,
+      "duty_estimate": 0.22497109826589595,
+      "ripple_pp_A": 1.1782861271676301,
+      "peak_A": 4.0891430635838155,
+      "arithmetic_distance_to_4p5_A": 0.4108569364161849,
+      "diode_P_fit_W": 1.4218457072923743,
+      "diode_P_guard_W": 2.2018248971098267,
+      "inductor_estimated_DCR125_W": 0.5167624574227091,
+      "U101_conduction_screen_W": 0.5285656219646884,
+      "U101_switching_estimate_W": 0.37213344,
+      "U101_gate_drive_example_W": 0.045360000000000004,
+      "U101_quiescent_screen_W": 0.00441,
+      "U101_total_estimate_W": 0.9504690619646884,
+      "D103_DC_guard_W": 2.0684664971098266,
+      "D103_Cj_AC_guard_W": 0.1333584,
+      "U101_total_retained_engineering_guard_W": 1.3723725019646882,
+      "U101_required_Rtheta_to_project110C_C_per_W": {
+        "40": 51.006559734902886,
+        "50": 43.71990834420247
+      },
+      "U101_guard_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 97.6396450825169
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 122.3423501178813
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 142.9279376473516
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 177.2372501964688
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 112.6396450825169
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 137.3423501178813
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 157.9279376473516
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 192.2372501964688
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 107.6396450825169
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 132.3423501178813
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 152.9279376473516
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 187.2372501964688
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 122.6396450825169
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 147.3423501178813
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 167.9279376473516
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 202.2372501964688
+        }
+      ],
+      "D103_required_Rtheta_to_125C_C_per_W": {
+        "40": 38.60434138589914,
+        "50": 34.06265416402866
+      },
+      "U101_required_Rtheta_to_125C_C_per_W": {
+        "40": 89.42952843125566,
+        "50": 78.90840743934324
+      },
+      "D103_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 128.07299588439307
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 150.09124485549134
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 172.10949382658958
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 205.136867283237
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 143.07299588439307
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 165.09124485549134
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 187.10949382658958
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 220.136867283237
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 138.07299588439307
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 160.09124485549134
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 182.10949382658958
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 215.136867283237
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 40,
+          "estimated_Tj": 153.07299588439307
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 50,
+          "estimated_Tj": 175.09124485549134
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 197.10949382658958
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 75,
+          "estimated_Tj": 230.136867283237
+        }
+      ],
+      "U101_temperature_sensitivity_C": [
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 79.91970060251691
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 97.0281437178813
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 116.03752495717507
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 135.04690619646885
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 94.91970060251691
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 112.0281437178813
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 131.03752495717507
+        },
+        {
+          "Ta": 40,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 150.04690619646885
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 89.91970060251691
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 107.0281437178813
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 126.03752495717507
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 0,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 145.04690619646885
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 42,
+          "estimated_Tj": 104.91970060251691
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 60,
+          "estimated_Tj": 122.0281437178813
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 80,
+          "estimated_Tj": 141.03752495717507
+        },
+        {
+          "Ta": 50,
+          "neighbor_rise": 15,
+          "Rtheta_assumed": 100,
+          "estimated_Tj": 160.04690619646885
+        }
+      ]
+    }
+  ],
+  "D103_connected_B_metal_mm2": 145.505429187497,
+  "thermal_limits": [
+    "Metal area is not an effective-heatsink-area or Rtheta guarantee. ST Fig10 uses a particular FR4/35um setup.",
+    "D1031.6C/W is junction-to-case/tab, not mold top to air. Never substitute it for actual RthetaJA.",
+    "Diode guard uses engineering0.75V and datasheet125C/100V leakage as a screening value, not all-temperature guaranteed model.",
+    "U101 Rds190mohm comes from stated TI test conditions; trise,Qg use example approximations and omit complete switching/core/interaction losses.",
+    "Legacy Ta50C is retained alongside user-requested40C. 15C neighboring rise is sensitivity, not a solved board thermal coupling.",
+    "No waveform, actual junction, thermal resistance, short-circuit or enclosed-airflow measurement exists."
+  ],
+  "compensation_sensitivity": {
+    "cases": 384,
+    "minimum_phase_margin_case": {
+      "C108_factor": 1.2,
+      "C121_factor": 0.8,
+      "C119_factor": 0.8,
+      "ESR_assumed_ohm": 0.001,
+      "MUX_R_assumed_ohm": 0.02,
+      "EXT_R_assumed_ohm": 0.07,
+      "gmea_assumed_S": 0.00042,
+      "Iout_A": 1.8829863469387755,
+      "crossover_Hz": 5304.342000902742,
+      "phase_margin_deg": 79.75890015384348
+    },
+    "maximum_crossover_case": {
+      "C108_factor": 0.8,
+      "C121_factor": 0.8,
+      "C119_factor": 0.8,
+      "ESR_assumed_ohm": 0.044,
+      "MUX_R_assumed_ohm": 0.1,
+      "EXT_R_assumed_ohm": 0.135,
+      "gmea_assumed_S": 0.00042,
+      "Iout_A": 1.8829863469387755,
+      "crossover_Hz": 7459.863384126216,
+      "phase_margin_deg": 99.96098528489989
+    },
+    "non_single_crossings": [],
+    "series_zero_Hz": 386.8617965286713,
+    "high_pole_approx_Hz": 35462.33134846153,
+    "limits": [
+      "Finite passive-load LTI sensitivity only; no proof of stability with AP63203 constant-power input, mode transitions, long-path inductance, wiring or all ESR/temperature corners.",
+      "C108/C121 ESR22mohm maximum is specified at100kHz/conditions; .001/.044 bounds are engineering sensitivities, not manufacturer broadband guarantees.",
+      "C11927mohm is the stated100kHz value, not broadband minimum.",
+      "C108,C121180uF and C11982uF retained; no compensation component changed.",
+      "TI12A/V,350uS,10kDCgain,2.5MHzEA values are simplified model/example assumptions, not complete guaranteed closed-loop parameters.",
+      "A half-cycle pure delay is a sensitivity assumption, not an identified PWM model."
+    ]
+  },
+  "sources": [
+    "https://www.st.com/resource/en/datasheet/stps8h100.pdf pp2,4",
+    "https://www.ti.com/lit/ds/symlink/tps54360b.pdf pp5,18-20,28-30",
+    "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf p1",
+    "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M",
+    "https://util01.industrial.panasonic.com/ww/utilities/ds/chr-vw/16SVPF82M"
+  ],
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE",
+  "manufacturing_release": false,
+  "retained_legacy_guard_inputs": {
+    "MCU_3V3_budget_A": 0.889,
+    "sensor_LDO_A": 0.025,
+    "shared_EXT_5V_A": 1.0,
+    "additional_5V_allowance_A": 0.005,
+    "downstream_efficiency_guard": 0.8,
+    "MCU_voltage_upper_V": 3.33,
+    "main_voltage_lower_V": 4.9,
+    "normal_Vin_V": [
+      8.55,
+      25.2
+    ],
+    "ambient_C": 50,
+    "frequency_engineering_guard_Hz": [
+      400000.0,
+      600000.0
+    ],
+    "effective_L_engineering_guard_H": 6.4e-06,
+    "estimated_DCR_125C_ohm": 0.04179
+  },
+  "retained_legacy_steady_screens": [
+    {
+      "case": "recalculated_continuous",
+      "output_A": 1.7851964285714286,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 2.760385263864282,
+      "conditional_distance_to_minimum_current_limit_A": 1.7396147361357182,
+      "RMS_A": 1.8718771443155116,
+      "winding_loss_25C_W": 0.10511772130232383,
+      "estimated_winding_loss_125C_W": 0.1464289857741371,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "retained_historical_continuous_plus_updates",
+      "output_A": 1.8829863469387755,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 2.8581751822316286,
+      "conditional_distance_to_minimum_current_limit_A": 1.6418248177683714,
+      "RMS_A": 1.965358831761886,
+      "winding_loss_25C_W": 0.11587906012753335,
+      "estimated_winding_loss_125C_W": 0.16141953075765397,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "capacity_with_30percent",
+      "output_A": 2.4478822510204084,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 3.4230710863132616,
+      "conditional_distance_to_minimum_current_limit_A": 1.0769289136867384,
+      "RMS_A": 2.5117972190619513,
+      "winding_loss_25C_W": 0.18927375809062055,
+      "estimated_winding_loss_125C_W": 0.26365834502023444,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "EXT_limiter_max_1p2761A_with_recalculated_core",
+      "output_A": 2.0612964285714286,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 3.036485263864282,
+      "conditional_distance_to_minimum_current_limit_A": 1.4635147361357181,
+      "RMS_A": 2.136806196468912,
+      "winding_loss_25C_W": 0.1369782216380381,
+      "estimated_winding_loss_125C_W": 0.1908106627417871,
+      "not_guaranteed_hot_margin": true
+    },
+    {
+      "case": "historical_extreme_3p5A",
+      "output_A": 3.5,
+      "ripple_pp_A": 1.9503776705857063,
+      "peak_A": 4.475188835292853,
+      "conditional_distance_to_minimum_current_limit_A": 0.024811164707146838,
+      "RMS_A": 3.5449961572372137,
+      "winding_loss_25C_W": 0.3770099326447984,
+      "estimated_winding_loss_125C_W": 0.5251748361742041,
+      "not_guaranteed_hot_margin": true
+    }
+  ],
+  "legacy_3p5A_peak_4p475A_is_not_overruled_by_lighter_new_formula": true,
+  "restored_earlier_thermal_guard_authority": {
+    "file": "reference/X100_CleanSheet_Core_Component_Design_Input.md",
+    "section": "5.4, lines134-145",
+    "Ta_C": 50,
+    "U101_trise_multiplier": 2,
+    "U101_Qg_nC": 6,
+    "U101_Iq_mA": 0.35,
+    "D103_Cj_guard_pF": 700,
+    "U101_target_Tj_C": 110,
+    "D103_effective_Rtheta_target_C_per_W": 40,
+    "classification": "Project engineering guards/targets, not manufacturer maxima or achieved board thermal resistance"
+  }
+}

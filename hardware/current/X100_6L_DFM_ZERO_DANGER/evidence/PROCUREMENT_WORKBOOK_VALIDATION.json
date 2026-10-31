@@ -1,0 +1,14 @@
+{
+  "instances": 142,
+  "uniqueMPNs": 62,
+  "boardCountDefault": 1,
+  "boardCountTwoTotal": 284,
+  "quantityRecalculationVerified": true,
+  "sheets": 3,
+  "pending": [
+    "C121",
+    "R105",
+    "U105",
+    "U106"
+  ]
+}

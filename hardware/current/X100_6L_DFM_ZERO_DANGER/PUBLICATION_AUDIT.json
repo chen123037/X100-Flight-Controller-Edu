@@ -1,0 +1,23 @@
+{
+  "source_file_count": 61,
+  "exact_source_hashes_verified": true,
+  "PCB_SHA256": "09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529",
+  "manufacturing_zip_SHA256": "85254aca1ba4356953ddff8653cff87964dce0b77bb30dd6c1584126908b1bfc",
+  "download_zip_SHA256": "b81cd7b9655ee8af1af68010af64feb02b09408e43d9615ac254bb88861f1cf1",
+  "download_files": 114,
+  "broken_current_navigation_links": [],
+  "local_paths_or_credential_patterns_in_text": [],
+  "purchase_instances": 142,
+  "unique_MPNs": 62,
+  "current_CPL_R113": {
+    "Ref": "R113",
+    "Val": "49.9k 0.1%",
+    "Package": "Official_Resistor_SMD_R_0805_2012Metric",
+    "PosX": "88.400000",
+    "PosY": "-76.500000",
+    "Rot": "180.000000",
+    "Side": "bottom"
+  },
+  "CAD_modified_by_publication": false,
+  "main_merged": false
+}

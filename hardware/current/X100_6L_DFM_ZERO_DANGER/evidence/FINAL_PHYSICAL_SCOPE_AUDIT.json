@@ -1,0 +1,129 @@
+{
+  "PCB_SHA256": "09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529",
+  "footprints": 174,
+  "testpoints": 26,
+  "mounting_holes": 4,
+  "component_pose_changes": [
+    {
+      "ref": "R113",
+      "before": {
+        "xy": [
+          88200000,
+          76600000
+        ],
+        "angle": 180.0,
+        "layer": "B.Cu",
+        "value": "49.9k 0.1%",
+        "libid": [
+          "X100_Physical",
+          "Official_Resistor_SMD_R_0805_2012Metric"
+        ]
+      },
+      "after": {
+        "xy": [
+          88400000,
+          76500000
+        ],
+        "angle": 180.0,
+        "layer": "B.Cu",
+        "value": "49.9k 0.1%",
+        "libid": [
+          "X100_Physical",
+          "Official_Resistor_SMD_R_0805_2012Metric"
+        ]
+      }
+    }
+  ],
+  "changed_pads": [
+    [
+      "1514c5d1-55e7-4f0a-8c14-8e4956e472ad",
+      {
+        "ref": "R113",
+        "pin": "1",
+        "xy": [
+          89112500,
+          76600000
+        ],
+        "size": [
+          1025000,
+          1400000
+        ],
+        "drill": [
+          0,
+          0
+        ],
+        "angle": 180.0,
+        "net": "USB_PWR_ILIM",
+        "shape": 4,
+        "layers": "00000000_00000000_00000000_0000800c"
+      },
+      {
+        "ref": "R113",
+        "pin": "1",
+        "xy": [
+          89312500,
+          76500000
+        ],
+        "size": [
+          1025000,
+          1400000
+        ],
+        "drill": [
+          0,
+          0
+        ],
+        "angle": 180.0,
+        "net": "USB_PWR_ILIM",
+        "shape": 4,
+        "layers": "00000000_00000000_00000000_0000800c"
+      }
+    ],
+    [
+      "ac3aa513-a68c-4050-8006-83ce31f3191c",
+      {
+        "ref": "R113",
+        "pin": "2",
+        "xy": [
+          87287500,
+          76600000
+        ],
+        "size": [
+          1025000,
+          1400000
+        ],
+        "drill": [
+          0,
+          0
+        ],
+        "angle": 180.0,
+        "net": "GND",
+        "shape": 4,
+        "layers": "00000000_00000000_00000000_0000800c"
+      },
+      {
+        "ref": "R113",
+        "pin": "2",
+        "xy": [
+          87487500,
+          76500000
+        ],
+        "size": [
+          1025000,
+          1400000
+        ],
+        "drill": [
+          0,
+          0
+        ],
+        "angle": 180.0,
+        "net": "GND",
+        "shape": 4,
+        "layers": "00000000_00000000_00000000_0000800c"
+      }
+    ]
+  ],
+  "all_other_pad_geometry_and_nets_unchanged": true,
+  "board_edges_unchanged": true,
+  "schematics_identical": true,
+  "rules_and_project_identical": true
+}

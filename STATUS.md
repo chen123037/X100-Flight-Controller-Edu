@@ -1,36 +1,33 @@
-# X100 当前状态：c8待独立评审
+# 当前状态：六层V4，PCB DFM零危险
 
-当前入口为 [c8中文评审目录](hardware/reviews/X100_C8_LAYOUT_REVIEW/)。电路主体50×50 mm、安装耳外廓70×52 mm、孔距60×42 mm、四个Ø4孔；240总封装已包含65测试点。
+当前入口为[六层工程与下单资料](hardware/current/X100_6L_DFM_ZERO_DANGER/)，不是旧c8或旧45mm板。制造ZIP可用于提交嘉立创订单和工程审稿；没有因此自动得到完整制造放行。
 
-PCB SHA256：`edc89ce874549e805f218a019f62ca5ebd7cc67f8088a04d4485a3e62591cce0`。
+- 174个PCB封装：144个功能位号、26个TP、4个安装孔；采购142实例、62种MPN。
+- 61项源CAD/库表与本地已检查V4逐字节相同；PCB SHA256 `09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529`。
+- 6层、JLC06161H-3313、名义1.6mm；约70×52mm外廓，四个Ø4 NPTH、孔距60×42mm。
+- KiCad10.0.6 fresh ERC0；DRC0错误、0未连接、0parity，另56条lib_footprint_mismatch警告，完整记录未隐藏。
+- 实际嘉立创PCB DFM任务DFMP2610310277：35结果行所报危险0、黄色468。没有把软件显示计数当作全部物理对象总数。
+- 实际上传ZIP SHA256 `85254aca1ba4356953ddff8653cff87964dce0b77bb30dd6c1584126908b1bfc`；未混用旧包。
 
-## 已有证据
+## 已完成与剩余
 
-- 独立重跑DRC：96项未连接、0原理图一致性。ERC全严重级别0。证据见[c8检查目录](hardware/reviews/X100_C8_LAYOUT_REVIEW/03_检查证据/)。
-- 当前报告clearance/short/孔相关/track_width/板边等电气违规0，不等于DRC_FINAL通过。
-- 其它报告：zones_intersect3、Courtyard199、silk_over_copper199、silk_overlap199、silk_edge13、text_height2、悬空线35、悬空过孔20。三类199触顶，不能用报告总数当真实总量。
-- Courtyard几何另报告212对；6组二维焊盘-他件Fab凸包交叠均未确认三维实体干涉。
-- USB VBUS和CC连接已完成；DP/DM为F面、0过孔，主段0.50mm异网铜筛查0问题。端部扇出、参考平面、SI、ESD、实际枚举和电流未验收。
-- 本次仅公开源文件/文档/证据与中文ZIP；没有修改c8 CAD，也没有覆盖旧正式hardware/X100_V1。
+全部连接与本轮DFM红项已处理；新增局部路由与过孔读回核对、网表同一性及源文件身份已有证据。R113位置已改变，装联坐标必须使用当前版；原生CPL还需贴片方审核，不能当作SMT放行。
 
-## 尚未完成
+尚未关闭的是U101/D103整板热扩散、互热及有效热阻的设计风险接受，以及实际工厂填孔范围/叠层/生产稿确认。此前功耗与热指标是计算参考，不是当前整板温升实测或PASS；参考记录保留在当前目录的evidence/power_reference中。没有以缺实板为理由反复要求购买开发板，也没有把热设计缺口悄悄删成首板测试。
 
-1. 96项连接，包含核心供电/启动、传感器、SD、CAN、接口等；不是“只剩丝印收尾”。
-2. 主Buck与MCU出线协同布局、U104/U105共用5V_MAIN干线、VBAT/过孔/负载/热/压降/回流检查。
-3. 3处铜区重叠、6组装配疑点、插拔/焊接/底面及测试可达性、丝印/阻焊/悬空铜。
-4. 35个USB供电候选的具体器件/架构正式接受边界，USB-only电流/反灌/切换；没有实物数据的项目列首板Bring-up。
-5. JLC3313实际下单叠层/CAM、BOM/CPL及Gerber/钻孔/制造包和最终人工验收。
+U101.9的六颗散热孔必须树脂填孔＋电镀盖帽，普通盖油不替代。当前官方六层默认工艺及J401原厂0.45mm槽的处理见[制造参数](hardware/current/X100_6L_DFM_ZERO_DANGER/manufacturing/嘉立创下单参数与六孔说明.md)。
 
-约40pF耦合、1.01A载流、0.41mm最低线宽等是带假设的模型值，不是实测。自动路由器不收敛、41%面积估算或直线穿越统计，都不能证明布局物理不可完成。应先请有经验的人给具体摆放与通道判断。
+采购表中C121/R105/U105/U106仍保留候选原字段，需结合已有人工裁决核对。淘宝链接仅为按完整型号搜索，店铺/价格/库存/批次未核验。没有采购、付款、下单或飞行测试。
 
-`PCB_DESIGN_COMPLETE = NO`
+| 状态项 | 当前记录 |
+|---|---|
+| PCB_DFM_REPORTED_DANGER | 0 |
+| ERC_CHECK | 0违规 |
+| DRC_ELECTRICAL_ERRORS / UNCONNECTED / PARITY | 0 / 0 / 0 |
+| PCB_ORDER_INPUTS_CURRENT | YES，当前订单上传和工艺审稿资料 |
+| POWER_SAFETY_REVIEW | NOT_SIGNED_OFF，整板热接受仍未闭合 |
+| FACTORY_PROCESS_ACCEPTANCE | 待当前实际订单生产稿确认 |
+| FULL_MANUFACTURING_RELEASE | 未宣告 |
+| FLIGHT_VALIDATION | 未执行 |
 
-`DRC_FINAL = NOT_PASS`
-
-`POWER_SAFETY_REVIEW = NOT_CLOSED`
-
-`PCB_MANUFACTURING_PACKAGE = NOT_READY`
-
-`READY_FOR_HUMAN_FABRICATION_APPROVAL = NO`
-
-此前282/116/140/102/100等属于不同工程或阶段，区别见[工作说明](docs/C8_WORK_SUMMARY.md)。之前的阶段状态保存在[历史快照](docs/history/pre_c8/STATUS_5a6129b.md)。
+main未合并；旧c8和旧正式目录保持。此前96/282等未连接数字只对应历史工程，不再作为当前板的状态。

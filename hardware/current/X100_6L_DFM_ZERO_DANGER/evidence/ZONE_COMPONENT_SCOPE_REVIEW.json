@@ -1,0 +1,57 @@
+[
+  {
+    "net": "GND",
+    "layer": "B.Cu",
+    "outline_unchanged": true,
+    "filled_components_before": 5,
+    "filled_components_after": 5,
+    "area_before_mm2": 52.10164396246242,
+    "area_after_mm2": 52.10164396246242,
+    "removed_copper_area_mm2": 0.0,
+    "added_copper_area_mm2": 0.0
+  },
+  {
+    "net": "GND",
+    "layer": "In1.Cu",
+    "outline_unchanged": true,
+    "filled_components_before": 1,
+    "filled_components_after": 1,
+    "area_before_mm2": 2132.402695055371,
+    "area_after_mm2": 2132.2813167903673,
+    "removed_copper_area_mm2": 2.396701951454258,
+    "added_copper_area_mm2": 2.2753236864467548
+  },
+  {
+    "net": "VBAT_PROTECTED",
+    "layer": "In2.Cu",
+    "outline_unchanged": true,
+    "filled_components_before": 1,
+    "filled_components_after": 1,
+    "area_before_mm2": 657.5126500811897,
+    "area_after_mm2": 657.5126496064215,
+    "removed_copper_area_mm2": 0.5665682531711975,
+    "added_copper_area_mm2": 0.5665677784036924
+  },
+  {
+    "net": "3V3_MCU",
+    "layer": "In2.Cu",
+    "outline_unchanged": true,
+    "filled_components_before": 1,
+    "filled_components_after": 1,
+    "area_before_mm2": 1390.4401631314258,
+    "area_after_mm2": 1390.8221340121681,
+    "removed_copper_area_mm2": 2.2164848858829327,
+    "added_copper_area_mm2": 2.5984557666239265
+  },
+  {
+    "net": "GND",
+    "layer": "In4.Cu",
+    "outline_unchanged": true,
+    "filled_components_before": 1,
+    "filled_components_after": 1,
+    "area_before_mm2": 2420.2006916794503,
+    "area_after_mm2": 2420.0793131532123,
+    "removed_copper_area_mm2": 2.396702190501778,
+    "added_copper_area_mm2": 2.2753236642657737
+  }
+]

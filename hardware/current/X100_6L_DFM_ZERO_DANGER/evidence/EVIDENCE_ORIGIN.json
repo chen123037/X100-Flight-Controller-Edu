@@ -1,0 +1,38 @@
+{
+  "manufacturing_zip_and_native_PDF": "Exact unmodified bytes",
+  "project_source": "61 files exact byte copies, manifest supplied",
+  "JSON_reports": "Public copies: local absolute paths removed; numeric results retained",
+  "netlist": "Canonical component/net members exported from the exact current fresh XML; local design paths omitted",
+  "power_reference": [
+    {
+      "path": "evidence/power_reference/STATIC_POWER_CHAIN_REVIEW.json",
+      "original_reference_sha256": "d1cd8006903c29b90ed10072bc07a4203a35475010a15a022bd57d9058634bac",
+      "public_copy_sha256": "e929608f586b1e36f591c93b69dad4871eb4ab949b058a43fbb916b55459392f",
+      "scope": "Parent calculation reference; not a new current-board thermal sign-off"
+    },
+    {
+      "path": "evidence/power_reference/ALL_EXT_PORT_VOLTAGE_SCREEN.json",
+      "original_reference_sha256": "66d3a0dadec92822ff93e07b2b06f715070e301952a769e9088ff705f105a871",
+      "public_copy_sha256": "ffea04988a50d617a02eecf9ae08645efc94309bb492ffcb9e57b4fca440becc",
+      "scope": "Parent calculation reference; not a new current-board thermal sign-off"
+    },
+    {
+      "path": "evidence/power_reference/THERMAL_AND_LOOP_SENSITIVITY.json",
+      "original_reference_sha256": "5327370427c6d17efc1d63f74428a1e95d409ab501a994e1e1e101d72a097fbc",
+      "public_copy_sha256": "b13747da0edbd6f211a43cf7c125ce4a337d83aaee7f68132fc0f4293251529d",
+      "scope": "Parent calculation reference; not a new current-board thermal sign-off"
+    },
+    {
+      "path": "evidence/power_reference/CURRENT_THERMAL_REQUIREMENTS_AND_STAGE_BOUNDARY.json",
+      "original_reference_sha256": "dcbdb9d67e082b18fb6d60533d3bb5dac4f2239bb8bf2c51979da7969d4007bc",
+      "public_copy_sha256": "b3de33b5043030a6ec85268d31ecc99348dd53edd34024e1975689aef7764a70",
+      "scope": "Parent calculation reference; not a new current-board thermal sign-off"
+    },
+    {
+      "path": "evidence/power_reference/VBAT_INPUT_PLANE_CHANGE_REVIEW.json",
+      "original_reference_sha256": "4f8dfd9a9f975779c2bc81a1810343289f00346e80af5a053febc255fc67d946",
+      "public_copy_sha256": "0bbdcd99bbb59aa2718a0ee0a051e2672631346c53f07986c595f2a0904017b6",
+      "scope": "Parent calculation reference; not a new current-board thermal sign-off"
+    }
+  ]
+}

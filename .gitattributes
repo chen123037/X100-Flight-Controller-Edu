@@ -11,3 +11,8 @@ fp-lib-table -text
 hardware/reviews/X100_C8_LAYOUT_REVIEW/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.zip binary
 *.pdf binary
+
+# Current workbook and byte-preserved source
+*.xlsx binary
+hardware/current/X100_6L_DFM_ZERO_DANGER/project/** -text
+hardware/current/X100_6L_DFM_ZERO_DANGER/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

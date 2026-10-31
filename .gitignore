@@ -28,3 +28,7 @@ temporary-review/
 
 # Explicitly published c8 independent-review download only
 !hardware/reviews/X100_C8_LAYOUT_REVIEW/download/X100_中文评审包_c8.zip
+
+# Current six-layer DFM-checked manufacturing and source downloads
+!hardware/current/X100_6L_DFM_ZERO_DANGER/manufacturing/X100_6L_DFM_gap_silk_v4.zip
+!hardware/current/X100_6L_DFM_ZERO_DANGER/download/X100_六层当前版_工程制造及清单.zip
