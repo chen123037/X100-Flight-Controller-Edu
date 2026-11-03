@@ -1,0 +1,39 @@
+{
+  "scope": "REJECT_OLD_ISOLATED_POWER_CANDIDATE_NOT_FORMAL_DESIGN",
+  "r_ilim_kohm": 60.4,
+  "resistor_tolerance": 0.001,
+  "tcr_ppm_per_C": 25,
+  "max_temperature_offset_C": 100,
+  "resistor_corner_fraction": 0.0035,
+  "ilim_min_mA": 389.8002075527674,
+  "ilim_max_mA": 488.20996219811474,
+  "formula_valid_resistance_kohm": [
+    15,
+    232
+  ],
+  "old_candidate_direct_mux_cap_uF": 92.1,
+  "mux_softstart_typ_ms_at_5V": 1.7,
+  "direct_cap_charge_current_typ_mA": 270.88235294117646,
+  "sensor_input_cap_additional_uF": 22,
+  "sensor_input_series_R_ohm": 10,
+  "AP63203_soft_start_typ_ms": 4,
+  "AP63203_soft_start_guaranteed_min_or_max": "NOT_ESTABLISHED",
+  "source_margin_requirement_factor": 1.3,
+  "example_guard_inputs_not_final": {
+    "core_input_voltage_V": 4.2,
+    "buck_efficiency": 0.8,
+    "output_high_voltage_V": 3.33,
+    "sensor_LDO_guard_mA": 25,
+    "control_guard_mA": 5
+  },
+  "max_3v3_current_mA_under_example_guards": 272.2773613715173,
+  "MCU_revV_400MHz_flash_cacheOn_all_peripherals_max_mA_Tj85": 336,
+  "low_current_mode_ILIM_to_IN_TPS2553_output_mA": [
+    50,
+    75,
+    100
+  ],
+  "HSE8MHz_HAL_CUSTOM_MCU_CLOCKRATE_200MHz_supported_by_current_ArduPilot_header": false,
+  "current_architecture_review": "NOT_PASS",
+  "fabrication_ready": false
+}

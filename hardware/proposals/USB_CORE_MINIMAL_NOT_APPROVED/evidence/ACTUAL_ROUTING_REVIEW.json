@@ -1,0 +1,3300 @@
+{
+  "scope": "SAVED_NATIVE_MAIN_POWER_ROUTING_CHECKPOINT_NOT_COMPLETE_POWER_OR_BOARD",
+  "board_sha256": "884cf31fa961e39a1de56e751196a6b140a5d2770d359c1feeb83435137f17b6",
+  "layout_signature": "c6edceeabd8c6110e63dc49e0fe6215a41c6ea24a7447da0af1e409d624c3ab1",
+  "placement_acceptance_preserved": true,
+  "formal_57_hashes_unchanged": true,
+  "actual_tracks": 1398,
+  "actual_vias": 127,
+  "actual_zones": 3,
+  "zones": [
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "filled": true,
+      "clearance_mm": 0.25
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "layer": "In2.Cu",
+      "filled": true,
+      "clearance_mm": 0.5
+    },
+    {
+      "net": "3V3_MCU",
+      "layer": "In2.Cu",
+      "filled": true,
+      "clearance_mm": 0.5
+    }
+  ],
+  "actual_track_layers": {
+    "F.Cu": 471,
+    "B.Cu": 903,
+    "In2.Cu": 24
+  },
+  "via_geometry": [
+    {
+      "net": "GND",
+      "position": [
+        80.75,
+        113.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        89.797681,
+        89.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        110.9,
+        84.483
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        94.25,
+        118.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        99.3,
+        115.29
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.3125,
+        120.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.4,
+        111.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.75,
+        110.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        120.25,
+        109.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        111.875,
+        102.125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        103.4,
+        79.883
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        119.0,
+        109.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        93.781963,
+        100.099111
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        89.337,
+        93.718762
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.3125,
+        120.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.0,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        99.65,
+        103.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        105.862,
+        78.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.313,
+        92.068457
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.475,
+        85.358
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.45,
+        103.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        90.003199,
+        98.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        108.75,
+        101.6675
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        87.7,
+        101.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.875,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        101.625,
+        119.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        113.75,
+        91.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        106.45,
+        101.86
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        102.125,
+        110.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.348014,
+        101.117
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        84.5,
+        106.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        101.725,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        88.967,
+        97.50849
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        119.7125,
+        91.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        119.0,
+        95.05
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        114.3,
+        94.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        107.762,
+        85.324228
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.875,
+        106.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        87.7,
+        100.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        84.35,
+        108.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        113.989621,
+        120.146521
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        113.5,
+        94.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "GND",
+      "position": [
+        95.920215,
+        83.312
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        87.375,
+        95.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        109.039536,
+        106.121093
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        110.8,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        102.3,
+        81.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        104.2,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        104.6,
+        112.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        90.8,
+        81.175
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        97.6,
+        111.95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        107.85,
+        84.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        103.62,
+        107.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        105.75,
+        88.45
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        111.6,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        114.15586,
+        105.497525
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        87.025,
+        89.55
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        116.033,
+        100.052734
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        108.75,
+        81.925
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        88.775,
+        92.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        117.522212,
+        118.312
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        112.4,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        106.89,
+        101.18
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        110.0,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        82.45,
+        88.85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MCU_VDDA",
+      "position": [
+        91.225,
+        98.775
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MCU_VDDA",
+      "position": [
+        87.15,
+        96.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        104.7,
+        117.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        95.95,
+        115.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        96.9,
+        120.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "3V3_SD",
+      "position": [
+        100.3,
+        119.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        119.0,
+        94.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        119.0,
+        93.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        115.1125,
+        94.775
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        119.8,
+        94.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        119.8,
+        93.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE",
+      "position": [
+        117.4,
+        90.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        83.125,
+        100.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        99.5,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        82.25,
+        100.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        92.5,
+        114.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        101.78,
+        108.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        98.625,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        81.0,
+        113.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VCAP2",
+      "position": [
+        110.487,
+        86.743231
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        102.325,
+        113.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        105.875,
+        112.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        98.5,
+        116.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        81.35,
+        108.45
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        101.0,
+        112.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        88.65,
+        108.925
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        107.5,
+        120.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        89.8,
+        112.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_MAIN",
+      "position": [
+        105.0,
+        113.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_FAULT",
+      "position": [
+        115.75,
+        98.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_FAULT",
+      "position": [
+        103.0,
+        109.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_FAULT",
+      "position": [
+        86.45,
+        111.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        96.75,
+        106.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        103.375,
+        105.125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_EN",
+      "position": [
+        111.75,
+        104.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_XOUT",
+      "position": [
+        89.2,
+        94.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_IN",
+      "position": [
+        93.25,
+        85.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "HSE_OUT",
+      "position": [
+        96.55,
+        89.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_FUSED",
+      "position": [
+        88.0,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_FUSED",
+      "position": [
+        87.125,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_COMP",
+      "position": [
+        89.3,
+        103.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_COMP",
+      "position": [
+        93.75,
+        106.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_RAW",
+      "position": [
+        82.375,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "VBAT_RAW",
+      "position": [
+        81.5,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MAIN_RT",
+      "position": [
+        95.5,
+        106.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_ILIM",
+      "position": [
+        86.45,
+        110.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_ILIM",
+      "position": [
+        86.825,
+        102.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "position": [
+        86.45,
+        109.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "position": [
+        81.5,
+        97.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "position": [
+        88.35,
+        103.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "position": [
+        90.015,
+        117.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "position": [
+        88.35,
+        107.275
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        102.25,
+        115.95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        114.0,
+        106.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        110.05,
+        114.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        109.3,
+        112.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        113.25,
+        109.55
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "position": [
+        99.45,
+        114.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MCU_BOOT",
+      "position": [
+        119.5,
+        89.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "MCU_BOOT",
+      "position": [
+        113.0,
+        88.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "CORE_SLEW",
+      "position": [
+        121.7,
+        87.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    },
+    {
+      "net": "CORE_SLEW",
+      "position": [
+        116.1,
+        94.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "type": 4
+    }
+  ],
+  "all_vias_front_back_tented": true,
+  "min_via_annulus_to_nylon_contact_mm": 0.012978,
+  "planned_main_segments_found": true,
+  "main_connectivity": [
+    {
+      "net": "MAIN_SW",
+      "pins": [
+        "U101.8",
+        "D103.K",
+        "L101.1",
+        "C107.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_BOOT",
+      "pins": [
+        "U101.1",
+        "C107.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "pins": [
+        "U101.2",
+        "C101.1",
+        "C102.1",
+        "C106.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "5V_MAIN",
+      "pins": [
+        "L101.2",
+        "C108.1",
+        "R105.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_COMP",
+      "pins": [
+        "U101.6",
+        "C110.1",
+        "R107.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_COMP_RC",
+      "pins": [
+        "R107.2",
+        "C109.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_RT",
+      "pins": [
+        "U101.4",
+        "R104.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_FB",
+      "pins": [
+        "U101.5",
+        "R106.1",
+        "R105.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MAIN_EN",
+      "pins": [
+        "U101.3",
+        "R102.2",
+        "R103.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U101.7",
+        "U101.9",
+        "D103.A",
+        "C101.2",
+        "C102.2",
+        "C106.2",
+        "C108.2",
+        "C109.2",
+        "C110.2",
+        "R104.2",
+        "R106.2",
+        "R103.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VBAT_RAW",
+      "pins": [
+        "J808.1",
+        "F101.1",
+        "TP101.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VBAT_FUSED",
+      "pins": [
+        "F101.2",
+        "Q101.5",
+        "Q101.6",
+        "Q101.7",
+        "Q101.8",
+        "TP102.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "pins": [
+        "Q101.1",
+        "Q101.2",
+        "Q101.3",
+        "D101.1",
+        "D102.1",
+        "C101.1",
+        "C102.1",
+        "C103.1",
+        "C104.1",
+        "C105.1",
+        "C106.1",
+        "U101.2",
+        "R102.1",
+        "R801.1",
+        "TP103.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "RP_GATE",
+      "pins": [
+        "Q101.4",
+        "D101.2",
+        "R101.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "J808.2",
+        "R101.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "D102.2",
+        "U101.9"
+      ],
+      "connected": true
+    },
+    {
+      "net": "5V_MAIN",
+      "pins": [
+        "C118.1",
+        "C117.1",
+        "L101.2",
+        "U104.1",
+        "U104.3",
+        "R111.1",
+        "C108.1",
+        "R105.1",
+        "C125.1",
+        "U105.3",
+        "U105.5",
+        "TP104.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "CORE_PWR_PRIORITY",
+      "pins": [
+        "U105.4",
+        "R111.2",
+        "R112.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U104.2",
+        "C117.2",
+        "C118.2",
+        "U105.1",
+        "C125.2",
+        "R112.2",
+        "U101.9"
+      ],
+      "connected": true
+    },
+    {
+      "net": "EXT_SWITCH_OUT",
+      "pins": [
+        "U104.6",
+        "F102.1",
+        "C119.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "EXT_ILIM",
+      "pins": [
+        "U104.5",
+        "R109.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "EXT_FAULT",
+      "pins": [
+        "U104.4",
+        "TP110.1",
+        "R110.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "C119.2",
+        "R109.2",
+        "C110.2",
+        "U101.9"
+      ],
+      "connected": true
+    },
+    {
+      "net": "5V_CORE_MUX",
+      "pins": [
+        "U105.2",
+        "U105.7",
+        "C121.1",
+        "U107.1",
+        "U107.3",
+        "C126.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "5V_CORE",
+      "pins": [
+        "U107.5",
+        "U107.6",
+        "C122.1",
+        "C111.1",
+        "U102.2",
+        "U102.3",
+        "R108.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MCU_SW",
+      "pins": [
+        "U102.5",
+        "L102.1",
+        "C112.2"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MCU_BOOT",
+      "pins": [
+        "U102.6",
+        "C112.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "CORE_SLEW",
+      "pins": [
+        "U107.4",
+        "C128.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "U102.1",
+        "L102.2",
+        "C113.1",
+        "C114.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U105.1",
+        "C121.2",
+        "U107.2",
+        "C126.2",
+        "C128.2",
+        "C122.2",
+        "U102.4",
+        "C111.2",
+        "C113.2",
+        "C114.2",
+        "U101.9"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VCAP1",
+      "pins": [
+        "U201.48",
+        "C201.1",
+        "TP205.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "VCAP2",
+      "pins": [
+        "U201.73",
+        "C202.1",
+        "TP206.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MCU_VBAT_3V3",
+      "pins": [
+        "R202.2",
+        "C211.1",
+        "U201.6"
+      ],
+      "connected": true
+    },
+    {
+      "net": "MCU_VDDA",
+      "pins": [
+        "R201.2",
+        "C209.1",
+        "C210.1",
+        "U201.20",
+        "U201.21",
+        "TP204.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "U201.11",
+        "C203.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "U201.27",
+        "C204.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "U201.75",
+        "C206.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "U201.100",
+        "C207.1"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C209.2",
+        "C210.2",
+        "C211.2",
+        "U201.19",
+        "U201.26",
+        "U201.74",
+        "U201.99",
+        "C130.2",
+        "C135.2",
+        "C402.2",
+        "C601.2",
+        "C805.2",
+        "R103.2",
+        "TP309.1",
+        "U201.10",
+        "U201.49"
+      ],
+      "connected": true
+    },
+    {
+      "net": "3V3_MCU",
+      "pins": [
+        "C113.1",
+        "U201.11",
+        "U201.27",
+        "U201.50",
+        "U201.75",
+        "U201.100"
+      ],
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "U201.10",
+        "U201.19",
+        "U201.26",
+        "U201.49",
+        "U201.74",
+        "U201.99"
+      ],
+      "connected": true
+    }
+  ],
+  "ground_filled_polygon_areas_mm2": [
+    1699.368511,
+    0.732328
+  ],
+  "input_plane_geometry": {
+    "status": "AGGREGATE_COPPER_GEOMETRY_CLEAR_NOT_THERMAL_OR_POWER_SAFETY_PASS",
+    "connected_polygon_count": 1,
+    "area_mm2": 346.216175,
+    "minimum_aggregate_section_mm": 9.478316,
+    "minimum_at_x_mm": 90.03,
+    "required_aggregate_section_mm": 8.3,
+    "minimum_largest_contiguous_section_mm": 3.091316,
+    "section_step_mm": 0.01,
+    "section_x_range_mm": [
+      82.25,
+      99.5
+    ],
+    "via_contacts": [
+      {
+        "via": [
+          82.25,
+          100.625
+        ],
+        "area_mm2": 0.282715
+      },
+      {
+        "via": [
+          83.125,
+          100.625
+        ],
+        "area_mm2": 0.282715
+      },
+      {
+        "via": [
+          98.625,
+          101.5
+        ],
+        "area_mm2": 0.282715
+      },
+      {
+        "via": [
+          99.5,
+          101.5
+        ],
+        "area_mm2": 0.282715
+      }
+    ],
+    "scope": "Aggregate parallel copper in the SAME connected polygon on the main input-current corridor; individual branches need not be8.3mm. Low-current taps, via current capacity, heat and current sharing require the final power review."
+  },
+  "feedback_branch": {
+    "status": "SEPARATE_NATIVE_SENSE_BRANCH_FROM_C108_POSITIVE_LAND",
+    "source": "C108.1",
+    "destination": "R105.1",
+    "shared_load_copper_outside_source_land": false,
+    "track_segments": 95,
+    "through_vias": 2,
+    "length_mm": 59.801403,
+    "scope": "Geometric branch isolation only; feedback stability and noise/loop review remain."
+  },
+  "remaining": "Sensor filtered input/output distribution, local grounds and enable; SD slew/discharge/default/control and three rail taps; USB-limited input and post-fuse external headers; IMU/SDMMC/CAN/ADC/other interfaces, all remaining connections; full power/current/thermal/fault/loop, SI/DFM/mechanical and manufacturing review. No final PASS.",
+  "project_settings_semantically_unchanged": false,
+  "AP3V3_local_review": {
+    "status": "LOCAL_REGULATOR_CONNECTIVITY_AND_GEOMETRY_CHECKED_NOT_POWER_SAFETY_PASS",
+    "feedback_source": "L102.2",
+    "feedback_destination": "U102.1",
+    "feedback_layer": "B.Cu",
+    "feedback_width_mm": 0.2,
+    "feedback_length_mm": 19.457718,
+    "shared_load_copper_outside_inductor_output_land": false,
+    "main_SW_to_inductor_length_mm": 2.312695,
+    "scope": "Fixed-output FB connects to the regulated inductor-output land. This is not a claim of C114-only Kelvin sensing, final stability/EMI/thermal approval or measured output performance."
+  },
+  "MCU3V3_distribution_review": {
+    "net": "3V3_MCU",
+    "pins": [
+      "C113.1"
+    ],
+    "connected": true,
+    "connected_to_root": [
+      "C113.1",
+      "C114.1",
+      "C130.1",
+      "C132.1",
+      "C133.1",
+      "C135.1",
+      "C203.1",
+      "C204.1",
+      "C205.1",
+      "C206.1",
+      "C207.1",
+      "C208.1",
+      "C402.1",
+      "C601.1",
+      "C805.1",
+      "J807.1",
+      "L102.2",
+      "R110.1",
+      "R114.1",
+      "R118.1",
+      "R201.1",
+      "R202.1",
+      "R203.1",
+      "R207.1",
+      "R509.1",
+      "R510.1",
+      "R603.1",
+      "R811.1",
+      "TP105.1",
+      "TP203.1",
+      "U102.1",
+      "U108.1",
+      "U109.8",
+      "U109.9",
+      "U110.5",
+      "U111.5",
+      "U114.5",
+      "U201.100",
+      "U201.11",
+      "U201.27",
+      "U201.50",
+      "U201.75",
+      "U402.5",
+      "U601.3",
+      "U801.1",
+      "U801.14",
+      "U801.4"
+    ],
+    "not_connected_to_root": [],
+    "root": "C113.1",
+    "scope": "Native DC connectivity only; current unpowered islands are explicitly listed. No MCU boot, decoupling-loop quality, current/thermal or final power-safety PASS.",
+    "historical_local_route_attempts": [
+      {
+        "pin": "C132.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "C135.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "J807.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "R201.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "U108.1",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      },
+      {
+        "pin": "U111.5",
+        "reason": "Not connected to C113.1 in current saved native graph"
+      }
+    ],
+    "pending_local_route_attempts": [],
+    "MCU_all_five_VDD": {
+      "net": "3V3_MCU",
+      "pins": [
+        "C113.1",
+        "U201.11",
+        "U201.27",
+        "U201.50",
+        "U201.75",
+        "U201.100"
+      ],
+      "connected": true
+    },
+    "MCU_all_six_GND": {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "U201.10",
+        "U201.19",
+        "U201.26",
+        "U201.49",
+        "U201.74",
+        "U201.99"
+      ],
+      "connected": true
+    },
+    "VDDA_input_feed": {
+      "net": "3V3_MCU",
+      "pins": [
+        "C113.1",
+        "R201.1"
+      ],
+      "connected": true
+    },
+    "backup_domain_input_feed": {
+      "net": "3V3_MCU",
+      "pins": [
+        "C113.1",
+        "R202.1"
+      ],
+      "connected": true
+    }
+  },
+  "HSE_USB_signal_review": {
+    "scope": "ALL_NAMED_PINS_CONNECTED_IN_SAVED_COPPER;NOT_OSCILLATOR_STARTUP_USB_IMPEDANCE_SI_OR_COMPLIANCE_PASS",
+    "nets": [
+      {
+        "net": "HSE_IN",
+        "pins": [
+          "C213.1",
+          "U201.12",
+          "Y201.1"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "C213.1",
+          "U201.12",
+          "Y201.1"
+        ],
+        "not_connected_to_root": [],
+        "root": "C213.1",
+        "trace_length_mm": 15.167254,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
+      },
+      {
+        "net": "HSE_OUT",
+        "pins": [
+          "R205.1",
+          "U201.13"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "R205.1",
+          "U201.13"
+        ],
+        "not_connected_to_root": [],
+        "root": "R205.1",
+        "trace_length_mm": 5.643193,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
+      },
+      {
+        "net": "HSE_XOUT",
+        "pins": [
+          "C214.1",
+          "R205.2",
+          "Y201.2"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "C214.1",
+          "R205.2",
+          "Y201.2"
+        ],
+        "not_connected_to_root": [],
+        "root": "C214.1",
+        "trace_length_mm": 9.940645,
+        "track_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_count": 1
+      },
+      {
+        "net": "USB_DP",
+        "pins": [
+          "J401.A6",
+          "J401.B6",
+          "TP403.1",
+          "U201.71",
+          "U401.1"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "J401.A6",
+          "J401.B6",
+          "TP403.1",
+          "U201.71",
+          "U401.1"
+        ],
+        "not_connected_to_root": [],
+        "root": "J401.A6",
+        "trace_length_mm": 38.794468,
+        "track_layers": [
+          "F.Cu"
+        ],
+        "via_count": 0
+      },
+      {
+        "net": "USB_DM",
+        "pins": [
+          "J401.A7",
+          "J401.B7",
+          "TP404.1",
+          "U201.70",
+          "U401.2"
+        ],
+        "connected": true,
+        "connected_to_root": [
+          "J401.A7",
+          "J401.B7",
+          "TP404.1",
+          "U201.70",
+          "U401.2"
+        ],
+        "not_connected_to_root": [],
+        "root": "J401.A7",
+        "trace_length_mm": 50.165837,
+        "track_layers": [
+          "F.Cu"
+        ],
+        "via_count": 0
+      }
+    ],
+    "crystal_capacitor_ground": {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "C213.2",
+        "C214.2"
+      ],
+      "connected": true
+    },
+    "USB_launch_notes": [
+      {
+        "usb_route": "MCU coupled USB_DP",
+        "foreign_net": "3V3_MCU",
+        "bounds": [
+          106.79011721802911,
+          99.8751172180291,
+          107.0498827819709,
+          101.2798827819709
+        ],
+        "clearance_mm": 0.3464172180291172,
+        "scope": "MCU_VDD50_LOCAL_LAUNCH;REQUIRES_FINAL_USB_REVIEW;NOT_UNIFORM_90OHM_OR_COMPLIANCE_PASS"
+      },
+      {
+        "usb_route": "MCU coupled USB_DP",
+        "foreign_net": "3V3_MCU",
+        "bounds": [
+          106.59,
+          100.88000000000001,
+          107.19,
+          101.48
+        ],
+        "clearance_mm": 0.206300000000013,
+        "scope": "MCU_VDD50_LOCAL_LAUNCH;REQUIRES_FINAL_USB_REVIEW;NOT_UNIFORM_90OHM_OR_COMPLIANCE_PASS"
+      }
+    ]
+  },
+  "peripheral_supply_progress": {
+    "scope": "PARTIAL_DC_CONNECTIVITY_ONLY;REMAINING_PINS_EXPLICIT",
+    "SD_gated_rail": {
+      "net": "3V3_SD",
+      "pins": [
+        "R501.2"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "C131.1",
+        "C501.1",
+        "C502.1",
+        "J501.4",
+        "R501.2",
+        "R503.1",
+        "R504.1",
+        "R505.1",
+        "TP501.1",
+        "U109.20"
+      ],
+      "not_connected_to_root": [
+        "R502.1",
+        "R506.1",
+        "R507.1"
+      ],
+      "root": "R501.2"
+    },
+    "SD_switch_source": {
+      "net": "3V3_SD_SWITCHED_SRC",
+      "pins": [
+        "U108.6",
+        "R501.1"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "R501.1",
+        "U108.6"
+      ],
+      "not_connected_to_root": [
+        "R511.1"
+      ],
+      "root": "U108.6"
+    },
+    "SD_switch_ground": {
+      "net": "GND",
+      "pins": [
+        "U101.9",
+        "U108.2"
+      ],
+      "connected": true
+    },
+    "sensor_output_capacitor": {
+      "net": "3V3_SENSOR",
+      "pins": [
+        "U103.5",
+        "C116.1"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "C116.1",
+        "U103.5"
+      ],
+      "not_connected_to_root": [
+        "C301.1",
+        "C302.1",
+        "C303.1",
+        "C304.1",
+        "R301.1",
+        "R302.1",
+        "R303.1",
+        "R304.1",
+        "TP107.1",
+        "TP301.1",
+        "U301.11",
+        "U301.3",
+        "U302.2",
+        "U302.6",
+        "U302.8"
+      ],
+      "root": "U103.5"
+    },
+    "sensor_input": {
+      "net": "SENSOR_LDO_IN",
+      "pins": [
+        "R108.2"
+      ],
+      "connected": true,
+      "connected_to_root": [
+        "R108.2"
+      ],
+      "not_connected_to_root": [
+        "C115.1",
+        "TP106.1",
+        "U103.1"
+      ],
+      "root": "R108.2"
+    },
+    "SD_CT": {
+      "net": "SD_SLEW",
+      "pins": [
+        "U108.4",
+        "C134.1"
+      ],
+      "connected": false
+    }
+  },
+  "MCU3V3_plane_geometry": {
+    "status": "MAIN_AGGREGATE_PLANE_GEOMETRY_CHECKED_NOT_POWER_SAFETY_PASS",
+    "connected_polygon_count": 1,
+    "largest_area_mm2": 1066.427341,
+    "vertical_aggregate_minimum_mm": 13.549072,
+    "vertical_x_range_mm": [
+      94,
+      112.4
+    ],
+    "vertical_y_range_mm": [
+      78,
+      99.5
+    ],
+    "horizontal_aggregate_minimum_mm": 12.129128,
+    "horizontal_x_range_mm": [
+      103.25,
+      122
+    ],
+    "horizontal_y_range_mm": [
+      94.5,
+      110.5
+    ],
+    "required_main_aggregate_mm": 6.75,
+    "source_contacts": [
+      {
+        "via": [
+          110,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          110.8,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          111.6,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          112.4,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      }
+    ],
+    "scope": "Same connected filled polygon; main trunk parallel sections only, not every low-current branch or source-via current/thermal proof. Existing 0.5oz layer and numeric rules retained."
+  },
+  "project_settings_other_than_core_assignments_unchanged": true,
+  "numeric_design_rules_unchanged": true,
+  "new_core_power_netclass_assignments": {
+    "5V_CORE": [
+      "5V_POWER"
+    ],
+    "5V_CORE_MUX": [
+      "5V_POWER"
+    ]
+  },
+  "custom_rules_byte_identical": true,
+  "covered_surface_tracks_under_nylon_contact": [
+    {
+      "uuid": "03ba1288-19cc-4130-8032-3b8cc792f620",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "1f6eeb75-b072-4df4-8715-2697d97317c0",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5d3204cd-3f8e-4208-9297-97620cc17a7b",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "d1a1408c-a9c5-4496-a760-c76a5f6d5949",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "37aa1f51-83f7-4515-b5ce-ef6f4dfa3c32",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "3b198662-4cb9-49fb-a460-204bfe5faeb0",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "4facfc03-8940-4bcb-98b5-92626367e98a",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "60264658-e1e1-4883-b717-9b02056bb1d3",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "88d5f057-e227-4ced-8cc6-aa4da37ce2c1",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9648a2cb-0dfc-4588-b3c9-04427910926d",
+      "net": "3V3_MCU",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "1bbe75e5-14ae-4b5f-8435-66c69e9ee0f9",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "28e926bf-4c66-4fbb-af30-3ba9fe386dec",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "2f6b29d8-f46d-4013-89dd-e688362ecaa8",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "437993b9-bb19-47bb-bc8a-34caf21d91ee",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5550b05f-bf7f-4ac8-86fa-2952a787597d",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "68ddc463-ed6b-469b-8047-ea0ff2425ecf",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "7b58fec5-bbbd-448b-a237-f9e8bbfcd94f",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "d8baa3cd-2196-41b6-818a-1ffe674a6b6f",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "f6aa9acb-1b39-4b9e-ba60-5c75b9e7917d",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "0b7ccc29-b946-4643-803c-cbbf196fe020",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "26ce4bd1-a897-4ee9-96ed-575c3575fd42",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "2990e4ff-738b-4474-b125-f427c8bd0861",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "42a93957-f191-4ed9-b2e3-817190a57585",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5f51c137-b128-46d0-830e-1812ad07da9a",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "6bc4580c-c4af-466f-b41c-9b6bddf06ce1",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "70f55e8a-f7fa-43ba-a4e4-b2999190d121",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "86ad946b-b656-42d9-b8e0-8fdd27c4e6fb",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9a3f6f0b-480f-41ae-b897-19e04605dc12",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "cc38ac41-716d-482a-b534-27cb87ea8a7c",
+      "net": "5V_MAIN",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "009f011f-6046-480b-bfe2-196dec32c3c0",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "0cbc549d-aef4-4c9e-9e37-ea495ea99a00",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "11c66b1f-66ac-4e9c-a7d3-d21c2ff9f197",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "141fcbfc-68ea-4cae-8c29-7fd774711ea8",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "152cf9ff-3b17-43aa-9831-d6fbba9af6eb",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "1ff34b1c-d80c-4b8b-bcef-d91d12ff2d6b",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "24bf1587-455a-46f6-8bd1-44a3758fd102",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "29076941-17ac-4a49-ae15-fdd89c23876b",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "2b0388a5-392b-4272-bbc8-3f5a91609718",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "2c5fbbc0-75c9-496a-9d8e-b53d8bdc748d",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "35af5cb6-3f7e-42b1-b737-8da8e5eaa826",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "3906d157-79a3-4cd9-8858-a3af3c924ff9",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "3a4b02d1-7221-41d7-9ec4-0754ee8ef226",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "3d8c713b-4359-4ec0-b3ce-bc9f9b3b61f6",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "42208148-3812-4689-bc72-361e5aa8f7cd",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "4394a2ce-cb5a-4e1a-888b-16efa6e29a53",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "44bce305-0f00-49cd-8668-36e9b21abdad",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "47666bbb-67c2-4776-9798-d65655c4465f",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "4e17a1b2-e39c-4cc7-a3cc-c223e62cb49d",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "4ee4c34e-3b3e-42e9-a9e8-5bd13d696037",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "58d3a592-ed09-4718-854f-2636e7163a21",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5e3c8b94-a2fd-43e1-acab-47829b61e0c8",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5f974fdb-b309-497c-80d8-ee9b196aa42b",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "75d8e6b4-b3a7-48d6-b48f-647ab33b9440",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "77c0f484-c54c-4031-b003-8a98ce4db2d9",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "7ba70bd2-489e-44a1-a159-150ecd8a89ad",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "7bac3615-215a-48f1-9deb-4281928d5ff5",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "8359dfc0-4207-4978-be6b-ebe222683626",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "8a82214e-f212-4df6-b4f7-10a98d55e5b3",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "8e6abd1a-f641-4349-8fec-57b57183d31b",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "929e375c-3b76-494c-a5ae-b09707243b10",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9a30b507-6250-4f35-889e-ce8a8b45a685",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9a4a7ad1-a9c5-44eb-ace6-14245ab3c2ea",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9b90a313-2ff4-470c-af33-87d8b128f6f6",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9d5adff0-6d16-4b4b-b4ff-54906942e0d0",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9ea431c5-8eaa-47d4-a351-44f3b2dd5279",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a0d8a483-2ab9-48bf-bca2-0fb8edf3710e",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a4b5205a-0fda-4620-a16a-8f154a9f6982",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a6e3ebbf-af46-4fdb-a081-71f4666b2088",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "bb55c28e-1c5a-4c2e-871e-f3538ee07858",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "be3ec630-2964-45e2-b8ba-979ee6208968",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "bef43cb2-033d-4372-b69a-e08ae966b789",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "bf2ea6b5-deb7-4f04-a4a2-16666d9575ea",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "c8fba383-59f5-433d-9bff-003ebf8291ec",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "d4793755-d3d8-4c29-8d6c-f8cbed7966ce",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "db1b2bcf-9638-4c74-82ab-2931fe64c22c",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "e0e1e82a-d4ba-486a-9a01-b76035e91368",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "e3a46c90-47f9-49b7-9b35-c2a2164fb62e",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "e6a45680-8214-4394-8fd1-2280cd4331dc",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "e6d3d13f-45c4-40cc-abe3-3cfde8d4042f",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "eafa1d08-d716-4cf3-a571-839adbdcb970",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "f0fa6b82-cd91-4396-8fc6-b4ba65ba73d3",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "f7f8b192-aa58-4d25-ba2a-8411b7e04231",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "fbbf6063-3b4e-4477-9c8b-f8d0a016cf12",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "fc938fa4-5bd2-44f9-8164-4a6d90acd1d5",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "feb4a8b5-2e83-457c-90d2-6d20fef35722",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "ffd61322-dd81-4d89-ba1e-fda691cfc87b",
+      "net": "5V_MAIN",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "2345dfea-7d36-474a-b51d-7ee100167faf",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "609be6a2-d48a-4310-a401-337f6d8ee4b9",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.1537,
+      "hole": "H4",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "0d65fd4f-682b-4e08-8fd4-9b22373d4d44",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "374602fc-5508-4c63-b2c3-29dc0e318f75",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "40ec863c-0215-473b-b2c9-9a684b6126fb",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "4ba6e25f-7acb-419d-be2e-622bfcb653d8",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "7bd591f3-d0bb-4b5f-b11c-7fa5d6e275b3",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a9721f9f-b745-4787-a251-517cd9522dfa",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "f76ed6b7-a9ed-462d-90ae-d83b90b11971",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "6b64d082-4970-4c23-b7a3-d27880f49229",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9427ad6c-2e52-45dc-a55a-2865f1050735",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.2,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a459f609-f835-4300-92c6-00acc1ff2af9",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "b44a8301-d809-4085-be7a-0d6c51529d22",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.2,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "ddc4b240-73e0-435b-a8d0-b5a26daec01b",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.2,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "de83ce0f-6ac7-42ff-b264-c4f07df73cc5",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "6da7f1eb-e179-47f3-8f86-f593b35de027",
+      "net": "VBAT_RAW",
+      "layer": "F.Cu",
+      "width_mm": 1.0,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "563e2dbb-dee4-4657-afa3-f98b7d78c7cb",
+      "net": "VBAT_RAW",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "6471f43c-bfe7-4abf-aa86-e3a47ed66a0b",
+      "net": "VBAT_RAW",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "17220532-1597-4847-981f-7c6d8bd1f46e",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "62d0ab6b-cd06-49bf-b275-1ffb39c86b32",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9169f70e-dcec-4a5a-877d-da1acb641084",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "aea7bc9f-807c-40b4-87e4-35ef04b0684a",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "e9136d33-e412-4bb0-ba3d-34b3b857f697",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "f9e6f51b-7486-4d52-a290-3a27b0c95375",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "hole": "H3",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "09be3aaf-d960-47b5-8d04-65281317a8f6",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "0d96b2ae-d70c-4a0a-a70b-d939ca4cbd6e",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "1edbb831-cd28-4368-af9a-490daf2f305b",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "34b9c210-7fc8-42cc-9e94-ca4ac9787d4b",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "3afcd586-ab35-4a73-97b4-0f4afe814c97",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "5e295482-a304-4473-826d-b06b3dec6fc8",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "72a5ac96-412e-4720-9b61-2246b80e8f1b",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "7fa2dffd-45d6-4191-93e5-a998c513a005",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "8e40124d-db2e-4113-be95-35b27b7d5da6",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "9b6ff0f7-24a8-4b25-b5f4-599ed7877d54",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a40d2fbd-48f0-4d00-8a45-815f36bcdd80",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "cb64cc55-ba75-4509-b551-5fcb5c4c90b5",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "dfd1b6d5-13c1-485e-8104-ecd41b34649a",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "fc928ae3-84c6-4b1a-af44-340d7fafab2c",
+      "net": "EXT_SWITCH_OUT",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "hole": "H1",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "89f165d2-193c-4296-9954-124242ad594f",
+      "net": "MCU_SW",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    },
+    {
+      "uuid": "a1e393c5-c4a7-436a-a042-e0bdf5ccb887",
+      "net": "MCU_SW",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "hole": "H2",
+      "native_track_mask_opening": false
+    }
+  ],
+  "nylon_contact_scope": "All component bodies, exposed lands/testpoints and via annuli stay clear. Standard covered surface tracks and inner planes may pass below nonconductive nylon contact; final Gerber/mask/assembly review remains required.",
+  "track_mask_api_reference": "https://docs.kicad.org/doxygen/pcb__track_8cpp_source.html",
+  "DRC_types": {
+    "courtyards_overlap": 199,
+    "silk_edge_clearance": 19,
+    "text_height": 2,
+    "silk_over_copper": 199,
+    "silk_overlap": 199
+  },
+  "DRC_unconnected": 282,
+  "schematic_parity": 0
+}

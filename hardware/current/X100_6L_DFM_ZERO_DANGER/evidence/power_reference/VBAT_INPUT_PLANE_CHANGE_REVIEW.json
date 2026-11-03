@@ -1,0 +1,29 @@
+{
+  "source_PCB_sha256": "d20522fe43098a0189f4efa94b1c7fbe709dc9468d5846a9bb14e3eca66ac790",
+  "scope": "Q101 protected-source to U101VIN,B/In2 two-sheet DC screen only,3A engineering case; excludes wholeinput/hotwaveform.",
+  "mesh_comparison": [
+    {
+      "grid_mm": 0.1,
+      "before_R_mohm": 13.111823680887978,
+      "after_R_mohm": 13.340508704077472,
+      "additional_voltage_drop_mV_at3A": 0.6860550695684822,
+      "additional_copper_loss_W_at3A": 0.0020581652087071217,
+      "before_local_peak_cell_face_J_A_per_mm2": 35.948958991462874,
+      "after_local_peak_cell_face_J_A_per_mm2": 63.12145313058249
+    },
+    {
+      "grid_mm": 0.05,
+      "before_R_mohm": 12.88894111386022,
+      "after_R_mohm": 12.994831597138006,
+      "additional_voltage_drop_mV_at3A": 0.3176714498333695,
+      "additional_copper_loss_W_at3A": 0.0009530143495099508,
+      "before_local_peak_cell_face_J_A_per_mm2": 33.64159999162233,
+      "after_local_peak_cell_face_J_A_per_mm2": 107.43695379057381
+    }
+  ],
+  "peak_density_is_not_converged": true,
+  "disposition": "Small modeled total DC penalty does not qualify local current crowding or thermal capacity. No hidden plane disconnection found, but do not mark ampacity/temperature PASS.",
+  "next": "Review local actual loaded path/crowding and3V3planeedge plus rebind fullGND/externalport estimates; no automatic finer-grid/wholethermal restart.",
+  "CAD_written": false,
+  "manufacturing_release": false
+}

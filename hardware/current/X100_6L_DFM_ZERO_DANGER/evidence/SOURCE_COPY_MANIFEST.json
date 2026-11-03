@@ -1,0 +1,251 @@
+{
+  "files": [
+    {
+      "path": "project/01_POWER.kicad_sch",
+      "sha256": "4f3cb718b4b820f9d10654b1af5d78d1d4dd7cc6e452c3a74e70cc14c85958ba"
+    },
+    {
+      "path": "project/02_MCU.kicad_sch",
+      "sha256": "4e45bb202f4c84b53c635d813c6a2d60d61387aaf4a0b34759b8445806b33d2a"
+    },
+    {
+      "path": "project/03_SENSORS.kicad_sch",
+      "sha256": "40303c078b21b600f1ce0f529bd5edca289c755e9edd4fd7f9d4426948030f74"
+    },
+    {
+      "path": "project/04_USB.kicad_sch",
+      "sha256": "1bd4b0d39d391bf417bd7e98348b23deebd04b7476309c60d07710b328d3185c"
+    },
+    {
+      "path": "project/05_SD.kicad_sch",
+      "sha256": "b60046ccf34f2bcd37ee64cd8b9fc47ce448cc575901abff56a6d38d7245bc78"
+    },
+    {
+      "path": "project/06_CAN.kicad_sch",
+      "sha256": "c5bd14029a21275c3b67a222572fb62cc97bfc9b297413d19e8cedcfcd0c0afb"
+    },
+    {
+      "path": "project/07_UART_IO.kicad_sch",
+      "sha256": "b53ecf26ebf173fb4bc294a4fe012092dc930fa3c1650d932301a4528919ff48"
+    },
+    {
+      "path": "project/08_PWM_ADC_DEBUG.kicad_sch",
+      "sha256": "9fd2024df85b9c55ea819ca52d4b54fb8ce31b30807940f6641a47b909626dc9"
+    },
+    {
+      "path": "project/09_USB_CORE_POWER.kicad_sch",
+      "sha256": "c62bb1087b6dc26e4bbe6a8b19c87eb5736ef80bfa5eb01a4b3ebaa0c468a882"
+    },
+    {
+      "path": "project/10_USB_STARTUP_GUARD.kicad_sch",
+      "sha256": "106cec97f214ab4a4dc5f16a14bcfcafa4687e79a9c7a8ca032f3bad1b2ba80b"
+    },
+    {
+      "path": "project/fp-lib-table",
+      "sha256": "683cb476f6bac22f1f5e770cf5a0bf52d59cae8fc0a1cff621fba05fdb7ca5d9"
+    },
+    {
+      "path": "project/sym-lib-table",
+      "sha256": "1508df74594e0113a47c910300e1c9f89ef8c6589a9066689c5e8539b5473b56"
+    },
+    {
+      "path": "project/X100_CleanSheet.kicad_dru",
+      "sha256": "458c617df0f23266767fd2572c2526cb641a3c41f939974257730f0737c3386e"
+    },
+    {
+      "path": "project/X100_CleanSheet.kicad_pcb",
+      "sha256": "09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529"
+    },
+    {
+      "path": "project/X100_CleanSheet.kicad_pro",
+      "sha256": "d916120c0c06e383dc67488a486a9ec7da4075e1868d6c33e8c25c955d3fbdc9"
+    },
+    {
+      "path": "project/X100_CleanSheet.kicad_sch",
+      "sha256": "b3afa7fbb134de55ed4b0cad862a9925817d21fdd8104d57370d3d8eb81972ef"
+    },
+    {
+      "path": "project/X100_LayoutECO.kicad_sym",
+      "sha256": "9edcef035cae61ac572e8784a1cc2af77365d2c162b01d08380403ec0844319a"
+    },
+    {
+      "path": "project/X100_MountingHole.pretty/MountingHole_4mm.kicad_mod",
+      "sha256": "be65b6d4da99a7f06b14a5e6112c4807fc7c21293a05b4fb347146d4e4921840"
+    },
+    {
+      "path": "project/X100_Physical.kicad_sym",
+      "sha256": "309f190859be0617947fe3b7ed493d0c6389d19a76b99c2903e7c27419bf169a"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Bosch_BMI088_LGA16.kicad_mod",
+      "sha256": "41504b547d8337a8fa0140a9fcc4fccfbe90bd98082f67e641c90c1a1bbd471a"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Bourns_SRN6045.kicad_mod",
+      "sha256": "34fb64221b7828b6fde230c08a38fe4bacaa8576a5690132afdd108b920715cb"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Bourns_SRP1038A_LeadFrame_NoVIP.kicad_mod",
+      "sha256": "276104491364e6b8781bba3e62590e154d6a360652ba285788950f34c94f6065"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Bourns_SRP1265A.kicad_mod",
+      "sha256": "f45473cf5c39f7e8bfce8f1e18314d4ab614a1e86db2427bb25dacc9b7a18025"
+    },
+    {
+      "path": "project/X100_Physical.pretty/CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste.kicad_mod",
+      "sha256": "6c6077e60729219093fa2cbea8eed8afd3ab6b96b80bf5bdf34bb7bc336d322e"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Goertek_SPL06_001_LGA8.kicad_mod",
+      "sha256": "13cce9b39aad3574296549bc8de7b041aa6cc8b5d336cec55586149c3c9c9a11"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Littelfuse1812L200_12DR.kicad_mod",
+      "sha256": "09af666ca394992e5e09912e89b0d6cec6343b489611e57f1979fad762c723b4"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Capacitor_SMD_C_0603_1608Metric.kicad_mod",
+      "sha256": "aadf4e0abd10763596907632fab028b64dc38a452377d5fa620d980432e8c1bf"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Capacitor_SMD_C_0805_2012Metric.kicad_mod",
+      "sha256": "eeeff7ab5f22f8631ff958be62e2c7e2c29e157dd2faf47994dc0b861f7b51af"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Capacitor_SMD_C_1210_3225Metric.kicad_mod",
+      "sha256": "4eb4fa98bd7bcc0a43d6b500b6c37f044f3ea1bca24d3f5280baaed7351939ee"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Connector_Card_microSD_HC_Molex_104031-0811.kicad_mod",
+      "sha256": "16dc44f9b3e16f78e57cb0143fe96e938fae52231ab8e01feaf5f21728fc6ca2"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.kicad_mod",
+      "sha256": "50ea5b0034d60dd7c3215fee12888d217c96d6f255f64ca0e32a1cb0042b3c55"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.kicad_mod",
+      "sha256": "14db53fd1cdd0163ac39a0e4e0500a7341a47d8aa5ac784554dace3c422b8b30"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "sha256": "52ed0b41a37cefa1e35ef69590d278a3fe1d209edf988f5bdf7dc06530f47676"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Diode_SMD_D_SMB.kicad_mod",
+      "sha256": "3ac27ca95ed031edcfb1bbc0f163230e47b1eb3231aa32b96d17497671d379d2"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Diode_SMD_D_SOD-123F.kicad_mod",
+      "sha256": "685c2b406bfaadd1af05111d2b6893f91a625e4afd15afb00bea177036c52d26"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Fuse_Fuse_Littelfuse-NANO2-451_453.kicad_mod",
+      "sha256": "692d14bfbfca312c18fd9065e700189cea59f87277bd700b7f23967a89274fcc"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_LED_SMD_LED_0805_2012Metric.kicad_mod",
+      "sha256": "a690163af994efe69147632a760506b2acf91798cbcdcee7aeec89bfe5890474"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_QFP_LQFP-100_14x14mm_P0.5mm.kicad_mod",
+      "sha256": "b8fb978910834165ee4ab8470821f628754a906c135c0a1251cefdf0271833a2"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_SO_SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "sha256": "062024e5fbc4b5542d7181229f6bfdf8b96f1136db0e8bae48cd0385cca7fae7"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "sha256": "72bdeb51155231935f226795c910c1e74f649ac01213d875876445fabb94a850"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_TO_SOT_SMD_SOT-23-5.kicad_mod",
+      "sha256": "236608ea82b665eb497ea31f9a4082af83b9de3bbd618c140815f97bef3e6179"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_TO_SOT_SMD_SOT-23-6.kicad_mod",
+      "sha256": "33ebc8379a9009def29d4871dfa7b360a595fc6893f94a39f38889e011bf0285"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Package_TO_SOT_SMD_TSOT-23-6.kicad_mod",
+      "sha256": "167111c19f9d56a26972486aa601ce35ff05649e0ed3ce81e490d8d9642a3084"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_Resistor_SMD_R_0805_2012Metric.kicad_mod",
+      "sha256": "37eac152b7d45e4e4359796e4f3642e883ed5abe6a8d9420b4d150790a895af7"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Official_USB_C_Amphenol_124019772112A.kicad_mod",
+      "sha256": "96b98899207d64be53ebad02f09b6e9d9641cb01521d6780a475b433f05715ff"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Panasonic_OSCON_B6.kicad_mod",
+      "sha256": "47ea6d7f403d06dba71f818677178b00c63dba44f13a36b105e2a1f12cadbd2f"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Panasonic_OSCON_C6.kicad_mod",
+      "sha256": "fb380ba517445665db668aa7f48a77552e3e3bd80d8058ffa4dec676cff5575e"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Panasonic_OSCON_E12.kicad_mod",
+      "sha256": "fa9fc14260fd92f17a4f3692dc94f10f3622fccb3abe48d9b466e348b83344d1"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Samtec_TSW10207GS_1x2_P2p54.kicad_mod",
+      "sha256": "aaca430b0028f9548baf89c7b139f8e390012a8ceca15f8b310b889d990724be"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Samtec_TSW10507GS_1x5_P2p54.kicad_mod",
+      "sha256": "73238f84ec5d4e5473588c55f910a82a32677d145a16335192ab1008cf031516"
+    },
+    {
+      "path": "project/X100_Physical.pretty/STPS8H100G_D2PAK_A_K_TabK_NoVIP.kicad_mod",
+      "sha256": "53189dec1bca26430cce15704f102558e6bc593f42d4f0ac8ba04ec5c8d7e18e"
+    },
+    {
+      "path": "project/X100_Physical.pretty/Taitien_XJ_2Pad_5p5x2p0_P9p0.kicad_mod",
+      "sha256": "2ae88464b66e53b559e47377dfc0a6490fa3f1b65446ad13618d2d1a03beaeb7"
+    },
+    {
+      "path": "project/X100_Physical.pretty/TCAN3414_D0008A_SOIC8.kicad_mod",
+      "sha256": "8cf968f692b21b8f742d06a8e3880ee48b4bea52a357430b64637f46a28efd6c"
+    },
+    {
+      "path": "project/X100_Physical.pretty/TI_TPD2E2U06_DBZ0003A.kicad_mod",
+      "sha256": "d9f8565fac481552647ec46c8191e005a691bd8eb30b0ee091252aebd4227511"
+    },
+    {
+      "path": "project/X100_Physical.pretty/TP0p6_Inline_NoPaste.kicad_mod",
+      "sha256": "5b8000f8e6e4827f10d08a2d5d5f0541c6a51df970bfa8d36f1c2c36b1b0c651"
+    },
+    {
+      "path": "project/X100_Physical.pretty/TP1p5_NoPaste.kicad_mod",
+      "sha256": "6f73d2aac04baa554c9f2f27bf3e65af93b76329772f8f6a4ec9c4683e17b2b6"
+    },
+    {
+      "path": "project/X100_Physical.pretty/TPS54360B_DDA0008B_NoVIP.kicad_mod",
+      "sha256": "6def4d8c1aee118e36d24ec2831357645f18556b90b5ba9021a0cc71ed0be673"
+    },
+    {
+      "path": "project/X100_Physical.pretty/VBAT_PAD_PAIR_V1.kicad_mod",
+      "sha256": "62858b651214dbd5a81a9feed89eaf9a3a0f3e5baa03684a11beb88e1300574f"
+    },
+    {
+      "path": "project/X100_PowerECO.kicad_sym",
+      "sha256": "411f170206dcf24bd68beba8edd27e75c455bd18987c0a94f1ef8ad595052980"
+    },
+    {
+      "path": "project/X100_R105_Candidate.kicad_sym",
+      "sha256": "926917b743170f8fc8cafc9991bdc5e401b15dcc7e3190bcf6d2ead141c8e479"
+    },
+    {
+      "path": "project/X100_StartupECO.kicad_sym",
+      "sha256": "56d8db70843387c08fa6d95ecb2799257d6ed02c48c94c29b93d6b70412d1ca3"
+    }
+  ],
+  "file_count": 61,
+  "source_PCB_SHA256": "09537241b43be8cdf2aa150a8214c6ce9225da4f3d8592bd108919dc2d73b529",
+  "all_copied_source_bytes_verified": true
+}

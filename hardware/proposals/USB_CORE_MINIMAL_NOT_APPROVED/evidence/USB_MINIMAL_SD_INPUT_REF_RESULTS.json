@@ -1,0 +1,1001 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "2ed7e2a6-288e-41e2-ab2f-8bc9676d6912"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 2ed7e2a6-288e-41e2-ab2f-8bc9676d6912",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "4b87edc3-f8d7-4819-8775-049d7b99d642"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 4b87edc3-f8d7-4819-8775-049d7b99d642",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "4fdb671e-377c-4bed-8e79-b739466d3c60"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 4fdb671e-377c-4bed-8e79-b739466d3c60",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "9acbd74f-f0cb-4510-9373-3c5eed78cbfe"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 9acbd74f-f0cb-4510-9373-3c5eed78cbfe",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "e3fa5361-cc24-4180-8f6c-a0640cf04aee"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: e3fa5361-cc24-4180-8f6c-a0640cf04aee",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "e5cde964-5664-47a7-ad0c-995fca6b0478"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: e5cde964-5664-47a7-ad0c-995fca6b0478",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "ed5c9ef8-124a-4ce2-83a6-3b45101f6e16"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: ed5c9ef8-124a-4ce2-83a6-3b45101f6e16",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "93cd715c-fc97-4c7c-b2a1-52969898e01f"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: 93cd715c-fc97-4c7c-b2a1-52969898e01f",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "delete_trace",
+      "arguments": {
+        "traceUuid": "f90d54b0-834f-42dc-8400-2573f94c8001"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Deleted track: f90d54b0-834f-42dc-8400-2573f94c8001",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "batch_move_components",
+      "arguments": {
+        "moves": {
+          "TP110": {
+            "x": 101.55,
+            "y": 111.4,
+            "rotation": 180,
+            "layer": "F.Cu"
+          },
+          "TP405": {
+            "x": 103,
+            "y": 110.9,
+            "rotation": 0,
+            "layer": "F.Cu"
+          }
+        },
+        "save": false
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Moved 2 component(s)",
+      "moved": [
+        {
+          "reference": "TP110",
+          "position": {
+            "x": 101.55,
+            "y": 111.4,
+            "unit": "mm"
+          },
+          "rotation": 180,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP405",
+          "position": {
+            "x": 103,
+            "y": 110.9,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        }
+      ],
+      "saved": false,
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "3V3_MCU",
+        "position": {
+          "x": 104.6,
+          "y": 112.35,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 104.6,
+          "y": 112.35,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "3V3_MCU",
+        "position": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "B.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 104.6,
+          "y": 112.35,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.55,
+          "y": 112.9125,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.6,
+          "y": 112.35,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.55,
+          "y": 112.9125,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.3,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "EXT_FAULT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 103,
+          "y": 109.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 102.22696156108066,
+          "y": 109.7685723224727,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 103,
+          "y": 109.5,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 102.226961,
+          "y": 109.768572,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "EXT_FAULT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "EXT_FAULT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 102.22696156108066,
+          "y": 109.7685723224727,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.4,
+          "y": 110.25159305246754,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 102.226961,
+          "y": 109.768572,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.4,
+          "y": 110.251593,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "EXT_FAULT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "EXT_FAULT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 101.4,
+          "y": 110.25159305246754,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.4,
+          "y": 111.4,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 101.4,
+          "y": 110.251593,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.4,
+          "y": 111.4,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "EXT_FAULT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "EXT_FAULT",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 101.4,
+          "y": 111.4,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.55,
+          "y": 111.4,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 101.4,
+          "y": 111.4,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 101.55,
+          "y": 111.4,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "EXT_FAULT"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "GND",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 102.125,
+          "y": 110.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103,
+          "y": 110.9,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 102.125,
+          "y": 110.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103,
+          "y": 110.9,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.3,
+        "net": "GND"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.54875,
+          "y": 108.36125,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.54875,
+          "y": 108.36125,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 103.54875,
+          "y": 108.36125,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.07375,
+          "y": 108.76375,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 103.54875,
+          "y": 108.36125,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 103.07375,
+          "y": 108.76375,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 103.07375,
+          "y": 108.76375,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 102,
+          "y": 109.38,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 103.07375,
+          "y": 108.76375,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 102,
+          "y": 109.38,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 102,
+          "y": 109.38,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 102,
+          "y": 109.38,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.3,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "B.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.6125,
+          "y": 111.95,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.6125,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.3,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "B.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 96.6125,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.55,
+          "y": 113.75,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 96.6125,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 96.55,
+          "y": 113.75,
+          "unit": "mm"
+        },
+        "layer": "B.Cu",
+        "width": 0.3,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 91.5,
+          "y": 111.95,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 97.6,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 91.5,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 91.5,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 91.5,
+          "y": 111.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 91.5,
+          "y": 111.95,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 91.5,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 91.5,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.65,
+          "y": 111.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 91.5,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.65,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 89.65,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.65,
+          "y": 108.9,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 89.65,
+          "y": 111.6,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 89.65,
+          "y": 108.9,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 89.65,
+          "y": 108.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.15,
+          "y": 108.075,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 89.65,
+          "y": 108.9,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 90.15,
+          "y": 108.075,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "save_project",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Saved project to: E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "refill_zones",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Zones refilled successfully (3 zones)",
+      "zoneCount": 3,
+      "_backend": "swig",
+      "_realtime": false,
+      "warnings": [
+        "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change."
+      ],
+      "autoSave": {
+        "saved": false,
+        "warning": "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change.",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+        "diskChangedExternally": true,
+        "expectedMtimeNs": 1792801891426305800,
+        "currentMtimeNs": 1792801892347078000,
+        "memChangesUnsaved": true
+      }
+    }
+  }
+]

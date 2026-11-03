@@ -1,0 +1,26 @@
+{
+  "usb_before_config": {
+    "cpu": 100000000,
+    "hclk": 100000000,
+    "timer_psc": 99,
+    "usb": true,
+    "cpre": "DIV2",
+    "hpre": "DIV1"
+  },
+  "usb_configured": {
+    "cpu": 200000000,
+    "hclk": 100000000,
+    "timer_psc": 99,
+    "usb": true,
+    "cpre": "DIV1",
+    "hpre": "DIV2"
+  },
+  "vbat": {
+    "cpu": 400000000,
+    "hclk": 200000000,
+    "timer_psc": 199,
+    "usb": false,
+    "cpre": "DIV1",
+    "hpre": "DIV2"
+  }
+}

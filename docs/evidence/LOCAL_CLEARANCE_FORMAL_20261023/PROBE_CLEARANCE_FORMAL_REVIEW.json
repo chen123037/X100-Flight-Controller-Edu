@@ -1,0 +1,455 @@
+{
+  "stage": "TESTPOINT_CLEARANCE_FORMAL",
+  "executor": "plant_kicad_v1",
+  "scope": "20 testpoint XY positions only",
+  "changed_references": [
+    "TP101",
+    "TP106",
+    "TP110",
+    "TP204",
+    "TP205",
+    "TP206",
+    "TP208",
+    "TP301",
+    "TP304",
+    "TP305",
+    "TP401",
+    "TP404",
+    "TP405",
+    "TP702",
+    "TP709",
+    "TP801",
+    "TP802",
+    "TP803",
+    "TP805",
+    "TP809"
+  ],
+  "moves": {
+    "TP205": {
+      "x": 106.825,
+      "y": 103.1,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP304": {
+      "x": 97.35,
+      "y": 108.363,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP106": {
+      "x": 93.012,
+      "y": 108.55,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP206": {
+      "x": 110.875,
+      "y": 85.425,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP301": {
+      "x": 99.85,
+      "y": 106.513,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP404": {
+      "x": 109.25,
+      "y": 110.71,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP801": {
+      "x": 78.375,
+      "y": 97.837,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP101": {
+      "x": 88.0,
+      "y": 114.08,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP110": {
+      "x": 93.013,
+      "y": 110.45,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP204": {
+      "x": 80.5,
+      "y": 99.625,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP208": {
+      "x": 92.55,
+      "y": 82.75,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP305": {
+      "x": 102.85,
+      "y": 105.238,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP401": {
+      "x": 99.675,
+      "y": 110.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP405": {
+      "x": 104.825,
+      "y": 110.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP702": {
+      "x": 92.25,
+      "y": 81.0,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP709": {
+      "x": 96.125,
+      "y": 81.375,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP802": {
+      "x": 78.75,
+      "y": 99.825,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP803": {
+      "x": 78.375,
+      "y": 103.912,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP805": {
+      "x": 78.375,
+      "y": 101.875,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP809": {
+      "x": 106.575,
+      "y": 79.0,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    }
+  },
+  "source_or_pad_net_changes": 0,
+  "footprint_UUID_path_value_geometry_changes": 0,
+  "non_target_placement_changes": 0,
+  "schematic_rules_stackup_library_changes": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "native_schematic_parity": 0,
+  "courtyard_pairs_before": 230,
+  "courtyard_pairs_after": 201,
+  "new_courtyard_pairs": [],
+  "removed_courtyard_pairs": [
+    [
+      "C119",
+      "TP110"
+    ],
+    [
+      "C201",
+      "TP205"
+    ],
+    [
+      "C202",
+      "TP206"
+    ],
+    [
+      "C301",
+      "TP301"
+    ],
+    [
+      "C401",
+      "TP401"
+    ],
+    [
+      "C401",
+      "TP405"
+    ],
+    [
+      "D103",
+      "TP709"
+    ],
+    [
+      "F101",
+      "TP101"
+    ],
+    [
+      "J702",
+      "TP801"
+    ],
+    [
+      "J807",
+      "TP301"
+    ],
+    [
+      "R109",
+      "TP106"
+    ],
+    [
+      "R110",
+      "TP106"
+    ],
+    [
+      "R204",
+      "TP809"
+    ],
+    [
+      "R301",
+      "TP205"
+    ],
+    [
+      "R302",
+      "TP304"
+    ],
+    [
+      "R602",
+      "TP702"
+    ],
+    [
+      "TP103",
+      "TP802"
+    ],
+    [
+      "TP103",
+      "TP803"
+    ],
+    [
+      "TP103",
+      "TP805"
+    ],
+    [
+      "TP111",
+      "TP204"
+    ],
+    [
+      "TP111",
+      "TP801"
+    ],
+    [
+      "TP205",
+      "U201"
+    ],
+    [
+      "TP206",
+      "U201"
+    ],
+    [
+      "TP208",
+      "Y201"
+    ],
+    [
+      "TP303",
+      "TP304"
+    ],
+    [
+      "TP304",
+      "U103"
+    ],
+    [
+      "TP305",
+      "U301"
+    ],
+    [
+      "TP404",
+      "U401"
+    ],
+    [
+      "TP404",
+      "U404"
+    ]
+  ],
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "probe_access": {
+    "TP401": {
+      "net": "USB_VBUS_RAW",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 0.7000000000000027,
+      "nearest_same_net_pad_edge_mm_after": 0.8250000000000028,
+      "nearest_other_same_side_body_mm": 1.2750000000000057
+    },
+    "TP405": {
+      "net": "GND",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 0.20000000000000284,
+      "nearest_same_net_pad_edge_mm_after": 0.07500000000000284,
+      "nearest_other_same_side_body_mm": 1.1800000000000068
+    },
+    "TP805": {
+      "net": "CURRENT_ADC",
+      "move_mm": 0.39528470752104744,
+      "nearest_same_net_pad_edge_mm_before": 10.638495564009888,
+      "nearest_same_net_pad_edge_mm_after": 10.775049854430282,
+      "nearest_other_same_side_body_mm": 1.0750000000000028
+    },
+    "TP305": {
+      "net": "BMI088_ACC_CS",
+      "move_mm": 0.25,
+      "nearest_same_net_pad_edge_mm_before": 1.0130000000000052,
+      "nearest_same_net_pad_edge_mm_after": 1.0130000000000052,
+      "nearest_other_same_side_body_mm": 1.1920000000000073
+    },
+    "TP206": {
+      "net": "VCAP2",
+      "move_mm": 3.8017265814363874,
+      "nearest_same_net_pad_edge_mm_before": 0.47499999999999426,
+      "nearest_same_net_pad_edge_mm_after": 1.2537236399853122,
+      "nearest_other_same_side_body_mm": 0.9500000000000028
+    },
+    "TP304": {
+      "net": "SPI1_MISO",
+      "move_mm": 2.2534695471649933,
+      "nearest_same_net_pad_edge_mm_before": 4.39645243349681,
+      "nearest_same_net_pad_edge_mm_after": 6.396262111577359,
+      "nearest_other_same_side_body_mm": 1.2379999999999993
+    },
+    "TP204": {
+      "net": "MCU_VDDA",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 6.8308327516592815,
+      "nearest_same_net_pad_edge_mm_after": 6.88036941821739,
+      "nearest_other_same_side_body_mm": 0.8867073925484137
+    },
+    "TP803": {
+      "net": "VBAT_ADC",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 4.245255084814221,
+      "nearest_same_net_pad_edge_mm_after": 4.363779695990736,
+      "nearest_other_same_side_body_mm": 1.1629999999999967
+    },
+    "TP205": {
+      "net": "VCAP1",
+      "move_mm": 3.7458310159429242,
+      "nearest_same_net_pad_edge_mm_before": 0.5250000000000057,
+      "nearest_same_net_pad_edge_mm_after": 1.1663585278369684,
+      "nearest_other_same_side_body_mm": 0.9000000000000057
+    },
+    "TP801": {
+      "net": "VBAT_DIV",
+      "move_mm": 0.45069390943299864,
+      "nearest_same_net_pad_edge_mm_before": 2.5,
+      "nearest_same_net_pad_edge_mm_after": 2.8810751465381816,
+      "nearest_other_same_side_body_mm": 1.0750000000000028
+    },
+    "TP802": {
+      "net": "VBAT_ADC_PRE_PROTECTION",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 4.1000000000000085,
+      "nearest_same_net_pad_edge_mm_after": 4.1000000000000085,
+      "nearest_other_same_side_body_mm": 1.1500000000000057
+    },
+    "TP110": {
+      "net": "EXT_FAULT",
+      "move_mm": 2.0348525745124633,
+      "nearest_same_net_pad_edge_mm_before": 2.5965325950863396,
+      "nearest_same_net_pad_edge_mm_after": 2.960031918939561,
+      "nearest_other_same_side_body_mm": 1.2129999999999939
+    },
+    "TP106": {
+      "net": "SENSOR_LDO_IN",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 1.0,
+      "nearest_same_net_pad_edge_mm_after": 1.0,
+      "nearest_other_same_side_body_mm": 0.7999999999999972
+    },
+    "TP404": {
+      "net": "USB_DM",
+      "move_mm": 1.625,
+      "nearest_same_net_pad_edge_mm_before": 1.3399999999999892,
+      "nearest_same_net_pad_edge_mm_after": 2.964999999999989,
+      "nearest_other_same_side_body_mm": 1.1400000000000006
+    },
+    "TP301": {
+      "net": "3V3_SENSOR",
+      "move_mm": 0.3535533905932738,
+      "nearest_same_net_pad_edge_mm_before": 0.5472147658826425,
+      "nearest_same_net_pad_edge_mm_after": 0.7879999999999966,
+      "nearest_other_same_side_body_mm": 0.8629999999999997
+    },
+    "TP809": {
+      "net": "GND",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 0.7403328683111987,
+      "nearest_same_net_pad_edge_mm_after": 0.6293340000000001,
+      "nearest_other_same_side_body_mm": 1.2750000000000057
+    },
+    "TP709": {
+      "net": "EXT_5V",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 4.350347687254442,
+      "nearest_same_net_pad_edge_mm_after": 4.353722545133081,
+      "nearest_other_same_side_body_mm": 1.775176047607679
+    },
+    "TP208": {
+      "net": "GND",
+      "move_mm": 0.3535533905932738,
+      "nearest_same_net_pad_edge_mm_before": 0.75,
+      "nearest_same_net_pad_edge_mm_after": 1.0,
+      "nearest_other_same_side_body_mm": 1.1500000000000057
+    },
+    "TP702": {
+      "net": "GPS_RX",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 8.019228454159416,
+      "nearest_same_net_pad_edge_mm_after": 7.894532918418924,
+      "nearest_other_same_side_body_mm": 1.1500000000000057
+    },
+    "TP101": {
+      "net": "VBAT_RAW",
+      "move_mm": 0.125,
+      "nearest_same_net_pad_edge_mm_before": 0.719999999999999,
+      "nearest_same_net_pad_edge_mm_after": 0.8449999999999991,
+      "nearest_other_same_side_body_mm": 1.230000000000004
+    }
+  },
+  "DRC_reported": 629,
+  "unconnected": 411,
+  "DRC_types": {
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 14,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 15,
+    "text_height": 2,
+    "silk_over_copper": 197,
+    "silk_overlap": 199
+  },
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "placement_scope_review": "PASS",
+  "DRC_FINAL": "NOT_PASS",
+  "FABRICATION_READY": false
+}

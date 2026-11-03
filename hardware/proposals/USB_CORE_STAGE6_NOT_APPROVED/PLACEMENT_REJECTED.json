@@ -1,0 +1,13 @@
+{
+  "scope": "REJECTED_PARTIAL_SEARCH_NOT_A_BOARD_IMPOSSIBILITY_PROOF",
+  "source_sha256": "22aa026982fe09b13879c86c0adfe51d7e56bafa231713af3ea9052b8174bd2f",
+  "macro_part_count": 47,
+  "macro_status": "FEASIBLE",
+  "fixed_reference_count": 69,
+  "small_remaining_count": 129,
+  "small_status": "INFEASIBLE",
+  "small_option_cap_per_item": 600,
+  "sample_grid_mm": 0.25,
+  "applied_to_CAD": false,
+  "conclusion": "No acceptable all-part placement found in this bounded model. Keep existing CAD and continue engineering reflow; neither FEASIBLE partial solve nor INFEASIBLE tail is full-board proof."
+}

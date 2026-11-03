@@ -1,0 +1,294 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "batch_move_components",
+      "arguments": {
+        "moves": {
+          "R102": {
+            "x": 102.41,
+            "y": 106.9,
+            "rotation": 90,
+            "layer": "F.Cu"
+          }
+        },
+        "save": false
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Moved 1 component(s)",
+      "moved": [
+        {
+          "reference": "R102",
+          "position": {
+            "x": 102.41,
+            "y": 106.9,
+            "unit": "mm"
+          },
+          "rotation": 90,
+          "layer": "F.Cu"
+        }
+      ],
+      "saved": false,
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "add_via",
+      "arguments": {
+        "net": "3V3_MCU",
+        "position": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "viaType": "through"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added via",
+      "via": {
+        "position": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "size": 0.6,
+        "drill": 0.3,
+        "from_layer": "F.Cu",
+        "to_layer": "B.Cu",
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.3,
+        "start": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.45,
+          "y": 107.625,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 103.62,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 104.45,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.3,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 104.45,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.4,
+          "y": 107.625,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 104.45,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.4,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 105.4,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.4,
+          "y": 109.05,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 105.4,
+          "y": 107.625,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 105.4,
+          "y": 109.05,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "route_trace",
+      "arguments": {
+        "net": "3V3_MCU",
+        "layer": "F.Cu",
+        "width": 0.15,
+        "start": {
+          "x": 105.4,
+          "y": 109.05,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.4375,
+          "y": 109.05,
+          "unit": "mm"
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Added trace",
+      "trace": {
+        "start": {
+          "x": 105.4,
+          "y": 109.05,
+          "unit": "mm"
+        },
+        "end": {
+          "x": 106.4375,
+          "y": 109.05,
+          "unit": "mm"
+        },
+        "layer": "F.Cu",
+        "width": 0.15,
+        "net": "3V3_MCU"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "save_project",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Saved project to: E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "refill_zones",
+      "arguments": {}
+    },
+    "result": {
+      "success": true,
+      "message": "Zones refilled successfully (3 zones)",
+      "zoneCount": 3,
+      "_backend": "swig",
+      "_realtime": false,
+      "warnings": [
+        "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change."
+      ],
+      "autoSave": {
+        "saved": false,
+        "warning": "Auto-save refused: the on-disk PCB file's contents changed externally since this MCP session loaded it. To avoid clobbering those changes, the in-memory mutation has NOT been written to disk. Reload via open_project to refresh, then re-apply the change.",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\USB_CORE_MINIMAL_CANDIDATE\\X100_CleanSheet.kicad_pcb",
+        "diskChangedExternally": true,
+        "expectedMtimeNs": 1792800156869423900,
+        "currentMtimeNs": 1792800158322144000,
+        "memChangesUnsaved": true
+      }
+    }
+  }
+]

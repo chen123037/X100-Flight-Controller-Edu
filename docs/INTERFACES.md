@@ -1,3 +1,5 @@
+> **当前入口更新：** [六层V4工程、DFM零危险和下单资料](../hardware/current/X100_6L_DFM_ZERO_DANGER/)。本文保留旧阶段背景；涉及层数、孔位、器件/TP数量及进度时，以当前源工程和[STATUS](../STATUS.md)为准。旧的审批约束不用于撤销已经取得的后续人工授权。
+
 # 外部接口与引脚定义
 ## Interfaces and Pinout
 

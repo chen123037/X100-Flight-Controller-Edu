@@ -1,0 +1,218 @@
+{
+  "scope": "LOCAL_MCU_GND10_GND49_COMPLETION_NOT_POWER_SAFETY_PASS",
+  "source_board_sha256": "ac401c1a4a9ea5169b7c01ba7239d1494c120b97996c5264c0859f99a872ca0c",
+  "moves": {
+    "C203": {
+      "x": 91.625,
+      "y": 90.55,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    }
+  },
+  "delete_trace_uuids": [
+    "38c035f5-8038-4930-a2e3-e0e203bb535a",
+    "ba2151af-40d4-41f2-955c-aa3584da6b70",
+    "078d7a1b-76e7-4640-927e-273ecfa2ce4b",
+    "3d2831d3-44c6-4e6b-847e-d67bd270c0f7",
+    "eecbeddc-e20c-4c18-8f59-b8eea9b6153a"
+  ],
+  "deleted_tracks": [
+    {
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          106.95,
+          99.975
+        ],
+        [
+          106.89,
+          102.1
+        ]
+      ],
+      "uuid": "38c035f5-8038-4930-a2e3-e0e203bb535a"
+    },
+    {
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          105.95,
+          102.35
+        ],
+        [
+          106.65,
+          103.375
+        ]
+      ],
+      "uuid": "078d7a1b-76e7-4640-927e-273ecfa2ce4b"
+    },
+    {
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          105.95,
+          101.1
+        ],
+        [
+          105.95,
+          102.35
+        ]
+      ],
+      "uuid": "3d2831d3-44c6-4e6b-847e-d67bd270c0f7"
+    },
+    {
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          105.95,
+          99.975
+        ],
+        [
+          105.95,
+          101.1
+        ]
+      ],
+      "uuid": "eecbeddc-e20c-4c18-8f59-b8eea9b6153a"
+    }
+  ],
+  "deleted_vias": [
+    {
+      "net": "3V3_MCU",
+      "position": [
+        106.89,
+        102.1
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "label": "VCAP1 local pitch fanout",
+      "net": "VCAP1",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          105.95,
+          99.975
+        ],
+        [
+          105.95,
+          100.9
+        ],
+        [
+          105.85,
+          100.9
+        ],
+        [
+          105.85,
+          102.2
+        ],
+        [
+          106.65,
+          103.375
+        ]
+      ]
+    },
+    {
+      "label": "Ground49 local through-via fanout",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          106.45,
+          99.975
+        ],
+        [
+          106.45,
+          100.7
+        ],
+        [
+          106.2,
+          101.2
+        ],
+        [
+          106.45,
+          101.86
+        ]
+      ]
+    },
+    {
+      "label": "MCU50 shortened plane fanout",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          106.95,
+          99.975
+        ],
+        [
+          106.89,
+          101.18
+        ]
+      ]
+    },
+    {
+      "label": "Ground10 to local bypass ground",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          93.275,
+          90.8
+        ],
+        [
+          92.5,
+          90.85
+        ],
+        [
+          92.075,
+          90.475
+        ],
+        [
+          91.625,
+          89.775
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "GND",
+      "position": [
+        106.45,
+        101.86
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "3V3_MCU",
+      "position": [
+        106.89,
+        101.18
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "numeric_rules_changed": false,
+  "ground_pins_required": [
+    "U201.10",
+    "U201.19",
+    "U201.26",
+    "U201.49",
+    "U201.74",
+    "U201.99"
+  ],
+  "remaining": "VDDA input feed and remaining logic/SD supply islands; HSE/USB/all signals and full power/DFM review."
+}

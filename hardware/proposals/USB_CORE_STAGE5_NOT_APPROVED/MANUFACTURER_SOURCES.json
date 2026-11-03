@@ -1,0 +1,12 @@
+{
+  "TI_SN74AUP1G32_RevK.pdf": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74aup1g32.pdf",
+    "sha256": "2a9f5cfb2e2bb725adc14eaac9c40a6763aafece3eddcf68aa860cd864f42910",
+    "bytes": 2885279
+  },
+  "TI_TPS7A20_RevH.pdf": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+    "bytes": 8987811
+  }
+}

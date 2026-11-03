@@ -1,0 +1,14 @@
+{
+  "board": "project/X100_CleanSheet.kicad_pcb",
+  "checked_segments": 34,
+  "tagged_in_plan": 34,
+  "usb_widths": [
+    0.1537
+  ],
+  "usb_layers": [
+    "F.Cu"
+  ],
+  "usb_vias": 0,
+  "issues": 0,
+  "issue_list": []
+}

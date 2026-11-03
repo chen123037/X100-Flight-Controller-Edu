@@ -1,0 +1,314 @@
+[
+  {
+    "reference": "C121",
+    "value": "82u /16V core hold-up (+ pin1)",
+    "manufacturer": "Panasonic",
+    "MPN": "16SVPF82M",
+    "footprint": "X100_Physical:Panasonic_OSCON_B6",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C122",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C123",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C124",
+    "value": "1u /16V",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C105K4RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C125",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C131",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C132",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C133",
+    "value": "100n",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C134",
+    "value": "10n CT",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C103K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C135",
+    "value": "1u /16V",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C105K4RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R111",
+    "value": "33.2k 0.1%",
+    "manufacturer": "Yageo",
+    "MPN": "RT0805BRD0733K2L",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R112",
+    "value": "10k 0.1%",
+    "manufacturer": "Yageo",
+    "MPN": "RT0805BRD0710KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R113",
+    "value": "60.4k 0.1%",
+    "manufacturer": "Yageo",
+    "MPN": "RT0805BRD0760K4L",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R114",
+    "value": "10k ST pull-up",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-0710KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R507",
+    "value": "69.8k 0.1%",
+    "manufacturer": "Yageo",
+    "MPN": "RT0805BRD0769K8L",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R508",
+    "value": "10k 0.1%",
+    "manufacturer": "Yageo",
+    "MPN": "RT0805BRD0710KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R509",
+    "value": "100k SD PG pull-up",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-07100KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R510",
+    "value": "10k OE pull-up",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-0710KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R511",
+    "value": "10k SD discharge",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-0710KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R512",
+    "value": "100k BAT select pull-down",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-07100KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "U105",
+    "value": "TPS2116DRLR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TPS2116DRLR",
+    "footprint": "Package_TO_SOT_SMD:SOT-583-8",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U106",
+    "value": "TPS2553DBVR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TPS2553DBVR",
+    "footprint": "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-6",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U108",
+    "value": "TPS22918DBVR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TPS22918DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U109",
+    "value": "SN74CB3Q3245PWR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "SN74CB3Q3245PWR",
+    "footprint": "Package_SO:Texas_PW0020A_TSSOP-20_4.4x6.5mm_P0.65mm",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U110",
+    "value": "TLV6700DDCR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TLV6700DDCR",
+    "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U111",
+    "value": "SN74LVC1G00DBVR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "SN74LVC1G00DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "C126",
+    "value": "1u /16V mux output",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C105K4RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C127",
+    "value": "82u /16V core hold-up (+ pin1)",
+    "manufacturer": "Panasonic",
+    "MPN": "16SVPF82M",
+    "footprint": "X100_Physical:Panasonic_OSCON_B6",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C128",
+    "value": "10n /50V core slew CT",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C103K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C129",
+    "value": "100n reset bypass",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C130",
+    "value": "100n logic bypass",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "C136",
+    "value": "100n ILIM mux bypass",
+    "manufacturer": "KEMET",
+    "MPN": "C0805C104K5RACTU",
+    "footprint": "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "Q102",
+    "value": "BSS138LT1G CAN shutdown",
+    "manufacturer": "onsemi",
+    "MPN": "BSS138LT1G",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "R115",
+    "value": "100k USB CFG default low",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-07100KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "R118",
+    "value": "47k CAN SHDN pull-up",
+    "manufacturer": "Yageo",
+    "MPN": "RC0805FR-0747KL",
+    "footprint": "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric",
+    "policy": "VALUE_SPEC_CONTROLLED; preferred MPN; availability not checked"
+  },
+  {
+    "reference": "U107",
+    "value": "TPS22918DBVR core controlled slew",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TPS22918DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U112",
+    "value": "TMUX1219DBVR ILIM selector",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TMUX1219DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U113",
+    "value": "TLV803EA29DBZR 2.93V /200ms",
+    "manufacturer": "Texas Instruments",
+    "MPN": "TLV803EA29DBZR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  },
+  {
+    "reference": "U114",
+    "value": "SN74LVC1G32DBVR",
+    "manufacturer": "Texas Instruments",
+    "MPN": "SN74LVC1G32DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "policy": "EXACT_MPN_CANDIDATE; NOT_APPROVED; NO_ORDER"
+  }
+]

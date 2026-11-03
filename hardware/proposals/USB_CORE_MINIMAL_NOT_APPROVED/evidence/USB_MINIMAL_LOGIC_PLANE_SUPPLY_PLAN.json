@@ -1,0 +1,67 @@
+{
+  "source_board_sha256": "ca749072fb152033f4dcb3a64ee8a45510d8fd8d618d77e384e9b9198dfc51f0",
+  "moves": {
+    "R102": {
+      "x": 102.41,
+      "y": 106.9,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    }
+  },
+  "routes": [
+    {
+      "label": "C132 short plane supply",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          103.62,
+          107.625
+        ],
+        [
+          104.45,
+          107.625
+        ]
+      ]
+    },
+    {
+      "label": "C132 to U111 local bypass feed",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          104.45,
+          107.625
+        ],
+        [
+          105.4,
+          107.625
+        ],
+        [
+          105.4,
+          109.05
+        ],
+        [
+          106.4375,
+          109.05
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "3V3_MCU",
+      "position": [
+        103.62,
+        107.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "scope": "C132_U111_PLANE_SUPPLY_NOT_POWER_SAFETY_PASS",
+  "R102_both_original_endpoints_preserved": true,
+  "numeric_rules_changed": false
+}

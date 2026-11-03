@@ -1,0 +1,23 @@
+"""Reproducible estimates, not measurements or guaranteed system current bounds."""
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parent
+V33=3.33;VIN=4.2;ETA=.80;UPSTREAM_MA=.50;CONTROL_MA=3.50;PHY_RESERVE_MA=25.;SENSOR_MA=25.;LIMIT_MIN_MA=389.8
+rows=[]
+def add(name,mcu,sensor=0,flash=0,limit=LIMIT_MIN_MA,kind='DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES'):
+ load=mcu+sensor+flash+CONTROL_MA+PHY_RESERVE_MA
+ est=load*V33/(VIN*ETA)+UPSTREAM_MA
+ rows.append(dict(phase=name,mcu_mA=mcu,sensor_allowance_mA=sensor,flash_extra_allowance_mA=flash,logic_and_bleed_allowance_mA=CONTROL_MA,USB_PHY_additional_reserve_mA=PHY_RESERVE_MA,estimated_raw_USB_mA=round(est,3),with_30_percent_headroom_mA=round(est*1.3,3),limiter_minimum_available_mA=limit,assumption_screen=est*1.3<=limit,evidence_kind=kind))
+add('preconfiguration_sleep_100MHz_estimate_25C',8.25,limit=50,kind='ENGINEERING_ESTIMATE: half of 200MHz typical sleep; linear scaling NOT GUARANTEED')
+add('preconfiguration_using_200MHz_sleep_max_25C_upper_case',33.6,limit=50,kind='DATASHEET_SLEEP_CASE: excludes full startup and actual USB operation')
+add('preconfiguration_using_200MHz_sleep_max_85C_upper_case',106.4,limit=50,kind='DATASHEET_SLEEP_CASE: temperature sensitivity; not target operating current')
+add('configured_200MHz_all_peripherals_85C',173,SENSOR_MA)
+add('configured_200MHz_all_peripherals_105C',232,SENSOR_MA)
+add('MCU_only_125C_sensitivity_NOT_BOARD_OPERATING_APPROVAL',312,SENSOR_MA)
+add('flashing_quiet_bootloader_200MHz_all_peripherals_off_85C',120,SENSOR_MA,20)
+add('flashing_quiet_bootloader_200MHz_all_peripherals_off_105C',163,SENSOR_MA,20)
+ct_pf=10000;sr_us_per_v=.55*ct_pf+30;nominal_tr_ms=5*sr_us_per_v/1000
+out=dict(scope='DESIGN_ESTIMATES_ONLY; no physical evidence available',user_instruction='Physical current/enumeration/transients deferred to first-board bring-up; no development board purchase',assumptions=dict(V33_max_V=V33,core_input_floor_V=VIN,efficiency_guard=ETA,efficiency_classification='ENGINEERING_ASSUMPTION_NOT_DATASHEET_GUARANTEED_MINIMUM',upstream_allowance_mA=UPSTREAM_MA,USB_PHY_reserve_mA=PHY_RESERVE_MA,USB_PHY_classification='ENGINEERING_ALLOWANCE_NOT_ST_MAXIMUM; may overlap MCU table consumption',sensor_allowance_mA=SENSOR_MA,control_allowance_scope='R811 + ST/PG/reset pullups + two external I2C pullups low + logic; other external outputs analog/no-pull during USB-only startup',temperature='MCU junction temperature, not ambient'),rows=rows,low_current_mode=dict(datasheet_output_limit_mA=[50,75,100],raw_input_less_than_100mA_guaranteed=False,reason='output threshold excludes upstream IQ/leakage and transient response; normal load must stay below protocol current'),configured_mode=dict(RILIM_ohm=60400,resistor_tolerance=.001,assumed_TCR_ppm_per_C=25,max_delta_T_C=100,previous_computed_threshold_mA=[389.8,488.2],TMUX_Ron_max_ohm=6,TMUX_series_resistance_effect_fraction=6/60400),startup=dict(mux_bulk_caps_uF=[82,82],mux_bulk_min_uF=164*.8,mux_bulk_max_uF=164*1.2,ideal_no_load_charge_time_at_5V_50mA_max_ms=164*1.2*5/50,U107_direct_output_uF=10,CT_nominal_pF=ct_pf,CT_formula_typical_only=True,nominal_10_90_rise_ms=nominal_tr_ms,ideal_direct_capacitor_charge_estimate_mA=10*.8*5/nominal_tr_ms,not_included=['MCU Buck input dynamics','downstream converter energy','capacitor bias/tolerance','control-loop interaction','USB inrush compliance waveform','reset/BOR timing under load']),adc_bleed=dict(old_R_ohm=1000,new_R_ohm=10000,old_3V3_mA=3.3,new_3V3_mA=.33,declared_local_U801_reverse_leakage_uA=8,resistance_tolerance_and_temperature_guard=.02,local_power_off_rail_estimate_V=8e-6*10000*1.02,scope='Preserves local bleed path; 81.6mV is calculation for this leakage contribution only, not whole-board measured off-voltage'),suspend=dict(protocol_max_raw_USB_mA=2.5,status='NOT_QUALIFIED; must implement low-power entry/wake and measure',MCU_stop_25C_typical_mA=1.27,MCU_stop_25C_max_mA=6.3,reason='Datasheet stop maximum already exceeds available budget after conversion; lowering frequency or R811 alone does not establish compliance'),fabrication_gate='No claim of measured PASS. Missing empirical data belongs to first-board plan per user; known electrical/geometry defects must still be repaired.',POWER_SAFETY_REVIEW='NOT_COMPLETE')
+(R/'USB_STAGE3_CURRENT_BUDGET.json').write_text(json.dumps(out,indent=2,ensure_ascii=False),'utf8')
+for x in rows:print(x['phase'],x['estimated_raw_USB_mA'],x['with_30_percent_headroom_mA'],x['assumption_screen'])
+print('CT_TYPICAL_MS',nominal_tr_ms,'LOCAL_OFF_V',out['adc_bleed']['local_power_off_rail_estimate_V'])

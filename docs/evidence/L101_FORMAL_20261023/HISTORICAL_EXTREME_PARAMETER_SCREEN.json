@@ -1,0 +1,88 @@
+{
+  "exact_candidate": "Bourns SRP1038A-100M / LCSC C780184",
+  "selected_for_further_evaluation": true,
+  "smaller_SRP7050TA_100M_not_selected": "4A Irms is materially weaker for sustained overload/short scenarios; do not choose by size alone",
+  "datasheet_specified_at_25C": {
+    "inductance_uH": 10,
+    "tolerance_percent": 20,
+    "DCR_max_mOhm": 30,
+    "Irms_A": 7.5,
+    "Irms_condition": "40C rise on manufacturer test conditions; actual PCB required",
+    "Isat_A": 12,
+    "Isat_condition": "20percent L drop at25C; not guaranteed hot minimum",
+    "operating_temperature_including_rise_C": [
+      -55,
+      150
+    ]
+  },
+  "TI_specification": {
+    "open_loop_current_limit_min_A": 4.5,
+    "open_loop_current_limit_typ_A": 5.5,
+    "open_loop_current_limit_max_A": 6.8,
+    "condition": "All Vin and TJ -40..150C",
+    "current_limit_delay_typ_ns": 60,
+    "current_limit_delay_max_not_specified": true,
+    "RT_200k_frequency_kHz": [
+      450,
+      500,
+      550
+    ]
+  },
+  "engineering_assumptions": {
+    "Vin_max_V": 25.2,
+    "Vout_guard_V": 5.5,
+    "Vout_guard_is_not_a_changed_design_target": true,
+    "switching_frequency_floor_Hz": 400000.0,
+    "output_current_guard_A": 3.5,
+    "effective_inductance_H": 6.400000000000001e-06,
+    "L_guard": "minus20percent initial tolerance then additional20percent DC-bias guard; not a hot minimum guarantee",
+    "delay_guard_ns": 120,
+    "delay_guard": "twice typical; not a datasheet upper bound",
+    "hot_DCR_temperature_C": 125,
+    "copper_tempco_per_C": 0.00393,
+    "thermal_sensitivity_ambient_C": 85,
+    "diode_drop_guard_V": 1.0,
+    "off_state_current_guard_A": 4.5,
+    "on_state_loss_omitted": "Conservative upper bound on V_on, not a lossless converter claim",
+    "off_state_winding_drop_uses_estimated_hot_DCR": true
+  },
+  "calculated_normal_case": {
+    "ripple_peak_to_peak_A": 1.950377670585706,
+    "peak_A": 4.475188835292853,
+    "RMS_A": 3.5449961572372137,
+    "margin_to_TI_min_current_limit_A": 0.02481116470714717,
+    "copper_loss_at25C_W": 0.3770099326447984,
+    "previous_copper_loss_at25C_W": 0.2073554629546391,
+    "estimated_DCR_at125C_ohm": 0.04179,
+    "estimated_copper_loss_at125C_W": 0.5251748361742041,
+    "estimated_DC_only_rise_C": 8.936531736765591,
+    "on_voltage_upper_V": 19.7,
+    "off_voltage_upper_V": 6.688055,
+    "voltage_balance_duty_guard": 0.2534500932334725,
+    "model": "Piecewise linear inductor voltage slopes, independent conservative upper voltage bounds; not measured and not a guaranteed hot corner",
+    "small_current_limit_margin_requires_full_power_budget_and_load_transient_review": true
+  },
+  "fault_sensitivity_calculation": {
+    "peak_with_typ_delay_A": 7.03625,
+    "peak_with_guard_delay_A": 7.2725,
+    "Isat25C_margin_to_guard_peak_A": 4.7275,
+    "scope": "Calculation only; delay, hot inductance, frequency foldback and actual short-current waveform are not guaranteed by this screen"
+  },
+  "unmeasured": [
+    "saturation and ripple at hottest case",
+    "DC plus AC/core thermal loss on X100 four-layer stack",
+    "startup and load transients",
+    "compensation/Bode and duty-cycle stability",
+    "controlled output-short and recovery waveform",
+    "solder/assembly and full DFM"
+  ],
+  "sources": {
+    "inductor": "https://www.bourns.com/docs/product-datasheets/srp1038a.pdf",
+    "old_inductor": "https://www.bourns.com/docs/product-datasheets/srp1265a.pdf",
+    "controller": "https://www.ti.com/lit/ds/symlink/tps54360b.pdf",
+    "domestic_listing": "https://www.lcsc.com/product-detail/C780184.html"
+  },
+  "no_limit_exceeded_in_guarded_normal_case": true,
+  "bench_pass": false,
+  "formal_adoption_approved": false
+}

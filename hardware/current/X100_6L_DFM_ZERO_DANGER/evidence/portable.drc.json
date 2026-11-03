@@ -1,0 +1,878 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-10-31T18:24:48",
+  "ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "included_severities": [
+    "error",
+    "warning",
+    "exclusion"
+  ],
+  "kicad_version": "10.0.6",
+  "schematic_parity": [],
+  "source": "X100_CleanSheet.kicad_pcb",
+  "unconnected_items": [],
+  "violations": [
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R201",
+          "pos": {
+            "x": 113.4,
+            "y": 99.2
+          },
+          "uuid": "0450d6e7-c06d-44af-a9cf-be6313659a02"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Connector_Card_microSD_HC_Molex_104031-0811' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J501",
+          "pos": {
+            "x": 81.6,
+            "y": 91.5
+          },
+          "uuid": "0ca9f0c6-760b-4874-bc4d-e8905e3cb8c6"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_LED_SMD_LED_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 D201",
+          "pos": {
+            "x": 111.8,
+            "y": 106.1
+          },
+          "uuid": "0fb2f76c-397c-4298-9dd9-270fc0d015d4"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0603_1608Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C206",
+          "pos": {
+            "x": 109.7,
+            "y": 84.05
+          },
+          "uuid": "20f3e2bf-4bf4-474a-a904-bdb037055384"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C116",
+          "pos": {
+            "x": 119.0,
+            "y": 107.4
+          },
+          "uuid": "3ce21e83-dc8e-4485-af0a-ce8188211291"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C115",
+          "pos": {
+            "x": 116.2,
+            "y": 106.6
+          },
+          "uuid": "4262e9bd-fe81-4541-849d-b15e87639ad9"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Diode_SMD_D_SMB' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 D102",
+          "pos": {
+            "x": 79.5,
+            "y": 117.6
+          },
+          "uuid": "4b671707-9982-4a45-9d52-00a2e68c5512"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0603_1608Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C302",
+          "pos": {
+            "x": 112.8,
+            "y": 96.4
+          },
+          "uuid": "4c2968d4-207d-420f-b33d-391354225874"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J702",
+          "pos": {
+            "x": 118.6,
+            "y": 78.25
+          },
+          "uuid": "4eda7fe7-2ea1-4046-b887-7e0b5e326a7e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_USB_C_Amphenol_124019772112A' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J401",
+          "pos": {
+            "x": 90.7,
+            "y": 76.575
+          },
+          "uuid": "55cc5efb-d157-4442-ae77-b9bace136869"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C213",
+          "pos": {
+            "x": 97.8,
+            "y": 106.9
+          },
+          "uuid": "758881d0-52c2-4c9e-a61d-e5f9504a2c35"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C209",
+          "pos": {
+            "x": 111.4,
+            "y": 99.2
+          },
+          "uuid": "7bb2e092-7a89-48c6-9472-3364a27b54e9"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J701",
+          "pos": {
+            "x": 78.25,
+            "y": 104.8
+          },
+          "uuid": "7f5e934d-886c-46df-b2bb-10e37ef1ecfa"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C803",
+          "pos": {
+            "x": 119.4,
+            "y": 118.2
+          },
+          "uuid": "83ec95f8-10fc-46ce-8239-f2175146f69e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_QFP_LQFP-100_14x14mm_P0.5mm' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U201",
+          "pos": {
+            "x": 100.68,
+            "y": 91.5
+          },
+          "uuid": "8cb4c39b-e870-4887-88a5-50cbb0d975b2"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J809",
+          "pos": {
+            "x": 106.0,
+            "y": 121.75
+          },
+          "uuid": "94c8897a-5eea-4f18-9c33-bec68e397682"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 J703",
+          "pos": {
+            "x": 106.5,
+            "y": 78.25
+          },
+          "uuid": "996b7fcb-9cfd-40e7-ad39-a675ba519f97"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_TO_SOT_SMD_SOT-23-5' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U103",
+          "pos": {
+            "x": 117.4,
+            "y": 103.8
+          },
+          "uuid": "cbcc27ca-2559-4a51-9197-6512a768b6e3"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_LED_SMD_LED_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 D202",
+          "pos": {
+            "x": 110.8,
+            "y": 108.1
+          },
+          "uuid": "da303fdb-4451-44f4-a3ad-569e18a656ee"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0603_1608Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C304",
+          "pos": {
+            "x": 113.8,
+            "y": 83.2
+          },
+          "uuid": "dccd11d0-b855-42ae-accc-ff4f2be21f64"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U801",
+          "pos": {
+            "x": 113.5,
+            "y": 115.7
+          },
+          "uuid": "eccdc030-0d9d-4f11-b01a-35e02cac0cad"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R206",
+          "pos": {
+            "x": 114.2,
+            "y": 108.7
+          },
+          "uuid": "fa40fe0f-39f0-4a47-9ffe-c5c75740ca60"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'TPS54360B_DDA0008B_NoVIP' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U101",
+          "pos": {
+            "x": 90.0,
+            "y": 101.5
+          },
+          "uuid": "0ffcd9bd-12be-43f9-b8ff-c1f90b32fc4e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Diode_SMD_D_SOD-123F' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 D101",
+          "pos": {
+            "x": 84.5,
+            "y": 118.7
+          },
+          "uuid": "109cba6f-41dd-4697-bf51-1b9e4c71272f"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_SO_SOIC-8_3.9x4.9mm_P1.27mm' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 Q101",
+          "pos": {
+            "x": 79.5,
+            "y": 117.2
+          },
+          "uuid": "1c20a647-b934-4b6e-be64-033694ee4b00"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'TI_TPD2E2U06_DBZ0003A' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U403",
+          "pos": {
+            "x": 92.0,
+            "y": 79.8
+          },
+          "uuid": "1d77e530-3e6f-4c82-9c7d-1c82f3c16bee"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C126",
+          "pos": {
+            "x": 103.2,
+            "y": 103.0
+          },
+          "uuid": "240ce644-3ca1-4040-8eaa-d0272bf25dc0"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_1210_3225Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C118",
+          "pos": {
+            "x": 103.2,
+            "y": 122.2
+          },
+          "uuid": "25f7b7ba-3255-4331-975f-328555afc1c7"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_TO_SOT_SMD_SOT-23-6' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U104",
+          "pos": {
+            "x": 108.6,
+            "y": 121.0
+          },
+          "uuid": "2c84d41a-a171-46eb-b2ea-eaba6fe626b7"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_TO_SOT_SMD_SOT-23-6' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U106",
+          "pos": {
+            "x": 88.2,
+            "y": 79.8
+          },
+          "uuid": "30a1850f-f0aa-450c-9f02-9f7093906477"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R402",
+          "pos": {
+            "x": 85.0,
+            "y": 78.8
+          },
+          "uuid": "36acf2af-c2f9-460d-b591-9e3acec46067"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C802",
+          "pos": {
+            "x": 96.8,
+            "y": 122.6
+          },
+          "uuid": "4abdf0d7-0d3c-4e78-a6a7-a5376fb7bc6d"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R505",
+          "pos": {
+            "x": 78.2,
+            "y": 92.8
+          },
+          "uuid": "4c6df296-f5d9-434f-9fb9-584f7cd7b937"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C109",
+          "pos": {
+            "x": 96.5,
+            "y": 97.4
+          },
+          "uuid": "4e5a015e-5347-4264-99fa-0834f17bed12"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R110",
+          "pos": {
+            "x": 100.6,
+            "y": 121.4
+          },
+          "uuid": "58f94bb2-0d9c-493a-8a7b-f0fbb1c3c360"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 JP601",
+          "pos": {
+            "x": 76.4,
+            "y": 80.0
+          },
+          "uuid": "5fa0b7d8-8a97-4be0-a247-b71dc622fbf9"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R114",
+          "pos": {
+            "x": 96.7,
+            "y": 104.4
+          },
+          "uuid": "5fb1aea4-0696-468d-bd49-d157a5f6f38a"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Package_TO_SOT_SMD_TSOT-23-6' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 U102",
+          "pos": {
+            "x": 103.0,
+            "y": 85.4
+          },
+          "uuid": "67cb3059-7ab7-4371-974e-aec5e68bb32f"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C401",
+          "pos": {
+            "x": 89.4,
+            "y": 83.0
+          },
+          "uuid": "6b315514-ddeb-4bf5-a628-964df6b9bd64"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R811",
+          "pos": {
+            "x": 99.4,
+            "y": 103.6
+          },
+          "uuid": "790be4f1-cbac-4410-83b0-5757a836cba9"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0603_1608Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C203",
+          "pos": {
+            "x": 98.8,
+            "y": 96.8
+          },
+          "uuid": "81454efe-9dfd-4fd0-8823-7b91799c5046"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R807",
+          "pos": {
+            "x": 97.8,
+            "y": 120.6
+          },
+          "uuid": "8a49b534-4180-48fc-bf25-5f4f4d0d4b8e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0603_1608Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C402",
+          "pos": {
+            "x": 102.2,
+            "y": 80.8
+          },
+          "uuid": "8ff175aa-9c49-439e-bf08-46d1d95ed550"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R108",
+          "pos": {
+            "x": 116.6,
+            "y": 102.8
+          },
+          "uuid": "9463dd88-12f0-453d-9bba-0c401489ff3a"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R503",
+          "pos": {
+            "x": 77.0,
+            "y": 89.8
+          },
+          "uuid": "adf6c4f2-b861-4141-97c8-af2d012ee5bd"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C110",
+          "pos": {
+            "x": 97.0,
+            "y": 100.9
+          },
+          "uuid": "b9ea55a7-bd5a-446f-aef4-f06245a9df33"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_1210_3225Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C208",
+          "pos": {
+            "x": 91.8,
+            "y": 96.2
+          },
+          "uuid": "c0f3aebf-5351-446c-91ee-4741851b357d"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C123",
+          "pos": {
+            "x": 92.0,
+            "y": 77.0
+          },
+          "uuid": "c71f2723-35c6-4cc6-a2ec-c188713b6994"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_1210_3225Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C101",
+          "pos": {
+            "x": 84.3,
+            "y": 106.6
+          },
+          "uuid": "cf0c0025-f422-4aa0-b56c-551e25a4c8f3"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_1210_3225Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C113",
+          "pos": {
+            "x": 113.6,
+            "y": 85.4
+          },
+          "uuid": "d2dbd8b2-b391-44f6-9b7c-608a75a1dafc"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R204",
+          "pos": {
+            "x": 91.8,
+            "y": 92.8
+          },
+          "uuid": "d61f4891-a86a-4770-bb24-77ffa9619412"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_1210_3225Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C114",
+          "pos": {
+            "x": 110.6,
+            "y": 90.6
+          },
+          "uuid": "d85bc79e-1bd0-4de3-8419-a9d9bb50fba2"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R504",
+          "pos": {
+            "x": 76.2,
+            "y": 87.0
+          },
+          "uuid": "e094ce96-9463-40e4-b62d-222774650453"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R701",
+          "pos": {
+            "x": 89.2,
+            "y": 95.6
+          },
+          "uuid": "f01415be-9fa1-49bf-b34a-06a1149ab975"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Resistor_SMD_R_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 R107",
+          "pos": {
+            "x": 95.0,
+            "y": 100.9
+          },
+          "uuid": "f05d9e8c-1f9e-4cf1-bc9f-73336a587796"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    },
+    {
+      "description": "封装 'Official_Capacitor_SMD_C_0805_2012Metric' 与库 'X100_Physical' 中的副本不匹配",
+      "items": [
+        {
+          "description": "封装 C124",
+          "pos": {
+            "x": 104.4,
+            "y": 97.4
+          },
+          "uuid": "f6c013d0-6961-4d04-8ced-48b6d923f42e"
+        }
+      ],
+      "severity": "warning",
+      "type": "lib_footprint_mismatch"
+    }
+  ]
+}

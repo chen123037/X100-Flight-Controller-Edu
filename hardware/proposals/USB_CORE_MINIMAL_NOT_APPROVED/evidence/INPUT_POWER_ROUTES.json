@@ -1,0 +1,1071 @@
+{
+  "scope": "APPLIED_NATIVE_ROUTING_CHECKPOINT_NOT_POWER_SAFETY_PASS",
+  "source_board_sha256": "67ef42f2196f3a7557d0f99b79e259181392b282e784f2d179472fd5e0f2dd0b",
+  "routes": [
+    {
+      "label": "RAW connector trunk",
+      "net": "VBAT_RAW",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          88.65,
+          120.5
+        ],
+        [
+          85.75,
+          120.5
+        ],
+        [
+          83.75,
+          119.5
+        ]
+      ]
+    },
+    {
+      "label": "RAW transfer neck",
+      "net": "VBAT_RAW",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          83.75,
+          119.5
+        ],
+        [
+          83.75,
+          118.375
+        ],
+        [
+          81.5,
+          118.375
+        ],
+        [
+          82.375,
+          118.375
+        ]
+      ]
+    },
+    {
+      "label": "RAW fuse input",
+      "net": "VBAT_RAW",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "points": [
+        [
+          82.045,
+          120.425
+        ],
+        [
+          82.045,
+          118.375
+        ],
+        [
+          81.5,
+          118.375
+        ],
+        [
+          82.375,
+          118.375
+        ]
+      ]
+    },
+    {
+      "label": "RAW local probe",
+      "net": "VBAT_RAW",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          88.65,
+          120.5
+        ],
+        [
+          89.195,
+          118.37
+        ]
+      ]
+    },
+    {
+      "label": "Fuse output transfer",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "points": [
+        [
+          86.955,
+          120.425
+        ],
+        [
+          86.955,
+          118.375
+        ],
+        [
+          88,
+          118.375
+        ],
+        [
+          87.125,
+          118.375
+        ]
+      ]
+    },
+    {
+      "label": "Fused bank B link",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          87.125,
+          118.375
+        ],
+        [
+          88,
+          118.375
+        ]
+      ]
+    },
+    {
+      "label": "Fused bank exit neck",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          88,
+          118.375
+        ],
+        [
+          88,
+          116.875
+        ],
+        [
+          88.75,
+          116.875
+        ]
+      ]
+    },
+    {
+      "label": "Fused MOS trunk",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          88.75,
+          116.875
+        ],
+        [
+          88.75,
+          113.125
+        ]
+      ]
+    },
+    {
+      "label": "Fused MOS local feed",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 1.2,
+      "points": [
+        [
+          88.75,
+          113.125
+        ],
+        [
+          87.5,
+          112.3
+        ],
+        [
+          82.635,
+          112.3
+        ],
+        [
+          82.635,
+          110.175
+        ]
+      ]
+    },
+    {
+      "label": "MOS input pin strap",
+      "net": "VBAT_FUSED",
+      "layer": "B.Cu",
+      "width_mm": 0.9,
+      "points": [
+        [
+          80.095,
+          110.175
+        ],
+        [
+          83.905,
+          110.175
+        ]
+      ]
+    },
+    {
+      "label": "MOS protected pin strap",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.9,
+      "points": [
+        [
+          80.095,
+          105.225
+        ],
+        [
+          82.635,
+          105.225
+        ]
+      ]
+    },
+    {
+      "label": "MOS to bulk input",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          81.365,
+          105.225
+        ],
+        [
+          81.365,
+          101.75
+        ],
+        [
+          80.425,
+          100.8
+        ],
+        [
+          80.425,
+          99.1
+        ]
+      ]
+    },
+    {
+      "label": "Protected plane source bank",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 1,
+      "points": [
+        [
+          81.365,
+          100.625
+        ],
+        [
+          83.125,
+          100.625
+        ],
+        [
+          82.25,
+          100.625
+        ]
+      ]
+    },
+    {
+      "label": "Protected target bank to local VIN",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          99.5,
+          101.5
+        ],
+        [
+          98.625,
+          101.5
+        ],
+        [
+          97.675,
+          102.525
+        ]
+      ]
+    },
+    {
+      "label": "Protected TVS feed",
+      "net": "VBAT_PROTECTED",
+      "layer": "F.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          82.25,
+          100.625
+        ],
+        [
+          83.125,
+          100.625
+        ],
+        [
+          85.05,
+          101.7
+        ]
+      ]
+    },
+    {
+      "label": "Protected lower input capacitor",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          81,
+          113
+        ],
+        [
+          81.7,
+          113
+        ],
+        [
+          81.7,
+          116.5
+        ],
+        [
+          79.5,
+          116.5
+        ],
+        [
+          79.5,
+          118.175
+        ]
+      ]
+    },
+    {
+      "label": "Protected lower right capacitor",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          92.5,
+          114.5
+        ],
+        [
+          92.5,
+          119.25
+        ],
+        [
+          91.425,
+          120.5
+        ]
+      ]
+    },
+    {
+      "label": "Protected plane to EN divider",
+      "net": "VBAT_PROTECTED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          101.75,
+          107.8125
+        ],
+        [
+          102.8,
+          107.8125
+        ]
+      ]
+    },
+    {
+      "label": "Gate zener protected terminal",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "points": [
+        [
+          78.55,
+          103.6
+        ],
+        [
+          80.095,
+          103.6
+        ],
+        [
+          80.095,
+          105.225
+        ]
+      ]
+    },
+    {
+      "label": "Input connector GND trunk",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          80.65,
+          120.5
+        ],
+        [
+          79,
+          120.5
+        ]
+      ]
+    },
+    {
+      "label": "Input connector GND pair neck",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          79,
+          120.5
+        ],
+        [
+          78.3125,
+          120.5
+        ],
+        [
+          78.3125,
+          120
+        ],
+        [
+          78.3125,
+          120.875
+        ]
+      ]
+    },
+    {
+      "label": "TVS ground pair",
+      "net": "GND",
+      "layer": "F.Cu",
+      "width_mm": 1,
+      "points": [
+        [
+          89.35,
+          101.7
+        ],
+        [
+          87.7,
+          101.7
+        ],
+        [
+          87.7,
+          100.8
+        ]
+      ]
+    },
+    {
+      "label": "Bulk input ground pair",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 1.5,
+      "points": [
+        [
+          87.375,
+          99.1
+        ],
+        [
+          87.375,
+          100.8
+        ],
+        [
+          87.7,
+          100.8
+        ]
+      ]
+    },
+    {
+      "label": "Lower capacitor GND",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          94.375,
+          120.5
+        ],
+        [
+          94.25,
+          118.5
+        ]
+      ]
+    },
+    {
+      "label": "Lower left capacitor GND",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.6,
+      "points": [
+        [
+          79.5,
+          115.225
+        ],
+        [
+          80.75,
+          113.875
+        ]
+      ]
+    },
+    {
+      "label": "RP_GATE space",
+      "net": "RP_GATE",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          83.905,
+          105.225
+        ],
+        [
+          83.75,
+          105.625
+        ],
+        [
+          83.375,
+          106.0
+        ],
+        [
+          83.375,
+          106.125
+        ],
+        [
+          83.25,
+          106.25
+        ],
+        [
+          83.25,
+          106.375
+        ],
+        [
+          83.125,
+          106.5
+        ],
+        [
+          83.0,
+          106.5
+        ],
+        [
+          82.875,
+          106.625
+        ],
+        [
+          79.0,
+          106.625
+        ],
+        [
+          78.875,
+          106.5
+        ],
+        [
+          78.55,
+          106.4
+        ]
+      ]
+    },
+    {
+      "label": "RP_GATE direct",
+      "net": "RP_GATE",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          78.55,
+          106.4
+        ],
+        [
+          78.7,
+          107.8375
+        ]
+      ]
+    },
+    {
+      "label": "VBAT_FUSED space",
+      "net": "VBAT_FUSED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          79.0,
+          116.5
+        ],
+        [
+          79.375,
+          116.625
+        ],
+        [
+          80.125,
+          117.375
+        ],
+        [
+          80.375,
+          117.375
+        ],
+        [
+          80.5,
+          117.5
+        ],
+        [
+          82.625,
+          117.5
+        ],
+        [
+          82.75,
+          117.625
+        ],
+        [
+          82.875,
+          117.625
+        ],
+        [
+          84.625,
+          119.375
+        ],
+        [
+          84.75,
+          119.375
+        ],
+        [
+          84.875,
+          119.5
+        ],
+        [
+          85.0,
+          119.5
+        ],
+        [
+          85.125,
+          119.625
+        ],
+        [
+          85.25,
+          119.625
+        ],
+        [
+          85.375,
+          119.75
+        ],
+        [
+          85.5,
+          119.75
+        ],
+        [
+          85.625,
+          119.875
+        ],
+        [
+          85.875,
+          119.875
+        ],
+        [
+          86.0,
+          120.0
+        ],
+        [
+          86.125,
+          120.0
+        ],
+        [
+          86.25,
+          120.125
+        ],
+        [
+          86.375,
+          120.125
+        ],
+        [
+          86.5,
+          120.25
+        ],
+        [
+          86.625,
+          120.25
+        ],
+        [
+          86.955,
+          120.425
+        ]
+      ]
+    },
+    {
+      "label": "VBAT_PROTECTED space",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          79.25,
+          112.7
+        ],
+        [
+          79.625,
+          112.875
+        ],
+        [
+          79.875,
+          113.125
+        ],
+        [
+          80.75,
+          113.125
+        ],
+        [
+          80.875,
+          113.25
+        ],
+        [
+          81.125,
+          113.25
+        ],
+        [
+          81.375,
+          113.5
+        ],
+        [
+          81.375,
+          113.75
+        ],
+        [
+          81.5,
+          113.875
+        ],
+        [
+          81.375,
+          114.0
+        ],
+        [
+          81.375,
+          114.25
+        ],
+        [
+          81.25,
+          114.375
+        ],
+        [
+          81.25,
+          115.75
+        ],
+        [
+          80.0,
+          117.0
+        ],
+        [
+          80.0,
+          117.125
+        ],
+        [
+          79.875,
+          117.25
+        ],
+        [
+          79.875,
+          117.375
+        ],
+        [
+          79.75,
+          117.5
+        ],
+        [
+          79.75,
+          117.75
+        ],
+        [
+          79.625,
+          117.875
+        ],
+        [
+          79.5,
+          118.175
+        ]
+      ]
+    },
+    {
+      "label": "VBAT_PROTECTED space",
+      "net": "VBAT_PROTECTED",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          86.175,
+          94.6625
+        ],
+        [
+          86.375,
+          95.0
+        ],
+        [
+          86.375,
+          96.75
+        ],
+        [
+          87.375,
+          97.75
+        ],
+        [
+          87.375,
+          98.0
+        ],
+        [
+          87.5,
+          98.125
+        ],
+        [
+          87.5,
+          98.875
+        ],
+        [
+          87.375,
+          99.0
+        ],
+        [
+          87.375,
+          99.25
+        ],
+        [
+          85.25,
+          101.375
+        ],
+        [
+          85.05,
+          101.7
+        ]
+      ]
+    },
+    {
+      "label": "GND direct",
+      "net": "GND",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          78.7,
+          109.6625
+        ],
+        [
+          78.75,
+          110.5
+        ]
+      ]
+    },
+    {
+      "label": "Bulk-to-bank full-width link",
+      "net": "VBAT_PROTECTED",
+      "layer": "B.Cu",
+      "width_mm": 1,
+      "points": [
+        [
+          80.425,
+          100.625
+        ],
+        [
+          81.365,
+          100.625
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "VBAT_RAW",
+      "position": [
+        81.5,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_RAW",
+      "position": [
+        82.375,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_FUSED",
+      "position": [
+        87.125,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_FUSED",
+      "position": [
+        88,
+        118.375
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        82.25,
+        100.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        83.125,
+        100.625
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        98.625,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        99.5,
+        101.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        92.5,
+        114.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        81,
+        113
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "VBAT_PROTECTED",
+      "position": [
+        101.75,
+        107.8125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        87.7,
+        100.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        87.7,
+        101.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.3125,
+        120
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.3125,
+        120.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        94.25,
+        118.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        80.75,
+        113.875
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "position": [
+        78.75,
+        110.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "plane": {
+    "net": "VBAT_PROTECTED",
+    "layer": "In2.Cu",
+    "clearance_mm": 0.5,
+    "outline": [
+      [
+        80,
+        96
+      ],
+      [
+        88.5,
+        96
+      ],
+      [
+        88.5,
+        100.25
+      ],
+      [
+        102.5,
+        100.25
+      ],
+      [
+        102.5,
+        121.75
+      ],
+      [
+        80,
+        121.75
+      ]
+    ],
+    "section_x_range_mm": [
+      82.25,
+      99.5
+    ],
+    "minimum_aggregate_section_mm": 9.478316,
+    "required_section_mm": 8.3,
+    "scope": "Sum of parallel conducting slices in the connected plane; not a claim that every individual branch is8.3mm or that thermal/current sharing passed.",
+    "geometry_checked_on_board_sha256": "1fcf0202f985c8b54f99afcac072193638459637c96b24595036d33742f6f058"
+  },
+  "notes": [
+    "All new surface traces are F/B; no thin In2 power track or custom-rule change",
+    "Existing COMP In2 bridge retained with0.50mm plane clearance",
+    "Via tenting inherits native front/back yes; effective tenting must be read back",
+    "Only masked traces/inner copper may pass beneath nylon bearing envelopes; all bodies/pads/exposed probes/via annuli stay clear",
+    "VBAT_RAW and5V_MAIN are never connected; existing USB/VBAT source isolation preserved",
+    "5V DRC repair: same input plane replayed as ONE outline ending y=115.75; no overlapping same-priority stripe.",
+    "External-power stage: one merged input plane with upper-left/bottom extensions; fresh native filled area and current corridor checked in ACTUAL_ROUTING_REVIEW."
+  ],
+  "applied_board_sha256": "7d3b22888a285a72f280a000a1076ae1203ab973e25016ca6931fa517049404d"
+}

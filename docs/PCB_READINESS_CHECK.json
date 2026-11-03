@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-22",
+  "kicad": "10.0.6",
+  "formal": {
+    "violations": 629,
+    "unconnected": 411,
+    "by_type": {
+      "courtyards_overlap": 199,
+      "npth_inside_courtyard": 18,
+      "pth_inside_courtyard": 3,
+      "silk_edge_clearance": 16,
+      "text_height": 2,
+      "silk_over_copper": 192,
+      "silk_overlap": 199
+    }
+  },
+  "J401_candidate_only": {
+    "violations": 629,
+    "unconnected": 411,
+    "by_type": {
+      "courtyards_overlap": 199,
+      "npth_inside_courtyard": 18,
+      "pth_inside_courtyard": 3,
+      "silk_edge_clearance": 16,
+      "text_height": 2,
+      "silk_over_copper": 192,
+      "silk_overlap": 199
+    },
+    "mechanical_verdict": "HOLD",
+    "thickness_1p6mm_compatibility": "NOT_CONFIRMED",
+    "pcb_edge_datum_mismatch_mm": 0.325
+  },
+  "routing_ready": false,
+  "fabrication_ready": false,
+  "J401_candidate_edge_aligned_test_only": {
+    "violations": 631,
+    "unconnected": 411,
+    "new_copper_edge_clearance_errors": 2,
+    "actual_edge_clearance_mm": 0.325,
+    "required_edge_clearance_mm": 0.5
+  },
+  "J401_formal_replacement_authorized": true,
+  "J401_formal_replacement": "APPLIED",
+  "J401_current_review": "docs/evidence/J401_FORMAL_20261022/REVIEW.json",
+  "historical_candidate_results_not_current_verdict": true
+}

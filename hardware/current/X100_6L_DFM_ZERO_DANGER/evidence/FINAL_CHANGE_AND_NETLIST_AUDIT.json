@@ -1,0 +1,74 @@
+{
+  "netlist_same_as_V2": true,
+  "netlist_components": 170,
+  "modified_preexisting_tracks": [
+    {
+      "uuid": "943c03ca-4455-4d9d-b11e-a07cefb73cfe",
+      "net": "3V3_MCU",
+      "layer": "F.Cu",
+      "start": [
+        97.2625,
+        97.7875
+      ],
+      "end": [
+        98.1125,
+        96.9125
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "12546e0b-b706-4c04-8003-b5e38028233e",
+      "net": "VBAT_ADC",
+      "layer": "F.Cu",
+      "start": [
+        118.9375,
+        118.2875
+      ],
+      "end": [
+        118.7375,
+        118.5125
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "e089af05-a918-4479-bd6b-cd0de7c1d782",
+      "net": "VBAT_ADC",
+      "layer": "In3.Cu",
+      "start": [
+        118.9375,
+        115.1625
+      ],
+      "end": [
+        118.9375,
+        118.2875
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "9865b5b7-22aa-4131-a3ad-205cc90020d7",
+      "net": "CORE_PWR_PRIORITY",
+      "layer": "In3.Cu",
+      "start": [
+        99.0125,
+        93.8375
+      ],
+      "end": [
+        99.0875,
+        93.7625
+      ],
+      "width": 0.15
+    }
+  ],
+  "all_other_preexisting_tracks_unchanged": true,
+  "netlist_nets": 150,
+  "ERC_violations": 0,
+  "DRC_errors": 0,
+  "DRC_warnings": 56,
+  "DRC_warning_types": [
+    "lib_footprint_mismatch"
+  ],
+  "unconnected": 0,
+  "schematic_parity_differences": 0,
+  "PCB_DFM_danger": 0,
+  "PCB_DFM_reported_warnings": 468
+}

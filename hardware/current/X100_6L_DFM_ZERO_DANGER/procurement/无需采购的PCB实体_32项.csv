@@ -1,0 +1,33 @@
+﻿位号,名称,不采购原因
+TP101,VBAT_RAW,PCB裸铜测点，无需购买测试点元件
+TP103,VBAT_PROTECTED,PCB裸铜测点，无需购买测试点元件
+TP104,5V_MAIN,PCB裸铜测点，无需购买测试点元件
+TP105,3V3_MCU,PCB裸铜测点，无需购买测试点元件
+TP106,SENSOR_LDO_IN,PCB裸铜测点，无需购买测试点元件
+TP107,3V3_SENSOR,PCB裸铜测点，无需购买测试点元件
+TP109,EXT_5V,PCB裸铜测点，无需购买测试点元件
+TP110,EXT_FAULT,PCB裸铜测点，无需购买测试点元件
+TP111,GND,PCB裸铜测点，无需购买测试点元件
+TP202,BOOT0,PCB裸铜测点，无需购买测试点元件
+TP204,MCU_VDDA,PCB裸铜测点，无需购买测试点元件
+TP205,VCAP1,PCB裸铜测点，无需购买测试点元件
+TP206,VCAP2,PCB裸铜测点，无需购买测试点元件
+TP208,GND,PCB裸铜测点，无需购买测试点元件
+TP302,SPI1_SCK,PCB裸铜测点，无需购买测试点元件
+TP303,SPI1_MOSI,PCB裸铜测点，无需购买测试点元件
+TP304,SPI1_MISO,PCB裸铜测点，无需购买测试点元件
+TP305,BMI088_ACC_CS,PCB裸铜测点，无需购买测试点元件
+TP306,BMI088_GYRO_CS,PCB裸铜测点，无需购买测试点元件
+TP307,BARO_I2C2_SCL,PCB裸铜测点，无需购买测试点元件
+TP308,BARO_I2C2_SDA,PCB裸铜测点，无需购买测试点元件
+TP401,USB_VBUS_RAW,PCB裸铜测点，无需购买测试点元件
+TP405,GND,PCB裸铜测点，无需购买测试点元件
+TP501,3V3_SD,PCB裸铜测点，无需购买测试点元件
+JP601,CAN TERM 120R / OPEN,PCB焊锡跳线，不购买开关
+J808,BATTERY/bench3S-6S ONLY,直接焊线焊盘，不购买上板连接器
+TP803,VBAT_ADC,PCB裸铜测点，无需购买测试点元件
+TP805,CURRENT_ADC,PCB裸铜测点，无需购买测试点元件
+H1,Ø4 NPTH,PCB安装孔，不是BOM实物；螺钉另列配套
+H2,Ø4 NPTH,PCB安装孔，不是BOM实物；螺钉另列配套
+H3,Ø4 NPTH,PCB安装孔，不是BOM实物；螺钉另列配套
+H4,Ø4 NPTH,PCB安装孔，不是BOM实物；螺钉另列配套

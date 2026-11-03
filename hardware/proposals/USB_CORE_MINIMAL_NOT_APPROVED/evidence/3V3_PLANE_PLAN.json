@@ -1,0 +1,103 @@
+{
+  "source_board_sha256": "c1441f67138b5a5c4a11b56e77ccf36039b12ef8dcd35126c4c98bddbe16e6f6",
+  "net": "3V3_MCU",
+  "layer": "In2.Cu",
+  "outline": [
+    [
+      78,
+      78
+    ],
+    [
+      122,
+      78
+    ],
+    [
+      122,
+      121.75
+    ],
+    [
+      103.25,
+      121.75
+    ],
+    [
+      103.25,
+      99.5
+    ],
+    [
+      89.25,
+      99.5
+    ],
+    [
+      89.25,
+      95.25
+    ],
+    [
+      78,
+      95.25
+    ]
+  ],
+  "clearance_mm": 0.5,
+  "VBAT_outline_gap_mm": 0.75,
+  "scope": "ADDITIONAL_PARTITIONED_3V3_POWER_PLANE_NOT_POWER_SAFETY_OR_DFM_PASS",
+  "manufacturing_layers_unchanged": true,
+  "numeric_rules_unchanged": true,
+  "required_main_trunk_aggregate_width_mm": 6.75,
+  "remaining": "Filled native connectivity and source contact/cross-section checks; short outer-layer load fanouts/vias; current/thermal and final power review.",
+  "replacement_method": "Official MCP save_as from exact pre-plane checkpoint, preserving every native track/via UUID and layout signature; add one expanded zone.",
+  "geometry_checked_against_native_board_sha256": "be74ea213a3e867d8bc4ec8236622b6c9c54a87a9b531f075bc3167ec9646aac",
+  "native_geometry": {
+    "status": "MAIN_AGGREGATE_PLANE_GEOMETRY_CHECKED_NOT_POWER_SAFETY_PASS",
+    "connected_polygon_count": 1,
+    "largest_area_mm2": 1073.586976,
+    "vertical_aggregate_minimum_mm": 13.549072,
+    "vertical_x_range_mm": [
+      94,
+      112.4
+    ],
+    "vertical_y_range_mm": [
+      78,
+      99.5
+    ],
+    "horizontal_aggregate_minimum_mm": 12.129128,
+    "horizontal_x_range_mm": [
+      103.25,
+      122
+    ],
+    "horizontal_y_range_mm": [
+      94.5,
+      110.5
+    ],
+    "required_main_aggregate_mm": 6.75,
+    "source_contacts": [
+      {
+        "via": [
+          110,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          110.8,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          111.6,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      },
+      {
+        "via": [
+          112.4,
+          95
+        ],
+        "contact_area_mm2": 0.282715
+      }
+    ],
+    "scope": "Same connected filled polygon; main trunk parallel sections only, not every low-current branch or source-via current/thermal proof. Existing 0.5oz layer and numeric rules retained."
+  }
+}

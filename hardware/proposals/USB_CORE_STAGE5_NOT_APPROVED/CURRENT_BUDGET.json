@@ -1,0 +1,197 @@
+{
+  "scope": "STAGE5_DESIGN_ESTIMATES_ONLY; no physical qualification",
+  "user_instruction": "Physical current/enumeration/transients deferred to first-board bring-up; no development board purchase",
+  "assumptions": {
+    "V33_max_V": 3.33,
+    "core_input_floor_V": 4.2,
+    "efficiency_guard": 0.8,
+    "efficiency_classification": "ENGINEERING_ASSUMPTION_NOT_DATASHEET_GUARANTEED_MINIMUM",
+    "upstream_allowance_mA": 0.5,
+    "USB_PHY_reserve_mA": 25.0,
+    "USB_PHY_classification": "ENGINEERING_ALLOWANCE_NOT_ST_MAXIMUM; may overlap MCU table consumption",
+    "sensor_allowance_mA": 25.0,
+    "control_allowance_scope": "3.9mA active;2.5mA preconfiguration removes1.4mA external-low pullup allowance. Includes conservative new hardware LED reserve; no measured total-current bound.",
+    "temperature": "MCU junction temperature, not ambient"
+  },
+  "rows": [
+    {
+      "phase": "preconfiguration_sleep_100MHz_estimate_25C",
+      "mcu_mA": 8.25,
+      "sensor_allowance_mA": 0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 2.5,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 35.931,
+      "with_30_percent_headroom_mA": 46.71,
+      "limiter_minimum_available_mA": 50,
+      "assumption_screen": true,
+      "evidence_kind": "ENGINEERING_ESTIMATE: half of 200MHz typical sleep; linear scaling NOT GUARANTEED"
+    },
+    {
+      "phase": "preconfiguration_using_200MHz_sleep_max_25C_upper_case",
+      "mcu_mA": 33.6,
+      "sensor_allowance_mA": 0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 2.5,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 61.054,
+      "with_30_percent_headroom_mA": 79.371,
+      "limiter_minimum_available_mA": 50,
+      "assumption_screen": false,
+      "evidence_kind": "DATASHEET_SLEEP_CASE: excludes full startup and actual USB operation"
+    },
+    {
+      "phase": "preconfiguration_using_200MHz_sleep_max_85C_upper_case",
+      "mcu_mA": 106.4,
+      "sensor_allowance_mA": 0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 2.5,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 133.204,
+      "with_30_percent_headroom_mA": 173.166,
+      "limiter_minimum_available_mA": 50,
+      "assumption_screen": false,
+      "evidence_kind": "DATASHEET_SLEEP_CASE: temperature sensitivity; not target operating current"
+    },
+    {
+      "phase": "configured_200MHz_all_peripherals_85C",
+      "mcu_mA": 173,
+      "sensor_allowance_mA": 25.0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 3.9,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 225.374,
+      "with_30_percent_headroom_mA": 292.986,
+      "limiter_minimum_available_mA": 389.8,
+      "assumption_screen": true,
+      "evidence_kind": "DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES"
+    },
+    {
+      "phase": "configured_200MHz_all_peripherals_105C",
+      "mcu_mA": 232,
+      "sensor_allowance_mA": 25.0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 3.9,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 283.847,
+      "with_30_percent_headroom_mA": 369.002,
+      "limiter_minimum_available_mA": 389.8,
+      "assumption_screen": true,
+      "evidence_kind": "DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES"
+    },
+    {
+      "phase": "MCU_only_125C_sensitivity_NOT_BOARD_OPERATING_APPROVAL",
+      "mcu_mA": 312,
+      "sensor_allowance_mA": 25.0,
+      "flash_extra_allowance_mA": 0,
+      "logic_and_bleed_allowance_mA": 3.9,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 363.133,
+      "with_30_percent_headroom_mA": 472.073,
+      "limiter_minimum_available_mA": 389.8,
+      "assumption_screen": false,
+      "evidence_kind": "DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES"
+    },
+    {
+      "phase": "flashing_quiet_bootloader_200MHz_all_peripherals_off_85C",
+      "mcu_mA": 120,
+      "sensor_allowance_mA": 25.0,
+      "flash_extra_allowance_mA": 20,
+      "logic_and_bleed_allowance_mA": 3.9,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 192.669,
+      "with_30_percent_headroom_mA": 250.469,
+      "limiter_minimum_available_mA": 389.8,
+      "assumption_screen": true,
+      "evidence_kind": "DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES"
+    },
+    {
+      "phase": "flashing_quiet_bootloader_200MHz_all_peripherals_off_105C",
+      "mcu_mA": 163,
+      "sensor_allowance_mA": 25.0,
+      "flash_extra_allowance_mA": 20,
+      "logic_and_bleed_allowance_mA": 3.9,
+      "USB_PHY_additional_reserve_mA": 25.0,
+      "estimated_raw_USB_mA": 235.285,
+      "with_30_percent_headroom_mA": 305.87,
+      "limiter_minimum_available_mA": 389.8,
+      "assumption_screen": true,
+      "evidence_kind": "DATASHEET_TEST_CASE_PLUS_ENGINEERING_ALLOWANCES"
+    }
+  ],
+  "low_current_mode": {
+    "datasheet_output_limit_mA": [
+      50,
+      75,
+      100
+    ],
+    "raw_input_less_than_100mA_guaranteed": false,
+    "reason": "output threshold excludes upstream IQ/leakage and transient response; normal load must stay below protocol current"
+  },
+  "configured_mode": {
+    "RILIM_ohm": 60400,
+    "resistor_tolerance": 0.001,
+    "assumed_TCR_ppm_per_C": 25,
+    "max_delta_T_C": 100,
+    "previous_computed_threshold_mA": [
+      389.8,
+      488.2
+    ],
+    "TMUX_Ron_max_ohm": 6,
+    "TMUX_series_resistance_effect_fraction": 9.933774834437086e-05
+  },
+  "startup": {
+    "mux_bulk_caps_uF": [
+      82,
+      82
+    ],
+    "mux_bulk_min_uF": 131.20000000000002,
+    "mux_bulk_max_uF": 196.79999999999998,
+    "ideal_no_load_charge_time_at_5V_50mA_max_ms": 19.679999999999996,
+    "U107_direct_output_uF": 10,
+    "CT_nominal_pF": 10000,
+    "CT_formula_typical_only": true,
+    "nominal_10_90_rise_ms": 27.65,
+    "ideal_direct_capacitor_charge_estimate_mA": 1.4466546112115732,
+    "not_included": [
+      "MCU Buck input dynamics",
+      "downstream converter energy",
+      "capacitor bias/tolerance",
+      "control-loop interaction",
+      "USB inrush compliance waveform",
+      "reset/BOR timing under load"
+    ]
+  },
+  "adc_bleed": {
+    "old_R_ohm": 1000,
+    "new_R_ohm": 10000,
+    "old_3V3_mA": 3.3,
+    "new_3V3_mA": 0.33,
+    "declared_local_U801_reverse_leakage_uA": 8,
+    "resistance_tolerance_and_temperature_guard": 0.02,
+    "local_power_off_rail_estimate_V": 0.0816,
+    "scope": "Preserves local bleed path; 81.6mV is calculation for this leakage contribution only, not whole-board measured off-voltage"
+  },
+  "suspend": {
+    "protocol_max_raw_USB_mA": 2.5,
+    "status": "NOT_QUALIFIED; must implement low-power entry/wake and measure",
+    "MCU_stop_25C_typical_mA": 1.27,
+    "MCU_stop_25C_max_mA": 6.3,
+    "reason": "Datasheet stop maximum already exceeds available budget after conversion; lowering frequency or R811 alone does not establish compliance",
+    "I2C_pullup_path": "Local pullups driven LOW when USB-only suspend clears PE3; GPIO input buffers must be parked. Does not by itself qualify2.5mA.",
+    "dedicated_hardware_PWR_LED_remains_on": true
+  },
+  "fabrication_gate": "No claim of measured PASS. Missing empirical data belongs to first-board plan per user; known electrical/geometry defects must still be repaired.",
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE",
+  "hardware_LED": {
+    "R207_ohm": 10000,
+    "MPN": "RC0805FR-0710KL",
+    "same_selected_type_as": "R110",
+    "direct_rail": "3V3_MCU",
+    "R_tolerance_and_temp_guard_percent": 2,
+    "current_upper_zero_VF_mA": 0.33979591836734696,
+    "typical_VF_sensitivity_current_mA": 0.11999999999999998,
+    "forward_voltage_at_this_current_not_guaranteed": true,
+    "brightness_not_measured": true
+  }
+}

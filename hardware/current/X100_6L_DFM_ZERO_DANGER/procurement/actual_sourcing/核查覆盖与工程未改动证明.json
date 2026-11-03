@@ -1,0 +1,28 @@
+{
+  "all_62_original_MPNs_have_exact_title_catalog_or_supplier_page": true,
+  "rows": 62,
+  "single_board_instances": 142,
+  "summary": {
+    "自营现货足一板": 54,
+    "自营数量不足": 1,
+    "原型号代购可下单": 2,
+    "自营无现货": 4,
+    "淘宝用户确认有售；详情未核": 1
+  },
+  "candidate_count": 7,
+  "retail_supply_gap_groups": [
+    3,
+    31,
+    33,
+    48,
+    62
+  ],
+  "current_61_source_files_unchanged": true,
+  "manufacturing_ZIP_unchanged": true,
+  "engineering_changes": false,
+  "actual_orders": false,
+  "taobao_user_report_only": [
+    "SPL06-001",
+    "TCAN3414DR"
+  ]
+}

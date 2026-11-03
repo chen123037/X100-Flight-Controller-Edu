@@ -1,0 +1,66 @@
+{
+  "scope": "SPECIFIED_PARAMETERS_PLUS_ENGINEERING_SENSITIVITY;NO_MEASURED_PASS",
+  "old": {
+    "qty": 2,
+    "MPN": "16SVPF82M",
+    "nominal_uF": 164,
+    "minimum_tolerance_only_uF": 131.2,
+    "ESR_parallel_mOhm": 13.5,
+    "max_rated_voltage_leakage_uA": 524,
+    "courtyard_mm2": 110.5802
+  },
+  "new": {
+    "qty": 1,
+    "MPN": "16SVPF180M",
+    "same_selected_type_as": "C108",
+    "nominal_uF": 180,
+    "minimum_tolerance_only_uF": 144,
+    "maximum_tolerance_only_uF": 216,
+    "ESR_mOhm": 22,
+    "max_rated_voltage_leakage_uA": 576,
+    "courtyard_mm2": 79.6101
+  },
+  "courtyard_saved_mm2": 30.9701,
+  "TI_reverse_blocking_recommendation": "about100uF or output clamp; not a universal100uF guaranteed specification",
+  "switch_time_5V_us": {
+    "value": 8,
+    "classification": "TYPICAL_ONLY_NO_GUARANTEED_MAXIMUM"
+  },
+  "rows": [
+    {
+      "current_A": 0.45,
+      "interval_us": 8,
+      "interval_classification": "TI_TYPICAL_ONLY",
+      "old_estimated_C_ESR_drop_V": 0.0335140243902439,
+      "new_estimated_C_ESR_drop_V": 0.0349
+    },
+    {
+      "current_A": 0.45,
+      "interval_us": 50,
+      "interval_classification": "ENGINEERING_ASSUMPTION_NOT_TSW_MAX",
+      "old_estimated_C_ESR_drop_V": 0.17756890243902437,
+      "new_estimated_C_ESR_drop_V": 0.16614999999999996
+    },
+    {
+      "current_A": 0.45,
+      "interval_us": 200,
+      "interval_classification": "STRESS_SENSITIVITY_NOT_TSW_MAX",
+      "old_estimated_C_ESR_drop_V": 0.6920506097560976,
+      "new_estimated_C_ESR_drop_V": 0.6348999999999999
+    }
+  ],
+  "ideal_cap_only_5V_50mA_max_charge_ms": 21.599999999999998,
+  "limitations": [
+    "Tolerance-only minimum is not a full lifetime/temperature capacitance bound",
+    "100kHz ESR comparison is not measured switchover impedance",
+    "Maximum leakage specified at rated voltage and specified settling condition is a conservative operating allowance, not an initial surge bound",
+    "Higher ESR and lower parallel ripple rating are tradeoffs; core input current is not assumed to approach3.3A capacitor ripple rating",
+    "Cap remains upstream of U107, not added to its direct QOD discharge load",
+    "Bulk charge overlaps U107 ramp and converter startup; no guaranteed startup or source-transition result"
+  ],
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/tps2116.pdf",
+    "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF180M",
+    "https://industrial.panasonic.com/ww/products/pt/os-con/models/16SVPF82M"
+  ]
+}

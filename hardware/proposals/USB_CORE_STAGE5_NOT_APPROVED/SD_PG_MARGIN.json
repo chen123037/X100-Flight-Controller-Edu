@@ -1,0 +1,45 @@
+{
+  "scope": "SD_PG_THRESHOLD_CORNER_CALCULATION",
+  "classification": "datasheet limits combined with explicit design allowances; no measured PASS",
+  "resistor_tolerance": 0.001,
+  "TCR_guard_ppm": 25,
+  "max_delta_T_C": 100,
+  "INA_bias_abs_max_A": 2.5e-08,
+  "comparator_rising_limits_V": [
+    0.396,
+    0.404
+  ],
+  "AP63203_CCM_min_output_V": 3.27,
+  "load_design_allowance_A": 0.3,
+  "switch_Ron_budget_ohm": 0.08,
+  "jumper_R_budget_ohm": 0.05,
+  "trace_and_connector_R_budget_ohm": 0.05,
+  "SD_rail_low_estimate_V": 3.216,
+  "ripple_guard_V": 0.02,
+  "cases": [
+    {
+      "Rtop_ohm": 69800.0,
+      "rising_min_V": 3.139060031266816,
+      "rising_max_V": 3.245479878197441,
+      "nominal_V": 3.192
+    },
+    {
+      "Rtop_ohm": 68100.0,
+      "rising_min_V": 3.0722519789293727,
+      "rising_max_V": 3.1762747808774465,
+      "nominal_V": 3.124
+    }
+  ],
+  "chosen_Rtop_ohm": 68100.0,
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/tlv6700.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+    "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf"
+  ],
+  "limits": [
+    "3.27V applies to datasheet CCM conditions, not all light-load/ramp behavior",
+    "0.3A card design allowance and 0.05ohm trace budget require selected card/layout qualification",
+    "RON data at200mA; applying80mohm at300mA is engineering guard, not an additional tested guarantee",
+    "PG/Ioff transient sequencing remains first-board test"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "J401_REPLACEMENT": "APPLIED_USER_APPROVED",
+  "ERC": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "existing_pinmap_preserved": true,
+  "all_symbol_uuids_preserved": true,
+  "board_pad_nets_match_native_xml": true,
+  "geometry": {
+    "fields": {
+      "ELECTRICAL_FOOTPRINT_COUNT": 201,
+      "TOP_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "BOTTOM_HARD_PHYSICAL_CONFLICT_COUNT": 0,
+      "ACTUAL_MOUNT_HOLE_INTRUSION_COUNT": 0,
+      "UNSUPPORTED_PAD_OUTSIDE_45MM_COUNT": 0,
+      "TOP_BOTTOM_Z_AXIS_CRITICAL_CONFLICT_COUNT": 0,
+      "BLOCKED_CONNECTOR_COUNT": 0,
+      "FRONT_RESERVED_CLEAR": true
+    },
+    "hard": [],
+    "cross": [],
+    "holes": [],
+    "outside": [],
+    "z": [],
+    "blocked": [],
+    "front": []
+  },
+  "J401_pose_mm": [
+    108.6,
+    120.925,
+    0
+  ],
+  "official_edge_datum_aligned": true,
+  "SH_edge_nominal_mm": 0.325,
+  "SH_edge_local_rule_mm": 0.3,
+  "global_edge_clearance_mm": 0.5,
+  "DRC_violations": 629,
+  "unconnected": 411,
+  "drc_by_type": {
+    "courtyards_overlap": 199,
+    "npth_inside_courtyard": 18,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 16,
+    "text_height": 2,
+    "silk_over_copper": 192,
+    "silk_overlap": 199
+  },
+  "whole_board_drc_pass": false,
+  "fabrication_ready": false
+}

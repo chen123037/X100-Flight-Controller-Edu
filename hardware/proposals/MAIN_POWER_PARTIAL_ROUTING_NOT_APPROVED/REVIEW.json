@@ -1,0 +1,89 @@
+{
+  "scope": "PARTIAL_MAIN_POWER_GROUND_RETURN_CHECKPOINT_NOT_FULL_PCB",
+  "executor": "plant_kicad_v1",
+  "formal_baseline_unchanged": "POST_L101_FORMAL_BASELINE",
+  "electrical_count": 241,
+  "footprints": 245,
+  "onboard_footprints": 71,
+  "retained_offboard_footprints": 174,
+  "all_footprint_UUIDs_paths_values_pad_nets_preserved": true,
+  "only_placement_change_from_prior_main_module": "C107 F(107.5,103.5,90)",
+  "tracks": 22,
+  "vias": 14,
+  "via_diameter_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "GND_through_vias": 12,
+  "GND_vias_near_EP": 3,
+  "GND_vias_at_D103_anode": 3,
+  "GND_vias_at_C105_negative": 2,
+  "filled_zone": {
+    "net": "GND",
+    "layer": "In1.Cu",
+    "polygons": 1
+  },
+  "native_connected_checks": [
+    {
+      "net": "MAIN_SW",
+      "endpoints": [
+        "U101.8",
+        "D103.K",
+        "L101.1",
+        "C107.2"
+      ],
+      "physically_connected": true,
+      "reachable_copper_items": 10
+    },
+    {
+      "net": "MAIN_BOOT",
+      "endpoints": [
+        "U101.1",
+        "C107.1"
+      ],
+      "physically_connected": true,
+      "reachable_copper_items": 6
+    },
+    {
+      "net": "GND_RETURN",
+      "endpoints": [
+        "U101.7",
+        "U101.9",
+        "C106.2",
+        "C103.2",
+        "D103.A",
+        "C105.2",
+        "C108.2",
+        "R104.2",
+        "R106.2"
+      ],
+      "physically_connected": true,
+      "reachable_copper_items": 38
+    }
+  ],
+  "negative_control_C103_VBAT_still_not_connected": true,
+  "new_C107_courtyard_pairs": [],
+  "native_electrical_violations": {},
+  "reported_DRC": 149,
+  "unconnected_reported": 499,
+  "DRC_types": {
+    "courtyards_overlap": 27,
+    "npth_inside_courtyard": 4,
+    "pth_inside_courtyard": 3,
+    "silk_edge_clearance": 2,
+    "text_height": 2,
+    "silk_over_copper": 59,
+    "silk_overlap": 52
+  },
+  "native_parity": 0,
+  "source_classification": "Contains unapproved USB/Y201 candidate; never whole-copy formal",
+  "remaining": [
+    "input protection and fullVIN routing",
+    "5V output/feedback/COMP/EN/RT signal routing",
+    "all174 offboard components and complete placement",
+    "heat spreading and via current capability",
+    "whole-board signal/return/DFM"
+  ],
+  "POWER_SAFETY_REVIEW": "NOT_COMPLETE",
+  "PCB_MANUFACTURING_PACKAGE": "NOT_READY"
+}

@@ -1645,20 +1645,385 @@
 				)
 			)
 		)
+		(symbol "X100_Physical:Amphenol_124019772112A"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 14.7 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "124019772112A"
+				(at 0 -14.7 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Amphenol_124019772112A_0_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Amphenol_124019772112A_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.619999999999999 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.079999999999999 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.539999999999999 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.540000000000001 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.080000000000002 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.620000000000001 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.619999999999999 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.079999999999999 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.539999999999999 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.540000000000001 180)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.080000000000002 180)
+					(length 2.54)
+					(name "B9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.620000000000001 180)
+					(length 2.54)
+					(name "B12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "USB DATA ONLY + VBUS SENSE. Battery/bench power required."
-		(at 205 13.97 0)
+		(at 20 27 0)
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid c1e2740f-167c-48a3-9e3f-571251accdec)
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33)
-			(xy 135.89000000000001 100.33)
+			(xy 111.76 104.14)
+			(xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +2033,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 135.89000000000001 100.33 180)
+		(at 105.41 104.14 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1676,7 +2041,7 @@
 		)
 		(uuid 9eb14bcb-407c-459c-ac33-e9259357b6bc)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 100.33 0)
+			(at 105.41 104.14 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1687,8 +2052,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 102.86999999999999)
-			(xy 135.89000000000001 102.86999999999999)
+			(xy 111.76 106.68)
+			(xy 105.41 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +2063,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 135.89000000000001 102.86999999999999 180)
+		(at 105.41 106.68 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1706,7 +2071,7 @@
 		)
 		(uuid c6d44cdb-f9a1-4fb2-994c-2dcae108bafe)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 102.86999999999999 0)
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1717,8 +2082,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41)
-			(xy 135.89000000000001 105.41)
+			(xy 111.76 109.22)
+			(xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +2093,7 @@
 	)
 	(global_label "USB_CC1"
 		(shape bidirectional)
-		(at 135.89000000000001 105.41 180)
+		(at 105.41 109.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1736,7 +2101,7 @@
 		)
 		(uuid 73a724bc-cd2a-4953-a581-71a80d5085a0)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 105.41 0)
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1747,8 +2112,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.94999999999999)
-			(xy 135.89000000000001 107.94999999999999)
+			(xy 111.76 111.76)
+			(xy 105.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +2123,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 135.89000000000001 107.94999999999999 180)
+		(at 105.41 111.76 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1766,7 +2131,7 @@
 		)
 		(uuid 7eb94aff-0c5d-45ef-bebf-3ede8b77144d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 107.94999999999999 0)
+			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1777,8 +2142,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49)
-			(xy 135.89000000000001 110.49)
+			(xy 111.76 114.3)
+			(xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +2153,7 @@
 	)
 	(global_label "USB_DM"
 		(shape bidirectional)
-		(at 135.89000000000001 110.49 180)
+		(at 105.41 114.3 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1796,7 +2161,7 @@
 		)
 		(uuid 00052800-0d30-466a-9b03-a047a5b5d44a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 110.49 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1806,13 +2171,13 @@
 		)
 	)
 	(no_connect
-		(at 142.24 113.03)
+		(at 111.76 116.84)
 		(uuid c909b1f4-6258-4851-86ce-105bbeb9cc79)
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57)
-			(xy 135.89000000000001 115.57)
+			(xy 111.76 119.38)
+			(xy 105.41 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +2187,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 135.89000000000001 115.57 180)
+		(at 105.41 119.38 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1830,7 +2195,7 @@
 		)
 		(uuid 44e68107-32b2-4e15-be5b-c42c1192f294)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 115.57 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1841,8 +2206,8 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 118.11)
-			(xy 135.89000000000001 118.11)
+			(xy 111.76 121.92)
+			(xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +2217,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 135.89000000000001 118.11 180)
+		(at 105.41 121.92 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1860,7 +2225,7 @@
 		)
 		(uuid b9336517-9982-4e6b-9b20-6a70c8bcc4f9)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89000000000001 118.11 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1871,8 +2236,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 100.33)
-			(xy 163.83 100.33)
+			(xy 127 104.14)
+			(xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +2247,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 163.83 100.33 0)
+		(at 133.35 104.14 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1890,7 +2255,7 @@
 		)
 		(uuid 9e2732b1-9803-4083-94bd-67cfef5edde3)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 100.33 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1901,8 +2266,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 102.86999999999999)
-			(xy 163.83 102.86999999999999)
+			(xy 127 106.68)
+			(xy 133.35 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2277,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 163.83 102.86999999999999 0)
+		(at 133.35 106.68 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1920,7 +2285,7 @@
 		)
 		(uuid ecad42d2-50ef-4968-bca5-c41e9e1bd3f6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 102.86999999999999 0)
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1931,8 +2296,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 105.41)
-			(xy 163.83 105.41)
+			(xy 127 109.22)
+			(xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2307,7 @@
 	)
 	(global_label "USB_CC2"
 		(shape bidirectional)
-		(at 163.83 105.41 0)
+		(at 133.35 109.22 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1950,7 +2315,7 @@
 		)
 		(uuid 4878fdad-bc2d-440e-a6ee-8e3a1d839062)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 105.41 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1961,8 +2326,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 107.94999999999999)
-			(xy 163.83 107.94999999999999)
+			(xy 127 111.76)
+			(xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2337,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 163.83 107.94999999999999 0)
+		(at 133.35 111.76 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -1980,7 +2345,7 @@
 		)
 		(uuid c293594f-aab2-4f7c-8964-a1316cbbd786)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 107.94999999999999 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -1991,8 +2356,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 110.49)
-			(xy 163.83 110.49)
+			(xy 127 114.3)
+			(xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2367,7 @@
 	)
 	(global_label "USB_DM"
 		(shape bidirectional)
-		(at 163.83 110.49 0)
+		(at 133.35 114.3 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2010,7 +2375,7 @@
 		)
 		(uuid 5c67c09f-f489-4b5f-977d-224fe3839372)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 110.49 0)
+			(at 133.35 114.3 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2020,13 +2385,13 @@
 		)
 	)
 	(no_connect
-		(at 157.48000000000002 113.03)
+		(at 127 116.84)
 		(uuid e0c2ec0a-959b-4328-9f12-5fc5e53d1515)
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 115.57)
-			(xy 163.83 115.57)
+			(xy 127 119.38)
+			(xy 133.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2036,7 +2401,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 163.83 115.57 0)
+		(at 133.35 119.38 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2044,7 +2409,7 @@
 		)
 		(uuid 669f07f2-bd0c-4166-9f6f-5729e39043ce)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 115.57 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2055,8 +2420,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 118.11)
-			(xy 163.83 118.11)
+			(xy 127 121.92)
+			(xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2431,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 163.83 118.11 0)
+		(at 133.35 121.92 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2074,7 +2439,7 @@
 		)
 		(uuid dbbd232f-26d2-453b-ba35-5a6f6f498969)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 118.11 0)
+			(at 133.35 121.92 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2085,8 +2450,8 @@
 	)
 	(wire
 		(pts
-			(xy 157.48000000000002 120.64999999999999)
-			(xy 163.83 120.64999999999999)
+			(xy 127 124.46)
+			(xy 133.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2461,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 163.83 120.64999999999999 0)
+		(at 133.35 124.46 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2104,7 +2469,7 @@
 		)
 		(uuid d9de8c7d-47d8-460c-957d-30c06000b6ca)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 120.64999999999999 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2114,94 +2479,154 @@
 		)
 	)
 	(symbol
-		(lib_id "X100_Physical:GCT_USB4105_GF_A")
-		(at 149.86 110.49 0)
+		(lib_id "X100_Physical:Amphenol_124019772112A")
+		(at 119.38 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid 5d617aa3-1385-479d-957f-20d9a9a5b08b)
 		(property "Reference" "J401"
-			(at 149.86 85.08999999999999 0)
+			(at 119.38 129 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.9 0.9)
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A"
-			(at 149.86 87.63 0)
+		(property "Value" "124019772112A"
+			(at 119.38 99.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.9 0.9)
 				)
 			)
 		)
-		(property "Footprint" "X100_Physical:Official_Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 149.86 110.49 0)
+		(property "Footprint" "X100_Physical:Official_USB_C_Amphenol_124019772112A"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.gct.co/files/drawings/usb4105.pdf"
-			(at 149.86 110.49 0)
+		(property "MPN" "124019772112A"
+			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GCT"
-			(at 149.86 110.49 0)
+		(property "Package" "USB-C dual-row SMT / 4 plated SH slots"
+			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 149.86 110.49 0)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "default0.95mm stake Type-C16P"
-			(at 149.86 110.49 0)
-			(effects
-				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 149.86 110.49 0)
+			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(instances
-			(project "X100_CleanSheet"
-				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
-					(reference "J401")
-					(unit 1)
+		(property "LCSC" "C5430474"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Selection Status" "FINAL_SELECTED_FOR_V1"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verification Status" "DESIGN_REVIEWED_BENCH_PENDING"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Approval" "USER_APPROVED_2026-10-22"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mechanical Assembly" "Top mount; PCB 1.6mm; 0.50mm SH projection embedded in plated slots; solder from component side; inspect joint wetting"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
 			(uuid c9bbda30-b402-422c-bafd-957cbb2644d7)
+		)
+		(pin "A12"
+			(uuid 8d131038-b1e8-4124-9a53-0c34ba02c913)
 		)
 		(pin "A4"
 			(uuid 0f8b97f6-1821-4347-98ff-52c55167d4b8)
@@ -2221,11 +2646,11 @@
 		(pin "A9"
 			(uuid c112db88-b994-4edb-ae9d-0659a1c2ca4d)
 		)
-		(pin "A12"
-			(uuid 8d131038-b1e8-4124-9a53-0c34ba02c913)
-		)
 		(pin "B1"
 			(uuid 2ab7f3f7-858c-4de2-a901-ce1040b81093)
+		)
+		(pin "B12"
+			(uuid f47754c3-e70b-436a-8686-eddbfaa28016)
 		)
 		(pin "B4"
 			(uuid 481ae7c6-1b49-4bb4-808e-5511737cd57c)
@@ -2245,11 +2670,17 @@
 		(pin "B9"
 			(uuid 1146dc80-444e-4192-a878-08f23a01a79c)
 		)
-		(pin "B12"
-			(uuid f47754c3-e70b-436a-8686-eddbfaa28016)
-		)
 		(pin "SH"
 			(uuid 1c95cb14-5ed9-47f5-aff7-49f5fb45b1bd)
+		)
+		(uuid 5d617aa3-1385-479d-957f-20d9a9a5b08b)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
+					(reference "J401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	
@@ -2267,7 +2698,7 @@
 	
 	(symbol
 		(lib_id "X100_Physical:TPD2E2U06QDBZRQ1")
-		(at 279.4 85.09 0)
+		(at 355.6 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2275,23 +2706,23 @@
 		(dnp no)
 		(uuid 534c31e1-ea60-4127-907f-763012a2b498)
 		(property "Reference" "U401"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "TPD2E2U06QDBZRQ1"
-			(at 279.4 92.71000000000001 0)
+			(at 355.6 86.36 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:TI_TPD2E2U06_DBZ0003A"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2300,7 +2731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2309,7 +2740,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2318,7 +2749,7 @@
 			)
 		)
 		(property "MPN" "TPD2E2U06QDBZRQ1"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2327,7 +2758,7 @@
 			)
 		)
 		(property "Package" "DBZ / SOT-23-3"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2336,7 +2767,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2353,7 +2784,7 @@
 			)
 		)
 		(property "LCSC" "C488151"
-			(at 279.4 77.47 0)
+			(at 355.6 71.12 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2373,8 +2804,8 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 172.72)
-			(xy 129.54 166.37)
+			(xy 66.04 243.84)
+			(xy 66.04 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2815,7 @@
 	)
 	(global_label "USB_CC1"
 		(shape bidirectional)
-		(at 129.54 166.37 0)
+		(at 66.04 237.49 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2392,7 +2823,7 @@
 		)
 		(uuid 8576bc08-6d9f-4c12-b7f5-a07df33cd35b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 166.37 0)
+			(at 66.04 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2403,8 +2834,8 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 180.34)
-			(xy 129.54 186.69)
+			(xy 66.04 251.46)
+			(xy 66.04 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2845,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 129.54 186.69 0)
+		(at 66.04 257.81 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2422,7 +2853,7 @@
 		)
 		(uuid c2f0e202-e56a-4e13-a3be-3204ade6f568)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 186.69 0)
+			(at 66.04 257.81 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2433,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_5k1")
-		(at 129.54 176.53 0)
+		(at 66.04 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2441,25 +2872,25 @@
 		(dnp no)
 		(uuid ba5c451e-38ab-4227-a940-02152f8d01fe)
 		(property "Reference" "R401"
-			(at 137.16 175.26 0)
+			(at 73.66 246.38 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5.1k CC1 Rd"
-			(at 137.16 177.8 0)
+			(at 73.66 248.92 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2468,7 +2899,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-075K1L"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2477,7 +2908,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2486,7 +2917,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-075K1L"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2495,7 +2926,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2504,7 +2935,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2513,7 +2944,7 @@
 			)
 		)
 		(property "Specification Value" "5k1 ohm"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2522,7 +2953,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2531,7 +2962,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2540,7 +2971,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2549,7 +2980,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 129.54 176.53 0)
+			(at 66.04 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2574,8 +3005,8 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 172.72)
-			(xy 195.58 166.37)
+			(xy 130.81 243.84)
+			(xy 130.81 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +3016,7 @@
 	)
 	(global_label "USB_CC2"
 		(shape bidirectional)
-		(at 195.58 166.37 0)
+		(at 130.81 237.49 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2593,7 +3024,7 @@
 		)
 		(uuid 807650f9-3006-46a9-86d1-ffb65fc5f571)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 166.37 0)
+			(at 130.81 237.49 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2604,8 +3035,8 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 180.34)
-			(xy 195.58 186.69)
+			(xy 130.81 251.46)
+			(xy 130.81 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +3046,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 195.58 186.69 0)
+		(at 130.81 257.81 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2623,7 +3054,7 @@
 		)
 		(uuid 1e93383b-3922-4e15-a26a-9767e08bc51f)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 186.69 0)
+			(at 130.81 257.81 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2634,7 +3065,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_5k1")
-		(at 195.58 176.53 0)
+		(at 130.81 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2642,25 +3073,25 @@
 		(dnp no)
 		(uuid 3b5e4dd2-6d1e-4c64-ac3d-a3abeef3b874)
 		(property "Reference" "R402"
-			(at 203.20000000000002 175.26 0)
+			(at 138.43 246.38 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5.1k CC2 Rd"
-			(at 203.20000000000002 177.8 0)
+			(at 138.43 248.92 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2669,7 +3100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-075K1L"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2678,7 +3109,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2687,7 +3118,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-075K1L"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2696,7 +3127,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2705,7 +3136,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2714,7 +3145,7 @@
 			)
 		)
 		(property "Specification Value" "5k1 ohm"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2723,7 +3154,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2732,7 +3163,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2741,7 +3172,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2750,7 +3181,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 195.58 176.53 0)
+			(at 130.81 247.65 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2775,8 +3206,8 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 83.82)
-			(xy 359.41 77.47)
+			(xy 500.38 157.48)
+			(xy 500.38 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +3217,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 359.41 77.47 0)
+		(at 500.38 151.13 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2794,7 +3225,7 @@
 		)
 		(uuid 65f95bb7-1f0b-48d2-9e7a-7837a9f5e634)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 77.47 0)
+			(at 500.38 151.13 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2805,8 +3236,8 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 91.44)
-			(xy 359.41 97.78999999999999)
+			(xy 500.38 165.1)
+			(xy 500.38 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +3247,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 359.41 97.78999999999999 0)
+		(at 500.38 171.45 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2824,7 +3255,7 @@
 		)
 		(uuid d544f188-d053-4380-8002-10a62493b8c1)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 97.78999999999999 0)
+			(at 500.38 171.45 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2835,7 +3266,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_100n")
-		(at 359.41 87.63 0)
+		(at 500.38 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2843,25 +3274,25 @@
 		(dnp no)
 		(uuid 6b39e344-227a-4b64-8077-ad3911ea47ce)
 		(property "Reference" "C401"
-			(at 367.03000000000003 86.36 0)
+			(at 508 160.02 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n clamp bypass only"
-			(at 367.03000000000003 88.89999999999999 0)
+			(at 508 162.56 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0805_2012Metric"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2870,7 +3301,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0805C104K5RACTU"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2879,7 +3310,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2888,7 +3319,7 @@
 			)
 		)
 		(property "MPN" "C0805C104K5RACTU"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2897,7 +3328,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2906,7 +3337,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2915,7 +3346,7 @@
 			)
 		)
 		(property "Specification Value" "100nF"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2924,7 +3355,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2933,7 +3364,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2942,7 +3373,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2951,7 +3382,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 359.41 87.63 0)
+			(at 500.38 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -2976,8 +3407,8 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 148.59)
-			(xy 265.43 142.24)
+			(xy 328.93 240.03)
+			(xy 322.58 240.03)
 		)
 		(stroke
 			(width 0)
@@ -2987,7 +3418,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 265.43 142.24 0)
+		(at 322.58 240.03 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2995,7 +3426,7 @@
 		)
 		(uuid 198bc0e9-db71-4fbb-956d-5c58c59ec48d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 142.24 0)
+			(at 322.58 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3006,8 +3437,8 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 156.21)
-			(xy 265.43 162.56)
+			(xy 336.55 240.03)
+			(xy 342.9 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +3448,7 @@
 	)
 	(global_label "VBUS_BUF_A"
 		(shape bidirectional)
-		(at 265.43 162.56 0)
+		(at 342.9 240.03 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3025,7 +3456,7 @@
 		)
 		(uuid cff23448-bfe5-4a5d-804c-c1f3d2537c2a)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 162.56 0)
+			(at 342.9 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3036,7 +3467,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_10k")
-		(at 265.43 152.4 0)
+		(at 332.74 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,25 +3475,25 @@
 		(dnp no)
 		(uuid d02e4b06-9d91-4a30-b96c-825ae5d18928)
 		(property "Reference" "R403"
-			(at 273.05 151.13 0)
+			(at 339.09 232.41 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10k detection input"
-			(at 273.05 153.67000000000002 0)
+			(at 339.09 236.22 90)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3071,7 +3502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710KL"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3080,7 +3511,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3089,7 +3520,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0710KL"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3098,7 +3529,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3107,7 +3538,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3116,7 +3547,7 @@
 			)
 		)
 		(property "Specification Value" "10k ohm"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3125,7 +3556,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3134,7 +3565,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3143,7 +3574,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3152,7 +3583,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 265.43 152.4 0)
+			(at 332.74 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3177,8 +3608,8 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 148.59)
-			(xy 325.12 142.24)
+			(xy 400.05 271.78)
+			(xy 400.05 265.43)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +3619,7 @@
 	)
 	(global_label "VBUS_BUF_A"
 		(shape bidirectional)
-		(at 325.12 142.24 0)
+		(at 400.05 265.43 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3196,7 +3627,7 @@
 		)
 		(uuid 5744d650-9f5c-4549-88e5-ecf5f2c56ee5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.12 142.24 0)
+			(at 400.05 265.43 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3207,8 +3638,8 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 156.21)
-			(xy 325.12 162.56)
+			(xy 400.05 279.4)
+			(xy 400.05 285.75)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +3649,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 325.12 162.56 0)
+		(at 400.05 285.75 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3226,7 +3657,7 @@
 		)
 		(uuid 2f75ccf8-3b14-4bea-a081-ffd99bc3612c)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.12 162.56 0)
+			(at 400.05 285.75 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3237,7 +3668,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:R_100k")
-		(at 325.12 152.4 0)
+		(at 400.05 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3245,25 +3676,25 @@
 		(dnp no)
 		(uuid f0e39f10-29b2-4a2c-bd9d-4f003f9a93d4)
 		(property "Reference" "R404"
-			(at 332.74 151.13 0)
+			(at 407.67 274.32 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100k unplug LOW"
-			(at 332.74 153.67000000000002 0)
+			(at 407.67 276.86 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3272,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100KL"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3281,7 +3712,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3290,7 +3721,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-07100KL"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3299,7 +3730,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3308,7 +3739,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3317,7 +3748,7 @@
 			)
 		)
 		(property "Specification Value" "100k ohm"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3326,7 +3757,7 @@
 			)
 		)
 		(property "Tolerance" "1%; TCR<=100ppm/C"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3335,7 +3766,7 @@
 			)
 		)
 		(property "Dielectric" "N/A"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3344,7 +3775,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=100V"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3353,7 +3784,7 @@
 			)
 		)
 		(property "Power Rating" ">=0.125W"
-			(at 325.12 152.4 0)
+			(at 400.05 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3377,13 +3808,13 @@
 		)
 	)
 	(no_connect
-		(at 312.42 199.39)
+		(at 447.04 234.95)
 		(uuid edce1835-4c69-47d6-9b05-3f4c9b917645)
 	)
 	(wire
 		(pts
-			(xy 307.34000000000003 204.47)
-			(xy 300.99 204.47)
+			(xy 441.96 240.03)
+			(xy 435.61 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3824,7 @@
 	)
 	(global_label "VBUS_BUF_A"
 		(shape bidirectional)
-		(at 300.99 204.47 180)
+		(at 435.61 240.03 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3401,7 +3832,7 @@
 		)
 		(uuid 6a65a701-a12b-4a26-b305-77296ff005c0)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.99 204.47 0)
+			(at 435.61 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3412,8 +3843,8 @@
 	)
 	(wire
 		(pts
-			(xy 314.96000000000004 214.63)
-			(xy 314.96000000000004 220.98)
+			(xy 449.58 250.19)
+			(xy 449.58 256.54)
 		)
 		(stroke
 			(width 0)
@@ -3423,7 +3854,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 314.96000000000004 220.98 0)
+		(at 449.58 256.54 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3431,7 +3862,7 @@
 		)
 		(uuid c7ffe032-68cd-4973-93b5-1727c0c4a48b)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.96000000000004 220.98 0)
+			(at 449.58 256.54 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3442,8 +3873,8 @@
 	)
 	(wire
 		(pts
-			(xy 330.20000000000005 204.47)
-			(xy 336.55000000000007 204.47)
+			(xy 464.82 240.03)
+			(xy 471.17 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3884,7 @@
 	)
 	(global_label "USB_VBUS_SENSE"
 		(shape bidirectional)
-		(at 336.55000000000007 204.47 0)
+		(at 471.17 240.03 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3461,7 +3892,7 @@
 		)
 		(uuid 4f669531-6e3c-4b4e-8168-6ac28967e487)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.55000000000007 204.47 0)
+			(at 471.17 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3472,8 +3903,8 @@
 	)
 	(wire
 		(pts
-			(xy 314.96000000000004 194.31)
-			(xy 314.96000000000004 187.96)
+			(xy 449.58 229.87)
+			(xy 449.58 223.52)
 		)
 		(stroke
 			(width 0)
@@ -3483,8 +3914,8 @@
 	)
 	(wire
 		(pts
-			(xy 314.96000000000004 187.96)
-			(xy 318.77000000000004 187.96)
+			(xy 449.58 223.52)
+			(xy 453.39 223.52)
 		)
 		(stroke
 			(width 0)
@@ -3494,7 +3925,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 318.77000000000004 187.96 0)
+		(at 453.39 223.52 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3502,7 +3933,7 @@
 		)
 		(uuid 7ead0055-94cf-4329-a34c-3254cdf3d7c6)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.77000000000004 187.96 0)
+			(at 453.39 223.52 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3513,7 +3944,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:SN74LVC1G17DBVR")
-		(at 320.04 204.47 0)
+		(at 454.66 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3521,23 +3952,23 @@
 		(dnp no)
 		(uuid c42174d4-7c06-4811-b2a9-2546cf4d7a7a)
 		(property "Reference" "U402"
-			(at 320.04 179.07000000000002 0)
+			(at 454.66 214.63 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "SN74LVC1G17DBVR"
-			(at 320.04 181.61 0)
+			(at 454.66 217.17 0)
 			(effects
 				(font
-					(size 0.9 0.9)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Package_TO_SOT_SMD_SOT-23-5"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3546,7 +3977,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3555,7 +3986,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3564,7 +3995,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC1G17DBVR"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3573,7 +4004,7 @@
 			)
 		)
 		(property "Package" "DBV5 SOT23-5"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3582,7 +4013,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 320.04 204.47 0)
+			(at 454.66 240.03 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3616,8 +4047,8 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 200.66)
-			(xy 250.19 194.31)
+			(xy 532.13 271.78)
+			(xy 532.13 265.43)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +4058,7 @@
 	)
 	(global_label "3V3_MCU"
 		(shape bidirectional)
-		(at 250.19 194.31 0)
+		(at 532.13 265.43 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3635,7 +4066,7 @@
 		)
 		(uuid bd03cfa7-9641-4695-b5f5-b692cf53f11d)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 194.31 0)
+			(at 532.13 265.43 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3646,8 +4077,8 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 208.28)
-			(xy 250.19 214.63)
+			(xy 532.13 279.4)
+			(xy 532.13 285.75)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +4088,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 250.19 214.63 0)
+		(at 532.13 285.75 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3665,7 +4096,7 @@
 		)
 		(uuid c503e202-270e-4d97-8135-18c695cd33bd)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 214.63 0)
+			(at 532.13 285.75 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3676,7 +4107,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:C_100n6")
-		(at 250.19 204.47 0)
+		(at 532.13 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3684,25 +4115,25 @@
 		(dnp no)
 		(uuid ba465b4c-570d-45e8-96bb-bfbe89934e2c)
 		(property "Reference" "C402"
-			(at 257.81 203.2 0)
+			(at 539.75 274.32 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n buffer VCC"
-			(at 257.81 205.74 0)
+			(at 539.75 276.86 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3711,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3720,7 +4151,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3729,7 +4160,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3738,7 +4169,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3747,7 +4178,7 @@
 			)
 		)
 		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3756,7 +4187,7 @@
 			)
 		)
 		(property "Specification Value" "100nF"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3765,7 +4196,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3774,7 +4205,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3783,7 +4214,7 @@
 			)
 		)
 		(property "Voltage Rating" ">=50V"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3792,7 +4223,7 @@
 			)
 		)
 		(property "Power Rating" "N/A"
-			(at 250.19 204.47 0)
+			(at 532.13 275.59 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3816,27 +4247,29 @@
 		)
 	)
 	(text "PA9 is software VBUS sense: configure GPIO input/session control; no raw5V on an unpowered MCU."
-		(at 205 250 0)
+		(at 20 382 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid cdc1cbba-e273-489e-a7e6-5e2507974531)
 	)
 	(text "NO power OR, NO USB supply diode, NO USB connection to any main/sensor rail."
-		(at 205 270 0)
+		(at 20 392 0)
 		(effects
 			(font
-				(size 1.1 1.1)
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid f5a3f2b3-069c-449a-8c44-252738e6a67e)
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 35.56)
-			(xy 509.2700000000001 35.56)
+			(xy 280.67 342.9)
+			(xy 274.32 342.9)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +4279,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 509.2700000000001 35.56 180)
+		(at 274.32 342.9 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3854,7 +4287,7 @@
 		)
 		(uuid ca8c54de-3b49-4aba-b866-8bdc7d263fe5)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 35.56 0)
+			(at 274.32 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3865,7 +4298,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 35.56 0)
+		(at 284.48 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3873,25 +4306,25 @@
 		(dnp no)
 		(uuid 1eac3b9a-1659-4416-94df-8b5e46737ec2)
 		(property "Reference" "TP401"
-			(at 527.0500000000001 34.29 0)
+			(at 292.1 341.63 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "USB_VBUS_RAW"
-			(at 527.0500000000001 36.830000000000005 0)
+			(at 292.1 344.17 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 35.56 0)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3900,7 +4333,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 35.56 0)
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3909,7 +4342,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 35.56 0)
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3917,8 +4350,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
-			(at 519.4300000000001 35.56 0)
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3926,8 +4359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 35.56 0)
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3936,7 +4369,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 35.56 0)
+			(at 284.48 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3944,6 +4377,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 284.48 342.9 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
@@ -3958,8 +4394,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 43.18)
-			(xy 509.2700000000001 43.18)
+			(xy 372.11 342.9)
+			(xy 365.76 342.9)
 		)
 		(stroke
 			(width 0)
@@ -3969,7 +4405,7 @@
 	)
 	(global_label "USB_VBUS_SENSE"
 		(shape bidirectional)
-		(at 509.2700000000001 43.18 180)
+		(at 365.76 342.9 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -3977,7 +4413,7 @@
 		)
 		(uuid d789e0b2-cf25-428a-ad48-39459441eead)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 43.18 0)
+			(at 365.76 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -3988,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 43.18 0)
+		(at 375.92 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3996,25 +4432,25 @@
 		(dnp no)
 		(uuid b335c4e7-7b0c-4151-87f5-4bcd45efe181)
 		(property "Reference" "TP402"
-			(at 527.0500000000001 41.91 0)
+			(at 383.54 341.63 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "USB_VBUS_SENSE"
-			(at 527.0500000000001 44.45 0)
+			(at 383.54 344.17 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 43.18 0)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4023,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 43.18 0)
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4032,7 +4468,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 43.18 0)
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4040,8 +4476,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
-			(at 519.4300000000001 43.18 0)
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4049,8 +4485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 43.18 0)
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4059,7 +4495,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 43.18 0)
+			(at 375.92 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4067,6 +4503,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 375.92 342.9 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
@@ -4081,8 +4520,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 50.8)
-			(xy 509.2700000000001 50.8)
+			(xy 463.55 342.9)
+			(xy 457.2 342.9)
 		)
 		(stroke
 			(width 0)
@@ -4092,7 +4531,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 509.2700000000001 50.8 180)
+		(at 457.2 342.9 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4100,7 +4539,7 @@
 		)
 		(uuid 129df123-7cf8-472b-848c-cac982d890ad)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 50.8 0)
+			(at 457.2 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4111,7 +4550,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP0p6")
-		(at 519.4300000000001 50.8 0)
+		(at 467.36 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4119,25 +4558,25 @@
 		(dnp no)
 		(uuid 0dd64b8e-790d-49a7-940e-f27f4162c251)
 		(property "Reference" "TP403"
-			(at 527.0500000000001 49.529999999999994 0)
+			(at 474.98 341.63 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "USB_DP"
-			(at 527.0500000000001 52.07 0)
+			(at 474.98 344.17 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4146,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "C/D high-speed testpoint policy"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4155,7 +4594,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4164,7 +4603,7 @@
 			)
 		)
 		(property "MPN" "TP0p6"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4173,7 +4612,7 @@
 			)
 		)
 		(property "Package" "0.6mm inline probe"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4182,7 +4621,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 50.8 0)
+			(at 467.36 342.9 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4204,8 +4643,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 58.42)
-			(xy 509.2700000000001 58.42)
+			(xy 280.67 363.22)
+			(xy 274.32 363.22)
 		)
 		(stroke
 			(width 0)
@@ -4215,7 +4654,7 @@
 	)
 	(global_label "USB_DM"
 		(shape bidirectional)
-		(at 509.2700000000001 58.42 180)
+		(at 274.32 363.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4223,7 +4662,7 @@
 		)
 		(uuid a22f098a-e8ec-42f7-96e3-a16fd5b2378e)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 58.42 0)
+			(at 274.32 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4234,7 +4673,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP0p6")
-		(at 519.4300000000001 58.42 0)
+		(at 284.48 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4242,25 +4681,25 @@
 		(dnp no)
 		(uuid 356ca16a-8d61-44f8-9b12-baa2e07fa338)
 		(property "Reference" "TP404"
-			(at 527.0500000000001 57.15 0)
+			(at 292.1 361.95 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "USB_DM"
-			(at 527.0500000000001 59.690000000000005 0)
+			(at 292.1 364.49 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4269,7 +4708,7 @@
 			)
 		)
 		(property "Datasheet" "C/D high-speed testpoint policy"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4278,7 +4717,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4287,7 +4726,7 @@
 			)
 		)
 		(property "MPN" "TP0p6"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4296,7 +4735,7 @@
 			)
 		)
 		(property "Package" "0.6mm inline probe"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4305,7 +4744,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 58.42 0)
+			(at 284.48 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4327,8 +4766,8 @@
 	)
 	(wire
 		(pts
-			(xy 515.6200000000001 67.31)
-			(xy 509.2700000000001 67.31)
+			(xy 372.11 363.22)
+			(xy 365.76 363.22)
 		)
 		(stroke
 			(width 0)
@@ -4338,7 +4777,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 509.2700000000001 67.31 180)
+		(at 365.76 363.22 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4346,7 +4785,7 @@
 		)
 		(uuid c57601fd-e5fa-478c-8849-9ff8e26be376)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.2700000000001 67.31 0)
+			(at 365.76 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4357,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TP1p5")
-		(at 519.4300000000001 67.31 0)
+		(at 375.92 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4365,25 +4804,25 @@
 		(dnp no)
 		(uuid 15b02b32-c7ee-4ce7-9904-268b8fc6c4a5)
 		(property "Reference" "TP405"
-			(at 527.0500000000001 66.04 0)
+			(at 383.54 361.95 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GND"
-			(at 527.0500000000001 68.58 0)
+			(at 383.54 364.49 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
-			(at 519.4300000000001 67.31 0)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4392,7 +4831,7 @@
 			)
 		)
 		(property "Datasheet" "C/D testpoint policy"
-			(at 519.4300000000001 67.31 0)
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4401,7 +4840,7 @@
 			)
 		)
 		(property "Manufacturer" "X100 PCB feature"
-			(at 519.4300000000001 67.31 0)
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4409,8 +4848,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TP1p5"
-			(at 519.4300000000001 67.31 0)
+		(property "MPN" "PCB_TESTPAD_0P6_NO_PASTE"
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4418,8 +4857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1.5mm top probe"
-			(at 519.4300000000001 67.31 0)
+		(property "Package" "PCB feature: 0.6mm exposed round test land; no paste"
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4428,7 +4867,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_FROZEN"
-			(at 519.4300000000001 67.31 0)
+			(at 375.92 363.22 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4436,6 +4875,9 @@
 				(hide yes)
 			)
 		)
+    (property "Layout Note" "0.6mm probe land, unchanged 0.5mm probe envelope; fine-tip probing; all 65 net accesses retained" (at 375.92 363.22 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(instances
 			(project "X100_CleanSheet"
 				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/b5486f2c-43ef-4124-ae2d-8650a60747f3"
@@ -4450,7 +4892,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 30.48 17.78 0)
+		(at 115.57 335.28 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -4460,8 +4902,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 17.78)
-			(xy 55.879999999999995 17.78)
+			(xy 115.57 335.28)
+			(xy 140.97 335.28)
 		)
 		(stroke
 			(width 0)
@@ -4471,7 +4913,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 55.879999999999995 17.78 0)
+		(at 140.97 335.28 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4479,7 +4921,7 @@
 		)
 		(uuid f75c0689-bdda-4498-9dab-41f114e45e06)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 17.78 0)
+			(at 140.97 335.28 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4490,7 +4932,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 30.48 21.59 0)
+		(at 27.94 335.28 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -4500,8 +4942,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 21.59)
-			(xy 55.879999999999995 21.59)
+			(xy 27.94 335.28)
+			(xy 53.34 335.28)
 		)
 		(stroke
 			(width 0)
@@ -4511,7 +4953,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 55.879999999999995 21.59 0)
+		(at 53.34 335.28 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4519,7 +4961,7 @@
 		)
 		(uuid 81e8dbb8-d330-4154-a1af-36d49c7328a2)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 21.59 0)
+			(at 53.34 335.28 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4530,7 +4972,7 @@
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
-		(at 30.48 25.400000000000002 0)
+		(at 27.94 339.09 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -4540,8 +4982,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.400000000000002)
-			(xy 55.879999999999995 25.400000000000002)
+			(xy 27.94 339.09)
+			(xy 53.34 339.09)
 		)
 		(stroke
 			(width 0)
@@ -4551,7 +4993,7 @@
 	)
 	(global_label "USB_DM"
 		(shape bidirectional)
-		(at 55.879999999999995 25.400000000000002 0)
+		(at 53.34 339.09 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4559,7 +5001,7 @@
 		)
 		(uuid 8632f1ba-f97b-40ac-a9bf-788ccdec819e)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 25.400000000000002 0)
+			(at 53.34 339.09 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4570,7 +5012,7 @@
 	)
 	(hierarchical_label "USB_VBUS_SENSE"
 		(shape bidirectional)
-		(at 30.48 29.21 0)
+		(at 115.57 339.09 0)
 		(effects
 			(font
 				(size 0.85 0.85)
@@ -4580,8 +5022,8 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 29.21)
-			(xy 55.879999999999995 29.21)
+			(xy 115.57 339.09)
+			(xy 140.97 339.09)
 		)
 		(stroke
 			(width 0)
@@ -4591,7 +5033,7 @@
 	)
 	(global_label "USB_VBUS_SENSE"
 		(shape bidirectional)
-		(at 55.879999999999995 29.21 0)
+		(at 140.97 339.09 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4599,7 +5041,7 @@
 		)
 		(uuid 68cefe15-017d-4f97-a92b-e2776fe99f19)
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.879999999999995 29.21 0)
+			(at 140.97 339.09 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4612,14 +5054,14 @@
 
 	(symbol
 		(lib_id "X100_Physical:TPD2E2U06QDBZRQ1")
-		(at 279.4 115.57 0)
+		(at 355.6 161.29 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1c7c5636-670e-4946-88a0-ddd7792d3277")
 		(property "Reference" "U403"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +5069,7 @@
 			)
 		)
 		(property "Value" "TPD2E2U06QDBZRQ1"
-			(at 279.4 123.19 0)
+			(at 355.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5077,7 @@
 			)
 		)
 		(property "Footprint" "X100_Physical:TI_TPD2E2U06_DBZ0003A"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +5086,7 @@
 			(hide yes)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +5095,7 @@
 			(hide yes)
 		)
 		(property "Description" "TI TPD2E2U06QDBZRQ1; DBZ0003A; two IO channels and GND only; internal clamp rail not bonded out; no VBUS power pin."
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +5104,7 @@
 			(hide yes)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4671,7 +5113,7 @@
 			)
 		)
 		(property "MPN" "TPD2E2U06QDBZRQ1"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4680,7 +5122,7 @@
 			)
 		)
 		(property "Package" "DBZ / SOT-23-3"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4689,7 +5131,7 @@
 			)
 		)
 		(property "LCSC" "C488151"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4698,7 +5140,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
-			(at 279.4 107.94999999999999 0)
+			(at 355.6 153.67 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4726,14 +5168,14 @@
 	)
 	(symbol
 		(lib_id "X100_Physical:TPD2E2U06QDBZRQ1")
-		(at 279.4 245.11 0)
+		(at 224.79 259.08 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2667c9e-7e46-4d3b-a66e-98c2ce018052")
 		(property "Reference" "U404"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +5183,7 @@
 			)
 		)
 		(property "Value" "TPD2E2U06QDBZRQ1"
-			(at 279.4 252.73000000000002 0)
+			(at 224.79 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +5191,7 @@
 			)
 		)
 		(property "Footprint" "X100_Physical:TI_TPD2E2U06_DBZ0003A"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +5200,7 @@
 			(hide yes)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e2u06-q1.pdf"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +5209,7 @@
 			(hide yes)
 		)
 		(property "Description" "TI TPD2E2U06QDBZRQ1; DBZ0003A; two IO channels and GND only; internal clamp rail not bonded out; no VBUS power pin."
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +5218,7 @@
 			(hide yes)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4785,7 +5227,7 @@
 			)
 		)
 		(property "MPN" "TPD2E2U06QDBZRQ1"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4794,7 +5236,7 @@
 			)
 		)
 		(property "Package" "DBZ / SOT-23-3"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4803,7 +5245,7 @@
 			)
 		)
 		(property "LCSC" "C488151"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4812,7 +5254,7 @@
 			)
 		)
 		(property "Procurement Policy" "EXACT_MPN_AUTHORIZED_PCB01F3; supplier listed; not ordered"
-			(at 279.4 237.49 0)
+			(at 224.79 251.46 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4840,8 +5282,8 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 82.55)
-			(xy 264.15999999999997 82.55)
+			(xy 347.98 76.2)
+			(xy 340.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4851,7 +5293,7 @@
 	)
 	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 264.15999999999997 82.55 180)
+		(at 340.36 76.2 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4859,7 +5301,7 @@
 		)
 		(uuid "6030696e-d0dc-4496-a006-b772c3f5bf0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.15999999999997 82.55 0)
+			(at 340.36 76.2 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4870,8 +5312,8 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 87.63000000000001)
-			(xy 264.15999999999997 87.63000000000001)
+			(xy 347.98 81.28)
+			(xy 340.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4881,7 +5323,7 @@
 	)
 	(global_label "USB_DM"
 		(shape bidirectional)
-		(at 264.15999999999997 87.63000000000001 180)
+		(at 340.36 81.28 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4889,7 +5331,7 @@
 		)
 		(uuid "5094096a-6156-4954-971e-a6242a016196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.15999999999997 87.63000000000001 0)
+			(at 340.36 81.28 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4900,8 +5342,8 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 85.09)
-			(xy 294.64 85.09)
+			(xy 363.22 78.74)
+			(xy 370.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +5353,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 294.64 85.09 0)
+		(at 370.84 78.74 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4919,7 +5361,7 @@
 		)
 		(uuid "1819b856-5118-4d19-9fcc-1c3542c457ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 85.09 0)
+			(at 370.84 78.74 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4930,8 +5372,8 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 113.02999999999999)
-			(xy 264.15999999999997 113.02999999999999)
+			(xy 347.98 158.75)
+			(xy 340.36 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4941,7 +5383,7 @@
 	)
 	(global_label "USB_VBUS_RAW"
 		(shape bidirectional)
-		(at 264.15999999999997 113.02999999999999 180)
+		(at 340.36 158.75 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4949,7 +5391,7 @@
 		)
 		(uuid "acbe319e-d00c-4646-8f52-cd8780106c20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.15999999999997 113.02999999999999 0)
+			(at 340.36 158.75 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4959,13 +5401,13 @@
 		)
 	)
 	(no_connect
-		(at 271.78 118.11)
+		(at 347.98 163.83)
 		(uuid "27e6768b-deb2-4cc3-90f7-c8daa903e1b9")
 	)
 	(wire
 		(pts
-			(xy 287.02 115.57)
-			(xy 294.64 115.57)
+			(xy 363.22 161.29)
+			(xy 370.84 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4975,7 +5417,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 294.64 115.57 0)
+		(at 370.84 161.29 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4983,7 +5425,7 @@
 		)
 		(uuid "75fd097c-5c68-4c4f-a8d4-f2dde57edbfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 115.57 0)
+			(at 370.84 161.29 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -4994,8 +5436,8 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 242.57000000000002)
-			(xy 264.15999999999997 242.57000000000002)
+			(xy 217.17 256.54)
+			(xy 209.55 256.54)
 		)
 		(stroke
 			(width 0)
@@ -5005,7 +5447,7 @@
 	)
 	(global_label "USB_CC1"
 		(shape bidirectional)
-		(at 264.15999999999997 242.57000000000002 180)
+		(at 209.55 256.54 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5013,7 +5455,7 @@
 		)
 		(uuid "1e4ac9cb-b680-4635-8233-ab8e3fe7011a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.15999999999997 242.57000000000002 0)
+			(at 209.55 256.54 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5024,8 +5466,8 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 247.65)
-			(xy 264.15999999999997 247.65)
+			(xy 217.17 261.62)
+			(xy 209.55 261.62)
 		)
 		(stroke
 			(width 0)
@@ -5035,7 +5477,7 @@
 	)
 	(global_label "USB_CC2"
 		(shape bidirectional)
-		(at 264.15999999999997 247.65 180)
+		(at 209.55 261.62 180)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5043,7 +5485,7 @@
 		)
 		(uuid "3be4932d-761b-48a8-b4fd-b8f6f99ccbc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.15999999999997 247.65 0)
+			(at 209.55 261.62 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5054,8 +5496,8 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 245.11)
-			(xy 294.64 245.11)
+			(xy 232.41 259.08)
+			(xy 240.03 259.08)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5507,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 294.64 245.11 0)
+		(at 240.03 259.08 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -5073,7 +5515,7 @@
 		)
 		(uuid "cb9be028-015a-40ff-8dcb-34289e41a8b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 245.11 0)
+			(at 240.03 259.08 0)
 			(effects
 				(font
 					(size 0.9 0.9)
@@ -5081,5 +5523,582 @@
 				(hide yes)
 			)
 		)
+	)
+
+	(text "04 USB通信与保护 / USB INTERFACE AND PROTECTION"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2b0a3442-2210-4676-ba48-2a159d4bd26b")
+	)
+	(rectangle
+		(start 18 36)
+		(end 228 193)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "56da7f0f-57f4-4ea4-b99a-34b647e78a34")
+	)
+	(text "USB Type-C 接口 / USB TYPE-C CONNECTOR"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "78b8dd49-e638-4306-8cf9-ac4cb38bdee0")
+	)
+	(rectangle
+		(start 238 36)
+		(end 572 109)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "11bf81bd-4443-4bc9-b350-ce9abf877306")
+	)
+	(text "USB 数据线 ESD / DP-DM ESD"
+		(at 243 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c4b37b94-6267-4358-9df6-1a086038c7b5")
+	)
+	(rectangle
+		(start 238 119)
+		(end 572 193)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2847e2ff-d9be-42e4-a922-d601f56c3d1e")
+	)
+	(text "VBUS 保护 / USB VBUS PROTECTION"
+		(at 243 125 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "57f4e6c1-49dd-4c52-b25f-a1c5b1a5f989")
+	)
+	(rectangle
+		(start 18 203)
+		(end 288 311)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f1e7bf9e-7ba0-4115-b2dd-563327eacae1")
+	)
+	(text "CC 配置与保护 / CC CONFIGURATION AND ESD"
+		(at 23 209 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f377a632-ded7-41df-a817-50445c9700d3")
+	)
+	(rectangle
+		(start 298 203)
+		(end 572 311)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7975b588-a3cc-40ca-8df4-de5333145d18")
+	)
+	(text "VBUS 检测 / VBUS SENSE"
+		(at 303 209 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "90488085-dc35-4169-8a2d-38143b48eaed")
+	)
+	(text "USB DP / DM"
+		(at 27.94 327.66 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5b8a562e-3513-4eea-a21a-49fc6e2ea6a0")
+	)
+	(text "VBUS / POWER / GND"
+		(at 115.57 327.66 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d607dff3-7514-4cc6-b890-bc5fa0a80224")
+	)
+	(junction
+		(at 130.81 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4677cbe8-1c50-4acd-afd1-6b979fe38f5f")
+	)
+	(junction
+		(at 500.38 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b5f71b-88e7-473e-843e-e0da47195a33")
+	)
+	(junction
+		(at 449.58 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffc689a-9578-46ec-bb77-662516f849a3")
+	)
+	(junction
+		(at 532.13 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ad77cf-18a0-4270-9212-2a27ae366f3f")
+	)
+	(junction
+		(at 452.12 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b793700-0207-4af9-814b-582697193029")
+	)
+	(junction
+		(at 341.63 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c94c2e9-5281-4da8-a951-9293b78daf6a")
+	)
+	(junction
+		(at 400.05 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11604002-1635-4a7d-8847-cc8d3ae68bd3")
+	)
+	(junction
+		(at 436.88 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b28b439-f990-4d52-9f18-d183521f5aaf")
+	)
+	(junction
+		(at 438.15 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586fd34b-20e8-49fb-af27-00c771837e33")
+	)
+	(junction
+		(at 66.04 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ce2cb2-2028-49ed-9fcc-e67bb0408c7c")
+	)
+	(junction
+		(at 500.38 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849b7d41-dc72-4ae0-aeb4-1f83b46155cb")
+	)
+	(junction
+		(at 210.82 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a6a331a-7991-423a-a5fc-ebd20b2cee24")
+	)
+	(junction
+		(at 129.54 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4884dd-2a9a-42ef-924b-d0e7641bba51")
+	)
+	(junction
+		(at 210.82 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a99d0aea-682a-4e38-9896-1e13221e667b")
+	)
+	(junction
+		(at 66.04 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859f57d8-be4e-4da8-8fc6-469455fe1697")
+	)
+	(junction
+		(at 341.63 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ab5e4d3-b6b2-4ada-87a2-aa377bc95442")
+	)
+	(junction
+		(at 369.57 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d484162-799d-4218-9642-ec8f8549ce69")
+	)
+	(junction
+		(at 532.13 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f0aa17-299c-4d3f-95f3-c7b9a2322f6f")
+	)
+	(junction
+		(at 400.05 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6576a42c-7c41-4ad6-84b0-4b728725ff85")
+	)
+	(junction
+		(at 130.81 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33e1340c-a67b-42d9-aa4f-9cdae5b3d5a5")
+	)
+	(junction
+		(at 238.76 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e80a5cd7-5661-4275-aa62-8b0124c3532e")
+	)
+	(wire
+		(pts
+			(xy 438.15 284.48)
+			(xy 532.13 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159c6aec-6c3a-4b6c-9318-d8761e64213f")
+	)
+	(wire
+		(pts
+			(xy 67.31 236.22)
+			(xy 210.82 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8857dfc-d712-4363-b20f-0c1cface2ef9")
+	)
+	(wire
+		(pts
+			(xy 341.63 266.7)
+			(xy 400.05 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f529c1e8-ec8b-4280-9427-ca1b360b3b5f")
+	)
+	(wire
+		(pts
+			(xy 452.12 266.7)
+			(xy 532.13 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad302f61-8675-4d3a-a18a-b96457663fe5")
+	)
+	(wire
+		(pts
+			(xy 341.63 152.4)
+			(xy 500.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1d5c3c-72a8-4ec9-89a4-d3bccc401eef")
+	)
+	(wire
+		(pts
+			(xy 400.05 266.7)
+			(xy 436.88 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81db2b52-348a-42f3-951e-637a323d9ba4")
+	)
+	(wire
+		(pts
+			(xy 129.54 265.43)
+			(xy 238.76 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bee76d-14a5-4278-b21d-0935949d0277")
+	)
+	(wire
+		(pts
+			(xy 133.35 257.81)
+			(xy 210.82 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7523355-8046-41c6-855c-980547116792")
+	)
+	(wire
+		(pts
+			(xy 130.81 238.76)
+			(xy 133.35 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c70f8f-cf37-4548-a282-defe4492960c")
+	)
+	(wire
+		(pts
+			(xy 341.63 240.03)
+			(xy 341.63 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b54c06-6c3c-45fb-ae5d-7bc7b621d6ef")
+	)
+	(wire
+		(pts
+			(xy 436.88 240.03)
+			(xy 436.88 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562f29d2-3ec6-40e7-91d4-d2ddfca37623")
+	)
+	(wire
+		(pts
+			(xy 369.57 161.29)
+			(xy 369.57 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6611cbb3-06ca-426c-95ac-012403a44abb")
+	)
+	(wire
+		(pts
+			(xy 369.57 170.18)
+			(xy 500.38 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e830c5b8-e43a-4219-8d4c-b41194d43124")
+	)
+	(wire
+		(pts
+			(xy 210.82 236.22)
+			(xy 210.82 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ff11ea-3eee-4b9d-a903-3cb5adef5cc4")
+	)
+	(wire
+		(pts
+			(xy 66.04 256.54)
+			(xy 129.54 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb51ad60-fdee-47c8-8f26-96aedbd7d636")
+	)
+	(wire
+		(pts
+			(xy 438.15 255.27)
+			(xy 438.15 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce195140-7da3-4059-8ebf-9d2a109eef30")
+	)
+	(wire
+		(pts
+			(xy 452.12 223.52)
+			(xy 452.12 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e90bc1c-f98a-4b02-9d67-99d4c6087eb4")
+	)
+	(wire
+		(pts
+			(xy 400.05 284.48)
+			(xy 438.15 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4c11b2-e543-4c88-8831-c9ea27bbc5e2")
+	)
+	(wire
+		(pts
+			(xy 438.15 255.27)
+			(xy 449.58 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17214863-4562-4b6f-86ff-2803766adf68")
+	)
+	(wire
+		(pts
+			(xy 133.35 238.76)
+			(xy 133.35 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c292774e-b2ec-4bd9-afc9-16e43ac8e9bb")
+	)
+	(wire
+		(pts
+			(xy 129.54 256.54)
+			(xy 129.54 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44aecb50-5b95-4887-8e07-6a0170a17919")
+	)
+	(wire
+		(pts
+			(xy 129.54 256.54)
+			(xy 130.81 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e160d7-660d-41a6-88af-b92521b7af10")
+	)
+	(wire
+		(pts
+			(xy 238.76 259.08)
+			(xy 238.76 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aaba71-4de8-4554-9ca9-6cc911b91eca")
+	)
+	(wire
+		(pts
+			(xy 341.63 152.4)
+			(xy 341.63 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62843deb-99b1-44bc-9704-f7433bb74921")
+	)
+	(wire
+		(pts
+			(xy 210.82 257.81)
+			(xy 210.82 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baefc70-5038-406b-ac23-ae45d1fd16a1")
+	)
+	(wire
+		(pts
+			(xy 67.31 236.22)
+			(xy 67.31 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff65e7e-2906-4cf6-8e01-f3852ed463a1")
+	)
+	(wire
+		(pts
+			(xy 66.04 238.76)
+			(xy 67.31 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e35617-ea7d-4efe-894a-a436df82cee2")
 	)
 )

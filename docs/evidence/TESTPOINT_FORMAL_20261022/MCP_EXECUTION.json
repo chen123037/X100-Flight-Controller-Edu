@@ -1,0 +1,557 @@
+[
+  {
+    "request": {
+      "name": "open_project",
+      "arguments": {
+        "filename": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pro"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Opened project: X100_CleanSheet.kicad_pcb",
+      "project": {
+        "name": "X100_CleanSheet",
+        "path": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pro",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb"
+      },
+      "_backend": "swig",
+      "_realtime": false,
+      "sessionBackend": "swig"
+    }
+  },
+  {
+    "request": {
+      "name": "batch_move_components",
+      "arguments": {
+        "moves": {
+          "TP306": {
+            "x": 97.1,
+            "y": 111.263,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP207": {
+            "x": 109.625,
+            "y": 90.55,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP309": {
+            "x": 108.85,
+            "y": 102.013,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP807": {
+            "x": 110.12,
+            "y": 104.75,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP706": {
+            "x": 115.7,
+            "y": 104.675,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP804": {
+            "x": 114.6,
+            "y": 99.725,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP808": {
+            "x": 112.66,
+            "y": 104.75,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP806": {
+            "x": 107.58,
+            "y": 104.75,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP705": {
+            "x": 111.95,
+            "y": 102.175,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP108": {
+            "x": 89,
+            "y": 121.2,
+            "rotation": 0,
+            "layer": "F.Cu"
+          },
+          "TP602": {
+            "x": 78.75,
+            "y": 84.845,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP402": {
+            "x": 109.638,
+            "y": 113.55,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP308": {
+            "x": 120.55,
+            "y": 119.05,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP503": {
+            "x": 88.795,
+            "y": 116.62,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP105": {
+            "x": 119.75,
+            "y": 82.75,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP506": {
+            "x": 87.095,
+            "y": 117.37,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP505": {
+            "x": 105.495,
+            "y": 119.87,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP504": {
+            "x": 107.195,
+            "y": 121.62,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP202": {
+            "x": 98.25,
+            "y": 78.9,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP701": {
+            "x": 100.875,
+            "y": 80.75,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP102": {
+            "x": 81.475,
+            "y": 115.795,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP601": {
+            "x": 81.5,
+            "y": 85.155,
+            "rotation": 0,
+            "layer": "B.Cu"
+          },
+          "TP508": {
+            "x": 107.795,
+            "y": 110.87,
+            "rotation": 0,
+            "layer": "B.Cu"
+          }
+        }
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "Moved 23 component(s)",
+      "moved": [
+        {
+          "reference": "TP306",
+          "position": {
+            "x": 97.1,
+            "y": 111.263,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP207",
+          "position": {
+            "x": 109.625,
+            "y": 90.55,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP309",
+          "position": {
+            "x": 108.85,
+            "y": 102.013,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP807",
+          "position": {
+            "x": 110.12,
+            "y": 104.75,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP706",
+          "position": {
+            "x": 115.7,
+            "y": 104.675,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP804",
+          "position": {
+            "x": 114.6,
+            "y": 99.725,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP808",
+          "position": {
+            "x": 112.66,
+            "y": 104.75,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP806",
+          "position": {
+            "x": 107.58,
+            "y": 104.75,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP705",
+          "position": {
+            "x": 111.95,
+            "y": 102.175,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP108",
+          "position": {
+            "x": 89,
+            "y": 121.2,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "F.Cu"
+        },
+        {
+          "reference": "TP602",
+          "position": {
+            "x": 78.75,
+            "y": 84.845,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP402",
+          "position": {
+            "x": 109.638,
+            "y": 113.55,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP308",
+          "position": {
+            "x": 120.55,
+            "y": 119.05,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP503",
+          "position": {
+            "x": 88.795,
+            "y": 116.62,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP105",
+          "position": {
+            "x": 119.75,
+            "y": 82.75,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP506",
+          "position": {
+            "x": 87.095,
+            "y": 117.37,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP505",
+          "position": {
+            "x": 105.495,
+            "y": 119.87,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP504",
+          "position": {
+            "x": 107.195,
+            "y": 121.62,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP202",
+          "position": {
+            "x": 98.25,
+            "y": 78.9,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP701",
+          "position": {
+            "x": 100.875,
+            "y": 80.75,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP102",
+          "position": {
+            "x": 81.475,
+            "y": 115.795,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP601",
+          "position": {
+            "x": 81.5,
+            "y": 85.155,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        },
+        {
+          "reference": "TP508",
+          "position": {
+            "x": 107.795,
+            "y": 110.87,
+            "unit": "mm"
+          },
+          "rotation": 0,
+          "layer": "B.Cu"
+        }
+      ],
+      "saved": true,
+      "autoSave": {
+        "saved": true,
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb",
+        "backup": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\.mcp-backups\\X100_CleanSheet.kicad_pcb.20261022-210859-312"
+      },
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "sync_schematic_to_board",
+      "arguments": {
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_sch",
+        "boardPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_pcb"
+      }
+    },
+    "result": {
+      "success": true,
+      "message": "PCB updated from schematic: 0 footprints added, 0 nets added, 558 pads assigned",
+      "sheets_scanned": [
+        "X100_CleanSheet.kicad_sch",
+        "01_POWER.kicad_sch",
+        "02_MCU.kicad_sch",
+        "03_SENSORS.kicad_sch",
+        "04_USB.kicad_sch",
+        "05_SD.kicad_sch",
+        "06_CAN.kicad_sch",
+        "07_UART_IO.kicad_sch",
+        "08_PWM_ADC_DEBUG.kicad_sch"
+      ],
+      "nets_added": [],
+      "nets_total": 147,
+      "pads_assigned": 558,
+      "fields_added": [
+        "D202/Manufacturer",
+        "D202/MPN",
+        "D202/Package",
+        "D202/Procurement Policy",
+        "D202/LCSC",
+        "R207/Manufacturer",
+        "R207/MPN",
+        "R207/Package",
+        "R207/Procurement Policy",
+        "R207/Specification Value",
+        "R207/Tolerance",
+        "R207/Dielectric",
+        "R207/Voltage Rating",
+        "R207/Power Rating",
+        "R207/LCSC",
+        "J401/Procurement Approval",
+        "J401/Mechanical Assembly",
+        "U401/Manufacturer",
+        "U401/MPN",
+        "U401/Package",
+        "U401/Procurement Policy",
+        "U401/LCSC",
+        "U403/Manufacturer",
+        "U403/MPN",
+        "U403/Package",
+        "U403/LCSC",
+        "U403/Procurement Policy",
+        "U404/Manufacturer",
+        "U404/MPN",
+        "U404/Package",
+        "U404/LCSC",
+        "U404/Procurement Policy",
+        "JP601/Manufacturing Default",
+        "JP601/Assembly Instruction"
+      ],
+      "fields_updated": [
+        "D202/Datasheet",
+        "R207/Datasheet",
+        "U401/Datasheet",
+        "U403/Datasheet",
+        "U403/Description",
+        "U404/Datasheet",
+        "U404/Description",
+        "JP601/Description"
+      ],
+      "unmatched_pad_count": 17,
+      "unmatched_pads": [
+        "H4/",
+        "J702/MP",
+        "J702/MP",
+        "H2/",
+        "J704/MP",
+        "J704/MP",
+        "J701/MP",
+        "J701/MP",
+        "H3/",
+        "J809/MP",
+        "J809/MP",
+        "J703/MP",
+        "J703/MP",
+        "J601/MP",
+        "J601/MP",
+        "H1/",
+        "D103/"
+      ],
+      "unmatched_pads_sample": [
+        "H4/",
+        "J702/MP",
+        "J702/MP",
+        "H2/",
+        "J704/MP",
+        "J704/MP",
+        "J701/MP",
+        "J701/MP",
+        "H3/",
+        "J809/MP"
+      ],
+      "warnings": [
+        "17 pad(s) have no net in the schematic and were left unchanged: H4/, J702/MP, J702/MP, H2/, J704/MP, J704/MP, J701/MP, J701/MP, H3/, J809/MP, J809/MP, J703/MP, J703/MP, J601/MP, J601/MP, H1/, D103/"
+      ],
+      "footprints_added": [],
+      "footprints_skipped": [],
+      "_backend": "swig",
+      "_realtime": false
+    }
+  },
+  {
+    "request": {
+      "name": "run_erc",
+      "arguments": {
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_sch"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "ERC result: 0 violation(s)\n  Errors: 0  Warnings: 0  Info: 0"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "export_netlist",
+      "arguments": {
+        "schematicPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\X100_CleanSheet.kicad_sch",
+        "outputPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\POST_TESTPOINT_FORMAL.net.xml"
+      }
+    },
+    "result": {
+      "success": true,
+      "outputPath": "E:\\A_YAN_KECHEN\\PLANT\\design01_schematic\\X100_CleanSheet\\tmp\\pcb03_fabrication_readiness_20261022\\POST_TESTPOINT_FORMAL.net.xml",
+      "format": "KiCad",
+      "_backend": "swig",
+      "_realtime": false
+    }
+  }
+]

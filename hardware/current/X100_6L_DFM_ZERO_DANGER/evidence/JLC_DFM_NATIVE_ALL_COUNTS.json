@@ -1,0 +1,222 @@
+{
+  "task": "DFMP2610310277",
+  "uploadKey": "639354195493081090",
+  "zipSHA256": "85254aca1ba4356953ddff8653cff87964dce0b77bb30dd6c1584126908b1bfc",
+  "ruleProfile": "X100_六层有铜槽0.35_其余内置",
+  "rows": [
+    {
+      "item": "锐角拐线",
+      "danger": 0,
+      "warning": 2,
+      "good": 0
+    },
+    {
+      "item": "BGA焊盘",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "孔落在焊盘上",
+      "danger": 0,
+      "warning": 6,
+      "good": 0
+    },
+    {
+      "item": "走线距板边",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "走线间距",
+      "danger": 0,
+      "warning": 0,
+      "good": 7
+    },
+    {
+      "item": "同网络走线间距",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "线距铜皮",
+      "danger": 0,
+      "warning": 0,
+      "good": 14
+    },
+    {
+      "item": "裸线头",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "线宽",
+      "danger": 0,
+      "warning": 0,
+      "good": 156
+    },
+    {
+      "item": "mark点",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "焊盘距外型线",
+      "danger": 0,
+      "warning": 0,
+      "good": 12
+    },
+    {
+      "item": "盘到线",
+      "danger": 0,
+      "warning": 3,
+      "good": 148
+    },
+    {
+      "item": "焊盘距焊盘",
+      "danger": 0,
+      "warning": 3,
+      "good": 297
+    },
+    {
+      "item": "盘到铜皮",
+      "danger": 0,
+      "warning": 6,
+      "good": 169
+    },
+    {
+      "item": "PTH孔到线",
+      "danger": 0,
+      "warning": 0,
+      "good": 150
+    },
+    {
+      "item": "焊盘孔环",
+      "danger": 0,
+      "warning": 300,
+      "good": 0
+    },
+    {
+      "item": "插件焊盘距贴片焊盘",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "VIA孔到焊盘",
+      "danger": 0,
+      "warning": 1,
+      "good": 7
+    },
+    {
+      "item": "阻焊桥",
+      "danger": 0,
+      "warning": 0,
+      "good": 56
+    },
+    {
+      "item": "开窗露线",
+      "danger": 0,
+      "warning": 4,
+      "good": 14
+    },
+    {
+      "item": "碎线填充",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "焊盘负开窗",
+      "danger": 0,
+      "warning": 25,
+      "good": 0
+    },
+    {
+      "item": "丝印距焊盘",
+      "danger": 0,
+      "warning": 6,
+      "good": 94
+    },
+    {
+      "item": "丝印距孔",
+      "danger": 0,
+      "warning": 0,
+      "good": 100
+    },
+    {
+      "item": "丝印线条宽度",
+      "danger": 0,
+      "warning": 100,
+      "good": 0
+    },
+    {
+      "item": "不同网络盲埋孔间距",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "丢失PTH孔",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "不同层盲埋孔近孔",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "PTH孔间距",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "Pth无Pad",
+      "danger": 0,
+      "warning": 8,
+      "good": 0
+    },
+    {
+      "item": "短槽检测",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "测量槽宽",
+      "danger": 0,
+      "warning": 4,
+      "good": 0
+    },
+    {
+      "item": "过孔与插件孔的间距",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "Via无Pad",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    },
+    {
+      "item": "无连接过孔",
+      "danger": 0,
+      "warning": 0,
+      "good": 0
+    }
+  ],
+  "counts": {
+    "danger": 0,
+    "warning": 468
+  }
+}

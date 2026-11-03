@@ -1,0 +1,24 @@
+--- upstream/stm32h7_mcuconf.h
++++ isolated-static-clock-probe/stm32h7_mcuconf.h
+@@ -106,7 +106,11 @@
+ /*
+  * Clock setup for all other H7 variants including H743, H723, H753, H750 and H757
+  */
++#if HAL_CUSTOM_MCU_CLOCKRATE == 200000000
++#define STM32_VOS                           STM32_VOS_SCALE3
++#else
+ #define STM32_VOS                           STM32_VOS_SCALE1
++#endif
+ /*
+   setup PLLs based on HSE clock
+  */
+@@ -195,6 +199,9 @@
+ #if HAL_CUSTOM_MCU_CLOCKRATE == 480000000
+ #define STM32_PLL1_DIVN_VALUE               120
+ #define STM32_PLL1_DIVQ_VALUE               12
++#elif HAL_CUSTOM_MCU_CLOCKRATE == 200000000
++#define STM32_PLL1_DIVN_VALUE               50
++#define STM32_PLL1_DIVQ_VALUE               5
+ #else
+ #error "Unable to configure custom clockrate"
+ #endif

@@ -1,0 +1,263 @@
+{
+  "source_board_sha256": "29ec395e31f5e86adf4dbb45c1e999bcd257c82ff6d9f7eedae70d6d6cf27d3d",
+  "routes": [
+    {
+      "label": "Sensor LDO local output capacitor",
+      "net": "3V3_SENSOR",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          87.9375,
+          106.175
+        ],
+        [
+          89.15,
+          105.85
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed R504.1",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          95.45,
+          115.35
+        ],
+        [
+          94.6875,
+          116.5
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed C501.1",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          98.675,
+          120.5
+        ],
+        [
+          99.975,
+          121.0
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed R505.1",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          94.6875,
+          116.5
+        ],
+        [
+          95.3375,
+          118.25
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed U109.20",
+      "net": "3V3_SD",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          100.30000000000001,
+          119.10000000000001
+        ],
+        [
+          102.15,
+          116.75
+        ],
+        [
+          102.45,
+          116.60000000000001
+        ],
+        [
+          103.9,
+          116.65
+        ],
+        [
+          104.45,
+          117.2
+        ],
+        [
+          104.7,
+          117.5
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed U109.20",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          104.7,
+          117.5
+        ],
+        [
+          104.775,
+          116.4
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed C131.1",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          104.7,
+          117.5
+        ],
+        [
+          105.55,
+          119.0
+        ]
+      ]
+    },
+    {
+      "label": "3V3_SD peripheral feed TP501.1",
+      "net": "3V3_SD",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          105.55,
+          119.0
+        ],
+        [
+          105.55,
+          120.275
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "3V3_SD",
+      "position": [
+        104.7,
+        117.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "links": [
+    {
+      "net": "3V3_SENSOR",
+      "target": "C116.1",
+      "length_mm": 1.255301258662643,
+      "vias": 0
+    },
+    {
+      "net": "3V3_SD",
+      "target": "R504.1",
+      "native_component_pins_joined": [
+        "R504.1"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.3798210934755337,
+      "vias": 0
+    },
+    {
+      "net": "3V3_SD",
+      "target": "C501.1",
+      "native_component_pins_joined": [
+        "C501.1"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.3928388277184094,
+      "vias": 0
+    },
+    {
+      "net": "3V3_SD",
+      "target": "R505.1",
+      "native_component_pins_joined": [
+        "R505.1"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.8668154702594488,
+      "vias": 0
+    },
+    {
+      "net": "3V3_SD",
+      "target": "U109.20",
+      "native_component_pins_joined": [
+        "U109.20"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 7.047975091887815,
+      "vias": 1
+    },
+    {
+      "net": "3V3_SD",
+      "target": "C131.1",
+      "native_component_pins_joined": [
+        "C131.1"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.724093964956664,
+      "vias": 0
+    },
+    {
+      "net": "3V3_SD",
+      "target": "TP501.1",
+      "native_component_pins_joined": [
+        "TP501.1"
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.2750000000000057,
+      "vias": 0
+    }
+  ],
+  "pending": [
+    {
+      "net": "SENSOR_LDO_IN",
+      "pin": "TP106.1",
+      "reason": "Bounded F/B paths not found; not proof of physical impossibility"
+    },
+    {
+      "net": "SENSOR_LDO_IN",
+      "pin": "C115.1",
+      "reason": "Not reached"
+    },
+    {
+      "net": "SENSOR_LDO_IN",
+      "pin": "U103.1",
+      "reason": "Not reached"
+    },
+    {
+      "net": "3V3_SD",
+      "pin": "R502.1",
+      "reason": "Bounded F/B paths not found; not proof of physical impossibility"
+    },
+    {
+      "net": "3V3_SD",
+      "pin": "R506.1",
+      "reason": "Bounded F/B paths not found; not proof of physical impossibility"
+    },
+    {
+      "net": "3V3_SD",
+      "pin": "R507.1",
+      "reason": "Bounded F/B paths not found; not proof of physical impossibility"
+    }
+  ],
+  "scope": "PERIPHERAL_RAIL_ROUTING_PARTIAL;NATIVE_CONNECTIVITY_PENDING;NOT_POWER_SAFETY_PASS",
+  "numeric_rules_changed": false,
+  "remaining": "Sensor distribution/grounds/enable; SD slew/discharge/control; HSE USB and all remaining signals; current/thermal/fault/manufacturing review"
+}

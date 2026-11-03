@@ -34,3 +34,10 @@
 (rule "3V3_POWER_IN2_0p5OZ_CURRENT_SECTION"
  (condition "A.NetClass == '3V3_POWER' && A.Layer == 'In2.Cu'")
  (constraint track_width (min 6.75mm) (opt 6.75mm)))
+
+# Exact manufacturer SH land at the recommended board-edge datum: nominal 0.325mm.
+# JLCPCB routed-edge nominal capability is 0.20mm; keep >=0.30mm locally.
+# No signal/VBUS/other connector pad or global setting is relaxed.
+(rule "J401_AMPHENOL_OFFICIAL_SH_EDGE"
+ (condition "A.Type == 'Pad' && A.Reference == 'J401' && A.Pad_Number == 'SH' && A.NetName == 'GND'")
+ (constraint edge_clearance (min 0.30mm)))

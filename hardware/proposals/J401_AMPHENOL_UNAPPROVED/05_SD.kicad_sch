@@ -1,0 +1,5211 @@
+(kicad_sch
+	(version 20260101)
+	(generator eeschema)
+	(generator_version "10.0")
+	(uuid 6808b8a5-27a0-49d8-8639-88b5f5db0573)
+	(paper "A2")
+	(title_block
+		(title "05_SD")
+		(date "2026-10-04")
+		(rev "Physical-1")
+		(company "X100 Clean-Sheet")
+		(comment 1 "PCB_LAYOUT=HOLD; physical exact-part schematic")
+		(comment 2 "See unresolved_items.md; local holds are not ERC failures")
+	)
+	(lib_symbols
+		(symbol "X100_Physical:Molex1040310811"
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1040310811"
+				(at 16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Connector_Card_microSD_HC_Molex_104031-0811"
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Molex 1040310811; exact microSD SMT push-pull8+2detect"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Connector_Card_microSD_HC_Molex_104031-0811"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Molex1040310811_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -8.89)
+						(xy -8.89 11.43)
+						(xy -1.27 11.43)
+						(xy 2.54 15.24)
+						(xy 3.81 15.24)
+						(xy 3.81 13.97)
+						(xy 6.35 13.97)
+						(xy 7.62 15.24)
+						(xy 20.32 15.24)
+						(xy 20.32 -8.89)
+						(xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24)
+						(xy 16.51 16.51)
+						(xy -19.05 16.51)
+						(xy -19.05 -16.51)
+						(xy 16.51 -16.51)
+						(xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex1040310811_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DET_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:R_0"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805JR-070RL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805JR-070RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805JR-070RL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:R_47k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0805FR-0747KL"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "YAGEO RC0805FR-0747KL; exact 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Resistor_SMD_R_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_47k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_47k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:C_100n6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C0603C104K5RACTU"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "KEMET C0603C104K5RACTU; exact 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Capacitor_SMD_C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n6_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:C_10u50"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C1210C106K5RACTU"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "KEMET C1210C106K5RACTU; exact 1210"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Official_Capacitor_SMD_C_1210_3225Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_10u50_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10u50_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		)
+		(symbol "X100_Physical:TP1p5"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TP1p5"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C/D testpoint policy"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP1p5_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP1p5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:TP0p6"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "TP0p6"
+				(at 0 -3.27 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C/D high-speed testpoint policy"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP0p6_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP0p6_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "X100_Physical:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "Internal: explicit power conveyed through passive rails"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "KiCad logical PWR_FLAG; exact not populated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+		)
+	)
+	(text "SDMMC1 4-bit, 3.3V only. Contact9/10 detect NC; no detect GPIO."
+		(at 20 27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid da9d32c6-f6d2-412d-a83b-9c19a3d4216f)
+	)
+	(wire
+		(pts
+			(xy 373.38 97.79)
+			(xy 367.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3836769a-67c9-4ec3-af4d-42974dbd95ad)
+	)
+	(global_label "SDMMC1_D2"
+		(shape bidirectional)
+		(at 367.03 97.79 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 827dc182-f04a-41cf-ab50-3ad8fd63a2f7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 100.33)
+			(xy 367.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c79eca25-eabc-410c-b76d-699817c0eef9)
+	)
+	(global_label "SDMMC1_D3"
+		(shape bidirectional)
+		(at 367.03 100.33 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 504f409f-10d7-46eb-9d0c-0c4b280f1cad)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 102.87)
+			(xy 367.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 92ce543c-63b1-40df-a6ef-44df2d385684)
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 367.03 102.87 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 98b6bd3a-7e50-4e6b-9e74-56da48a4a6a7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 105.41)
+			(xy 367.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 8223df6e-0fbb-473a-8f7d-c2eb99e2be46)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 367.03 105.41 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ecf8e938-7927-459e-9f41-ce63ed0be517)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 105.41 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 107.95)
+			(xy 367.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c7aa42a1-8d8c-4255-aa1a-b20c3f122713)
+	)
+	(global_label "SDMMC1_CK"
+		(shape bidirectional)
+		(at 367.03 107.95 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0945701c-5ea4-4661-943d-df13a10ae4fb)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 110.49)
+			(xy 367.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 53373386-68c2-4730-9d8a-585bc053ab17)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 367.03 110.49 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid eba70e17-e5ee-45ae-b6b0-54eb69607f32)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 110.49 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 113.03)
+			(xy 367.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 82f56394-71db-4282-927c-306c19134fe8)
+	)
+	(global_label "SDMMC1_D0"
+		(shape bidirectional)
+		(at 367.03 113.03 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 65cd1408-db74-4646-8c9f-07188a6d0133)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 373.38 115.57)
+			(xy 367.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 761e2d63-aad8-45b8-a6a1-1cd1b1936f62)
+	)
+	(global_label "SDMMC1_D1"
+		(shape bidirectional)
+		(at 367.03 115.57 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid d8853e9e-575d-42b1-9547-471ae4b256d2)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 373.38 120.65)
+		(uuid 3f169a06-c6b3-4146-a1cf-d0a7e0e0984d)
+	)
+	(no_connect
+		(at 373.38 118.11)
+		(uuid 160e7fd9-81a4-4219-962c-cea6c81a3e2f)
+	)
+	(wire
+		(pts
+			(xy 416.56 120.65)
+			(xy 422.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 35d0644b-f235-4614-ae0b-87ec1ebb7dba)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 422.91 120.65 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0a6c0d50-aac9-4c02-bc3e-0a4fc1305323)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 422.91 120.65 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:Molex1040310811")
+		(at 396.24 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 61c80cfc-33b8-46b1-9e75-d8107461eab1)
+		(property "Reference" "J501"
+			(at 396.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1040310811"
+			(at 396.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Connector_Card_microSD_HC_Molex_104031-0811"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1040310811"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "microSD SMT push-pull8+2detect"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 396.24 107.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 2e1200c4-727b-4829-8b79-12f1d6ec5eaf)
+		)
+		(pin "2"
+			(uuid 95813930-ca4f-423c-ad1a-cad34b2402fb)
+		)
+		(pin "3"
+			(uuid 40b16643-4085-4abb-9e85-44d46e65a247)
+		)
+		(pin "4"
+			(uuid f80b5272-d521-41b7-972f-86b8face9eea)
+		)
+		(pin "5"
+			(uuid 7d791d26-f9cf-480c-8517-fc4086ed5022)
+		)
+		(pin "6"
+			(uuid 2d52746b-82e6-4192-ae6e-9ec50c5d4966)
+		)
+		(pin "7"
+			(uuid 6ac55fd8-973d-47b6-a391-c75f77c2b1df)
+		)
+		(pin "8"
+			(uuid e8061952-5160-4075-bd12-48ac79feeeba)
+		)
+		(pin "9"
+			(uuid c101ade8-4b86-4e95-bba7-9c2407b790ec)
+		)
+		(pin "10"
+			(uuid 5b3d9926-acd3-4d2f-a063-6dcd0dc4b021)
+		)
+		(pin "SH"
+			(uuid 985e8cb2-00d5-445a-af04-b5dbc66f4a46)
+		)
+	)
+	(wire
+		(pts
+			(xy 74.93 245.11)
+			(xy 68.58 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid f17a059e-d642-4a01-89fb-d60bc4e94262)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 68.58 245.11 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid dbd19c55-bc58-48d0-b009-5dde813ec868)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 82.55 245.11)
+			(xy 88.9 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ff0e941f-3563-4da6-9739-004bc2c77b53)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 88.9 245.11 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 8721ee46-f0c7-4749-9826-4d72327bfc98)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_0")
+		(at 78.74 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c7b5a582-daae-4b14-8797-9ce7935eab97)
+		(property "Reference" "R501"
+			(at 85.09 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R SD service isolation"
+			(at 85.09 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805JR-070RL"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "0 ohm"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "jumper"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 78.74 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R501")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 53cd7c05-6ba2-4d41-8da8-3509e18bdbe1)
+		)
+		(pin "2"
+			(uuid bea754ed-4eeb-4918-bf86-91adf82b3d14)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 102.87)
+			(xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4b543c06-450b-4af4-8846-f576a9336d2a)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 219.71 102.87 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 37411bed-bfb9-4028-b295-092bc530e117)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 102.87)
+			(xy 240.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d47009b2-5e5b-430d-b1e2-172661a92860)
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 240.03 102.87 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid d07aa311-2aac-49fb-8902-56630b5b0c06)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_47k")
+		(at 229.87 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 01bf645a-2c7a-4542-9468-4537078ae82f)
+		(property "Reference" "R502"
+			(at 205.87 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k SD pullup"
+			(at 272.87 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0747KL"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "47k ohm"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R502")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 0e0e5af8-58b9-41a9-be62-2736092db3e7)
+		)
+		(pin "2"
+			(uuid 05d8e9b2-098f-4295-b308-06afb117b58b)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 113.03)
+			(xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 2f4ea7e0-1bed-40d4-9e7e-76bdc142ffb3)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 219.71 113.03 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 43bf9e3d-524f-492a-87cb-ae5a36cc9984)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 113.03)
+			(xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b9ac91a0-bde7-4191-8342-64536b36263a)
+	)
+	(global_label "SDMMC1_D0"
+		(shape bidirectional)
+		(at 240.03 113.03 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 2ccaf778-45d2-45c7-90a4-40674508fbe2)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_47k")
+		(at 229.87 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 8bc78f59-482c-4918-a9ff-10b615ee4e60)
+		(property "Reference" "R503"
+			(at 205.87 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k SD pullup"
+			(at 272.87 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0747KL"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "47k ohm"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R503")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 8fb06a78-3dbd-4133-a2ff-5a0f6db6a41c)
+		)
+		(pin "2"
+			(uuid 1d6a8428-ce5c-4895-bb47-7c4dac0ac4b5)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 115.57)
+			(xy 219.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 528dba5b-f27f-4390-a739-58ac139f1bea)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 219.71 115.57 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 7dc0c446-aea8-4e73-8b12-ed8271dfdec1)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 115.57)
+			(xy 240.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ac128d59-757e-4ace-a9e7-95c9462143d3)
+	)
+	(global_label "SDMMC1_D1"
+		(shape bidirectional)
+		(at 240.03 115.57 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 5427b120-b55f-424d-a325-3bc7e26d3ea5)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_47k")
+		(at 229.87 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid cfd4404c-5a66-48b1-ad0e-91a60f641be6)
+		(property "Reference" "R504"
+			(at 205.87 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k SD pullup"
+			(at 272.87 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0747KL"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "47k ohm"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R504")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 02ee90b9-3345-46e3-ae52-4054507baa2e)
+		)
+		(pin "2"
+			(uuid ff92fd03-14bd-4417-8c5c-aa1a78e3878d)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 97.79)
+			(xy 219.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 89897b4b-942f-41d6-9d69-c511677839c2)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 219.71 97.79 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 46193060-d850-4597-ace4-80e9e7dbe599)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 97.79)
+			(xy 240.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d741ca45-6592-4456-b23c-7d1d69332cd8)
+	)
+	(global_label "SDMMC1_D2"
+		(shape bidirectional)
+		(at 240.03 97.79 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 55e304cb-11d2-44d1-879e-393356af099a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_47k")
+		(at 229.87 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid c5f4f399-8f15-4fce-871c-205447a8ae43)
+		(property "Reference" "R505"
+			(at 205.87 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k SD pullup"
+			(at 272.87 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0747KL"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "47k ohm"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R505")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 45e41754-697a-4fd6-b785-9b870691f59d)
+		)
+		(pin "2"
+			(uuid ea449268-cee9-40f1-9db4-3071e3ab4e45)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 100.33)
+			(xy 219.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bbe81cf1-140d-4ba4-bc42-7fc1adaed647)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 219.71 100.33 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 1aa1334f-17ab-43d2-8fd4-1080d6a7be9d)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33)
+			(xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c05ec6a1-4773-48dd-add6-be490bdc1138)
+	)
+	(global_label "SDMMC1_D3"
+		(shape bidirectional)
+		(at 240.03 100.33 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid c34e886b-a81c-4766-8c2b-ce1e4656611f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:R_47k")
+		(at 229.87 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid cc0c174a-5936-48e1-b786-52e853c4f9da)
+		(property "Reference" "R506"
+			(at 205.87 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k SD pullup"
+			(at 272.87 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Resistor_SMD_R_0805_2012Metric"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0747KL"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0747KL"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "47k ohm"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%; TCR<=100ppm/C"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "N/A"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=100V"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ">=0.125W"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "R506")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid d40c6492-4f19-40ff-ab0c-b676452e4f4c)
+		)
+		(pin "2"
+			(uuid dedeef86-886d-439c-9952-5ac70091a0fd)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 241.3)
+			(xy 226.06 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid b05b44d9-37f5-4a98-bf2e-989f2dca6e3f)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 226.06 234.95 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 1a84b41c-8212-41dd-ab6f-0f7f7aa9fd02)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 248.92)
+			(xy 226.06 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 10f0329d-e4a6-4cdc-95fa-3a42546555c0)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 226.06 255.27 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 962db0f8-811a-4fca-88af-0a2b3c5f7429)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 255.27 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_100n6")
+		(at 226.06 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 9968763a-9b9a-4275-8efa-2415507849a1)
+		(property "Reference" "C501"
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n socket VDD loop"
+			(at 233.68 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_0603_1608Metric"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C0603C104K5RACTU"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "100nF"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 226.06 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid c6783795-b587-422e-9dc0-08d088ab6671)
+		)
+		(pin "2"
+			(uuid 449f51a3-d76a-4a5d-953e-7426f5ed5555)
+		)
+	)
+	(wire
+		(pts
+			(xy 355.6 241.3)
+			(xy 355.6 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 36e6f6f1-3e33-4cce-9dfc-5892ea48b4bb)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 355.6 234.95 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 45579004-0ead-4169-a32c-9fe10fee4774)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 234.95 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 355.6 248.92)
+			(xy 355.6 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid bf249265-db6e-487d-ac27-ec4ba137fb40)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 355.6 255.27 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 036caed1-db14-4057-a7b2-52a9e25621e1)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 255.27 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:C_10u50")
+		(at 355.6 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 14eae0a1-b1b8-4e79-812e-a5b918f64b1a)
+		(property "Reference" "C502"
+			(at 363.22 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u /50V SD local"
+			(at 363.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:Official_Capacitor_SMD_C_1210_3225Metric"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/C1210C106K5RACTU"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C106K5RACTU"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1210"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "SPECIFICATION_FROZEN_PREFERRED_BOM"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification Value" "10uF"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ">=50V"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "N/A"
+			(at 355.6 245.11 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid dcf611c7-45d9-4bf0-8932-4f74a7002486)
+		)
+		(pin "2"
+			(uuid 281e567a-a3fd-42cd-9bf4-a3b4f0b7834b)
+		)
+	)
+	(text "No arbitrary damping resistor or 1.8V UHS. Series damping only after signal-integrity evidence."
+		(at 20 400 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid 619a6793-4af8-4ca6-b567-3cc2fbb83a74)
+	)
+	(wire
+		(pts
+			(xy 280.67 332.74)
+			(xy 274.32 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid c69d4fe3-c3b2-4529-be20-ff7a8bf9f301)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 274.32 332.74 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid b77f7aa0-0c5e-4f5a-b1a4-12b536a9499a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 284.48 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid fc00576e-672e-49f3-84b0-7a6de17ecbba)
+		(property "Reference" "TP501"
+			(at 292.1 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3_SD"
+			(at 292.1 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 284.48 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP501")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 6a68a1c2-e6e6-4b41-ab37-c81b7d48ada5)
+		)
+	)
+	(wire
+		(pts
+			(xy 351.79 332.74)
+			(xy 345.44 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 33285b95-f573-4dc8-b371-a0edbed79678)
+	)
+	(global_label "SDMMC1_CK"
+		(shape bidirectional)
+		(at 345.44 332.74 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 988ed4b4-490b-4f53-a09a-47345cfe9186)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 355.6 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid fe21e8c5-c665-4a0b-acde-c54dd68cf030)
+		(property "Reference" "TP502"
+			(at 363.22 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_CK"
+			(at 363.22 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 355.6 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP502")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid e8b04c2a-79a4-479e-b8eb-433ce8945a9f)
+		)
+	)
+	(wire
+		(pts
+			(xy 422.91 332.74)
+			(xy 416.56 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 9242050e-f514-493d-b1d6-fe27775f2c5a)
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 416.56 332.74 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid fd05fd48-95d8-43fb-a4db-2a9f088ea642)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 416.56 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 426.72 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 8b6bfdac-b97a-48cc-9030-b9bb551e44b3)
+		(property "Reference" "TP503"
+			(at 434.34 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_CMD"
+			(at 434.34 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 426.72 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP503")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 4102e62a-d7d6-4c21-bc18-679287d40ad2)
+		)
+	)
+	(wire
+		(pts
+			(xy 494.03 332.74)
+			(xy 487.68 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 309189b5-0933-490c-9628-c3b4f4f6f31b)
+	)
+	(global_label "SDMMC1_D0"
+		(shape bidirectional)
+		(at 487.68 332.74 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid cd9a1ede-8eba-411e-afa3-95314d51a208)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.68 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 497.84 332.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 638cf323-83ac-4d01-b6a6-d4ff399865ff)
+		(property "Reference" "TP504"
+			(at 505.46 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_D0"
+			(at 505.46 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 497.84 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP504")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 92c82cf8-b6ae-4f5b-9944-8c3f3b5b05ee)
+		)
+	)
+	(wire
+		(pts
+			(xy 280.67 360.68)
+			(xy 274.32 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 447dec76-3d5b-4bd2-847d-edcc84361263)
+	)
+	(global_label "SDMMC1_D1"
+		(shape bidirectional)
+		(at 274.32 360.68 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 39af48e6-75d2-4cc9-962a-26851fddc11c)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 284.48 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 94ec8d6e-9e1f-4fc7-8375-f9311293702a)
+		(property "Reference" "TP505"
+			(at 292.1 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_D1"
+			(at 292.1 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 284.48 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP505")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid fa62b6dd-203b-471c-ba51-69b8fbedab59)
+		)
+	)
+	(wire
+		(pts
+			(xy 351.79 360.68)
+			(xy 345.44 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 151563c8-ed01-40c6-a91e-a60e35a7fe38)
+	)
+	(global_label "SDMMC1_D2"
+		(shape bidirectional)
+		(at 345.44 360.68 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 5c248271-7a6a-4f26-b3e7-cfce4e32a8ea)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 355.6 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid 06bab787-a5c1-4502-bc25-b402862e2a48)
+		(property "Reference" "TP506"
+			(at 363.22 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_D2"
+			(at 363.22 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 355.6 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP506")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 93692d62-3be8-434b-a051-ef9f8cb8bf85)
+		)
+	)
+	(wire
+		(pts
+			(xy 422.91 360.68)
+			(xy 416.56 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid aad3c4e5-0aec-485e-96b6-78b075cb5771)
+	)
+	(global_label "SDMMC1_D3"
+		(shape bidirectional)
+		(at 416.56 360.68 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 62deb550-c7ba-4f5c-a5cd-7cc5124fb604)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 416.56 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP0p6")
+		(at 426.72 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid a1116e82-a0ed-4f3b-8c4f-a0d0788880c2)
+		(property "Reference" "TP507"
+			(at 434.34 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDMMC1_D3"
+			(at 434.34 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP0p6_Inline_NoPaste"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D high-speed testpoint policy"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP0p6"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0.6mm inline probe"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 426.72 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP507")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid b93d2216-4bce-4077-aff0-52e5bd2595a1)
+		)
+	)
+	(wire
+		(pts
+			(xy 494.03 360.68)
+			(xy 487.68 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 47474e6d-b5dd-49ad-968a-fd39d71dd5e7)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 487.68 360.68 180)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 4f648457-bf2f-43b9-9617-2a5d60a0530a)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.68 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:TP1p5")
+		(at 497.84 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid d7457b3a-15d3-46a0-89f0-18e565ba3e7e)
+		(property "Reference" "TP508"
+			(at 505.46 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 505.46 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X100_Physical:TP1p5_NoPaste"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C/D testpoint policy"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "X100 PCB feature"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TP1p5"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1.5mm top probe"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 497.84 360.68 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "TP508")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid a2ecfd6e-6375-44f8-9dce-969dd59fac22)
+		)
+	)
+	(wire
+		(pts
+			(xy 487.68 251.46)
+			(xy 487.68 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid ca53870a-090f-4d0d-84b7-b392787f3950)
+	)
+	(global_label "3V3_SD"
+		(shape bidirectional)
+		(at 487.68 257.81 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 70716354-64b1-4eb8-a9ac-04604e32a6f7)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.68 257.81 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X100_Physical:PWR_FLAG")
+		(at 487.68 251.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid a1c59b60-158d-414f-8813-059fa7bee38c)
+		(property "Reference" "#FLG501"
+			(at 495.3 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 495.3 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Internal: explicit power conveyed through passive rails"
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KiCad logical"
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PWR_FLAG"
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "not populated"
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Procurement Policy" "EXACT_MPN_FROZEN"
+			(at 487.68 251.46 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "X100_CleanSheet"
+				(path "/8ca41881-cb11-48b5-8b6a-9e8c99402ac3/86b40a3f-53b4-41c8-af1e-fcfc299cc633"
+					(reference "#FLG501")
+					(unit 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid 01da27dd-ae42-4ea6-bda3-c80662e2b741)
+		)
+	)
+	(hierarchical_label "3V3_MCU"
+		(shape bidirectional)
+		(at 115.57 325.12 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid efecd94a-12ce-4abc-859d-16b128b07a7b)
+	)
+	(wire
+		(pts
+			(xy 115.57 325.12)
+			(xy 140.97 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 948cf55f-4d71-49f6-83ba-5d65dd7fa41f)
+	)
+	(global_label "3V3_MCU"
+		(shape bidirectional)
+		(at 140.97 325.12 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid efa7ea71-94cd-4929-bf3a-e925407bb4b4)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 325.12 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 115.57 328.93 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 11f41681-6631-4738-8427-dec952b95579)
+	)
+	(wire
+		(pts
+			(xy 115.57 328.93)
+			(xy 140.97 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 316dd6e5-55d1-4380-9115-9eddb99c442a)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 140.97 328.93 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 51e4f613-220f-48f9-9b00-4e537a694bcc)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 328.93 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_CK"
+		(shape bidirectional)
+		(at 27.94 325.12 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 9e52ff63-2e1d-44e6-b407-7e5913ea3935)
+	)
+	(wire
+		(pts
+			(xy 27.94 325.12)
+			(xy 53.34 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 3bd0dddd-f6b6-41ee-af73-d58887ae2707)
+	)
+	(global_label "SDMMC1_CK"
+		(shape bidirectional)
+		(at 53.34 325.12 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 731f400a-9a87-400f-a5db-6f2db25cecb6)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 325.12 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_D0"
+		(shape bidirectional)
+		(at 27.94 328.93 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid ca0be224-4a56-4931-9a51-830851a53acf)
+	)
+	(wire
+		(pts
+			(xy 27.94 328.93)
+			(xy 53.34 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid fb17795b-f753-4b7a-b06a-5a58742e7806)
+	)
+	(global_label "SDMMC1_D0"
+		(shape bidirectional)
+		(at 53.34 328.93 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 71720a49-3e06-4b3a-b62d-6f474bf9e8d4)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 328.93 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_D1"
+		(shape bidirectional)
+		(at 27.94 332.74 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 0416981b-6345-4d0e-a336-13ca2105870f)
+	)
+	(wire
+		(pts
+			(xy 27.94 332.74)
+			(xy 53.34 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 1be29691-f7f7-4b6d-980b-de48c5da1fcd)
+	)
+	(global_label "SDMMC1_D1"
+		(shape bidirectional)
+		(at 53.34 332.74 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 0e65f270-2acc-4039-999e-57d9568fb2aa)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 332.74 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_D2"
+		(shape bidirectional)
+		(at 27.94 336.55 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 94e77cc5-3e82-453d-b0c5-856b5f78a5ed)
+	)
+	(wire
+		(pts
+			(xy 27.94 336.55)
+			(xy 53.34 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 7566f62b-f9e2-4fbb-9585-bd55ff00ade7)
+	)
+	(global_label "SDMMC1_D2"
+		(shape bidirectional)
+		(at 53.34 336.55 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid efa73caa-b6ac-4b2a-ab3d-070bb5b74720)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 336.55 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_D3"
+		(shape bidirectional)
+		(at 27.94 340.36 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid 0c0c950a-9d42-4b5b-88ab-ed4729cb3130)
+	)
+	(wire
+		(pts
+			(xy 27.94 340.36)
+			(xy 53.34 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid d35f9780-f2a5-4d07-b8a8-b363daffc27c)
+	)
+	(global_label "SDMMC1_D3"
+		(shape bidirectional)
+		(at 53.34 340.36 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid 834a931e-a9f3-4476-9ef0-00da070b6a82)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 340.36 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 27.94 344.17 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+		)
+		(uuid fe9cbfbf-0386-4140-8586-7a0a426fa529)
+	)
+	(wire
+		(pts
+			(xy 27.94 344.17)
+			(xy 53.34 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid 4bbb2549-5189-418c-a7c9-852a58e9afc4)
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 53.34 344.17 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+		)
+		(uuid ce86fbf9-7a85-4184-b8c7-66cf307f430f)
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 344.17 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+
+	(text "05 microSD数据存储 / MICROSD STORAGE"
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7d991fc3-39e8-4cf2-9a04-bdc2b9c90357")
+	)
+	(rectangle
+		(start 18 36)
+		(end 572 181)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23574e17-2f03-4c13-bd95-f7792ca0de84")
+	)
+	(text "microSD 接口与信号上拉 / MICROSD AND SDMMC PULLUPS"
+		(at 23 42 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "06ef1ec8-977c-412a-b6fc-633c552676da")
+	)
+	(rectangle
+		(start 18 191)
+		(end 572 302)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "02b3863d-425f-456c-8980-94f066b34218")
+	)
+	(text "本地供电与去耦 / LOCAL POWER AND DECOUPLING"
+		(at 23 197 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b0f96051-b987-4b08-b7f0-da88bea4ea73")
+	)
+	(text "STM32 SDMMC1 ↔ microSD · 3.3V / 4-bit"
+		(at 25 291 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left)
+		)
+		(uuid "8bfb5524-2186-453f-b824-b095d0a065a3")
+	)
+	(text "SDMMC / SIGNALS"
+		(at 27.94 317.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0973afb8-ee78-4a52-84a3-760dbccbca6b")
+	)
+	(text "POWER / GND"
+		(at 115.57 317.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "664869a7-ba91-40e1-a264-b84b33f9af01")
+	)
+	(junction
+		(at 220.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2894a24-4ee2-4927-95f1-d0953eba20ca")
+	)
+	(junction
+		(at 220.98 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc12e41d-f913-4893-8a80-4ed2b8337433")
+	)
+	(junction
+		(at 220.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86034c8e-5c3b-4841-b908-945d0a9769b1")
+	)
+	(junction
+		(at 240.03 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f01ea2b1-e4d9-4aa4-a37d-44633ca99968")
+	)
+	(junction
+		(at 354.33 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75506ba-a2d8-4de4-a141-89a6df39019b")
+	)
+	(junction
+		(at 367.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f462fa8c-11ed-4709-90c4-1ae04b0218ea")
+	)
+	(junction
+		(at 87.63 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b66257-37b2-4603-982b-c6325db75a14")
+	)
+	(junction
+		(at 226.06 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92eaf3c3-095b-4e50-ae1a-de1f29289350")
+	)
+	(junction
+		(at 240.03 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1642215-fb1a-4da3-bbef-dd8a667ae6af")
+	)
+	(junction
+		(at 226.06 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f0bd3f-8708-4a0f-bc5c-3d24c75f9a24")
+	)
+	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635e6696-879c-4798-a543-7d0d8a65c372")
+	)
+	(junction
+		(at 220.98 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c5d70f-208f-4b2a-babd-ae8d0209f24d")
+	)
+	(junction
+		(at 367.03 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9335ec18-0e60-46e0-9c69-85e938e3b61d")
+	)
+	(junction
+		(at 487.68 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36186b4f-dcc4-4d41-8c1c-d999486daa27")
+	)
+	(junction
+		(at 220.98 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62a9c39a-eafb-492b-96dd-d11d1e6ade5b")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ce74ae-84e4-4a4e-9d2b-33509a9979fb")
+	)
+	(junction
+		(at 367.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354534f1-90cf-44a9-a6f8-2c95b41019c5")
+	)
+	(junction
+		(at 367.03 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e0c3a1d-e4fa-4ce5-9a15-a5a7151a2cd0")
+	)
+	(junction
+		(at 355.6 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9c33705-79fc-4dac-896e-ef868b32367b")
+	)
+	(junction
+		(at 355.6 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30b7d1a0-1f48-4ac2-a568-75a759f7e1d7")
+	)
+	(junction
+		(at 367.03 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad093bdb-43e4-44ff-81b3-8c5403fe38fc")
+	)
+	(junction
+		(at 240.03 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0385bf-fda8-457b-9720-2586ba555b00")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57)
+			(xy 367.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1135fb35-f04a-45ec-863c-c64e7d7071eb")
+	)
+	(wire
+		(pts
+			(xy 240.03 102.87)
+			(xy 367.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96c6841-670f-4ec5-bbd5-87d30b6a20a1")
+	)
+	(wire
+		(pts
+			(xy 87.63 236.22)
+			(xy 226.06 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d81082-0568-4276-9e27-f580e839890a")
+	)
+	(wire
+		(pts
+			(xy 354.33 256.54)
+			(xy 487.68 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e0e2a0-431f-4fe4-a104-05069e8f0564")
+	)
+	(wire
+		(pts
+			(xy 227.33 259.08)
+			(xy 488.95 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d97c87-917a-40c0-8278-9ee5075dcbf0")
+	)
+	(wire
+		(pts
+			(xy 355.6 254)
+			(xy 486.41 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2a0881-308b-41fa-ba56-b19c781ddbe9")
+	)
+	(wire
+		(pts
+			(xy 240.03 113.03)
+			(xy 367.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f594eef-c0cc-4bfd-873a-de97c3f85f90")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79)
+			(xy 367.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e116c529-78d3-431e-a729-46658f7ad6d2")
+	)
+	(wire
+		(pts
+			(xy 220.98 102.87)
+			(xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757e8b4c-a9c7-435a-855c-0f70a3e70e46")
+	)
+	(wire
+		(pts
+			(xy 226.06 236.22)
+			(xy 354.33 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14402c12-a54d-4999-aedb-da06ee6aa10a")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33)
+			(xy 367.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9ffd37-076a-462e-b4ae-236c269b0add")
+	)
+	(wire
+		(pts
+			(xy 87.63 236.22)
+			(xy 87.63 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6d6e76-f17a-4e84-a279-8cf11845e258")
+	)
+	(wire
+		(pts
+			(xy 220.98 100.33)
+			(xy 220.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa8d862-00d8-447a-b7b3-7583786492ae")
+	)
+	(wire
+		(pts
+			(xy 354.33 236.22)
+			(xy 354.33 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb6838c-c1d6-4116-a06a-aaf012c4f92d")
+	)
+	(wire
+		(pts
+			(xy 486.41 250.19)
+			(xy 486.41 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2497cbb4-9c97-4ff2-b8da-8f9fb18505a8")
+	)
+	(wire
+		(pts
+			(xy 488.95 250.19)
+			(xy 488.95 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820c049c-5dd7-4df2-ba7c-c73726b32bd5")
+	)
+	(wire
+		(pts
+			(xy 220.98 113.03)
+			(xy 220.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71ea60b-42b4-433b-b971-48ad045eb105")
+	)
+	(wire
+		(pts
+			(xy 227.33 254)
+			(xy 227.33 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07747905-268a-4c8d-93f0-879a17d07da9")
+	)
+	(wire
+		(pts
+			(xy 220.98 97.79)
+			(xy 220.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c2b7ad-93d5-40ad-9681-c873edc91276")
+	)
+	(wire
+		(pts
+			(xy 226.06 254)
+			(xy 227.33 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79a257f-8f09-470c-a22c-01446f270d8d")
+	)
+	(wire
+		(pts
+			(xy 354.33 236.22)
+			(xy 355.6 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6066d5-14c1-4099-8344-9b03cdf2f3ca")
+	)
+	(wire
+		(pts
+			(xy 486.41 250.19)
+			(xy 488.95 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30935f6-f28d-4ee3-aed5-00550a1f3e9f")
+	)
+)

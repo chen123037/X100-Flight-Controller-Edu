@@ -1,0 +1,23 @@
+{
+  "moves": {
+    "C102": {
+      "x": 99.45,
+      "y": 105.5,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "C121": {
+      "x": 105.2,
+      "y": 104.8,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "L101": {
+      "x": 114.6,
+      "y": 99.4,
+      "rotation": 0,
+      "layer": "B.Cu"
+    }
+  },
+  "reason": "Open MAIN_EN escape from U101.3: C102 left land97.05->97.40, exit0.225->0.575mm for0.15mm signal plus0.20mm each side. C101/C106 local bypass preserved. C121 and L101 each shift0.35mm to retain assembly clearances. Existing copper still lands within moved power pads."
+}

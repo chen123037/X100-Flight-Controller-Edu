@@ -1,0 +1,92 @@
+(version 1)
+
+# Absolute floors permit the approved local case only. These rules preserve
+# every other copper clearance, via diameter and drill requirement explicitly.
+(rule "GLOBAL_CLEARANCE_RETAIN_0p20"
+ (constraint clearance (min 0.20mm)))
+(rule "GLOBAL_HOLE_RETAIN_0p30"
+ (constraint hole_size (min 0.30mm)))
+(rule "GLOBAL_VIA_RETAIN_0p60"
+ (condition "A.Type == 'Via'")
+ (constraint via_diameter (min 0.60mm)))
+
+# PCB02C: no global electrical/hole/edge reduction and no blanket exclusions.
+(rule "USB_FS_OFFICIAL_JLC3313_GEOMETRY"
+ (condition "A.NetClass == 'USB_FS'")
+ (constraint track_width (min 0.1537mm) (opt 0.1537mm) (max 0.1537mm))
+ (constraint diff_pair_gap (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
+(rule "NO_VIA_IN_PAD_ALL_NETS"
+ (condition "(A.Type == 'Via' && B.Type == 'Pad') || (B.Type == 'Via' && A.Type == 'Pad')")
+ (constraint physical_clearance (min 0.02mm)))
+# Bare probe lands only: intentional full-supported 1.5mm surface testpads near left edge.
+# JLCPCB published routed-edge copper minimum .20mm; local .25mm includes .05mm design margin.
+# No bearing connector/PTH/trace/zone rule affected. Engineering spec uses precision routed outline.
+(rule "TP601_TP803_PROBE_LAND_EDGE_CASE"
+ (condition "A.Type == 'Pad' && (A.Reference == 'TP601' || A.Reference == 'TP803')")
+ (constraint edge_clearance (min 0.25mm)))
+
+(rule "PTH_FOREIGN_COPPER_FACTORY_MARGIN"
+ (condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') || (B.Type == 'Pad' && B.Pad_Type == 'Through-hole')")
+ (constraint hole_clearance (min 0.35mm)))
+(rule "STANDARD_THROUGH_ONLY_NO_HDI"
+ (constraint disallow micro_via blind_via buried_via))
+# 2026-10-27 user-authorised local layer change for D+/D- near J401: B.Cu is the mirror microstrip of F.Cu (B over In4 GND,
+# same prepreg as F over In1 by the assumed symmetric JLC 6-layer stack), so USB may use F.Cu or B.Cu; inner layers stay forbidden.
+(rule "USB_MODEL_F_OR_B_CU_ONLY"
+ (condition "A.NetClass == 'USB_FS' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
+ (constraint disallow track))
+(rule "IN1_CONTINUOUS_GND_NO_SIGNAL_TRACKS"
+ (condition "A.Layer == 'In1.Cu' && A.NetName != 'GND'")
+ (constraint disallow track))
+(rule "MAIN_POWER_HIGH_CURRENT_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == 'MAIN_POWER_HIGH_CURRENT' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 8.3mm) (opt 8.3mm)))
+(rule "5V_POWER_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == '5V_POWER' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 8.3mm) (opt 8.3mm)))
+(rule "3V3_POWER_IN2_0p5OZ_CURRENT_SECTION"
+ (condition "A.NetClass == '3V3_POWER' && A.Layer == 'In2.Cu'")
+ (constraint track_width (min 6.75mm) (opt 6.75mm)))
+
+# Exact manufacturer SH land at the recommended board-edge datum: nominal 0.325mm.
+# JLCPCB routed-edge nominal capability is 0.20mm; keep >=0.30mm locally.
+# No signal/VBUS/other connector pad or global setting is relaxed.
+(rule "J401_AMPHENOL_OFFICIAL_SH_EDGE"
+ (condition "A.Type == 'Pad' && A.Reference == 'J401' && A.Pad_Number == 'SH' && A.NetName == 'GND'")
+ (constraint edge_clearance (min 0.30mm)))
+
+# Candidate region: copper fully bounded by X88.9..94.5, Y79.0..82.5 mm.
+# Vias use a 0.25mm radius inset; tracks use a >=0.1mm endpoint inset.
+# No component placement or footprint geometry is changed by these rules.
+(rule "J401_DATA_ESCAPE_LOCAL_CLEARANCE"
+ (condition "((A.Type == 'Via' && (A.NetName == 'USB_DP' || A.NetName == 'USB_DM') && A.Position_X >= 89.15mm && A.Position_X <= 94.25mm && A.Position_Y >= 79.25mm && A.Position_Y <= 82.25mm) || (A.Type == 'Track' && (A.NetName == 'USB_DP' || A.NetName == 'USB_DM') && A.Origin_X >= 89.0mm && A.Origin_X <= 94.4mm && A.End_X >= 89.0mm && A.End_X <= 94.4mm && A.Origin_Y >= 79.1mm && A.Origin_Y <= 82.4mm && A.End_Y >= 79.1mm && A.End_Y <= 82.4mm)) || ((B.Type == 'Via' && (B.NetName == 'USB_DP' || B.NetName == 'USB_DM') && B.Position_X >= 89.15mm && B.Position_X <= 94.25mm && B.Position_Y >= 79.25mm && B.Position_Y <= 82.25mm) || (B.Type == 'Track' && (B.NetName == 'USB_DP' || B.NetName == 'USB_DM') && B.Origin_X >= 89.0mm && B.Origin_X <= 94.4mm && B.End_X >= 89.0mm && B.End_X <= 94.4mm && B.Origin_Y >= 79.1mm && B.Origin_Y <= 82.4mm && B.End_Y >= 79.1mm && B.End_Y <= 82.4mm))")
+ (constraint clearance (min 0.127mm)))
+(rule "J401_DATA_ESCAPE_LOCAL_STANDARD_VIA"
+ (condition "(A.Type == 'Via' && (A.NetName == 'USB_DP' || A.NetName == 'USB_DM') && A.Position_X >= 89.15mm && A.Position_X <= 94.25mm && A.Position_Y >= 79.25mm && A.Position_Y <= 82.25mm)")
+ (constraint via_diameter (min 0.50mm) (opt 0.50mm) (max 0.60mm))
+ (constraint hole_size (min 0.20mm) (opt 0.20mm) (max 0.30mm)))
+
+# Explicit human authorization: isolated R105 feedback-sense candidate only.
+# Nominal divider current5V/(52.3k+10k)=80.3uA; NOT a main-load conductor.
+# Endpoint whitelist only. Existing8.3mm rule remains on everyotherIn2 5V path.
+(rule "R105_SENSE_IN2_ONLY_FOUR_AUTHORISED_SEGMENTS"
+ (condition "A.Type == 'Track' && A.NetName == '5V_MAIN' && A.Layer == 'In2.Cu' && ((A.Origin_X == 95.5625mm && A.Origin_Y == 97.4625mm && A.End_X == 97.8mm && A.End_Y == 99.7mm) || (A.Origin_X == 97.8mm && A.Origin_Y == 99.7mm && A.End_X == 95.5625mm && A.End_Y == 97.4625mm) || (A.Origin_X == 97.8mm && A.Origin_Y == 99.7mm && A.End_X == 98.8mm && A.End_Y == 99.7mm) || (A.Origin_X == 98.8mm && A.Origin_Y == 99.7mm && A.End_X == 97.8mm && A.End_Y == 99.7mm) || (A.Origin_X == 98.8mm && A.Origin_Y == 99.7mm && A.End_X == 101.5mm && A.End_Y == 102.4mm) || (A.Origin_X == 101.5mm && A.Origin_Y == 102.4mm && A.End_X == 98.8mm && A.End_Y == 99.7mm) || (A.Origin_X == 101.5mm && A.Origin_Y == 102.4mm && A.End_X == 101.5mm && A.End_Y == 104.05mm) || (A.Origin_X == 101.5mm && A.Origin_Y == 104.05mm && A.End_X == 101.5mm && A.End_Y == 102.4mm))")
+ (constraint track_width (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
+
+# Explicit human authorization: exactlytwoACC_CSordinarythroughvias only.
+# Ring0.15mm unchanged; allothernonUSBviasretain0.60/0.30mm.
+(rule "ACC_CS_ONLY_TWO_AUTHORISED_FINE_VIAS"
+ (condition "A.Type == 'Via' && A.NetName == 'BMI088_ACC_CS' && ((A.Position_X == 104.7375mm && A.Position_Y == 91.7125mm) || (A.Position_X == 106.5875mm && A.Position_Y == 90.7375mm))")
+ (constraint via_diameter (min 0.50mm) (opt 0.50mm) (max 0.50mm))
+ (constraint hole_size (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
+
+# Explicit human authorization: six exact U101.9 GND thermal vias only.
+# Filled + plated-over/capped process is mandatory; ordinary tenting is not equivalent.
+# All original no-via-in-pad restrictions remain on every other via/pad pair.
+(rule "U101_EP_ONLY_SIX_AUTHORISED_STANDARD_DIMENSIONS"
+ (condition "(A.Type == 'Via' && A.NetName == 'GND' && ((A.Position_X == 89.5mm && A.Position_Y == 99.7mm) || (A.Position_X == 90.5mm && A.Position_Y == 100.9mm) || (A.Position_X == 89.5mm && A.Position_Y == 102.1mm) || (A.Position_X == 90.5mm && A.Position_Y == 102.1mm) || (A.Position_X == 89.5mm && A.Position_Y == 103.3mm) || (A.Position_X == 90.5mm && A.Position_Y == 103.3mm)))")
+ (constraint via_diameter (min 0.60mm) (opt 0.60mm) (max 0.60mm))
+ (constraint hole_size (min 0.30mm) (opt 0.30mm) (max 0.30mm)))
+(rule "U101_EP_ONLY_SIX_AUTHORISED_FILLED_CAPPED_VIP"
+ (condition "((A.Type == 'Via' && A.NetName == 'GND' && ((A.Position_X == 89.5mm && A.Position_Y == 99.7mm) || (A.Position_X == 90.5mm && A.Position_Y == 100.9mm) || (A.Position_X == 89.5mm && A.Position_Y == 102.1mm) || (A.Position_X == 90.5mm && A.Position_Y == 102.1mm) || (A.Position_X == 89.5mm && A.Position_Y == 103.3mm) || (A.Position_X == 90.5mm && A.Position_Y == 103.3mm))) && (B.Type == 'Pad' && B.Reference == 'U101' && B.Pad_Number == '9' && B.NetName == 'GND')) || ((B.Type == 'Via' && B.NetName == 'GND' && ((B.Position_X == 89.5mm && B.Position_Y == 99.7mm) || (B.Position_X == 90.5mm && B.Position_Y == 100.9mm) || (B.Position_X == 89.5mm && B.Position_Y == 102.1mm) || (B.Position_X == 90.5mm && B.Position_Y == 102.1mm) || (B.Position_X == 89.5mm && B.Position_Y == 103.3mm) || (B.Position_X == 90.5mm && B.Position_Y == 103.3mm))) && (A.Type == 'Pad' && A.Reference == 'U101' && A.Pad_Number == '9' && A.NetName == 'GND'))")
+ (constraint physical_clearance (min 0mm)))

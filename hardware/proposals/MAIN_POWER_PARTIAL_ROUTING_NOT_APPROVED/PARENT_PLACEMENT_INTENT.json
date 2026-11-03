@@ -1,0 +1,1725 @@
+{
+  "scope": "24_PART_POWER_MODULE_WORK_CHECKPOINT;FULL241_PART_SCHEMATIC_RETAINED;NOT_FAB_READY",
+  "source_hashes": {
+    "01_POWER.kicad_sch": "ac92a52eab3624425904f93961e604be902bd18b7df1bda6693c85590fcd46b9",
+    "02_MCU.kicad_sch": "3926c9f0de0c355ac79db26dac1a836a31b4358b51e0d5bb6b0af62f2ef5c790",
+    "03_SENSORS.kicad_sch": "2c29bd9cefd57bd8b0652e316582f997f7ba0e7da7a92c9cdd5123efc446ebf8",
+    "04_USB.kicad_sch": "b7d68c5ba31c5007ff669b53c3b0d8b7255111dd9b7d61240d0a16eaad0b5b21",
+    "05_SD.kicad_sch": "c09c362c1889fea266f5e6500feeb570e35479e990832e532000019ec863e34d",
+    "06_CAN.kicad_sch": "dea08c1fba5f44b516f6acef46bd5d7b5b59f3222c294933f10eb5622afea50c",
+    "07_UART_IO.kicad_sch": "917ab35b599e6bb7e533b536df66cb090aef7551cd5715da6285414821ff4d4d",
+    "08_PWM_ADC_DEBUG.kicad_sch": "909adca0b8e77b6d9fa93eff4da012abee65bad1777c68ace2181c30a2abd9e4",
+    "09_USB_CORE_POWER.kicad_sch": "92ffc1578c272bb667eea2c8d816599ebb5f453be9e30f0fbf3668429f635caf",
+    "10_USB_STARTUP_GUARD.kicad_sch": "66d83a9061d2e014132cd4d51418e5fe6355cb9656666866bb8a650193b143a1",
+    "fp-lib-table": "683cb476f6bac22f1f5e770cf5a0bf52d59cae8fc0a1cff621fba05fdb7ca5d9",
+    "sym-lib-table": "36b26679b5f8b85e53a9adbfb97b346ad98d0b0ea89faf0b1cf7e1ea4dd5ab3a",
+    "X100_CleanSheet.kicad_dru": "67a4b77d417e273567780b9734692ebecf81d9edf97b50260fc8a6da2a2b2753",
+    "X100_CleanSheet.kicad_pcb": "22aa026982fe09b13879c86c0adfe51d7e56bafa231713af3ea9052b8174bd2f",
+    "X100_CleanSheet.kicad_pro": "05efbe906a206e8c60e262e767de5efc5348c9c188de56e3860f6d3d376161a1",
+    "X100_CleanSheet.kicad_sch": "4363f60996863842310f6a94ac33848a668c9e35ef8b19b12ba1206a501513a7",
+    "X100_Framework.kicad_sym": "15dd97aea598e36db8bdc72eca282acf09d0e7b6b58b9fd868e29cb8290bfdbf",
+    "X100_LayoutECO.kicad_sym": "73e3eb1795b5f4e28c10ac337ae7cd5440e3f67aaf6127a206f2efa821af53d1",
+    "X100_Physical.kicad_sym": "309f190859be0617947fe3b7ed493d0c6389d19a76b99c2903e7c27419bf169a",
+    "X100_PowerECO.kicad_sym": "411f170206dcf24bd68beba8edd27e75c455bd18987c0a94f1ef8ad595052980",
+    "X100_StartupECO.kicad_sym": "56d8db70843387c08fa6d95ecb2799257d6ed02c48c94c29b93d6b70412d1ca3",
+    "X100_MountingHole.pretty/MountingHole_4mm.kicad_mod": "be65b6d4da99a7f06b14a5e6112c4807fc7c21293a05b4fb347146d4e4921840",
+    "X100_Physical.pretty/Bosch_BMI088_LGA16.kicad_mod": "41504b547d8337a8fa0140a9fcc4fccfbe90bd98082f67e641c90c1a1bbd471a",
+    "X100_Physical.pretty/Bourns_SRN6045.kicad_mod": "34fb64221b7828b6fde230c08a38fe4bacaa8576a5690132afdd108b920715cb",
+    "X100_Physical.pretty/Bourns_SRP1038A_LeadFrame_NoVIP.kicad_mod": "276104491364e6b8781bba3e62590e154d6a360652ba285788950f34c94f6065",
+    "X100_Physical.pretty/Bourns_SRP1265A.kicad_mod": "f45473cf5c39f7e8bfce8f1e18314d4ab614a1e86db2427bb25dacc9b7a18025",
+    "X100_Physical.pretty/CAN_SolderJumper_2_Open_Pad1p0x1p5_NoPaste.kicad_mod": "6c6077e60729219093fa2cbea8eed8afd3ab6b96b80bf5bdf34bb7bc336d322e",
+    "X100_Physical.pretty/Goertek_SPL06_001_LGA8.kicad_mod": "13cce9b39aad3574296549bc8de7b041aa6cc8b5d336cec55586149c3c9c9a11",
+    "X100_Physical.pretty/Littelfuse1812L200_12DR.kicad_mod": "09af666ca394992e5e09912e89b0d6cec6343b489611e57f1979fad762c723b4",
+    "X100_Physical.pretty/Official_Capacitor_SMD_C_0603_1608Metric.kicad_mod": "aadf4e0abd10763596907632fab028b64dc38a452377d5fa620d980432e8c1bf",
+    "X100_Physical.pretty/Official_Capacitor_SMD_C_0805_2012Metric.kicad_mod": "eeeff7ab5f22f8631ff958be62e2c7e2c29e157dd2faf47994dc0b861f7b51af",
+    "X100_Physical.pretty/Official_Capacitor_SMD_C_1210_3225Metric.kicad_mod": "4eb4fa98bd7bcc0a43d6b500b6c37f044f3ea1bca24d3f5280baaed7351939ee",
+    "X100_Physical.pretty/Official_Connector_Card_microSD_HC_Molex_104031-0811.kicad_mod": "16dc44f9b3e16f78e57cb0143fe96e938fae52231ab8e01feaf5f21728fc6ca2",
+    "X100_Physical.pretty/Official_Connector_JST_JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.kicad_mod": "50ea5b0034d60dd7c3215fee12888d217c96d6f255f64ca0e32a1cb0042b3c55",
+    "X100_Physical.pretty/Official_Connector_JST_JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.kicad_mod": "14db53fd1cdd0163ac39a0e4e0500a7341a47d8aa5ac784554dace3c422b8b30",
+    "X100_Physical.pretty/Official_Connector_USB_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "52ed0b41a37cefa1e35ef69590d278a3fe1d209edf988f5bdf7dc06530f47676",
+    "X100_Physical.pretty/Official_Diode_SMD_D_SMB.kicad_mod": "3ac27ca95ed031edcfb1bbc0f163230e47b1eb3231aa32b96d17497671d379d2",
+    "X100_Physical.pretty/Official_Diode_SMD_D_SOD-123F.kicad_mod": "685c2b406bfaadd1af05111d2b6893f91a625e4afd15afb00bea177036c52d26",
+    "X100_Physical.pretty/Official_Fuse_Fuse_Littelfuse-NANO2-451_453.kicad_mod": "692d14bfbfca312c18fd9065e700189cea59f87277bd700b7f23967a89274fcc",
+    "X100_Physical.pretty/Official_LED_SMD_LED_0805_2012Metric.kicad_mod": "a690163af994efe69147632a760506b2acf91798cbcdcee7aeec89bfe5890474",
+    "X100_Physical.pretty/Official_Package_QFP_LQFP-100_14x14mm_P0.5mm.kicad_mod": "b8fb978910834165ee4ab8470821f628754a906c135c0a1251cefdf0271833a2",
+    "X100_Physical.pretty/Official_Package_SO_SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod": "062024e5fbc4b5542d7181229f6bfdf8b96f1136db0e8bae48cd0385cca7fae7",
+    "X100_Physical.pretty/Official_Package_SO_TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "72bdeb51155231935f226795c910c1e74f649ac01213d875876445fabb94a850",
+    "X100_Physical.pretty/Official_Package_TO_SOT_SMD_SOT-23-5.kicad_mod": "236608ea82b665eb497ea31f9a4082af83b9de3bbd618c140815f97bef3e6179",
+    "X100_Physical.pretty/Official_Package_TO_SOT_SMD_SOT-23-6.kicad_mod": "33ebc8379a9009def29d4871dfa7b360a595fc6893f94a39f38889e011bf0285",
+    "X100_Physical.pretty/Official_Package_TO_SOT_SMD_TSOT-23-6.kicad_mod": "167111c19f9d56a26972486aa601ce35ff05649e0ed3ce81e490d8d9642a3084",
+    "X100_Physical.pretty/Official_Resistor_SMD_R_0805_2012Metric.kicad_mod": "37eac152b7d45e4e4359796e4f3642e883ed5abe6a8d9420b4d150790a895af7",
+    "X100_Physical.pretty/Official_USB_C_Amphenol_124019772112A.kicad_mod": "96b98899207d64be53ebad02f09b6e9d9641cb01521d6780a475b433f05715ff",
+    "X100_Physical.pretty/Panasonic_OSCON_B6.kicad_mod": "47ea6d7f403d06dba71f818677178b00c63dba44f13a36b105e2a1f12cadbd2f",
+    "X100_Physical.pretty/Panasonic_OSCON_C6.kicad_mod": "fb380ba517445665db668aa7f48a77552e3e3bd80d8058ffa4dec676cff5575e",
+    "X100_Physical.pretty/Panasonic_OSCON_E12.kicad_mod": "fa9fc14260fd92f17a4f3692dc94f10f3622fccb3abe48d9b466e348b83344d1",
+    "X100_Physical.pretty/Samtec_TSW10207GS_1x2_P2p54.kicad_mod": "aaca430b0028f9548baf89c7b139f8e390012a8ceca15f8b310b889d990724be",
+    "X100_Physical.pretty/Samtec_TSW10507GS_1x5_P2p54.kicad_mod": "73238f84ec5d4e5473588c55f910a82a32677d145a16335192ab1008cf031516",
+    "X100_Physical.pretty/STPS8H100G_D2PAK_A_K_TabK_NoVIP.kicad_mod": "53189dec1bca26430cce15704f102558e6bc593f42d4f0ac8ba04ec5c8d7e18e",
+    "X100_Physical.pretty/Taitien_XJ_2Pad_5p5x2p0_P9p0.kicad_mod": "2ae88464b66e53b559e47377dfc0a6490fa3f1b65446ad13618d2d1a03beaeb7",
+    "X100_Physical.pretty/TCAN3414_D0008A_SOIC8.kicad_mod": "8cf968f692b21b8f742d06a8e3880ee48b4bea52a357430b64637f46a28efd6c",
+    "X100_Physical.pretty/TI_TPD2E2U06_DBZ0003A.kicad_mod": "d9f8565fac481552647ec46c8191e005a691bd8eb30b0ee091252aebd4227511",
+    "X100_Physical.pretty/TP0p6_Inline_NoPaste.kicad_mod": "5b8000f8e6e4827f10d08a2d5d5f0541c6a51df970bfa8d36f1c2c36b1b0c651",
+    "X100_Physical.pretty/TP1p5_NoPaste.kicad_mod": "6f73d2aac04baa554c9f2f27bf3e65af93b76329772f8f6a4ec9c4683e17b2b6",
+    "X100_Physical.pretty/TPS54360B_DDA0008B_NoVIP.kicad_mod": "6def4d8c1aee118e36d24ec2831357645f18556b90b5ba9021a0cc71ed0be673",
+    "X100_Physical.pretty/VBAT_PAD_PAIR_V1.kicad_mod": "62858b651214dbd5a81a9feed89eaf9a3a0f3e5baa03684a11beb88e1300574f",
+    "X100_Physical.pretty/YXC_YSX530GA_5032_2Pad_NoVIP.kicad_mod": "22ce6333c2ffe0b10e4a876fcc915346bb7630120228e59eb695c792976f22fb"
+  },
+  "moves": {
+    "D103": {
+      "x": 110.375,
+      "y": 98.875,
+      "rotation": 270,
+      "layer": "B.Cu"
+    },
+    "L101": {
+      "x": 107.0,
+      "y": 84.875,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "C105": {
+      "x": 85.875,
+      "y": 102.375,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "C108": {
+      "x": 96.25,
+      "y": 83.0,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "U101": {
+      "x": 108.25,
+      "y": 108.5,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "Q101": {
+      "x": 83.625,
+      "y": 110.0,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "D102": {
+      "x": 80.0,
+      "y": 117.875,
+      "rotation": 270,
+      "layer": "F.Cu"
+    },
+    "F101": {
+      "x": 89.125,
+      "y": 111.875,
+      "rotation": 90,
+      "layer": "F.Cu"
+    },
+    "C104": {
+      "x": 108.125,
+      "y": 109.5,
+      "rotation": 180,
+      "layer": "F.Cu"
+    },
+    "C102": {
+      "x": 116.125,
+      "y": 107.125,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "C103": {
+      "x": 112.375,
+      "y": 106.25,
+      "rotation": 0,
+      "layer": "F.Cu"
+    },
+    "C101": {
+      "x": 114.625,
+      "y": 110.375,
+      "rotation": 0,
+      "layer": "B.Cu"
+    },
+    "D101": {
+      "x": 78.75,
+      "y": 110.25,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "C109": {
+      "x": 99.0,
+      "y": 107.125,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "C110": {
+      "x": 102.5,
+      "y": 106.5,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "R105": {
+      "x": 107.0,
+      "y": 113.125,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "R107": {
+      "x": 102.375,
+      "y": 108.5,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "R104": {
+      "x": 109.625,
+      "y": 112.5,
+      "rotation": 180,
+      "layer": "B.Cu"
+    },
+    "R103": {
+      "x": 104.75,
+      "y": 110.25,
+      "rotation": 270,
+      "layer": "F.Cu"
+    },
+    "R101": {
+      "x": 78.875,
+      "y": 106.375,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "R102": {
+      "x": 99.5,
+      "y": 109.0,
+      "rotation": 180,
+      "layer": "F.Cu"
+    },
+    "R106": {
+      "x": 105.0,
+      "y": 113.125,
+      "rotation": 270,
+      "layer": "B.Cu"
+    },
+    "C106": {
+      "x": 113.0,
+      "y": 107.0,
+      "rotation": 90,
+      "layer": "B.Cu"
+    },
+    "C107": {
+      "x": 107.5,
+      "y": 106.125,
+      "rotation": 180,
+      "layer": "F.Cu"
+    },
+    "U201": {
+      "x": 100.45,
+      "y": 92.3,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R203": {
+      "x": 89.0,
+      "y": 91.0,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R201": {
+      "x": 89.0,
+      "y": 96.0,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C208": {
+      "x": 111.25,
+      "y": 102.75,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C202": {
+      "x": 110.875,
+      "y": 87.3,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C211": {
+      "x": 91.25,
+      "y": 87.8,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C210": {
+      "x": 91.25,
+      "y": 95.55,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C205": {
+      "x": 108.375,
+      "y": 100.425,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C209": {
+      "x": 90.25,
+      "y": 97.75,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C206": {
+      "x": 109.0,
+      "y": 85.3,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C203": {
+      "x": 91.25,
+      "y": 90.55,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R202": {
+      "x": 89.0,
+      "y": 88.75,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C201": {
+      "x": 105.5,
+      "y": 102.8,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "C212": {
+      "x": 90.25,
+      "y": 92.75,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C207": {
+      "x": 92.75,
+      "y": 84.55,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C111": {
+      "x": 150,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C112": {
+      "x": 170,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "C113": {
+      "x": 190,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "C114": {
+      "x": 210,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "C115": {
+      "x": 230,
+      "y": 80,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "C116": {
+      "x": 250,
+      "y": 80,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C117": {
+      "x": 270,
+      "y": 80,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "C118": {
+      "x": 290,
+      "y": 80,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C119": {
+      "x": 310,
+      "y": 80,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C120": {
+      "x": 330,
+      "y": 80,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C121": {
+      "x": 350,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C122": {
+      "x": 370,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C123": {
+      "x": 390,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C124": {
+      "x": 410,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C125": {
+      "x": 430,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C126": {
+      "x": 450,
+      "y": 80,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C128": {
+      "x": 150,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C129": {
+      "x": 170,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C130": {
+      "x": 190,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C131": {
+      "x": 210,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C132": {
+      "x": 230,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C133": {
+      "x": 250,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C134": {
+      "x": 270,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C135": {
+      "x": 290,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C136": {
+      "x": 310,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C137": {
+      "x": 330,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C401": {
+      "x": 350,
+      "y": 100,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "C402": {
+      "x": 370,
+      "y": 100,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "C501": {
+      "x": 390,
+      "y": 100,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C502": {
+      "x": 410,
+      "y": 100,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C601": {
+      "x": 430,
+      "y": 100,
+      "rotation": 270.0,
+      "layer": "B.Cu"
+    },
+    "C801": {
+      "x": 450,
+      "y": 100,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "C802": {
+      "x": 150,
+      "y": 120,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "C803": {
+      "x": 170,
+      "y": 120,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "C804": {
+      "x": 190,
+      "y": 120,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "C805": {
+      "x": 210,
+      "y": 120,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "F102": {
+      "x": 230,
+      "y": 120,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "J801": {
+      "x": 250,
+      "y": 120,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "J802": {
+      "x": 270,
+      "y": 120,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "J803": {
+      "x": 290,
+      "y": 120,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "J804": {
+      "x": 310,
+      "y": 120,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "J805": {
+      "x": 330,
+      "y": 120,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "J806": {
+      "x": 350,
+      "y": 120,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "J807": {
+      "x": 370,
+      "y": 120,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "L102": {
+      "x": 390,
+      "y": 120,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "Q102": {
+      "x": 410,
+      "y": 120,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R108": {
+      "x": 430,
+      "y": 120,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R109": {
+      "x": 450,
+      "y": 120,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R110": {
+      "x": 150,
+      "y": 140,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R111": {
+      "x": 170,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R112": {
+      "x": 190,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R113": {
+      "x": 210,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R114": {
+      "x": 230,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R115": {
+      "x": 250,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R118": {
+      "x": 270,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R204": {
+      "x": 290,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R206": {
+      "x": 310,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R207": {
+      "x": 330,
+      "y": 140,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R401": {
+      "x": 350,
+      "y": 140,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R402": {
+      "x": 370,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R403": {
+      "x": 390,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R404": {
+      "x": 410,
+      "y": 140,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R501": {
+      "x": 430,
+      "y": 140,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R502": {
+      "x": 450,
+      "y": 140,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R503": {
+      "x": 150,
+      "y": 160,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R504": {
+      "x": 170,
+      "y": 160,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R505": {
+      "x": 190,
+      "y": 160,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R506": {
+      "x": 210,
+      "y": 160,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R507": {
+      "x": 230,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R508": {
+      "x": 250,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R509": {
+      "x": 270,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R510": {
+      "x": 290,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R511": {
+      "x": 310,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R512": {
+      "x": 330,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "R601": {
+      "x": 350,
+      "y": 160,
+      "rotation": 180.0,
+      "layer": "B.Cu"
+    },
+    "R602": {
+      "x": 370,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R603": {
+      "x": 390,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R701": {
+      "x": 410,
+      "y": 160,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "R702": {
+      "x": 430,
+      "y": 160,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "R801": {
+      "x": 450,
+      "y": 160,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R802": {
+      "x": 150,
+      "y": 180,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R803": {
+      "x": 170,
+      "y": 180,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R804": {
+      "x": 190,
+      "y": 180,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R805": {
+      "x": 210,
+      "y": 180,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R806": {
+      "x": 230,
+      "y": 180,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "R807": {
+      "x": 250,
+      "y": 180,
+      "rotation": 270.0,
+      "layer": "F.Cu"
+    },
+    "R808": {
+      "x": 270,
+      "y": 180,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "R809": {
+      "x": 290,
+      "y": 180,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "R810": {
+      "x": 310,
+      "y": 180,
+      "rotation": 90.0,
+      "layer": "B.Cu"
+    },
+    "R811": {
+      "x": 330,
+      "y": 180,
+      "rotation": 180.0,
+      "layer": "F.Cu"
+    },
+    "TP101": {
+      "x": 350,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP102": {
+      "x": 370,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP103": {
+      "x": 390,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP104": {
+      "x": 410,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP105": {
+      "x": 430,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP106": {
+      "x": 450,
+      "y": 180,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP107": {
+      "x": 150,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP108": {
+      "x": 170,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP109": {
+      "x": 190,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP110": {
+      "x": 210,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP111": {
+      "x": 230,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP201": {
+      "x": 250,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP202": {
+      "x": 270,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP203": {
+      "x": 290,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP204": {
+      "x": 310,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP205": {
+      "x": 330,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP206": {
+      "x": 350,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP207": {
+      "x": 370,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP208": {
+      "x": 390,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP301": {
+      "x": 410,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP302": {
+      "x": 430,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP303": {
+      "x": 450,
+      "y": 200,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP304": {
+      "x": 150,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP305": {
+      "x": 170,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP306": {
+      "x": 190,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP307": {
+      "x": 210,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP308": {
+      "x": 230,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP309": {
+      "x": 250,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP401": {
+      "x": 270,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP402": {
+      "x": 290,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP403": {
+      "x": 310,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP404": {
+      "x": 330,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP405": {
+      "x": 350,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP501": {
+      "x": 370,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP502": {
+      "x": 390,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP503": {
+      "x": 410,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP504": {
+      "x": 430,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP505": {
+      "x": 450,
+      "y": 220,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP506": {
+      "x": 150,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP507": {
+      "x": 170,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP508": {
+      "x": 190,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP601": {
+      "x": 210,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP602": {
+      "x": 230,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP603": {
+      "x": 250,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP604": {
+      "x": 270,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP605": {
+      "x": 290,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP701": {
+      "x": 310,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP702": {
+      "x": 330,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP703": {
+      "x": 350,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP704": {
+      "x": 370,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP705": {
+      "x": 390,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP706": {
+      "x": 410,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP707": {
+      "x": 430,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP708": {
+      "x": 450,
+      "y": 240,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP709": {
+      "x": 150,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP710": {
+      "x": 170,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "TP801": {
+      "x": 190,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP802": {
+      "x": 210,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP803": {
+      "x": 230,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP804": {
+      "x": 250,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP805": {
+      "x": 270,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP806": {
+      "x": 290,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP807": {
+      "x": 310,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP808": {
+      "x": 330,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "TP809": {
+      "x": 350,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "U102": {
+      "x": 370,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "U103": {
+      "x": 390,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U104": {
+      "x": 410,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U105": {
+      "x": 430,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U106": {
+      "x": 450,
+      "y": 260,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U107": {
+      "x": 150,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U108": {
+      "x": 170,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U109": {
+      "x": 190,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U110": {
+      "x": 210,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U111": {
+      "x": 230,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U112": {
+      "x": 250,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U113": {
+      "x": 270,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U114": {
+      "x": 290,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U115": {
+      "x": 310,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    },
+    "U401": {
+      "x": 330,
+      "y": 280,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "U402": {
+      "x": 350,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "B.Cu"
+    },
+    "U403": {
+      "x": 370,
+      "y": 280,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "U404": {
+      "x": 390,
+      "y": 280,
+      "rotation": 90.0,
+      "layer": "F.Cu"
+    },
+    "U801": {
+      "x": 410,
+      "y": 280,
+      "rotation": 0.0,
+      "layer": "F.Cu"
+    }
+  },
+  "parked_refs": [
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C401",
+    "C402",
+    "C501",
+    "C502",
+    "C601",
+    "C801",
+    "C802",
+    "C803",
+    "C804",
+    "C805",
+    "F102",
+    "J801",
+    "J802",
+    "J803",
+    "J804",
+    "J805",
+    "J806",
+    "J807",
+    "L102",
+    "Q102",
+    "R108",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R118",
+    "R204",
+    "R206",
+    "R207",
+    "R401",
+    "R402",
+    "R403",
+    "R404",
+    "R501",
+    "R502",
+    "R503",
+    "R504",
+    "R505",
+    "R506",
+    "R507",
+    "R508",
+    "R509",
+    "R510",
+    "R511",
+    "R512",
+    "R601",
+    "R602",
+    "R603",
+    "R701",
+    "R702",
+    "R801",
+    "R802",
+    "R803",
+    "R804",
+    "R805",
+    "R806",
+    "R807",
+    "R808",
+    "R809",
+    "R810",
+    "R811",
+    "TP101",
+    "TP102",
+    "TP103",
+    "TP104",
+    "TP105",
+    "TP106",
+    "TP107",
+    "TP108",
+    "TP109",
+    "TP110",
+    "TP111",
+    "TP201",
+    "TP202",
+    "TP203",
+    "TP204",
+    "TP205",
+    "TP206",
+    "TP207",
+    "TP208",
+    "TP301",
+    "TP302",
+    "TP303",
+    "TP304",
+    "TP305",
+    "TP306",
+    "TP307",
+    "TP308",
+    "TP309",
+    "TP401",
+    "TP402",
+    "TP403",
+    "TP404",
+    "TP405",
+    "TP501",
+    "TP502",
+    "TP503",
+    "TP504",
+    "TP505",
+    "TP506",
+    "TP507",
+    "TP508",
+    "TP601",
+    "TP602",
+    "TP603",
+    "TP604",
+    "TP605",
+    "TP701",
+    "TP702",
+    "TP703",
+    "TP704",
+    "TP705",
+    "TP706",
+    "TP707",
+    "TP708",
+    "TP709",
+    "TP710",
+    "TP801",
+    "TP802",
+    "TP803",
+    "TP804",
+    "TP805",
+    "TP806",
+    "TP807",
+    "TP808",
+    "TP809",
+    "U102",
+    "U103",
+    "U104",
+    "U105",
+    "U106",
+    "U107",
+    "U108",
+    "U109",
+    "U110",
+    "U111",
+    "U112",
+    "U113",
+    "U114",
+    "U115",
+    "U401",
+    "U402",
+    "U403",
+    "U404",
+    "U801"
+  ],
+  "main_refs": [
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C110",
+    "D101",
+    "D102",
+    "D103",
+    "F101",
+    "L101",
+    "Q101",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "U101"
+  ],
+  "unfinished_refs": [
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C401",
+    "C402",
+    "C501",
+    "C502",
+    "C601",
+    "C801",
+    "C802",
+    "C803",
+    "C804",
+    "C805",
+    "F102",
+    "J801",
+    "J802",
+    "J803",
+    "J804",
+    "J805",
+    "J806",
+    "J807",
+    "L102",
+    "Q102",
+    "R108",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R118",
+    "R204",
+    "R206",
+    "R207",
+    "R401",
+    "R402",
+    "R403",
+    "R404",
+    "R501",
+    "R502",
+    "R503",
+    "R504",
+    "R505",
+    "R506",
+    "R507",
+    "R508",
+    "R509",
+    "R510",
+    "R511",
+    "R512",
+    "R601",
+    "R602",
+    "R603",
+    "R701",
+    "R702",
+    "R801",
+    "R802",
+    "R803",
+    "R804",
+    "R805",
+    "R806",
+    "R807",
+    "R808",
+    "R809",
+    "R810",
+    "R811",
+    "TP101",
+    "TP102",
+    "TP103",
+    "TP104",
+    "TP105",
+    "TP106",
+    "TP107",
+    "TP108",
+    "TP109",
+    "TP110",
+    "TP111",
+    "TP201",
+    "TP202",
+    "TP203",
+    "TP204",
+    "TP205",
+    "TP206",
+    "TP207",
+    "TP208",
+    "TP301",
+    "TP302",
+    "TP303",
+    "TP304",
+    "TP305",
+    "TP306",
+    "TP307",
+    "TP308",
+    "TP309",
+    "TP401",
+    "TP402",
+    "TP403",
+    "TP404",
+    "TP405",
+    "TP501",
+    "TP502",
+    "TP503",
+    "TP504",
+    "TP505",
+    "TP506",
+    "TP507",
+    "TP508",
+    "TP601",
+    "TP602",
+    "TP603",
+    "TP604",
+    "TP605",
+    "TP701",
+    "TP702",
+    "TP703",
+    "TP704",
+    "TP705",
+    "TP706",
+    "TP707",
+    "TP708",
+    "TP709",
+    "TP710",
+    "TP801",
+    "TP802",
+    "TP803",
+    "TP804",
+    "TP805",
+    "TP806",
+    "TP807",
+    "TP808",
+    "TP809",
+    "U102",
+    "U103",
+    "U104",
+    "U105",
+    "U106",
+    "U107",
+    "U108",
+    "U109",
+    "U110",
+    "U111",
+    "U112",
+    "U113",
+    "U114",
+    "U115",
+    "U401",
+    "U402",
+    "U403",
+    "U404",
+    "U801"
+  ]
+}
